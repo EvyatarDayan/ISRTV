@@ -1,0 +1,117 @@
+{
+  "slug": "the-head",
+  "title": "הראש",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head",
+  "localPoster": "images/kanbox/the-head/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "ההדלפה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-f12fa17fade5491027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_01_170325_VOD_n6ca65a/Harosh_01_170325_VOD_n6ca65a_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "f12fa17fade54910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/03/18/Harosh_01_170325_VOD2_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "על מי אפשר לסמוך?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-1a4cd2303c2c591027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_02_230325_VOD_n3df519/Harosh_02_230325_VOD_n3df519_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "1a4cd2303c2c5910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/03/23/Harosh1_02_230325_07_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "איתמר חוצה את הקווים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-ce7c64c3906e591027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_03_300325_VOD_n36fy80b/Harosh_03_300325_VOD_n36fy80b_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ce7c64c3906e5910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/03/30/Harosh_03_300325_VOD__autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "מבצע חילוץ",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-5f75bbd5ae90691026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_04_060425_VOD_n33ku5o/Harosh_04_060425_VOD_n33ku5o_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5f75bbd5ae906910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/04/06/Harosh_4_060425_VOD_vcx432_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "נקודת המפנה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-1b97051ef9f1691026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_05_150425_VOD_rtc3g5n/Harosh_05_150425_VOD_rtc3g5n_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "1b97051ef9f16910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/04/14/Harosh_05_130425_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "המלכודת",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-9a5186095834691027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_06_200425_VOD_n45fs6f/Harosh_06_200425_VOD_n45fs6f_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "9a51860958346910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/04/20/Harosh_06_200425_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "מבצע מבריק או טעות מסוכנת",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-ff1655ad0576691027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_07_170425_VOD_n6r1u4/Harosh_07_170425_VOD_n6r1u4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ff1655ad05766910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/05/05/Harosh_07_170425_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "חשודה בבית",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-ab53a973d6a9691027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_08_040525_VOD_67nu7t2/Harosh_08_040525_VOD_67nu7t2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ab53a973d6a96910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/05/05/Harosh_08_040525_Dorit_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק סיום העונה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head-s1/VOD-9fd616ea6fdb691026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Harosh/EP/Harosh_09_110525_VOD_5n67ho/Harosh_09_110525_VOD_5n67ho_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "9fd616ea6fdb6910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "0c127df765b44910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/05/11/Harosh_09_110525_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-head/s1-ep9.jpg"
+    }
+  ]
+}

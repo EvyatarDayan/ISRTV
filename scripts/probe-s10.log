@@ -1,0 +1,113 @@
+body snippet:
+ תפריט האתר
+דלג לתוכן העמוד
+קישורים תחתונים
+00:28:03
+בואו לאכול איתי - ספיישל פסח | חלק א' - טל רשבסקי
+שיתוף בטלגרם share link נפתח בכרטיסייה חדשה
+שיתוף במייל share link נפתח בכרטיסייה חדשה
+שיתוף בפייסבוק share link נפתח בכרטיסייה חדשה
+שיתוף בטוויטר share link נפתח בכרטיסייה חדשה
+שיתוף בוואטסאפ share link נפתח בכרטיסייה חדשה
+חמישה שפים מובילים נפגשים לחמש ארוחות חג מיוחדות לפסח. בליל הסדר הראשון, מארח טל רשבסקי, הידוע בכינויו "הפסטה נאצי". מה עומד מאחורי הכינוי? ואולי טל בכלל רגיש וטוב לב?
+05.04.
+title בואו לאכול איתי - ספיישל פסח | חלק א' - טל רשבסקי
+has entry false []
+unavailable false
+play-ish [
+  { tag: 'BUTTON', aria: 'ניגון', text: '', cls: 'rgpl-btn-undefined' }
+]
+button[aria-label="ניגון"] 1
+clicked button[aria-label="ניגון"]
+video 1
+click fail elementHandle.click: Timeout 2000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <i aria-hidden="true" class="rgpl-btn-play"></i> from <div class="rgpl-gui-container">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <i aria-hidden="true" class="rgpl-btn-play"></i> from <div class="rgpl-gui-container">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <i aria-hidden="true" class="rgpl-btn-play"></i> from <div class="rgpl-gui-container">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="rgpl-spinner"></div> from <div class="rgpl-gui-container">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+.rgpl-btn-undefined 1
+click fail elementHandle.click: Timeout 2000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  - retrying click action
+    - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="rgpl-spinner"></div> intercepts pointer events
+  - retrying click action
+    - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  3 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="rgpl-action-area"></div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+[class*="play"] 2
+clicked [class*="play"]
+interesting [
+  'https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=5500000&id=1',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=800000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=5500000&id=1&start=400000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=20000000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=40050000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=60110000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=80160000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=100000000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=1800000&id=9',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=1800000&id=9&start=400000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=120050000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=140110000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=160160000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=180000000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=1800000&id=9&start=20400000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=audio&bitrate=192000&id=22&start=200050000',
+  'https://n-121-6.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism?type=video&bitrate=1800000&id=9&start=40400000'
+]

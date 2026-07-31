@@ -1,0 +1,109 @@
+{
+  "slug": "haramon",
+  "title": "הרמון",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/114/",
+  "seriesId": 114,
+  "localPoster": "images/kanbox/haramon/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 1: בכורה",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2025619/",
+      "assetId": 2025619,
+      "entryId": "1_uw5gxv6h",
+      "externalId": "vod-harmon-season-01-episodes-01-full_aUW5vsBx",
+      "localImage": "images/kanbox/haramon/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/ceb073f8ce7a40e3bfa78cc1135f5c08/version/11/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 2: משפחה חדשה",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2025618/",
+      "assetId": 2025618,
+      "entryId": "1_xc3k8o8n",
+      "externalId": "vod-harmon-season-01-episodes-02-full_ypQwGNgM",
+      "localImage": "images/kanbox/haramon/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2191d66a548648b6b1cb018330b858f4/version/11/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 3: התקשורת מתגייסת",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2025620/",
+      "assetId": 2025620,
+      "entryId": "1_qwj64a2i",
+      "externalId": "vod-harmon-season-01-episodes-03-full_WOvCpADn",
+      "localImage": "images/kanbox/haramon/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/a9afd16635ae4f16a66ef3d4fb28b58e/version/11/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 4: המצלמה חושפת את ההרמון",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2025622/",
+      "assetId": 2025622,
+      "entryId": "1_986ntle5",
+      "externalId": "vod-harmon-season-01-episodes-04-full_xAmaFv78",
+      "localImage": "images/kanbox/haramon/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/3589d14d5e7f44d5ba3718e5363dfa71/version/11/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 5: בחירה גורלית",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2025617/",
+      "assetId": 2025617,
+      "entryId": "1_x4g5xtl4",
+      "externalId": "vod-harmon-season-01-episodes-05-full_quvR6tRO",
+      "localImage": "images/kanbox/haramon/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6a3e194466c94269b5217af80f3685b6/version/11/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 6: ההרמון מתחיל להתפורר?",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2015396/",
+      "assetId": 2015396,
+      "entryId": "1_kk8dkw54",
+      "externalId": "vod-harmon-season-01-episodes-06-full_BAP6nazf",
+      "localImage": "images/kanbox/haramon/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9a224070c7e049d183eb646e477ecfc8/version/11/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 7: אויבת מבפנים",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2015414/",
+      "assetId": 2015414,
+      "entryId": "1_1js0fyzo",
+      "externalId": "vod-harmon-season-01-episodes-07-full_mXxPCXB0",
+      "localImage": "images/kanbox/haramon/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/ea8e1b90946f443b8294789464e70f05/version/11/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "הרמון, עונה 1, פרק 8: כל החלקים מתחברים, פרק סיום העונה",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2015410/",
+      "assetId": 2015410,
+      "entryId": "1_ax5lpp85",
+      "externalId": "vod-harmon-season-01-episodes-08-full_9rB6Jeds",
+      "localImage": "images/kanbox/haramon/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/216ec889def54350919846a901a36705/version/11/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "ההרמון נחשף: מאחורי הקלעים של סדרת הדרמה",
+      "pageURL": "https://13tv.co.il/allshows/series/114/season/1/2015402/",
+      "assetId": 2015402,
+      "entryId": "1_5cilx4q5",
+      "externalId": "vod-harmon-season-01-episodes-behind-the-scenes-full_vebEe7TP",
+      "localImage": "images/kanbox/haramon/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/4e6a00f9ef274a388902c700632f913c/version/10/width/640/height/360"
+    }
+  ]
+}

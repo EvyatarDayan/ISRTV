@@ -1,0 +1,33 @@
+{
+  "slug": "avi-nussbaum-standup",
+  "title": "אבי נוסבאום - סטנדאפ",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/avi_nussbaum_standup-s1",
+  "localPoster": "images/kanbox/avi-nussbaum-standup/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "אבי נוסבאום - סטנד אפ ראשון",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/avi_nussbaum_standup-s1/VOD-8fa76335bbb8d61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Standup_Shows/Avi_Nusbaum/Avi_Nusbaum_01_021019_VOD_bgt96f4/Avi_Nusbaum_01_021019_VOD_bgt96f4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "8fa76335bbb8d610VgnVCM100000700a10acRCRD",
+      "makoChannelId": "d650970060c0b710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2019/10/02/Avi_Nusbaum_Stansdup_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/avi-nussbaum-standup/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אבי נוסבאום - סטנד אפ שני",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/avi_nussbaum_standup-s1/VOD-27a6f55cb51ab71027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Standup_Shows/Avi_Nusbaum/Avi_Nusbaum_02_090921_VOD_ohs23d2/Avi_Nusbaum_02_090921_VOD_ohs23d2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "27a6f55cb51ab710VgnVCM100000700a10acRCRD",
+      "makoChannelId": "d650970060c0b710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/09/06/Avi_nusbaum_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/avi-nussbaum-standup/s1-ep2.jpg"
+    }
+  ]
+}

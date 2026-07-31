@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="ISRTV — Israeli TV channels"/>
+
+    <title>ISRTV</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type="text/javascript" src="$WEBAPIS/webapis/webapis.js"></script>
+    <script src="js/lib/hls.min.js"></script>
+    <script src="js/lib/dash.all.min.js"></script>
+    <script src="js/channels.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+  <object id="av-player" type="application/avplayer"></object>
+
+  <main class="view vod-view is-active" id="view-home" data-view="home">
+    <div class="vod-hero" id="home-hero">
+      <img class="vod-hero-img" id="home-hero-img" alt="" />
+      <div class="vod-hero-fade"></div>
+    </div>
+    <div class="vod-content home-content">
+      <header class="vod-header home-brand">
+        <img class="home-logo" src="images/home-logo.png" alt="ISRTV — טלוויזיה מהבית" />
+      </header>
+      <section class="hub" id="hub" aria-label="Main menu">
+        <button type="button" class="hub-card vod-card channel" data-action="live">
+          <span class="vod-card-inner">
+            <img class="vod-card-img" id="hub-live-img" src="images/live/i24.jpg" alt="" />
+            <span class="vod-card-gradient"></span>
+            <span class="vod-card-name hub-card-label">LIVE<br><small>ערוצים חיים</small></span>
+          </span>
+        </button>
+        <button type="button" class="hub-card vod-card channel" data-action="vod">
+          <span class="vod-card-inner">
+            <img class="vod-card-img" id="hub-vod-img" src="images/vod/hub.jpg" alt="" />
+            <span class="vod-card-gradient"></span>
+            <span class="vod-card-name hub-card-label">VOD<br><small>סדרות</small></span>
+          </span>
+        </button>
+        <button type="button" class="hub-card vod-card channel" data-action="radio">
+          <span class="vod-card-inner">
+            <img class="vod-card-img" id="hub-radio-img" src="images/radio/galgalatz.png" alt="" />
+            <span class="vod-card-gradient"></span>
+            <span class="vod-card-name hub-card-label">RADIO<br><small>תחנות רדיו</small></span>
+          </span>
+        </button>
+      </section>
+
+      <section class="home-continue" id="home-continue" hidden>
+        <div class="home-continue-divider" aria-hidden="true"></div>
+        <h2 class="home-continue-title">נצפו לאחרונה</h2>
+        <div class="home-continue-row" id="home-continue-row" aria-label="Continue watching"></div>
+      </section>
+    </div>
+  </main>
+
+  <main class="view vod-view" id="view-live" data-view="live" hidden>
+    <div class="vod-hero" id="live-hero">
+      <img class="vod-hero-img" id="live-hero-img" alt="" />
+      <div class="vod-hero-fade"></div>
+    </div>
+    <div class="vod-content">
+      <header class="vod-header">
+        <h1 class="vod-title">LIVE</h1>
+      </header>
+      <section class="vod-grid" id="channels" aria-label="Live channels"></section>
+    </div>
+  </main>
+
+  <main class="view vod-view" id="view-vod" data-view="vod" hidden>
+    <div class="vod-hero" id="vod-hero">
+      <img class="vod-hero-img" id="vod-hero-img" alt="" />
+      <div class="vod-hero-fade"></div>
+    </div>
+    <div class="vod-content">
+      <header class="vod-header">
+        <h1 class="vod-title">VOD</h1>
+        <div class="vod-tabs" id="vod-tabs" role="tablist" aria-label="VOD providers">
+          <button type="button" class="vod-tab is-active" id="vod-tab-kan" role="tab" data-action="vod-tab" data-vod-tab="kan" aria-selected="true">כאן 11</button>
+          <button type="button" class="vod-tab" id="vod-tab-n12" role="tab" data-action="vod-tab" data-vod-tab="n12" aria-selected="false">N12</button>
+          <button type="button" class="vod-tab" id="vod-tab-r13" role="tab" data-action="vod-tab" data-vod-tab="r13" aria-selected="false">רשת 13</button>
+        </div>
+        <div class="vod-search" id="vod-search">
+          <input
+            type="text"
+            class="vod-search-input"
+            id="vod-search-input"
+            placeholder="חיפוש"
+            autocomplete="off"
+            spellcheck="false"
+            readonly
+            inputmode="none"
+            data-action="vod-search"
+          />
+          <button type="button" class="vod-search-clear" id="vod-search-clear" data-action="vod-search-clear" aria-label="Clear search" title="Clear">×</button>
+        </div>
+      </header>
+      <section class="vod-grid" id="series-list" aria-label="Series"></section>
+    </div>
+  </main>
+
+  <div class="vod-ime" id="vod-ime" hidden>
+    <div class="vod-ime-backdrop" data-action="vod-ime-done"></div>
+    <div class="vod-ime-panel" role="group" aria-label="Hebrew keyboard">
+      <div class="vod-ime-preview" id="vod-ime-preview" dir="rtl"></div>
+      <div class="vod-ime-keys" id="vod-ime-keys"></div>
+    </div>
+  </div>
+
+  <main class="view radio-view" id="view-radio" data-view="radio" hidden>
+    <header class="radio-header">
+      <h1 class="radio-heading">RADIO</h1>
+    </header>
+    <div class="radio-now" id="radio-now" aria-live="polite">
+      <div class="radio-now-visual" id="radio-now-visual" data-accent="#6bb3ff">
+        <div class="radio-eq is-idle" id="radio-eq" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="radio-now-meta">
+        <p class="radio-now-line" id="radio-now-title">Choose station</p>
+        <p class="radio-now-status" id="radio-now-status"></p>
+      </div>
+    </div>
+    <div class="radio-content">
+      <section class="radio-grid" id="radio-list" aria-label="Radio stations"></section>
+    </div>
+    <audio id="radio-audio" preload="none"></audio>
+  </main>
+
+  <main class="view vod-view" id="view-series" data-view="series" hidden>
+    <div class="vod-hero" id="series-hero">
+      <img class="vod-hero-img" id="series-hero-img" alt="" />
+      <div class="vod-hero-fade"></div>
+    </div>
+    <div class="vod-content">
+      <header class="vod-header">
+        <h1 class="vod-title" id="series-title">Series</h1>
+        <div class="vod-search vod-season-wrap" id="series-season-wrap">
+          <button
+            type="button"
+            class="vod-search-input vod-season-trigger"
+            id="series-season-trigger"
+            data-action="series-season"
+            aria-haspopup="listbox"
+            aria-expanded="false"
+            aria-label="Season"
+          >
+            <span id="series-season-label">הכל</span>
+          </button>
+          <span class="vod-season-chevron" aria-hidden="true"></span>
+          <div class="vod-season-menu" id="series-season-menu" role="listbox" hidden></div>
+        </div>
+      </header>
+      <section class="vod-grid" id="episodes-list" aria-label="Episodes"></section>
+    </div>
+  </main>
+
+  <div class="player" id="player" hidden>
+    <video class="player-video" id="player-video" playsinline></video>
+    <div class="player-spinner" id="player-spinner" hidden aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
+    <p class="player-message" id="player-message" hidden></p>
+    <p class="player-hint" id="player-hint">Press Return to go back</p>
+
+    <div class="vod-controls" id="vod-controls" hidden>
+      <div class="vod-controls-meta">
+        <span class="vod-episode-label" id="vod-episode-label" hidden></span>
+        <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>לפרק הבא</button>
+      </div>
+      <div class="vod-controls-inner">
+        <button type="button" class="vod-btn" id="vod-playpause" aria-label="Play/Pause">
+          <svg class="vod-btn-icon vod-btn-icon-pause" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="5" y="4" width="5" height="16" rx="1.5"/>
+            <rect x="14" y="4" width="5" height="16" rx="1.5"/>
+          </svg>
+          <svg class="vod-btn-icon vod-btn-icon-play" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 4.5v15l13-7.5z"/>
+          </svg>
+        </button>
+        <span class="vod-time" id="vod-time-current">00:00</span>
+        <input class="vod-seek" id="vod-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"/>
+        <span class="vod-time" id="vod-time-duration">00:00</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

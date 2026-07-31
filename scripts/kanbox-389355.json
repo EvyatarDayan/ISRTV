@@ -1,0 +1,73 @@
+{
+  "seriesId": "389355",
+  "slug": "series-389355",
+  "title": "שישה אפסים  .כאן 11",
+  "poster": "https://www.kan.org.il/media/lsjl52os/7_share-image_1200x630.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-389355/",
+  "episodes": [
+    {
+      "id": "series-389355-ep1",
+      "ep": 1,
+      "name": "פרק 1 - מפגש ראשון",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/390646/",
+      "imageURL": "https://www.kan.org.il/media/dlxlglpy/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.40934782811446596,0.4857412270104323&width=490&height=272&v=1d99d4985129020",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_q2ybozkc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep2",
+      "ep": 2,
+      "name": "פרק 2 - מפגש שני",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/390647/",
+      "imageURL": "https://www.kan.org.il/media/rhhlhnq2/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1d99d49d1ff8e60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_g5llko7f/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep3",
+      "ep": 3,
+      "name": "פרק 3 - מפגש שלישי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/402602/",
+      "imageURL": "https://www.kan.org.il/media/awfnvpgk/%D7%A9.jpg?rxy=0.3436953500235958,0.30864018160297957&width=490&height=272&v=1d9a8e56f1eb1c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_zq684ivr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep4",
+      "ep": 4,
+      "name": "פרק 4 - מפגש רביעי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/409377/",
+      "imageURL": "https://www.kan.org.il/media/f12ad3ic/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.17792356955771813,0.21598690561823275&width=490&height=272&v=1d9a8e514b8c1d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_lpk0zvun/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep5",
+      "ep": 5,
+      "name": "פרק 5 - מפגש חמישי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/417699/",
+      "imageURL": "https://www.kan.org.il/media/2gvfe4lj/s0386204_100_14_36_09still002.jpg?rxy=0.5164585659799209,0.36580292618363697&width=490&height=272&v=1da5e27d42e71c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_l30zd0ir/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep6",
+      "ep": 6,
+      "name": "פרק 6 - מפגש שישי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/417702/",
+      "imageURL": "https://www.kan.org.il/media/z12dxxvu/vlcsnap-2023-06-27-12h07m46s584.jpg?rxy=0.3219542178489159,0.5095165706777409&width=490&height=272&v=1da5e27d61fe180",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_83i2k0qs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep7",
+      "ep": 7,
+      "name": "פרק 7 - מפגש שביעי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/443013/",
+      "imageURL": "https://www.kan.org.il/media/da2phtba/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dad901a7a5b320",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_dsk8tgf5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-389355-ep8",
+      "ep": 8,
+      "name": "פרק 8 - מפגש שמיני ואחרון",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-389355/s1/443017/",
+      "imageURL": "https://www.kan.org.il/media/apfj3thi/%D7%A9%D7%99%D7%A9%D7%94.jpg?width=490&height=272&v=1dad908c45a50f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_v5xmz0jh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "amammiot",
+  "title": "עממיות",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/210/",
+  "seriesId": 210,
+  "localPoster": "images/kanbox/amammiot/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 1: שונטל מאחורייך",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026328/",
+      "assetId": 2026328,
+      "entryId": "1_ek3b4fkx",
+      "externalId": "amamyot_s01_e01_full",
+      "localImage": "images/kanbox/amammiot/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/68f7f1dc27344fb08a404e120d2af6aa/version/12/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 2: המוכרת מאדריאן נטורל",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026329/",
+      "assetId": 2026329,
+      "entryId": "1_cg7o991h",
+      "externalId": "amamyot_s01_e02_full",
+      "localImage": "images/kanbox/amammiot/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/60ac136693df4853a1d61496977a8797/version/11/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 3: Hello",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026327/",
+      "assetId": 2026327,
+      "entryId": "1_7ec23q6c",
+      "externalId": "amamyot_s01_e03_full",
+      "localImage": "images/kanbox/amammiot/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/480ee75bcea846e39b067af9c1cdc2c1/version/11/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "עממיות, פרק 4 : אילת זה אילת",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026331/",
+      "assetId": 2026331,
+      "entryId": "1_85ruk0n9",
+      "externalId": "amamyot_s01_e04_full",
+      "localImage": "images/kanbox/amammiot/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/13ce1c0ce02b4ebe8dd1ed559e8dffbb/version/24/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 5: האח של שונטל",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026337/",
+      "assetId": 2026337,
+      "entryId": "1_1ler00jg",
+      "externalId": "amamyot_s01_e05_full",
+      "localImage": "images/kanbox/amammiot/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/c589637612a049b4b5e50156fff94bfe/version/11/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 6: העוזרת",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026321/",
+      "assetId": 2026321,
+      "entryId": "1_cv698eq0",
+      "externalId": "amamyot_s01_e06_full",
+      "localImage": "images/kanbox/amammiot/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e8e7959eec1149069b4ac35784a4f4ed/version/11/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 7: יום האהבה",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026319/",
+      "assetId": 2026319,
+      "entryId": "1_px00aie2",
+      "externalId": "amamyot_s01_e07_full",
+      "localImage": "images/kanbox/amammiot/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/db3fb9db7150451084e1fd1f501ed8d9/version/12/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 8: הפרנסאווית",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026322/",
+      "assetId": 2026322,
+      "entryId": "1_qi189lou",
+      "externalId": "amamyot_s01_e08_full",
+      "localImage": "images/kanbox/amammiot/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2a6378de98dd49d2b94f52ce3cf01a2c/version/10/width/640/height/360"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 9: אשכנזי סופג",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026323/",
+      "assetId": 2026323,
+      "entryId": "1_0dz2idvx",
+      "externalId": "amamyot_s01_e09_full",
+      "localImage": "images/kanbox/amammiot/s1-ep9.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/8fa8a1ba35e94e708b2e51d542696d63/version/11/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 10: מודעת מדי",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026326/",
+      "assetId": 2026326,
+      "entryId": "1_f4bzi6su",
+      "externalId": "amamyot_s01_e10_full",
+      "localImage": "images/kanbox/amammiot/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/7137804501574277be68f23c1b0645e2/version/11/width/640/height/360"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 11: הפסיכולוגית",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026325/",
+      "assetId": 2026325,
+      "entryId": "1_37bnvut1",
+      "externalId": "amamyot_s01_e11_full",
+      "localImage": "images/kanbox/amammiot/s1-ep11.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6ce296d1de1c432bae6e9e22ea57043e/version/11/width/640/height/360"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "עממיות, עונה 1, פרק 12: Federer",
+      "pageURL": "https://13tv.co.il/allshows/series/210/season/1/2026324/",
+      "assetId": 2026324,
+      "entryId": "1_acn4oxky",
+      "externalId": "amamyot_s01_e12_full",
+      "localImage": "images/kanbox/amammiot/s1-ep12.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/027e60017c934b74b761b06c3bceb56d/version/11/width/640/height/360"
+    }
+  ]
+}

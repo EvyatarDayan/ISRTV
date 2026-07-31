@@ -1,0 +1,2725 @@
+{
+  "seriesId": "11843",
+  "slug": "bou-leechol-iti",
+  "title": "בואו לאכול איתי",
+  "poster": "https://www.kan.org.il/media/5hfni3ch/7_share-image_1200x630.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-11843/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88374/",
+      "imageURL": "https://www.kan.org.il/media/xqph03fe/2019-8-20-imgid-18925_b.jpeg?width=490&height=272&v=1d9754ae8349490",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mmctgjv9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep1.jpg",
+      "entryId": "1_mmctgjv9"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88377/",
+      "imageURL": "https://www.kan.org.il/media/swentvij/2019-8-20-imgid-18926_b.jpeg?width=490&height=272&v=1d9754ae937fad0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ccyr13s3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep2.jpg",
+      "entryId": "1_ccyr13s3"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88380/",
+      "imageURL": "https://www.kan.org.il/media/qazacnh4/2019-8-20-imgid-18927_b.jpeg?width=490&height=272&v=1d9754aea4bb4c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_og4qc40r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep3.jpg",
+      "entryId": "1_og4qc40r"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88383/",
+      "imageURL": "https://www.kan.org.il/media/1maeljsy/2019-8-20-imgid-18928_b.jpeg?width=490&height=272&v=1d9754aeb7edd90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ji81gky4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep4.jpg",
+      "entryId": "1_ji81gky4"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88386/",
+      "imageURL": "https://www.kan.org.il/media/vs1bk4pu/2019-8-20-imgid-18929_b.jpeg?width=490&height=272&v=1d9754aecaf9560",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kr16fb4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep5.jpg",
+      "entryId": "1_kr16fb4a"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88404/",
+      "imageURL": "https://www.kan.org.il/media/n2mjnwg0/2019-8-20-imgid-18935_b.jpeg?width=490&height=272&v=1d9754af3b27990",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6wtcuks7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep6.jpg",
+      "entryId": "1_6wtcuks7"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88407/",
+      "imageURL": "https://www.kan.org.il/media/adlbzd22/2019-8-20-imgid-18936_b.jpeg?width=490&height=272&v=1d9754af4d15710",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_083wjo8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep7.jpg",
+      "entryId": "1_083wjo8q"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88410/",
+      "imageURL": "https://www.kan.org.il/media/k1qhxbqb/2019-8-20-imgid-18937_b.jpeg?width=490&height=272&v=1d9754af6051c20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_exmvghri/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep8.jpg",
+      "entryId": "1_exmvghri"
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88413/",
+      "imageURL": "https://www.kan.org.il/media/4wnexgzz/2019-8-20-imgid-18938_b.jpeg?width=490&height=272&v=1d9754af72b2590",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_632vua1b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep9.jpg",
+      "entryId": "1_632vua1b"
+    },
+    {
+      "season": 1,
+      "ep": 10,
+      "name": "עונה 1 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88416/",
+      "imageURL": "https://www.kan.org.il/media/ddcbzv0r/2019-8-20-imgid-18943_b.jpeg?width=490&height=272&v=1d9754af85dd930",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cte9w33n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep10.jpg",
+      "entryId": "1_cte9w33n"
+    },
+    {
+      "season": 1,
+      "ep": 11,
+      "name": "עונה 1 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88419/",
+      "imageURL": "https://www.kan.org.il/media/5zzc5wof/2019-8-20-imgid-18944_b.jpeg?width=490&height=272&v=1d9754af97b3010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3q01tfp3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep11.jpg",
+      "entryId": "1_3q01tfp3"
+    },
+    {
+      "season": 1,
+      "ep": 12,
+      "name": "עונה 1 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88422/",
+      "imageURL": "https://www.kan.org.il/media/ez0o3uun/2019-8-20-imgid-18945_b.jpeg?width=490&height=272&v=1d9754afa9af7f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gx8dajj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep12.jpg",
+      "entryId": "1_gx8dajj2"
+    },
+    {
+      "season": 1,
+      "ep": 13,
+      "name": "עונה 1 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88425/",
+      "imageURL": "https://www.kan.org.il/media/dwocej2i/2019-8-20-imgid-18946_b.jpeg?width=490&height=272&v=1d9754afbc79110",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l9ajk5xp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep13.jpg",
+      "entryId": "1_l9ajk5xp"
+    },
+    {
+      "season": 1,
+      "ep": 14,
+      "name": "עונה 1 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88428/",
+      "imageURL": "https://www.kan.org.il/media/o1qbpokt/2019-8-20-imgid-18948_b.jpeg?width=490&height=272&v=1d9754afcd1ae10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tz22asxs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep14.jpg",
+      "entryId": "1_tz22asxs"
+    },
+    {
+      "season": 1,
+      "ep": 15,
+      "name": "עונה 1 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88431/",
+      "imageURL": "https://www.kan.org.il/media/blqmup5x/2019-8-20-imgid-18949_b.jpeg?width=490&height=272&v=1d9754b09229a80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yj3791jf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep15.jpg",
+      "entryId": "1_yj3791jf"
+    },
+    {
+      "season": 1,
+      "ep": 16,
+      "name": "עונה 1 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88434/",
+      "imageURL": "https://www.kan.org.il/media/wvhlbukz/2019-8-20-imgid-18950_b.jpeg?width=490&height=272&v=1d9754b0a2da1e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9trgp95j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep16.jpg",
+      "entryId": "1_9trgp95j"
+    },
+    {
+      "season": 1,
+      "ep": 17,
+      "name": "עונה 1 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88437/",
+      "imageURL": "https://www.kan.org.il/media/lhcnizvr/2019-8-20-imgid-18951_b.jpeg?width=490&height=272&v=1d9754b0b3722a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_emjef7c4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep17.jpg",
+      "entryId": "1_emjef7c4"
+    },
+    {
+      "season": 1,
+      "ep": 18,
+      "name": "עונה 1 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88440/",
+      "imageURL": "https://www.kan.org.il/media/luvkjn5o/2019-8-20-imgid-18952_b.jpeg?width=490&height=272&v=1d9754b0c304fb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uxmar41w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep18.jpg",
+      "entryId": "1_uxmar41w"
+    },
+    {
+      "season": 1,
+      "ep": 19,
+      "name": "עונה 1 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88443/",
+      "imageURL": "https://www.kan.org.il/media/lpilin5c/2019-8-20-imgid-18953_b.jpeg?width=490&height=272&v=1d9754b0d395b40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gcws7zy4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep19.jpg",
+      "entryId": "1_gcws7zy4"
+    },
+    {
+      "season": 1,
+      "ep": 20,
+      "name": "עונה 1 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88446/",
+      "imageURL": "https://www.kan.org.il/media/mlgbxdta/2019-8-20-imgid-18954_b.jpeg?width=490&height=272&v=1d9754b0e5b4600",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ooy4jk3s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep20.jpg",
+      "entryId": "1_ooy4jk3s"
+    },
+    {
+      "season": 1,
+      "ep": 21,
+      "name": "עונה 1 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88479/",
+      "imageURL": "https://www.kan.org.il/media/xduliyu5/2019-8-20-imgid-18973_b.jpeg?width=490&height=272&v=1d9754b1b3ba130",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_56oqmbqo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep21.jpg",
+      "entryId": "1_56oqmbqo"
+    },
+    {
+      "season": 1,
+      "ep": 22,
+      "name": "עונה 1 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88482/",
+      "imageURL": "https://www.kan.org.il/media/rwqfg5fq/2019-8-20-imgid-18974_b.jpeg?width=490&height=272&v=1d9754b1c777c90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zyzbt3uf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep22.jpg",
+      "entryId": "1_zyzbt3uf"
+    },
+    {
+      "season": 1,
+      "ep": 23,
+      "name": "עונה 1 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88485/",
+      "imageURL": "https://www.kan.org.il/media/lflgnhdj/2019-8-20-imgid-18975_b.jpeg?width=490&height=272&v=1d9754b1d945e40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1ronh1b4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep23.jpg",
+      "entryId": "1_1ronh1b4"
+    },
+    {
+      "season": 1,
+      "ep": 24,
+      "name": "עונה 1 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88488/",
+      "imageURL": "https://www.kan.org.il/media/s1fgua2d/2019-8-20-imgid-18976_b.jpeg?width=490&height=272&v=1d9754b1eb44d30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_67s8ve2h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep24.jpg",
+      "entryId": "1_67s8ve2h"
+    },
+    {
+      "season": 1,
+      "ep": 25,
+      "name": "עונה 1 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88491/",
+      "imageURL": "https://www.kan.org.il/media/hrobrxko/cat35491_img275356954.jpg?width=490&height=272&v=1d9754b205f8c30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_toeadf3n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep25.jpg",
+      "entryId": "1_toeadf3n"
+    },
+    {
+      "season": 1,
+      "ep": 26,
+      "name": "עונה 1 פרק 26",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88493/",
+      "imageURL": "https://www.kan.org.il/media/qcpizkll/2019-8-20-imgid-18977_b.jpeg?width=490&height=272&v=1d9754b20dd20a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p7qudjkk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep26.jpg",
+      "entryId": "1_p7qudjkk"
+    },
+    {
+      "season": 1,
+      "ep": 27,
+      "name": "עונה 1 פרק 27",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88496/",
+      "imageURL": "https://www.kan.org.il/media/1jjjn4eq/2019-8-20-imgid-18979_b.jpeg?width=490&height=272&v=1d9754b2208a850",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lkpv4tw3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep27.jpg",
+      "entryId": "1_lkpv4tw3"
+    },
+    {
+      "season": 1,
+      "ep": 28,
+      "name": "עונה 1 פרק 28",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88499/",
+      "imageURL": "https://www.kan.org.il/media/bvbfnbv5/2019-8-20-imgid-18980_b.jpeg?width=490&height=272&v=1d9754b235dff20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bu0phj87/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep28.jpg",
+      "entryId": "1_bu0phj87"
+    },
+    {
+      "season": 1,
+      "ep": 29,
+      "name": "עונה 1 פרק 29",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88502/",
+      "imageURL": "https://www.kan.org.il/media/z5ablxzn/2019-8-20-imgid-18981_b.jpeg?width=490&height=272&v=1d9754b24903d90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s8nrfpro/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep29.jpg",
+      "entryId": "1_s8nrfpro"
+    },
+    {
+      "season": 1,
+      "ep": 30,
+      "name": "עונה 1 פרק 30",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88505/",
+      "imageURL": "https://www.kan.org.il/media/rand5fys/2019-8-20-imgid-18982_b.jpeg?width=490&height=272&v=1d9754b265f0a20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5tn286g3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep30.jpg",
+      "entryId": "1_5tn286g3"
+    },
+    {
+      "season": 1,
+      "ep": 31,
+      "name": "עונה 1 פרק 31",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88449/",
+      "imageURL": "https://www.kan.org.il/media/2dzfkish/2019-8-20-imgid-18956_b.jpeg?width=490&height=272&v=1d9754b0f6efff0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_plll6kv2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep31.jpg",
+      "entryId": "1_plll6kv2"
+    },
+    {
+      "season": 1,
+      "ep": 32,
+      "name": "עונה 1 פרק 32",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88452/",
+      "imageURL": "https://www.kan.org.il/media/tquj52o5/2019-8-20-imgid-18957_b.jpeg?width=490&height=272&v=1d9754b108021d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rq9vlfro/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep32.jpg",
+      "entryId": "1_rq9vlfro"
+    },
+    {
+      "season": 1,
+      "ep": 33,
+      "name": "עונה 1 פרק 33",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88455/",
+      "imageURL": "https://www.kan.org.il/media/j0eh1u1y/2019-8-20-imgid-18958_b.jpeg?width=490&height=272&v=1d9754b11903240",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9ozgdwfv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep33.jpg",
+      "entryId": "1_9ozgdwfv"
+    },
+    {
+      "season": 1,
+      "ep": 34,
+      "name": "עונה 1 פרק 34",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88458/",
+      "imageURL": "https://www.kan.org.il/media/jrejau1o/2019-8-20-imgid-18959_b.jpeg?width=490&height=272&v=1d9754b12a96a70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_092gxgxh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep34.jpg",
+      "entryId": "1_092gxgxh"
+    },
+    {
+      "season": 1,
+      "ep": 35,
+      "name": "עונה 1 פרק 35",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88461/",
+      "imageURL": "https://www.kan.org.il/media/0t4nk5dt/2019-8-20-imgid-18960_b.jpeg?width=490&height=272&v=1d9754b13cae000",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tbsr0442/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep35.jpg",
+      "entryId": "1_tbsr0442"
+    },
+    {
+      "season": 1,
+      "ep": 36,
+      "name": "עונה 1 פרק 36",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88508/",
+      "imageURL": "https://www.kan.org.il/media/b4ufbxqq/2019-8-20-imgid-18984_b.jpeg?width=490&height=272&v=1d9754b2790ac50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mfvj41si/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep36.jpg",
+      "entryId": "1_mfvj41si"
+    },
+    {
+      "season": 1,
+      "ep": 37,
+      "name": "עונה 1 פרק 37",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88511/",
+      "imageURL": "https://www.kan.org.il/media/apxfowvd/2019-8-20-imgid-18985_b.jpeg?width=490&height=272&v=1d9754b28c16420",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gy7tl46a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep37.jpg",
+      "entryId": "1_gy7tl46a"
+    },
+    {
+      "season": 1,
+      "ep": 38,
+      "name": "עונה 1 פרק 38",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88514/",
+      "imageURL": "https://www.kan.org.il/media/5oojfyds/2019-8-20-imgid-18986_a.jpeg?width=490&height=272&v=1d9754b29faa770",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ou31bwmu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep38.jpg",
+      "entryId": "1_ou31bwmu"
+    },
+    {
+      "season": 1,
+      "ep": 39,
+      "name": "עונה 1 פרק 39",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88517/",
+      "imageURL": "https://www.kan.org.il/media/az1hxynf/2019-8-20-imgid-18987_b.jpeg?width=490&height=272&v=1d9754b2b337590",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_be2a7jnf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep39.jpg",
+      "entryId": "1_be2a7jnf"
+    },
+    {
+      "season": 1,
+      "ep": 40,
+      "name": "עונה 1 פרק 40",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88520/",
+      "imageURL": "https://www.kan.org.il/media/150eb21b/2019-8-20-imgid-18988_b.jpeg?width=490&height=272&v=1d9754b2c7fa4a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dzobvhjm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep40.jpg",
+      "entryId": "1_dzobvhjm"
+    },
+    {
+      "season": 1,
+      "ep": 41,
+      "name": "עונה 1 פרק 41",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88389/",
+      "imageURL": "https://www.kan.org.il/media/d5afhgno/2019-8-20-imgid-18930_b.jpeg?width=490&height=272&v=1d9754aedd06eb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jghrpea8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep41.jpg",
+      "entryId": "1_jghrpea8"
+    },
+    {
+      "season": 1,
+      "ep": 42,
+      "name": "עונה 1 פרק 42",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88392/",
+      "imageURL": "https://www.kan.org.il/media/qe5iobrk/2019-8-20-imgid-18931_b.jpeg?width=490&height=272&v=1d9754aef074100",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iw57wmka/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep42.jpg",
+      "entryId": "1_iw57wmka"
+    },
+    {
+      "season": 1,
+      "ep": 43,
+      "name": "עונה 1 פרק 43",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88395/",
+      "imageURL": "https://www.kan.org.il/media/5rgonc0n/2019-8-20-imgid-18932_b.jpeg?width=490&height=272&v=1d9754af02ab260",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bpoexsq6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep43.jpg",
+      "entryId": "1_bpoexsq6"
+    },
+    {
+      "season": 1,
+      "ep": 44,
+      "name": "עונה 1 פרק 44",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88398/",
+      "imageURL": "https://www.kan.org.il/media/42tpvfpm/2019-8-20-imgid-18933_b.jpeg?width=490&height=272&v=1d9754af1626f10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9e34ege2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep44.jpg",
+      "entryId": "1_9e34ege2"
+    },
+    {
+      "season": 1,
+      "ep": 45,
+      "name": "עונה 1 פרק 45",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88401/",
+      "imageURL": "https://www.kan.org.il/media/1ehbnuru/2019-8-20-imgid-18934_b.jpeg?width=490&height=272&v=1d9754af281e8d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ltg68lo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep45.jpg",
+      "entryId": "1_2ltg68lo"
+    },
+    {
+      "season": 1,
+      "ep": 46,
+      "name": "עונה 1 פרק 46",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88464/",
+      "imageURL": "https://www.kan.org.il/media/butnahgi/2019-8-20-imgid-18968_b.jpeg?width=490&height=272&v=1d9754b14f8ffc0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6sjt2qdp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep46.jpg",
+      "entryId": "1_6sjt2qdp"
+    },
+    {
+      "season": 1,
+      "ep": 47,
+      "name": "עונה 1 פרק 47",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88467/",
+      "imageURL": "https://www.kan.org.il/media/2gibursb/2019-8-20-imgid-18969_b.jpeg?width=490&height=272&v=1d9754b16248770",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zz5g4wct/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep47.jpg",
+      "entryId": "1_zz5g4wct"
+    },
+    {
+      "season": 1,
+      "ep": 48,
+      "name": "עונה 1 פרק 48",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88470/",
+      "imageURL": "https://www.kan.org.il/media/rn0hs2fl/2019-8-20-imgid-18970_b.jpeg?width=490&height=272&v=1d9754b1751bcd0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_takvrzt1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep48.jpg",
+      "entryId": "1_takvrzt1"
+    },
+    {
+      "season": 1,
+      "ep": 49,
+      "name": "עונה 1 פרק 49",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88473/",
+      "imageURL": "https://www.kan.org.il/media/qajdich4/2019-8-20-imgid-18971_b.jpeg?width=490&height=272&v=1d9754b187a3740",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_343bdijt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep49.jpg",
+      "entryId": "1_343bdijt"
+    },
+    {
+      "season": 1,
+      "ep": 50,
+      "name": "עונה 1 פרק 50",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88476/",
+      "imageURL": "https://www.kan.org.il/media/egjfnwg4/2019-8-20-imgid-18972_b.jpeg?width=490&height=272&v=1d9754b19c66650",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cmr7aqht/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep50.jpg",
+      "entryId": "1_cmr7aqht"
+    },
+    {
+      "season": 2,
+      "ep": 1,
+      "name": "עונה 2 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537480/",
+      "imageURL": "https://www.kan.org.il/media/1eljoetz/image1.jpeg?width=490&height=272&v=1dad9fa59e963d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nl9ktzkq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep1.jpg",
+      "entryId": "1_nl9ktzkq"
+    },
+    {
+      "season": 2,
+      "ep": 2,
+      "name": "עונה 2 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537483/",
+      "imageURL": "https://www.kan.org.il/media/snvbzuom/image.jpeg?width=490&height=272&v=1dad9fa550a22f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5wgai0jd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep2.jpg",
+      "entryId": "1_5wgai0jd"
+    },
+    {
+      "season": 2,
+      "ep": 3,
+      "name": "עונה 2 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537491/",
+      "imageURL": "https://www.kan.org.il/media/bf5btxgc/image.jpeg?width=490&height=272&v=1dad9fa4c0924d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_si6yg6f9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep3.jpg",
+      "entryId": "1_si6yg6f9"
+    },
+    {
+      "season": 2,
+      "ep": 4,
+      "name": "עונה 2 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537492/",
+      "imageURL": "https://www.kan.org.il/media/twvdxuo4/image.jpeg?width=490&height=272&v=1dad9fa42ace750",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sbc46bi2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep4.jpg",
+      "entryId": "1_sbc46bi2"
+    },
+    {
+      "season": 2,
+      "ep": 5,
+      "name": "עונה 2 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537520/",
+      "imageURL": "https://www.kan.org.il/media/kxhly5uv/image.jpeg?width=490&height=272&v=1dad9fa3ad044f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8lcguw3i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep5.jpg",
+      "entryId": "1_8lcguw3i"
+    },
+    {
+      "season": 2,
+      "ep": 6,
+      "name": "עונה 2 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537543/",
+      "imageURL": "https://www.kan.org.il/media/lqkfxvck/image.jpeg?width=490&height=272&v=1dad9fa310fee70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1l79dn7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep6.jpg",
+      "entryId": "1_d1l79dn7"
+    },
+    {
+      "season": 2,
+      "ep": 7,
+      "name": "עונה 2 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537547/",
+      "imageURL": "https://www.kan.org.il/media/u1foggbb/image.jpeg?width=490&height=272&v=1dad9fa29758530",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b9vttv9m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep7.jpg",
+      "entryId": "1_b9vttv9m"
+    },
+    {
+      "season": 2,
+      "ep": 8,
+      "name": "עונה 2 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537546/",
+      "imageURL": "https://www.kan.org.il/media/i0fju3pt/image.jpeg?width=490&height=272&v=1dad9fa1d3adfe0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u06tdcto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep8.jpg",
+      "entryId": "1_u06tdcto"
+    },
+    {
+      "season": 2,
+      "ep": 9,
+      "name": "עונה 2 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537545/",
+      "imageURL": "https://www.kan.org.il/media/4dif5xdi/image.jpeg?width=490&height=272&v=1dad9fa18424aa0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cdsvn9di/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep9.jpg",
+      "entryId": "1_cdsvn9di"
+    },
+    {
+      "season": 2,
+      "ep": 10,
+      "name": "עונה 2 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537544/",
+      "imageURL": "https://www.kan.org.il/media/12slceu4/image.jpeg?width=490&height=272&v=1dad9fa0f5067b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ew1cli1l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep10.jpg",
+      "entryId": "1_ew1cli1l"
+    },
+    {
+      "season": 2,
+      "ep": 11,
+      "name": "עונה 2 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537548/",
+      "imageURL": "https://www.kan.org.il/media/trlah321/image.jpeg?width=490&height=272&v=1dad9fa0488b350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7ubbcu5y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep11.jpg",
+      "entryId": "1_7ubbcu5y"
+    },
+    {
+      "season": 2,
+      "ep": 12,
+      "name": "עונה 2 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537549/",
+      "imageURL": "https://www.kan.org.il/media/hwzlovle/image.jpeg?width=490&height=272&v=1dad9f9febc7a60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zd9b3efz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep12.jpg",
+      "entryId": "1_zd9b3efz"
+    },
+    {
+      "season": 2,
+      "ep": 13,
+      "name": "עונה 2 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537550/",
+      "imageURL": "https://www.kan.org.il/media/cxxg2uoi/image.jpeg?width=490&height=272&v=1dad9f9f7195e90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_png09iqh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep13.jpg",
+      "entryId": "1_png09iqh"
+    },
+    {
+      "season": 2,
+      "ep": 14,
+      "name": "עונה 2 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537551/",
+      "imageURL": "https://www.kan.org.il/media/4ifcpsd1/image.jpeg?width=490&height=272&v=1dad9f9eaef0cf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lku3p1ff/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep14.jpg",
+      "entryId": "1_lku3p1ff"
+    },
+    {
+      "season": 2,
+      "ep": 15,
+      "name": "עונה 2 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537552/",
+      "imageURL": "https://www.kan.org.il/media/2lfhiqf1/image.jpeg?width=490&height=272&v=1dad9f9e5beecf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u1d9ikh8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep15.jpg",
+      "entryId": "1_u1d9ikh8"
+    },
+    {
+      "season": 2,
+      "ep": 16,
+      "name": "עונה 2 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537553/",
+      "imageURL": "https://www.kan.org.il/media/zlgltdra/image.jpeg?width=490&height=272&v=1dad9f9dbf60af0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t0url48p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep16.jpg",
+      "entryId": "1_t0url48p"
+    },
+    {
+      "season": 2,
+      "ep": 17,
+      "name": "עונה 2 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537554/",
+      "imageURL": "https://www.kan.org.il/media/cphnbu4b/image.jpeg?width=490&height=272&v=1dad9f9d6f44df0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8fgqvpdf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep17.jpg",
+      "entryId": "1_8fgqvpdf"
+    },
+    {
+      "season": 2,
+      "ep": 18,
+      "name": "עונה 2 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537555/",
+      "imageURL": "https://www.kan.org.il/media/l0opxhxf/image.jpeg?width=490&height=272&v=1dad9f9cce69ac0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fdnrcnie/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep18.jpg",
+      "entryId": "1_fdnrcnie"
+    },
+    {
+      "season": 2,
+      "ep": 19,
+      "name": "עונה 2 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537556/",
+      "imageURL": "https://www.kan.org.il/media/hjcdj1ur/image.jpeg?width=490&height=272&v=1dad9f9c88626d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qhyfm4k3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep19.jpg",
+      "entryId": "1_qhyfm4k3"
+    },
+    {
+      "season": 2,
+      "ep": 20,
+      "name": "עונה 2 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537557/",
+      "imageURL": "https://www.kan.org.il/media/rksaloql/image.jpeg?width=490&height=272&v=1dad9f9c254c370",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_spv8vhl9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep20.jpg",
+      "entryId": "1_spv8vhl9"
+    },
+    {
+      "season": 2,
+      "ep": 21,
+      "name": "עונה 2 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537561/",
+      "imageURL": "https://www.kan.org.il/media/kbqcosad/image1.jpeg?width=490&height=272&v=1dad9f9bb3ef380",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vmwx3zfk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep21.jpg",
+      "entryId": "1_vmwx3zfk"
+    },
+    {
+      "season": 2,
+      "ep": 22,
+      "name": "עונה 2 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537580/",
+      "imageURL": "https://www.kan.org.il/media/krcn1ghl/image.jpeg?width=490&height=272&v=1dadb5ad14e7350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ntnmd8fy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep22.jpg",
+      "entryId": "1_ntnmd8fy"
+    },
+    {
+      "season": 2,
+      "ep": 23,
+      "name": "עונה 2 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537579/",
+      "imageURL": "https://www.kan.org.il/media/spidquqf/image.jpeg?width=490&height=272&v=1dadb5ad060df00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a8dg9g5o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep23.jpg",
+      "entryId": "1_a8dg9g5o"
+    },
+    {
+      "season": 2,
+      "ep": 24,
+      "name": "עונה 2 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537578/",
+      "imageURL": "https://www.kan.org.il/media/4fkaalz5/image.jpeg?width=490&height=272&v=1dadb5accbf9c60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bb39gclh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep24.jpg",
+      "entryId": "1_bb39gclh"
+    },
+    {
+      "season": 2,
+      "ep": 25,
+      "name": "עונה 2 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537577/",
+      "imageURL": "https://www.kan.org.il/media/zvilqzoh/image.jpeg?width=490&height=272&v=1dadb5ac8d62d30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ydv27vvf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep25.jpg",
+      "entryId": "1_ydv27vvf"
+    },
+    {
+      "season": 2,
+      "ep": 26,
+      "name": "עונה 2 פרק 26",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537575/",
+      "imageURL": "https://www.kan.org.il/media/rwvfcz1t/image.jpeg?width=490&height=272&v=1dadb5ac7e20930",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c3jpugzh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep26.jpg",
+      "entryId": "1_c3jpugzh"
+    },
+    {
+      "season": 2,
+      "ep": 27,
+      "name": "עונה 2 פרק 27",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537576/",
+      "imageURL": "https://www.kan.org.il/media/fv4mlmxc/image.jpeg?width=490&height=272&v=1dadb5ac50a3110",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h345rpfi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep27.jpg",
+      "entryId": "1_h345rpfi"
+    },
+    {
+      "season": 2,
+      "ep": 28,
+      "name": "עונה 2 פרק 28",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537574/",
+      "imageURL": "https://www.kan.org.il/media/vxgcp21q/image.jpeg?width=490&height=272&v=1dadb5abf6aad70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2cjxhieu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep28.jpg",
+      "entryId": "1_2cjxhieu"
+    },
+    {
+      "season": 2,
+      "ep": 29,
+      "name": "עונה 2 פרק 29",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537573/",
+      "imageURL": "https://www.kan.org.il/media/zdyffowt/image.jpeg?width=490&height=272&v=1dadb5abe115f00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ubv25fcj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep29.jpg",
+      "entryId": "1_ubv25fcj"
+    },
+    {
+      "season": 2,
+      "ep": 30,
+      "name": "עונה 2 פרק 30",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537572/",
+      "imageURL": "https://www.kan.org.il/media/ls3pmdlk/image.jpeg?width=490&height=272&v=1dadb5ab91631b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vxz33o8h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep30.jpg",
+      "entryId": "1_vxz33o8h"
+    },
+    {
+      "season": 2,
+      "ep": 31,
+      "name": "עונה 2 פרק 31",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537562/",
+      "imageURL": "https://www.kan.org.il/media/ueof2w53/image.jpeg?width=490&height=272&v=1dadb5ab55272f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sgls6ecv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep31.jpg",
+      "entryId": "1_sgls6ecv"
+    },
+    {
+      "season": 2,
+      "ep": 32,
+      "name": "עונה 2 פרק 32",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537563/",
+      "imageURL": "https://www.kan.org.il/media/bydjye12/image.jpeg?width=490&height=272&v=1dadb5ab446cf50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5dabhxj1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep32.jpg",
+      "entryId": "1_5dabhxj1"
+    },
+    {
+      "season": 2,
+      "ep": 33,
+      "name": "עונה 2 פרק 33",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537564/",
+      "imageURL": "https://www.kan.org.il/media/zq3olhov/image.jpeg?width=490&height=272&v=1dadb5aadeab270",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5lm8rn1k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep33.jpg",
+      "entryId": "1_5lm8rn1k"
+    },
+    {
+      "season": 2,
+      "ep": 34,
+      "name": "עונה 2 פרק 34",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537565/",
+      "imageURL": "https://www.kan.org.il/media/iewpezpy/image.jpeg?width=490&height=272&v=1dadb5aabe25f50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z9qo88tx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep34.jpg",
+      "entryId": "1_z9qo88tx"
+    },
+    {
+      "season": 2,
+      "ep": 35,
+      "name": "עונה 2 פרק 35",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537571/",
+      "imageURL": "https://www.kan.org.il/media/fm5mdhje/image.jpeg?width=490&height=272&v=1dadb5aaafb0c90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j7zfvdap/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep35.jpg",
+      "entryId": "1_j7zfvdap"
+    },
+    {
+      "season": 2,
+      "ep": 36,
+      "name": "עונה 2 פרק 36",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537570/",
+      "imageURL": "https://www.kan.org.il/media/fulpfslx/image.jpeg?width=490&height=272&v=1dadb5aa835f920",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m8l2daov/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep36.jpg",
+      "entryId": "1_m8l2daov"
+    },
+    {
+      "season": 2,
+      "ep": 37,
+      "name": "עונה 2 פרק 37",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537569/",
+      "imageURL": "https://www.kan.org.il/media/m4td0kgt/image.jpeg?width=490&height=272&v=1dadb5aa4e28860",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rh7vzsa3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep37.jpg",
+      "entryId": "1_rh7vzsa3"
+    },
+    {
+      "season": 2,
+      "ep": 38,
+      "name": "עונה 2 פרק 38",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537568/",
+      "imageURL": "https://www.kan.org.il/media/25mdcbxy/image.jpeg?width=490&height=272&v=1dadb5aa042e890",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_arxwainn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep38.jpg",
+      "entryId": "1_arxwainn"
+    },
+    {
+      "season": 2,
+      "ep": 39,
+      "name": "עונה 2 פרק 39",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537567/",
+      "imageURL": "https://www.kan.org.il/media/ocdbm3rd/image1.jpeg?width=490&height=272&v=1dadb5a9c8b5ed0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2wfwws4c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep39.jpg",
+      "entryId": "1_2wfwws4c"
+    },
+    {
+      "season": 2,
+      "ep": 40,
+      "name": "עונה 2 פרק 40",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537566/",
+      "imageURL": "https://www.kan.org.il/media/m5fhax1j/image.jpeg?width=490&height=272&v=1dadb5a9b897f30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2g7dc5uw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep40.jpg",
+      "entryId": "1_2g7dc5uw"
+    },
+    {
+      "season": 2,
+      "ep": 41,
+      "name": "עונה 2 פרק 41",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537591/",
+      "imageURL": "https://www.kan.org.il/media/rbylwfts/image.jpeg?width=490&height=272&v=1dadb5a97e926f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_um3kbdws/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep41.jpg",
+      "entryId": "1_um3kbdws"
+    },
+    {
+      "season": 2,
+      "ep": 42,
+      "name": "עונה 2 פרק 42",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537601/",
+      "imageURL": "https://www.kan.org.il/media/jkbb0b5z/image.jpeg?width=490&height=272&v=1dadb5a9610bd70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z1bhmzf6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep42.jpg",
+      "entryId": "1_z1bhmzf6"
+    },
+    {
+      "season": 2,
+      "ep": 43,
+      "name": "עונה 2 פרק 43",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537600/",
+      "imageURL": "https://www.kan.org.il/media/d1fdyach/image.jpeg?width=490&height=272&v=1dadb5a92a35c10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cf2vmadk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep43.jpg",
+      "entryId": "1_cf2vmadk"
+    },
+    {
+      "season": 2,
+      "ep": 44,
+      "name": "עונה 2 פרק 44",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537599/",
+      "imageURL": "https://www.kan.org.il/media/h0ibqm5x/image.jpeg?width=490&height=272&v=1dadb5a8ea5efb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_apmmk32v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep44.jpg",
+      "entryId": "1_apmmk32v"
+    },
+    {
+      "season": 2,
+      "ep": 45,
+      "name": "עונה 2 פרק 45",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537598/",
+      "imageURL": "https://www.kan.org.il/media/u2hk4u50/image.jpeg?width=490&height=272&v=1dadb5307b74230",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_552etxtf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep45.jpg",
+      "entryId": "1_552etxtf"
+    },
+    {
+      "season": 2,
+      "ep": 46,
+      "name": "עונה 2 פרק 46",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537597/",
+      "imageURL": "https://www.kan.org.il/media/baeilmsh/image.jpeg?width=490&height=272&v=1dadb52ff0686f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8iafmvyi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep46.jpg",
+      "entryId": "1_8iafmvyi"
+    },
+    {
+      "season": 2,
+      "ep": 47,
+      "name": "עונה 2 פרק 47",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537596/",
+      "imageURL": "https://www.kan.org.il/media/hybkmykx/image.jpeg?width=490&height=272&v=1dadb52f63635c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x8znyoj5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep47.jpg",
+      "entryId": "1_x8znyoj5"
+    },
+    {
+      "season": 2,
+      "ep": 48,
+      "name": "עונה 2 פרק 48",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537592/",
+      "imageURL": "https://www.kan.org.il/media/iwcjs5o3/s0450293.jpg?width=490&height=272&v=1dadb52f1484ee0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ojdseyxh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep48.jpg",
+      "entryId": "1_ojdseyxh"
+    },
+    {
+      "season": 2,
+      "ep": 49,
+      "name": "עונה 2 פרק 49",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537595/",
+      "imageURL": "https://www.kan.org.il/media/c35pjsoj/image.jpeg?width=490&height=272&v=1dadb52e9246a50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ncgwq11m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep49.jpg",
+      "entryId": "1_ncgwq11m"
+    },
+    {
+      "season": 2,
+      "ep": 50,
+      "name": "עונה 2 פרק 50",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537593/",
+      "imageURL": "https://www.kan.org.il/media/iuzpiixt/image.jpeg?width=490&height=272&v=1dadb52dfacdca0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7ibhrisi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep50.jpg",
+      "entryId": "1_7ibhrisi"
+    },
+    {
+      "season": 3,
+      "ep": 1,
+      "name": "עונה 3 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88541/",
+      "imageURL": "https://www.kan.org.il/media/xvxluinq/2019-8-20-imgid-18993_b.jpeg?width=490&height=272&v=1d9754b39ad5c80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cmt5nln5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep1.jpg",
+      "entryId": "1_cmt5nln5"
+    },
+    {
+      "season": 3,
+      "ep": 2,
+      "name": "עונה 3 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88544/",
+      "imageURL": "https://www.kan.org.il/media/f2uk1srx/2019-8-20-imgid-18994_b.jpeg?width=490&height=272&v=1d9754b3ae42ed0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lx1zbpzw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep2.jpg",
+      "entryId": "1_lx1zbpzw"
+    },
+    {
+      "season": 3,
+      "ep": 3,
+      "name": "עונה 3 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88547/",
+      "imageURL": "https://www.kan.org.il/media/5wof0mk3/2019-8-20-imgid-18995_b.jpeg?width=490&height=272&v=1d9754b3c2cb460",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m22magtc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep3.jpg",
+      "entryId": "1_m22magtc"
+    },
+    {
+      "season": 3,
+      "ep": 4,
+      "name": "עונה 3 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88550/",
+      "imageURL": "https://www.kan.org.il/media/koopvepb/2019-8-20-imgid-18996_b.jpeg?width=490&height=272&v=1d9754b3d714250",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w2z2bggb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep4.jpg",
+      "entryId": "1_w2z2bggb"
+    },
+    {
+      "season": 3,
+      "ep": 5,
+      "name": "עונה 3 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88553/",
+      "imageURL": "https://www.kan.org.il/media/ji5jf1bx/2019-8-20-imgid-18997_b.jpeg?width=490&height=272&v=1d9754b3e9fd740",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0wu3bh5l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep5.jpg",
+      "entryId": "1_0wu3bh5l"
+    },
+    {
+      "season": 3,
+      "ep": 6,
+      "name": "עונה 3 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88556/",
+      "imageURL": "https://www.kan.org.il/media/agbplrcx/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3-%D7%A4%D7%A8%D7%A7-7.jpg?width=490&height=272&v=1dad9fb7d7ccac0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wrpao7hi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep6.jpg",
+      "entryId": "1_wrpao7hi"
+    },
+    {
+      "season": 3,
+      "ep": 7,
+      "name": "עונה 3 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88559/",
+      "imageURL": "https://www.kan.org.il/media/kngjo5e2/%D7%A4%D7%A8%D7%A7-7.jpg?width=490&height=272&v=1dad9fb7497b910",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b0nzmxqi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep7.jpg",
+      "entryId": "1_b0nzmxqi"
+    },
+    {
+      "season": 3,
+      "ep": 8,
+      "name": "עונה 3 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88562/",
+      "imageURL": "https://www.kan.org.il/media/fuojpevp/%D7%A4%D7%A8%D7%A7-8.jpg?width=490&height=272&v=1dad9fb690561b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nig386i8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep8.jpg",
+      "entryId": "1_nig386i8"
+    },
+    {
+      "season": 3,
+      "ep": 9,
+      "name": "עונה 3 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88565/",
+      "imageURL": "https://www.kan.org.il/media/clvbohux/%D7%A4%D7%A8%D7%A7-9.jpg?width=490&height=272&v=1dad9fb607f5ff0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_11r1jyq2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep9.jpg",
+      "entryId": "1_11r1jyq2"
+    },
+    {
+      "season": 3,
+      "ep": 10,
+      "name": "עונה 3 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88568/",
+      "imageURL": "https://www.kan.org.il/media/owhj3tls/%D7%A4%D7%A8%D7%A7-10.jpg?width=490&height=272&v=1dad9fb572e6d10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_omnfugkf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep10.jpg",
+      "entryId": "1_omnfugkf"
+    },
+    {
+      "season": 3,
+      "ep": 11,
+      "name": "עונה 3 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88571/",
+      "imageURL": "https://www.kan.org.il/media/v0scazeh/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3-%D7%A4%D7%A8%D7%A7-11.jpg?width=490&height=272&v=1dad9fb444f0920",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4cy9zrez/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep11.jpg",
+      "entryId": "1_4cy9zrez"
+    },
+    {
+      "season": 3,
+      "ep": 12,
+      "name": "עונה 3 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88574/",
+      "imageURL": "https://www.kan.org.il/media/0h0p2gui/%D7%A4%D7%A8%D7%A7-12-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb3dc72150",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6txad8ew/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep12.jpg",
+      "entryId": "1_6txad8ew"
+    },
+    {
+      "season": 3,
+      "ep": 13,
+      "name": "עונה 3 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88577/",
+      "imageURL": "https://www.kan.org.il/media/pzyprf4j/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3-%D7%A4%D7%A8%D7%A7-13.jpg?width=490&height=272&v=1dad9fb335750f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1nuh1i64/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep13.jpg",
+      "entryId": "1_1nuh1i64"
+    },
+    {
+      "season": 3,
+      "ep": 14,
+      "name": "עונה 3 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88580/",
+      "imageURL": "https://www.kan.org.il/media/4zhbdjr5/%D7%A4%D7%A8%D7%A7-14-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb2ba36c40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1tkhp39g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep14.jpg",
+      "entryId": "1_1tkhp39g"
+    },
+    {
+      "season": 3,
+      "ep": 15,
+      "name": "עונה 3 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88583/",
+      "imageURL": "https://www.kan.org.il/media/uwyfidvu/%D7%A4%D7%A8%D7%A7-15-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-3.jpg?width=490&height=272&v=1dad9fb23e8d0d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n29bg1cm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep15.jpg",
+      "entryId": "1_n29bg1cm"
+    },
+    {
+      "season": 3,
+      "ep": 16,
+      "name": "עונה 3 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88586/",
+      "imageURL": "https://www.kan.org.il/media/hthes2wz/%D7%A4%D7%A8%D7%A7-16-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb1986bc10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c8hxno23/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep16.jpg",
+      "entryId": "1_c8hxno23"
+    },
+    {
+      "season": 3,
+      "ep": 17,
+      "name": "עונה 3 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88589/",
+      "imageURL": "https://www.kan.org.il/media/klimrkyr/%D7%A4%D7%A8%D7%A7-17-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb0e425da0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_evc0zrrs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep17.jpg",
+      "entryId": "1_evc0zrrs"
+    },
+    {
+      "season": 3,
+      "ep": 18,
+      "name": "עונה 3 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88592/",
+      "imageURL": "https://www.kan.org.il/media/lmzhnr4j/%D7%A4%D7%A8%D7%A7-18-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb0892ad60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4528sucw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep18.jpg",
+      "entryId": "1_4528sucw"
+    },
+    {
+      "season": 3,
+      "ep": 19,
+      "name": "עונה 3 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88595/",
+      "imageURL": "https://www.kan.org.il/media/nyhgcucb/%D7%A4%D7%A8%D7%A7-19-%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-3.jpg?width=490&height=272&v=1dad9fb00b806d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l5kow3mw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep19.jpg",
+      "entryId": "1_l5kow3mw"
+    },
+    {
+      "season": 3,
+      "ep": 20,
+      "name": "עונה 3 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/105628/",
+      "imageURL": "https://www.kan.org.il/media/a0ulpssz/2019-8-20-imgid-18999_b.jpeg?width=490&height=272&v=1d9756f9c926600",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1hagrsnk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep20.jpg",
+      "entryId": "1_1hagrsnk"
+    },
+    {
+      "season": 4,
+      "ep": 1,
+      "name": "עונה 4 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660671/",
+      "imageURL": "https://www.kan.org.il/media/e3ud2paq/s0278621_100_29_03_24still002.jpg?rxy=0.350655726208009,0.32129515515678725&width=490&height=272&v=1dadb5eb083fe20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nqo3dry4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep1.jpg",
+      "entryId": "1_nqo3dry4"
+    },
+    {
+      "season": 4,
+      "ep": 2,
+      "name": "עונה 4 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660674/",
+      "imageURL": "https://www.kan.org.il/media/inwhtapg/s0278622_100_32_48_01still001.jpg?rxy=0.633770456030245,0.2978804301259532&width=490&height=272&v=1dadb5eb90f08f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk5ep4od/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep2.jpg",
+      "entryId": "1_fk5ep4od"
+    },
+    {
+      "season": 4,
+      "ep": 3,
+      "name": "עונה 4 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660680/",
+      "imageURL": "https://www.kan.org.il/media/ipvl2anz/whatsapp-image-2020-01-08-at-093138.jpeg?rxy=0.7007511268022114,0.26128512787289176&width=490&height=272&v=1dadb5ebe135e00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fzm19ha7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep3.jpg",
+      "entryId": "1_fzm19ha7"
+    },
+    {
+      "season": 4,
+      "ep": 4,
+      "name": "עונה 4 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660691/",
+      "imageURL": "https://www.kan.org.il/media/hvlmlhgw/whatsapp-image-2020-01-08-at-093149.jpeg?rxy=0.6624349341686883,0.32976178636670556&width=490&height=272&v=1dadb5eca2b6020",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ercrfdnj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep4.jpg",
+      "entryId": "1_ercrfdnj"
+    },
+    {
+      "season": 4,
+      "ep": 5,
+      "name": "עונה 4 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660699/",
+      "imageURL": "https://www.kan.org.il/media/vfnlybki/5.jpg?rxy=0.3108697880421003,0.45699140655346204&width=490&height=272&v=1dadb5ecb578410",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3cy3yguu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep5.jpg",
+      "entryId": "1_3cy3yguu"
+    },
+    {
+      "season": 4,
+      "ep": 6,
+      "name": "עונה 4 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660703/",
+      "imageURL": "https://www.kan.org.il/media/ckgpgavy/whatsapp-image-2020-01-13-at-104724.jpeg?rxy=0.2877594255420908,0.2125748502994012&width=490&height=272&v=1dadb5ecffdb390",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8pymh1kv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep6.jpg",
+      "entryId": "1_8pymh1kv"
+    },
+    {
+      "season": 4,
+      "ep": 7,
+      "name": "עונה 4 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660705/",
+      "imageURL": "https://www.kan.org.il/media/2urfg43k/7.jpg?rxy=0.2102808713613424,0.36912243507231013&width=490&height=272&v=1dadb5edb099ce0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wxtqs9o2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep7.jpg",
+      "entryId": "1_wxtqs9o2"
+    },
+    {
+      "season": 4,
+      "ep": 8,
+      "name": "עונה 4 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660707/",
+      "imageURL": "https://www.kan.org.il/media/oc1n5stw/8.jpg?rxy=0.4362218327960502,0.3831910052456706&width=490&height=272&v=1dadb5ee29e87e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s2vp4q76/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep8.jpg",
+      "entryId": "1_s2vp4q76"
+    },
+    {
+      "season": 4,
+      "ep": 9,
+      "name": "עונה 4 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660709/",
+      "imageURL": "https://www.kan.org.il/media/ynkfsemk/whatsapp-image-2020-01-30-at-084313.jpeg?rxy=0.5038402457757296,0.1676727028839705&width=490&height=272&v=1dadb5eea8e8b30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l2nsvtf6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep9.jpg",
+      "entryId": "1_l2nsvtf6"
+    },
+    {
+      "season": 4,
+      "ep": 10,
+      "name": "עונה 4 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660713/",
+      "imageURL": "https://www.kan.org.il/media/lung0yba/whatsapp-image-2020-01-30-at-084325.jpeg?rxy=0.6658269613269041,0.30170918251896994&width=490&height=272&v=1dadb5ef0168f30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_43kz2sc6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep10.jpg",
+      "entryId": "1_43kz2sc6"
+    },
+    {
+      "season": 4,
+      "ep": 11,
+      "name": "עונה 4 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660723/",
+      "imageURL": "https://www.kan.org.il/media/0tkbxnis/0c6deb0e-0efe-4322-a931-522fb22de617.jpg?rxy=0.4654223782194185,0.16344004386519886&width=490&height=272&v=1dadb5ef4072a50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hcsq8qr4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep11.jpg",
+      "entryId": "1_hcsq8qr4"
+    },
+    {
+      "season": 4,
+      "ep": 12,
+      "name": "עונה 4 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660725/",
+      "imageURL": "https://www.kan.org.il/media/owudi31x/d6a832b1-62fc-4b4f-828a-25c33a50fe03.jpg?rxy=0.7187859392969649,0.31655763014961513&width=490&height=272&v=1dadb5efb997d40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xh8yxmli/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep12.jpg",
+      "entryId": "1_xh8yxmli"
+    },
+    {
+      "season": 4,
+      "ep": 13,
+      "name": "עונה 4 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660727/",
+      "imageURL": "https://www.kan.org.il/media/r0oiahap/whatsapp-image-2020-02-13-at-094302.jpeg?rxy=0.3153337424149451,0.2957345971563981&width=490&height=272&v=1dadb5eff129e70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ak31uo7c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep13.jpg",
+      "entryId": "1_ak31uo7c"
+    },
+    {
+      "season": 4,
+      "ep": 14,
+      "name": "עונה 4 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660730/",
+      "imageURL": "https://www.kan.org.il/media/qjopgv3s/whatsapp-image-2020-02-13-at-094516.jpeg?width=490&height=272&v=1dadb5f0febab10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v8lgn1sh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep14.jpg",
+      "entryId": "1_v8lgn1sh"
+    },
+    {
+      "season": 4,
+      "ep": 15,
+      "name": "עונה 4 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660733/",
+      "imageURL": "https://www.kan.org.il/media/l3zmflvg/whatsapp-image-2020-02-19-at-093403.jpeg?width=490&height=272&v=1dadb5f12d13ed0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e37lae4y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep15.jpg",
+      "entryId": "1_e37lae4y"
+    },
+    {
+      "season": 4,
+      "ep": 16,
+      "name": "עונה 4 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660736/",
+      "imageURL": "https://www.kan.org.il/media/0behqa2z/whatsapp-image-2020-02-19-at-093422.jpeg?rxy=0.6697194712564775,0.2231511923712046&width=490&height=272&v=1dadb5f1beb4330",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fv1yr23a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep16.jpg",
+      "entryId": "1_fv1yr23a"
+    },
+    {
+      "season": 5,
+      "ep": 1,
+      "name": "עונה 5 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/",
+      "imageURL": "https://www.kan.org.il/media/vgqjl1mc/https-kanstaticazureedgenet-download-pictures-2021-7-25-imgid-57865_aa.jpeg?width=490&height=272&v=1d97a09cdf6acd0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ujm3avm0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep1.jpg",
+      "entryId": "1_ujm3avm0"
+    },
+    {
+      "season": 5,
+      "ep": 2,
+      "name": "עונה 5 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/",
+      "imageURL": "https://www.kan.org.il/media/5sihozsi/2021-7-25-imgid-57866_a.jpeg?width=490&height=272&v=1d975d158035b90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ialxn8dz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep2.jpg",
+      "entryId": "1_ialxn8dz"
+    },
+    {
+      "season": 5,
+      "ep": 3,
+      "name": "עונה 5 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
+      "imageURL": "https://www.kan.org.il/media/b2fdkw0v/2021-8-1-imgid-58316_a.jpeg?width=490&height=272&v=1d975d158f77f90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_teet87ik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep3.jpg",
+      "entryId": "1_teet87ik"
+    },
+    {
+      "season": 5,
+      "ep": 4,
+      "name": "עונה 5 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/",
+      "imageURL": "https://www.kan.org.il/media/hz5j50y5/2021-8-4-imgid-58561_b.jpeg?width=490&height=272&v=1d975d15a51df70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pq1hxou5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep4.jpg",
+      "entryId": "1_pq1hxou5"
+    },
+    {
+      "season": 5,
+      "ep": 5,
+      "name": "עונה 5 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/",
+      "imageURL": "https://www.kan.org.il/media/sf4l35vv/2021-7-25-imgid-57869_a.jpeg?width=490&height=272&v=1d975d15bb14860",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n49jttzy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep5.jpg",
+      "entryId": "1_n49jttzy"
+    },
+    {
+      "season": 5,
+      "ep": 6,
+      "name": "עונה 5 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+      "imageURL": "https://www.kan.org.il/media/lrdlwxvz/2021-8-8-imgid-58840_b.jpeg?width=490&height=272&v=1d975d1dcd48470",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pebg971m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep6.jpg",
+      "entryId": "1_pebg971m"
+    },
+    {
+      "season": 5,
+      "ep": 7,
+      "name": "עונה 5 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/",
+      "imageURL": "https://www.kan.org.il/media/ccudxyn2/2021-8-8-imgid-58844_b.jpeg?width=490&height=272&v=1d975d1de35e930",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5huhrraq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep7.jpg",
+      "entryId": "1_5huhrraq"
+    },
+    {
+      "season": 5,
+      "ep": 8,
+      "name": "עונה 5 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/",
+      "imageURL": "https://www.kan.org.il/media/4a5dcioz/2021-8-8-imgid-58845_b.jpeg?width=490&height=272&v=1d975d294e9c2f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ped8k6t8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep8.jpg",
+      "entryId": "1_ped8k6t8"
+    },
+    {
+      "season": 5,
+      "ep": 9,
+      "name": "עונה 5 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
+      "imageURL": "https://www.kan.org.il/media/3belomiy/2021-8-8-imgid-58846_b.jpeg?width=490&height=272&v=1d975d296324880",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s4ud2fhu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep9.jpg",
+      "entryId": "1_s4ud2fhu"
+    },
+    {
+      "season": 5,
+      "ep": 10,
+      "name": "עונה 5 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+      "imageURL": "https://www.kan.org.il/media/desaiuke/2021-8-8-imgid-58847_b.jpeg?width=490&height=272&v=1d975d29e531fd0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rhrkhygk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep10.jpg",
+      "entryId": "1_rhrkhygk"
+    },
+    {
+      "season": 5,
+      "ep": 11,
+      "name": "עונה 5 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/",
+      "imageURL": "https://www.kan.org.il/media/d5ipsogs/2021-8-8-imgid-58864_b.jpeg?width=490&height=272&v=1d975d3465d2900",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yulzx92m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep11.jpg",
+      "entryId": "1_yulzx92m"
+    },
+    {
+      "season": 5,
+      "ep": 12,
+      "name": "עונה 5 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134070/",
+      "imageURL": "https://www.kan.org.il/media/ooihbkiz/2021-8-16-imgid-59386_a.jpeg?width=490&height=272&v=1d975d347b47ba0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cv27ad0n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep12.jpg",
+      "entryId": "1_cv27ad0n"
+    },
+    {
+      "season": 5,
+      "ep": 13,
+      "name": "עונה 5 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134162/",
+      "imageURL": "https://www.kan.org.il/media/kedpl4eh/2021-8-10-imgid-59024_b.jpeg?width=490&height=272&v=1d975d3722ad820",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iv9a9uct/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep13.jpg",
+      "entryId": "1_iv9a9uct"
+    },
+    {
+      "season": 5,
+      "ep": 14,
+      "name": "עונה 5 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134165/",
+      "imageURL": "https://www.kan.org.il/media/0kwnslow/2021-8-10-imgid-59032_a.jpeg?width=490&height=272&v=1d975d37370ecb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_feza89mb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep14.jpg",
+      "entryId": "1_feza89mb"
+    },
+    {
+      "season": 5,
+      "ep": 15,
+      "name": "עונה 5 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
+      "imageURL": "https://www.kan.org.il/media/c21hq1ov/2021-8-19-imgid-59587_a.jpeg?width=490&height=272&v=1d975d3745e59f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oiskfjrf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep15.jpg",
+      "entryId": "1_oiskfjrf"
+    },
+    {
+      "season": 5,
+      "ep": 16,
+      "name": "עונה 5 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
+      "imageURL": "https://www.kan.org.il/media/lslbprfw/2021-8-22-imgid-59710_a.jpeg?width=490&height=272&v=1d975d3754e8650",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xzgmk0wf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep16.jpg",
+      "entryId": "1_xzgmk0wf"
+    },
+    {
+      "season": 5,
+      "ep": 17,
+      "name": "עונה 5 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/",
+      "imageURL": "https://www.kan.org.il/media/vqhl0qdg/2021-8-8-imgid-58870_a.jpeg?width=490&height=272&v=1d975d376336810",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ihyqiowf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep17.jpg",
+      "entryId": "1_ihyqiowf"
+    },
+    {
+      "season": 5,
+      "ep": 18,
+      "name": "עונה 5 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/",
+      "imageURL": "https://www.kan.org.il/media/jjbbln3z/2021-8-23-imgid-59763_a.jpeg?width=490&height=272&v=1d975d3770e85d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qduyvd7b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep18.jpg",
+      "entryId": "1_qduyvd7b"
+    },
+    {
+      "season": 5,
+      "ep": 19,
+      "name": "עונה 5 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/",
+      "imageURL": "https://www.kan.org.il/media/epvcoizc/2021-8-25-imgid-59919_a.jpeg?width=490&height=272&v=1d975d377feb230",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_973bsr1i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep19.jpg",
+      "entryId": "1_973bsr1i"
+    },
+    {
+      "season": 5,
+      "ep": 20,
+      "name": "עונה 5 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/",
+      "imageURL": "https://www.kan.org.il/media/oh2ocqql/2021-8-8-imgid-58876_a.jpeg?width=490&height=272&v=1d975d378ea23a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8w7yi8fx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep20.jpg",
+      "entryId": "1_8w7yi8fx"
+    },
+    {
+      "season": 5,
+      "ep": 21,
+      "name": "עונה 5 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
+      "imageURL": "https://www.kan.org.il/media/shyb5f5v/2021-8-29-imgid-60094_a.jpeg?width=490&height=272&v=1d975d379d59510",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hej6g43c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep21.jpg",
+      "entryId": "1_hej6g43c"
+    },
+    {
+      "season": 5,
+      "ep": 22,
+      "name": "עונה 5 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134181/",
+      "imageURL": "https://www.kan.org.il/media/l3ddld55/2021-8-16-imgid-59377_a.jpeg?width=490&height=272&v=1d975d37adc0890",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r5vyhknf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep22.jpg",
+      "entryId": "1_r5vyhknf"
+    },
+    {
+      "season": 5,
+      "ep": 23,
+      "name": "עונה 5 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134183/",
+      "imageURL": "https://www.kan.org.il/media/sq4l2tse/2021-8-16-imgid-59378_a.jpeg?width=490&height=272&v=1d975d37bc270f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yzeyixpr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep23.jpg",
+      "entryId": "1_yzeyixpr"
+    },
+    {
+      "season": 5,
+      "ep": 24,
+      "name": "עונה 5 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134185/",
+      "imageURL": "https://www.kan.org.il/media/g0wlgoes/2021-8-16-imgid-59382_a.jpeg?width=490&height=272&v=1d975d37cae0970",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zl8r4i2k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep24.jpg",
+      "entryId": "1_zl8r4i2k"
+    },
+    {
+      "season": 5,
+      "ep": 25,
+      "name": "עונה 5 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
+      "imageURL": "https://www.kan.org.il/media/3f3m0lh5/2021-8-16-imgid-59389_a.jpeg?width=490&height=272&v=1d975d37d9f2030",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_meiy1rqt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep25.jpg",
+      "entryId": "1_meiy1rqt"
+    },
+    {
+      "season": 6,
+      "ep": 1,
+      "name": "עונה 6 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148385/",
+      "imageURL": "https://www.kan.org.il/media/3o5looam/https-kanstaticazureedgenet-download-pictures-2022-8-12-imgid-79692_aa.jpeg?width=490&height=272&v=1d97a09b65b4770",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zrnayk92/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep1.jpg",
+      "entryId": "1_zrnayk92"
+    },
+    {
+      "season": 6,
+      "ep": 2,
+      "name": "עונה 6 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+      "imageURL": "https://www.kan.org.il/media/h0gmic1e/https-kanstaticazureedgenet-download-pictures-2022-8-12-imgid-79693_aa.jpeg?width=490&height=272&v=1d97a09b7115100",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mgt5o2i7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep2.jpg",
+      "entryId": "1_mgt5o2i7"
+    },
+    {
+      "season": 6,
+      "ep": 3,
+      "name": "עונה 6 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148391/",
+      "imageURL": "https://www.kan.org.il/media/vl4actgu/3.jpg?width=490&height=272&v=1dad8931c38d650",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vpcc9x7b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep3.jpg",
+      "entryId": "1_vpcc9x7b"
+    },
+    {
+      "season": 6,
+      "ep": 4,
+      "name": "עונה 6 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148457/",
+      "imageURL": "https://www.kan.org.il/media/ernjatxr/https-kanstaticazureedgenet-download-pictures-2022-8-1-imgid-78939_aa.jpeg?width=490&height=272&v=1d97a09b86f3350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uob2xny5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep4.jpg",
+      "entryId": "1_uob2xny5"
+    },
+    {
+      "season": 6,
+      "ep": 5,
+      "name": "עונה 6 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148460/",
+      "imageURL": "https://www.kan.org.il/media/35rm00rp/https-kanstaticazureedgenet-download-pictures-2022-8-1-imgid-78941_aa.jpeg?width=490&height=272&v=1d97a09b942d700",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uzq1fhpn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep5.jpg",
+      "entryId": "1_uzq1fhpn"
+    },
+    {
+      "season": 6,
+      "ep": 6,
+      "name": "עונה 6 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148556/",
+      "imageURL": "https://www.kan.org.il/media/ydzflpz2/https-kanstaticazureedgenet-download-pictures-2022-8-3-imgid-79064_aa.jpeg?width=490&height=272&v=1d97a09ba3b8ee0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_migv1q50/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep6.jpg",
+      "entryId": "1_migv1q50"
+    },
+    {
+      "season": 6,
+      "ep": 7,
+      "name": "עונה 6 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148559/",
+      "imageURL": "https://www.kan.org.il/media/w1mjykp0/https-kanstaticazureedgenet-download-pictures-2022-8-3-imgid-79065_aa.jpeg?width=490&height=272&v=1d97a09bb4cb0c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4cnyd0z6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep7.jpg",
+      "entryId": "1_4cnyd0z6"
+    },
+    {
+      "season": 6,
+      "ep": 8,
+      "name": "עונה 6 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/",
+      "imageURL": "https://www.kan.org.il/media/54mbhwjv/https-kanstaticazureedgenet-download-pictures-2022-8-3-imgid-79066_aa.jpeg?width=490&height=272&v=1d97a09bc5ac560",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a2ecqd2q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep8.jpg",
+      "entryId": "1_a2ecqd2q"
+    },
+    {
+      "season": 6,
+      "ep": 9,
+      "name": "עונה 6 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148565/",
+      "imageURL": "https://www.kan.org.il/media/3jmhelnr/https-kanstaticazureedgenet-download-pictures-2022-8-14-imgid-79777_aa.jpeg?width=490&height=272&v=1d97a09bd147870",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ieov6hbv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep9.jpg",
+      "entryId": "1_ieov6hbv"
+    },
+    {
+      "season": 6,
+      "ep": 10,
+      "name": "עונה 6 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148568/",
+      "imageURL": "https://www.kan.org.il/media/sxkfzmej/https-kanstaticazureedgenet-download-pictures-2022-8-14-imgid-79778_aa.jpeg?width=490&height=272&v=1d97a09bdb39ea0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9unc5sho/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep10.jpg",
+      "entryId": "1_9unc5sho"
+    },
+    {
+      "season": 6,
+      "ep": 11,
+      "name": "עונה 6 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148994/",
+      "imageURL": "https://www.kan.org.il/media/cb5bzeud/https-kanstaticazureedgenet-download-pictures-2022-8-16-imgid-79908_aa.jpeg?width=490&height=272&v=1d97a09be57f4f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y7vcyz4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep11.jpg",
+      "entryId": "1_y7vcyz4a"
+    },
+    {
+      "season": 6,
+      "ep": 12,
+      "name": "עונה 6 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
+      "imageURL": "https://www.kan.org.il/media/gsun3ams/https-kanstaticazureedgenet-download-pictures-2022-8-16-imgid-79909_aa.jpeg?width=490&height=272&v=1d97a09bf0af140",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_muvy2t20/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep12.jpg",
+      "entryId": "1_muvy2t20"
+    },
+    {
+      "season": 6,
+      "ep": 13,
+      "name": "עונה 6 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149000/",
+      "imageURL": "https://www.kan.org.il/media/ygebt2cr/https-kanstaticazureedgenet-download-pictures-2022-8-16-imgid-79910_aa.jpeg?width=490&height=272&v=1d97a09bfb7d310",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tprg4jg4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep13.jpg",
+      "entryId": "1_tprg4jg4"
+    },
+    {
+      "season": 6,
+      "ep": 14,
+      "name": "עונה 6 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149012/",
+      "imageURL": "https://www.kan.org.il/media/wskmlhpy/https-kanstaticazureedgenet-download-pictures-2022-8-17-imgid-79937_aa.jpeg?width=490&height=272&v=1d97a09c0548840",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u0xqj9zu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep14.jpg",
+      "entryId": "1_u0xqj9zu"
+    },
+    {
+      "season": 6,
+      "ep": 15,
+      "name": "עונה 6 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/",
+      "imageURL": "https://www.kan.org.il/media/cpaa2hxk/https-kanstaticazureedgenet-download-pictures-2022-9-4-imgid-80927_aa.jpeg?width=490&height=272&v=1d97a09c0ed1ec0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bzfvlnsi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep15.jpg",
+      "entryId": "1_bzfvlnsi"
+    },
+    {
+      "season": 6,
+      "ep": 16,
+      "name": "עונה 6 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149369/",
+      "imageURL": "https://www.kan.org.il/media/bu1aq3bj/https-kanstaticazureedgenet-download-pictures-2022-8-24-imgid-80341_aa.jpeg?width=490&height=272&v=1d97a09c19a0090",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2dit0dto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep16.jpg",
+      "entryId": "1_2dit0dto"
+    },
+    {
+      "season": 6,
+      "ep": 17,
+      "name": "עונה 6 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149372/",
+      "imageURL": "https://www.kan.org.il/media/p00p2vgs/https-kanstaticazureedgenet-download-pictures-2022-8-24-imgid-80342_aa.jpeg?width=490&height=272&v=1d97a09c23ecc10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o88cxld1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep17.jpg",
+      "entryId": "1_o88cxld1"
+    },
+    {
+      "season": 6,
+      "ep": 18,
+      "name": "עונה 6 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/",
+      "imageURL": "https://www.kan.org.il/media/gd1dyoyx/https-kanstaticazureedgenet-download-pictures-2022-8-24-imgid-80343_aa.jpeg?width=490&height=272&v=1d97a09c328ddf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2lx3p9mc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep18.jpg",
+      "entryId": "1_2lx3p9mc"
+    },
+    {
+      "season": 6,
+      "ep": 19,
+      "name": "עונה 6 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149378/",
+      "imageURL": "https://www.kan.org.il/media/xljba144/https-kanstaticazureedgenet-download-pictures-2022-8-24-imgid-80344_aa.jpeg?width=490&height=272&v=1d97a09c3b9d350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8egf2z48/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep19.jpg",
+      "entryId": "1_8egf2z48"
+    },
+    {
+      "season": 6,
+      "ep": 20,
+      "name": "עונה 6 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149381/",
+      "imageURL": "https://www.kan.org.il/media/duxnnddf/https-kanstaticazureedgenet-download-pictures-2022-8-24-imgid-80345_aa.jpeg?width=490&height=272&v=1d97a09c44c4f50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cp2amlni/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep20.jpg",
+      "entryId": "1_cp2amlni"
+    },
+    {
+      "season": 6,
+      "ep": 21,
+      "name": "עונה 6 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149792/",
+      "imageURL": "https://www.kan.org.il/media/vnblyocd/https-kanstaticazureedgenet-download-pictures-2022-9-6-imgid-81138_aa.jpeg?width=490&height=272&v=1d97a09c4e756d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_glrzojai/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep21.jpg",
+      "entryId": "1_glrzojai"
+    },
+    {
+      "season": 6,
+      "ep": 22,
+      "name": "עונה 6 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149795/",
+      "imageURL": "https://www.kan.org.il/media/xojhkiyf/https-kanstaticazureedgenet-download-pictures-2022-9-13-imgid-81626_aa.jpeg?width=490&height=272&v=1d97a09c5965b80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qcr6phdk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep22.jpg",
+      "entryId": "1_qcr6phdk"
+    },
+    {
+      "season": 6,
+      "ep": 23,
+      "name": "עונה 6 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149798/",
+      "imageURL": "https://www.kan.org.il/media/ipffqv0y/https-kanstaticazureedgenet-download-pictures-2022-9-13-imgid-81623_aa.jpeg?width=490&height=272&v=1d97a09c661c1d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yv7iztxt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep23.jpg",
+      "entryId": "1_yv7iztxt"
+    },
+    {
+      "season": 6,
+      "ep": 24,
+      "name": "עונה 6 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149801/",
+      "imageURL": "https://www.kan.org.il/media/noocmdnf/https-kanstaticazureedgenet-download-pictures-2022-9-13-imgid-81624_aa.jpeg?width=490&height=272&v=1d97a09c708b030",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w5nmf87l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep24.jpg",
+      "entryId": "1_w5nmf87l"
+    },
+    {
+      "season": 6,
+      "ep": 25,
+      "name": "עונה 6 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/",
+      "imageURL": "https://www.kan.org.il/media/ldsjamnl/https-kanstaticazureedgenet-download-pictures-2022-9-13-imgid-81625_aa.jpeg?width=490&height=272&v=1d97a09c7b0fe20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gb9gy0j3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep25.jpg",
+      "entryId": "1_gb9gy0j3"
+    },
+    {
+      "season": 6,
+      "ep": 26,
+      "name": "עונה 6 פרק 26",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150023/",
+      "imageURL": "https://www.kan.org.il/media/n3klvj21/https-kanstaticazureedgenet-download-pictures-2022-9-12-imgid-81537_aa.jpeg?width=490&height=272&v=1d97a09c85cf590",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_24mreiuw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep26.jpg",
+      "entryId": "1_24mreiuw"
+    },
+    {
+      "season": 6,
+      "ep": 27,
+      "name": "עונה 6 פרק 27",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150026/",
+      "imageURL": "https://www.kan.org.il/media/cz4hsity/https-kanstaticazureedgenet-download-pictures-2022-9-12-imgid-81542_aa.jpeg?width=490&height=272&v=1d97a09cb164930",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm8em9tq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep27.jpg",
+      "entryId": "1_xm8em9tq"
+    },
+    {
+      "season": 6,
+      "ep": 28,
+      "name": "עונה 6 פרק 28",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150029/",
+      "imageURL": "https://www.kan.org.il/media/n24l33w1/https-kanstaticazureedgenet-download-pictures-2022-9-12-imgid-81543_aa.jpeg?width=490&height=272&v=1d97a09cbf585a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dpuvd0y3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep28.jpg",
+      "entryId": "1_dpuvd0y3"
+    },
+    {
+      "season": 6,
+      "ep": 29,
+      "name": "עונה 6 פרק 29",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/",
+      "imageURL": "https://www.kan.org.il/media/kzxdyjsz/https-kanstaticazureedgenet-download-pictures-2022-9-12-imgid-81549_aa.jpeg?width=490&height=272&v=1d97a09cd44c1f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9gciezsn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep29.jpg",
+      "entryId": "1_9gciezsn"
+    },
+    {
+      "season": 6,
+      "ep": 30,
+      "name": "עונה 6 פרק 30",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150032/",
+      "imageURL": "https://www.kan.org.il/media/5aypbdna/https-kanstaticazureedgenet-download-pictures-2022-9-12-imgid-81545_aa.jpeg?width=490&height=272&v=1d97a09cc9ff670",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bx5untes/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep30.jpg",
+      "entryId": "1_bx5untes"
+    },
+    {
+      "season": 7,
+      "ep": 1,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/739575/",
+      "imageURL": "https://www.kan.org.il/media/p1gplltg/%d7%9c%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 1",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep1.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 2,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/739576/",
+      "imageURL": "https://www.kan.org.il/media/ddsp55md/%d7%98%d7%90%d7%9e%d7%a0%d7%99%d7%99%d7%9c-%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 2",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep2.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 3,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/739578/",
+      "imageURL": "https://www.kan.org.il/media/ubxfalgs/%d7%91%d7%95%d7%90%d7%95-%d7%9c%d7%90%d7%9b%d7%95%d7%9c-%d7%90%d7%99%d7%aa%d7%99-%d7%a1%d7%a4%d7%99%d7%99%d7%a9%d7%9c-%d7%a4%d7%a1%d7%97-%d7%a4%d7%a8%d7%a7-3-%d7%a8%d7%95%d7%a2%d7%99-%d7%a2%d7%99%d7%93%d7%9f.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 3",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep3.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 4,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/740746/",
+      "imageURL": "https://www.kan.org.il/media/lmdkhr24/s0463515_100_13_07_00still001.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 4",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep4.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 5,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/741637/",
+      "imageURL": "https://www.kan.org.il/media/jwxbodwl/s0463516_master_w05ep05_royel_for-digital00_21_16_01still001.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 5",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep5.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 6,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439431/",
+      "imageURL": "https://www.kan.org.il/media/1yhjzm3d/%d7%9c%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 6",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep6.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 7,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439433/",
+      "imageURL": "https://www.kan.org.il/media/2pkcusmz/%d7%9c%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 7",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep7.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 8,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439436/",
+      "imageURL": "https://www.kan.org.il/media/yabmn51c/%d7%9c%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 8",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep8.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 9,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439439/",
+      "imageURL": "https://www.kan.org.il/media/fw5ae2dw/%d7%aa%d7%9e%d7%95%d7%a0%d7%94-%d7%9c%d7%90%d7%aa%d7%a8.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 9",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep9.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 10,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439442/",
+      "imageURL": "https://www.kan.org.il/media/uhplhhnm/%d7%aa%d7%9e%d7%95%d7%a0%d7%94-%d7%9c%d7%90%d7%aa%d7%a8.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 10",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep10.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 11,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475809/",
+      "imageURL": "https://www.kan.org.il/media/zszaavwf/ep01w4_jerusalem_clean_s0421989_clean00_24_19_01still002.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 11",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep11.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 12,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475354/",
+      "imageURL": "https://www.kan.org.il/media/qqobqfw2/%d7%9c%d7%90%d7%aa%d7%a8-%d7%a4%d7%a8%d7%a7-12.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 12",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep12.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 13,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469819/",
+      "imageURL": "https://www.kan.org.il/media/o4kd325h/%d7%98%d7%9e%d7%91%d7%a0%d7%99%d7%99%d7%9c-%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 13",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep13.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 14,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475437/",
+      "imageURL": "https://www.kan.org.il/media/rlnftsbq/ep04w4_jerusalem_clean_s0421992_clean00_12_17_08still001.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 14",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep14.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 15,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/481776/",
+      "imageURL": "https://www.kan.org.il/media/qqxa3ttw/%d7%9c%d7%90%d7%aa%d7%a8-%d7%a4%d7%a8%d7%a7-15.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 15",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep15.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 16,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439447/",
+      "imageURL": "https://www.kan.org.il/media/4dxhyfed/s0421979_100_15_44_12still001.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 16",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep16.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 17,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439449/",
+      "imageURL": "https://www.kan.org.il/media/2myeq1jv/%d7%aa%d7%9e%d7%95%d7%a0%d7%94-%d7%9c%d7%90%d7%aa%d7%a8.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 17",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep17.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 18,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439451/",
+      "imageURL": "https://www.kan.org.il/media/vdgkuaxn/s0421981_100_16_31_04still006.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 18",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep18.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 19,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/439453/",
+      "imageURL": "https://www.kan.org.il/media/bfvfxp3y/s0421982_100_12_46_12still002.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 19",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep19.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 20,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/457502/",
+      "imageURL": "https://www.kan.org.il/media/vzkpajjp/%d7%9c%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 20",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep20.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 21,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/475677/",
+      "imageURL": "https://www.kan.org.il/media/sislq55s/s0421994_100_15_04_15still004.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 21",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep21.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 22,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/482175/",
+      "imageURL": "https://www.kan.org.il/media/qcsh3adg/vlcsnap-2023-08-28-15h41m22s183.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 22",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep22.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 23,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/482179/",
+      "imageURL": "https://www.kan.org.il/media/o2znvyc0/s0421996_youtube00_23_24_19still005.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 23",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep23.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 24,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469814/",
+      "imageURL": "https://www.kan.org.il/media/lbqlv4zh/%d7%90%d7%aa%d7%a8.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 24",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep24.jpg"
+    },
+    {
+      "season": 7,
+      "ep": 25,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s7/469803/",
+      "imageURL": "https://www.kan.org.il/media/2fkebsiq/vlcsnap-2023-08-28-16h10m50s141.png?rmode=pad&width=1200&height=630",
+      "name": "עונה 7 פרק 25",
+      "streamURL": "",
+      "unavailable": true,
+      "localImage": "images/kanbox/bou-leechol-iti/s7-ep25.jpg"
+    },
+    {
+      "season": 8,
+      "ep": 1,
+      "name": "עונה 8 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+      "imageURL": "https://www.kan.org.il/media/z1ppz1kv/s0463522_new.jpg?rxy=0.567094477557202,0.1550081092429454&width=490&height=272&v=1dae1cd1b630370",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bhh22ujv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep1.jpg",
+      "entryId": "1_bhh22ujv"
+    },
+    {
+      "season": 8,
+      "ep": 2,
+      "name": "עונה 8 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+      "imageURL": "https://www.kan.org.il/media/4sjdmixy/s0463523_new.jpg?rxy=0.4959473975483367,0.20053989663189042&width=490&height=272&v=1dae1cd17439020",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pkd55cik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep2.jpg",
+      "entryId": "1_pkd55cik"
+    },
+    {
+      "season": 8,
+      "ep": 3,
+      "name": "עונה 8 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+      "imageURL": "https://www.kan.org.il/media/1gklmuay/s0463524_new.jpg?rxy=0.47861085715868795,0.2754922077782086&width=490&height=272&v=1dae1cd14f0ed90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4z05eubp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep3.jpg",
+      "entryId": "1_4z05eubp"
+    },
+    {
+      "season": 8,
+      "ep": 4,
+      "name": "עונה 8 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+      "imageURL": "https://www.kan.org.il/media/lbwpyia4/%D7%90%D7%AA%D7%A8.jpg?rxy=0.25245349864781413,0.22545158344059968&width=490&height=272&v=1dae42b6c6c8970",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b1jzsc4y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep4.jpg",
+      "entryId": "1_b1jzsc4y"
+    },
+    {
+      "season": 8,
+      "ep": 5,
+      "name": "עונה 8 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+      "imageURL": "https://www.kan.org.il/media/xcefm3lf/s0463526_new.jpg?rxy=0.499944928204849,0.4809918131801254&width=490&height=272&v=1dae1cd0f7397f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fcr5wabn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep5.jpg",
+      "entryId": "1_fcr5wabn"
+    },
+    {
+      "season": 8,
+      "ep": 6,
+      "name": "עונה 8 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+      "imageURL": "https://www.kan.org.il/media/uzdlptqk/%D7%90%D7%AA%D7%A8.jpg?rxy=0.17526178637592896,0.2964366671083516&width=490&height=272&v=1dae42b66badd60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mbogv69/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep6.jpg",
+      "entryId": "1_3mbogv69"
+    },
+    {
+      "season": 8,
+      "ep": 7,
+      "name": "עונה 8 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+      "imageURL": "https://www.kan.org.il/media/z3hjxatg/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A8%D7%A7-%D7%99%D7%95%D7%AA%D7%A8-%D7%98%D7%95%D7%91.jpg?width=490&height=272&v=1dae427f350d7b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qwys5j3u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep7.jpg",
+      "entryId": "1_qwys5j3u"
+    },
+    {
+      "season": 8,
+      "ep": 8,
+      "name": "עונה 8 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+      "imageURL": "https://www.kan.org.il/media/e5bfh0uf/%D7%A4%D7%A8%D7%A7-8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F.jpg?rxy=0.426,0.2394809138230191&width=490&height=272&v=1dae4f13f928870",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_96fmr8nq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep8.jpg",
+      "entryId": "1_96fmr8nq"
+    },
+    {
+      "season": 8,
+      "ep": 9,
+      "name": "עונה 8 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+      "imageURL": "https://www.kan.org.il/media/2j5mx5ek/%D7%A4%D7%A8%D7%A7-9-%D7%AA%D7%99%D7%A7%D7%95%D7%9F.jpg?rxy=0.47631990577526223,0.3625061589774202&width=490&height=272&v=1dae421c605bf10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vsop39ew/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep9.jpg",
+      "entryId": "1_vsop39ew"
+    },
+    {
+      "season": 8,
+      "ep": 10,
+      "name": "עונה 8 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+      "imageURL": "https://www.kan.org.il/media/cz1n4cqo/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99.jpg?width=490&height=272&v=1dade0560b924c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hcnd83q6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep10.jpg",
+      "entryId": "1_hcnd83q6"
+    },
+    {
+      "season": 8,
+      "ep": 11,
+      "name": "עונה 8 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773506/",
+      "imageURL": "https://www.kan.org.il/media/0jklmtdw/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dae41f43a31010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wuu8yb90/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep11.jpg",
+      "entryId": "1_wuu8yb90"
+    },
+    {
+      "season": 8,
+      "ep": 12,
+      "name": "עונה 8 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+      "imageURL": "https://www.kan.org.il/media/haohu41y/%D7%98%D7%90%D7%9E%D7%A0%D7%99%D7%99%D7%9C-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dae1cce19d2080",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u6hpdkm6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep12.jpg",
+      "entryId": "1_u6hpdkm6"
+    },
+    {
+      "season": 8,
+      "ep": 13,
+      "name": "עונה 8 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+      "imageURL": "https://www.kan.org.il/media/0dndga2c/%D7%98%D7%90%D7%9E%D7%A0%D7%99%D7%99%D7%9C-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dae1ccdf319ec0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d3f6veyf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep13.jpg",
+      "entryId": "1_d3f6veyf"
+    },
+    {
+      "season": 8,
+      "ep": 14,
+      "name": "עונה 8 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773355/",
+      "imageURL": "https://www.kan.org.il/media/2kvnkgxv/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4840221120238199,0.13536105984367972&width=490&height=272&v=1dae421ae007450",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_be60t2fd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep14.jpg",
+      "entryId": "1_be60t2fd"
+    },
+    {
+      "season": 8,
+      "ep": 15,
+      "name": "עונה 8 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+      "imageURL": "https://www.kan.org.il/media/ybblsq3q/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5665740864806412,0.15903362097806886&width=490&height=272&v=1dae421aaec7d90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zekfjmbh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep15.jpg",
+      "entryId": "1_zekfjmbh"
+    },
+    {
+      "season": 8,
+      "ep": 16,
+      "name": "עונה 8 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+      "imageURL": "https://www.kan.org.il/media/m0cahsuv/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-1.jpg?width=490&height=272&v=1dac6fa72a72050",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ziop4g8c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep16.jpg",
+      "entryId": "1_ziop4g8c"
+    },
+    {
+      "season": 8,
+      "ep": 17,
+      "name": "עונה 8 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+      "imageURL": "https://www.kan.org.il/media/wh3jlp4q/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-8-%D7%A4%D7%A8%D7%A7-2.jpg?width=490&height=272&v=1dac6fe6d4ee210",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q010f67e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep17.jpg",
+      "entryId": "1_q010f67e"
+    },
+    {
+      "season": 8,
+      "ep": 18,
+      "name": "עונה 8 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+      "imageURL": "https://www.kan.org.il/media/1avk3vk3/%D7%98%D7%90%D7%9E%D7%A0%D7%99%D7%99%D7%9C-%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dac7015430ccf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e3vlqkg3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep18.jpg",
+      "entryId": "1_e3vlqkg3"
+    },
+    {
+      "season": 8,
+      "ep": 19,
+      "name": "עונה 8 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+      "imageURL": "https://www.kan.org.il/media/mkvjmozu/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-8-%D7%A4%D7%A8%D7%A7-4.jpg?width=490&height=272&v=1dac702a5519460",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_73to2erv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep19.jpg",
+      "entryId": "1_73to2erv"
+    },
+    {
+      "season": 8,
+      "ep": 20,
+      "name": "עונה 8 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+      "imageURL": "https://www.kan.org.il/media/czjd4cqw/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-%D7%A2%D7%95%D7%A0%D7%94-8-%D7%A4%D7%A8%D7%A7-5.jpg?width=490&height=272&v=1dac70579a807b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_52e8opip/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep20.jpg",
+      "entryId": "1_52e8opip"
+    },
+    {
+      "season": 8,
+      "ep": 21,
+      "name": "עונה 8 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+      "imageURL": "https://www.kan.org.il/media/epmn3vz0/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99.jpg?rxy=0.4839484687545406,0.3387975663593518&width=490&height=272&v=1daba59b1f80c90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tqom13ar/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep21.jpg",
+      "entryId": "1_tqom13ar"
+    },
+    {
+      "season": 8,
+      "ep": 22,
+      "name": "עונה 8 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+      "imageURL": "https://www.kan.org.il/media/31dd34h4/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5053063619074002,0.4431369925937151&width=490&height=272&v=1dad786536b9580",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4x4zrwv7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep22.jpg",
+      "entryId": "1_4x4zrwv7"
+    },
+    {
+      "season": 8,
+      "ep": 23,
+      "name": "עונה 8 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+      "imageURL": "https://www.kan.org.il/media/hq2jw4at/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dad78664791fa0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c9iuhtj3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep23.jpg",
+      "entryId": "1_c9iuhtj3"
+    },
+    {
+      "season": 8,
+      "ep": 24,
+      "name": "עונה 8 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+      "imageURL": "https://www.kan.org.il/media/c35ltkzy/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.489352201827048,0.39581578424320435&width=490&height=272&v=1dad786775e9e10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dn867d51/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep24.jpg",
+      "entryId": "1_dn867d51"
+    },
+    {
+      "season": 8,
+      "ep": 25,
+      "name": "עונה 8 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+      "imageURL": "https://www.kan.org.il/media/oaepnber/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5000215788139205,0.3810884233039692&width=490&height=272&v=1dad7868a4d6b50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6cmm9uu0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep25.jpg",
+      "entryId": "1_6cmm9uu0"
+    },
+    {
+      "season": 9,
+      "ep": 1,
+      "name": "עונה 9 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922427/",
+      "imageURL": "https://www.kan.org.il/media/mbjfza4e/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99.jpg?width=490&height=272&v=1dc4125314149f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e7xqikb0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep1.jpg",
+      "entryId": "1_e7xqikb0"
+    },
+    {
+      "season": 9,
+      "ep": 2,
+      "name": "עונה 9 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922430/",
+      "imageURL": "https://www.kan.org.il/media/3cmhji3w/%D7%9C%D7%90%D7%AA%D7%A8-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.jpg?rxy=0.3642359758937057,0.1671110858271643&width=490&height=272&v=1dc41e6b467fe70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zufe4e5l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep2.jpg",
+      "entryId": "1_zufe4e5l"
+    },
+    {
+      "season": 9,
+      "ep": 3,
+      "name": "עונה 9 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922431/",
+      "imageURL": "https://www.kan.org.il/media/3nlot0tu/%D7%9C%D7%90%D7%AA%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F.jpg?width=490&height=272&v=1dc42ae05e9e6b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dsnjx3va/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep3.jpg",
+      "entryId": "1_dsnjx3va"
+    },
+    {
+      "season": 9,
+      "ep": 4,
+      "name": "עונה 9 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/",
+      "imageURL": "https://www.kan.org.il/media/bnibesix/%D7%9C%D7%A2%D7%A8%D7%99%D7%9B%D7%94-%D7%9C%D7%99%D7%95%D7%98%D7%99%D7%95%D7%91.jpg?rxy=0.5684804483574659,0.3559337522937112&width=490&height=272&v=1dbe0a04a176d00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1aunwvwb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep4.jpg",
+      "entryId": "1_1aunwvwb"
+    },
+    {
+      "season": 9,
+      "ep": 5,
+      "name": "עונה 9 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922433/",
+      "imageURL": "https://www.kan.org.il/media/tsegjdrc/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99-5.jpg?width=490&height=272&v=1dc44368e7b24b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q6zzhc1h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep5.jpg",
+      "entryId": "1_q6zzhc1h"
+    },
+    {
+      "season": 9,
+      "ep": 6,
+      "name": "עונה 9 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/927070/",
+      "imageURL": "https://www.kan.org.il/media/nzhng1jb/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc469cb8148fb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_niw2pf3r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep6.jpg",
+      "entryId": "1_niw2pf3r"
+    },
+    {
+      "season": 9,
+      "ep": 7,
+      "name": "עונה 9 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922442/",
+      "imageURL": "https://www.kan.org.il/media/oeahjlvy/%D7%9C%D7%90%D7%AA%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F.jpg?rxy=0.5058434961564123,0.18763679781480103&width=490&height=272&v=1dc475ce3063370",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ylm12pcn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep7.jpg",
+      "entryId": "1_ylm12pcn"
+    },
+    {
+      "season": 9,
+      "ep": 8,
+      "name": "עונה 9 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929726/",
+      "imageURL": "https://www.kan.org.il/media/1w1hgwcq/%D7%9C%D7%90%D7%AA%D7%A8-%D7%97%D7%93%D7%A9.jpg?rxy=0.46502528143627564,0.1973126097363689&width=490&height=272&v=1dc4816114a3ab0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nu5taj4v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep8.jpg",
+      "entryId": "1_nu5taj4v"
+    },
+    {
+      "season": 9,
+      "ep": 9,
+      "name": "עונה 9 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929730/",
+      "imageURL": "https://www.kan.org.il/media/emdpjlmf/eat.jpg?width=490&height=272&v=1dc49ce1c9723b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_65l3ursv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep9.jpg",
+      "entryId": "1_65l3ursv"
+    },
+    {
+      "season": 9,
+      "ep": 10,
+      "name": "עונה 9 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929733/",
+      "imageURL": "https://www.kan.org.il/media/mg3b5msf/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc49cfeb6ba2f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0wen0y1j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep10.jpg",
+      "entryId": "1_0wen0y1j"
+    },
+    {
+      "season": 9,
+      "ep": 11,
+      "name": "עונה 9 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922439/",
+      "imageURL": "https://www.kan.org.il/media/crhjrlqz/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99.jpg?width=490&height=272&v=1dc4c1449937650",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6j7axklg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep11.jpg",
+      "entryId": "1_6j7axklg"
+    },
+    {
+      "season": 9,
+      "ep": 12,
+      "name": "עונה 9 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/931424/",
+      "imageURL": "https://www.kan.org.il/media/azhdbn5l/%D7%91%D7%95%D7%90%D7%95.jpg?width=490&height=272&v=1dc4daf97100fa0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3kha4cqj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep12.jpg",
+      "entryId": "1_3kha4cqj"
+    },
+    {
+      "season": 9,
+      "ep": 13,
+      "name": "עונה 9 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+      "imageURL": "https://www.kan.org.il/media/efnpwc3y/%D7%91%D7%95%D7%90%D7%95.jpg?width=490&height=272&v=1dc4e6ba553c4f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fhtt9cis/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep13.jpg",
+      "entryId": "1_fhtt9cis"
+    },
+    {
+      "season": 9,
+      "ep": 14,
+      "name": "עונה 9 פרק 14",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922446/",
+      "imageURL": "https://www.kan.org.il/media/qrfokren/%D7%90%D7%AA%D7%A82.jpg?width=490&height=272&v=1dc4f3830ea5a20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8vgn5zww/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep14.jpg",
+      "entryId": "1_8vgn5zww"
+    },
+    {
+      "season": 9,
+      "ep": 15,
+      "name": "עונה 9 פרק 15",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922447/",
+      "imageURL": "https://www.kan.org.il/media/uj0hb3jq/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc4f38926d45f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3nehm7dk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep15.jpg",
+      "entryId": "1_3nehm7dk"
+    },
+    {
+      "season": 9,
+      "ep": 16,
+      "name": "עונה 9 פרק 16",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933385/",
+      "imageURL": "https://www.kan.org.il/media/fwkhyq2n/s0502334_100_24_07_16still002.jpg?width=490&height=272&v=1dc5190028a49b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zvlfdljb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep16.jpg",
+      "entryId": "1_zvlfdljb"
+    },
+    {
+      "season": 9,
+      "ep": 17,
+      "name": "עונה 9 פרק 17",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/934395/",
+      "imageURL": "https://www.kan.org.il/media/s1tlywwz/%D7%91%D7%95%D7%90%D7%95-%D7%9C%D7%90%D7%9B%D7%95%D7%9C-%D7%90%D7%99%D7%AA%D7%99.jpg?rxy=0.4433866031961918,0.5319637684313355&width=490&height=272&v=1dc5279a283a850",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kdircrx1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep17.jpg",
+      "entryId": "1_kdircrx1"
+    },
+    {
+      "season": 9,
+      "ep": 18,
+      "name": "עונה 9 פרק 18",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
+      "imageURL": "https://www.kan.org.il/media/5hneikvz/%D7%90%D7%AA%D7%A8-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F-%D7%91%D7%90%D7%9E%D7%AA.jpg?width=490&height=272&v=1dc53182b0969f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8myfweto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep18.jpg",
+      "entryId": "1_8myfweto"
+    },
+    {
+      "season": 9,
+      "ep": 19,
+      "name": "עונה 9 פרק 19",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/",
+      "imageURL": "https://www.kan.org.il/media/dlriogeh/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.43231746671495913,0.26394322247667557&width=490&height=272&v=1dbfa670ed13a10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o0pvvvwj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep19.jpg",
+      "entryId": "1_o0pvvvwj"
+    },
+    {
+      "season": 9,
+      "ep": 20,
+      "name": "עונה 9 פרק 20",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933747/",
+      "imageURL": "https://www.kan.org.il/media/ifllz0hh/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A1%D7%95%D7%A4%D7%99%D7%99%D7%99%D7%99.jpg?width=490&height=272&v=1dc54c149875720",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xhniczdw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep20.jpg",
+      "entryId": "1_xhniczdw"
+    },
+    {
+      "season": 9,
+      "ep": 21,
+      "name": "עונה 9 פרק 21",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937788/",
+      "imageURL": "https://www.kan.org.il/media/oimpvj4h/%D7%9C%D7%90%D7%AA%D7%A8-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.jpg?width=490&height=272&v=1dc571d13b3f0a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0hu13r1m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep21.jpg",
+      "entryId": "1_0hu13r1m"
+    },
+    {
+      "season": 9,
+      "ep": 22,
+      "name": "עונה 9 פרק 22",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/",
+      "imageURL": "https://www.kan.org.il/media/5ndpwke0/%D7%9C%D7%90%D7%AA%D7%A8-%D7%97%D7%93%D7%A9.jpg?rxy=0.4133222094574358,0.2505295753049922&width=490&height=272&v=1dc57ef68c54030",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xdalfbok/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep22.jpg",
+      "entryId": "1_xdalfbok"
+    },
+    {
+      "season": 9,
+      "ep": 23,
+      "name": "עונה 9 פרק 23",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/",
+      "imageURL": "https://www.kan.org.il/media/kafllf3d/%D7%90%D7%9B%D7%9C%D7%95-%D7%90%D7%95%D7%AA%D7%94.jpg?width=490&height=272&v=1dc58ae41e85050",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3cn5fjhb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep23.jpg",
+      "entryId": "1_3cn5fjhb"
+    },
+    {
+      "season": 9,
+      "ep": 24,
+      "name": "עונה 9 פרק 24",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939929/",
+      "imageURL": "https://www.kan.org.il/media/evop4nys/thumbnail_photo-2025-11-19-19-42-16.jpg?width=490&height=272&v=1dc59902f6fefe0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j9qtgjlo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep24.jpg",
+      "entryId": "1_j9qtgjlo"
+    },
+    {
+      "season": 9,
+      "ep": 25,
+      "name": "עונה 9 פרק 25",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/",
+      "imageURL": "https://www.kan.org.il/media/gosomdbs/artboard-1.jpg?width=490&height=272&v=1dc5a4f69fd5ac0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8klffr73/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep25.jpg",
+      "entryId": "1_8klffr73"
+    },
+    {
+      "season": 10,
+      "ep": 1,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1020198/",
+      "imageURL": "https://www.kan.org.il/media/24bm3qrp/%d7%90%d7%aa%d7%a8-%d7%9e%d7%aa%d7%95%d7%a7%d7%9f.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 10 פרק 1",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "unavailable": false,
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep1.jpg",
+      "entryId": "2184202"
+    },
+    {
+      "season": 10,
+      "ep": 2,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021488/",
+      "imageURL": "https://www.kan.org.il/media/wh0drfkd/week-pesah-ep02_lili-digital_s053690100_14_47_02still001.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 10 פרק 2",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184205/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "unavailable": false,
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep2.jpg",
+      "entryId": "2184205"
+    },
+    {
+      "season": 10,
+      "ep": 3,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021499/",
+      "imageURL": "https://www.kan.org.il/media/q2tjjywf/%d7%9c%d7%a2%d7%a8%d7%99%d7%9b%d7%94-%d7%9c%d7%99%d7%95%d7%98%d7%99%d7%95%d7%91.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 10 פרק 3",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184209/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "unavailable": false,
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep3.jpg",
+      "entryId": "2184209"
+    },
+    {
+      "season": 10,
+      "ep": 4,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021533/",
+      "imageURL": "https://www.kan.org.il/media/ktgnm0gu/%d7%97%d7%91%d7%95.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 10 פרק 4",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184216/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "unavailable": false,
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep4.jpg",
+      "entryId": "2184216"
+    },
+    {
+      "season": 10,
+      "ep": 5,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021648/",
+      "imageURL": "https://www.kan.org.il/media/yhohd1es/week-pesah-ep05_hen-digital_s053690400_14_14_24still001.jpg?rmode=pad&width=1200&height=630",
+      "name": "עונה 10 פרק 5",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184249/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "unavailable": false,
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep5.jpg",
+      "entryId": "2184249"
+    }
+  ],
+  "localPoster": "images/kanbox/bou-leechol-iti/series.jpg"
+}

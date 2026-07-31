@@ -1,0 +1,115 @@
+==== the-property / the_property
+  title=הנחלה - seasons=[(1, 'the_property-s1')]
+  retry 1/5 after 2.3s: HTTP Error 404: Not Found
+  retry 2/5 after 4.6s: HTTP Error 404: Not Found
+  retry 3/5 after 6.9s: HTTP Error 404: Not Found
+  retry 4/5 after 9.2s: HTTP Error 404: Not Found
+  retry 5/5 after 11.5s: HTTP Error 404: Not Found
+  retry 1/5 after 2.3s: HTTP Error 404: Not Found
+  retry 2/5 after 4.6s: HTTP Error 404: Not Found
+  retry 3/5 after 6.9s: HTTP Error 404: Not Found
+  retry 4/5 after 9.2s: HTTP Error 404: Not Found
+  retry 5/5 after 11.5s: HTTP Error 404: Not Found
+  season page https://www.mako.co.il/mako-vod-keshet/the_property-s1
+  season 1: 19 episodes
+  - s1 ep~1 et/the_property-s1/VOD-8862fdbd79fd571026.htm
+  - s1 ep~2 et/the_property-s1/VOD-b5a27fe380bc571026.htm
+  - s1 ep~3 et/the_property-s1/VOD-610d85ecedef571026.htm
+  - s1 ep~4 et/the_property-s1/VOD-6bea97b17eef571026.htm
+  - s1 ep~5 et/the_property-s1/VOD-04e7e8e40691671027.htm
+  - s1 ep~6 et/the_property-s1/VOD-5904d058a691671027.htm
+  - s1 ep~7 et/the_property-s1/VOD-50faf7d12d74671026.htm
+  - s1 ep~8 et/the_property-s1/VOD-6e8ff7d12d74671026.htm
+  - s1 ep~9 et/the_property-s1/VOD-255fecc3b307671026.htm
+  - s1 ep~10 et/the_property-s1/VOD-07c7ecc3b307671026.htm
+  - s1 ep~11 et/the_property-s1/VOD-8e7b02407549671027.htm
+  - s1 ep~12 et/the_property-s1/VOD-509502407549671027.htm
+  - s1 ep~13 et/the_property-s1/VOD-4394872deb3b671026.htm
+  - s1 ep~14 et/the_property-s1/VOD-c9cb66f69c3b671026.htm
+  - s1 ep~15 et/the_property-s1/VOD-d3dde23a76cd671026.htm
+  - s1 ep~16 et/the_property-s1/VOD-9754e23a76cd671026.htm
+  - s1 ep~17 et/the_property-s1/VOD-ec5cefe99600771027.htm
+  - s1 ep~18 et/the_property-s1/VOD-ea63353c8342771026.htm
+  - s1 ep~19 et/the_property-s1/VOD-f8e26985c384771026.htm
+DONE the-property: 19/19 streams ok
+==== arabic-work / arabic-work
+  title=עבודה ערבית seasons=[(1, 'arabic-work')]
+  season page https://www.mako.co.il/mako-vod-keshet/arabic-work
+  season 1: 0 episodes
+DONE arabic-work: 0/0 streams ok
+==== the-head / the_head
+SKIP complete the-property (19 eps)
+==== arabic-work / arabic-work
+  title=עבודה ערבית seasons=[(1, 'arabic-work')]
+  resume cache: 0 ok episodes
+  season page https://www.mako.co.il/mako-vod-keshet/arabic-work
+  season 1: 0 episodes
+DONE arabic-work: 0/0 streams ok
+==== the-head / the_head
+  title=הראש seasons=[(1, 'the_head-s1')]
+  season page https://www.mako.co.il/mako-vod-keshet/the_head-s1
+  season 1: 9 episodes
+  - s1 ep~1 keshet/the_head-s1/VOD-f12fa17fade5491027.htm
+  - s1 ep~2 keshet/the_head-s1/VOD-1a4cd2303c2c591027.htm
+  - s1 ep~3 keshet/the_head-s1/VOD-ce7c64c3906e591027.htm
+  - s1 ep~4 keshet/the_head-s1/VOD-5f75bbd5ae90691026.htm
+  - s1 ep~5 keshet/the_head-s1/VOD-1b97051ef9f1691026.htm
+  - s1 ep~6 keshet/the_head-s1/VOD-9a5186095834691027.htm
+  - s1 ep~7 keshet/the_head-s1/VOD-ff1655ad0576691027.htm
+  - s1 ep~8 keshet/the_head-s1/VOD-ab53a973d6a9691027.htm
+  - s1 ep~9 keshet/the_head-s1/VOD-9fd616ea6fdb691026.htm
+DONE the-head: 9/9 streams ok
+==== the-cops / the_cops
+  title=השוטרים seasons=[(2, 'the_cops-s2')]
+  season page https://www.mako.co.il/mako-vod-keshet/the_cops-s2
+  season 2: 8 episodes
+  - s2 ep~1 keshet/the_cops-s2/VOD-4ac6fdd20bf8881026.htm
+  - s2 ep~2 keshet/the_cops-s2/VOD-9c3b4a2ecadb881026.htm
+  - s2 ep~3 keshet/the_cops-s2/VOD-ec93dd391d1e881027.htm
+  - s2 ep~4 keshet/the_cops-s2/VOD-d31376d7a360981027.htm
+  - s2 ep~5 keshet/the_cops-s2/VOD-3c55cf294c92981026.htm
+  - s2 ep~6 keshet/the_cops-s2/VOD-1eefda2941e4981027.htm
+  - s2 ep~7 keshet/the_cops-s2/VOD-980bd09c9618981026.htm
+  - s2 ep~8 keshet/the_cops-s2/VOD-14a9ac9cebab981026.htm
+DONE the-cops: 8/8 streams ok
+==== a-body-that-works / a_body_that_works
+  title=גוף שלישי seasons=[(1, 'a_body_that_works-s1')]
+  season page https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1
+  season 1: 8 episodes
+  - s1 ep~1 body_that_works-s1/VOD-3dde6e2eef94681027.htm
+  - s1 ep~2 body_that_works-s1/VOD-37303cf6abd6681027.htm
+  - s1 ep~3 body_that_works-s1/VOD-bf6faad98a19681027.htm
+  - s1 ep~4 body_that_works-s1/VOD-594c2649022b681026.htm
+  - s1 ep~5 body_that_works-s1/VOD-befafb18ad4d681027.htm
+  - s1 ep~6 body_that_works-s1/VOD-5719cdceca9f681027.htm
+  - s1 ep~7 body_that_works-s1/VOD-47c6b8830ac1781027.htm
+  - s1 ep~8 body_that_works-s1/VOD-aafc013a8bc1781027.htm
+DONE a-body-that-works: 8/8 streams ok
+==== she-is-with-me / she-is-with-me
+  title=להיות איתה seasons=[(3, 'she-is-with-me-s3')]
+  season page https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s3
+  season 3: 4 episodes
+  - s3 ep~1 /she-is-with-me-s3/VOD-e456ced922a5c71026.htm
+  - s3 ep~2 /she-is-with-me-s3/VOD-86c03ac5a379c71027.htm
+  - s3 ep~3 /she-is-with-me-s3/VOD-4d770d0a680cc71026.htm
+  - s3 ep~4 /she-is-with-me-s3/VOD-dace3d359e4ec71027.htm
+DONE she-is-with-me: 4/4 streams ok
+==== ismach-chatani / ismach_chatani
+  title=ישמח חתני seasons=[(1, 'ismach_chatani-s1')]
+  season page https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1
+  season 1: 8 episodes
+  - s1 ep~1 /ismach_chatani-s1/VOD-c0721415ffb9871026.htm
+  - s1 ep~2 /ismach_chatani-s1/VOD-25741415ffb9871026.htm
+  - s1 ep~3 /ismach_chatani-s1/VOD-ef8c708b9bfb871026.htm
+  - s1 ep~4 /ismach_chatani-s1/VOD-2e79de1e8d4c871026.htm
+  - s1 ep~5 /ismach_chatani-s1/VOD-027c44a97d3e871027.htm
+  - s1 ep~6 /ismach_chatani-s1/VOD-13a04d26afc0971027.htm
+  - s1 ep~7 /ismach_chatani-s1/VOD-c164616021c2971026.htm
+  - s1 ep~8 /ismach_chatani-s1/VOD-ddc15503d305971026.htm
+DONE ismach-chatani: 8/8 streams ok
+==== waking-bears / waking-bears
+  title=להעיר את הדב seasons=[(1, 'waking-bears')]
+  season page https://www.mako.co.il/mako-vod-keshet/waking-bears
+  season 1: 0 episodes
+DONE waking-bears: 0/0 streams ok
+==== mommy / mommy

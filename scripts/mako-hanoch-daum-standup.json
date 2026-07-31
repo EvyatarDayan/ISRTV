@@ -1,0 +1,21 @@
+{
+  "slug": "hanoch-daum-standup",
+  "title": "חנוך דאום - ההופעה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/hanoch_daum_standup",
+  "localPoster": "images/kanbox/hanoch-daum-standup/series.jpg",
+  "episodes": [
+    {
+      "name": "חנוך דאום - ההופעה",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Standup_Shows/Hanoch_Daum/Hanoch_Daum_Hofa_211019_VOD_as45gb/Hanoch_Daum_Hofa_211019_VOD_as45gb_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/10/21/hofaa_hanoch_daom_01_VOD_i.jpg",
+      "makoVcmId": "4cfde449e8eed610VgnVCM100000700a10acRCRD",
+      "makoChannelId": "530c86884e3ca710VgnVCM200000650a10acRCRD",
+      "streamOk": true,
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/hanoch_daum_standup-s1/VOD-4cfde449e8eed61027.htm",
+      "ep": 1,
+      "season": 1,
+      "localImage": "images/kanbox/hanoch-daum-standup/s1-ep1.jpg"
+    }
+  ]
+}

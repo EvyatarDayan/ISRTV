@@ -1,0 +1,164 @@
+{
+  "slug": "ehad-haam-1",
+  "title": "אחד העם 1",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/417/",
+  "seriesId": 417,
+  "localPoster": "images/kanbox/ehad-haam-1/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 1: יום הבוחר",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163199/",
+      "assetId": 2163199,
+      "entryId": "1_6p61yegn",
+      "externalId": "haam_s01_e01_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/992edc947be04b4c9edaf936394d65eb/version/13/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 2: דייר חדש",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163205/",
+      "assetId": 2163205,
+      "entryId": "1_u9whcgd4",
+      "externalId": "haam_s01_e02_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/89b0fd6e68c04f71baea4f189d275a1e/version/14/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1,  פרק 3: החתול",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163201/",
+      "assetId": 2163201,
+      "entryId": "1_1fwe16y2",
+      "externalId": "haam_s01_e03_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/bbab6dc500a64b14a8aa0f2427abba7c/version/13/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 4: שקט בבקשה",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163202/",
+      "assetId": 2163202,
+      "entryId": "1_l4a7tfev",
+      "externalId": "haam_s01_e04_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/15c4142e4ec24ed0bdd942bb5a034957/version/5/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 5: הביוב עולה",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163203/",
+      "assetId": 2163203,
+      "entryId": "1_h5n2h1v2",
+      "externalId": "haam_s01_e05_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/73b227b5b86d4c7d960d56d02a067b79/version/14/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 6: המעלית",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2163208/",
+      "assetId": 2163208,
+      "entryId": "1_t385l69f",
+      "externalId": "haam_s01_e06_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/a7f0d5a8b1e248af889a0151197f4b1f/version/13/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "אחד העם 1, עונה 1, פרק 7, יחד בגאווה",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/1/2308276/",
+      "assetId": 2308276,
+      "entryId": "1_fqypuul0",
+      "externalId": "haam_s01_e07_full",
+      "localImage": "images/kanbox/ehad-haam-1/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6108a7b963f24a44aef8d5f0520d4770/version/9/width/640/height/360"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 1: יום הולדת לראובן",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2176063/",
+      "assetId": 2176063,
+      "entryId": "1_1s433w2i",
+      "externalId": "haam_s02_e01_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/56a12590e75644a5a75763f7d8b83fa9/version/10/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 2: סופשבוע רגוע",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2218549/",
+      "assetId": 2218549,
+      "entryId": "1_eskpgfx7",
+      "externalId": "haam_s02_e02_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/83b9d39a0b194bae8dbcc20400b93048/version/4/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 3: ככה לא נוהגים",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2218550/",
+      "assetId": 2218550,
+      "entryId": "1_g9avg88g",
+      "externalId": "haam_s02_e03_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9019a71e371447118ae60dd56ce4f10c/version/5/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 4: חוצלארץ",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2218551/",
+      "assetId": 2218551,
+      "entryId": "1_p3l5qmj0",
+      "externalId": "haam_s02_e04_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/8264a57737e24d898d9489ee4970bffb/version/6/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 5: סיבה למסיבה",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2218552/",
+      "assetId": 2218552,
+      "entryId": "1_900igabe",
+      "externalId": "haam_s02_e05_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e1f043b4f8cd452387f79999b2c2cc38/version/4/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 6: למה מי מת?",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2218553/",
+      "assetId": 2218553,
+      "entryId": "1_l93dk0ea",
+      "externalId": "haam_s02_e06_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/1e2a3288d1b74d0caf594806ffbee3a6/version/9/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "אחד העם 1, עונה 2, פרק 7: רצח באחד העם",
+      "pageURL": "https://13tv.co.il/allshows/series/417/season/2/2183441/",
+      "assetId": 2183441,
+      "entryId": "1_4pis97kn",
+      "externalId": "haam_s02_e07_full",
+      "localImage": "images/kanbox/ehad-haam-1/s2-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/8230322c6f754d768302fda2f2442247/version/8/width/640/height/360"
+    }
+  ]
+}

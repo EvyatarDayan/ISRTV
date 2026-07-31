@@ -1,0 +1,57 @@
+{
+  "slug": "bufor",
+  "title": "בופור",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1",
+  "localPoster": "images/kanbox/bufor/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "מאחורי הקלעים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1/VOD-036060ff53b0421006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Bufor/Bufor_BTS_011009_VOD_u8zxc7e/Bufor_BTS_011009_VOD_u8zxc7e_,500,850,.mp4.csmil/master.m3u8",
+      "makoVcmId": "036060ff53b04210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "ddb7267300a04210VgnVCM100000290c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/bufor_making_ofc_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/bufor/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 1",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1/VOD-bf298c89e101421006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Bufor/Bufor_01_041009_VOD_5j6g7d5/Bufor_01_041009_VOD_5j6g7d5_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "bf298c89e1014210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "ddb7267300a04210VgnVCM100000290c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/bufor1c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/bufor/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 2",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1/VOD-84f47e1702f1421004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Bufor/Bufor_02_111009_VOD_iu7t65r/Bufor_02_111009_VOD_iu7t65r_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "84f47e1702f14210VgnVCM100000290c10acRCRD",
+      "makoChannelId": "ddb7267300a04210VgnVCM100000290c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/bufor_2_vod_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/bufor/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 3",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1/VOD-23d910b51924421004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Bufor/Bufor_03_251009_VOD_ta1sc57/Bufor_03_251009_VOD_ta1sc57_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "23d910b519244210VgnVCM100000290c10acRCRD",
+      "makoChannelId": "ddb7267300a04210VgnVCM100000290c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/bufor_3_vodc_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/bufor/s1-ep4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "slug": "yaniv",
+  "title": "יניב",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/537/",
+  "seriesId": 537,
+  "localPoster": "images/kanbox/yaniv/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 1: הקרב על הוועד",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2309345/",
+      "assetId": 2309345,
+      "entryId": "1_2s0sx8c6",
+      "externalId": "shows-yaniv-season-01-episodes-01-full",
+      "localImage": "images/kanbox/yaniv/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2c592b3d78324c4887cb98b87cc993a9/version/19/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 2: האקדח",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2307120/",
+      "assetId": 2307120,
+      "entryId": "1_o3jmt1q3",
+      "externalId": "shows-yaniv-season-01-episodes-02-full",
+      "localImage": "images/kanbox/yaniv/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/0d672aa6678e4146b19f488cc9ad6442/version/32/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 3: סיפורה של כליה",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2307119/",
+      "assetId": 2307119,
+      "entryId": "1_v44mvb8u",
+      "externalId": "shows-yaniv-season-01-episodes-03-full",
+      "localImage": "images/kanbox/yaniv/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6fe649a8325542c7b4892bead2e79d42/version/32/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 4: לאכול עם האויב",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2317843/",
+      "assetId": 2317843,
+      "entryId": "1_733a3lxq",
+      "externalId": "shows-yaniv-season-01-episodes-04-full",
+      "localImage": "images/kanbox/yaniv/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/835cc3a81ca44d4891ca854aa8892d5b/version/24/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 5: הסעודה האחרונה",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2317846/",
+      "assetId": 2317846,
+      "entryId": "1_lbce2c8z",
+      "externalId": "shows-yaniv-season-01-episodes-05-full",
+      "localImage": "images/kanbox/yaniv/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e75be201816b43e6912d9f112e4e748e/version/23/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 6: ההומלסית",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2329059/",
+      "assetId": 2329059,
+      "entryId": "1_2f8e7slf",
+      "externalId": "shows-yaniv-season-01-episodes-06-full",
+      "localImage": "images/kanbox/yaniv/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/3172daace0b545ebb7715318a6fc84e0/version/22/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 7: הסדנה של יניב",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2329061/",
+      "assetId": 2329061,
+      "entryId": "1_szfw7jrm",
+      "externalId": "shows-yaniv-season-01-episodes-07-full",
+      "localImage": "images/kanbox/yaniv/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/08624a32671f4f8cb70ac57fb348f1b5/version/21/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 8: שקרן שקרן",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2343721/",
+      "assetId": 2343721,
+      "entryId": "1_smlfck3p",
+      "externalId": "shows-yaniv-season-01-episodes-08-full",
+      "localImage": "images/kanbox/yaniv/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2cddfa6c006048a2bcef0e788f66fd09/version/21/width/640/height/360"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 9: הארנונה",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2343732/",
+      "assetId": 2343732,
+      "entryId": "1_a36h87n6",
+      "externalId": "shows-yaniv-season-01-episodes-09-full",
+      "localImage": "images/kanbox/yaniv/s1-ep9.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/fe71922d1e4e4553a31e2f9b454d0653/version/20/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 10: המתכון של סבתא",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2354614/",
+      "assetId": 2354614,
+      "entryId": "1_izi6913q",
+      "externalId": "shows-yaniv-season-01-episodes-10-full",
+      "localImage": "images/kanbox/yaniv/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9ad0cc62284b491bb695c939ce243466/version/20/width/640/height/360"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 11: לפטר את הילד",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2354619/",
+      "assetId": 2354619,
+      "entryId": "1_rolf3o63",
+      "externalId": "shows-yaniv-season-01-episodes-11-full",
+      "localImage": "images/kanbox/yaniv/s1-ep11.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/b2e102b7b09e4bec88d07bc59ab7a485/version/19/width/640/height/360"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 12: גט בייבי",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2367811/",
+      "assetId": 2367811,
+      "entryId": "1_3snjojv4",
+      "externalId": "shows-yaniv-season-01-episodes-12-full",
+      "localImage": "images/kanbox/yaniv/s1-ep12.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/4289a3b12625456b8997aecab54a3e03/version/17/width/640/height/360"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 13: הלילה הזה כולו מרור",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2367812/",
+      "assetId": 2367812,
+      "entryId": "1_3np043sw",
+      "externalId": "shows-yaniv-season-01-episodes-13-full",
+      "localImage": "images/kanbox/yaniv/s1-ep13.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/d1837ba18f1e443183c3e1c635bbf0cc/version/17/width/640/height/360"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 14: אבא גנוב, אמא מגניבה",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2380570/",
+      "assetId": 2380570,
+      "entryId": "1_2lgvawok",
+      "externalId": "shows-yaniv-season-01-episodes-14-full",
+      "localImage": "images/kanbox/yaniv/s1-ep14.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/afbdc5d2de1c47d089c38e15d1548353/version/14/width/640/height/360"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 15: בת הטוחן",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2380574/",
+      "assetId": 2380574,
+      "entryId": "1_g56pvkya",
+      "externalId": "shows-yaniv-season-01-episodes-15-full",
+      "localImage": "images/kanbox/yaniv/s1-ep15.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/7dc1a38203fa4ddab3b749f0e8c714bd/version/11/width/640/height/360"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 16: השף ההודי",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2389508/",
+      "assetId": 2389508,
+      "entryId": "1_7yla6j63",
+      "externalId": "shows-yaniv-season-01-episodes-16-full",
+      "localImage": "images/kanbox/yaniv/s1-ep16.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/363ddf51913b4e2b94a75ecb8084d3e7/version/12/width/640/height/360"
+    },
+    {
+      "ep": 17,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 17: הקרקסן",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/2389525/",
+      "assetId": 2389525,
+      "entryId": "1_3eqm1zo1",
+      "externalId": "shows-yaniv-season-01-episodes-17-full",
+      "localImage": "images/kanbox/yaniv/s1-ep17.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/ac6e5cbc720d4d3fbbd77a6826ec6027/version/10/width/640/height/360"
+    },
+    {
+      "ep": 18,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 18: האקס של דבי",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/4486603/",
+      "assetId": 4486603,
+      "entryId": "1_km9mu2fr",
+      "externalId": "shows-yaniv-season-01-episodes-18-full",
+      "localImage": "images/kanbox/yaniv/s1-ep18.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/1e2137e1ecc34e94860eb8e6f7d07c4d/version/1/width/640/height/360"
+    },
+    {
+      "ep": 19,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 19: מחוות גדולות",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/4474510/",
+      "assetId": 4474510,
+      "entryId": "1_jhma03rn",
+      "externalId": "shows-yaniv-season-01-episodes-19-full",
+      "localImage": "images/kanbox/yaniv/s1-ep19.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/af9a296eb917438e91eb5b8a99b36960/version/4/width/640/height/360"
+    },
+    {
+      "ep": 20,
+      "season": 1,
+      "name": "יניב, עונה 1, פרק 20: להיות או לא להיות",
+      "pageURL": "https://13tv.co.il/allshows/series/537/season/1/4485299/",
+      "assetId": 4485299,
+      "entryId": "1_zsagnbqr",
+      "externalId": "shows-yaniv-season-01-episodes-20-full",
+      "localImage": "images/kanbox/yaniv/s1-ep20.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/3179084440cf4137b0e8038d1e4f81bc/version/2/width/640/height/360"
+    }
+  ]
+}

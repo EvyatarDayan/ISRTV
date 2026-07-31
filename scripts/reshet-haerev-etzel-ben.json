@@ -1,0 +1,87 @@
+{
+  "slug": "haerev-etzel-ben",
+  "title": "הערב אצל בן בן ברוך",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/535/",
+  "seriesId": 535,
+  "localPoster": "images/kanbox/haerev-etzel-ben/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 1: נסרין קדרי",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2290561/",
+      "assetId": 2290561,
+      "entryId": "1_kzc2phwo",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-01-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2711ee8aa66b41789757f8919a1e013d/version/25/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 2: אוראל צברי",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2303603/",
+      "assetId": 2303603,
+      "entryId": "1_fru4skce",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-02-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/bb72207719d3491cb2ced0503c28b19a/version/18/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 3: מיכל הקטנה",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2317841/",
+      "assetId": 2317841,
+      "entryId": "1_hxhxvn7a",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-03-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/579e8b45e702408fa9d832057cc2a5f7/version/13/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 4: רשף לוי",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2324485/",
+      "assetId": 2324485,
+      "entryId": "1_w89kmn7l",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-04-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/53765ad39b89482283016d0121467e18/version/14/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 5: קובי מימון",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2339424/",
+      "assetId": 2339424,
+      "entryId": "1_ztpr5gmr",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-05-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/0ed704c2e56d4ffaaacb56e2d8517e7e/version/8/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 6: לירון ויצמן",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2352410/",
+      "assetId": 2352410,
+      "entryId": "1_3h7nagzg",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-06-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/20f95d535040487c8bb7a57059d4b923/version/7/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הערב אצל בן בן ברוך, עונה 1, פרק 7: אודיה",
+      "pageURL": "https://13tv.co.il/allshows/series/535/season/1/2375836/",
+      "assetId": 2375836,
+      "entryId": "1_f5hb8277",
+      "externalId": "shows-tonight-with-ben-ben-baruch-season-01-episodes-07-full",
+      "localImage": "images/kanbox/haerev-etzel-ben/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6e670d1a238c498bb4c9c7dbbf4095cb/version/9/width/640/height/360"
+    }
+  ]
+}

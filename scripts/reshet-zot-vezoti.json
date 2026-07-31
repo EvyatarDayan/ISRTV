@@ -1,0 +1,120 @@
+{
+  "slug": "zot-vezoti",
+  "title": "זאת וזאתי",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/123/",
+  "seriesId": 123,
+  "localPoster": "images/kanbox/zot-vezoti/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 1, הדודה מג'רוז",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2025040/",
+      "assetId": 2025040,
+      "entryId": "0_ij7qi8uf",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-01-full_u0T21FhD",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2733c3b8b2a84e7e8c0eef45680495ae/version/19/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 2, טירונות",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2025545/",
+      "assetId": 2025545,
+      "entryId": "1_38hnbia2",
+      "externalId": "featured-series-zot-ve-zoti-season-02-episodes-02-full_oqlJPsw4",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/93dda9c388404ea49215069192aa8615/version/14/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 3, שוברים דיסטנס",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015440/",
+      "assetId": 2015440,
+      "entryId": "1_y5aae1uo",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-03-full_eINrdVwi",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/798622022a7c494c840409dc5b611d81/version/15/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 4, תותית ומילעל בריטריט",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2025542/",
+      "assetId": 2025542,
+      "entryId": "1_bswj4r97",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-05-full_5Hg7abgk",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/ac3b4da343b64b999a89c705a8c90804/version/13/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 5, תותית ומילעל עושות חיים בבית החולים",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015409/",
+      "assetId": 2015409,
+      "entryId": "0_n56ym367",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-04-full_RBp9kcU2",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2899e9812e5e41d6b552cb352e0d00cb/version/14/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 6, קמפינג",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2025034/",
+      "assetId": 2025034,
+      "entryId": "0_w4zvj7mi",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-06-full_AImAZjf8",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/2288e8c1e1044b55888b87bc56c74817/version/13/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 7, הקמפינג ממשיך",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015367/",
+      "assetId": 2015367,
+      "entryId": "0_0j0mguhc",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-07-full_9usLAPb8",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e141af13bada48ddb36ce89b4b7bfa91/version/17/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 8, תותית ומילעל מקימות מפלגה",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015355/",
+      "assetId": 2015355,
+      "entryId": "0_7f9971qt",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-08-full_0O1SveJI",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/fff145737f894b97b57fb228d1cecb92/version/21/width/640/height/360"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 9, בחזרה לתיכון",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015344/",
+      "assetId": 2015344,
+      "entryId": "1_nvpepn6a",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-09-full",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep9.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/df5a0b0b29ee439aa32ae24ed99e70f7/version/18/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "זאת וזאתי, פרק 10, החתונה",
+      "pageURL": "https://13tv.co.il/allshows/series/123/season/1/2015386/",
+      "assetId": 2015386,
+      "entryId": "0_pzqkpm61",
+      "externalId": "featured-series-zot-ve-zoti-season-01-episodes-10-full",
+      "localImage": "images/kanbox/zot-vezoti/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/b5cb8ca7685c433caf9debc5ff47027a/version/17/width/640/height/360"
+    }
+  ]
+}

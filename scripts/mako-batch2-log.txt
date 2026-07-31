@@ -1,0 +1,81 @@
+Cooling 8s…
+==== etti-alon (אתי אלון) cache=0
+  season 1 mako-vod-keshet/etti_alon-s1
+  found 2
+  - s1~1 mako-vod-keshet/etti_alon-s1/VOD-c05cec8d63ca471026.htm
+  - s1~2 mako-vod-keshet/etti_alon-s1/VOD-38ba78e8310c471027.htm
+DONE etti-alon: 2/2
+==== nicol-raidman (החיים החדשים של ניקול ראידמן) cache=0
+  season 1 mako-vod-keshet/nicol_raidman_new_life-s1
+  found 0
+  season 1 mako-vod-keshet/nicol_raidman_new_life
+  found 0
+DONE nicol-raidman: 0/0
+==== likudnikim (הליכודניקים) cache=0
+  season 1 mako-vod-keshet/likudnikim-s1
+  found 3
+  - s1~1 ako-vod-keshet/likudnikim-s1/VOD-96417126b00ad61027.htm
+  - s1~2 ako-vod-keshet/likudnikim-s1/VOD-d10cf013210ad61027.htm
+  - s1~3 ako-vod-keshet/likudnikim-s1/VOD-a3b2fc01055ad61027.htm
+DONE likudnikim: 3/3
+==== dudu-topaz-case (תיק דודו טופז) cache=0
+  season 1 mako-vod-keshet/dudu_topaz_case-s1
+  found 2
+  - s1~1 od-keshet/dudu_topaz_case-s1/VOD-857f2fc20e93071027.htm
+  - s1~2 od-keshet/dudu_topaz_case-s1/VOD-96aa637acc75071026.htm
+DONE dudu-topaz-case: 2/2
+==== life-is-difficult (החיים הם תקופה קשה) cache=0
+  season 1 mako-vod-keshet/life_is_difficult-s1
+  found 8
+  - s1~1 -keshet/life_is_difficult-s1/VOD-15066445b1af191026.htm
+  - s1~2 -keshet/life_is_difficult-s1/VOD-f692f6318042291026.htm
+  - s1~3 -keshet/life_is_difficult-s1/VOD-96d616e76574291027.htm
+  - s1~4 -keshet/life_is_difficult-s1/VOD-06fdfbe99e48291026.htm
+  - s1~5 -keshet/life_is_difficult-s1/VOD-da1ed6900aea291027.htm
+  - s1~6 -keshet/life_is_difficult-s1/VOD-aa410a05fb2d291027.htm
+  - s1~7 -keshet/life_is_difficult-s1/VOD-32ad0cfd9893391026.htm
+  - s1~8 -keshet/life_is_difficult-s1/VOD-9cf30cfd9893391026.htm
+DONE life-is-difficult: 8/8
+==== hanoch-daum-standup (חנוך דאום - סטנדאפ) cache=0
+  season 1 mako-vod-keshet/hanoch_daum_standup-s1
+  found 0
+  season 1 mako-vod-keshet/hanoch_daum_standup
+  found 0
+DONE hanoch-daum-standup: 0/0
+==== avi-nussbaum-standup (אבי נוסבאום - סטנדאפ) cache=0
+  season 1 mako-vod-keshet/avi_nussbaum_standup-s1
+  found 2
+  - s1~1 shet/avi_nussbaum_standup-s1/VOD-8fa76335bbb8d61027.htm
+  - s1~2 shet/avi_nussbaum_standup-s1/VOD-27a6f55cb51ab71027.htm
+DONE avi-nussbaum-standup: 2/2
+==== ori-hizkiah (אורי חזקיה – הופה לא קרה כלום) cache=0
+  season 1 mako-vod-keshet/ori_hizkiah_nothing_happened-s1
+  found 1
+  - s1~1 _hizkiah_nothing_happened-s1/VOD-90b45df0c3da381027.htm
+DONE ori-hizkiah: 1/1
+==== hundred-percent-ashkenazi (מאה אחוז אשכנזי) cache=0
+  season 1 mako-vod-keshet/hundred_percent_ashkenazi-s1
+  found 0
+  season 1 mako-vod-keshet/hundred_percent_ashkenazi
+  found 0
+DONE hundred-percent-ashkenazi: 0/0
+==== avi-bitter (אבי ביטר חי בסרט) cache=0
+  season 1 mako-vod-bip/avi_bitter-s1
+  found 16
+  - s1~1 /mako-vod-bip/avi_bitter-s1/VOD-32ffad7b5bd1e11004.htm
+  - s1~2 /mako-vod-bip/avi_bitter-s1/VOD-f14f866696c3e11004.htm
+  - s1~3 /mako-vod-bip/avi_bitter-s1/VOD-a7d170d6e4afd11004.htm
+  - s1~4 /mako-vod-bip/avi_bitter-s1/VOD-32450675ca9fd11004.htm
+  - s1~5 /mako-vod-bip/avi_bitter-s1/VOD-483a70d6e4afd11004.htm
+  - s1~6 /mako-vod-bip/avi_bitter-s1/VOD-f3ed70d6e4afd11004.htm
+  - s1~7 /mako-vod-bip/avi_bitter-s1/VOD-51b749b9664fd11004.htm
+  - s1~8 /mako-vod-bip/avi_bitter-s1/VOD-eb99fcb3a98fd11004.htm
+  - s1~9 /mako-vod-bip/avi_bitter-s1/VOD-a61384f1cb8fd11004.htm
+  - s1~10 /mako-vod-bip/avi_bitter-s1/VOD-c59a1f61079fd11004.htm
+  - s1~11 /mako-vod-bip/avi_bitter-s1/VOD-d7761f61079fd11004.htm
+  - s1~12 /mako-vod-bip/avi_bitter-s1/VOD-3c2cc8e77881e11004.htm
+  - s1~13 /mako-vod-bip/avi_bitter-s1/VOD-9305c5e12ac3e11004.htm
+  - s1~14 /mako-vod-bip/avi_bitter-s1/VOD-1218ac01e48ff21006.htm
+  - s1~15 /mako-vod-bip/avi_bitter-s1/VOD-4381ac01e48ff21006.htm
+  - s1~16 /mako-vod-bip/avi_bitter-s1/VOD-4cc2ac01e48ff21006.htm
+DONE avi-bitter: 16/16

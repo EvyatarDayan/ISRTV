@@ -1,0 +1,82 @@
+{
+  "seriesId": "535919",
+  "slug": "haemet",
+  "title": "האמת",
+  "poster": "https://www.kan.org.il/media/5s5govb0/1920x1080_no-logo_%D7%94%D7%90%D7%9E%D7%AA.jpg?width=1920&height=1080&v=1dae4218dc061a0",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-535919/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/535920/",
+      "imageURL": "https://www.kan.org.il/media/fzjlbk1y/vlcsnap-2024-06-20-14h22m41s288.jpg?rxy=0.4895864201411026,0.3954539251839326&width=490&height=272&v=1dadd14fa5e7630",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mniu8l17/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/535930/",
+      "imageURL": "https://www.kan.org.il/media/orshzhfh/vlcsnap-2024-06-20-14h49m11s668.jpg?rxy=0.13217023526301877,0.7864538126225836&width=490&height=272&v=1dae1cc911c9b40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u437uzw6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761805/",
+      "imageURL": "https://www.kan.org.il/media/vv1dimre/%D7%90%D7%AA%D7%A8.jpg?rxy=0.4467636709184217,0.29170432819716813&width=490&height=272&v=1dae42b82fb87e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3yd5xr4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761808/",
+      "imageURL": "https://www.kan.org.il/media/em3n143u/%D7%94%D7%90%D7%9E%D7%AA-%D7%A4%D7%A8%D7%A7-4.jpg?width=490&height=272&v=1dae1284c612fb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eessqnd3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761809/",
+      "imageURL": "https://www.kan.org.il/media/os5bqpep/%D7%90%D7%AA%D7%A8.jpg?rxy=0.46002398634070457,0.2726598460023109&width=490&height=272&v=1daf23f7b51c9b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yc0rd2r9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761814/",
+      "imageURL": "https://www.kan.org.il/media/hllnpzz2/%D7%90%D7%AA%D7%A8.jpg?rxy=0.4999993345542046,0.15919883868403117&width=490&height=272&v=1daecc85f0a3610",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y6gn5pqw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761815/",
+      "imageURL": "https://www.kan.org.il/media/5bkgdhyd/%D7%90%D7%AA%D7%A8.jpg?rxy=0.5163196878418167,0.2830514582066481&width=490&height=272&v=1daf2427f772910",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h9uhi6oo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761816/",
+      "imageURL": "https://www.kan.org.il/media/bd5n5041/%D7%90%D7%AA%D7%A8.jpg?rxy=0.548656626067385,0.2405991858151433&width=490&height=272&v=1dc15b5ccd865b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8cbc27br/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep8.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/haemet/series.jpg"
+}

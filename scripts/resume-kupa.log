@@ -1,0 +1,38 @@
+Need streams 29
+[1/29] s1e14 FAIL
+[2/29] s1e16 OK 1_qsppx5cn
+[3/29] s1e17 OK 1_tsz6366y
+[4/29] s1e18 OK 1_mkb6ofzb
+[5/29] s1e19 OK 1_caqiupm2
+[6/29] s1e20 OK 1_dsolgd88
+[7/29] s2e1 OK 1_zmdljg8g
+[8/29] s2e2 OK 1_kxavyw9n
+[9/29] s2e3 OK 1_juj9uaa7
+[10/29] s2e4 OK 1_28ruvlzc
+[11/29] s2e5 OK 1_fhen1fb5
+[12/29] s2e6 OK 1_izy77qyx
+[13/29] s2e7 OK 1_qrz6imlk
+[14/29] s2e8 OK 1_n0i1khx6
+[15/29] s2e9 OK 1_lupa6vd7
+[16/29] s2e10 OK 1_xm478vjs
+[17/29] s2e11 OK 1_g197oqsp
+[18/29] s2e12 OK 1_3g1tzc7j
+[19/29] s2e13 OK 1_kvtuphm6
+[20/29] s2e14 OK 1_x2g9r4th
+[21/29] s2e15 OK 1_e3w7edqc
+[22/29] s2e16 OK 1_gbbascsx
+[23/29] s2e17 OK 1_by2ib41h
+[24/29] s2e18 OK 1_0casqzkz
+[25/29] s2e19 OK 1_0w4m9wy9
+[26/29] s2e20 OK 1_cyi4po0y
+[27/29] s3e1 OK 1_82w8k0c5
+[28/29] s3e2 OK 1_2ki7470h
+[29/29] s3e3 OK 1_g8cyt11h
+{
+  '1': { n: 20, ok: 19 },
+  '2': { n: 20, ok: 20 },
+  '3': { n: 20, ok: 20 },
+  '4': { n: 21, ok: 21 },
+  '5': { n: 20, ok: 20 }
+}
+total 101 streams 100

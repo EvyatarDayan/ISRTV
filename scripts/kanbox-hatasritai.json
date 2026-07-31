@@ -1,0 +1,100 @@
+{
+  "seriesId": "13835",
+  "slug": "hatasritai",
+  "title": "התסריטאי",
+  "poster": "https://images.taboola.com/taboola/image/fetch/f_jpg%2Cq_auto%2Ch_434%2Cw_780%2Cc_fill%2Cg_faces:auto%2Ce_sharpen/https%3A//www.kan.org.il/media/34jp5mak/tkuma_6.jpg%3Frmode%3Dpad%26width%3D1200%26height%3D630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13835/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/78334/",
+      "imageURL": "https://www.kan.org.il/media/iv0f2bbm/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-bd3505a4-76f2-48bd-b9e9-9f91c4f4d0b2.jpg?width=490&height=272&v=1d97af68ce0da70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p3y1xy2g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/78545/",
+      "imageURL": "https://www.kan.org.il/media/gu3hje4i/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-856b3ba3-eccb-4036-bb5f-5f826447b8c8.jpg?width=490&height=272&v=1d97af68e08dfb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1oo0a145/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/78750/",
+      "imageURL": "https://www.kan.org.il/media/igel1utn/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-8984f60a-1ae7-4d11-be6a-f527863c67aa.jpg?width=490&height=272&v=1d97af68f2aca70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i0ozt56h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/79101/",
+      "imageURL": "https://www.kan.org.il/media/jdsbg5vd/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-435c1bd5-55af-43dc-8be2-5190de6b9650.jpg?width=490&height=272&v=1d97af690438d70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r60znafz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/79309/",
+      "imageURL": "https://www.kan.org.il/media/abfo40nx/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-a9aa23bc-0bfb-44e0-8e65-7f1ed1682969.jpg?width=490&height=272&v=1d97af691512ce0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qbhx0and/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/79575/",
+      "imageURL": "https://www.kan.org.il/media/ezydx4xr/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-03375838-bddf-4d97-8535-61bca921f3c9.jpg?width=490&height=272&v=1d97af6927f4ca0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2j36si5d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/80092/",
+      "imageURL": "https://www.kan.org.il/media/d13krpjl/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-793ad46a-4d89-45e8-9972-33f151a7322c.jpg?width=490&height=272&v=1d97af694d152f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u35wm3u1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/80095/",
+      "imageURL": "https://www.kan.org.il/media/gdrc3jts/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-c0a7ff7e-2f18-43e3-bbe2-b9d2e2f611d8.jpg?width=490&height=272&v=1d97af695f56090",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_46by27nw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep8.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/80098/",
+      "imageURL": "https://www.kan.org.il/media/u1kgoi3p/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-4a73fdfe-f7b1-4744-bb4b-e0f9738ce471.jpg?width=490&height=272&v=1d97af69720e840",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nwkmf59o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep9.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 10,
+      "name": "עונה 1 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13835/s1/80101/",
+      "imageURL": "https://www.kan.org.il/media/wmhjfkep/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-f36c8557-849f-4b73-9e91-be8fe0259e79.jpg?width=490&height=272&v=1d97af69862de20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_odhz69tx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hatasritai/ep10.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/hatasritai/series.jpg"
+}

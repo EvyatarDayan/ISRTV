@@ -1,0 +1,98 @@
+{
+  "slug": "blackspace",
+  "title": "בלקספייס",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/87/",
+  "seriesId": 87,
+  "localPoster": "images/kanbox/blackspace/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 1: פרק הבכורה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026815/",
+      "assetId": 2026815,
+      "entryId": "1_5zekadhs",
+      "externalId": "vod-blackspace-vod-season-01-episodes-01-full",
+      "localImage": "images/kanbox/blackspace/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/589b1d6ce4f24e8fa734eb271156ba95/version/45/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 2: החקירה מתחילה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026818/",
+      "assetId": 2026818,
+      "entryId": "1_94tboixa",
+      "externalId": "vod-blackspace-vod-season-01-episodes-02-full",
+      "localImage": "images/kanbox/blackspace/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/bdbe9b52f8c84677b72227b60395a18b/version/45/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 3: הבלקספייס נחשף",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026821/",
+      "assetId": 2026821,
+      "entryId": "1_8jryxbta",
+      "externalId": "vod-blackspace-vod-season-01-episodes-03-full",
+      "localImage": "images/kanbox/blackspace/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/22db746b271c4fa5ac85a3144a757564/version/45/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 4: המעצרים מתחילים",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026824/",
+      "assetId": 2026824,
+      "entryId": "1_4lxbuuky",
+      "externalId": "vod-blackspace-vod-season-01-episodes-04-full",
+      "localImage": "images/kanbox/blackspace/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/d607f84f30eb465f9369ef4ae5ec686b/version/45/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 5: המתיחות בתיכון גוברת ודוידי מאבד שליטה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026832/",
+      "assetId": 2026832,
+      "entryId": "1_t2qk033v",
+      "externalId": "vod-blackspace-vod-season-01-episodes-05-full",
+      "localImage": "images/kanbox/blackspace/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/dbf651665dfa41cb85d909d5be442b8b/version/44/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 6: אסון נוסף נופל על התיכון ומשנה את התמונה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2015820/",
+      "assetId": 2015820,
+      "entryId": "1_pkbmbv9x",
+      "externalId": "vod-blackspace-vod-season-01-episodes-06-full",
+      "localImage": "images/kanbox/blackspace/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9f9d01452f1c4bbd8117fdb455a571cb/version/45/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 7: המעשה ששפך אור על הפרשה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2015778/",
+      "assetId": 2015778,
+      "entryId": "1_ywfvp6gb",
+      "externalId": "vod-blackspace-vod-season-01-episodes-07-full",
+      "localImage": "images/kanbox/blackspace/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/5412c6819615447daf82cc2aa0712d0e/version/45/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "בלקספייס, עונה 1, פרק 8: פרק סיום עוצר נשימה",
+      "pageURL": "https://13tv.co.il/allshows/series/87/season/1/2026860/",
+      "assetId": 2026860,
+      "entryId": "1_51lze3j0",
+      "externalId": "vod-blackspace-vod-season-01-episodes-08-full",
+      "localImage": "images/kanbox/blackspace/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/116c903e10284ac1be5af519d6491a07/version/45/width/640/height/360"
+    }
+  ]
+}

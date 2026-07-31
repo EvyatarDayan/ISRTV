@@ -1,0 +1,82 @@
+{
+  "seriesId": "13827",
+  "slug": "mona",
+  "title": "מונא",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13827/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98663/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jgq2c4qo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98666/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hempk6u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98669/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y7274y7z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98672/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kipju3m1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98675/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mwmrd9o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98678/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_580t2j5h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98681/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qdtvdgic/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98684/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7a9j6yb1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/mona/ep8.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/mona/series.jpg",
+  "poster": "https://www.kan.org.il/media/af2ablwx/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1920x1080-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-1035748f-13e0-41ca-9d77-8f91a9b523dc.jpg?width=1920&height=1080&v=1dade9e7681d470"
+}

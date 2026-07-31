@@ -1,0 +1,91 @@
+Need images: 87/101
+OK  s1e1 16433
+OK  s1e2 58634
+OK  s1e3 22316
+OK  s1e4 25717
+OK  s1e5 29880
+OK  s1e6 25680
+OK  s1e7 26029
+OK  s1e8 17085
+OK  s1e9 28625
+OK  s1e10 25289
+OK  s1e11 28874
+OK  s1e12 16987
+OK  s1e13 20886
+OK  s1e14 22047
+OK  s1e15 20901
+OK  s1e16 22866
+OK  s1e17 21368
+OK  s1e18 21936
+OK  s1e19 webp→jpeg 113527
+OK  s1e20 21068
+OK  s2e1 25720
+OK  s2e3 16214
+OK  s2e4 16942
+OK  s2e5 19063
+OK  s2e6 26067
+OK  s2e7 20505
+OK  s2e8 24171
+OK  s2e9 13775
+OK  s2e10 23856
+OK  s3e1 18830
+OK  s3e2 29539
+OK  s3e3 16631
+OK  s3e4 15443
+OK  s3e5 22089
+OK  s3e6 26112
+OK  s3e7 22712
+OK  s3e8 22972
+OK  s3e9 20175
+OK  s3e10 26762
+OK  s3e11 21672
+OK  s3e12 22781
+OK  s3e13 15190
+OK  s3e14 16819
+OK  s3e15 22536
+OK  s3e16 31829
+OK  s3e17 16024
+OK  s3e18 25040
+OK  s3e19 14716
+OK  s3e20 16940
+OK  s4e4 133676
+OK  s4e5 435909
+OK  s4e6 webp→jpeg 136219
+OK  s4e7 517558
+OK  s4e8 webp→jpeg 197227
+OK  s4e9 webp→jpeg 150494
+OK  s4e10 webp→jpeg 135069
+OK  s4e11 webp→jpeg 188916
+OK  s4e12 webp→jpeg 173210
+OK  s4e13 webp→jpeg 181404
+OK  s4e14 webp→jpeg 142097
+OK  s4e15 webp→jpeg 139265
+OK  s4e16 webp→jpeg 131582
+FAIL s4e17
+OK  s4e18 webp→jpeg 166236
+OK  s4e19 webp→jpeg 146013
+OK  s4e20 webp→jpeg 269683
+OK  s4e21 webp→jpeg 174503
+OK  s5e1 webp→jpeg 132802
+OK  s5e2 webp→jpeg 108658
+OK  s5e3 webp→jpeg 166674
+OK  s5e4 webp→jpeg 119782
+OK  s5e5 webp→jpeg 195913
+OK  s5e6 webp→jpeg 136881
+OK  s5e7 webp→jpeg 106356
+OK  s5e8 210436
+OK  s5e9 webp→jpeg 129955
+OK  s5e10 webp→jpeg 123083
+OK  s5e11 webp→jpeg 116157
+OK  s5e12 webp→jpeg 138743
+OK  s5e13 webp→jpeg 141910
+OK  s5e14 148840
+OK  s5e15 webp→jpeg 99109
+OK  s5e16 webp→jpeg 170322
+OK  s5e17 webp→jpeg 200999
+OK  s5e18 webp→jpeg 199989
+OK  s5e19 webp→jpeg 132292
+OK  s5e20 200116
+
+Done. fetched ok=86 fail=1
+Valid JPEGs: 100/101 (bad remaining: 1)

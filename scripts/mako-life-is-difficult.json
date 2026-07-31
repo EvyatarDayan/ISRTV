@@ -1,0 +1,105 @@
+{
+  "slug": "life-is-difficult",
+  "title": "החיים הם תקופה קשה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1",
+  "localPoster": "images/kanbox/life-is-difficult/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "כיתת כוננות ביישוב",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-15066445b1af191026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "15066445b1af1910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/09/23/Hachaim_Hem_Tkufa_Kasha1_01_230924_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "חנוך מקבל את השבת",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-f692f6318042291026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "f692f63180422910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/09/30/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "חנוך מתגייס לצה\"ל",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-96d616e76574291027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "96d616e765742910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/10/05/Hachaim_Hem_Tkufa_Kasha_03_051024_06_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "ההתנחלות החדשה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-06fdfbe99e48291026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "06fdfbe99e482910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/10/21/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "מה לי ולפוליטיקה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-da1ed6900aea291027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "da1ed6900aea2910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/10/28/Hachaim_Hem_Tkufa_Kasha_1_05_281024_VOD_2_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הסיבוך עם האמריקאים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-aa410a05fb2d291027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "aa410a05fb2d2910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/11/04/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הטיול",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-32ad0cfd9893391026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "32ad0cfd98933910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/11/18/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "בחזרה לישיבה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult-s1/VOD-9cf30cfd9893391026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "9cf30cfd98933910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "f4e59d7616b02910VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/11/18/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/life-is-difficult/s1-ep8.jpg"
+    }
+  ]
+}

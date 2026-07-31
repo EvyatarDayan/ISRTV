@@ -1,0 +1,109 @@
+{
+  "slug": "haisraelim",
+  "title": "הישראלים",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/141/",
+  "seriesId": 141,
+  "localPoster": "images/kanbox/haisraelim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 1",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/4154414/",
+      "assetId": 4154414,
+      "entryId": "1_wfgoxht3",
+      "externalId": "1_wfgoxht3",
+      "localImage": "images/kanbox/haisraelim/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/38344c5dea9f4af79e8813735dc0a102/version/0/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 2",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2293814/",
+      "assetId": 2293814,
+      "entryId": "1_ovdo7ave",
+      "externalId": "haisraelim_s01_e02_full",
+      "localImage": "images/kanbox/haisraelim/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/c2aebf8fba174c2789ce05a3da79a887/version/4/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 3",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2095172/",
+      "assetId": 2095172,
+      "entryId": "1_sw784jt7",
+      "externalId": "1_sw784jt7",
+      "localImage": "images/kanbox/haisraelim/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/236639cb253c4f62bc92b9b00df3a031/version/1/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 4",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2015395/",
+      "assetId": 2015395,
+      "entryId": "1_3mogjynk",
+      "externalId": "haisraelim_s01_e04_full",
+      "localImage": "images/kanbox/haisraelim/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/d0b473d9b42b4b009925bad90997fee6/version/9/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 5",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2095191/",
+      "assetId": 2095191,
+      "entryId": "1_k2hm0wgd",
+      "externalId": "1_k2hm0wgd",
+      "localImage": "images/kanbox/haisraelim/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/4bfa2ade45cc44dfb42e4193e7b32e20/version/1/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 6",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2095211/",
+      "assetId": 2095211,
+      "entryId": "1_5bh5f332",
+      "externalId": "1_5bh5f332",
+      "localImage": "images/kanbox/haisraelim/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/119ddeb9fe054937bc4a081e0e8aa946/version/1/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 7",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2015366/",
+      "assetId": 2015366,
+      "entryId": "1_tykzc499",
+      "externalId": "haisraelim_s01_e07_full",
+      "localImage": "images/kanbox/haisraelim/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/067f6339a14a4f8c9f2375b187af7924/version/8/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "הישראלים, עונה 1, פרק 8",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2015325/",
+      "assetId": 2015325,
+      "entryId": "1_pqryiw78",
+      "externalId": "haisraelim_s01_e08_full",
+      "localImage": "images/kanbox/haisraelim/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/23409fcd1a1942ed828b33d0864704e6/version/19/width/640/height/360"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "הישראלים: לקט כדורגל",
+      "pageURL": "https://13tv.co.il/allshows/series/141/season/1/2293815/",
+      "assetId": 2293815,
+      "entryId": "1_f6z0a5n7",
+      "externalId": "entertainment-haisraelim-season-01-episodes-full-leketsport",
+      "localImage": "images/kanbox/haisraelim/s1-ep11.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/3f5c5f43493b4439a47b6514f07baace/version/4/width/640/height/360"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "seriesId": "13291",
+  "slug": "shtokholm",
+  "title": "שטוקהולם",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13291/",
+  "episodes": [
+    {
+      "id": "shtokholm-s1-ep1",
+      "season": 1,
+      "ep": 1,
+      "name": "Season 1 Chapter 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87633/",
+      "imageURL": "https://www.kan.org.il/media/sxqh1ey3/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40485_aa.jpeg?width=490&height=272&v=1d97af307456410",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0sygkyt2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep1.jpg"
+    },
+    {
+      "id": "shtokholm-s1-ep2",
+      "season": 1,
+      "ep": 2,
+      "name": "Season 1 Chapter 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87636/",
+      "imageURL": "https://www.kan.org.il/media/hrcfvbnz/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40486_aa.jpeg?width=490&height=272&v=1d97af3085b8f00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_usjmhtkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep2.jpg"
+    },
+    {
+      "id": "shtokholm-s1-ep3",
+      "season": 1,
+      "ep": 3,
+      "name": "Season 1 Chapter 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87639/",
+      "imageURL": "https://www.kan.org.il/media/cq2moav2/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40488_aa.jpeg?width=490&height=272&v=1d97af3095e8010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kyp57enp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep3.jpg"
+    },
+    {
+      "id": "shtokholm-s1-ep4",
+      "season": 1,
+      "ep": 4,
+      "name": "Season 1 Chapter 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87642/",
+      "imageURL": "https://www.kan.org.il/media/me2d1af5/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40489_aa.jpeg?width=490&height=272&v=1d97af30a6800d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_23f60iwo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep4.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep1",
+      "season": 2,
+      "ep": 1,
+      "name": "Season 2 Chapter 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112510/",
+      "imageURL": "https://www.kan.org.il/media/nyinxfwi/https-kanstaticazureedgenet-download-pictures-2020-4-27-imgid-32573_aa.jpeg?width=490&height=272&v=1d97af2fef4ca30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j0yj95ph/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep1.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep2",
+      "season": 2,
+      "ep": 2,
+      "name": "Season 2 Chapter 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112513/",
+      "imageURL": "https://www.kan.org.il/media/fk0ahtf4/https-kanstaticazureedgenet-download-pictures-2020-4-27-imgid-32574_aa.jpeg?width=490&height=272&v=1d97af2fff52330",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_134f8w93/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep2.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep3",
+      "season": 2,
+      "ep": 3,
+      "name": "Season 2 Chapter 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112516/",
+      "imageURL": "https://www.kan.org.il/media/jrqkhadc/https-kanstaticazureedgenet-download-pictures-2020-5-13-imgid-33406_aa.jpeg?width=490&height=272&v=1d97af300ff8e50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mh0hw6c2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep3.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep4",
+      "season": 2,
+      "ep": 4,
+      "name": "Season 2 Chapter 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112522/",
+      "imageURL": "https://www.kan.org.il/media/kq1fzhs5/https-kanstaticazureedgenet-download-pictures-2022-10-16-imgid-33748_aa.jpeg?width=490&height=272&v=1d97af301fbefb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkrilcx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep4.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep5",
+      "season": 2,
+      "ep": 5,
+      "name": "Season 2 Chapter 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113353/",
+      "imageURL": "https://www.kan.org.il/media/qlndps4h/https-kanstaticazureedgenet-download-pictures-2020-5-24-imgid-33945_aa.jpeg?width=490&height=272&v=1d97af3032c0b40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hq91xlh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep5.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep6",
+      "season": 2,
+      "ep": 6,
+      "name": "Season 2 Chapter 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113531/",
+      "imageURL": "https://www.kan.org.il/media/c0dj15j5/https-kanstaticazureedgenet-download-pictures-2020-5-31-imgid-34294_aa.jpeg?width=490&height=272&v=1d97af304390e70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8rhb9ozy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep6.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep7",
+      "season": 2,
+      "ep": 7,
+      "name": "Season 2 Chapter 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113766/",
+      "imageURL": "https://www.kan.org.il/media/313p4sfq/https-kanstaticazureedgenet-download-pictures-2020-6-7-imgid-34678_aa.jpeg?width=490&height=272&v=1d97af305387d10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7nvejit/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep7.jpg"
+    },
+    {
+      "id": "shtokholm-s2-ep8",
+      "season": 2,
+      "ep": 8,
+      "name": "Season 2 Chapter 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113945/",
+      "imageURL": "https://www.kan.org.il/media/nc5eutbz/https-kanstaticazureedgenet-download-pictures-2020-6-14-imgid-35036_aa.jpeg?width=490&height=272&v=1d97af3063ad1e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cle4pyah/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep8.jpg"
+    }
+  ]
+}

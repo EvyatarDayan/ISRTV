@@ -1,0 +1,131 @@
+{
+  "slug": "ha-maabara",
+  "title": "המעברה",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/718/",
+  "seriesId": 718,
+  "localPoster": "images/kanbox/ha-maabara/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 1: ארץ חדשה",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4315562/",
+      "assetId": 4315562,
+      "entryId": "1_wg5hun31",
+      "externalId": "shows-hamaabara-season-01-episodes-01-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9ae4275875d640cbb87394e2d3a3b601/version/13/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "המעברה, עונה 1: מאחורי הקלעים של הסדרה",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4314033/",
+      "assetId": 4314033,
+      "entryId": "1_8tk3lzqr",
+      "externalId": "shows-hamaabara-season-01-episodes-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/8173add7958e42faa72777fa8b3a4f0b/version/12/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 2: הכול סוכר",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4324183/",
+      "assetId": 4324183,
+      "entryId": "1_lssh7r8n",
+      "externalId": "shows-hamaabara-season-01-episodes-02-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/699b50e6c3d5442292b66f4c84176bd4/version/12/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 3: סרט קולנוע",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4332392/",
+      "assetId": 4332392,
+      "entryId": "1_gxi99fi0",
+      "externalId": "shows-hamaabara-season-01-episodes-03-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9e52ce40fac8403b8a64ed6d777a8d29/version/11/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 4: ברוך רופא חולים",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4349097/",
+      "assetId": 4349097,
+      "entryId": "1_3uxowgvx",
+      "externalId": "shows-hamaabara-season-01-episodes-04-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e3cda6997b3342ada3ea17d96e92f653/version/10/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 5: רחמים המציל",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4356875/",
+      "assetId": 4356875,
+      "entryId": "1_epfyw9wv",
+      "externalId": "shows-hamaabara-season-01-episodes-05-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/ae8c1c40a8474db49fa1a124639bd870/version/7/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 6: הולך בתל\"ם",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4369559/",
+      "assetId": 4369559,
+      "entryId": "1_j3ztqy3o",
+      "externalId": "shows-hamaabara-season-01-episodes-06-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/df36bb7aa081419784f8e9aba5980590/version/6/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 7: בינגו",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4381208/",
+      "assetId": 4381208,
+      "entryId": "1_9ytqgld5",
+      "externalId": "shows-hamaabara-season-01-episodes-07-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/1cf8dc50fcf04b49b8dc019eac473463/version/7/width/640/height/360"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 8: תחרות תחפושות",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4386697/",
+      "assetId": 4386697,
+      "entryId": "1_z2ak7qnp",
+      "externalId": "shows-hamaabara-season-01-episodes-08-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep9.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/c28d5e855e2a44b3a6371d52b3b8d2fb/version/5/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 9: בחירתה של סופי",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4389919/",
+      "assetId": 4389919,
+      "entryId": "1_vr3fh0kh",
+      "externalId": "shows-hamaabara-season-01-episodes-09-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/f8842dc672d34cd7ac7edf39e4f161b1/version/3/width/640/height/360"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "המעברה, עונה 1, פרק 10: ספיישל סצנות אהובות",
+      "pageURL": "https://13tv.co.il/allshows/series/718/season/1/4408252/",
+      "assetId": 4408252,
+      "entryId": "1_jexubq6u",
+      "externalId": "shows-hamaabara-season-01-episodes-10-full",
+      "localImage": "images/kanbox/ha-maabara/s1-ep11.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/0ad29c5a2fb44db2a31dbd0b9a3191cc/version/2/width/640/height/360"
+    }
+  ]
+}

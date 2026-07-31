@@ -1,0 +1,82 @@
+{
+  "seriesId": "13684",
+  "slug": "hadavar-hagadol",
+  "title": "הדבר הגדול המיוחד",
+  "poster": "https://www.kan.org.il/media/k01djoku/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1920x1080-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-e44336df-3673-4194-9ec5-d2ed64b1df40.jpg?width=1920&height=1080&v=1dade9e232e8020",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13684/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108483/",
+      "imageURL": "https://www.kan.org.il/media/b0elugcy/2020-2-13-imgid-28490_b.jpeg?width=490&height=272&v=1d97574716f8390",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p01v0gzy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108486/",
+      "imageURL": "https://www.kan.org.il/media/uz0c24g0/2020-2-13-imgid-28491_b.jpeg?width=490&height=272&v=1d9757472ae6c30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_18jz48km/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108489/",
+      "imageURL": "https://www.kan.org.il/media/epzazwbz/2020-2-13-imgid-28492_b.jpeg?width=490&height=272&v=1d9757473e342b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9y4b7u39/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108492/",
+      "imageURL": "https://www.kan.org.il/media/lvwjlnsi/2020-2-13-imgid-28493_b.jpeg?width=490&height=272&v=1d97574752ed580",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pajul3kq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108495/",
+      "imageURL": "https://www.kan.org.il/media/l1cfojiv/2020-2-13-imgid-28494_b.jpeg?width=490&height=272&v=1d9757476862820",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z01nc9dn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108498/",
+      "imageURL": "https://www.kan.org.il/media/vtvi2eyi/2020-2-13-imgid-28495_b.jpeg?width=490&height=272&v=1d9757477ddeff0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_51yuxggu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108501/",
+      "imageURL": "https://www.kan.org.il/media/1htliig2/2020-2-13-imgid-28496_b.jpeg?width=490&height=272&v=1d97574792515f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wgnn0hy1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108504/",
+      "imageURL": "https://www.kan.org.il/media/v0emwlnx/2020-2-13-imgid-28497_b.jpeg?width=490&height=272&v=1d975747a64e8f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0luul0jo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep8.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/hadavar-hagadol/series.jpg"
+}

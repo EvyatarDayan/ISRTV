@@ -1,0 +1,82 @@
+{
+  "seriesId": "841973",
+  "slug": "huliganim",
+  "title": "חוליגנים",
+  "poster": "https://www.kan.org.il/media/3hndg3ax/1920x1080_no-logo_%D7%97%D7%95%D7%9C%D7%99%D7%92%D7%A0%D7%99%D7%9D.jpg?width=1920&height=1080&v=1dc0b90fea27c90",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-841973/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841980/",
+      "imageURL": "https://www.kan.org.il/media/i2hlhuj4/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1db5adb2aed6420",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gyb847em/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841981/",
+      "imageURL": "https://www.kan.org.il/media/ueqjptn4/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4228528472091712,0.3046443522867981&width=490&height=272&v=1db5adbde16b790",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lwpgomrg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841982/",
+      "imageURL": "https://www.kan.org.il/media/dovohx4i/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.31553893233594016,0.3288503295757347&width=490&height=272&v=1db5adc8e7922d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_udji50fc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841984/",
+      "imageURL": "https://www.kan.org.il/media/l4xdxyau/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc0adc572b9870",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aq74hhed/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841986/",
+      "imageURL": "https://www.kan.org.il/media/unjh1vvd/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.31009860591635496,0.45458722029586857&width=490&height=272&v=1db5ade31a50720",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5zkrxnz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841987/",
+      "imageURL": "https://www.kan.org.il/media/r2rin4jl/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5385923155389324,0.6045042823083359&width=490&height=272&v=1db5adedfc79480",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ovgfs6n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841988/",
+      "imageURL": "https://www.kan.org.il/media/wsiala13/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4433866031961918,0.4255710147450684&width=490&height=272&v=1db5adf98a21ed0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ra11gvgn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841989/",
+      "imageURL": "https://www.kan.org.il/media/ef5a3fiz/s0476862_100_11_36_00still001.jpg?width=490&height=272&v=1dc0a185a333330",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d5yh9w7r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/huliganim/ep8.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/huliganim/series.jpg"
+}

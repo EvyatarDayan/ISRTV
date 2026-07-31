@@ -1,0 +1,73 @@
+{
+  "seriesId": "962212",
+  "slug": "makom-sameach",
+  "title": "מקום שמח",
+  "poster": "https://www.kan.org.il/media/opqljndw/share-image_1200x630-%d7%9e%d7%a7%d7%95%d7%9d-%d7%a9%d7%9e%d7%97.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-962212/",
+  "episodes": [
+    {
+      "id": "makom-sameach-ep1",
+      "ep": 1,
+      "name": "פרק 1 - נא לגעת",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962230/",
+      "imageURL": "https://www.kan.org.il/media/3ouahgan/%D7%97%D7%93%D7%A9-%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc4c1db9510710",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890934/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep2",
+      "ep": 2,
+      "name": "פרק 2 - שמחה בחלקך",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962235/",
+      "imageURL": "https://www.kan.org.il/media/h3uae1nq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc42997f661be0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890935/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep3",
+      "ep": 3,
+      "name": "פרק 3 - בובות על חוטים",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962236/",
+      "imageURL": "https://www.kan.org.il/media/o5rjv02e/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc4299b539dd10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890937/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep4",
+      "ep": 4,
+      "name": "פרק 4 - הנקניקייה שלי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962239/",
+      "imageURL": "https://www.kan.org.il/media/0gqbd3as/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc429a0333de80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890938/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep5",
+      "ep": 5,
+      "name": "פרק 5 - כשהייתי יפה, לא ידעתי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966637/",
+      "imageURL": "https://www.kan.org.il/media/jbcfsup1/%D7%9C%D7%90%D7%AA%D7%A8-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.jpg?width=490&height=272&v=1dc571a1e8d1180",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913610/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep6",
+      "ep": 6,
+      "name": "פרק 6 - סודות חבויים",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966639/",
+      "imageURL": "https://www.kan.org.il/media/42idsanh/%D7%A9%D7%9E%D7%97.jpg?rxy=0.21385353551872352,0.4321790790194169&width=490&height=272&v=1dc5992395d10d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913611/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep7",
+      "ep": 7,
+      "name": "פרק 7 - תיירות יהודית",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966641/",
+      "imageURL": "https://www.kan.org.il/media/li5hkwoq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc5481e65448f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1946467/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "makom-sameach-ep8",
+      "ep": 8,
+      "name": "פרק 8 - רחוק ולבד",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966640/",
+      "imageURL": "https://www.kan.org.il/media/pdbhzgep/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc5efa10c73d40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913647/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    }
+  ]
+}

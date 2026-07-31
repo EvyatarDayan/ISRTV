@@ -1,0 +1,91 @@
+{
+  "seriesId": "983439",
+  "slug": "bahastora",
+  "title": "בהסתורה",
+  "poster": "https://www.kan.org.il/media/z0nd4ghy/1920x1080_no-logo-%D7%91%D7%94%D7%A1%D7%AA%D7%95%D7%A8%D7%94.jpg?width=1920&height=1080&v=1dc9f40824b5290",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-983439/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989302/",
+      "imageURL": "https://www.kan.org.il/media/nkrlwbt4/fa9aea5d-dd4e-4ef7-a3d6-0fd32e16feb4.jpeg?width=490&height=272&v=1dcb4a69da24320",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2067094/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989308/",
+      "imageURL": "https://www.kan.org.il/media/d4rnhc3c/%D7%A0%D7%95%D7%A2%D7%94.jpg?rxy=0.40802448146888814,0.5029475628805354&width=490&height=272&v=1dcbd4b39557150",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2011277/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989309/",
+      "imageURL": "https://www.kan.org.il/media/qvkbj1a5/%D7%90%D7%AA%D7%A8.jpg?rxy=0.34219651859681355,0.3209650373128822&width=490&height=272&v=1dcbaf1ee9921d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2067158/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989316/",
+      "imageURL": "https://www.kan.org.il/media/zeua5ir5/%D7%90%D7%AA%D7%A8-2.jpg?rxy=0.30117549502051977,0.44185336104346307&width=490&height=272&v=1dcc07637188520",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2011428/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989322/",
+      "imageURL": "https://www.kan.org.il/media/hlglj4kp/2.jpg?width=490&height=272&v=1dcaf16c0cb6a10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2011472/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989323/",
+      "imageURL": "https://www.kan.org.il/media/4mcmv4ue/%D7%90%D7%AA%D7%A8.jpg?rxy=0.5272178717773046,0.4466635418240359&width=490&height=272&v=1dcca7701d29850",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2067575/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989324/",
+      "imageURL": "https://www.kan.org.il/media/zcjgdp43/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dcd026bf43d2a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2067576/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989325/",
+      "imageURL": "https://www.kan.org.il/media/mt5jq5b2/7180052f-1c60-4529-9efa-29978df0d097.jpeg?width=490&height=272&v=1dca1abb5bc5350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2073571/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep8.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-983439/s1/989327/",
+      "imageURL": "https://www.kan.org.il/media/ufjpywrt/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dcd56d46391590",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2067577/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bahastora/ep9.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/bahastora/series.jpg"
+}

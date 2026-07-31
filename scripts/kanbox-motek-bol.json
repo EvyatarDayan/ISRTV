@@ -1,0 +1,217 @@
+{
+  "seriesId": "13077",
+  "slug": "motek-bol",
+  "title": "מותק בול באמצע",
+  "poster": "https://www.kan.org.il/media/yxxpluyq/1920x1080_no-logo__%D7%9E%D7%95%D7%AA%D7%A7-%D7%91%D7%95%D7%9C-%D7%91%D7%90%D7%9E%D7%A6%D7%A2.jpg?width=1920&height=1080&v=1dc0add0b3dec50",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13077/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128026/",
+      "imageURL": "https://www.kan.org.il/media/dlinpiu4/https-kanstaticazureedgenet-download-pictures-2021-3-7-imgid-48503_aa.jpeg?width=490&height=272&v=1d97af23406b770",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hbqqdhmk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128442/",
+      "imageURL": "https://www.kan.org.il/media/exelvvve/https-kanstaticazureedgenet-download-pictures-2021-3-7-imgid-48653_aa.jpeg?width=490&height=272&v=1d97af2363cd150",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ze2locd5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128445/",
+      "imageURL": "https://www.kan.org.il/media/qjjhsv1x/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48505_aa.jpeg?width=490&height=272&v=1d97af237367390",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j8wou84p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128447/",
+      "imageURL": "https://www.kan.org.il/media/avspab02/https-kanstaticazureedgenet-download-pictures-2021-3-9-imgid-48794_aa.jpeg?width=490&height=272&v=1d97af238345b90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nnhij0ha/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128449/",
+      "imageURL": "https://www.kan.org.il/media/gzfp40ju/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48509_aa.jpeg?width=490&height=272&v=1d97af239321c80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dbruynrn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128451/",
+      "imageURL": "https://www.kan.org.il/media/xlfahhiy/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48510_aa.jpeg?width=490&height=272&v=1d97af23a350d90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_chta5vsn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128453/",
+      "imageURL": "https://www.kan.org.il/media/0k2hm5bn/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48512_aa.jpeg?width=490&height=272&v=1d97af23b30d2b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7ofznkg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128455/",
+      "imageURL": "https://www.kan.org.il/media/sweoi0pk/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48513_aa.jpeg?width=490&height=272&v=1d97af23c4f13f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_05rkysal/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep8.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128457/",
+      "imageURL": "https://www.kan.org.il/media/ap2e4oqb/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48515_aa.jpeg?width=490&height=272&v=1d97af23d388990",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_btod6nze/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep9.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 10,
+      "name": "עונה 1 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128080/",
+      "imageURL": "https://www.kan.org.il/media/gyfpq5jr/https-kanstaticazureedgenet-download-pictures-2021-3-4-imgid-48516_aa.jpeg?width=490&height=272&v=1d97af2353859a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ksbqa6fo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep10.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 11,
+      "name": "עונה 1 פרק 11",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128565/",
+      "imageURL": "https://www.kan.org.il/media/es2pv131/https-kanstaticazureedgenet-download-pictures-2021-3-8-imgid-48697_aa.jpeg?width=490&height=272&v=1d97af240b09950",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9ng9c8jp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep11.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 12,
+      "name": "עונה 1 פרק 12",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128567/",
+      "imageURL": "https://www.kan.org.il/media/pxspu5tb/https-kanstaticazureedgenet-download-pictures-2021-3-8-imgid-48699_aa.jpeg?width=490&height=272&v=1d97af242088830",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j13xigcb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep12.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 13,
+      "name": "עונה 1 פרק 13",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128653/",
+      "imageURL": "https://www.kan.org.il/media/ruehyzgi/https-kanstaticazureedgenet-download-pictures-2021-3-10-imgid-48855_aa.jpeg?width=490&height=272&v=1d97af243116cb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cv7cf2sg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep13.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 1,
+      "name": "עונה 2 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/919202/",
+      "imageURL": "https://www.kan.org.il/media/jrkfkyv0/1.jpg?rxy=0.5603106694589155,0.3849833932885646&width=490&height=272&v=1dbe4fb64312c30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zarmqpvs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep1.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 2,
+      "name": "עונה 2 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924710/",
+      "imageURL": "https://www.kan.org.il/media/yyqeitia/%D7%9E%D7%95%D7%AA%D7%A7-%D7%A4%D7%A8%D7%A7-2.jpg?rxy=0.4509811837848298,0.32557288713796295&width=490&height=272&v=1dc0add18eb5b80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_583eng33/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep2.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 3,
+      "name": "עונה 2 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924719/",
+      "imageURL": "https://www.kan.org.il/media/pqbbquft/%D7%9E%D7%95%D7%AA%D7%A7-%D7%A4%D7%A8%D7%A7-3.jpg?rxy=0.34468258283795455,0.3498015671110207&width=490&height=272&v=1dc0add1abbaeb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vlu4kw1e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep3.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 4,
+      "name": "עונה 2 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924722/",
+      "imageURL": "https://www.kan.org.il/media/sxwavbj5/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.6228557116874709,0.3230981647167512&width=490&height=272&v=1dc0b9ed844d440",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6os4s5p5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep4.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 5,
+      "name": "עונה 2 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924729/",
+      "imageURL": "https://www.kan.org.il/media/chvh50gt/%D7%9E%D7%95%D7%AA%D7%A7-%D7%9C%D7%90%D7%AA%D7%A8-5-%D7%A1%D7%95%D7%A4%D7%99.jpg?width=490&height=272&v=1dc0d0cc712a9d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gafim2ik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep5.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 6,
+      "name": "עונה 2 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924735/",
+      "imageURL": "https://www.kan.org.il/media/ohiotueq/6.jpg?rxy=0.5361574152693249,0.3336496600958354&width=490&height=272&v=1dbe507c82c2670",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qi9mpcw2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep6.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 7,
+      "name": "עונה 2 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/927057/",
+      "imageURL": "https://www.kan.org.il/media/zqucv3ev/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.3044736368704045,0.31826025875596725&width=490&height=272&v=1dbea96d0215140",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jceasoj6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep7.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 8,
+      "name": "עונה 2 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/929049/",
+      "imageURL": "https://www.kan.org.il/media/z2glywuw/%D7%9E%D7%95%D7%AA%D7%A78.jpg?rxy=0.4595558741710709,0.4521131199055906&width=490&height=272&v=1dbef79fadb7810",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rxjreqjp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep8.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 9,
+      "name": "עונה 2 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/932141/",
+      "imageURL": "https://www.kan.org.il/media/mbxm5d50/%D7%9E%D7%95%D7%AA%D7%A79.jpg?rxy=0.4023384397463377,0.3552317317890617&width=490&height=272&v=1dbf675c1e2bbb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dfvjm5r4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep9.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 10,
+      "name": "עונה 2 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/932410/",
+      "imageURL": "https://www.kan.org.il/media/y4hnulds/%D7%9E%D7%95%D7%AA%D7%A7-%D7%91%D7%95%D7%9C-%D7%91%D7%90%D7%9E%D7%A6%D7%A2-2-%D7%94%D7%9E%D7%95%D7%AA%D7%A7-%D7%9E%D7%9B%D7%94-%D7%A9%D7%A0%D7%99%D7%AA-%D7%A4%D7%A8%D7%A7-10.jpg?width=490&height=272&v=1dc00053215d3c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gwuh5rk5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep10.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/motek-bol/series.jpg"
+}

@@ -1,0 +1,49 @@
+{
+  "seriesId": "936955",
+  "slug": "series-936955",
+  "title": "התנתקות",
+  "poster": "https://www.kan.org.il/media/gnhn1inv/share-image_1200x630_%d7%94%d7%aa%d7%a0%d7%aa%d7%a7%d7%95%d7%aa.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-936955/",
+  "episodes": [
+    {
+      "id": "series-936955-ep1",
+      "ep": 1,
+      "name": "פרק 1 - וארשתיך לי לעולם רגע לפני השחרור מהצבא, תא\"ל שילה מקבל…",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-936955/s1/936960/",
+      "imageURL": "https://www.kan.org.il/media/jsollljy/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc14e74a70a750",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_rqrz51v5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-936955-ep2",
+      "ep": 2,
+      "name": "פרק 2 - הכנה מנטלית נעמה מגלה שהיא משלמת מחיר על ההחלטות של שילה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-936955/s1/936961/",
+      "imageURL": "https://www.kan.org.il/media/5jbbq4bx/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc1501fd3d35f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_3uzd0uhk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-936955-ep3",
+      "ep": 3,
+      "name": "פרק 3 - יש בנו אהבה והיא תנצח שילה נאלץ להתמודד עם מחאה אלימה…",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-936955/s1/936962/",
+      "imageURL": "https://www.kan.org.il/media/diylw0qw/%D7%94%D7%AA%D7%A0%D7%AA%D7%A7%D7%95%D7%AA-%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc1b5dad93df10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_tyxbny4k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-936955-ep4",
+      "ep": 4,
+      "name": "פרק 4 - בין המצרים האירועים האישיים אצל שילה מתערבבים באירועים…",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-936955/s1/936963/",
+      "imageURL": "https://www.kan.org.il/media/o2lfysix/s0516731_100_16_24_10still001.jpg?width=490&height=272&v=1dc1cfb8f2c0cb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_gj6kggrg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "series-936955-ep5",
+      "ep": 5,
+      "name": "פרק 5 - האהבה מתה ההתנתקות מתחילה ושילה נאלץ להתמודד עם המשימה…",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-936955/s1/936964/",
+      "imageURL": "https://www.kan.org.il/media/rxzea4vm/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4433866031961918,0.35303050086806814&width=490&height=272&v=1dc201e05aeed10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_wl6qgw13/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    }
+  ]
+}

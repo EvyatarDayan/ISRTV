@@ -1,0 +1,57 @@
+{
+  "seriesId": "13173",
+  "slug": "shaat-neila",
+  "title": "שעת נעילה",
+  "poster": "https://www.kan.org.il/media/cwgallud/2021-10-1-imgid-61711_d.jpeg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13173/",
+  "episodes": [
+    {
+      "id": "shaat-neila-ep3",
+      "ep": 3,
+      "name": "פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117281/",
+      "imageURL": "https://www.kan.org.il/media/qfpfsbo1/https-kanstaticazureedgenet-download-pictures-2020-10-26-imgid-41077_aa.jpeg?width=490&height=272&v=1d97af2ad6d3530",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fx0k9jpy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "shaat-neila-ep4",
+      "ep": 4,
+      "name": "פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117284/",
+      "imageURL": "https://www.kan.org.il/media/5mjmer20/https-kanstaticazureedgenet-download-pictures-2020-11-1-imgid-41400_aa.jpeg?width=490&height=272&v=1d97af2ae92c970",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ct5o3zt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "shaat-neila-ep5",
+      "ep": 5,
+      "name": "פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117287/",
+      "imageURL": "https://www.kan.org.il/media/obobjwgd/https-kanstaticazureedgenet-download-pictures-2020-11-9-imgid-41794_aa.jpeg?width=490&height=272&v=1d97af2af901530",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fnfjorco/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "shaat-neila-ep6",
+      "ep": 6,
+      "name": "פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117290/",
+      "imageURL": "https://www.kan.org.il/media/jp3o2of4/https-kanstaticazureedgenet-download-pictures-2020-11-24-imgid-42573_aa.jpeg?width=490&height=272&v=1d97af2b1055010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ihb33gr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "shaat-neila-ep7",
+      "ep": 7,
+      "name": "פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117293/",
+      "imageURL": "https://www.kan.org.il/media/1volznwg/https-kanstaticazureedgenet-download-pictures-2020-12-23-imgid-44174_aa.jpeg?width=490&height=272&v=1d97af2b2242d90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i64grnno/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "shaat-neila-ep8",
+      "ep": 8,
+      "name": "פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13173/s1/117296/",
+      "imageURL": "https://www.kan.org.il/media/yi0m12c3/https-kanstaticazureedgenet-download-pictures-2020-11-30-imgid-42929_aa.jpeg?width=490&height=272&v=1d97af2b41e4fe0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1lih95oz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    }
+  ]
+}

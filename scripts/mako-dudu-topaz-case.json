@@ -1,0 +1,33 @@
+{
+  "slug": "dudu-topaz-case",
+  "title": "תיק דודו טופז",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/dudu_topaz_case-s1",
+  "localPoster": "images/kanbox/dudu-topaz-case/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "חקירה באפלה - פרק א' ",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/dudu_topaz_case-s1/VOD-857f2fc20e93071027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hassifa/Tik_Dudu_Topaz/Hassifa_Dudu_Topaz_01_160220_VOD_fi3k5g/Hassifa_Dudu_Topaz_01_160220_VOD_fi3k5g_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "857f2fc20e930710VgnVCM100000700a10acRCRD",
+      "makoChannelId": "23a6f0f39b52b710VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2020/02/16/poster_hd_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/dudu-topaz-case/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "תרגיל החקירה - פרק ב'",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/dudu_topaz_case-s1/VOD-96aa637acc75071026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hassifa/Tik_Dudu_Topaz/Hassifa_Dudu_Topaz_02_190220_VOD_i9as14/Hassifa_Dudu_Topaz_02_190220_VOD_i9as14_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "96aa637acc750710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "23a6f0f39b52b710VgnVCM200000650a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2020/02/19/poster_hd_Part_2_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/dudu-topaz-case/s1-ep2.jpg"
+    }
+  ]
+}

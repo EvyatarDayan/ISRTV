@@ -1,0 +1,280 @@
+{
+  "seriesId": "11766",
+  "slug": "hamifkadet",
+  "title": "המפקדת",
+  "poster": "https://www.kan.org.il/media/vkefj0e3/1920x1080_no-logo_%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA3.jpg?width=1920&height=1080&v=1dc177744940290",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-11766/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128175/",
+      "imageURL": "https://www.kan.org.il/media/z4zj11r0/https-kanstaticazureedgenet-download-pictures-2021-3-21-imgid-49496_aa.jpeg?width=490&height=272&v=1d97a099e66c590",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hjkpi0ws/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep1.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128178/",
+      "imageURL": "https://www.kan.org.il/media/zw1hhbcr/https-kanstaticazureedgenet-download-pictures-2021-3-21-imgid-49497_aa.jpeg?width=490&height=272&v=1d97a099fcf5640",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7y3xyo70/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep2.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128181/",
+      "imageURL": "https://www.kan.org.il/media/wytcmp0t/https-kanstaticazureedgenet-download-pictures-2021-4-22-imgid-51464_aa.jpeg?width=490&height=272&v=1d97a09a0886d10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ft95bem9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep3.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128184/",
+      "imageURL": "https://www.kan.org.il/media/e2goydkk/https-kanstaticazureedgenet-download-pictures-2021-4-25-imgid-51585_aa.jpeg?width=490&height=272&v=1d97a09a13575f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_frhxqfqs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep4.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128977/",
+      "imageURL": "https://www.kan.org.il/media/rinfmihr/https-kanstaticazureedgenet-download-pictures-2021-4-28-imgid-51788_aa.jpeg?width=490&height=272&v=1d97a09a1d51150",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xlbw3son/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep5.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128980/",
+      "imageURL": "https://www.kan.org.il/media/3euhdp4h/https-kanstaticazureedgenet-download-pictures-2021-5-2-imgid-52095_aa.jpeg?width=490&height=272&v=1d97a09a2785630",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0skh2szn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep6.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128983/",
+      "imageURL": "https://www.kan.org.il/media/krmcwbne/https-kanstaticazureedgenet-download-pictures-2021-5-2-imgid-52096_aa.jpeg?width=490&height=272&v=1d97a09a3161cd0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mweq6d53/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep7.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128986/",
+      "imageURL": "https://www.kan.org.il/media/43zm2phm/https-kanstaticazureedgenet-download-pictures-2021-5-10-imgid-52694_aa.jpeg?width=490&height=272&v=1d97a09a3c68110",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d11lyylr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep8.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128989/",
+      "imageURL": "https://www.kan.org.il/media/hr4osgxg/https-kanstaticazureedgenet-download-pictures-2021-5-13-imgid-52960_aa.jpeg?width=490&height=272&v=1d97a09a5c0a360",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oukb7xm0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep9.jpg"
+    },
+    {
+      "season": 1,
+      "ep": 10,
+      "name": "עונה 1 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128992/",
+      "imageURL": "https://www.kan.org.il/media/pnjhabf4/https-kanstaticazureedgenet-download-pictures-2021-5-16-imgid-53170_aa.jpeg?width=490&height=272&v=1d97a09a74324b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0mngkesx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s1-ep10.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 1,
+      "name": "עונה 2 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151001/",
+      "imageURL": "https://www.kan.org.il/media/oimarcv5/https-kanstaticazureedgenet-download-pictures-2022-10-23-imgid-83578_aa.jpeg?width=490&height=272&v=1d97a099744c0a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b5qgipfs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep1.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 2,
+      "name": "עונה 2 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151070/",
+      "imageURL": "https://www.kan.org.il/media/tyqd2gfd/https-kanstaticazureedgenet-download-pictures-2022-10-19-imgid-83635_aa.jpeg?width=490&height=272&v=1d97a09980d19b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rw8wcwmn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep2.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 3,
+      "name": "עונה 2 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/150872/",
+      "imageURL": "https://www.kan.org.il/media/jlwb3gfc/https-kanstaticazureedgenet-download-pictures-2022-10-12-imgid-83210_aa.jpeg?width=490&height=272&v=1d97a0995c329b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_phc92zcu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep3.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 4,
+      "name": "עונה 2 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151250/",
+      "imageURL": "https://www.kan.org.il/media/rbkcien3/https-kanstaticazureedgenet-download-pictures-2022-10-25-imgid-84039_aa.jpeg?width=490&height=272&v=1d97a099972c430",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6abyeeoy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep4.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 5,
+      "name": "עונה 2 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/150875/",
+      "imageURL": "https://www.kan.org.il/media/mcemi5ep/https-kanstaticazureedgenet-download-pictures-2022-10-12-imgid-83214_aa.jpeg?width=490&height=272&v=1d97a0996828210",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_byun7c99/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep5.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 6,
+      "name": "עונה 2 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151571/",
+      "imageURL": "https://www.kan.org.il/media/zaim2fue/https-kanstaticazureedgenet-download-pictures-2022-11-2-imgid-84619_aa.jpeg?width=490&height=272&v=1d97a099a424930",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eonygkg7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep6.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 7,
+      "name": "עונה 2 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151574/",
+      "imageURL": "https://www.kan.org.il/media/lkhibwi0/https-kanstaticazureedgenet-download-pictures-2022-11-2-imgid-84620_aa.jpeg?width=490&height=272&v=1d97a099b0e24b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9p9rdcm9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep7.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 8,
+      "name": "עונה 2 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151694/",
+      "imageURL": "https://www.kan.org.il/media/tdfovrr2/https-kanstaticazureedgenet-download-pictures-2022-11-6-imgid-84839_aa.jpeg?width=490&height=272&v=1d97a099bd59360",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1sf90ktm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep8.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 9,
+      "name": "עונה 2 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/152034/",
+      "imageURL": "https://www.kan.org.il/media/jafbudkq/https-kanstaticazureedgenet-download-pictures-2022-11-13-imgid-85451_aa.jpeg?width=490&height=272&v=1d97a099c93da50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lwmeesoz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep9.jpg"
+    },
+    {
+      "season": 2,
+      "ep": 10,
+      "name": "עונה 2 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/152371/",
+      "imageURL": "https://www.kan.org.il/media/mrejpgts/2022-10-20-imgid-83712_b.jpeg?width=490&height=272&v=1d975f62c06fb80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rclbzzw3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s2-ep10.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 1,
+      "name": "עונה 3 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/771333/",
+      "imageURL": "https://www.kan.org.il/media/wcdoqiam/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc0ae3987c2900",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2216527/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep1.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 2,
+      "name": "עונה 3 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/771335/",
+      "imageURL": "https://www.kan.org.il/media/205lvybo/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5026611177359938,0.19064580448365623&width=490&height=272&v=1dae344c92c83f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7poovgt4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep2.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 3,
+      "name": "עונה 3 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772921/",
+      "imageURL": "https://www.kan.org.il/media/aprixfmt/%D7%90%D7%AA%D7%A8.jpg?rxy=0.26892188874395095,0.23489358148182218&width=490&height=272&v=1dc1773d8602610",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9yl7d297/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep3.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 4,
+      "name": "עונה 3 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772922/",
+      "imageURL": "https://www.kan.org.il/media/3upfvwiv/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA.jpg?rxy=0.4841890513430806,0.24180171292333436&width=490&height=272&v=1dc177133369270",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fy4x26np/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep4.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 5,
+      "name": "עונה 3 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772924/",
+      "imageURL": "https://www.kan.org.il/media/cn3gltjy/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA.jpg?rxy=0.47862835231264866,0.2535062742667063&width=490&height=272&v=1dc17676f3fe140",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ew6rztg7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep5.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 6,
+      "name": "עונה 3 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772925/",
+      "imageURL": "https://www.kan.org.il/media/hxwlvwpq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc15b5cbd1f230",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i1idr3if/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep6.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 7,
+      "name": "עונה 3 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772912/",
+      "imageURL": "https://www.kan.org.il/media/y3aew5io/%D7%9E%D7%A4%D7%A7%D7%93%D7%AA-%D7%A4%D7%A8%D7%A7-7.jpg?width=490&height=272&v=1db0e9b43d53e90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r9mpnanp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep7.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 8,
+      "name": "עונה 3 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772914/",
+      "imageURL": "https://www.kan.org.il/media/pvubbkay/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA-2.jpg?width=490&height=272&v=1dc176481250e10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lekkvqvw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep8.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 9,
+      "name": "עונה 3 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772926/",
+      "imageURL": "https://www.kan.org.il/media/2m0bdr3x/%D7%90%D7%AA%D7%A8-%D7%9E%D7%95%D7%91%D7%94%D7%A8.jpg?rxy=0.4677464957509514,0.337611882599103&width=490&height=272&v=1dc17643ce2b090",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vq8jmv42/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep9.jpg"
+    },
+    {
+      "season": 3,
+      "ep": 10,
+      "name": "עונה 3 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772927/",
+      "imageURL": "https://www.kan.org.il/media/10ej0isn/%D7%90%D7%AA%D7%A8-%D7%97%D7%93%D7%A9.jpg?width=490&height=272&v=1dc176437f9f9d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hhqmvjqw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hamifkadet/s3-ep10.jpg"
+    }
+  ],
+  "localPoster": "images/kanbox/hamifkadet/series.jpg"
+}

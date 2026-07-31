@@ -1,0 +1,73 @@
+{
+  "seriesId": "485095",
+  "slug": "sovietzka",
+  "title": "סובייצקה",
+  "poster": "https://www.kan.org.il/media/ncbjv1tv/7_share-image_1200x630.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-485095/",
+  "episodes": [
+    {
+      "id": "sovietzka-ep1",
+      "ep": 1,
+      "name": "פרק 1 - המילה האחרונה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/485102/",
+      "imageURL": "https://www.kan.org.il/media/kuqhottu/%D7%A4%D7%A8%D7%A7-1-%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.37557735028847533,0.4261928664785104&width=490&height=272&v=1dad90bef0068a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j3m0510k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep2",
+      "ep": 2,
+      "name": "פרק 2 - מפרש בודד מלבין באופק",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/485128/",
+      "imageURL": "https://www.kan.org.il/media/zeujtcwx/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A4%D7%A8%D7%A7-2.jpg?rxy=0.426181574929734,0.3069088049258863&width=490&height=272&v=1dad90beb12dac0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4k7b3o5c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep3",
+      "ep": 3,
+      "name": "פרק 3 - מלחמת עולם שלישית",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/494674/",
+      "imageURL": "https://www.kan.org.il/media/q1iid0yr/s0435079_100_14_22_14still001.jpg?width=490&height=272&v=1dad92870225b70",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2m52trp4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep4",
+      "ep": 4,
+      "name": "פרק 4 - דוז פואה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/500820/",
+      "imageURL": "https://www.kan.org.il/media/v2gjjbnc/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dad926840621f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ys93oedh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep5",
+      "ep": 5,
+      "name": "פרק 5 - גם כן, טרקובסקי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/505519/",
+      "imageURL": "https://www.kan.org.il/media/pj1kc3us/otlichno-%D7%A1%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%A7%D7%94-%D7%A4%D7%A8%D7%A7-5-%D7%90%D7%AA%D7%A8-%D7%95%D7%91%D7%95%D7%A7%D7%A1-flippitydoo.jpg?rxy=0.41207794162302686,0.40051770594586406&width=490&height=272&v=1dad925b63dc610",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ofp29a6g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep6",
+      "ep": 6,
+      "name": "פרק 6 - Soviet Washing",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/510325/",
+      "imageURL": "https://www.kan.org.il/media/b4obyegs/artboard-1.jpg?width=490&height=272&v=1dad913d0ae2290",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlf7u2of/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep7",
+      "ep": 7,
+      "name": "פרק 7 - סערה בכוס תה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/515235/",
+      "imageURL": "https://www.kan.org.il/media/zatbxknt/pic-%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.501707423651459,0.556272208928169&width=490&height=272&v=1dad91269515eb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h9hw28j5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "sovietzka-ep8",
+      "ep": 8,
+      "name": "פרק 8 - צ'כובה הבאה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/521047/",
+      "imageURL": "https://www.kan.org.il/media/2gvjgkhw/%D7%A1%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%A7%D7%94-%D7%90%D7%AA%D7%A8.jpg?rxy=0.7186097502879708,0.49291195172976554&width=490&height=272&v=1dad929b4b617d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_afkd332r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "a-body-that-works",
+  "title": "גוף שלישי",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works",
+  "localPoster": "images/kanbox/a-body-that-works/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המפגש הראשון",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-3dde6e2eef94681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_01_130223_VOD_h2j79nb/Guf_Shlishi_01_130223_VOD_h2j79nb_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "3dde6e2eef946810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/02/13/guf_shlishi_01_130223_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הסיפור רק מתחיל",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-37303cf6abd6681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_02_200323_VOD_nd3sh24b/Guf_Shlishi_02_200323_VOD_nd3sh24b_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "37303cf6abd66810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/02/20/guf_shlishi_02_200323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "סדקים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-bf6faad98a19681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_03_270223_VOD_n3kr4v5/Guf_Shlishi_03_270223_VOD_n3kr4v5_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "bf6faad98a196810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/02/27/guf_shlishi_03_270223_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אין דרך חזרה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-594c2649022b681026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_04_060323_VOD_n31a0bk/Guf_Shlishi_04_060323_VOD_n31a0bk_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "594c2649022b6810VgnVCM200000650a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/03/06/guf_shlish_04_060323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הסודות מתגלים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-befafb18ad4d681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_05_130323_VOD_nk51bgf4/Guf_Shlishi_05_130323_VOD_nk51bgf4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "befafb18ad4d6810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/03/13/guf_shlishi_05_130323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הלילה שבו הכל מתהפך",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-5719cdceca9f681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_06_200323_VOD_n3piuy78/Guf_Shlishi_06_200323_VOD_n3piuy78_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5719cdceca9f6810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/03/20/guf_shlishi_06_200323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הכל מסתחרר",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-47c6b8830ac1781027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_07_260323_VOD_n92lcm9/Guf_Shlishi_07_260323_VOD_n92lcm9_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "47c6b8830ac17810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/03/26/guf_shlishi_07_260323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק הסיום",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-aafc013a8bc1781027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_08_280323_VOD_na33dsh7/Guf_Shlishi_08_280323_VOD_na33dsh7_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "aafc013a8bc17810VgnVCM100000700a10acRCRD",
+      "makoChannelId": "c3f521beef706810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2023/03/28/guf_shlish_08_280323_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/a-body-that-works/s1-ep8.jpg"
+    }
+  ]
+}

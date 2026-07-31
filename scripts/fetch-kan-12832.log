@@ -1,0 +1,98 @@
+Opening https://www.kan.org.il/content/kan/kan-11/p-12832/ attempt 1
+Title: קופה ראשית slug: kupa-rashit
+-- Season 1 https://www.kan.org.il/content/kan/kan-11/p-12832/s1/
+   found 20
+-- Season 2 https://www.kan.org.il/content/kan/kan-11/p-12832/s2/
+   found 20
+-- Season 3 https://www.kan.org.il/content/kan/kan-11/p-12832/s3/
+   found 20
+-- Season 4 https://www.kan.org.il/content/kan/kan-11/p-12832/s4/
+   found 21
+-- Season 5 https://www.kan.org.il/content/kan/kan-11/p-12832/s5/
+   found 20
+Episode list 101
+Capturing images…
+Images 101/101
+Filling streams 101
+[5/101] s1e5 OK 1_3o3uz0b8
+[10/101] s1e10 OK 1_atp9dczt
+err s1e14 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89286/", waiting until "domcontentloaded"
+
+[15/101] s1e15 OK 1_r8vnmkcs
+err s1e16 page.waitForTimeout: Target page, context or browser has been closed
+err s1e17 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89292/", waiting until "domcontentloaded"
+
+err s1e18 page.waitForTimeout: Target page, context or browser has been closed
+err s1e19 page.waitForTimeout: Target page, context or browser has been closed
+err s1e20 page.waitForTimeout: Target page, context or browser has been closed
+err s2e1 page.waitForTimeout: Target page, context or browser has been closed
+err s2e2 page.waitForTimeout: Target page, context or browser has been closed
+err s2e3 page.waitForTimeout: Target page, context or browser has been closed
+err s2e4 page.waitForTimeout: Target page, context or browser has been closed
+err s2e5 page.waitForTimeout: Target page, context or browser has been closed
+err s2e6 page.waitForTimeout: Target page, context or browser has been closed
+err s2e7 page.waitForTimeout: Target page, context or browser has been closed
+err s2e8 page.waitForTimeout: Target page, context or browser has been closed
+err s2e9 page.waitForTimeout: Target page, context or browser has been closed
+err s2e10 page.waitForTimeout: Target page, context or browser has been closed
+err s2e11 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108586/", waiting until "domcontentloaded"
+
+err s2e12 page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108589/", waiting until "domcontentloaded"
+
+err s2e13 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108592/", waiting until "domcontentloaded"
+
+err s2e14 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108595/", waiting until "domcontentloaded"
+
+err s2e15 page.waitForTimeout: Target page, context or browser has been closed
+err s2e16 page.waitForTimeout: Target page, context or browser has been closed
+err s2e17 page.waitForTimeout: Target page, context or browser has been closed
+err s2e18 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108607/", waiting until "domcontentloaded"
+
+err s2e19 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108609/", waiting until "domcontentloaded"
+
+err s2e20 page.waitForTimeout: Target page, context or browser has been closed
+err s3e1 page.waitForTimeout: Target page, context or browser has been closed
+err s3e2 page.waitForTimeout: Target page, context or browser has been closed
+err s3e3 page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133069/", waiting until "domcontentloaded"
+
+[45/101] s3e5 OK 1_x3ws6gqf
+[50/101] s3e10 OK 1_kgjp9o69
+[55/101] s3e15 OK 1_mbsfbd14
+[60/101] s3e20 OK 1_zwye398c
+[65/101] s4e5 OK 1_q3gq4xv8
+[70/101] s4e10 OK 1_jl3sasxn
+[75/101] s4e15 OK 1_r54njmqc
+[80/101] s5e1 OK 1_csokhtwe
+[85/101] s5e4 OK 1_wy8yk2x8
+[90/101] s5e10 OK 1_obykbxe5
+[95/101] s5e14 OK 1_vi0ry1k9
+[100/101] s5e19 OK 1_dv1lnase
+Merged 101 into channels.js as kupa-rashit
+
+Done קופה ראשית
+{
+  '1': { n: 20, ok: 14, img: 20 },
+  '2': { n: 20, ok: 0, img: 20 },
+  '3': { n: 20, ok: 17, img: 20 },
+  '4': { n: 21, ok: 21, img: 21 },
+  '5': { n: 20, ok: 20, img: 20 }
+}
+total 101 streams 72 images 101

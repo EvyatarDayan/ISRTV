@@ -1,0 +1,45 @@
+{
+  "slug": "likudnikim",
+  "title": "הליכודניקים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1",
+  "localPoster": "images/kanbox/likudnikim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המטרה: שלטון",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-96417126b00ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_01_VOD_5jl14/uvda2019_halikudnikim_01_VOD_5jl14_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "96417126b00ad610VgnVCM100000700a10acRCRD",
+      "makoChannelId": "93051b53cf8f6810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2019/10/06/uvda2019_halikudnikim_01_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/likudnikim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "מזימות בצמרת",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-d10cf013210ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_02_VOD_rjl241/uvda2019_halikudnikim_02_VOD_rjl241_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "d10cf013210ad610VgnVCM100000700a10acRCRD",
+      "makoChannelId": "93051b53cf8f6810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2019/10/06/uvda2019_halikudnikim_02_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/likudnikim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "תאוות השלטון",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-a3b2fc01055ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_03_VOD_kjh958/uvda2019_halikudnikim_03_VOD_kjh958_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "a3b2fc01055ad610VgnVCM100000700a10acRCRD",
+      "makoChannelId": "93051b53cf8f6810VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2019/10/07/halikudnikim_03_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/likudnikim/s1-ep3.jpg"
+    }
+  ]
+}

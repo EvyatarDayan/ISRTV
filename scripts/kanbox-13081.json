@@ -1,0 +1,89 @@
+{
+  "seriesId": "13081",
+  "slug": "hazarot",
+  "title": "חזרות",
+  "poster": "https://www.kan.org.il/media/o5tpbfam/2020-11-1-imgid-41404_d.jpeg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13081/",
+  "episodes": [
+    {
+      "id": "hazarot-ep1",
+      "ep": 1,
+      "name": "פרק 1 - קומדיה רומנטית על זוג יוצרי תיאטרון שנאלצים לעבוד יחד לאחר משבר זוגי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117923/",
+      "imageURL": "https://www.kan.org.il/media/2vof1n4p/https-kanstaticazureedgenet-download-pictures-2020-11-12-imgid-41976_aa.jpeg?width=490&height=272&v=1d97af2441a7840",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_817geznm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep2",
+      "ep": 2,
+      "name": "פרק 2 - תומר מפציר באיריס להסכים לפרויקט למרות הפרידה ומיה ועופר מלוהקים למחזה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117925/",
+      "imageURL": "https://www.kan.org.il/media/t3ph0wko/https-kanstaticazureedgenet-download-pictures-2020-11-19-imgid-42394_aa.jpeg?width=490&height=272&v=1d97af245a31410",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_9r4v43jo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep3",
+      "ep": 3,
+      "name": "פרק 3 - מתחילים חזרות, אבל ברגל שמאל: הפערים בין מיה לאיריס לא ניתנים לגישור",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117927/",
+      "imageURL": "https://www.kan.org.il/media/sl4jratd/https-kanstaticazureedgenet-download-pictures-2020-11-23-imgid-42549_aa.jpeg?width=490&height=272&v=1d97af246a2f7e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_a4d23hat/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep4",
+      "ep": 4,
+      "name": "פרק 4 - איריס לא באה לחזרות, עפר ומיה מתעמתים, ובמאי נערץ לוקח לתומר את הספה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117929/",
+      "imageURL": "https://www.kan.org.il/media/gv3lyiji/https-kanstaticazureedgenet-download-pictures-2020-11-25-imgid-42665_aa.jpeg?width=490&height=272&v=1d97af247bc3010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_cae13m03/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep5",
+      "ep": 5,
+      "name": "פרק 5 - איריס מחליטה לבדוק מה קורה בטינדר ומיה מחליטה להכניס דרמה לחיים שלה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117931/",
+      "imageURL": "https://www.kan.org.il/media/gujjgcup/https-kanstaticazureedgenet-download-pictures-2020-12-10-imgid-43487_aa.jpeg?width=490&height=272&v=1d97af248be0fb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_pawj9j8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep6",
+      "ep": 6,
+      "name": "פרק 6 - שרת התרבות באולם, ההצגה אמורה להתחיל, ואף אחד לא יודע איפה מיה גוטמן",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117933/",
+      "imageURL": "https://www.kan.org.il/media/soycdb3h/https-kanstaticazureedgenet-download-pictures-2020-12-14-imgid-43677_aa.jpeg?width=490&height=272&v=1d97af249bf7a20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_tdhrfqgf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep7",
+      "ep": 7,
+      "name": "פרק 7 - ורה מתקילה את תומר, איריס ועפר ברומן סוער, וכולם נפגשים בחתונה של מיה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117935/",
+      "imageURL": "https://www.kan.org.il/media/hjejqzlo/https-kanstaticazureedgenet-download-pictures-2020-12-21-imgid-44042_aa.jpeg?width=490&height=272&v=1d97af24af1b890",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_8fuuygax/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep8",
+      "ep": 8,
+      "name": "פרק 8 - עליית ההצגה מתקרבת והמתח בין תומר לאיריס מגיע לשיא",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117937/",
+      "imageURL": "https://www.kan.org.il/media/e0qhaqxt/https-kanstaticazureedgenet-download-pictures-2020-12-28-imgid-44406_aa.jpeg?width=490&height=272&v=1d97af24c1fd850",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_jcbzlusy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep9",
+      "ep": 9,
+      "name": "פרק 9 - איריס ותומר הולכים לגישור לאחר שהוא מאיים בצו מניעה על עליית ההצגה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117939/",
+      "imageURL": "https://www.kan.org.il/media/j3hf2y2m/https-kanstaticazureedgenet-download-pictures-2021-1-4-imgid-44844_aa.jpeg?width=490&height=272&v=1d97af24d1a8c00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_88m2sqqg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    },
+    {
+      "id": "hazarot-ep10",
+      "ep": 10,
+      "name": "פרק 10 - ההצגה עולה: האם תומר יגיע? האם עפר יתמודד עם הלחץ? ומה תעשה מיה?",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117942/",
+      "imageURL": "https://www.kan.org.il/media/3cljpetk/https-kanstaticazureedgenet-download-pictures-2022-10-16-imgid-83427_aa.jpeg?width=490&height=272&v=1d97af24e184cf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/dash/oil/kancdn/vod/1_7yuptbxr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism"
+    }
+  ]
+}

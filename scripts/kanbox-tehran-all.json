@@ -1,0 +1,248 @@
+{
+  "seriesId": "12317",
+  "slug": "tehran",
+  "title": "טהרן",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12317/",
+  "episodes": [
+    {
+      "id": "tehran-s1-ep1",
+      "season": 1,
+      "ep": 1,
+      "name": "Season 1 Chapter 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113735/",
+      "imageURL": "https://www.kan.org.il/media/sdoorwag/https-kanstaticazureedgenet-download-pictures-2020-5-21-imgid-33831_aa.jpeg?width=490&height=272&v=1d97aeb164a1f80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m6svtndt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep1.jpg"
+    },
+    {
+      "id": "tehran-s1-ep2",
+      "season": 1,
+      "ep": 2,
+      "name": "Season 1 Chapter 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113737/",
+      "imageURL": "https://www.kan.org.il/media/ykfd44e5/https-kanstaticazureedgenet-download-pictures-2020-6-22-imgid-35522_aa.jpeg?width=490&height=272&v=1d97aeb17434c90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_soyoxje0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep2.jpg"
+    },
+    {
+      "id": "tehran-s1-ep3",
+      "season": 1,
+      "ep": 3,
+      "name": "Season 1 Chapter 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113739/",
+      "imageURL": "https://www.kan.org.il/media/rlbd3fqr/https-kanstaticazureedgenet-download-pictures-2020-6-17-imgid-35258_aa.jpeg?width=490&height=272&v=1d97aeb182bd7d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_67hnsb2y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep3.jpg"
+    },
+    {
+      "id": "tehran-s1-ep4",
+      "season": 1,
+      "ep": 4,
+      "name": "Season 1 Chapter 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113741/",
+      "imageURL": "https://www.kan.org.il/media/5xrin3c4/https-kanstaticazureedgenet-download-pictures-2020-6-29-imgid-35964_aa.jpeg?width=490&height=272&v=1d97aeb19279cf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1p36pt9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep4.jpg"
+    },
+    {
+      "id": "tehran-s1-ep5",
+      "season": 1,
+      "ep": 5,
+      "name": "Season 1 Chapter 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113743/",
+      "imageURL": "https://www.kan.org.il/media/hqtnjkkb/https-kanstaticazureedgenet-download-pictures-2020-7-5-imgid-36215_aa.jpeg?width=490&height=272&v=1d97aeb1a236210",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w8a5og3l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep5.jpg"
+    },
+    {
+      "id": "tehran-s1-ep6",
+      "season": 1,
+      "ep": 6,
+      "name": "Season 1 Chapter 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113745/",
+      "imageURL": "https://www.kan.org.il/media/sw2lj5x4/https-kanstaticazureedgenet-download-pictures-2020-7-13-imgid-36607_aa.jpeg?width=490&height=272&v=1d97aeb1b1981e0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qkp5yixn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep6.jpg"
+    },
+    {
+      "id": "tehran-s1-ep7",
+      "season": 1,
+      "ep": 7,
+      "name": "Season 1 Chapter 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113748/",
+      "imageURL": "https://www.kan.org.il/media/w5mdbkt5/https-kanstaticazureedgenet-download-pictures-2022-4-4-imgid-72140_aa.jpeg?width=490&height=272&v=1d97aeb1c2106d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0ep7d26r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep7.jpg"
+    },
+    {
+      "id": "tehran-s1-ep8",
+      "season": 1,
+      "ep": 8,
+      "name": "Season 1 Chapter 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113751/",
+      "imageURL": "https://www.kan.org.il/media/k5co3cra/https-kanstaticazureedgenet-download-pictures-2020-8-9-imgid-37163_aa.jpeg?width=490&height=272&v=1d97aeb1d110c20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ww9ui9n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep8.jpg"
+    },
+    {
+      "id": "tehran-s2-ep1",
+      "season": 2,
+      "ep": 1,
+      "name": "Season 2 Chapter 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144504/",
+      "imageURL": "https://www.kan.org.il/media/2gijd3u1/1.jpg?cc=0.23810108533831342,0.18425631320967986,0.29264120841806196,0.18425631320967964&width=490&height=272&v=1da5dae11dade20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fanlu3fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep1.jpg"
+    },
+    {
+      "id": "tehran-s2-ep2",
+      "season": 2,
+      "ep": 2,
+      "name": "Season 2 Chapter 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144507/",
+      "imageURL": "https://www.kan.org.il/media/e53hdhdh/https-kanstaticazureedgenet-download-pictures-2022-5-5-imgid-73892_aa.jpeg?width=490&height=272&v=1d97aeb101d5000",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88ds59jp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep2.jpg"
+    },
+    {
+      "id": "tehran-s2-ep3",
+      "season": 2,
+      "ep": 3,
+      "name": "Season 2 Chapter 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144879/",
+      "imageURL": "https://www.kan.org.il/media/qtflkrbn/https-kanstaticazureedgenet-download-pictures-2022-5-12-imgid-74315_aa.jpeg?width=490&height=272&v=1d97aeb10e0a000",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8ff00dg3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep3.jpg"
+    },
+    {
+      "id": "tehran-s2-ep4",
+      "season": 2,
+      "ep": 4,
+      "name": "Season 2 Chapter 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/145326/",
+      "imageURL": "https://www.kan.org.il/media/c0kamqfm/https-kanstaticazureedgenet-download-pictures-2022-5-19-imgid-74779_aa.jpeg?width=490&height=272&v=1d97aeb1175b410",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2219499/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep4.jpg"
+    },
+    {
+      "id": "tehran-s2-ep5",
+      "season": 2,
+      "ep": 5,
+      "name": "Season 2 Chapter 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/145647/",
+      "imageURL": "https://www.kan.org.il/media/mn2p4zv3/https-kanstaticazureedgenet-download-pictures-2022-5-26-imgid-75147_aa.jpeg?width=490&height=272&v=1d97aeb12612580",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8jc56xle/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep5.jpg"
+    },
+    {
+      "id": "tehran-s2-ep6",
+      "season": 2,
+      "ep": 6,
+      "name": "Season 2 Chapter 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146070/",
+      "imageURL": "https://www.kan.org.il/media/a5vbqipy/https-kanstaticazureedgenet-download-pictures-2022-6-2-imgid-75562_aa.jpeg?width=490&height=272&v=1d97aeb13534db0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_urlv5qt6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep6.jpg"
+    },
+    {
+      "id": "tehran-s2-ep7",
+      "season": 2,
+      "ep": 7,
+      "name": "Season 2 Chapter 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146337/",
+      "imageURL": "https://www.kan.org.il/media/mj2fnt5s/https-kanstaticazureedgenet-download-pictures-2022-6-9-imgid-75950_aa.jpeg?width=490&height=272&v=1d97aeb1459c130",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g0l5fodi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep7.jpg"
+    },
+    {
+      "id": "tehran-s2-ep8",
+      "season": 2,
+      "ep": 8,
+      "name": "Season 2 Chapter 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146577/",
+      "imageURL": "https://www.kan.org.il/media/dxijvgom/2.jpg?rxy=0.577142533135919,0.4500073939167523&width=490&height=272&v=1dad89318a77230",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nxsiduq9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep8.jpg"
+    },
+    {
+      "id": "tehran-s3-ep1",
+      "season": 3,
+      "ep": 1,
+      "name": "Season 3 Chapter 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/833707/",
+      "imageURL": "https://www.kan.org.il/media/pn3ifewd/%D7%98%D7%94%D7%A8%D7%9F-1.jpg?rxy=0.421060662664795,0.49024118657316307&width=490&height=272&v=1db59e14bbaab40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5kuznpwi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep1.jpg"
+    },
+    {
+      "id": "tehran-s3-ep2",
+      "season": 3,
+      "ep": 2,
+      "name": "Season 3 Chapter 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/836534/",
+      "imageURL": "https://www.kan.org.il/media/a3wayh3m/%D7%98%D7%94%D7%A8%D7%9F-2.jpg?width=490&height=272&v=1dc15a6e6a304f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xov7asuv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep2.jpg"
+    },
+    {
+      "id": "tehran-s3-ep3",
+      "season": 3,
+      "ep": 3,
+      "name": "Season 3 Chapter 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/839205/",
+      "imageURL": "https://www.kan.org.il/media/oahjeguu/%D7%98%D7%94%D7%A8%D7%9F-3.jpg?rxy=0.39427370925470534,0.2940707289520476&width=490&height=272&v=1dc15a6e89a8f30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_am337lsk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep3.jpg"
+    },
+    {
+      "id": "tehran-s3-ep4",
+      "season": 3,
+      "ep": 4,
+      "name": "Season 3 Chapter 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/841808/",
+      "imageURL": "https://www.kan.org.il/media/t2dfnqn2/hero_kan-box-copy-3.jpg?rxy=0.6224305219508028,0.3064007600633736&width=490&height=272&v=1dc0d3c3aaf2d30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7g2761vp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep4.jpg"
+    },
+    {
+      "id": "tehran-s3-ep5",
+      "season": 3,
+      "ep": 5,
+      "name": "Season 3 Chapter 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/844227/",
+      "imageURL": "https://www.kan.org.il/media/cmwo2tnz/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A2%D7%9D-%D7%A4%D7%9C%D7%99%D7%A4.jpg?rxy=0.2261998970686707,0.2927751486858093&width=490&height=272&v=1dc0d30490aad20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh4gnroy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep5.jpg"
+    },
+    {
+      "id": "tehran-s3-ep6",
+      "season": 3,
+      "ep": 6,
+      "name": "Season 3 Chapter 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/846647/",
+      "imageURL": "https://www.kan.org.il/media/yeokrinb/%D7%98%D7%94%D7%A8%D7%9F-%D7%90%D7%AA%D7%A8.jpg?rxy=0.42039138762063744,0.40314704986340144&width=490&height=272&v=1dc0d2b6ef1d6d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l4f97mga/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep6.jpg"
+    },
+    {
+      "id": "tehran-s3-ep7",
+      "season": 3,
+      "ep": 7,
+      "name": "Season 3 Chapter 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852555/",
+      "imageURL": "https://www.kan.org.il/media/grpjmzgo/%D7%9C%D7%90%D7%AA%D7%A8.png?width=490&height=272&v=1dc0d21918708a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215001/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep7.jpg"
+    },
+    {
+      "id": "tehran-s3-ep8",
+      "season": 3,
+      "ep": 8,
+      "name": "Season 3 Chapter 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852556/",
+      "imageURL": "https://www.kan.org.il/media/30nfhywl/%D7%9C%D7%90%D7%AA%D7%A8.png?width=490&height=272&v=1dc0d2193fb3cf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vszyia2l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep8.jpg"
+    }
+  ]
+}

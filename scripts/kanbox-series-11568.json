@@ -1,0 +1,82 @@
+{
+  "seriesId": "11568",
+  "slug": "series-11568",
+  "title": "אבירם כץ - עונה 1",
+  "poster": "",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-11568/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/157799/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c2frjc2y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/157802/",
+      "imageURL": "https://www.kan.org.il/media/shvcqtae/https-kanstaticazureedgenet-download-pictures-2023-1-19-imgid-91628_aa.jpeg?width=490&height=272&v=1d97b07ca538900",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qtit680g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158430/",
+      "imageURL": "https://www.kan.org.il/media/izvndz0w/https-kanstaticazureedgenet-download-pictures-2023-1-24-imgid-92141_aa.jpeg?width=490&height=272&v=1d97b07cb9fb810",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q6v06kpy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158433/",
+      "imageURL": "https://www.kan.org.il/media/bmpmmfs2/https-kanstaticazureedgenet-download-pictures-2023-1-24-imgid-92143_aa.jpeg?width=490&height=272&v=1d97b07cc7f69b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ua29nyhu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158958/",
+      "imageURL": "https://www.kan.org.il/media/drrhfxjf/https-kanstaticazureedgenet-download-pictures-2023-1-29-imgid-92573_aa.jpeg?width=490&height=272&v=1d97b07cd75b090",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qlt2g02i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159222/",
+      "imageURL": "https://www.kan.org.il/media/vqnppfhr/https-kanstaticazureedgenet-download-pictures-2023-2-2-imgid-92900_aa.jpeg?width=490&height=272&v=1d97b07ce693850",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5dve46d8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159762/",
+      "imageURL": "https://www.kan.org.il/media/ci0blmiw/https-kanstaticazureedgenet-download-pictures-2023-2-8-imgid-93414_aa.jpeg?width=490&height=272&v=1d97b07cf8b2310",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_20p2rwbv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159936/",
+      "imageURL": "https://www.kan.org.il/media/tj4bxuum/https-kanstaticazureedgenet-download-pictures-2023-2-9-imgid-93585_aa.jpeg?width=490&height=272&v=1d97b07d100fa30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_76sornrg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    }
+  ],
+  "localPoster": "images/kanbox/series-11568/series.jpg"
+}

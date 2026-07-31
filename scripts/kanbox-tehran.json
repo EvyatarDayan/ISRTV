@@ -1,0 +1,73 @@
+{
+  "seriesId": "12317",
+  "slug": "tehran",
+  "title": "טהרן",
+  "poster": "https://www.kan.org.il/media/k4zfhh0a/share-image_1200x630_%d7%98%d7%94%d7%a8%d7%9f-%d7%a2%d7%95%d7%a0%d7%943.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12317/",
+  "episodes": [
+    {
+      "id": "tehran-ep1",
+      "ep": 1,
+      "name": "פרק 1 - עולם רדיואקטיבי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/833707/",
+      "imageURL": "https://www.kan.org.il/media/pn3ifewd/%D7%98%D7%94%D7%A8%D7%9F-1.jpg?rxy=0.421060662664795,0.49024118657316307&width=490&height=272&v=1db59e14bbaab40",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5kuznpwi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep2",
+      "ep": 2,
+      "name": "פרק 2 - אגרוף בפרצוף",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/836534/",
+      "imageURL": "https://www.kan.org.il/media/a3wayh3m/%D7%98%D7%94%D7%A8%D7%9F-2.jpg?width=490&height=272&v=1dc15a6e6a304f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xov7asuv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep3",
+      "ep": 3,
+      "name": "פרק 3 - בגוב האריות",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/839205/",
+      "imageURL": "https://www.kan.org.il/media/oahjeguu/%D7%98%D7%94%D7%A8%D7%9F-3.jpg?rxy=0.39427370925470534,0.2940707289520476&width=490&height=272&v=1dc15a6e89a8f30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_am337lsk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep4",
+      "ep": 4,
+      "name": "פרק 4 - אל תוך האש",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/841808/",
+      "imageURL": "https://www.kan.org.il/media/t2dfnqn2/hero_kan-box-copy-3.jpg?rxy=0.6224305219508028,0.3064007600633736&width=490&height=272&v=1dc0d3c3aaf2d30",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7g2761vp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep5",
+      "ep": 5,
+      "name": "פרק 5 - עסק לא גמור",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/844227/",
+      "imageURL": "https://www.kan.org.il/media/cmwo2tnz/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A2%D7%9D-%D7%A4%D7%9C%D7%99%D7%A4.jpg?rxy=0.2261998970686707,0.2927751486858093&width=490&height=272&v=1dc0d30490aad20",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh4gnroy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep6",
+      "ep": 6,
+      "name": "פרק 6 - אין מוצא",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/846647/",
+      "imageURL": "https://www.kan.org.il/media/yeokrinb/%D7%98%D7%94%D7%A8%D7%9F-%D7%90%D7%AA%D7%A8.jpg?rxy=0.42039138762063744,0.40314704986340144&width=490&height=272&v=1dc0d2b6ef1d6d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l4f97mga/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep7",
+      "ep": 7,
+      "name": "פרק 7 - רגע האמת של ניסן",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852555/",
+      "imageURL": "https://www.kan.org.il/media/grpjmzgo/%D7%9C%D7%90%D7%AA%D7%A8.png?width=490&height=272&v=1dc0d21918708a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215001/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    },
+    {
+      "id": "tehran-ep8",
+      "ep": 8,
+      "name": "פרק 8 - על סף תהום",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852556/",
+      "imageURL": "https://www.kan.org.il/media/30nfhywl/%D7%9C%D7%90%D7%AA%D7%A8.png?width=490&height=272&v=1dc0d2193fb3cf0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vszyia2l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+    }
+  ]
+}

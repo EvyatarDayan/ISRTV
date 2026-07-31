@@ -1,0 +1,56 @@
+Season labels seen: 
+Rescue season 7
+  clicked: NONE
+  found 0
+Rescue season 10
+  clicked: NONE
+  found 0
+Filling streams: 241
+[1/241] s1e1 FAIL
+[2/241] s1e2 FAIL
+[3/241] s1e3 FAIL
+[4/241] s1e4 FAIL
+[6/241] s1e5 FAIL
+[7/241] s1e7 FAIL
+[8/241] s1e6 FAIL
+[10/241] s1e11 OK 1_3q01tfp3
+[20/241] s1e20 OK 1_ooy4jk3s
+[30/241] s1e30 OK 1_5tn286g3
+[40/241] s1e40 OK 1_dzobvhjm
+[50/241] s1e50 OK 1_cmr7aqht
+[60/241] s2e10 OK 1_ew1cli1l
+[70/241] s2e20 OK 1_spv8vhl9
+[80/241] s2e30 OK 1_vxz33o8h
+[90/241] s2e40 OK 1_2g7dc5uw
+[100/241] s2e50 OK 1_7ibhrisi
+[110/241] s3e10 OK 1_omnfugkf
+[120/241] s3e20 OK 1_1hagrsnk
+[130/241] s4e10 OK 1_43kz2sc6
+[140/241] s5e4 OK 1_pq1hxou5
+[150/241] s5e14 OK 1_feza89mb
+[160/241] s5e24 OK 1_zl8r4i2k
+[170/241] s6e9 OK 1_ieov6hbv
+[180/241] s6e19 OK 1_8egf2z48
+[190/241] s6e29 OK 1_9gciezsn
+[200/241] s8e9 OK 1_vsop39ew
+[210/241] s8e19 OK 1_73to2erv
+[220/241] s9e4 OK 1_1aunwvwb
+[230/241] s9e15 OK 1_3nehm7dk
+[240/241] s9e24 OK 1_j9qtgjlo
+Downloaded 0 missing images
+Merged 241 episodes into channels.js
+
+Done
+  seasons {
+  '1': 50,
+  '2': 50,
+  '3': 20,
+  '4': 16,
+  '5': 25,
+  '6': 30,
+  '8': 25,
+  '9': 25
+}
+  episodes 241
+  streams 234/241
+  images 241/241

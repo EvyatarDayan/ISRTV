@@ -1,0 +1,105 @@
+{
+  "slug": "ismach-chatani",
+  "title": "ישמח חתני",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani",
+  "localPoster": "images/kanbox/ismach-chatani/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "אלף פעמים ח\"י",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-c0721415ffb9871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_01_060421_VOD_k3flg34/Ismach_Hatani_01_060421_VOD_k3flg34_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "c0721415ffb98710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/08/Ismah_hatani1_01_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "גם אני שועלה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-25741415ffb9871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_02_060421_VOD_d2f8mk4/Ismach_Hatani_02_060421_VOD_d2f8mk4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "25741415ffb98710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/06/Ismah_hatani1_02_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "דילמת המעמול",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-ef8c708b9bfb871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_03_110421_VOD_ff2g34g/Ismach_Hatani_03_110421_VOD_ff2g34g_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ef8c708b9bfb8710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/12/Ismah_hatani1_03_VOD_skik141_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "השכלה רבנית",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-2e79de1e8d4c871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_04_120421_VOD_jv57kf6e/Ismach_Hatani_04_120421_VOD_jv57kf6e_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "2e79de1e8d4c8710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/13/Ismah_hatani1_04_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "בוא נתערב",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-027c44a97d3e871027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_05_180421_VOD_dk3fl54/Ismach_Hatani_05_180421_VOD_dk3fl54_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "027c44a97d3e8710VgnVCM100000700a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/19/Ismah_hatani1_05_VOD_fix_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "נקודת תורפה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-13a04d26afc0971027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_06_260421_VOD_fg2h55d/Ismach_Hatani_06_260421_VOD_fg2h55d_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "13a04d26afc09710VgnVCM100000700a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/04/27/Ismah_hatani1_05_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "מילים קשות",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-c164616021c2971026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_07_020521_VOD_fg2y56r/Ismach_Hatani_07_020521_VOD_fg2y56r_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "c164616021c29710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/05/09/Ismah_hatani1_07_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "מה שטוב לך",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani-s1/VOD-ddc15503d305971026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Ismach_Hatani/S01/EP/Ismach_Hatani_08_090521_VOD_mgj7h32/Ismach_Hatani_08_090521_VOD_mgj7h32_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ddc15503d3059710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "20d9e7fe81d98710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/05/09/Ismah_hatani1_08_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/ismach-chatani/s1-ep8.jpg"
+    }
+  ]
+}

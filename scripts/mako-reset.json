@@ -1,0 +1,105 @@
+{
+  "slug": "reset",
+  "title": "ריסט",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset",
+  "localPoster": "images/kanbox/reset/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק הבכורה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-75a639e87b72c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_01_100226_VOD_drn007/Reset_01_100226_VOD_drn007_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "75a639e87b72c910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/02/10/Reset_01_100226_VOD_re_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep1.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "כשגידי פגש את נויה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-60bcc1e10124c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_02_170226_VOD_hig89/Reset_02_170226_VOD_hig89_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "60bcc1e10124c910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/02/17/Reset_02_170226_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep2.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "החיים החדשים של גידי",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-05fa7e49f706c91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_03_230226_VOD_edx582/Reset_03_230226_VOD_edx582_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "05fa7e49f706c910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/02/23/Reset_03_230226_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep3.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הקואצ'ר",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-071049764848c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_04_050326_VOD_edc283/Reset_04_050326_VOD_edc283_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "071049764848c910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/03/05/Reset_04_050326_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep4.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "גידי נגד קרני",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-951d4c28309ac91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_05_090326_VOD_jef624/Reset_05_090326_VOD_jef624_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "951d4c28309ac910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/03/09/Reset03_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep5.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "האקסית המיתולוגית",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-4662cbf5d0dcc91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_06_160326_VOD_nn82/Reset_06_160326_VOD_nn82_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "4662cbf5d0dcc910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/03/16/Reset_06_160326_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep6.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "עבודת החלומות של גידי",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-5168fb07c12dc91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_07_230326_VOD_nnx341/Reset_07_230326_VOD_nnx341_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5168fb07c12dc910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/03/23/Reset_07_230326_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep7.jpg",
+      "streamOk": true
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק הסיום",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-b48bfb07c12dc91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_08_300326_VOD_nn27/Reset_08_300326_VOD_nn27_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "b48bfb07c12dc910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "b17f91c00cc2c910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2026/03/30/Reset_VOD_autoOrient_i.jpg",
+      "localImage": "images/kanbox/reset/ep8.jpg",
+      "streamOk": true
+    }
+  ]
+}

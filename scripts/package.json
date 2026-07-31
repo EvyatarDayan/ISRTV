@@ -1,0 +1,13 @@
+{
+  "name": "isrtv-scripts",
+  "private": true,
+  "description": "Helper scripts for ISRTV (KanBox stream fetcher)",
+  "scripts": {
+    "fetch-kanbox": "node fetch-kanbox-streams.js",
+    "fetch-kanbox:update": "node fetch-kanbox-streams.js --update",
+    "fetch-kanbox:headed": "node fetch-kanbox-streams.js --headed --update"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

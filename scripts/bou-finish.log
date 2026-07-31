@@ -1,0 +1,67 @@
+Retry missing streams 7
+  s1e1 1_mmctgjv9
+  s1e2 1_ccyr13s3
+  s1e3 1_og4qc40r
+  s1e4 1_ji81gky4
+  s1e5 1_kr16fb4a
+  s1e6 1_6wtcuks7
+  s1e7 1_083wjo8q
+Season 7…
+  index s7 links 30
+  s7e19 UNAVAIL
+  s7e21 UNAVAIL
+  s7e25 UNAVAIL
+  s7e11 UNAVAIL
+  s7e22 UNAVAIL
+  s7e1 UNAVAIL
+  s7e2 UNAVAIL
+  s7e3 UNAVAIL
+  s7e4 UNAVAIL
+  s7e5 UNAVAIL
+  s7e6 UNAVAIL
+  s7e7 UNAVAIL
+  s7e8 UNAVAIL
+  s7e9 UNAVAIL
+  s7e10 UNAVAIL
+  s7e12 UNAVAIL
+  s7e13 UNAVAIL
+  s7e14 UNAVAIL
+  s7e15 UNAVAIL
+  s7e16 UNAVAIL
+  s7e17 UNAVAIL
+  s7e18 UNAVAIL
+  s7e20 UNAVAIL
+  s7e23 UNAVAIL
+  s7e24 UNAVAIL
+  s7e1 UNAVAIL
+  s7e2 UNAVAIL
+  s7e3 UNAVAIL
+  s7e4 UNAVAIL
+  s7e5 UNAVAIL
+Season 10…
+  index s10 links 5
+  s10e1 
+  s10e2 
+  s10e4 
+  s10e3 
+  s10e5 
+  stream s10e1 FAIL
+  stream s10e2 FAIL
+  stream s10e3 FAIL
+  stream s10e4 FAIL
+  stream s10e5 FAIL
+Merged 271
+
+Final {
+  '1': { n: 50, ok: 50 },
+  '2': { n: 50, ok: 50 },
+  '3': { n: 20, ok: 20 },
+  '4': { n: 16, ok: 16 },
+  '5': { n: 25, ok: 25 },
+  '6': { n: 30, ok: 30 },
+  '7': { n: 25, ok: 0 },
+  '8': { n: 25, ok: 25 },
+  '9': { n: 25, ok: 25 },
+  '10': { n: 5, ok: 0 }
+}
+total 271 streams 241 images 241

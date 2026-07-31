@@ -1,0 +1,33 @@
+{
+  "slug": "etti-alon",
+  "title": "אתי אלון",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/etti_alon-s1",
+  "localPoster": "images/kanbox/etti-alon/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "אתי אלון | חלק א'",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/etti_alon-s1/VOD-c05cec8d63ca471026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Doco_Keshet/eti_alon_01_VOD_prot532/eti_alon_01_VOD_prot532_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "c05cec8d63ca4710VgnVCM200000650a10acRCRD",
+      "makoChannelId": "3222a80a6975a710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2020/09/21/eti_alon_01_VOD_FIX_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/etti-alon/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אתי אלון | חלק ב'",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/etti_alon-s1/VOD-38ba78e8310c471027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Doco_Keshet/doco_eti_alon_02_VOD_erh5b2/doco_eti_alon_02_VOD_erh5b2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "38ba78e8310c4710VgnVCM100000700a10acRCRD",
+      "makoChannelId": "3222a80a6975a710VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2020/09/24/doco_eti_alon_02_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/etti-alon/s1-ep2.jpg"
+    }
+  ]
+}
