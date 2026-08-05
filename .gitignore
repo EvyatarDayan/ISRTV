@@ -1,4 +1,12 @@
 *.wgt
-.buildResult/*.wgt
+.buildResult/
+.buildResult/**
+.git/
+scripts/node_modules/
+scripts/_assets_unused/
 scripts/.tv4-*.json
 scripts/.tv4-session.json
+.manifest.tmp
+.delta.lst
+.DS_Store
+**/.DS_Store

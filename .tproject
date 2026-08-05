@@ -12,6 +12,18 @@
             <item>*.log</item>
             <item>.git</item>
             <item>.git/**</item>
+            <item>.buildResult</item>
+            <item>.buildResult/**</item>
+            <item>*.wgt</item>
+            <item>ISRTV.wgt</item>
+            <item>node_modules</item>
+            <item>node_modules/**</item>
+            <item>.cursor</item>
+            <item>.cursor/**</item>
+            <item>.DS_Store</item>
+            <item>**/.DS_Store</item>
+            <item>agent-transcripts</item>
+            <item>**/*.map</item>
         </blacklist>
     </package>
 </tproject>
