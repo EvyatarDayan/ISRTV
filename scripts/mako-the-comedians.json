@@ -1,0 +1,207 @@
+{
+  "slug": "the-comedians",
+  "title": "הסטנדאפיסטים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s1",
+  "localPoster": "images/kanbox/the-comedians/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "אדיר מילר",
+      "subtitle": "מה הקטע שרשף ואדיר יכתבו בדרך להופעה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-f9126b2b980c651006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_01_VOD_hj656/Hastendapistim_01_VOD_hj656_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/08/25/Hastendapistim_01_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אורי חזקיה",
+      "subtitle": "מה הקטע שרשף ואורי יכתבו בדרך להופעה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-f3bfdcefe20e651006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_02_VOD_De43s/Hastendapistim_02_VOD_De43s_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/09/01/Hastendapistim_02_VOD_De43s_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "ליטל שוורץ",
+      "subtitle": "מה הקטע שרשף וליטל יכתבו בדרך להופעה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-f41802f08990751006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_03_VOD_j97hk/Hastendapistim_03_VOD_j97hk_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/09/08/hastendapistim_3_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "שלמה בראבא",
+      "subtitle": "רשף לוקח את בראבא להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-6d8e18dffac2751006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_04_VOD_f5ujk/Hastendapistim_04_VOD_f5ujk_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/09/15/Hastendapistim_04_VOD_f5ujk_WIDE_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "שלום אסייג",
+      "subtitle": "איזו בדיחה שנונה הם ימציאו בדרך להופעה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-945c8d4e1c49751006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_05_VOD_ahs893/Hastendapistim_05_VOD_ahs893_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/10/08/Hastendapistim_05_VOD_logo_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "עדי אשכנזי",
+      "subtitle": "מה הכי מצחיק את עדי?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-ab97e5e01eda751006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_06_VOD_jr7lf/Hastendapistim_06_VOD_jr7lf_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/10/15/vlcsnap-2016-10-15-16h30m59s62_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "גורי אלפי",
+      "subtitle": "השניים פותחים הכל בדרך להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-e76ecefd5904951006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_07_VOD_h46f2/Hastendapistim_07_VOD_h46f2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2016/12/27/Hastendapistim_07_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "חנוך דאום",
+      "subtitle": "צוחקים יחד בדרך להופעה על החיים והישראליות",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-a85c70f21ef0b51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_08_VOD_mn765r/Hastendapistim_08_VOD_mn765r_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2017/03/27/Hastendapistim_08_VOD_mn765r_WIDE_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "ציפי לבני",
+      "subtitle": "האם היא תצליח להצחיק בסטנד אפ הראשון בחייה?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-017e7742f100961006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/Hastendapistim_09_VOD_8n4fnh/Hastendapistim_09_VOD_8n4fnh_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/02/18/Hastendapistim_09_VOD_8n4fnh_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "משה כחלון",
+      "subtitle": "האם הוא יצליח להצחיק או יעשה בושות?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-ecce34322e92961006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/hastandapistim_10_VOD_fhdh4747/hastandapistim_10_VOD_fhdh4747_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/02/26/hastandapistim_10_VOD_fix_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "נפתלי בנט",
+      "subtitle": "האם נמצא יורש לערן זרחוביץ'?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-S1/VOD-d4e8f489b9d4961006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/01/hastandapistim_11_VOD_cdr197/hastandapistim_11_VOD_cdr197_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/03/05/hastandapistim_11_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s1-ep11.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "ערן זרחוביץ'",
+      "subtitle": "האם נמצא יורש לערן זרחוביץ'?",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-6aa22f28356ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/hastendapistiom2_01_VOD_iier8533/hastendapistiom2_01_VOD_iier8533_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/10/09/hastendapistiom2_01_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "אורנה בנאי",
+      "subtitle": "רשף לוי לוקח את הסטנדאפיסטים המובילים להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-da97de1e8d4c871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/hastendapistiom2_03_VOD_t87zz1/hastendapistiom2_03_VOD_t87zz1_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2021/04/12/hastendapistiom2_03_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "יעקב כהן",
+      "subtitle": "רשף לוי מלווה את הסטנדאפיסטים להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-0e9919f40d81a71027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/hastendapistiom2_04_VOD_Afmasm12/hastendapistiom2_04_VOD_Afmasm12_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2021/06/18/hastendapistiom2_04_VOD_Afmas_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "רותם אבוהב",
+      "subtitle": "רשף לוי מלווה את רותם להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-f92266c953c6e71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/hastandapistim2_05_180122_VOD_XFV0851/hastandapistim2_05_180122_VOD_XFV0851_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2022/01/18/hastandapistim2_05_180122_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "טל פרידמן",
+      "subtitle": "רשף לוי לוקח את הסטנדאפיסט להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-cda6b042c607081026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/Hastandapistim2_04_300422_VOD_ADL9194/Hastandapistim2_04_300422_VOD_ADL9194_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2022/05/02/Hastandapistim2_04_300422_VOD2_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "נדב אבוקסיס",
+      "subtitle": "רשף לוי לוקח את נדב אבוקסיס להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-ca88ae31b90d381026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/Hastendapistim2_06_151022_VOD_kdvjbk473/Hastendapistim2_06_151022_VOD_kdvjbk473_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2022/10/15/Hastendapistim2_06_151022_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "קובי מימון",
+      "subtitle": "רשף לוי לוקח את קובי מיימון להופעה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s2/VOD-4e88eeb50ad3881027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hastendapistim/02/Hastandapistim2_07_270523_vod_hadsh6b/Hastandapistim2_07_270523_vod_hadsh6b_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2023/05/27/Hastandapistim2_07_270523_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-comedians/s2-ep7.jpg"
+    }
+  ]
+}

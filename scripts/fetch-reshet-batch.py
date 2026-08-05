@@ -34,6 +34,13 @@ SERIES = [
     ("lo-lifnei-hayeladim", 441, "לא לפני הילדים"),
     ("haerev-etzel-ben", 535, "הערב אצל בן בן ברוך"),
     ("magen-david-darom", 174, "מגן דוד דרום"),
+    ("asenheim", 723, "אסנהיים"),
+    ("patrick", 655, "פטריק"),
+    ("shnot-ha-90", 18, "שנות ה-90"),
+    ("nevsu", 262, "נבסו"),
+    ("televizya-mehaatid", 90, "טלוויזיה מהעתיד"),
+    ("power-couple", 728, "פאוור קאפל"),
+    ("leehov-et-ana", 443, "לאהוב את אנה"),
 ]
 
 
@@ -136,9 +143,12 @@ def list_all_episodes(ks: str, series_id: int) -> list[dict]:
         media_type = meta_val(o.get("metas") or {}, "MediaType")
         if media_type and str(media_type).lower() == "series":
             continue
-        if o.get("typeDescription") == "Series" or str(o.get("externalId") or "").startswith(
-            "Show-"
+        ext_id = str(o.get("externalId") or "")
+        if o.get("typeDescription") == "Series" or ext_id.startswith("Show-") or ext_id.startswith(
+            "Season-"
         ):
+            continue
+        if re.fullmatch(r"עונה\s+\d+", str(o.get("name") or "").strip()):
             continue
         # Prefer items with entryId (playable)
         if not o.get("entryId") and not o.get("id"):
@@ -307,8 +317,13 @@ def scrape_one(ks: str, slug: str, series_id: int, title_fb: str) -> dict:
 
 
 def main():
+    import sys
+
+    only = set(sys.argv[1:]) if len(sys.argv) > 1 else None
     ks = login_ks()
     for slug, sid, title in SERIES:
+        if only and slug not in only and str(sid) not in only:
+            continue
         try:
             scrape_one(ks, slug, sid, title)
         except Exception as e:

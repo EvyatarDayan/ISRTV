@@ -1,0 +1,46 @@
+{
+  "seriesId": "12798",
+  "slug": "pollard",
+  "title": "פולארד",
+  "poster": "https://www.kan.org.il/media/o53m2bau/2022-1-17-imgid-67725_d.jpeg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12798/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12798/139908/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1335cehb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12798/139911/",
+      "imageURL": "https://www.kan.org.il/media/aq3f1uwm/https-kanstaticazureedgenet-download-pictures-2022-1-12-imgid-67450_aa.jpeg?width=490&height=272&v=1d97aed47d094b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_onf1c5o0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12798/139914/",
+      "imageURL": "https://www.kan.org.il/media/2mthjvnw/https-kanstaticazureedgenet-download-pictures-2022-1-12-imgid-67451_aa.jpeg?width=490&height=272&v=1d97aed48d49730",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8zie2jwa/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12798/140046/",
+      "imageURL": "https://www.kan.org.il/media/dvkhdwb3/https-kanstaticazureedgenet-download-pictures-2022-1-14-imgid-67583_aa.jpeg?width=490&height=272&v=1d97aed49a8b010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iwou5n5q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    }
+  ],
+  "localPoster": "images/kanbox/pollard/series.jpg"
+}

@@ -1,0 +1,37 @@
+{
+  "seriesId": "12487",
+  "slug": "hidat-meshulam",
+  "title": "חידת משולם",
+  "poster": "https://www.kan.org.il/media/cx3mp3c4/2022-5-15-imgid-74455_d.jpeg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12487/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145032/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2794np20/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145044/",
+      "imageURL": "https://www.kan.org.il/media/pijdul1c/2022-5-17-imgid-74584_b.jpeg?width=490&height=272&v=1d975e7c105fab0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oa148l7o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145047/",
+      "imageURL": "https://www.kan.org.il/media/gcjja0rs/2022-5-31-imgid-75428_b.jpeg?width=490&height=272&v=1d975e7c2a10d10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3gfjfobh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    }
+  ],
+  "localPoster": "images/kanbox/hidat-meshulam/series.jpg"
+}

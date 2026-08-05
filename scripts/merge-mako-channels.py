@@ -9,6 +9,9 @@ CHANNELS = os.path.join(ROOT, "js", "channels.js")
 
 # Order for N12 tab (after reset/mashiah if present)
 ORDER = [
+    "wedding-at-first-sight",
+    "the-boys",
+    "sapir-movie",
     "reset",
     "mashiah",
     "the-property",
@@ -33,6 +36,7 @@ ORDER = [
     "ori-hizkiah",
     "hundred-percent-ashkenazi",
     "avi-bitter",
+    "the-comedians",
 ]
 
 
@@ -68,9 +72,14 @@ def to_entry(data: dict) -> str:
             else f"images/kanbox/{slug}/ep{ep}.jpg"
         )
         ep_title = e.get("name") or f"פרק {ep}"
+        subtitle = str(e.get("subtitle") or "").strip()
         # Avoid duplicating "עונה X פרק Y —" if already present
-        if re.match(r"^עונה\s+\d+\s+פרק\s+\d+", ep_title):
+        if re.match(r"^עונה\s+\d+\s+פרק\s+\d+", ep_title) or re.match(
+            r"^פרק\s+\d+", ep_title
+        ):
             name = ep_title
+        elif subtitle:
+            name = f"פרק {ep} - {ep_title}"
         else:
             name = f"עונה {season} פרק {ep} — {ep_title}"
         comma = "," if i < len(eps) - 1 else ""
@@ -80,6 +89,10 @@ def to_entry(data: dict) -> str:
             f"                season: {season},",
             f"                ep: {ep},",
             f"                name: '{esc(name)}',",
+        ]
+        if subtitle:
+            lines.append(f"                subtitle: '{esc(subtitle)}',")
+        lines += [
             f"                streamURL: '{e.get('streamURL') or ''}',",
             f"                imageURL: '{img}',",
             f"                placeholder: '{ep}'",

@@ -1,0 +1,37 @@
+{
+  "seriesImage": "images/kanbox/halv-atta-hos-mig/series.jpg",
+  "episodes": [
+    {
+      "id": "c1720c60f6dd1c1aa44e",
+      "ep": 1,
+      "title": "Avsnitt 1 - Stockholm - måndag",
+      "slug": "avsnitt-1-stockholm-mandag",
+      "synopsis": "Säsongsstart. Säsongen inleds med en vecka full av matlagande kändisar och först ut är komikern Torbjörn Averås Skorup\nsom inrett sitt hem med inspiration av kollektivtrafik. Han bjuder bland annat på klassikern spaghetti och köttfärssås.",
+      "image": "images/kanbox/halv-atta-hos-mig/s27-ep1.jpg"
+    },
+    {
+      "id": "f4c6a6901c8db56660a9",
+      "ep": 2,
+      "title": "Avsnitt 2 - Stockholm - tisdag",
+      "slug": "avsnitt-2-stockholm-tisdag",
+      "synopsis": "Tisdagsvärd denna kändisvecka är radioprofilen Linnéa Wikblad där hon visar upp sin garderob bestående av enbart svarta klädesplagg. Hon bjuder på osso buco till varmrätt och till dessert blir det kaffemousse med tahinichokladssås.",
+      "image": "images/kanbox/halv-atta-hos-mig/s27-ep2.jpg"
+    },
+    {
+      "id": "52a1c0abc2c998493b21",
+      "ep": 3,
+      "title": "Avsnitt 3 - Stockholm - onsdag",
+      "slug": "avsnitt-3-stockholm-onsdag",
+      "synopsis": "Dags för regissören och skådespelaren Peter Dalle att öppna upp sitt hem. Gästerna gör en spännande upptäckt på guldbaggen de hittar i bokhyllan. Det bjuds på tequila- och limemarinerade räkor till förrätt och sorbet med en skvätt gin till dessert.",
+      "image": "images/kanbox/halv-atta-hos-mig/s27-ep3.jpg"
+    },
+    {
+      "id": "7e5b566c3b670df0b807",
+      "ep": 4,
+      "title": "Avsnitt 4 - Stockholm - torsdag",
+      "slug": "avsnitt-4-stockholm-torsdag",
+      "synopsis": "Finalvärd är målvaktslegenden Hedvig Lindahl som precis hinner svänga förbi Strawberry arena och få applåder innan hon ställer sig vid spisen. Hon bjuder sina gäster på ett hattrick bestående av laxceviche, lammlägg och chokladtårta.",
+      "image": "images/kanbox/halv-atta-hos-mig/s27-ep4.jpg"
+    }
+  ]
+}

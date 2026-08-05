@@ -5,7 +5,8 @@
   "scripts": {
     "fetch-kanbox": "node fetch-kanbox-streams.js",
     "fetch-kanbox:update": "node fetch-kanbox-streams.js --update",
-    "fetch-kanbox:headed": "node fetch-kanbox-streams.js --headed --update"
+    "fetch-kanbox:headed": "node fetch-kanbox-streams.js --headed --update",
+    "test:vod-restore": "node test-vod-restore.mjs"
   },
   "dependencies": {
     "playwright": "^1.49.0"

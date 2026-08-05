@@ -1,0 +1,28 @@
+{
+  "seriesId": "13015",
+  "slug": "peduyim",
+  "title": "פדויים",
+  "poster": "https://www.kan.org.il/media/nkbf0g0u/2021-9-8-imgid-60621_d.jpeg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13015/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13015/134999/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vf3kemwq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13015/135001/",
+      "imageURL": "https://www.kan.org.il/media/fgrdzmrq/https-kanstaticazureedgenet-download-pictures-2021-8-26-imgid-59960_aa.jpeg?width=490&height=272&v=1d97af1cfef1700",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb7ntvkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    }
+  ],
+  "localPoster": "images/kanbox/peduyim/series.jpg"
+}

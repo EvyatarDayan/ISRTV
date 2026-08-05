@@ -1,0 +1,119 @@
+{
+  "slug": "the-boys",
+  "title": "הנערים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys",
+  "localPoster": "images/kanbox/the-boys/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "ממעמקים קראתיך",
+      "subtitle": "דרמה חדשה המבוססת על אירועי קיץ 2014 בישראל",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-be497fe3304f471027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_01_041020_vod_had49v/our_boys_01_041020_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2019/08/07/EP_1_791185_4072609_6000x4000_Easy-Resize.com_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "איי לאב טוטו",
+      "subtitle": "גופת נער נמצאת שרופה ביער ירושלים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-04aa7fe3304f471027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_02_041020_vod_had49v/our_boys_02_041020_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/10/04/Our_Boys_02_VOD_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "שתיים נקסט אדום",
+      "subtitle": "חלקי הפאזל הולכים ונאספים במהירות",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-1ada6b17c371571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_03_111020_vod_had49idan/our_boys_03_111020_vod_had49idan_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/10/11/Our_Boys_03_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "שהאיד השחר",
+      "subtitle": "התמונה הולכת ומתבהרת",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-3bef17255eb2571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_04_151020_vod_had49v/our_boys_04_151020_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/10/15/Our_Boys_04_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "שבת שלום",
+      "subtitle": "סימון מתארח בבית החשוד תחת זהות בדויה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-3d1e7ec2e305571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_05_221020_vod_had49v/our_boys_05_221020_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/10/22/Our_Boys_05_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "תענית דיבור",
+      "subtitle": "החלה חקירת החשודים והם לא משתפים פעולה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-bc1cfbfa7a47571027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_06_291020_vod_had49v/our_boys_06_291020_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/10/29/Our_Boys_06_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "נידון על שם סופו",
+      "subtitle": "פריצת דרך בחקירה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-5473da8ffd79571027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_07_051120_vod_had49v/our_boys_07_051120_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/11/05/Our_Boys_07_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "הנאשמים מס' 2 ו3",
+      "subtitle": "מבצע צוק איתן בעיצומו",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-5fbf12dcbabb571027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_08_121120_vod_had49v/our_boys_08_121120_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/11/12/Our_Boys_08_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "הבושם והבורסקאי",
+      "subtitle": "העדות המפתיעה של סימון",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-690fe0f7035d571027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_09_171120_vod_had49vvv/our_boys_09_171120_vod_had49vvv_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/11/17/our_boys_09_vod_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "הפיר אל תוך המנהרה החשוכה",
+      "subtitle": "מייק לוחץ על סימון לעזוב",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys-s1/VOD-a3854f28e040671027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Our_Boys/our_boys_10_261120_vod_had49v33/our_boys_10_261120_vod_had49v33_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "imageRemote": "https://img.mako.co.il/2020/11/26/Our_Boys_10_VOD_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/the-boys/s1-ep10.jpg"
+    }
+  ]
+}

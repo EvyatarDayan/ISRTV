@@ -1,0 +1,4 @@
+*.wgt
+.buildResult/*.wgt
+scripts/.tv4-*.json
+scripts/.tv4-session.json

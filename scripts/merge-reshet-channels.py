@@ -24,6 +24,13 @@ ORDER = [
     "lo-lifnei-hayeladim",
     "haerev-etzel-ben",
     "magen-david-darom",
+    "asenheim",
+    "patrick",
+    "shnot-ha-90",
+    "nevsu",
+    "televizya-mehaatid",
+    "power-couple",
+    "leehov-et-ana",
 ]
 
 

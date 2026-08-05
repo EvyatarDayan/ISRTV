@@ -18,6 +18,60 @@
 <body>
   <object id="av-player" type="application/avplayer"></object>
 
+  <div class="profile-menu" id="profile-menu">
+    <button type="button" class="profile-btn" id="profile-btn" data-action="profile-menu-toggle" aria-label="פרופיל" aria-haspopup="true" aria-expanded="false">
+      <img class="profile-btn-img" id="profile-btn-img" src="images/profiles/avatar-1.png" alt="" />
+      <span class="profile-btn-name" id="profile-btn-name">אני</span>
+      <span class="profile-btn-caret" aria-hidden="true"></span>
+    </button>
+    <div class="profile-dropdown" id="profile-dropdown" hidden role="menu" aria-label="Profiles">
+      <div class="profile-dropdown-list" id="profile-dropdown-list"></div>
+    </div>
+  </div>
+
+  <div class="profile-dialog" id="profile-dialog" hidden>
+    <div class="profile-dialog-backdrop" data-action="profile-close"></div>
+    <div class="profile-dialog-panel" role="dialog" aria-modal="true" aria-labelledby="profile-dialog-title">
+      <div class="profile-select-view" id="profile-select-view">
+        <div class="profile-select-header">
+          <h2 class="profile-dialog-title" id="profile-dialog-title">מי צופה?</h2>
+          <button type="button" class="profile-manage-btn" id="profile-manage-btn" data-action="profile-manage">עריכה</button>
+        </div>
+        <div class="profile-list" id="profile-list" aria-label="Profiles"></div>
+      </div>
+      <div class="profile-edit-view" id="profile-edit-view" hidden>
+        <div class="profile-edit-header">
+          <h2 class="profile-dialog-title" id="profile-edit-title">פרופיל חדש</h2>
+          <button type="button" class="profile-edit-close" id="profile-edit-close" data-action="profile-edit-cancel" aria-label="סגור">×</button>
+        </div>
+        <div class="profile-edit-split">
+          <div class="profile-edit-details">
+            <div class="profile-edit-preview">
+              <img class="profile-edit-preview-img" id="profile-edit-preview-img" alt="" hidden />
+              <span class="profile-edit-preview-placeholder" id="profile-edit-preview-placeholder" aria-hidden="true">?</span>
+            </div>
+            <button type="button" class="profile-name-field" id="profile-name-field" data-action="profile-name" dir="rtl">אני</button>
+            <div class="profile-edit-actions">
+              <button type="button" class="profile-action-btn" data-action="profile-save">שמור</button>
+              <button type="button" class="profile-action-btn profile-action-btn-danger" id="profile-delete-btn" data-action="profile-delete" hidden>מחק פרופיל</button>
+            </div>
+          </div>
+          <div class="profile-edit-divider" aria-hidden="true"></div>
+          <div class="profile-edit-icons">
+            <div class="profile-icon-grid" id="profile-icon-grid" role="listbox" aria-label="Profile icons"></div>
+          </div>
+        </div>
+      </div>
+      <div class="profile-confirm" id="profile-confirm" hidden>
+        <p class="profile-confirm-title" id="profile-confirm-title">האם אתה בטוח?</p>
+        <div class="profile-confirm-actions">
+          <button type="button" class="profile-action-btn profile-action-btn-danger" id="profile-confirm-yes" data-action="profile-confirm-yes">כן</button>
+          <button type="button" class="profile-action-btn profile-action-btn-ghost" id="profile-confirm-no" data-action="profile-confirm-no">לא</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <main class="view vod-view is-active" id="view-home" data-view="home">
     <div class="vod-hero" id="home-hero">
       <img class="vod-hero-img" id="home-hero-img" alt="" />
@@ -67,6 +121,13 @@
     <div class="vod-content">
       <header class="vod-header">
         <h1 class="vod-title">LIVE</h1>
+        <div class="vod-toolbar live-toolbar" id="live-toolbar">
+          <div class="vod-tabs" id="live-tabs" role="tablist" aria-label="Live regions">
+            <button type="button" class="vod-tab is-active" id="live-tab-israel" role="tab" data-action="live-tab" data-live-tab="israel" aria-selected="true">ישראל</button>
+            <button type="button" class="vod-tab" id="live-tab-world" role="tab" data-action="live-tab" data-live-tab="world" aria-selected="false">מהעולם</button>
+            <button type="button" class="vod-tab" id="live-tab-kids" role="tab" data-action="live-tab" data-live-tab="kids" aria-selected="false">ילדים</button>
+          </div>
+        </div>
       </header>
       <section class="vod-grid" id="channels" aria-label="Live channels"></section>
     </div>
@@ -80,24 +141,36 @@
     <div class="vod-content">
       <header class="vod-header">
         <h1 class="vod-title">VOD</h1>
-        <div class="vod-tabs" id="vod-tabs" role="tablist" aria-label="VOD providers">
-          <button type="button" class="vod-tab is-active" id="vod-tab-kan" role="tab" data-action="vod-tab" data-vod-tab="kan" aria-selected="true">כאן 11</button>
-          <button type="button" class="vod-tab" id="vod-tab-n12" role="tab" data-action="vod-tab" data-vod-tab="n12" aria-selected="false">N12</button>
-          <button type="button" class="vod-tab" id="vod-tab-r13" role="tab" data-action="vod-tab" data-vod-tab="r13" aria-selected="false">רשת 13</button>
-        </div>
-        <div class="vod-search" id="vod-search">
-          <input
-            type="text"
-            class="vod-search-input"
-            id="vod-search-input"
-            placeholder="חיפוש"
-            autocomplete="off"
-            spellcheck="false"
-            readonly
-            inputmode="none"
-            data-action="vod-search"
-          />
-          <button type="button" class="vod-search-clear" id="vod-search-clear" data-action="vod-search-clear" aria-label="Clear search" title="Clear">×</button>
+        <div class="vod-toolbar" id="vod-toolbar">
+          <div class="vod-tabs" id="vod-tabs" role="tablist" aria-label="VOD providers">
+            <button type="button" class="vod-tab vod-tab-logo is-active" id="vod-tab-kan" role="tab" data-action="vod-tab" data-vod-tab="kan" aria-selected="true" aria-label="כאן 11">
+              <img class="vod-tab-img" src="images/vod/tab-kan.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-logo" id="vod-tab-n12" role="tab" data-action="vod-tab" data-vod-tab="n12" aria-selected="false" aria-label="N12">
+              <img class="vod-tab-img" src="images/vod/tab-n12.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-logo" id="vod-tab-r13" role="tab" data-action="vod-tab" data-vod-tab="r13" aria-selected="false" aria-label="רשת 13">
+              <img class="vod-tab-img" src="images/vod/tab-r13.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-logo" id="vod-tab-sweden" role="tab" data-action="vod-tab" data-vod-tab="sweden" aria-selected="false" aria-label="שוודיה">
+              <img class="vod-tab-img" src="images/vod/tab-sweden.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-mylist" id="vod-tab-mylist" role="tab" data-action="vod-tab" data-vod-tab="mylist" aria-selected="false">הרשימה שלי</button>
+          </div>
+          <div class="vod-search" id="vod-search">
+            <input
+              type="text"
+              class="vod-search-input"
+              id="vod-search-input"
+              placeholder="חיפוש"
+              autocomplete="off"
+              spellcheck="false"
+              readonly
+              inputmode="none"
+              data-action="vod-search"
+            />
+            <button type="button" class="vod-search-clear" id="vod-search-clear" data-action="vod-search-clear" aria-label="Clear search" title="Clear">×</button>
+          </div>
         </div>
       </header>
       <section class="vod-grid" id="series-list" aria-label="Series"></section>
@@ -116,19 +189,17 @@
     <header class="radio-header">
       <h1 class="radio-heading">RADIO</h1>
     </header>
-    <div class="radio-now" id="radio-now" aria-live="polite">
-      <div class="radio-now-visual" id="radio-now-visual" data-accent="#6bb3ff">
+    <div class="radio-now is-idle" id="radio-now" aria-live="polite">
+      <p class="radio-now-prompt" id="radio-now-prompt">בחר תחנה</p>
+      <div class="radio-now-visual" id="radio-now-visual" data-accent="#6bb3ff" hidden>
         <div class="radio-eq is-idle" id="radio-eq" aria-hidden="true">
           <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
           <span></span><span></span><span></span><span></span>
         </div>
       </div>
-      <div class="radio-now-meta">
-        <p class="radio-now-line" id="radio-now-title">Choose station</p>
-        <p class="radio-now-status" id="radio-now-status"></p>
-      </div>
     </div>
     <div class="radio-content">
+      <div class="home-continue-divider" aria-hidden="true"></div>
       <section class="radio-grid" id="radio-list" aria-label="Radio stations"></section>
     </div>
     <audio id="radio-audio" preload="none"></audio>
@@ -158,6 +229,7 @@
           <div class="vod-season-menu" id="series-season-menu" role="listbox" hidden></div>
         </div>
       </header>
+      <div class="series-season-sticky" id="series-season-sticky" aria-hidden="true" hidden></div>
       <section class="vod-grid" id="episodes-list" aria-label="Episodes"></section>
     </div>
   </main>
@@ -173,7 +245,10 @@
     <div class="vod-controls" id="vod-controls" hidden>
       <div class="vod-controls-meta">
         <span class="vod-episode-label" id="vod-episode-label" hidden></span>
-        <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>לפרק הבא</button>
+        <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>
+          <span class="vod-next-fill" id="vod-next-fill" aria-hidden="true"></span>
+          <span class="vod-next-label" id="vod-next-label">לפרק הבא</span>
+        </button>
       </div>
       <div class="vod-controls-inner">
         <button type="button" class="vod-btn" id="vod-playpause" aria-label="Play/Pause">

@@ -192,8 +192,46 @@ body {
     padding-bottom: 0;
 }
 
+#view-live.vod-view.is-active {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
 #view-live .vod-content {
-    padding-bottom: 120px;
+    flex: 1;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+#view-live .vod-header {
+    flex-shrink: 0;
+}
+
+#view-live #channels.vod-grid {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Room for focus scale(1.06) so left/right tile frames aren't clipped */
+    padding: 16px 32px 120px;
+    align-content: start;
+    box-sizing: border-box;
+}
+
+#view-live .vod-header {
+    padding-bottom: 12px;
+}
+
+#view-live .live-toolbar {
+    margin-top: 18px;
+    padding-bottom: 18px;
+}
+
+#view-live .live-toolbar .vod-tabs {
+    margin-top: 0;
 }
 
 /* Live channel cards reuse VOD card chrome + keep snapshot/preview layers */
@@ -391,31 +429,55 @@ body {
 .radio-now {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: stretch;
+    align-items: center;
+    justify-content: center;
     gap: 0;
     width: 70%;
     max-width: 1120px;
     margin: 0 auto 36px;
-    min-height: 160px;
+    min-height: 140px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
     background: rgba(0, 0, 0, 0.28);
 }
 
+.radio-now-prompt {
+    margin: 0;
+    padding: 28px 40px;
+    color: #fff;
+    font-size: clamp(32px, 3.2vw, 48px);
+    font-weight: bold;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    text-align: center;
+    direction: rtl;
+}
+
 .radio-now-visual {
     position: relative;
-    width: 50%;
-    min-height: 160px;
+    width: 100%;
+    min-height: 140px;
     border-radius: 0;
     background: linear-gradient(145deg, var(--radio-accent, #6bb3ff), rgba(0, 0, 0, 0.35));
     box-shadow: none;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     flex-shrink: 0;
+}
+
+.radio-now.has-station .radio-now-prompt {
+    display: none;
+}
+
+.radio-now.has-station .radio-now-visual {
+    display: flex;
+}
+
+.radio-now-visual[hidden] {
+    display: none !important;
 }
 
 .radio-eq {
@@ -463,38 +525,22 @@ body {
     70% { transform: scaleY(0.55); }
 }
 
-.radio-now-meta {
-    width: 50%;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 10px;
-    padding: 28px 40px;
-    text-align: right;
-    direction: rtl;
-    box-sizing: border-box;
-}
-
-.radio-now-line {
-    font-size: clamp(32px, 3.2vw, 48px);
-    color: #fff;
-    margin: 0;
-    letter-spacing: -0.01em;
-    line-height: 1.25;
-    text-align: right;
-}
-
-.radio-now-status {
-    font-size: 24px;
-    color: rgba(255, 255, 255, 0.65);
-    text-align: right;
-    margin: 0;
-}
-
 .radio-content {
     position: relative;
+}
+
+/* Avoid margin collapse with .radio-now; pad around the line itself */
+#view-radio .radio-now {
+    margin-bottom: 0;
+}
+
+#view-radio .home-continue-divider {
+    margin: 0;
+    padding: 50px 0;
+    height: 2px;
+    box-sizing: content-box;
+    background-clip: content-box;
+    -webkit-background-clip: content-box;
 }
 
 .radio-grid {
@@ -541,8 +587,6 @@ body {
     opacity: 0.5;
     pointer-events: none;
     z-index: 0;
-    -webkit-mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, #000 28%, rgba(0, 0, 0, 0.55) 55%, transparent 78%);
-    mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, #000 28%, rgba(0, 0, 0, 0.55) 55%, transparent 78%);
 }
 
 .radio-card:focus,
@@ -823,6 +867,14 @@ body.is-fullscreen .vod-view.is-active {
     display: none;
 }
 
+.player-video::cue {
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 1.35em;
+    line-height: 1.35;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
 .player-message {
     position: absolute;
     max-width: 70%;
@@ -955,14 +1007,31 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .vod-episode-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
     color: #fff;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
     font-size: 32px;
     font-weight: 700;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.75);
     direction: rtl;
-    text-align: left;
+    text-align: right;
     margin-right: auto;
+    max-width: 70%;
+}
+
+.vod-episode-label-title {
+    display: block;
+}
+
+.vod-episode-label-sub {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.3;
+    opacity: 0.9;
 }
 
 .vod-episode-label[hidden] {
@@ -971,8 +1040,10 @@ body.is-fullscreen .vod-view.is-active {
 
 .vod-next-btn {
     appearance: none;
+    position: relative;
+    overflow: hidden;
     border: 3px solid transparent;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.32);
     color: #111;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
     font-size: 30px;
@@ -982,7 +1053,24 @@ body.is-fullscreen .vod-view.is-active {
     cursor: pointer;
     margin-left: auto;
     direction: rtl;
-    transition: background 0.2s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.vod-next-fill {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.25s linear;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.vod-next-label {
+    position: relative;
+    z-index: 1;
+    color: #111;
 }
 
 .vod-next-btn[hidden] {
@@ -992,8 +1080,6 @@ body.is-fullscreen .vod-view.is-active {
 .vod-next-btn:focus,
 .vod-next-btn.is-focused {
     outline: none;
-    background: #fff;
-    color: #111;
     border-color: #111;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85);
     transform: scale(1.04);
@@ -1141,6 +1227,23 @@ body.is-fullscreen .vod-view.is-active {
     display: none !important;
 }
 
+/* Episodes sit on top of VOD so the grid/tab/scroll state stay intact. */
+#view-vod.is-under-series {
+    pointer-events: none;
+}
+
+#view-series.is-series-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .vod-hero {
     position: absolute;
     inset: 0;
@@ -1206,22 +1309,164 @@ body.is-fullscreen .vod-view.is-active {
     text-align: center;
 }
 
-.vod-tabs {
+/* Identical fade line under LIVE title and VOD tabs */
+#view-live .vod-header::after,
+#view-vod .vod-header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(
+        to left,
+        transparent 0%,
+        rgba(255, 255, 255, 0.45) 20%,
+        rgba(255, 255, 255, 0.45) 80%,
+        transparent 100%
+    );
+}
+
+#view-vod .vod-header::after {
+    margin-top: 16px;
+}
+
+#view-vod .vod-header {
+    padding-bottom: 22px;
+}
+
+#view-live .vod-header {
+    padding-bottom: 12px;
+}
+
+#view-vod .vod-header {
+    padding-bottom: 12px;
+}
+
+.vod-toolbar {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 14px;
     margin-top: 22px;
+    padding-bottom: 28px;
+}
+
+/* VOD: only the tiles scroll; title, tabs, and divider stay fixed */
+#view-vod.vod-view.is-active {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#view-vod .vod-content {
+    flex: 1;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+
+#view-vod .vod-header {
+    flex-shrink: 0;
+}
+
+#view-vod #series-list.vod-grid {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Room for focus scale(1.06) so left/right tile frames aren't clipped */
+    padding: 16px 32px 120px;
+    align-content: start;
+    box-sizing: border-box;
+}
+
+#view-vod #series-list.vod-grid.is-empty-mylist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 64px 48px;
+}
+
+#view-series.vod-view.is-active {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+#view-series .vod-content {
+    flex: 1;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+    gap: 12px;
+}
+
+#view-series .vod-header {
+    flex-shrink: 0;
+    padding-bottom: 4px;
+}
+
+.series-season-sticky {
+    flex-shrink: 0;
+    margin: 0 32px 28px;
+    padding: 4px 8px 10px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: clamp(34px, 3.4vw, 48px);
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: right;
+    direction: rtl;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.25);
+}
+
+#view-series .season-divider {
+    margin: 20px 8px 24px;
+    padding: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.25);
+}
+
+.series-season-sticky[hidden] {
+    display: none !important;
+}
+
+#view-series #episodes-list.vod-grid {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 4px 32px 120px;
+    align-content: start;
+    box-sizing: border-box;
+}
+
+.vod-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 0;
 }
 
 .vod-search {
     display: flex;
     align-items: center;
     gap: 12px;
-    width: 100%;
-    max-width: 720px;
-    margin: 22px auto 0;
+    width: 360px;
+    max-width: 360px;
+    flex: 0 0 360px;
+    margin: 0;
     position: relative;
 }
 
@@ -1230,7 +1475,7 @@ body.is-fullscreen .vod-view.is-active {
     -webkit-appearance: none;
     flex: 1;
     min-width: 0;
-    height: 56px;
+    height: 80px;
     border: 2px solid rgba(255, 255, 255, 0.22);
     background: rgba(255, 255, 255, 0.08);
     color: #fff;
@@ -1238,7 +1483,7 @@ body.is-fullscreen .vod-view.is-active {
     font-size: 26px;
     font-weight: bold;
     border-radius: 12px;
-    padding: 0 20px 0 56px;
+    padding: 0 20px 0 64px;
     outline: none;
     box-sizing: border-box;
     direction: rtl;
@@ -1269,7 +1514,7 @@ body.is-fullscreen .vod-view.is-active {
 .vod-search-clear {
     appearance: none;
     position: absolute;
-    left: 8px;
+    left: 16px;
     right: auto;
     top: 50%;
     transform: translateY(-50%) scale(1);
@@ -1306,7 +1551,7 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .vod-season-wrap {
-    max-width: 420px;
+    max-width: 680px;
 }
 
 .vod-season-trigger {
@@ -1407,11 +1652,16 @@ body.is-fullscreen .vod-view.is-active {
     font-weight: bold;
     border-radius: 10px;
     min-height: 52px;
+    flex-shrink: 0;
     padding: 10px 18px;
     text-align: right;
     direction: rtl;
     cursor: pointer;
     outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
 }
 
 .vod-season-option.is-active {
@@ -1431,23 +1681,46 @@ body.is-fullscreen .vod-view.is-active {
     background: rgba(255, 255, 255, 0.06);
     color: rgba(255, 255, 255, 0.72);
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     letter-spacing: 0.02em;
-    padding: 12px 20px;
+    padding: 6px 12px;
     min-width: 200px;
+    height: 80px;
     text-align: center;
     border-radius: 12px;
     cursor: pointer;
     outline: none;
     transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
     box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vod-tab-logo {
+    background: #000;
+    overflow: hidden;
+}
+
+.vod-tab-logo .vod-tab-img {
+    display: block;
+    height: 62px;
+    width: auto;
+    max-width: 220px;
+    object-fit: contain;
+    pointer-events: none;
 }
 
 .vod-tab.is-active {
     background: rgba(255, 255, 255, 0.16);
     color: #fff;
     border-color: rgba(255, 255, 255, 0.45);
+}
+
+.vod-tab-logo.is-active {
+    background: #0a0a0a;
+    border-color: rgba(255, 255, 255, 0.55);
 }
 
 .vod-tab:focus,
@@ -1459,6 +1732,73 @@ body.is-fullscreen .vod-view.is-active {
     box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
 }
 
+.vod-tab-logo:focus,
+.vod-tab-logo.is-focused {
+    background: #000;
+}
+
+.vod-tab-text {
+    min-width: 0;
+    padding: 0 28px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #fff;
+    background: rgba(16, 19, 24, 0.55);
+    border: 2px solid transparent;
+}
+
+.vod-tab-text.is-active {
+    border-color: rgba(255, 255, 255, 0.35);
+    background: rgba(16, 19, 24, 0.85);
+}
+
+#vod-tab-mylist,
+#vod-tab-mylist.is-active,
+#vod-tab-mylist:focus,
+#vod-tab-mylist.is-focused {
+    position: fixed;
+    top: 28px;
+    left: 36px;
+    z-index: 90;
+    margin: 0;
+    min-width: 0;
+    height: auto;
+    min-height: 82px;
+    padding: 10px 28px;
+    border-radius: 999px;
+    background: rgba(16, 19, 24, 0.72);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 0;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: none;
+    transform: none;
+}
+
+#vod-tab-mylist.is-active {
+    border-color: rgba(255, 255, 255, 0.45);
+    background: rgba(16, 19, 24, 0.88);
+}
+
+#vod-tab-mylist:focus,
+#vod-tab-mylist.is-focused {
+    transform: scale(1.04);
+    border-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.12);
+    background: rgba(16, 19, 24, 0.88);
+}
+
+#view-vod.is-under-series #vod-tab-mylist,
+body.is-fullscreen #vod-tab-mylist,
+body.is-vod-ime-open #vod-tab-mylist,
+body.is-profile-dialog-open #vod-tab-mylist {
+    display: none !important;
+}
+
 .vod-title {
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
     font-size: 52px;
@@ -1466,6 +1806,7 @@ body.is-fullscreen .vod-view.is-active {
     color: #fff;
     letter-spacing: -0.01em;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .vod-subtitle {
@@ -1484,6 +1825,129 @@ body.is-fullscreen .vod-view.is-active {
     margin: 0 auto;
 }
 
+.vod-series-tile {
+    position: relative;
+    min-width: 0;
+}
+
+.vod-series-tile .vod-card {
+    width: 100%;
+    display: block;
+}
+
+.vod-mylist-btn {
+    appearance: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    /* Above focused card (z-index: 10) so the heart stays visible when selected */
+    z-index: 12;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    outline: none;
+    /* Avoid filter — causes sibling heart flicker on Tizen WebKit when one updates */
+    transition: none;
+}
+
+.vod-mylist-btn .vod-mylist-icon {
+    width: 34px;
+    height: 34px;
+    display: block;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2.2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    overflow: visible;
+    /* Soft edge without CSS filter */
+    paint-order: stroke fill;
+}
+
+.vod-mylist-btn.is-active {
+    color: #e53935;
+}
+
+.vod-mylist-btn.is-active .vod-mylist-icon {
+    fill: #e53935;
+    stroke: #e53935;
+}
+
+.vod-mylist-btn.is-pulse {
+    animation: mylist-heart-pulse 0.45s ease;
+}
+
+@keyframes mylist-heart-pulse {
+    0% { transform: scale(1); }
+    40% { transform: scale(1.35); }
+    100% { transform: scale(1); }
+}
+
+.vod-search.is-search-active .vod-search-input {
+    border-color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.vod-mylist-hint {
+    margin: 14px auto 0;
+    max-width: 900px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.vod-search-message {
+    grid-column: 1 / -1;
+    margin: 64px auto;
+    max-width: 900px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.82);
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.55;
+}
+
+.vod-mylist-empty {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 0 24px;
+}
+
+.vod-mylist-empty-title,
+.vod-mylist-empty-hint {
+    display: block;
+}
+
+.vod-mylist-empty-title {
+    color: #fff;
+    font-size: 72px;
+    margin-bottom: 18px;
+}
+
+.vod-mylist-empty-hint {
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 42px;
+}
+
 /* VOD series card */
 .vod-card {
     appearance: none;
@@ -1496,8 +1960,8 @@ body.is-fullscreen .vod-view.is-active {
     position: relative;
     overflow: visible;
     transform: scale(1);
-    transition: transform 0.22s ease;
-    /* No entrance animation — was costly with large episode grids on TV */
+    /* Short transform only — animating box-shadow is expensive on Tizen */
+    transition: transform 0.1s ease;
 }
 
 .vod-card-inner {
@@ -1509,10 +1973,8 @@ body.is-fullscreen .vod-view.is-active {
     position: relative;
     background: #1a1a1a;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-    transition: box-shadow 0.22s ease;
 }
 
-.vod-card:focus .vod-card-inner,
 .vod-card.is-focused .vod-card-inner {
     /* Radio-style blue frame — 2px solid + soft outer glow */
     box-shadow:
@@ -1521,12 +1983,97 @@ body.is-fullscreen .vod-view.is-active {
         0 10px 28px rgba(0, 0, 0, 0.55);
 }
 
+.vod-card-img-wrap {
+    position: absolute;
+    inset: 0;
+    display: block;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.vod-card-img-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 3px;
+    margin-top: -1.5px;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 0 0 14px 2px rgba(255, 255, 255, 0.9);
+    pointer-events: none;
+    /* Hidden until image reveal starts (Samsung-style) */
+    opacity: 0;
+}
+
+.vod-card-img-wrap.is-revealed .vod-card-img-line {
+    animation: vod-img-line 1.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
 .vod-card-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
     background: #1a1a1a;
+}
+
+/* Reveal only for lazy-loaded tile images (not hub / static posters) */
+.vod-card-img-wrap .vod-card-img {
+    position: absolute;
+    inset: 0;
+    clip-path: inset(50% 0 50% 0);
+    opacity: 0;
+}
+
+.vod-card-img-wrap .vod-card-img.is-revealed {
+    animation: vod-img-reveal 1.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes vod-img-line {
+    0% {
+        opacity: 1;
+        height: 3px;
+        margin-top: -1.5px;
+        box-shadow: 0 0 14px 2px rgba(255, 255, 255, 0.95);
+    }
+    10% {
+        opacity: 1;
+        height: 3px;
+        margin-top: -1.5px;
+    }
+    28% {
+        opacity: 0.4;
+        height: 3px;
+        margin-top: -1.5px;
+    }
+    40% {
+        opacity: 0;
+        height: 3px;
+        margin-top: -1.5px;
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+    100% {
+        opacity: 0;
+        height: 3px;
+        margin-top: -1.5px;
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes vod-img-reveal {
+    0% {
+        clip-path: inset(50% 0 50% 0);
+        opacity: 0;
+    }
+    12% {
+        clip-path: inset(50% 0 50% 0);
+        opacity: 0.2;
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
 }
 
 .vod-card-gradient {
@@ -1589,32 +2136,78 @@ body.is-fullscreen .vod-view.is-active {
     direction: rtl;
 }
 
+#episodes-list .vod-card-gradient {
+    height: 72%;
+}
+
+#episodes-list .vod-card-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 14px 16px 18px;
+    text-align: right;
+    direction: rtl;
+    pointer-events: none;
+}
+
 #episodes-list .vod-card-name {
-    font-size: 30px;
-    padding: 20px 18px;
+    position: static;
+    display: block;
+    padding: 0;
+    font-size: 26px;
+    text-align: right;
+    direction: rtl;
+    line-height: 1.25;
+}
+
+#episodes-list .vod-card-sub {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    margin-top: 4px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
     text-align: right;
     direction: rtl;
 }
 
-/* Focus: slight enlargement + blue frame */
-.vod-card:focus,
+/* Focus: slight enlargement + blue frame (class only — avoids :focus paint cost on TV) */
 .vod-card.is-focused {
     transform: scale(1.06);
     z-index: 10;
 }
 
-.vod-card:focus::after,
 .vod-card.is-focused::after {
     content: none;
 }
 
 /* ── Home hub cards ── */
 
+#view-home.vod-view.is-active {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
 .home-content {
-    min-height: 100vh;
-    justify-content: flex-start;
-    padding-top: 48px;
-    padding-bottom: 64px;
+    flex: 1;
+    min-height: 0;
+    height: 100%;
+    max-height: 100%;
+    justify-content: space-evenly;
+    align-content: stretch;
+    padding-top: 28px;
+    padding-bottom: 36px;
+    gap: 16px;
+    overflow: hidden;
     box-sizing: border-box;
 }
 
@@ -1622,32 +2215,35 @@ body.is-fullscreen .vod-view.is-active {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 8px;
-    max-width: 720px;
+    margin: 0 auto;
+    max-width: 560px;
     width: 100%;
+    flex-shrink: 0;
 }
 
 .home-logo {
     display: block;
-    width: min(52vw, 620px);
+    width: min(40vw, 460px);
     height: auto;
 }
 
 .home-content .hub {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 36px;
-    max-width: 1400px;
+    gap: 28px;
+    max-width: 1180px;
     width: 100%;
     margin: 0 auto;
     min-height: auto;
     align-content: center;
+    flex-shrink: 0;
 }
 
 .home-continue {
     max-width: 1400px;
     width: 100%;
-    margin: 36px auto 0;
+    margin: 0 auto;
+    flex-shrink: 0;
 }
 
 .home-continue[hidden] {
@@ -1663,14 +2259,14 @@ body.is-fullscreen .vod-view.is-active {
         rgba(255, 255, 255, 0.45) 80%,
         transparent 100%
     );
-    margin: 0 0 22px;
+    margin: 0 0 12px;
 }
 
 .home-continue-title {
-    margin: 0 0 18px;
+    margin: 0 0 10px;
     color: #fff;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 700;
     text-align: right;
     direction: rtl;
@@ -1680,15 +2276,30 @@ body.is-fullscreen .vod-view.is-active {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 36px;
+    gap: 24px;
     overflow-x: auto;
     overflow-y: hidden;
     /* Room for focus ring + scale(1.06) so first/last cards aren't clipped */
-    padding: 20px 36px 28px;
+    padding: 12px 24px 16px;
     scroll-behavior: smooth;
     direction: ltr;
     -webkit-overflow-scrolling: touch;
     box-sizing: border-box;
+    /* Soft fade at scroll edges */
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0,
+        #000 48px,
+        #000 calc(100% - 48px),
+        transparent 100%
+    );
+    mask-image: linear-gradient(
+        to right,
+        transparent 0,
+        #000 48px,
+        #000 calc(100% - 48px),
+        transparent 100%
+    );
 }
 
 .home-continue-row::-webkit-scrollbar {
@@ -1696,35 +2307,33 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .home-continue-card.vod-card {
-    /* Match hub tile width: 3 columns in the same 1400px row with 36px gaps */
-    flex: 0 0 calc((100% - 72px) / 3);
-    width: calc((100% - 72px) / 3);
-    max-width: calc((100% - 72px) / 3);
+    flex: 0 0 calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
+    max-width: calc((100% - 48px) / 3);
     animation: none;
 }
 
 .home-continue-card.vod-card .vod-card-inner {
     aspect-ratio: 16 / 9;
-    min-height: 280px;
+    min-height: 0;
 }
 
-.home-continue-card.vod-card:focus,
 .home-continue-card.vod-card.is-focused {
     transform: scale(1.06);
 }
 
 .home-continue-card .vod-card-name {
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 20px 16px;
+    padding: 14px 12px;
     text-align: right;
 }
 
 .home-continue-card .vod-card-series {
     display: block;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     opacity: 0.85;
     margin-bottom: 2px;
@@ -1736,26 +2345,25 @@ body.is-fullscreen .vod-view.is-active {
 
 .hub-card.vod-card .vod-card-inner {
     aspect-ratio: 16 / 9;
-    min-height: 280px;
+    min-height: 0;
 }
 
-.hub-card.vod-card:focus,
 .hub-card.vod-card.is-focused {
     transform: scale(1.06);
 }
 
 .hub-card-label {
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 52px;
+    font-size: 42px;
     font-weight: bold;
     letter-spacing: 0.04em;
     line-height: 1.15;
-    padding: 28px 22px;
+    padding: 20px 18px;
 }
 
 .hub-card-label small {
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     opacity: 0.9;
     letter-spacing: 0;
@@ -1772,11 +2380,11 @@ body.is-fullscreen .vod-view.is-active {
     );
 }
 
-/* In-app Hebrew / English keyboard for VOD search */
+/* In-app Hebrew / English keyboard for VOD search / profile name */
 .vod-ime {
     position: fixed;
     inset: 0;
-    z-index: 80;
+    z-index: 140; /* above profile dialog (120) */
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -1826,6 +2434,49 @@ body.is-fullscreen .vod-view.is-active {
 .vod-ime-preview:empty::before {
     content: 'חיפוש';
     color: rgba(255, 255, 255, 0.4);
+}
+
+/* Profile name keyboard: keep dialog usable; keyboard only at bottom */
+body.is-profile-ime-open .vod-ime {
+    inset: auto 0 0 0;
+    top: auto;
+    height: auto;
+    max-height: 46vh;
+    background: transparent;
+}
+
+body.is-profile-ime-open .vod-ime-backdrop {
+    display: none;
+}
+
+body.is-profile-ime-open .vod-ime-preview {
+    display: none !important;
+}
+
+body.is-profile-ime-open .vod-ime-panel {
+    padding-top: 16px;
+}
+
+body.is-profile-ime-open .profile-dialog {
+    align-items: flex-start;
+    padding-top: 28px;
+    z-index: 130;
+}
+
+body.is-profile-ime-open .profile-dialog-panel {
+    max-height: calc(100vh - 340px);
+}
+
+body.is-profile-ime-open .profile-edit-actions {
+    position: static;
+    margin-top: 4px;
+    padding: 0;
+    background: none;
+}
+
+body.is-profile-ime-open .profile-action-btn:not([disabled]):not(.is-disabled) {
+    opacity: 1;
+    filter: none;
 }
 
 .vod-ime-keys {
@@ -1880,5 +2531,742 @@ body.is-fullscreen .vod-view.is-active {
     border-color: var(--radio-accent, #6bb3ff);
     background: rgba(107, 179, 255, 0.28);
     box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
+    z-index: 2;
+}
+
+/* —— Profiles —— */
+.profile-menu {
+    position: fixed;
+    top: 28px;
+    right: 36px;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 18px 10px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    background: rgba(16, 19, 24, 0.72);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    direction: ltr;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.profile-btn-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    background: #2a3140;
+    flex-shrink: 0;
+}
+
+.profile-btn-name {
+    font-size: 26px;
+    font-weight: bold;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+}
+
+.profile-btn-caret {
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid rgba(255, 255, 255, 0.8);
+    flex-shrink: 0;
+}
+
+.profile-menu.is-open .profile-btn-caret {
+    border-top: none;
+    border-bottom: 8px solid rgba(255, 255, 255, 0.8);
+}
+
+.profile-btn.is-focused,
+.profile-btn:focus,
+.profile-menu.is-open .profile-btn {
+    transform: scale(1.04);
+    border-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.12);
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    min-width: 320px;
+    padding: 12px;
+    border-radius: 18px;
+    background: rgba(20, 20, 20, 0.96);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+    direction: ltr;
+    overflow: hidden;
+}
+
+.profile-dropdown[hidden] {
+    display: none !important;
+}
+
+.profile-dropdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.profile-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+}
+
+.profile-dropdown-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #2a3140;
+}
+
+.profile-dropdown-name {
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    direction: rtl;
+    text-align: right;
+    flex: 1;
+}
+
+.profile-dropdown-item.is-focused,
+.profile-dropdown-item:focus {
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.profile-dropdown-item.is-active .profile-dropdown-name {
+    color: #fff;
+}
+
+.profile-dropdown-divider {
+    height: 1px;
+    margin: 6px 8px;
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.profile-dropdown-edit .profile-dropdown-edit-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 26px;
+    color: #c8c8c8;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+body.is-fullscreen .profile-menu,
+body.is-vod-ime-open .profile-menu,
+body.is-profile-dialog-open .profile-menu {
+    display: none !important;
+}
+
+.profile-dialog {
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+
+.profile-dialog[hidden] {
+    display: none !important;
+}
+
+.profile-dialog-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+}
+
+.profile-dialog-panel {
+    position: relative;
+    z-index: 1;
+    width: min(1480px, 94vw);
+    max-height: 86vh;
+    overflow: auto;
+    padding: 48px 56px 40px;
+    border-radius: 24px;
+    background:
+        radial-gradient(ellipse 70% 50% at 80% 0%, rgba(107, 179, 255, 0.18), transparent 55%),
+        linear-gradient(165deg, #1a2030 0%, #12161f 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+}
+
+.profile-select-header {
+    position: relative;
+    margin-bottom: 36px;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-select-header.is-managing {
+    min-height: 56px;
+    margin-bottom: 28px;
+}
+
+.profile-dialog-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+}
+
+.profile-edit-view .profile-dialog-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile-edit-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 64px;
+    margin-bottom: 28px;
+}
+
+.profile-edit-close {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: auto;
+    transform: translateY(-50%);
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.profile-edit-close.is-focused,
+.profile-edit-close:focus {
+    transform: translateY(-50%) scale(1.08);
+    border-color: var(--focus);
+    background: rgba(107, 179, 255, 0.22);
+    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
+}
+
+.profile-edit-split {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    min-height: 420px;
+}
+
+.profile-edit-details {
+    flex: 1 1 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    padding: 20px 28px;
+    box-sizing: border-box;
+}
+
+.profile-edit-divider {
+    width: 2px;
+    align-self: stretch;
+    margin: 8px 0;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.22) 18%,
+        rgba(255, 255, 255, 0.22) 82%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    flex-shrink: 0;
+}
+
+.profile-edit-icons {
+    flex: 1 1 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    box-sizing: border-box;
+}
+
+.profile-edit-preview {
+    width: 168px;
+    height: 168px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.profile-edit-preview-img,
+.profile-edit-preview-placeholder {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.profile-edit-preview-img {
+    object-fit: cover;
+    background: #2a3140;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+}
+
+.profile-edit-preview-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.06);
+    border: 3px dashed rgba(255, 255, 255, 0.18);
+}
+
+.profile-edit-preview-img[hidden],
+.profile-edit-preview-placeholder[hidden] {
+    display: none !important;
+}
+
+.profile-manage-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 12px 28px;
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.profile-manage-btn.is-close {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-manage-btn.is-focused,
+.profile-manage-btn:focus {
+    transform: translateY(-50%) scale(1.08);
+    border-color: var(--focus);
+    background: rgba(107, 179, 255, 0.22);
+    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
+}
+
+.profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 24px;
+}
+
+.profile-card {
+    width: 180px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    transition: transform 0.15s ease;
+}
+
+.profile-card-avatar {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+.profile-card-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    background: #2a3140;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.profile-card-edit-badge {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #101318;
+    background: #fff;
+    border: 2px solid rgba(16, 19, 24, 0.85);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    pointer-events: none;
+}
+
+.profile-card.is-managing.is-focused .profile-card-edit-badge,
+.profile-card.is-managing:focus .profile-card-edit-badge {
+    background: var(--focus);
+    color: #0b1220;
+    border-color: #fff;
+}
+
+.profile-card-name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.profile-card-add .profile-card-add-icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    color: #9aa3b2;
+    background: rgba(255, 255, 255, 0.08);
+    border: 3px solid rgba(255, 255, 255, 0.14);
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.profile-card-add.is-focused .profile-card-add-icon,
+.profile-card-add:focus .profile-card-add-icon {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.45);
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.profile-card-add .profile-card-name {
+    color: #b8c0cc;
+}
+
+.profile-card.is-focused,
+.profile-card:focus {
+    transform: scale(1.08);
+}
+
+.profile-action-btn.is-focused,
+.profile-name-field.is-focused,
+.profile-action-btn:focus,
+.profile-name-field:focus {
+    transform: scale(1.08);
+    border-color: var(--focus);
+}
+
+.profile-action-btn-danger {
+    background: rgba(229, 57, 53, 0.22);
+    border-color: rgba(229, 57, 53, 0.55);
+}
+
+.profile-action-btn-danger.is-focused,
+.profile-action-btn-danger:focus {
+    border-color: #e53935;
+    box-shadow: 0 0 0 3px rgba(229, 57, 53, 0.35);
+}
+
+.profile-icon-btn.is-focused,
+.profile-icon-btn:focus {
+    transform: scale(1.08);
+}
+
+.profile-edit-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.profile-edit-actions .profile-action-btn {
+    min-width: 180px;
+    width: 180px;
+    flex: 0 0 180px;
+    max-width: 180px;
+    height: 48px;
+    padding: 0 18px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.profile-action-btn {
+    min-width: 200px;
+    height: 64px;
+    padding: 0 28px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 14px;
+    background: rgba(107, 179, 255, 0.2);
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.profile-action-btn-ghost {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.profile-action-btn:disabled,
+.profile-action-btn.is-disabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+    filter: grayscale(0.4);
+}
+
+.profile-edit-label {
+    font-size: 24px;
+    color: var(--ink-muted);
+    margin: 8px 0 14px;
+    text-align: center;
+}
+
+.profile-icon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 18px;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.profile-icon-btn {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.profile-icon-btn img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-icon-btn.is-selected {
+    border-color: var(--focus);
+    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.45);
+}
+
+.profile-icon-btn.is-selected.is-focused,
+.profile-icon-btn.is-selected:focus {
+    border-color: var(--focus);
+    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.55);
+}
+
+.profile-icon-btn.is-focused,
+.profile-icon-btn:focus {
+    border-color: rgba(255, 255, 255, 0.55);
+}
+
+.profile-confirm {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    padding: 40px;
+    background: rgba(8, 10, 14, 0.78);
+    border-radius: 24px;
+    direction: rtl;
+}
+
+.profile-confirm[hidden] {
+    display: none !important;
+}
+
+.profile-confirm-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.profile-confirm-actions {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.profile-icon-btn.is-disabled,
+.profile-icon-btn:disabled {
+    cursor: default;
+    opacity: 0.35;
+    filter: grayscale(1);
+    pointer-events: none;
+}
+
+.profile-icon-btn.is-disabled img,
+.profile-icon-btn:disabled img {
+    filter: grayscale(1);
+}
+
+.profile-name-field {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+    min-height: 64px;
+    padding: 14px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.28);
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+.profile-name-field.is-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.profile-name-field.is-editing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    color: #fff;
+    border-color: var(--focus);
+    background: rgba(8, 12, 18, 0.85);
+    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.4);
+}
+
+.profile-name-field.is-editing .profile-name-text {
+    color: #fff;
+    line-height: 1.2;
+}
+
+.profile-name-field.is-editing.is-empty::before {
+    content: 'שם';
+    color: rgba(255, 255, 255, 0.35);
+    margin-left: 1px;
+}
+
+.profile-name-caret {
+    display: inline-block;
+    width: 2px;
+    height: 1.05em;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    background: #fff;
+    vertical-align: -0.12em;
+    animation: profile-caret-blink 1s step-end infinite;
+}
+
+@keyframes profile-caret-blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+body.is-profile-ime-open .profile-name-field.is-editing {
+    position: relative;
     z-index: 2;
 }

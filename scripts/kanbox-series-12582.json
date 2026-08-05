@@ -1,0 +1,244 @@
+{
+  "seriesId": "12582",
+  "slug": "series-12582",
+  "title": "עוד ניפגש",
+  "poster": "https://www.kan.org.il/media/15cc0p0c/share-image_1200x630_.jpg?rmode=pad&width=1200&height=630",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12582/",
+  "episodes": [
+    {
+      "season": 1,
+      "ep": 1,
+      "name": "עונה 1 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113323/",
+      "imageURL": "",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b41luydh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 2,
+      "name": "עונה 1 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113326/",
+      "imageURL": "https://www.kan.org.il/media/2x5ndhja/2020-5-24-imgid-33918_b.jpeg?width=490&height=272&v=1d9757cb554d350",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7go8vzz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 3,
+      "name": "עונה 1 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113329/",
+      "imageURL": "https://www.kan.org.il/media/zebbn3m0/2020-5-31-imgid-34282_b.jpeg?width=490&height=272&v=1d9757cb6c57a50",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zyq7efat/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 4,
+      "name": "עונה 1 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113332/",
+      "imageURL": "https://www.kan.org.il/media/mt3m3d1q/2020-6-1-imgid-34361_b.jpeg?width=490&height=272&v=1d9757cb8246e10",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_09a66exm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 5,
+      "name": "עונה 1 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113335/",
+      "imageURL": "https://www.kan.org.il/media/ixjnswc4/2020-6-7-imgid-34626_b.jpeg?width=490&height=272&v=1d9757cb9a800d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y9gxm50i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 6,
+      "name": "עונה 1 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113338/",
+      "imageURL": "https://www.kan.org.il/media/1k0dieo1/2020-6-14-imgid-35033_b.jpeg?width=490&height=272&v=1d9757cbb32bf80",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nvl6kirc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 7,
+      "name": "עונה 1 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113341/",
+      "imageURL": "https://www.kan.org.il/media/ol1j0s23/2020-6-18-imgid-35345_b.jpeg?width=490&height=272&v=1d9757cbc964720",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1acdh236/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 8,
+      "name": "עונה 1 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113344/",
+      "imageURL": "https://www.kan.org.il/media/uriavyom/2020-6-28-imgid-35885_b.jpeg?width=490&height=272&v=1d9757cbdec1320",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rjzgdotv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 9,
+      "name": "עונה 1 פרק 9",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113347/",
+      "imageURL": "https://www.kan.org.il/media/pivptvus/2020-7-5-imgid-36219_b.jpeg?width=490&height=272&v=1d9757cbf4f9ac0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vknz1ep9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 1,
+      "ep": 10,
+      "name": "עונה 1 פרק 10",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s1/113350/",
+      "imageURL": "https://www.kan.org.il/media/4lzg3xjs/2020-7-5-imgid-36221_b.jpeg?width=490&height=272&v=1d9757cc0c46070",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3nfd37d6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 1,
+      "name": "עונה 2 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137834/",
+      "imageURL": "https://www.kan.org.il/media/qwadw253/2021-11-18-imgid-64467_b.jpeg?width=490&height=272&v=1d975da12373ab0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pqfszvxq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 2,
+      "name": "עונה 2 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137925/",
+      "imageURL": "https://www.kan.org.il/media/mt0igq5e/2021-12-23-imgid-66323_b.jpeg?width=490&height=272&v=1d975da3d1cfad0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3nh9cmi8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 3,
+      "name": "עונה 2 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137928/",
+      "imageURL": "https://www.kan.org.il/media/enznuytw/2021-12-28-imgid-66579_b.jpeg?width=490&height=272&v=1d975da3e808270",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yu8yya45/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 4,
+      "name": "עונה 2 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137931/",
+      "imageURL": "https://www.kan.org.il/media/rm4pcrn0/2022-3-29-imgid-69586_b.jpeg?width=490&height=272&v=1d975da3fce1110",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4ygdfafv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 5,
+      "name": "עונה 2 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137934/",
+      "imageURL": "https://www.kan.org.il/media/1ghbf332/2022-1-13-imgid-67513_b.jpeg?width=490&height=272&v=1d975da413dcdb0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eqrk37jj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 6,
+      "name": "עונה 2 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137937/",
+      "imageURL": "https://www.kan.org.il/media/wxlei4ur/2022-1-25-imgid-68143_b.jpeg?width=490&height=272&v=1d975da429ac5a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u1ov04ql/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 7,
+      "name": "עונה 2 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137940/",
+      "imageURL": "https://www.kan.org.il/media/tfpibkov/2022-2-10-imgid-69070_b.jpeg?width=490&height=272&v=1d975da43f9b960",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_biixowsh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 2,
+      "ep": 8,
+      "name": "עונה 2 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s2/137943/",
+      "imageURL": "https://www.kan.org.il/media/ofuiprxz/2022-2-21-imgid-69612_b.jpeg?width=490&height=272&v=1d975da454d8990",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8etvru6z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 1,
+      "name": "עונה 3 פרק 1",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/559908/",
+      "imageURL": "https://www.kan.org.il/media/0z1fozqe/s039319001_22_58_21still001.jpg?width=490&height=272&v=1dad94c010a11f0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b96lqrtw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 2,
+      "name": "עונה 3 פרק 2",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/559911/",
+      "imageURL": "https://www.kan.org.il/media/hflly1c3/od_nipagesh-se03_ep02-29082301_23_19_15still004.jpg?width=490&height=272&v=1dad94bfb6b2a90",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_krvo8cis/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 3,
+      "name": "עונה 3 פרק 3",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/559912/",
+      "imageURL": "https://www.kan.org.il/media/gbbmtcod/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dad94bf518d1b0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_scoem8du/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 4,
+      "name": "עונה 3 פרק 4",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/559913/",
+      "imageURL": "https://www.kan.org.il/media/dmli5kf4/od_nipagesh-se03_ep04-29082301_26_26_08still003.jpg?width=490&height=272&v=1dad94beefc2ed0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bhqkqiwb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 5,
+      "name": "עונה 3 פרק 5",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/559914/",
+      "imageURL": "https://www.kan.org.il/media/o44dhuk0/od_nipagesh-se03_ep05-06092301_06_36_20still002.jpg?width=490&height=272&v=1dad94bebe9e5c0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bizeex5x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 6,
+      "name": "עונה 3 פרק 6",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/615637/",
+      "imageURL": "https://www.kan.org.il/media/t1xj5j4m/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadb599446ef60",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7lcrdn94/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 7,
+      "name": "עונה 3 פרק 7",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/615696/",
+      "imageURL": "https://www.kan.org.il/media/rfbpha5n/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadb598cb27990",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h717jk97/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    },
+    {
+      "season": 3,
+      "ep": 8,
+      "name": "עונה 3 פרק 8",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12582/s3/615702/",
+      "imageURL": "https://www.kan.org.il/media/fe3dusnv/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadb59868227a0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pheolohe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": ""
+    }
+  ],
+  "localPoster": "images/kanbox/series-12582/series.jpg"
+}

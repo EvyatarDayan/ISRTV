@@ -29,12 +29,36 @@
     var seriesSeasonFilter = 'all';
     var seriesSeasonOptions = [];
     var seriesSeasonMenuOpen = false;
+    var seriesSeasonNumbers = [];
     var vodProviderTab = 'kan';
+    var liveRegionTab = 'israel';
     var vodSearchQuery = '';
+    var vodSearchMode = false;
+    var vodReturnSeriesId = null;
+    var vodReturnTab = null;
+    var vodReturningFromSeries = false;
+    var vodRestoreLock = false;
+    var vodRestoreTimer = null;
+    var vodRestoreTargetIndex = -1;
+    var okHoldTimer = null;
+    var okShortTimer = null;
+    var okHoldItem = null;
+    var okHoldFired = false;
+    var okHoldSawRepeat = false;
+    var okHoldDownAt = 0;
+    var okSuppressHeartUntil = 0;
+    var OK_HOLD_MYLIST_MS = 900;
+    var OK_SHORT_FALLBACK_MS = 240;
     var vodImeOpen = false;
     var vodImeLayout = 'he';
     var vodImeFocusBefore = 0;
     var focusableItems = [];
+    var hydrateNearbyTimer = null;
+    // Tizen TV WebKit is much slower than the simulator — keep focus path lean.
+    var isTizenTv =
+        typeof tizen !== 'undefined' ||
+        (typeof navigator !== 'undefined' &&
+            /Tizen|SMART-TV|SmartTV|SamsungBrowser/i.test(navigator.userAgent || ''));
     var viewFocus = {
         home: 0,
         live: 0,
@@ -45,6 +69,8 @@
     var isVodMode = false;
     var usingAvplayPlayback = false;
     var pendingDrm = null;
+    var pendingSubtitleLang = null;
+    var pendingPreferHlsJs = false;
     var reshetKsCache = null;
     var reshetKsExpiry = 0;
     var RESHET_KALTURA = 'https://5031.frp1.ott.kaltura.com/api_v3/service/';
@@ -61,17 +87,38 @@
     var vodTimeDuration = null;
     var vodEpisodeLabel = null;
     var vodNextBtn = null;
+    var vodNextFill = null;
+    var vodNextLabel = null;
     var vodSeeking = false;
     var vodDurationMs = 0;
     var vodHideTimer = null;
     var vodEpisodeLabelTimer = null;
     var vodNextPromptVisible = false;
     var vodNextIsLast = false;
+    var vodNextAutoFired = false;
     var VOD_SEEK_STEP_SEC = 10;
     var VOD_CONTROLS_HIDE_MS = 3000;
-    var VOD_NEXT_PROMPT_SEC = 20;
+    var VOD_NEXT_PROMPT_SEC = 40;
+    var VOD_NEXT_AUTOFILL_SEC = 10;
     var VOD_EPISODE_LABEL_MS = 5000;
     var VOD_PROGRESS_KEY = 'isrtv_vod_progress';
+    var VOD_MYLIST_KEY = 'isrtv_vod_mylist';
+    var PROFILES_KEY = 'isrtv_profiles_v1';
+    var PROFILE_ICONS = [
+        'avatar-1',
+        'avatar-2',
+        'avatar-3',
+        'avatar-4',
+        'avatar-5',
+        'avatar-6',
+        'avatar-7',
+        'avatar-8',
+        'avatar-9',
+        'avatar-10',
+        'avatar-11',
+        'avatar-12'
+    ];
+    var PROFILE_MAX = 6;
     var VOD_PROGRESS_MIN_SEC = 15;
     var VOD_PROGRESS_COMPLETE = 0.92;
     var VOD_PROGRESS_SAVE_MS = 10000;
@@ -80,17 +127,1307 @@
     var HOME_CONTINUE_MAX = 20;
     var HOME_CONTINUE_DONE = 0.9;
     var vodProgressCache = null;
+    var vodMyListCache = null;
     var currentVodEpisodeId = null;
     var vodLastProgressSaveAt = 0;
     var vodResumeTargetSec = 0;
     var vodResumeApplied = false;
+    var profilesState = null;
+    var profileDialogOpen = false;
+    var profileDialogMode = 'select';
+    var profileEditDraft = null;
+    var profileChromeFocused = false;
+    var profileImeTarget = false;
+    var profileDialogReturnFocus = 0;
+    var profileManaging = false;
+    var profileDeleteConfirmOpen = false;
+    var profileConfirmKind = null;
+    var profileEditBaseline = null;
+    var profileMenuOpen = false;
+    var profileMenuReturnFocus = 0;
+
+    function activeProfileId() {
+        ensureProfilesLoaded();
+        return (profilesState && profilesState.activeId) || 'default';
+    }
+
+    function profileProgressKey(profileId) {
+        return VOD_PROGRESS_KEY + '__' + (profileId || activeProfileId());
+    }
+
+    function profileMyListKey(profileId) {
+        return VOD_MYLIST_KEY + '__' + (profileId || activeProfileId());
+    }
+
+    function profileIconUrl(iconId) {
+        var id = PROFILE_ICONS.indexOf(iconId) !== -1 ? iconId : PROFILE_ICONS[0];
+        return 'images/profiles/' + id + '.png';
+    }
+
+    function newProfileId() {
+        return 'p' + Date.now().toString(36) + Math.floor(Math.random() * 1000).toString(36);
+    }
+
+    function migrateLegacyDataToProfile(profileId) {
+        try {
+            var legacyProgress = localStorage.getItem(VOD_PROGRESS_KEY);
+            var legacyMyList = localStorage.getItem(VOD_MYLIST_KEY);
+            var pKey = profileProgressKey(profileId);
+            var mKey = profileMyListKey(profileId);
+            if (legacyProgress && !localStorage.getItem(pKey)) {
+                localStorage.setItem(pKey, legacyProgress);
+            }
+            if (legacyMyList && !localStorage.getItem(mKey)) {
+                localStorage.setItem(mKey, legacyMyList);
+            }
+        } catch (eMig) {
+            console.warn('Profile migrate failed:', eMig);
+        }
+    }
+
+    function ensureProfilesLoaded() {
+        if (profilesState && profilesState.list && profilesState.list.length) {
+            return profilesState;
+        }
+        var parsed = null;
+        try {
+            var raw = localStorage.getItem(PROFILES_KEY);
+            parsed = raw ? JSON.parse(raw) : null;
+        } catch (eLoad) {
+            parsed = null;
+        }
+        if (!parsed || !Array.isArray(parsed.list) || !parsed.list.length) {
+            var defaultId = 'default';
+            profilesState = {
+                activeId: defaultId,
+                list: [{ id: defaultId, name: 'אני', icon: 'avatar-1' }]
+            };
+            migrateLegacyDataToProfile(defaultId);
+            persistProfilesState();
+        } else {
+            profilesState = {
+                activeId: parsed.activeId || parsed.list[0].id,
+                list: parsed.list
+                    .filter(function (p) {
+                        return p && p.id && p.name;
+                    })
+                    .map(function (p) {
+                        return {
+                            id: String(p.id),
+                            name: String(p.name).slice(0, 24),
+                            icon: PROFILE_ICONS.indexOf(p.icon) !== -1 ? p.icon : PROFILE_ICONS[0]
+                        };
+                    })
+            };
+            if (!profilesState.list.length) {
+                profilesState.list = [{ id: 'default', name: 'אני', icon: 'avatar-1' }];
+                profilesState.activeId = 'default';
+            }
+            if (
+                !profilesState.list.some(function (p) {
+                    return p.id === profilesState.activeId;
+                })
+            ) {
+                profilesState.activeId = profilesState.list[0].id;
+            }
+        }
+        return profilesState;
+    }
+
+    function persistProfilesState() {
+        try {
+            localStorage.setItem(
+                PROFILES_KEY,
+                JSON.stringify({
+                    activeId: profilesState.activeId,
+                    list: profilesState.list
+                })
+            );
+        } catch (eSave) {
+            console.warn('Profiles save failed:', eSave);
+        }
+    }
+
+    function getActiveProfile() {
+        var state = ensureProfilesLoaded();
+        var i;
+        for (i = 0; i < state.list.length; i++) {
+            if (state.list[i].id === state.activeId) {
+                return state.list[i];
+            }
+        }
+        return state.list[0];
+    }
+
+    function findProfileById(id) {
+        var state = ensureProfilesLoaded();
+        var i;
+        for (i = 0; i < state.list.length; i++) {
+            if (state.list[i].id === id) {
+                return state.list[i];
+            }
+        }
+        return null;
+    }
+
+    function syncProfileButton() {
+        var profile = getActiveProfile();
+        var img = document.getElementById('profile-btn-img');
+        var nameEl = document.getElementById('profile-btn-name');
+        var btn = document.getElementById('profile-btn');
+        if (img) {
+            img.src = profileIconUrl(profile && profile.icon);
+        }
+        if (nameEl) {
+            nameEl.textContent = (profile && profile.name) || 'אני';
+        }
+        if (btn) {
+            btn.setAttribute('aria-label', 'פרופיל: ' + ((profile && profile.name) || 'אני'));
+            btn.setAttribute('aria-expanded', profileMenuOpen ? 'true' : 'false');
+        }
+    }
+
+    function renderProfileDropdown() {
+        var listEl = document.getElementById('profile-dropdown-list');
+        var state = ensureProfilesLoaded();
+        var activeId = state.activeId;
+        var editBtn;
+        var divider;
+        if (!listEl) {
+            return;
+        }
+        listEl.innerHTML = '';
+        state.list.forEach(function (profile) {
+            var item = document.createElement('button');
+            item.type = 'button';
+            item.className =
+                'profile-dropdown-item' + (profile.id === activeId ? ' is-active' : '');
+            item.setAttribute('data-action', 'profile-menu-select');
+            item.setAttribute('data-profile-id', profile.id);
+            item.setAttribute('role', 'menuitem');
+            item.innerHTML =
+                '<img class="profile-dropdown-img" src="' +
+                profileIconUrl(profile.icon) +
+                '" alt="" />' +
+                '<span class="profile-dropdown-name"></span>';
+            item.querySelector('.profile-dropdown-name').textContent = profile.name;
+            listEl.appendChild(item);
+        });
+        divider = document.createElement('div');
+        divider.className = 'profile-dropdown-divider';
+        divider.setAttribute('aria-hidden', 'true');
+        listEl.appendChild(divider);
+        editBtn = document.createElement('button');
+        editBtn.type = 'button';
+        editBtn.className = 'profile-dropdown-item profile-dropdown-edit';
+        editBtn.setAttribute('data-action', 'profile-menu-edit');
+        editBtn.setAttribute('role', 'menuitem');
+        editBtn.innerHTML =
+            '<span class="profile-dropdown-edit-icon" aria-hidden="true">✎</span>' +
+            '<span class="profile-dropdown-name">עריכה</span>';
+        listEl.appendChild(editBtn);
+    }
+
+    function bindProfileMenuItems() {
+        var listEl = document.getElementById('profile-dropdown-list');
+        var items = [];
+        if (!listEl) {
+            focusableItems = [];
+            return;
+        }
+        items = Array.prototype.slice.call(listEl.querySelectorAll('.profile-dropdown-item'));
+        focusableItems = items;
+        channels = items;
+        lastFocusedEl = null;
+        focusableItems.forEach(function (item, index) {
+            item.onfocus = function () {
+                if (focusFromCode) {
+                    return;
+                }
+                var prev = focusedIndex;
+                focusedIndex = index;
+                applyFocusClass(prev, index);
+            };
+            item.onclick = function (e) {
+                e.preventDefault();
+                activateItem(item);
+            };
+        });
+    }
+
+    function openProfileMenu() {
+        var menu = document.getElementById('profile-menu');
+        var dropdown = document.getElementById('profile-dropdown');
+        var state;
+        var start = 0;
+        var i;
+        if (profileDialogOpen || isFullscreen || vodImeOpen || !menu || !dropdown) {
+            return;
+        }
+        clearProfileChromeFocus(false);
+        profileMenuReturnFocus = focusedIndex;
+        profileMenuOpen = true;
+        renderProfileDropdown();
+        menu.classList.add('is-open');
+        dropdown.hidden = false;
+        document.body.classList.add('is-profile-menu-open');
+        syncProfileButton();
+        bindProfileMenuItems();
+        state = ensureProfilesLoaded();
+        for (i = 0; i < focusableItems.length; i++) {
+            if (focusableItems[i].getAttribute('data-profile-id') === state.activeId) {
+                start = i;
+    		break;
+            }
+        }
+        setFocus(start, false);
+    }
+
+    function closeProfileMenu() {
+        var menu = document.getElementById('profile-menu');
+        var dropdown = document.getElementById('profile-dropdown');
+        if (!profileMenuOpen) {
+            return;
+        }
+        profileMenuOpen = false;
+        if (menu) {
+            menu.classList.remove('is-open');
+        }
+        if (dropdown) {
+            dropdown.hidden = true;
+        }
+        document.body.classList.remove('is-profile-menu-open');
+        syncProfileButton();
+        if (profileDialogOpen) {
+            return;
+        }
+        if (currentView === 'home') {
+            bindHomeItems();
+        } else if (currentView === 'vod') {
+            bindVodItems();
+        } else if (currentView === 'series') {
+            bindSeriesItems();
+        } else if (currentView === 'live') {
+            bindLiveItems();
+        } else if (currentView === 'radio') {
+            bindRadioItems();
+        }
+        setFocus(
+            Math.min(profileMenuReturnFocus || 0, Math.max(0, focusableItems.length - 1)),
+            false
+        );
+    }
+
+    function toggleProfileMenu() {
+        if (profileMenuOpen) {
+            closeProfileMenu();
+        } else {
+            openProfileMenu();
+        }
+    }
+
+    function moveProfileMenuFocus(dx, dy) {
+        var items = focusableItems;
+        var next;
+        if (!items.length) {
+            return;
+        }
+        if (dy === 0) {
+            return;
+        }
+        next = focusedIndex + dy;
+        if (next < 0) {
+            closeProfileMenu();
+            focusProfileChrome();
+            return;
+        }
+        if (next >= items.length) {
+            return;
+        }
+        setFocus(next, false);
+    }
+
+    function flushProfileCachesToStorage() {
+        persistVodProgressMap();
+        persistMyListIds();
+    }
+
+    function reloadActiveProfileData() {
+        vodProgressCache = null;
+        vodMyListCache = null;
+        loadVodProgressMap();
+        loadMyListIds();
+    }
+
+    function refreshViewsForProfileSwitch() {
+        syncProfileButton();
+        if (currentView === 'home') {
+            renderHomeContinueWatching();
+            bindHomeItems();
+            setFocus(Math.min(viewFocus.home || 0, Math.max(0, focusableItems.length - 1)), false);
+            return;
+        }
+        if (currentView === 'vod') {
+            renderKanboxSeries();
+            bindVodItems();
+            setFocus(Math.min(viewFocus.vod || 0, Math.max(0, focusableItems.length - 1)), false);
+            return;
+        }
+        if (currentView === 'series' && currentSeries) {
+            renderSeriesEpisodes(currentSeries);
+            bindSeriesItems();
+            setFocus(Math.min(viewFocus.series || 0, Math.max(0, focusableItems.length - 1)), false);
+        }
+    }
+
+    function switchProfile(profileId) {
+        var profile = findProfileById(profileId);
+        closeProfileMenu();
+        if (!profile) {
+            return;
+        }
+        if (profile.id === activeProfileId()) {
+            closeProfileDialog();
+            return;
+        }
+        flushProfileCachesToStorage();
+        ensureProfilesLoaded().activeId = profile.id;
+        persistProfilesState();
+        reloadActiveProfileData();
+        closeProfileDialog();
+        refreshViewsForProfileSwitch();
+    }
+
+    function clearProfileChromeFocus(restoreItemFocus) {
+        if (!profileChromeFocused) {
+            return;
+        }
+        profileChromeFocused = false;
+        var btn = document.getElementById('profile-btn');
+        if (btn) {
+            btn.classList.remove('is-focused');
+        }
+        if (restoreItemFocus !== false) {
+            syncFocusClass();
+        }
+    }
+
+    function focusProfileChrome() {
+        if (profileDialogOpen || profileMenuOpen || isFullscreen || vodImeOpen) {
+            return false;
+        }
+        profileChromeFocused = true;
+        var btn = document.getElementById('profile-btn');
+        var cur = focusableItems[focusedIndex];
+        if (cur) {
+            cur.classList.remove('is-focused');
+        }
+        if (btn) {
+            btn.classList.add('is-focused');
+            try {
+                btn.focus({ preventScroll: true });
+            } catch (eBtn) {
+                try {
+                    btn.focus();
+                } catch (eBtn2) {}
+            }
+        }
+        return true;
+    }
+
+    function tryFocusProfileChromeFromTop() {
+        return focusProfileChrome();
+    }
+
+    function openProfileDialog(startInManage) {
+        var dialog = document.getElementById('profile-dialog');
+        if (!dialog) {
+            return;
+        }
+        closeProfileMenu();
+        clearProfileChromeFocus(false);
+        profileDialogReturnFocus = focusedIndex;
+        profileDialogOpen = true;
+        profileDialogMode = 'select';
+        profileManaging = !!startInManage;
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        profileDeleteConfirmOpen = false;
+        profileConfirmKind = null;
+        dialog.hidden = false;
+        document.body.classList.add('is-profile-dialog-open');
+        renderProfileSelectView();
+        bindProfileDialogItems();
+        setFocus(profileManaging ? 0 : Math.min(1, Math.max(0, focusableItems.length - 1)), false);
+    }
+
+    function closeProfileDialog() {
+        var dialog = document.getElementById('profile-dialog');
+        profileDialogOpen = false;
+        profileDialogMode = 'select';
+        profileManaging = false;
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        profileDeleteConfirmOpen = false;
+        profileConfirmKind = null;
+        hideProfileDeleteConfirm();
+        document.body.classList.remove('is-profile-dialog-open');
+        document.body.classList.remove('is-profile-ime-open');
+        if (dialog) {
+            dialog.hidden = true;
+        }
+        if (profileImeTarget) {
+            profileImeTarget = false;
+            vodImeOpen = false;
+            document.body.classList.remove('is-vod-ime-open');
+            var ime = document.getElementById('vod-ime');
+            if (ime) {
+                ime.hidden = true;
+            }
+        }
+        // Restore underlying view focus list
+        if (currentView === 'home') {
+            bindHomeItems();
+        } else if (currentView === 'vod') {
+            bindVodItems();
+        } else if (currentView === 'series') {
+            bindSeriesItems();
+        } else if (currentView === 'live') {
+            bindLiveItems();
+        } else if (currentView === 'radio') {
+            bindRadioItems();
+        }
+        setFocus(
+            Math.min(profileDialogReturnFocus || 0, Math.max(0, focusableItems.length - 1)),
+            false
+        );
+    }
+
+    function renderProfileSelectView() {
+        var selectView = document.getElementById('profile-select-view');
+        var editView = document.getElementById('profile-edit-view');
+        var listEl = document.getElementById('profile-list');
+        var manageBtn = document.getElementById('profile-manage-btn');
+        var title = document.getElementById('profile-dialog-title');
+        var state = ensureProfilesLoaded();
+        var activeId = state.activeId;
+        var addCard;
+        if (selectView) {
+            selectView.hidden = false;
+        }
+        if (editView) {
+            editView.hidden = true;
+        }
+        hideProfileDeleteConfirm();
+        if (title) {
+            title.textContent = profileManaging ? '' : 'מי צופה?';
+            title.hidden = !!profileManaging;
+        }
+        if (manageBtn) {
+            if (profileManaging) {
+                manageBtn.textContent = '×';
+                manageBtn.classList.add('is-close');
+                manageBtn.setAttribute('aria-label', 'סיום');
+            } else {
+                manageBtn.textContent = 'עריכה';
+                manageBtn.classList.remove('is-close');
+                manageBtn.setAttribute('aria-label', 'עריכה');
+            }
+            manageBtn.setAttribute('data-action', 'profile-manage');
+        }
+        var selectHeader = document.querySelector('#profile-select-view .profile-select-header');
+        if (selectHeader) {
+            selectHeader.classList.toggle('is-managing', !!profileManaging);
+        }
+        if (!listEl) {
+            return;
+        }
+        listEl.innerHTML = '';
+        if (state.list.length < PROFILE_MAX) {
+            addCard = document.createElement('button');
+            addCard.type = 'button';
+            addCard.className = 'profile-card profile-card-add';
+            addCard.setAttribute('data-action', 'profile-add');
+            addCard.setAttribute('aria-label', 'הוסף פרופיל');
+            addCard.innerHTML =
+                '<span class="profile-card-add-icon" aria-hidden="true">+</span>' +
+                '<span class="profile-card-name">הוסף פרופיל</span>';
+            listEl.appendChild(addCard);
+        }
+        state.list.forEach(function (profile) {
+            var card = document.createElement('button');
+            card.type = 'button';
+            card.className =
+                'profile-card' +
+                (profile.id === activeId ? ' is-active' : '') +
+                (profileManaging ? ' is-managing' : '');
+            card.setAttribute(
+                'data-action',
+                profileManaging ? 'profile-edit' : 'profile-select'
+            );
+            card.setAttribute('data-profile-id', profile.id);
+            card.innerHTML =
+                '<span class="profile-card-avatar">' +
+                '<img class="profile-card-img" src="' +
+                profileIconUrl(profile.icon) +
+                '" alt="" />' +
+                (profileManaging
+                    ? '<span class="profile-card-edit-badge" aria-hidden="true">' +
+                      '<svg viewBox="0 0 24 24" width="18" height="18" focusable="false">' +
+                      '<path fill="currentColor" d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>' +
+                      '</svg></span>'
+                    : '') +
+                '</span>' +
+                '<span class="profile-card-name"></span>';
+            card.querySelector('.profile-card-name').textContent = profile.name;
+            listEl.appendChild(card);
+        });
+    }
+
+    function toggleProfileManaging() {
+        // סיום: close entirely — profile switch lives in the top menu
+        if (profileManaging) {
+            closeProfileDialog();
+            return;
+        }
+        profileManaging = true;
+        profileDialogMode = 'select';
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        renderProfileSelectView();
+        bindProfileDialogItems();
+        setFocus(0, false);
+    }
+
+    function getUsedProfileIcons(exceptProfileId) {
+        var used = {};
+        ensureProfilesLoaded().list.forEach(function (profile) {
+            if (exceptProfileId && profile.id === exceptProfileId) {
+                return;
+            }
+            if (profile.icon) {
+                used[profile.icon] = true;
+            }
+        });
+        return used;
+    }
+
+    function firstAvailableProfileIcon(exceptProfileId) {
+        var used = getUsedProfileIcons(exceptProfileId);
+        var i;
+        for (i = 0; i < PROFILE_ICONS.length; i++) {
+            if (!used[PROFILE_ICONS[i]]) {
+                return PROFILE_ICONS[i];
+            }
+        }
+        return PROFILE_ICONS[0];
+    }
+
+    function renderProfileEditView() {
+        var selectView = document.getElementById('profile-select-view');
+        var editView = document.getElementById('profile-edit-view');
+        var title = document.getElementById('profile-edit-title');
+        var grid = document.getElementById('profile-icon-grid');
+        var nameField = document.getElementById('profile-name-field');
+        var deleteBtn = document.getElementById('profile-delete-btn');
+        var previewImg = document.getElementById('profile-edit-preview-img');
+        var previewPh = document.getElementById('profile-edit-preview-placeholder');
+        var draft = profileEditDraft;
+        var usedIcons;
+        if (!draft) {
+            return;
+        }
+        usedIcons = getUsedProfileIcons(draft.id);
+        if (selectView) {
+            selectView.hidden = true;
+        }
+        if (editView) {
+            editView.hidden = false;
+        }
+        hideProfileDeleteConfirm();
+        if (title) {
+            title.textContent = draft.id ? 'עריכת פרופיל' : 'פרופיל חדש';
+        }
+        if (nameField) {
+            nameField.textContent = draft.name || 'שם';
+            nameField.classList.toggle('is-placeholder', !draft.name);
+        }
+        if (deleteBtn) {
+            deleteBtn.hidden = !draft.id || ensureProfilesLoaded().list.length <= 1;
+        }
+        if (draft.icon && usedIcons[draft.icon]) {
+            draft.icon = draft.id ? firstAvailableProfileIcon(draft.id) : null;
+        }
+        if (previewImg && previewPh) {
+            if (draft.icon) {
+                previewImg.src = profileIconUrl(draft.icon);
+                previewImg.hidden = false;
+                previewPh.hidden = true;
+            } else {
+                previewImg.removeAttribute('src');
+                previewImg.hidden = true;
+                previewPh.hidden = false;
+            }
+        }
+        if (!grid) {
+            return;
+        }
+        grid.innerHTML = '';
+        PROFILE_ICONS.forEach(function (iconId, index) {
+            var taken = !!usedIcons[iconId];
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className =
+                'profile-icon-btn' +
+                (draft.icon && draft.icon === iconId ? ' is-selected' : '') +
+                (taken ? ' is-disabled' : '');
+            btn.setAttribute('data-grid-index', String(index));
+            if (taken) {
+                btn.disabled = true;
+                btn.setAttribute('aria-disabled', 'true');
+                btn.setAttribute('tabindex', '-1');
+            } else {
+                btn.setAttribute('data-action', 'profile-icon');
+                btn.setAttribute('data-icon', iconId);
+            }
+            btn.setAttribute('aria-label', iconId);
+            btn.innerHTML = '<img src="' + profileIconUrl(iconId) + '" alt="" />';
+            grid.appendChild(btn);
+        });
+        syncProfileSaveButton();
+    }
+
+    function hideProfileDeleteConfirm() {
+        var confirmEl = document.getElementById('profile-confirm');
+        profileDeleteConfirmOpen = false;
+        profileConfirmKind = null;
+        if (confirmEl) {
+            confirmEl.hidden = true;
+        }
+    }
+
+    function openProfileConfirm(kind) {
+        var confirmEl = document.getElementById('profile-confirm');
+        var titleEl = document.getElementById('profile-confirm-title');
+        var yesBtn = document.getElementById('profile-confirm-yes');
+        if (!confirmEl) {
+            return;
+        }
+        if (kind === 'delete' && (!profileEditDraft || !profileEditDraft.id)) {
+            return;
+        }
+        profileConfirmKind = kind;
+        profileDeleteConfirmOpen = true;
+        if (titleEl) {
+            titleEl.textContent = kind === 'unsaved' ? 'שמור שינויים?' : 'האם אתה בטוח?';
+        }
+        if (yesBtn) {
+            if (kind === 'unsaved') {
+                yesBtn.classList.remove('profile-action-btn-danger');
+                yesBtn.classList.add('profile-action-btn');
+            } else {
+                yesBtn.classList.add('profile-action-btn-danger');
+            }
+        }
+        confirmEl.hidden = false;
+        bindProfileDialogItems();
+        // Focus "לא" (safer default)
+        setFocus(1, false);
+    }
+
+    function openProfileDeleteConfirm() {
+        openProfileConfirm('delete');
+    }
+
+    function isProfileEditDirty() {
+        var draft = profileEditDraft;
+        var base = profileEditBaseline;
+        var name;
+        if (!draft) {
+            return false;
+        }
+        name = String(draft.name || '');
+        if (!base) {
+            return !!(draft.icon || name.replace(/\s+/g, ' ').trim());
+        }
+        return name !== String(base.name || '') || draft.icon !== base.icon;
+    }
+
+    function discardProfileEdit() {
+        if (profileImeTarget) {
+            closeProfileNameIme();
+        }
+        hideProfileDeleteConfirm();
+        profileDialogMode = 'select';
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        profileManaging = true;
+        renderProfileSelectView();
+        bindProfileDialogItems();
+        setFocus(0, false);
+    }
+
+    function requestCloseProfileEdit() {
+        if (profileImeTarget) {
+            closeProfileNameIme();
+        }
+        if (isProfileEditDirty()) {
+            openProfileConfirm('unsaved');
+            return;
+        }
+        discardProfileEdit();
+    }
+
+    function closeProfileDeleteConfirm() {
+        hideProfileDeleteConfirm();
+        if (profileDialogMode === 'edit') {
+            bindProfileDialogItems();
+            // Prefer close (X) after dismissing confirm
+            var i;
+            for (i = 0; i < focusableItems.length; i++) {
+                if (focusableItems[i].id === 'profile-edit-close') {
+                    setFocus(i, false);
+                    return;
+                }
+            }
+            for (i = 0; i < focusableItems.length; i++) {
+                if (focusableItems[i].getAttribute('data-action') === 'profile-delete') {
+                    setFocus(i, false);
+                    return;
+                }
+            }
+            setFocus(Math.max(0, focusableItems.length - 1), false);
+        }
+    }
+
+    function bindProfileDialogItems() {
+        var root = document.getElementById('profile-dialog');
+        var items = [];
+        if (!root) {
+            focusableItems = [];
+            return;
+        }
+        if (profileDeleteConfirmOpen) {
+            items = Array.prototype.slice.call(
+                root.querySelectorAll('#profile-confirm .profile-action-btn')
+            );
+        } else if (profileDialogMode === 'edit') {
+            // Build in navigation order — querySelectorAll is document order,
+            // and the close button sits above the icon grid in the DOM.
+            var iconBtns = Array.prototype.slice.call(
+                root.querySelectorAll(
+                    '#profile-icon-grid .profile-icon-btn:not(.is-disabled):not([disabled])'
+                )
+            );
+            var nameField = root.querySelector('#profile-name-field');
+            var actionBtns = Array.prototype.slice.call(
+                root.querySelectorAll(
+                    '#profile-edit-view .profile-edit-actions .profile-action-btn:not([hidden])'
+                )
+            );
+            var closeBtn = root.querySelector('#profile-edit-close');
+            items = iconBtns
+                .concat(nameField ? [nameField] : [])
+                .concat(actionBtns)
+                .concat(closeBtn ? [closeBtn] : []);
+        } else {
+            items = Array.prototype.slice.call(
+                root.querySelectorAll(
+                    '#profile-manage-btn, #profile-list .profile-card'
+                )
+            );
+        }
+        focusableItems = items;
+        channels = items;
+        lastFocusedEl = null;
+        focusableItems.forEach(function (item, index) {
+            item.onfocus = function () {
+                if (focusFromCode) {
+                    return;
+                }
+                var prev = focusedIndex;
+                focusedIndex = index;
+                applyFocusClass(prev, index);
+            };
+            item.onclick = function (e) {
+                e.preventDefault();
+                if (item.disabled || item.classList.contains('is-disabled')) {
+                    return;
+                }
+                activateItem(item);
+            };
+        });
+    }
+
+    function openProfileEdit(profileId) {
+        var existing = profileId ? findProfileById(profileId) : null;
+        profileDialogMode = 'edit';
+        profileEditDraft = existing
+            ? { id: existing.id, name: existing.name, icon: existing.icon }
+            : {
+                  id: null,
+                  name: '',
+                  icon: null
+              };
+        profileEditBaseline = {
+            name: profileEditDraft.name,
+            icon: profileEditDraft.icon
+        };
+        renderProfileEditView();
+        bindProfileDialogItems();
+        setFocus(0, false);
+    }
+
+    function syncProfileNameField() {
+        var nameField = document.getElementById('profile-name-field');
+        var name;
+        var textEl;
+        if (!nameField || !profileEditDraft) {
+            return;
+        }
+        name = String(profileEditDraft.name || '');
+        if (profileImeTarget) {
+            nameField.classList.add('is-editing');
+            nameField.classList.toggle('is-empty', !name);
+            nameField.classList.remove('is-placeholder');
+            nameField.innerHTML =
+                '<span class="profile-name-text"></span>' +
+                '<span class="profile-name-caret" aria-hidden="true"></span>';
+            textEl = nameField.querySelector('.profile-name-text');
+            if (textEl) {
+                textEl.textContent = name;
+            }
+        } else {
+            nameField.classList.remove('is-editing', 'is-empty');
+            nameField.classList.toggle('is-placeholder', !name);
+            nameField.textContent = name || 'שם';
+        }
+        syncProfileSaveButton();
+        // Don't steal focus from the on-screen keyboard while typing
+        if (!profileImeTarget) {
+            rebindProfileEditFocus(nameField);
+        }
+    }
+
+    function isProfileDraftValid() {
+        var draft = profileEditDraft;
+        var name;
+        if (!draft) {
+            return false;
+        }
+        name = String(draft.name || '').replace(/\s+/g, ' ').trim();
+        return !!(draft.icon && name.length >= 1);
+    }
+
+    function syncProfileSaveButton() {
+        var saveBtn = document.querySelector('#profile-edit-view [data-action="profile-save"]');
+        var ok = isProfileDraftValid();
+        var prevEl;
+        if (!saveBtn) {
+            return;
+        }
+        saveBtn.disabled = !ok;
+        if (ok) {
+            saveBtn.classList.remove('is-disabled');
+            saveBtn.removeAttribute('aria-disabled');
+        } else {
+            saveBtn.classList.add('is-disabled');
+            saveBtn.setAttribute('aria-disabled', 'true');
+        }
+        // Keep שמור in the keyboard focus ring as validity changes while typing
+        if (profileImeTarget && vodImeOpen) {
+            prevEl = focusableItems[focusedIndex] || null;
+            bindVodImeKeys();
+            restoreProfileImeFocus(prevEl);
+        }
+    }
+
+    function restoreProfileImeFocus(prevEl) {
+        var i;
+        var action;
+        if (!focusableItems.length) {
+            return;
+        }
+        if (prevEl) {
+            for (i = 0; i < focusableItems.length; i++) {
+                if (focusableItems[i] === prevEl) {
+                    setFocus(i, false);
+                    return;
+                }
+            }
+            action = prevEl.getAttribute && prevEl.getAttribute('data-action');
+            if (action) {
+                for (i = 0; i < focusableItems.length; i++) {
+                    if (focusableItems[i].getAttribute('data-action') === action) {
+                        setFocus(i, false);
+                        return;
+                    }
+                }
+            }
+            if (
+                prevEl.getAttribute &&
+                prevEl.getAttribute('data-ime-row') != null &&
+                prevEl.getAttribute('data-ime-col') != null
+            ) {
+                i = findVodImeKeyIndex(
+                    parseInt(prevEl.getAttribute('data-ime-row'), 10),
+                    parseInt(prevEl.getAttribute('data-ime-col'), 10)
+                );
+                if (i >= 0) {
+                    setFocus(i, false);
+                    return;
+                }
+            }
+        }
+        setFocus(Math.min(focusedIndex, Math.max(0, focusableItems.length - 1)), false);
+    }
+
+    function rebindProfileEditFocus(preferredEl) {
+        var prevEl = preferredEl || focusableItems[focusedIndex] || null;
+        var i;
+        if (!(profileDialogOpen && profileDialogMode === 'edit')) {
+            return;
+        }
+        bindProfileDialogItems();
+        if (prevEl) {
+            for (i = 0; i < focusableItems.length; i++) {
+                if (focusableItems[i] === prevEl) {
+                    setFocus(i, false);
+                    return;
+                }
+            }
+            // Same logical control (save button node may stay, icons recreated)
+            if (prevEl.getAttribute && prevEl.getAttribute('data-action') === 'profile-save') {
+                for (i = 0; i < focusableItems.length; i++) {
+                    if (focusableItems[i].getAttribute('data-action') === 'profile-save') {
+                        setFocus(i, false);
+                        return;
+                    }
+                }
+            }
+            if (prevEl.getAttribute && prevEl.getAttribute('data-icon')) {
+                for (i = 0; i < focusableItems.length; i++) {
+                    if (focusableItems[i].getAttribute('data-icon') === prevEl.getAttribute('data-icon')) {
+                        setFocus(i, false);
+                        return;
+                    }
+                }
+            }
+            if (prevEl.id === 'profile-name-field') {
+                for (i = 0; i < focusableItems.length; i++) {
+                    if (focusableItems[i].id === 'profile-name-field') {
+                        setFocus(i, false);
+                        return;
+                    }
+                }
+            }
+        }
+        setFocus(Math.min(focusedIndex, Math.max(0, focusableItems.length - 1)), false);
+    }
+
+    function saveProfileEdit() {
+        var state = ensureProfilesLoaded();
+        var draft = profileEditDraft;
+        var name;
+        var i;
+        var ime;
+        if (!draft || !isProfileDraftValid()) {
+            return;
+        }
+        name = String(draft.name || '').replace(/\s+/g, ' ').trim();
+        name = name.slice(0, 24);
+        if (draft.id) {
+            for (i = 0; i < state.list.length; i++) {
+                if (state.list[i].id === draft.id) {
+                    state.list[i].name = name;
+                    state.list[i].icon = draft.icon;
+    		break;
+                }
+            }
+        } else {
+            if (state.list.length >= PROFILE_MAX) {
+                return;
+            }
+            state.list.push({
+                id: newProfileId(),
+                name: name,
+                icon: draft.icon
+            });
+        }
+        persistProfilesState();
+        syncProfileButton();
+        // Close keyboard if open, stay on עריכת פרופילים
+        profileImeTarget = false;
+        vodImeOpen = false;
+        document.body.classList.remove('is-vod-ime-open');
+        document.body.classList.remove('is-profile-ime-open');
+        ime = document.getElementById('vod-ime');
+        if (ime) {
+            ime.hidden = true;
+        }
+        profileDialogMode = 'select';
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        profileManaging = true;
+        renderProfileSelectView();
+        bindProfileDialogItems();
+        setFocus(0, false);
+    }
+
+    function deleteProfileEdit() {
+        var state = ensureProfilesLoaded();
+        var draft = profileEditDraft;
+        var next;
+        if (!draft || !draft.id || state.list.length <= 1) {
+            return;
+        }
+        flushProfileCachesToStorage();
+        state.list = state.list.filter(function (p) {
+            return p.id !== draft.id;
+        });
+        try {
+            localStorage.removeItem(profileProgressKey(draft.id));
+            localStorage.removeItem(profileMyListKey(draft.id));
+        } catch (eDel) {}
+        if (state.activeId === draft.id) {
+            next = state.list[0];
+            state.activeId = next.id;
+            persistProfilesState();
+            reloadActiveProfileData();
+            refreshViewsForProfileSwitch();
+        } else {
+            persistProfilesState();
+            syncProfileButton();
+        }
+        profileDialogMode = 'select';
+        profileEditDraft = null;
+        profileEditBaseline = null;
+        profileManaging = true;
+        renderProfileSelectView();
+        bindProfileDialogItems();
+        setFocus(0, false);
+    }
+
+    function moveProfileDialogFocus(dx, dy) {
+        var items = focusableItems;
+        var idx = focusedIndex;
+        var cols = 4;
+        var next;
+        var i;
+        var iconCount;
+        var curGrid;
+        var targetGrid;
+        var row;
+        var col;
+        var best;
+        var bestDist;
+        var g;
+        if (!items.length) {
+            return;
+        }
+
+        // Profile dialog is direction:rtl — flip left/right to match on-screen order
+        if (dx) {
+            dx = -dx;
+        }
+
+        if (profileDeleteConfirmOpen) {
+            if (dx !== 0) {
+                next = idx + dx;
+                if (next >= 0 && next < items.length) {
+                    setFocus(next, false);
+                }
+            }
+            return;
+        }
+
+        if (profileDialogMode === 'edit') {
+            var closeIdx = -1;
+            var nameIdx = -1;
+            var actionStart = -1;
+            var actionEnd;
+            var c;
+            var r;
+            var dist;
+
+            iconCount = 0;
+            for (i = 0; i < items.length; i++) {
+                if (items[i].classList.contains('profile-icon-btn')) {
+                    iconCount += 1;
+                } else if (items[i].id === 'profile-name-field') {
+                    nameIdx = i;
+                } else if (items[i].id === 'profile-edit-close') {
+                    closeIdx = i;
+                } else if (items[i].classList.contains('profile-action-btn')) {
+                    if (actionStart < 0) {
+                        actionStart = i;
+                    }
+                }
+            }
+            actionEnd = closeIdx >= 0 ? closeIdx : items.length;
+
+            if (closeIdx >= 0 && idx === closeIdx) {
+                if (dy > 0) {
+                    if (iconCount > 0) {
+                        setFocus(0, false);
+                    } else if (nameIdx >= 0) {
+                        setFocus(nameIdx, false);
+                    }
+                }
+                return;
+            }
+
+            if (idx < iconCount) {
+                curGrid = parseInt(items[idx].getAttribute('data-grid-index') || String(idx), 10) || 0;
+                row = Math.floor(curGrid / cols);
+                col = curGrid % cols;
+                if (dx !== 0) {
+                    c = col + dx;
+                    while (c >= 0 && c < cols) {
+                        targetGrid = row * cols + c;
+                        for (i = 0; i < iconCount; i++) {
+                            if (parseInt(items[i].getAttribute('data-grid-index'), 10) === targetGrid) {
+                                setFocus(i, false);
+                                return;
+                            }
+                        }
+                        c += dx;
+                    }
+                    if (nameIdx >= 0) {
+                        setFocus(nameIdx, false);
+                    }
+                    return;
+                }
+                r = row + dy;
+                while (r >= 0 && r < 8) {
+                    best = -1;
+                    bestDist = Infinity;
+                    for (i = 0; i < iconCount; i++) {
+                        g = parseInt(items[i].getAttribute('data-grid-index'), 10);
+                        if (Math.floor(g / cols) !== r) {
+                            continue;
+                        }
+                        dist = Math.abs((g % cols) - col);
+                        if (dist < bestDist) {
+                            bestDist = dist;
+                            best = i;
+                        }
+                    }
+                    if (best >= 0) {
+                        setFocus(best, false);
+                        return;
+                    }
+                    r += dy;
+                }
+                if (dy < 0 && closeIdx >= 0) {
+                    setFocus(closeIdx, false);
+                } else if (dy > 0 && nameIdx >= 0) {
+                    setFocus(nameIdx, false);
+                }
+                return;
+            }
+
+            if (idx === nameIdx) {
+                if (dx !== 0 && iconCount > 0) {
+                    setFocus(0, false);
+                    return;
+                }
+                if (dy < 0 && closeIdx >= 0) {
+                    setFocus(closeIdx, false);
+                    return;
+                }
+                if (dy > 0 && actionStart >= 0 && actionStart < actionEnd) {
+                    setFocus(actionStart, false);
+                }
+                return;
+            }
+
+            if (dy < 0) {
+                if (nameIdx >= 0) {
+                    setFocus(nameIdx, false);
+                } else if (closeIdx >= 0) {
+                    setFocus(closeIdx, false);
+                }
+                return;
+            }
+            if (dx !== 0) {
+                next = idx + dx;
+                if (actionStart >= 0 && next >= actionStart && next < actionEnd) {
+                    setFocus(next, false);
+                    return;
+                }
+                if (iconCount > 0) {
+                    setFocus(0, false);
+                }
+            }
+            return;
+        }
+
+        // select / manage mode: [manageBtn][cards... including optional +]
+        if (idx === 0) {
+            if (dy > 0 && items.length > 1) {
+                setFocus(1, false);
+            }
+            return;
+        }
+        if (dy < 0) {
+            setFocus(0, false);
+            return;
+        }
+        if (dx !== 0) {
+            next = idx + dx;
+            if (next >= 1 && next < items.length) {
+                setFocus(next, false);
+            }
+        }
+    }
+
+    function openProfileNameIme() {
+        var ime = document.getElementById('vod-ime');
+        var nameField = document.getElementById('profile-name-field');
+        if (!ime || !profileEditDraft) {
+            return;
+        }
+        profileImeTarget = true;
+        vodImeOpen = true;
+        ime.hidden = false;
+        document.body.classList.add('is-vod-ime-open');
+        document.body.classList.add('is-profile-ime-open');
+        syncProfileNameField();
+        if (nameField) {
+            nameField.classList.add('is-editing');
+        }
+        renderVodImeKeys();
+        bindVodImeKeys();
+        updateVodImePreview();
+        setFocus(0, false);
+    }
+
+    function closeProfileNameIme() {
+        var ime = document.getElementById('vod-ime');
+        var nameField = document.getElementById('profile-name-field');
+        vodImeOpen = false;
+        profileImeTarget = false;
+        document.body.classList.remove('is-vod-ime-open');
+        document.body.classList.remove('is-profile-ime-open');
+        if (ime) {
+            ime.hidden = true;
+        }
+        if (nameField) {
+            nameField.classList.remove('is-editing', 'is-empty');
+        }
+        syncProfileNameField();
+        if (profileDialogOpen && profileDialogMode === 'edit') {
+            rebindProfileEditFocus(document.getElementById('profile-name-field'));
+        }
+    }
 
     function loadVodProgressMap() {
         if (vodProgressCache) {
             return vodProgressCache;
         }
         try {
-            var raw = localStorage.getItem(VOD_PROGRESS_KEY);
+            var raw = localStorage.getItem(profileProgressKey());
             vodProgressCache = raw ? JSON.parse(raw) : {};
             if (!vodProgressCache || typeof vodProgressCache !== 'object') {
                 vodProgressCache = {};
@@ -101,9 +1438,255 @@
         return vodProgressCache;
     }
 
+    function loadMyListIds() {
+        if (vodMyListCache) {
+            return vodMyListCache;
+        }
+        try {
+            var raw = localStorage.getItem(profileMyListKey());
+            var parsed = raw ? JSON.parse(raw) : [];
+            vodMyListCache = Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+        } catch (e) {
+            vodMyListCache = [];
+        }
+        return vodMyListCache;
+    }
+
+    function persistMyListIds() {
+        try {
+            localStorage.setItem(profileMyListKey(), JSON.stringify(vodMyListCache || []));
+        } catch (e) {
+            console.warn('My List save failed:', e);
+        }
+    }
+
+    function isInMyList(seriesId) {
+        if (!seriesId) {
+            return false;
+        }
+        return loadMyListIds().indexOf(seriesId) !== -1;
+    }
+
+    function toggleMyListSeries(seriesId) {
+        if (!seriesId) {
+            return false;
+        }
+        var list = loadMyListIds();
+        var idx = list.indexOf(seriesId);
+        var added;
+        if (idx === -1) {
+            list.unshift(seriesId);
+            added = true;
+        } else {
+            list.splice(idx, 1);
+            added = false;
+        }
+        vodMyListCache = list;
+        persistMyListIds();
+        syncMyListHeartButtons(seriesId, added);
+
+        // On My List tab, update only the affected tile — avoid rebuilding the whole grid
+        // (full re-render makes every heart flicker).
+        if (vodProviderTab === 'mylist' && !added) {
+            removeMyListTile(seriesId);
+        }
+        return added;
+    }
+
+    function removeMyListTile(seriesId) {
+        var heart = document.querySelector(
+            '#series-list .vod-mylist-btn[data-series="' + seriesId + '"]'
+        );
+        var tile = heart && heart.parentElement;
+        var prevFocus = focusedIndex;
+        var wasFocusedCard =
+            heart &&
+            focusableItems[focusedIndex] &&
+            focusableItems[focusedIndex].getAttribute('data-series') === seriesId;
+
+        if (tile && tile.parentElement) {
+            tile.parentElement.removeChild(tile);
+        }
+
+        if (loadMyListIds().length === 0) {
+            renderKanboxSeries();
+            bindVodItems();
+            setFocus(vodTabIndex('mylist'), false);
+            return;
+        }
+
+        bindVodItems();
+        if (wasFocusedCard || prevFocus >= focusableItems.length) {
+            setFocus(Math.min(prevFocus, Math.max(0, focusableItems.length - 1)), false);
+        }
+    }
+
+    function syncMyListHeartButtons(seriesId, active) {
+        var buttons = document.querySelectorAll(
+            '#series-list .vod-mylist-btn[data-series="' + seriesId + '"]'
+        );
+        var i;
+        for (i = 0; i < buttons.length; i++) {
+            if (active) {
+                buttons[i].classList.add('is-active');
+                buttons[i].setAttribute('aria-pressed', 'true');
+            } else {
+                buttons[i].classList.remove('is-active');
+                buttons[i].setAttribute('aria-pressed', 'false');
+            }
+        }
+    }
+
+    function makeMyListHeartButton(seriesId) {
+        var heart = document.createElement('button');
+        heart.type = 'button';
+        heart.className = 'vod-mylist-btn' + (isInMyList(seriesId) ? ' is-active' : '');
+        heart.setAttribute('data-action', 'mylist-toggle');
+        heart.setAttribute('data-series', seriesId);
+        heart.setAttribute('aria-label', 'הוסף לרשימה שלי');
+        heart.setAttribute('aria-pressed', isInMyList(seriesId) ? 'true' : 'false');
+        heart.setAttribute('tabindex', '-1');
+        heart.innerHTML =
+            '<svg class="vod-mylist-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +
+            '<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>' +
+            '</svg>';
+        // Prevent focus steal — focusing the heart blurs the card and flashes other UI.
+        heart.addEventListener('mousedown', function (e) {
+            e.preventDefault();
+        });
+        heart.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (Date.now() < okSuppressHeartUntil) {
+                return;
+            }
+            toggleMyListSeries(seriesId);
+        });
+        return heart;
+    }
+
+    function isOkKey(e) {
+        var code = e && (e.keyCode || e.which);
+        return code === 13 || code === 29443;
+    }
+
+    function isVodSeriesCard(item) {
+        return !!(
+            item &&
+            currentView === 'vod' &&
+            !profileDialogOpen &&
+            item.getAttribute('data-action') === 'series' &&
+            item.getAttribute('data-series')
+        );
+    }
+
+    function clearOkHold() {
+        if (okHoldTimer) {
+            clearTimeout(okHoldTimer);
+            okHoldTimer = null;
+        }
+        if (okShortTimer) {
+            clearTimeout(okShortTimer);
+            okShortTimer = null;
+        }
+        okHoldItem = null;
+        okHoldFired = false;
+        okHoldSawRepeat = false;
+        okHoldDownAt = 0;
+    }
+
+    function flashMyListHeart(seriesId) {
+        var buttons = document.querySelectorAll(
+            '#series-list .vod-mylist-btn[data-series="' + seriesId + '"]'
+        );
+        var i;
+        for (i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('is-pulse');
+            // restart animation
+            void buttons[i].offsetWidth;
+            buttons[i].classList.add('is-pulse');
+        }
+    }
+
+    function fireOkMyList(item) {
+        var seriesId;
+        if (okHoldFired || !item) {
+            return;
+        }
+        okHoldFired = true;
+        if (okHoldTimer) {
+            clearTimeout(okHoldTimer);
+            okHoldTimer = null;
+        }
+        if (okShortTimer) {
+            clearTimeout(okShortTimer);
+            okShortTimer = null;
+        }
+        seriesId = item.getAttribute('data-series');
+        if (seriesId && currentView === 'vod') {
+            toggleMyListSeries(seriesId);
+            flashMyListHeart(seriesId);
+        }
+    }
+
+    function fireOkOpenSeries(item) {
+        var target = item;
+        if (okHoldFired || !target) {
+            return;
+        }
+        clearOkHold();
+        if (currentView === 'vod') {
+            activateItem(target);
+        }
+    }
+
+    function startOkHoldForMyList(item) {
+        if (okHoldItem === item) {
+            return;
+        }
+        clearOkHold();
+        okHoldItem = item;
+        okHoldDownAt = Date.now();
+        okSuppressHeartUntil = Date.now() + OK_HOLD_MYLIST_MS + 200;
+        // Simulator virtual OK often sends keydown with no keyup. Treat that as short press.
+        okShortTimer = setTimeout(function () {
+            okShortTimer = null;
+            if (!okHoldFired && !okHoldSawRepeat && okHoldItem === item) {
+                fireOkOpenSeries(item);
+            }
+        }, OK_SHORT_FALLBACK_MS);
+        okHoldTimer = setTimeout(function () {
+            okHoldTimer = null;
+            // Require key repeat so a tap without keyup cannot become "הרשימה שלי".
+            if (!okHoldFired && okHoldSawRepeat && okHoldItem === item) {
+                fireOkMyList(item);
+            }
+        }, OK_HOLD_MYLIST_MS);
+    }
+
+    function onKeyUp(e) {
+        if (!isOkKey(e)) {
+            return;
+        }
+        if (!okHoldItem && !okHoldTimer && !okShortTimer && !okHoldFired) {
+            return;
+        }
+        var item = okHoldItem;
+        var fired = okHoldFired;
+        clearOkHold();
+        if (fired) {
+            e.preventDefault();
+            return;
+        }
+        if (item && currentView === 'vod') {
+            activateItem(item);
+            e.preventDefault();
+        }
+    }
+
     function persistVodProgressMap() {
         try {
-            localStorage.setItem(VOD_PROGRESS_KEY, JSON.stringify(vodProgressCache || {}));
+            localStorage.setItem(profileProgressKey(), JSON.stringify(vodProgressCache || {}));
         } catch (e) {
             console.warn('VOD progress save failed:', e);
         }
@@ -381,6 +1964,8 @@
     }
 
     function init() {
+        ensureProfilesLoaded();
+        syncProfileButton();
         renderChannels();
         renderKanboxSeries();
         renderRadioStations();
@@ -398,8 +1983,19 @@
         vodTimeDuration = document.getElementById('vod-time-duration');
         vodEpisodeLabel = document.getElementById('vod-episode-label');
         vodNextBtn = document.getElementById('vod-next-btn');
+        vodNextFill = document.getElementById('vod-next-fill');
+        vodNextLabel = document.getElementById('vod-next-label');
         bindVodControls();
         bindVodSearch();
+
+        var profileBtn = document.getElementById('profile-btn');
+        if (profileBtn && !profileBtn.getAttribute('data-bound')) {
+            profileBtn.setAttribute('data-bound', '1');
+            profileBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                toggleProfileMenu();
+            });
+        }
 
         showView('home');
 
@@ -409,6 +2005,7 @@
                 stopFullscreenPlayback();
                 stopRadioPlayback();
                 stopSnapshotCapture();
+                flushProfileCachesToStorage();
             } else if (!isFullscreen) {
                 setFocus(viewFocus[currentView] || 0, false);
                 if (currentView === 'live') {
@@ -418,11 +2015,150 @@
         });
 
         document.addEventListener('keydown', onKeyDown);
+        document.addEventListener('keyup', onKeyUp);
+    }
+
+    function beginVodRestoreLock() {
+        vodRestoreLock = true;
+        if (vodRestoreTimer) {
+            clearTimeout(vodRestoreTimer);
+            vodRestoreTimer = null;
+        }
+    }
+
+    function endVodRestoreLockSoon() {
+        if (vodRestoreTimer) {
+            clearTimeout(vodRestoreTimer);
+        }
+        vodRestoreTimer = setTimeout(function () {
+            vodRestoreLock = false;
+            vodRestoreTimer = null;
+            vodRestoreTargetIndex = -1;
+        }, 500);
+    }
+
+    function openSeriesOverlay() {
+        var seriesEl = document.getElementById('view-series');
+        var vodEl = document.getElementById('view-vod');
+        if (vodEl) {
+            // Keep VOD mounted under the episodes layer — preserves tab, grid, scroll.
+            vodEl.hidden = false;
+            vodEl.classList.add('is-active');
+            vodEl.classList.add('is-under-series');
+        }
+        if (seriesEl) {
+            seriesEl.hidden = false;
+            seriesEl.classList.add('is-active');
+            seriesEl.classList.add('is-series-overlay');
+            try {
+                seriesEl.scrollTop = 0;
+            } catch (eScroll) {}
+            var epsList = document.getElementById('episodes-list');
+            if (epsList) {
+                try {
+                    epsList.scrollTop = 0;
+                } catch (eEps) {}
+            }
+        }
+    }
+
+    function closeSeriesOverlay() {
+        var seriesEl = document.getElementById('view-series');
+        var vodEl = document.getElementById('view-vod');
+        if (seriesEl) {
+            seriesEl.hidden = true;
+            seriesEl.classList.remove('is-active');
+            seriesEl.classList.remove('is-series-overlay');
+            try {
+                seriesEl.scrollTop = 0;
+            } catch (eScroll) {}
+            var epsListClose = document.getElementById('episodes-list');
+            if (epsListClose) {
+                try {
+                    epsListClose.scrollTop = 0;
+                } catch (eEpsClose) {}
+            }
+        }
+        if (vodEl) {
+            vodEl.classList.remove('is-under-series');
+        }
+    }
+
+    function restoreVodAfterSeries() {
+        var restoreSeriesId = vodReturnSeriesId;
+        var restoreVodIndex = viewFocus.vod || 0;
+        var restoreTab = vodReturnTab || vodProviderTab;
+        var card;
+        var idx;
+
+        beginVodRestoreLock();
+        closeSeriesOverlay();
+
+        // VOD was never torn down — only re-assert tab + focus on the same card.
+        if (restoreTab && restoreTab !== vodProviderTab) {
+            vodProviderTab = restoreTab;
+        }
+        syncVodTabUi();
+
+        card =
+            restoreSeriesId &&
+            document.querySelector('#series-list .vod-card[data-series="' + restoreSeriesId + '"]');
+        if (!card) {
+            renderKanboxSeries();
+        } else {
+            refreshSeriesProgressBars();
+        }
+
+        bindVodItems();
+        idx = findVodFocusIndex(restoreSeriesId, restoreVodIndex);
+        vodRestoreTargetIndex = idx;
+        // Don't force scroll — body position was preserved under the overlay.
+        setFocus(idx, false);
+        endVodRestoreLockSoon();
     }
 
     function showView(viewName) {
+        var fromSeries = viewName === 'vod' && vodReturningFromSeries;
         var views = document.querySelectorAll('.view');
+
+        if (fromSeries) {
+            vodReturningFromSeries = false;
+            currentView = 'vod';
+            stopPreview();
+            stopRadioPlayback();
+            stopSnapshotCapture();
+            clearAllFrozenPreviews();
+            closeVodIme(false);
+            restoreVodAfterSeries();
+            return;
+        }
+
+        // Leaving episodes for any other destination
+        if (currentView === 'series' || viewName !== 'series') {
+            closeSeriesOverlay();
+        }
+
         currentView = viewName;
+
+        if (viewName === 'series') {
+            // Overlay on VOD — do not hide/display:none the grid (that resets scroll + focus).
+            Array.prototype.forEach.call(views, function (view) {
+                if (view.id === 'view-vod' || view.id === 'view-series') {
+                    return;
+                }
+                view.hidden = true;
+                view.classList.remove('is-active');
+            });
+            openSeriesOverlay();
+            stopPreview();
+            stopRadioPlayback();
+            stopSnapshotCapture();
+            clearAllFrozenPreviews();
+            closeSeriesSeasonMenu(false);
+            bindSeriesItems();
+            setFocus(viewFocus.series || 0, false);
+            return;
+        }
 
         Array.prototype.forEach.call(views, function (view) {
             var active = view.getAttribute('data-view') === viewName;
@@ -446,7 +2182,15 @@
         } else if (viewName === 'live') {
             stopHubVodRotation();
             stopRadioPlayback();
-            bindItems(document.getElementById('channels'));
+            syncLiveTabUi();
+            renderChannels();
+            bindLiveItems();
+            try {
+                var liveGridEnter = document.getElementById('channels');
+                if (liveGridEnter) {
+                    liveGridEnter.scrollTop = 0;
+                }
+            } catch (eLiveEnter) {}
             startSnapshotRefresh();
         } else if (viewName === 'vod') {
             stopPreview();
@@ -455,8 +2199,18 @@
             clearAllFrozenPreviews();
             closeVodIme(false);
             bindVodSearch();
+            vodReturnSeriesId = null;
+            vodReturnTab = null;
             renderKanboxSeries();
             bindVodItems();
+            try {
+                var vodGridEnter = document.getElementById('series-list');
+                if (vodGridEnter) {
+                    vodGridEnter.scrollTop = 0;
+                }
+            } catch (eVodEnter) {}
+            setFocus(typeof viewFocus.vod === 'number' ? viewFocus.vod : 0, true);
+            return;
         } else if (viewName === 'radio') {
             stopPreview();
             stopSnapshotCapture();
@@ -464,18 +2218,6 @@
             stopHubVodRotation();
             renderRadioStations();
             bindRadioItems();
-        } else if (viewName === 'series') {
-            stopPreview();
-            stopRadioPlayback();
-            stopSnapshotCapture();
-            clearAllFrozenPreviews();
-            closeSeriesSeasonMenu(false);
-            bindSeriesItems();
-            // VOD list scroll position otherwise carries over into episodes
-            resetPageScroll();
-            setFocus(viewFocus.series || 0, false);
-            resetPageScroll();
-            return;
         }
 
         setFocus(viewFocus[viewName] || 0, true);
@@ -490,17 +2232,147 @@
         return seriesSeasonSelectEnabled() ? 1 : 0;
     }
 
+    function seasonTitleOverride(seasonNum, series) {
+        var n = Number(seasonNum);
+        var titles;
+        var i;
+        if (!series) {
+            return '';
+        }
+        titles = series.seasonTitles;
+        if (titles) {
+            if (titles[n]) {
+                return String(titles[n]);
+            }
+            if (titles[String(n)]) {
+                return String(titles[String(n)]);
+            }
+        }
+        if (series.episodes) {
+            for (i = 0; i < series.episodes.length; i++) {
+                if ((series.episodes[i].season || 1) === n && series.episodes[i].seasonTitle) {
+                    return String(series.episodes[i].seasonTitle);
+                }
+            }
+        }
+        return '';
+    }
+
+    function seasonDisplayLabel(seasonNum, series) {
+        var n = Number(seasonNum);
+        var override = seasonTitleOverride(n, series);
+        var ep;
+        var base;
+        var i;
+        if (override) {
+            return override;
+        }
+        if (n >= 800 && series && series.episodes) {
+            for (i = 0; i < series.episodes.length; i++) {
+                if ((series.episodes[i].season || 1) === n) {
+                    ep = series.episodes[i];
+                    break;
+                }
+            }
+            if (ep && ep.name) {
+                base = String(ep.name).split('—')[0].split('–')[0];
+                base = base.replace(/\s*פרק\s*\d+\s*$/, '').trim();
+                if (base) {
+                    return base;
+                }
+            }
+            return 'ספיישל';
+        }
+        return 'עונה ' + seasonNum;
+    }
+
+    /** Kan /sN/ path for ordering (UI עונה 10 may be /s12/). Specials use 800+path. */
+    function seasonPathRank(seasonNum, series) {
+        var n = Number(seasonNum) || 1;
+        var i;
+        var ep;
+        var path = 0;
+        if (series && series.episodes) {
+            for (i = 0; i < series.episodes.length; i++) {
+                ep = series.episodes[i];
+                if ((ep.season || 1) !== n) {
+                    continue;
+                }
+                if (ep.pathSeason) {
+                    path = Math.max(path, Number(ep.pathSeason) || 0);
+                }
+            }
+        }
+        if (path) {
+            return { path: path, special: n >= 800 ? 1 : 0 };
+        }
+        if (n >= 800) {
+            return { path: n - 800, special: 1 };
+        }
+        return { path: n, special: 0 };
+    }
+
+    function compareSeasonNumbers(a, b, series) {
+        var ra = seasonPathRank(a, series);
+        var rb = seasonPathRank(b, series);
+        if (ra.path !== rb.path) {
+            return rb.path - ra.path; // higher Kan path first (newest)
+        }
+        if (ra.special !== rb.special) {
+            return ra.special - rb.special; // main עונה before ספיישל
+        }
+        return b - a;
+    }
+
     function seasonFilterLabel(value) {
+        var i;
         if (value === 'all') {
             return 'הכל';
         }
-        return 'עונה ' + value;
+        for (i = 0; i < seriesSeasonOptions.length; i++) {
+            if (seriesSeasonOptions[i].value === String(value)) {
+                return seriesSeasonOptions[i].label;
+            }
+        }
+        return seasonDisplayLabel(value, currentSeries);
     }
 
     function syncSeriesSeasonLabel() {
         var label = document.getElementById('series-season-label');
         if (label) {
             label.textContent = seasonFilterLabel(seriesSeasonFilter);
+        }
+    }
+
+    function syncSeriesSeasonSticky(item) {
+        var el = document.getElementById('series-season-sticky');
+        var label = '';
+        var raw;
+        var seasonNum;
+        if (!el) {
+            return;
+        }
+        item = item || (focusableItems && focusableItems[focusedIndex]) || null;
+        if (seriesSeasonFilter !== 'all' && isFinite(seriesSeasonFilter)) {
+            label = seasonDisplayLabel(seriesSeasonFilter, currentSeries);
+        } else if (item && item.getAttribute) {
+            raw = item.getAttribute('data-season-num') || item.getAttribute('data-season-value');
+            if (raw && raw !== 'all') {
+                seasonNum = parseInt(raw, 10);
+                if (isFinite(seasonNum)) {
+                    label = seasonDisplayLabel(seasonNum, currentSeries);
+                }
+            }
+        }
+        if (!label && seriesSeasonNumbers && seriesSeasonNumbers.length) {
+            label = seasonDisplayLabel(seriesSeasonNumbers[0], currentSeries);
+        }
+        if (label) {
+            el.hidden = false;
+            el.textContent = label;
+        } else {
+            el.hidden = true;
+            el.textContent = '';
         }
     }
 
@@ -553,7 +2425,7 @@
         for (i = 0; i < options.length; i++) {
             if (options[i].getAttribute('data-season-value') === String(seriesSeasonFilter)) {
                 startIndex = i;
-                break;
+    		break;
             }
         }
 
@@ -566,6 +2438,7 @@
                 focusedIndex = index;
                 applyFocusClass(prev, index);
                 ensureFocusedItemVisible(item, true);
+                syncSeriesSeasonSticky(item);
             };
             item.onclick = function () {
                 chooseSeriesSeason(item.getAttribute('data-season-value'));
@@ -619,7 +2492,8 @@
                 viewFocus.series = index;
                 applyFocusClass(prev, index);
                 ensureFocusedItemVisible(item, true);
-                hydrateNearbyVodImages(index);
+                syncSeriesSeasonSticky(item);
+                scheduleHydrateNearbyVodImages(index);
             };
 
             item.onclick = function () {
@@ -669,7 +2543,10 @@
 
         if (seasonNumbers.length <= 1) {
             value = String(seasonNumbers[0]);
-            seriesSeasonOptions = [{ value: value, label: 'עונה ' + seasonNumbers[0] }];
+            seriesSeasonOptions = [{
+                value: value,
+                label: seasonDisplayLabel(seasonNumbers[0], currentSeries)
+            }];
             seriesSeasonFilter = seasonNumbers[0];
             if (wrap) {
                 wrap.classList.add('is-disabled');
@@ -685,7 +2562,7 @@
         for (i = 0; i < seasonNumbers.length; i++) {
             seriesSeasonOptions.push({
                 value: String(seasonNumbers[i]),
-                label: 'עונה ' + seasonNumbers[i]
+                label: seasonDisplayLabel(seasonNumbers[i], currentSeries)
             });
         }
 
@@ -742,7 +2619,7 @@
                 viewFocus[currentView] = index;
                 applyFocusClass(prev, index);
                 ensureFocusedItemVisible(item, true);
-                hydrateNearbyVodImages(index);
+                scheduleHydrateNearbyVodImages(index);
                 if (currentView === 'live') {
                     schedulePreview(item);
                 }
@@ -780,7 +2657,7 @@
                 viewFocus.home = index;
                 applyFocusClass(prev, index);
                 ensureFocusedItemVisible(item, true);
-                hydrateNearbyVodImages(index);
+                scheduleHydrateNearbyVodImages(index);
             };
             item.onclick = function () {
                 activateItem(item);
@@ -888,6 +2765,7 @@
                 if (episode.streamResolve) {
                     button.setAttribute('data-stream-resolve', episode.streamResolve);
                 }
+                applyVodPlayAttrs(button, episode, series);
 
                 inner = document.createElement('span');
                 inner.className = 'vod-card-inner';
@@ -964,6 +2842,7 @@
                 return;
             }
             if (dy < 0) {
+                tryFocusProfileChromeFromTop();
                 return;
             }
             next = idx + dx;
@@ -1050,12 +2929,40 @@
 
     /** Defer poster decode until cards are near focus — eager load of 100+ images freezes Tizen. */
     function makeLazyVodImage(url, alt) {
+        var wrap = document.createElement('span');
+        var line = document.createElement('span');
         var img = document.createElement('img');
+        wrap.className = 'vod-card-img-wrap';
+        line.className = 'vod-card-img-line';
+        line.setAttribute('aria-hidden', 'true');
         img.className = 'vod-card-img';
         img.alt = alt || '';
         img.setAttribute('data-src', url);
         img.decoding = 'async';
-        return img;
+        wrap.appendChild(line);
+        wrap.appendChild(img);
+        return wrap;
+    }
+
+    /** Samsung-style reveal: white midline, then open upward and downward. */
+    function revealVodImage(img) {
+        var wrap;
+        if (!img || img.classList.contains('is-revealed')) {
+            return;
+        }
+        wrap = img.parentElement;
+        function show() {
+            img.classList.add('is-revealed');
+            if (wrap && wrap.classList && wrap.classList.contains('vod-card-img-wrap')) {
+                wrap.classList.add('is-revealed');
+            }
+        }
+        if (img.complete && img.naturalWidth > 0) {
+            show();
+        } else {
+            img.addEventListener('load', show);
+            img.addEventListener('error', show);
+        }
     }
 
     function hydrateNearbyVodImages(centerIndex) {
@@ -1082,7 +2989,22 @@
             }
             img.removeAttribute('data-src');
             img.src = src;
+            revealVodImage(img);
         }
+    }
+
+    /** Delay image decode until navigation settles — decoding mid-move freezes Tizen. */
+    function scheduleHydrateNearbyVodImages(centerIndex) {
+        if (hydrateNearbyTimer) {
+            clearTimeout(hydrateNearbyTimer);
+        }
+        hydrateNearbyTimer = setTimeout(
+            function () {
+                hydrateNearbyTimer = null;
+                hydrateNearbyVodImages(centerIndex);
+            },
+            isTizenTv ? 180 : 40
+        );
     }
 
     function easeInOutCubic(t) {
@@ -1097,11 +3019,21 @@
             setPageScrollY(targetY);
             return;
         }
-        // Smooth glide for row changes — still short enough to stay responsive
-        var duration =
-            durationMs != null
-                ? durationMs
-                : Math.min(360, Math.max(240, 200 + Math.abs(delta) * 0.35));
+        // TV: jump (or very short ease). Long RAF scrolls make remote feel late.
+        var duration;
+        if (isTizenTv && (durationMs == null || durationMs <= 0)) {
+            setPageScrollY(targetY);
+            return;
+        }
+        if (durationMs != null) {
+            duration = durationMs;
+        } else {
+            duration = Math.min(360, Math.max(240, 200 + Math.abs(delta) * 0.35));
+        }
+        if (duration <= 0) {
+            setPageScrollY(targetY);
+            return;
+        }
 
         if (scrollRaf !== null) {
             cancelPendingScroll();
@@ -1134,27 +3066,106 @@
                 item.classList.contains('vod-season-trigger')
             )
         ) {
-            smoothScrollToY(0, 280);
+            if (currentView === 'series') {
+                var seriesListTop = document.getElementById('episodes-list');
+                if (seriesListTop) {
+                    try {
+                        seriesListTop.scrollTop = 0;
+                    } catch (eTop) {}
+                }
+            } else if (currentView === 'vod') {
+                var vodListTop = document.getElementById('series-list');
+                if (vodListTop) {
+                    try {
+                        vodListTop.scrollTop = 0;
+                    } catch (eVodTop) {}
+                }
+                setPageScrollY(0);
+            } else if (currentView === 'live') {
+                var liveListTop = document.getElementById('channels');
+                if (liveListTop) {
+                    try {
+                        liveListTop.scrollTop = 0;
+                    } catch (eLiveTop) {}
+                }
+                setPageScrollY(0);
+            } else {
+                smoothScrollToY(0, isTizenTv ? 0 : 280);
+            }
             return;
         }
 
         if (currentView === 'home') {
             if (item.classList && item.classList.contains('home-continue-card')) {
                 try {
-                    item.scrollIntoView({ behavior: 'smooth', inline: 'nearest', block: 'nearest' });
+                    item.scrollIntoView({ behavior: isTizenTv ? 'auto' : 'smooth', inline: 'nearest', block: 'nearest' });
                 } catch (e) {
                     try {
                         item.scrollIntoView(false);
                     } catch (e2) {}
                 }
                 // Keep page from drifting too far when focusing the continue row
-                var vh = window.innerHeight || 1080;
-                var rect = item.getBoundingClientRect();
-                if (rect.bottom > vh - 40) {
-                    smoothScrollToY(getPageScrollY() + (rect.bottom - (vh - 40)), 220);
+                var vhHome = window.innerHeight || 1080;
+                var rectHome = item.getBoundingClientRect();
+                if (rectHome.bottom > vhHome - 40) {
+                    smoothScrollToY(getPageScrollY() + (rectHome.bottom - (vhHome - 40)), isTizenTv ? 0 : 220);
                 }
             } else {
-                smoothScrollToY(0, 280);
+                smoothScrollToY(0, isTizenTv ? 0 : 280);
+            }
+            return;
+        }
+
+        // Episodes: only the tiles container scrolls under the fixed header.
+        if (currentView === 'series') {
+            var seriesList = document.getElementById('episodes-list');
+            if (!seriesList) {
+                return;
+            }
+            var vhSeries = seriesList.clientHeight || window.innerHeight || 1080;
+            var itemRect = item.getBoundingClientRect();
+            var seriesRect = seriesList.getBoundingClientRect();
+            var topLimitS = Math.round(vhSeries * 0.22);
+            var bottomLimitS = Math.round(vhSeries * 0.78);
+            var relTop = itemRect.top - seriesRect.top;
+            var relBottom = itemRect.bottom - seriesRect.top;
+            var nextTop = seriesList.scrollTop;
+            if (relTop < topLimitS) {
+                nextTop = seriesList.scrollTop - (topLimitS - relTop);
+            } else if (relBottom > bottomLimitS) {
+                nextTop = seriesList.scrollTop + (relBottom - bottomLimitS);
+            }
+            if (nextTop !== seriesList.scrollTop) {
+                try {
+                    seriesList.scrollTop = Math.max(0, nextTop);
+                } catch (eSeriesScroll) {}
+            }
+            return;
+        }
+
+        // VOD / LIVE: only the tiles container scrolls under the fixed header/divider.
+        if (currentView === 'vod' || currentView === 'live') {
+            var tileList = document.getElementById(currentView === 'vod' ? 'series-list' : 'channels');
+            if (!tileList) {
+                return;
+            }
+            var vhTiles = tileList.clientHeight || window.innerHeight || 1080;
+            var itemRectV = item.getBoundingClientRect();
+            var listRect = tileList.getBoundingClientRect();
+            var topLimitV = Math.round(vhTiles * 0.22);
+            var bottomLimitV = Math.round(vhTiles * 0.78);
+            var relTopV = itemRectV.top - listRect.top;
+            var relBottomV = itemRectV.bottom - listRect.top;
+            var nextTopV = tileList.scrollTop;
+            if (relTopV < topLimitV) {
+                nextTopV = tileList.scrollTop - (topLimitV - relTopV);
+            } else if (relBottomV > bottomLimitV) {
+                nextTopV = tileList.scrollTop + (relBottomV - bottomLimitV);
+            }
+            if (nextTopV !== tileList.scrollTop) {
+                try {
+                    tileList.scrollTop = Math.max(0, nextTopV);
+                } catch (eTileScroll) {}
             }
             return;
         }
@@ -1190,16 +3201,43 @@
         thumb.classList.add('has-image');
     }
 
+    function findVodFocusIndex(seriesId, fallbackIndex) {
+        var i;
+        var header = vodHeaderFocusCount();
+        if (seriesId) {
+            for (i = 0; i < focusableItems.length; i++) {
+                if (focusableItems[i].getAttribute('data-series') === seriesId) {
+                    return i;
+                }
+            }
+        }
+        if (typeof fallbackIndex === 'number' && fallbackIndex >= header && fallbackIndex < focusableItems.length) {
+            return fallbackIndex;
+        }
+        // Prefer first series card — never fall back onto a tab (that switches provider)
+        if (focusableItems.length > header) {
+            return header;
+        }
+        return Math.min(vodTabIndex(vodProviderTab), Math.max(0, focusableItems.length - 1));
+    }
+
     function seriesMatchesVodTab(series, tab) {
         var source = (series && series.source) || 'kan';
+        if (tab === 'mylist') {
+            return isInMyList(series && series.id);
+        }
         if (tab === 'n12') {
             return source === 'mako' || source === 'n12';
         }
         if (tab === 'r13') {
             return source === 'reshet' || source === 'r13';
         }
-        // כאן 11 — everything that is not N12/Mako or Reshet 13
-        return source !== 'mako' && source !== 'n12' && source !== 'reshet' && source !== 'r13';
+        if (tab === 'sweden') {
+            return source === 'sweden' || source === 'tv4';
+        }
+        // כאן 11 — everything that is not N12/Mako, Reshet 13, or Sweden/TV4
+        return source !== 'mako' && source !== 'n12' && source !== 'reshet' && source !== 'r13' &&
+            source !== 'sweden' && source !== 'tv4';
     }
 
     function vodTabIndex(tab) {
@@ -1214,10 +3252,11 @@
     }
 
     function syncVodTabUi() {
-        var tabs = document.querySelectorAll('.vod-tab');
+        var tabs = document.querySelectorAll('#vod-tabs .vod-tab');
         Array.prototype.forEach.call(tabs, function (tab) {
             var id = tab.getAttribute('data-vod-tab');
-            var active = id === vodProviderTab;
+            // Search is its own view — no provider tab stays selected while searching
+            var active = !vodSearchMode && id === vodProviderTab;
             if (active) {
                 tab.classList.add('is-active');
             } else {
@@ -1225,21 +3264,51 @@
             }
             tab.setAttribute('aria-selected', active ? 'true' : 'false');
         });
+        var searchWrap = document.getElementById('vod-search');
+        if (searchWrap) {
+            if (vodSearchMode) {
+                searchWrap.classList.add('is-search-active');
+            } else {
+                searchWrap.classList.remove('is-search-active');
+            }
+        }
     }
 
     function setVodProviderTab(tab, keepFocusOnTab) {
-        if (tab !== 'kan' && tab !== 'n12' && tab !== 'r13') {
+        if (tab !== 'kan' && tab !== 'n12' && tab !== 'r13' && tab !== 'sweden' && tab !== 'mylist') {
             return;
         }
-        var changed = vodProviderTab !== tab;
+        if (vodRestoreLock) {
+            return;
+        }
+        var changed = vodProviderTab !== tab || vodSearchMode;
         vodProviderTab = tab;
+        // Tabs always show the full provider grid — leave search mode
+        vodSearchMode = false;
+        if (changed) {
+            vodReturnSeriesId = null;
+            vodReturnTab = null;
+        }
         syncVodTabUi();
         renderKanboxSeries();
         bindVodItems();
+        if (changed) {
+            var vodGrid = document.getElementById('series-list');
+            if (vodGrid) {
+                try {
+                    vodGrid.scrollTop = 0;
+                } catch (eGrid) {}
+            }
+        }
         if (keepFocusOnTab) {
             setFocus(vodTabIndex(tab), false);
         } else if (changed) {
-            setFocus(vodHeaderFocusCount(), true);
+            var firstCard = vodHeaderFocusCount();
+            if (focusableItems.length > firstCard) {
+                setFocus(firstCard, true);
+            } else {
+                setFocus(vodTabIndex(tab), false);
+            }
         }
     }
 
@@ -1284,17 +3353,59 @@
     function updateVodImePreview() {
         var preview = document.getElementById('vod-ime-preview');
         var input = document.getElementById('vod-search-input');
-        if (preview) {
-            preview.textContent = input ? input.value : '';
+        if (!preview) {
+            return;
         }
+        if (profileImeTarget) {
+            preview.textContent = (profileEditDraft && profileEditDraft.name) || '';
+            return;
+        }
+        preview.textContent = input ? input.value : '';
+    }
+
+    function enterVodSearchMode() {
+        if (vodSearchMode) {
+            syncVodTabUi();
+            return;
+        }
+        vodSearchMode = true;
+        renderKanboxSeries();
+        bindVodItems();
+        try {
+            var searchGrid = document.getElementById('series-list');
+            if (searchGrid) {
+                searchGrid.scrollTop = 0;
+            }
+        } catch (eSearchEnter) {}
+    }
+
+    function showVodSearchMessage(text) {
+        var container = document.getElementById('series-list');
+        var msg;
+        if (!container) {
+            return;
+        }
+        container.innerHTML = '';
+        msg = document.createElement('p');
+        msg.className = 'vod-search-message';
+        msg.setAttribute('dir', 'rtl');
+        msg.textContent = text;
+        container.appendChild(msg);
     }
 
     function refreshVodSearchResults(keepImeFocus) {
         var input = document.getElementById('vod-search-input');
         vodSearchQuery = normalizeVodSearch(input ? input.value : '');
+        vodSearchMode = true;
         syncVodSearchClearUi();
         updateVodImePreview();
         renderKanboxSeries();
+        try {
+            var searchResultsGrid = document.getElementById('series-list');
+            if (searchResultsGrid) {
+                searchResultsGrid.scrollTop = 0;
+            }
+        } catch (eSearchResults) {}
 
         if (vodImeOpen || keepImeFocus) {
             // Keep custom keyboard focus; only refresh the series grid under it
@@ -1313,6 +3424,8 @@
             input.value = '';
         }
         vodSearchQuery = '';
+        // Stay in search view with the tip if focus remains on search
+        vodSearchMode = keepFocusOnSearch !== false;
         syncVodSearchClearUi();
         updateVodImePreview();
         renderKanboxSeries();
@@ -1326,6 +3439,15 @@
     }
 
     function appendVodSearchChar(ch) {
+        if (profileImeTarget) {
+            if (!profileEditDraft) {
+                return;
+            }
+            profileEditDraft.name = String((profileEditDraft.name || '') + ch).slice(0, 24);
+            syncProfileNameField();
+            updateVodImePreview();
+            return;
+        }
         var input = document.getElementById('vod-search-input');
         if (!input) {
             return;
@@ -1335,6 +3457,15 @@
     }
 
     function backspaceVodSearch() {
+        if (profileImeTarget) {
+            if (!profileEditDraft) {
+                return;
+            }
+            profileEditDraft.name = String(profileEditDraft.name || '').slice(0, -1);
+            syncProfileNameField();
+            updateVodImePreview();
+            return;
+        }
         var input = document.getElementById('vod-search-input');
         if (!input || !input.value) {
             return;
@@ -1424,11 +3555,26 @@
 
     function bindVodImeKeys() {
         var keys = Array.prototype.slice.call(document.querySelectorAll('#vod-ime-keys .vod-ime-key'));
-        focusableItems = keys;
+        var actions = [];
+        var items;
+        if (profileImeTarget) {
+            actions = Array.prototype.slice.call(
+                document.querySelectorAll(
+                    '#profile-edit-view .profile-action-btn:not([hidden]):not([disabled]):not(.is-disabled)'
+                )
+            );
+            actions.forEach(function (btn, index) {
+                btn.setAttribute('data-profile-ime-action', '1');
+                btn.setAttribute('data-ime-row', '-1');
+                btn.setAttribute('data-ime-col', String(index));
+            });
+        }
+        items = keys.concat(actions);
+        focusableItems = items;
         channels = [];
         lastFocusedEl = null;
 
-        keys.forEach(function (item, index) {
+        items.forEach(function (item, index) {
             item.onfocus = function () {
                 if (focusFromCode) {
                     return;
@@ -1437,7 +3583,13 @@
                 focusedIndex = index;
                 applyFocusClass(prev, index);
             };
-            item.onclick = function () {
+            item.onclick = function (e) {
+                if (e && e.preventDefault) {
+                    e.preventDefault();
+                }
+                if (item.disabled || item.classList.contains('is-disabled')) {
+                    return;
+                }
                 activateItem(item);
             };
         });
@@ -1486,6 +3638,8 @@
         var row;
         var col;
         var nextIndex = -1;
+        var curRow;
+        var letterRows;
         if (!current) {
             return;
         }
@@ -1493,10 +3647,10 @@
         if (dx && vodImeLayout === 'he') {
             dx = -dx;
         } else if (dx) {
-            // Special action row is always rtl
-            var curRow = parseInt(current.getAttribute('data-ime-row'), 10) || 0;
-            var letterRows = (getVodImeLayouts()[vodImeLayout] || []).length;
-            if (curRow >= letterRows) {
+            // Special action row / profile edit buttons are rtl
+            curRow = parseInt(current.getAttribute('data-ime-row'), 10) || 0;
+            letterRows = (getVodImeLayouts()[vodImeLayout] || []).length;
+            if (curRow >= letterRows || curRow < 0) {
                 dx = -dx;
             }
         }
@@ -1526,7 +3680,9 @@
         if (!ime) {
             return;
         }
+        profileImeTarget = false;
         vodImeFocusBefore = viewFocus.vod || vodTabCount();
+        enterVodSearchMode();
         vodImeOpen = true;
         ime.hidden = false;
         document.body.classList.add('is-vod-ime-open');
@@ -1538,10 +3694,20 @@
 
     function closeVodIme(restoreSearchFocus) {
         var ime = document.getElementById('vod-ime');
+        var wasOpen = vodImeOpen;
+        if (profileImeTarget) {
+            closeProfileNameIme();
+            return;
+        }
         vodImeOpen = false;
         document.body.classList.remove('is-vod-ime-open');
         if (ime) {
             ime.hidden = true;
+        }
+        // If IME was never open, do not touch focus — callers like opening a series
+        // were accidentally setFocus(0) → first tab → wipe provider + return state.
+        if (!wasOpen) {
+            return;
         }
         if (currentView !== 'vod') {
             return;
@@ -1598,6 +3764,24 @@
 
         focusableItems.forEach(function (item, index) {
             item.onfocus = function () {
+                if (vodRestoreLock) {
+                    // Bounce off tabs/search if the browser steals focus during restore
+                    if (
+                        vodRestoreTargetIndex >= 0 &&
+                        focusableItems[vodRestoreTargetIndex] &&
+                        focusableItems[vodRestoreTargetIndex] !== item
+                    ) {
+                        focusFromCode = true;
+                        try {
+                            focusableItems[vodRestoreTargetIndex].focus();
+                        } catch (eFocus) {}
+                        focusFromCode = false;
+                        focusedIndex = vodRestoreTargetIndex;
+                        viewFocus.vod = vodRestoreTargetIndex;
+                        applyFocusClass(index, vodRestoreTargetIndex);
+                    }
+                    return;
+                }
                 if (focusFromCode) {
                     return;
                 }
@@ -1606,16 +3790,22 @@
                 viewFocus.vod = index;
                 applyFocusClass(prev, index);
                 ensureFocusedItemVisible(item, true);
-                hydrateNearbyVodImages(index);
-
-                var tabId = item.getAttribute('data-vod-tab');
-                if (tabId && tabId !== vodProviderTab) {
-                    setVodProviderTab(tabId, true);
-                    return;
-                }
+                scheduleHydrateNearbyVodImages(index);
+                // Tab content switches only via setFocus (arrow nav) / activateItem (OK/click).
+                // Never switch here — browser autofocus on tab 0 would wipe restore state.
             };
 
-            item.onclick = function () {
+            item.onclick = function (evt) {
+                if (isVodSeriesCard(item) && okHoldFired) {
+                    if (evt) {
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                    }
+                    return;
+                }
+                if (isVodSeriesCard(item)) {
+                    clearOkHold();
+                }
                 activateItem(item);
             };
         });
@@ -1720,20 +3910,23 @@
     }
 
     function setRadioNowPlaying(station, statusText, isPlaying) {
-        var title = document.getElementById('radio-now-title');
-        var status = document.getElementById('radio-now-status');
+        var now = document.getElementById('radio-now');
         var visual = document.getElementById('radio-now-visual');
         var eq = document.getElementById('radio-eq');
         var accent = (station && station.accent) || '#6bb3ff';
+        var hasStation = !!station;
 
+        if (now) {
+            now.classList.toggle('is-idle', !hasStation);
+            now.classList.toggle('has-station', hasStation);
+        }
         if (visual) {
             visual.style.setProperty('--radio-accent', accent);
-        }
-        if (title) {
-            title.textContent = station ? ('עכשיו מתנגן - ' + station.name) : 'Choose station';
-        }
-        if (status) {
-            status.textContent = station ? (statusText || '') : '';
+            if (hasStation) {
+                visual.removeAttribute('hidden');
+            } else {
+                visual.setAttribute('hidden', '');
+            }
         }
         if (eq) {
             eq.classList.toggle('is-playing', !!isPlaying);
@@ -1862,9 +4055,8 @@
     function renderKanboxSeries() {
         var container = document.getElementById('series-list');
         var query = vodSearchQuery;
-        var list = (window.ISRTV_KANBOX || []).filter(function (series) {
-            return seriesMatchesVodTab(series, vodProviderTab) && seriesMatchesSearch(series, query);
-        });
+        var myListIds = loadMyListIds();
+        var list;
 
         if (!container) {
             return;
@@ -1872,9 +4064,59 @@
 
         syncVodTabUi();
         syncVodSearchClearUi();
+
+        if (vodSearchMode) {
+            container.innerHTML = '';
+            if (!query) {
+                showVodSearchMessage(
+                    'החיפוש מציג תוצאות מכל הערוצים'
+                );
+                return;
+            }
+            list = (window.ISRTV_KANBOX || []).filter(function (series) {
+                return seriesMatchesSearch(series, query);
+            });
+            if (list.length === 0) {
+                showVodSearchMessage('לא נמצאו תוצאות');
+                return;
+            }
+        } else if (vodProviderTab === 'mylist') {
+            list = myListIds
+                .map(function (id) {
+                    return findSeriesById(id);
+                })
+                .filter(Boolean);
+        } else {
+            list = (window.ISRTV_KANBOX || []).filter(function (series) {
+                return seriesMatchesVodTab(series, vodProviderTab);
+            });
+        }
+
         container.innerHTML = '';
+        container.classList.remove('is-empty-mylist');
+
+        if (!vodSearchMode && vodProviderTab === 'mylist' && myListIds.length === 0) {
+            var empty = document.createElement('p');
+            empty.className = 'vod-mylist-empty';
+            empty.id = 'vod-mylist-empty';
+            empty.setAttribute('dir', 'rtl');
+            var emptyTitle = document.createElement('span');
+            emptyTitle.className = 'vod-mylist-empty-title';
+            emptyTitle.textContent = 'הרשימה שלך ריקה';
+            var emptyHint = document.createElement('span');
+            emptyHint.className = 'vod-mylist-empty-hint';
+            emptyHint.textContent = 'החזק ok על סדרה כדי להוסיף אותה לרשימה';
+            empty.appendChild(emptyTitle);
+            empty.appendChild(emptyHint);
+            container.classList.add('is-empty-mylist');
+            container.appendChild(empty);
+            return;
+        }
 
         list.forEach(function (series) {
+            var tile = document.createElement('div');
+            tile.className = 'vod-series-tile';
+
             var button = document.createElement('button');
             button.type = 'button';
             button.className = 'vod-card';
@@ -1901,17 +4143,64 @@
             inner.appendChild(makeSeriesProgressBar(series));
 
             button.appendChild(inner);
-            container.appendChild(button);
+            tile.appendChild(button);
+            tile.appendChild(makeMyListHeartButton(series.id));
+            container.appendChild(tile);
         });
     }
 
     function episodeDisplayName(episode) {
         var season = episode.season || 1;
         var chapter = episode.ep || episode.chapter || 0;
+        var name = episode && episode.name ? String(episode.name).trim() : '';
+        if (name && !/^עונה\s+\d+\s+פרק\s+\d+$/.test(name)) {
+            return name;
+        }
         if (chapter) {
             return 'עונה ' + season + ' פרק ' + chapter;
         }
-        return episode.name || ('עונה ' + season);
+        return name || ('עונה ' + season);
+    }
+
+    function episodeSubtitle(episode) {
+        return episode && episode.subtitle ? String(episode.subtitle).trim() : '';
+    }
+
+    function appendEpisodeCaption(inner, episode) {
+        var wrap = document.createElement('span');
+        var name;
+        var sub;
+        var subText;
+        wrap.className = 'vod-card-caption';
+        wrap.setAttribute('dir', 'auto');
+        name = document.createElement('span');
+        name.className = 'vod-card-name';
+        name.textContent = episodeDisplayName(episode);
+        wrap.appendChild(name);
+        subText = episodeSubtitle(episode);
+        if (subText) {
+            sub = document.createElement('span');
+            sub.className = 'vod-card-sub';
+            sub.textContent = subText;
+            wrap.appendChild(sub);
+        }
+        inner.appendChild(wrap);
+    }
+
+    function applyVodPlayAttrs(button, episode, series) {
+        var preferHls;
+        var subs;
+        if (!button || !episode) {
+            return;
+        }
+        preferHls = episode.preferHlsJs || (series && series.preferHlsJs);
+        if (preferHls) {
+            button.setAttribute('data-prefer-hlsjs', '1');
+        }
+        subs = episode.defaultSubtitles || (series && series.defaultSubtitles) || '';
+        if (subs) {
+            button.setAttribute('data-subtitles', String(subs));
+        }
     }
 
     function renderSeriesEpisodes(series) {
@@ -1933,12 +4222,15 @@
         }
 
         container.innerHTML = '';
+        try {
+            container.scrollTop = 0;
+        } catch (eEpsReset) {}
 
         episodes = (series.episodes || []).slice().sort(function (a, b) {
             var sa = a.season || 1;
             var sb = b.season || 1;
             if (sa !== sb) {
-                return sb - sa; // newest season first
+                return compareSeasonNumbers(sa, sb, series);
             }
             return (a.ep || 0) - (b.ep || 0);
         });
@@ -1954,8 +4246,9 @@
         seasonNumbers = Object.keys(seasonsMap)
             .map(Number)
             .sort(function (a, b) {
-                return b - a;
+                return compareSeasonNumbers(a, b, series);
             });
+        seriesSeasonNumbers = seasonNumbers.slice();
 
         populateSeriesSeasonSelect(seasonNumbers);
 
@@ -1967,17 +4260,16 @@
             });
         }
 
-        var showDividers = true;
         var lastSeason = null;
         var seasonOrdinal = -1;
         var seasonEpIndex = 0;
+        var showSeasonDividers = seriesSeasonFilter === 'all' && seasonNumbers.length > 1;
 
         for (i = 0; i < filtered.length; i++) {
             (function (episode) {
                 var season = episode.season || 1;
                 var divider;
                 var button;
-                var name;
                 var epRow;
                 var epCol;
 
@@ -1985,11 +4277,10 @@
                     lastSeason = season;
                     seasonOrdinal += 1;
                     seasonEpIndex = 0;
-                    if (showDividers) {
+                    if (showSeasonDividers && seasonOrdinal > 0) {
                         divider = document.createElement('div');
                         divider.className = 'season-divider';
                         divider.setAttribute('aria-hidden', 'true');
-                        divider.textContent = 'עונה ' + season;
                         container.appendChild(divider);
                     }
                 }
@@ -2004,6 +4295,7 @@
                 button.setAttribute('data-episode', episode.id);
                 button.setAttribute('data-action', 'play');
                 button.setAttribute('data-season-ord', String(seasonOrdinal));
+                button.setAttribute('data-season-num', String(season));
                 button.setAttribute('data-ep-row', String(epRow));
                 button.setAttribute('data-ep-col', String(epCol));
                 if (episode.assetId) {
@@ -2012,6 +4304,7 @@
                 if (episode.streamResolve) {
                     button.setAttribute('data-stream-resolve', episode.streamResolve);
                 }
+                applyVodPlayAttrs(button, episode, currentSeries);
 
                 var inner = document.createElement('span');
                 inner.className = 'vod-card-inner';
@@ -2024,11 +4317,7 @@
                 gradient.className = 'vod-card-gradient';
                 inner.appendChild(gradient);
 
-                name = document.createElement('span');
-                name.className = 'vod-card-name';
-                name.textContent = episodeDisplayName(episode);
-                name.setAttribute('dir', 'auto');
-                inner.appendChild(name);
+                appendEpisodeCaption(inner, episode);
 
                 inner.appendChild(makeEpisodeProgressBar(episode.id));
 
@@ -2036,6 +4325,8 @@
                 container.appendChild(button);
             })(filtered[i]);
         }
+
+        syncSeriesSeasonSticky();
     }
 
     function findSeriesById(id) {
@@ -2055,6 +4346,123 @@
 
         var action = item.getAttribute('data-action');
 
+        if (action === 'profile-open' || action === 'profile-menu-toggle') {
+            toggleProfileMenu();
+            return;
+        }
+
+        if (action === 'profile-menu-select') {
+            switchProfile(item.getAttribute('data-profile-id'));
+            return;
+        }
+
+        if (action === 'profile-menu-edit') {
+            openProfileDialog(true);
+            return;
+        }
+
+        if (action === 'profile-close') {
+            closeProfileDialog();
+            return;
+        }
+
+        if (action === 'profile-add') {
+            openProfileEdit(null);
+            return;
+        }
+
+        if (action === 'profile-manage') {
+            toggleProfileManaging();
+            return;
+        }
+
+        if (action === 'profile-edit') {
+            openProfileEdit(item.getAttribute('data-profile-id'));
+            return;
+        }
+
+        if (action === 'profile-select') {
+            switchProfile(item.getAttribute('data-profile-id'));
+            return;
+        }
+
+        if (action === 'profile-icon') {
+            if (profileEditDraft) {
+                profileEditDraft.icon = item.getAttribute('data-icon') || null;
+                renderProfileEditView();
+                rebindProfileEditFocus(item);
+            }
+            return;
+        }
+
+        if (action === 'profile-name') {
+            openProfileNameIme();
+            return;
+        }
+
+        if (action === 'profile-save') {
+            if (!isProfileDraftValid()) {
+                return;
+            }
+            saveProfileEdit();
+            return;
+        }
+
+        if (action === 'profile-edit-cancel') {
+            requestCloseProfileEdit();
+            return;
+        }
+
+        if (action === 'profile-delete') {
+            if (profileImeTarget) {
+                closeProfileNameIme();
+            }
+            openProfileDeleteConfirm();
+            return;
+        }
+
+        if (action === 'profile-confirm-yes') {
+            if (profileConfirmKind === 'delete') {
+                hideProfileDeleteConfirm();
+                deleteProfileEdit();
+                return;
+            }
+            if (profileConfirmKind === 'unsaved') {
+                hideProfileDeleteConfirm();
+                if (isProfileDraftValid()) {
+                    saveProfileEdit();
+                } else {
+                    // Can't save yet — stay in editor
+                    bindProfileDialogItems();
+                    setFocus(0, false);
+                }
+                return;
+            }
+            closeProfileDeleteConfirm();
+            return;
+        }
+
+        if (action === 'profile-confirm-no') {
+            if (profileConfirmKind === 'unsaved') {
+                discardProfileEdit();
+                return;
+            }
+            closeProfileDeleteConfirm();
+            return;
+        }
+
+        // legacy aliases (if any remain)
+        if (action === 'profile-delete-confirm') {
+            hideProfileDeleteConfirm();
+            deleteProfileEdit();
+            return;
+        }
+
+        if (action === 'profile-delete-cancel') {
+            closeProfileDeleteConfirm();
+            return;
+        }
+
         if (action === 'home') {
             showView('home');
             return;
@@ -2062,7 +4470,7 @@
 
         if (action === 'live') {
             viewFocus.home = focusedIndex;
-            viewFocus.live = 0;
+            viewFocus.live = liveTabCount();
             showView('live');
             return;
         }
@@ -2080,8 +4488,10 @@
 
         if (action === 'vod' || action === 'kanbox') {
             viewFocus.home = focusedIndex;
-            // Land on first series card (tabs + search are above)
-            viewFocus.vod = vodHeaderFocusCount();
+            // Land on first provider tab (כאן 11)
+            vodReturnSeriesId = null;
+            vodReturnTab = null;
+            viewFocus.vod = 0;
             showView('vod');
             return;
         }
@@ -2089,6 +4499,17 @@
         if (action === 'vod-tab') {
             var tab = item.getAttribute('data-vod-tab');
             setVodProviderTab(tab, true);
+            return;
+        }
+
+        if (action === 'live-tab') {
+            var liveTab = item.getAttribute('data-live-tab');
+            setLiveRegionTab(liveTab, true);
+            return;
+        }
+
+        if (action === 'mylist-toggle') {
+            toggleMyListSeries(item.getAttribute('data-series'));
             return;
         }
 
@@ -2142,10 +4563,21 @@
 
         if (action === 'series') {
             var series = findSeriesById(item.getAttribute('data-series'));
+            var seriesFocusIdx;
+            var fi;
             if (!series) {
                 return;
             }
-            viewFocus.vod = focusedIndex;
+            seriesFocusIdx = focusedIndex;
+            for (fi = 0; fi < focusableItems.length; fi++) {
+                if (focusableItems[fi].getAttribute('data-series') === series.id) {
+                    seriesFocusIdx = fi;
+                    break;
+                }
+            }
+            viewFocus.vod = seriesFocusIdx;
+            vodReturnSeriesId = series.id;
+            vodReturnTab = vodProviderTab;
             closeVodIme(false);
             seriesSeasonFilter = 'all';
             viewFocus.series = 0;
@@ -2178,11 +4610,32 @@
             closeVodIme(true);
             return;
         }
+        if (profileMenuOpen) {
+            closeProfileMenu();
+            return;
+        }
+        if (profileDialogOpen) {
+            if (profileDeleteConfirmOpen) {
+                closeProfileDeleteConfirm();
+                return;
+            }
+            if (profileDialogMode === 'edit') {
+                requestCloseProfileEdit();
+                return;
+            }
+            closeProfileDialog();
+            return;
+        }
+        if (profileChromeFocused) {
+            clearProfileChromeFocus(true);
+            return;
+        }
         if (seriesSeasonMenuOpen) {
             closeSeriesSeasonMenu(true);
             return;
         }
         if (currentView === 'series') {
+            vodReturningFromSeries = true;
             showView('vod');
             return;
         }
@@ -2191,7 +4644,7 @@
             return;
         }
         if (typeof tizen !== 'undefined' && tizen.application) {
-            tizen.application.getCurrentApplication().exit();
+		tizen.application.getCurrentApplication().exit();
         }
     }
 
@@ -2422,6 +4875,7 @@
     }
 
     function episodeAsPlayItem(episode) {
+        var series = currentSeries;
         return {
             getAttribute: function (name) {
                 if (name === 'data-url') {
@@ -2435,6 +4889,15 @@
                 }
                 if (name === 'data-stream-resolve') {
                     return episode.streamResolve || '';
+                }
+                if (name === 'data-prefer-hlsjs') {
+                    if (episode.preferHlsJs || (series && series.preferHlsJs)) {
+                        return '1';
+                    }
+                    return '';
+                }
+                if (name === 'data-subtitles') {
+                    return episode.defaultSubtitles || (series && series.defaultSubtitles) || '';
                 }
                 if (name === 'data-action') {
                     return 'play';
@@ -2460,7 +4923,17 @@
             }
             return;
         }
-        vodEpisodeLabel.textContent = episodeDisplayName(info.episode);
+        vodEpisodeLabel.textContent = '';
+        var titleEl = document.createElement('span');
+        titleEl.className = 'vod-episode-label-title';
+        titleEl.textContent = episodeDisplayName(info.episode);
+        vodEpisodeLabel.appendChild(titleEl);
+        if (episodeSubtitle(info.episode)) {
+            var subEl = document.createElement('span');
+            subEl.className = 'vod-episode-label-sub';
+            subEl.textContent = episodeSubtitle(info.episode);
+            vodEpisodeLabel.appendChild(subEl);
+        }
         vodEpisodeLabel.hidden = false;
         clearVodEpisodeLabelTimer();
         vodEpisodeLabelTimer = setTimeout(function () {
@@ -2482,9 +4955,27 @@
         vodNextBtn.classList.add('is-focused');
     }
 
+    function setVodNextFillProgress(progress) {
+        var p = progress;
+        if (p < 0) {
+            p = 0;
+        }
+        if (p > 1) {
+            p = 1;
+        }
+        if (vodNextFill) {
+            vodNextFill.style.transform = 'scaleX(' + p + ')';
+        }
+        if (vodNextBtn) {
+            vodNextBtn.setAttribute('data-fill', String(Math.round(p * 100)));
+        }
+    }
+
     function hideVodNextPrompt() {
         vodNextPromptVisible = false;
         vodNextIsLast = false;
+        vodNextAutoFired = false;
+        setVodNextFillProgress(0);
         if (vodNextBtn) {
             vodNextBtn.hidden = true;
             vodNextBtn.classList.remove('is-focused');
@@ -2503,13 +4994,57 @@
         }
     }
 
+    function nextEpisodePlayLabel(episode) {
+        var season;
+        var ep;
+        if (!episode) {
+            return 'לפרק הבא';
+        }
+        season = episode.season || 1;
+        ep = episode.ep || episode.chapter || 0;
+        if (season >= 800) {
+            return 'נגן ' + episodeDisplayName(episode);
+        }
+        if (ep) {
+            return 'נגן עונה ' + season + ' פרק ' + ep;
+        }
+        return 'נגן ' + episodeDisplayName(episode);
+    }
+
     function showVodNextPrompt(isLast) {
+        var info;
+        var next;
+        var label;
+        var currentSeason;
+        var nextSeason;
         if (!vodNextBtn) {
             return;
         }
         vodNextIsLast = !!isLast;
         vodNextPromptVisible = true;
-        vodNextBtn.textContent = isLast ? 'סיום העונה' : 'לפרק הבא';
+        vodNextAutoFired = false;
+        setVodNextFillProgress(0);
+        if (isLast) {
+            label = 'העונה הסתיימה';
+        } else {
+            info = getCurrentVodEpisodeInfo();
+            next = info ? info.list[info.index + 1] : null;
+            currentSeason = info && info.episode ? info.episode.season || 1 : 1;
+            nextSeason = next ? next.season || 1 : currentSeason;
+            if (next && nextSeason !== currentSeason) {
+                // Last episode of this season — offer starting the next one
+                label = 'התחל ' + seasonDisplayLabel(nextSeason, currentSeries);
+            } else if (info && info.list.length >= 2 && info.index === info.list.length - 2) {
+                label = 'נגן פרק אחרון';
+            } else {
+                label = nextEpisodePlayLabel(next);
+            }
+        }
+        if (vodNextLabel) {
+            vodNextLabel.textContent = label;
+        } else {
+            vodNextBtn.textContent = label;
+        }
         vodNextBtn.hidden = false;
         if (vodEpisodeLabel && !vodEpisodeLabel.hidden) {
             // keep episode label on the left while next prompt shows
@@ -2517,6 +5052,24 @@
         revealVodControls();
         clearVodHideTimer();
         focusVodNextBtn();
+    }
+
+    function updateVodNextAutofill(remaining) {
+        var progress;
+        if (vodNextIsLast) {
+            setVodNextFillProgress(0);
+            return;
+        }
+        if (remaining > VOD_NEXT_AUTOFILL_SEC) {
+            setVodNextFillProgress(0);
+            return;
+        }
+        progress = 1 - remaining / VOD_NEXT_AUTOFILL_SEC;
+        setVodNextFillProgress(progress);
+        if (progress >= 0.995 && !vodNextAutoFired) {
+            vodNextAutoFired = true;
+            activateVodNextAction();
+        }
     }
 
     function updateVodNextPrompt() {
@@ -2535,9 +5088,12 @@
             return;
         }
         var remaining = duration - current;
-        if (remaining <= VOD_NEXT_PROMPT_SEC && remaining >= 0) {
+        if (remaining <= VOD_NEXT_PROMPT_SEC) {
             var next = getNextVodEpisode();
-            showVodNextPrompt(!next);
+            if (!vodNextPromptVisible) {
+                showVodNextPrompt(!next);
+            }
+            updateVodNextAutofill(Math.max(0, remaining));
             return;
         }
         if (vodNextPromptVisible) {
@@ -2629,11 +5185,11 @@
                 for (var j = 0; j < focusableItems.length; j++) {
                     if (focusableItems[j] === cards[i]) {
                         viewFocus.series = j;
-                        break;
+    		break;
                     }
                 }
-                break;
-            }
+    		break;
+    	}
         }
     }
 
@@ -3328,6 +5884,9 @@
     function renderChannels() {
         var container = document.getElementById('channels');
         var list = window.ISRTV_CHANNELS || [];
+        var region = liveRegionTab === 'world' || liveRegionTab === 'kids'
+            ? liveRegionTab
+            : 'israel';
 
         if (!container) {
             return;
@@ -3336,13 +5895,24 @@
         clearAllFrozenPreviews();
         container.innerHTML = '';
 
-        list.forEach(function (item, idx) {
+        list.forEach(function (item) {
+            var itemRegion = item.region || 'israel';
+            if (itemRegion !== region) {
+                return;
+            }
+
             var button = document.createElement('button');
             button.type = 'button';
             button.className = 'vod-card live-card channel';
             button.setAttribute('data-channel', item.id);
             button.setAttribute('data-url', item.streamURL || '');
             button.setAttribute('data-image', item.imageName || '');
+            if (item.preferHlsJs) {
+                button.setAttribute('data-prefer-hlsjs', '1');
+            }
+            if (item.defaultSubtitles) {
+                button.setAttribute('data-subtitles', item.defaultSubtitles);
+            }
             if (item.imageURL) {
                 button.setAttribute('data-hero', item.imageURL);
             }
@@ -3383,6 +5953,156 @@
             button.appendChild(inner);
             container.appendChild(button);
         });
+    }
+
+    function liveTabCount() {
+        var tabs = document.querySelectorAll('#live-tabs .vod-tab');
+        return tabs ? tabs.length : 0;
+    }
+
+    function liveTabIndex(tab) {
+        var tabs = document.querySelectorAll('#live-tabs .vod-tab');
+        var i;
+        for (i = 0; i < tabs.length; i++) {
+            if (tabs[i].getAttribute('data-live-tab') === tab) {
+                return i;
+            }
+        }
+        return 0;
+    }
+
+    function syncLiveTabUi() {
+        var tabs = document.querySelectorAll('#live-tabs .vod-tab');
+        Array.prototype.forEach.call(tabs, function (tab) {
+            var id = tab.getAttribute('data-live-tab');
+            var active = id === liveRegionTab;
+            if (active) {
+                tab.classList.add('is-active');
+            } else {
+                tab.classList.remove('is-active');
+            }
+            tab.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+    }
+
+    function setLiveRegionTab(tab, keepFocusOnTab) {
+        if (tab !== 'israel' && tab !== 'world' && tab !== 'kids') {
+            return;
+        }
+        var changed = liveRegionTab !== tab;
+        liveRegionTab = tab;
+        syncLiveTabUi();
+        stopPreview();
+        clearAllFrozenPreviews();
+        renderChannels();
+        bindLiveItems();
+        if (changed) {
+            var liveGrid = document.getElementById('channels');
+            if (liveGrid) {
+                try {
+                    liveGrid.scrollTop = 0;
+                } catch (eGrid) {}
+            }
+            startSnapshotRefresh();
+        }
+        if (keepFocusOnTab) {
+            setFocus(liveTabIndex(tab), false);
+        } else if (changed) {
+            var firstCard = liveTabCount();
+            if (focusableItems.length > firstCard) {
+                setFocus(firstCard, true);
+            } else {
+                setFocus(liveTabIndex(tab), false);
+            }
+        }
+    }
+
+    function bindLiveItems() {
+        var tabs = Array.prototype.slice.call(document.querySelectorAll('#live-tabs .vod-tab'));
+        var cards = Array.prototype.slice.call(
+            document.querySelectorAll('#channels .channel, #channels .vod-card')
+        );
+        focusableItems = tabs.concat(cards);
+        channels = cards;
+        lastFocusedEl = null;
+
+        focusableItems.forEach(function (item, index) {
+            item.onfocus = function () {
+                if (focusFromCode) {
+                    return;
+                }
+                var prev = focusedIndex;
+                focusedIndex = index;
+                viewFocus.live = index;
+                applyFocusClass(prev, index);
+                ensureFocusedItemVisible(item, true);
+                if (item.classList.contains('channel') || item.classList.contains('live-card')) {
+                    schedulePreview(item);
+                }
+            };
+
+            item.onclick = function () {
+                activateItem(item);
+            };
+        });
+    }
+
+    function moveLiveFocus(dx, dy) {
+        var items = focusableItems;
+        var tabs = liveTabCount();
+        var cols = getColumns();
+        var shouldScroll = dy !== 0;
+        var activeTabIndex = liveTabIndex(liveRegionTab);
+
+        if (focusedIndex < tabs) {
+            if (dy > 0) {
+                if (items.length > tabs) {
+                    setFocus(tabs, true);
+                }
+                return;
+            }
+            if (dy < 0) {
+                tryFocusProfileChromeFromTop();
+                return;
+            }
+            var nextTab = focusedIndex + dx;
+            if (nextTab >= 0 && nextTab < tabs) {
+                setFocus(nextTab, false);
+            }
+            return;
+        }
+
+        var cardIndex = focusedIndex - tabs;
+        var cardCount = items.length - tabs;
+        if (cardCount <= 0) {
+            if (dy < 0 || dx !== 0) {
+                setFocus(activeTabIndex, true);
+            }
+            return;
+        }
+
+        var row = Math.floor(cardIndex / cols);
+        var col = cardIndex % cols;
+        var nextRow = row + dy;
+        var nextCol = col + dx;
+        var maxRow = Math.floor((cardCount - 1) / cols);
+
+        if (nextCol < 0 || nextCol >= cols) {
+            return;
+        }
+        if (nextRow < 0) {
+            setFocus(activeTabIndex, true);
+            return;
+        }
+        if (nextRow > maxRow) {
+            return;
+        }
+
+        var nextCard = nextRow * cols + nextCol;
+        if (nextCard >= cardCount) {
+            return;
+        }
+        setFocus(tabs + nextCard, shouldScroll);
     }
 
     function onKeyDown(e) {
@@ -3428,27 +6148,95 @@
             return;
         }
 
+        if (profileChromeFocused) {
+            switch (e.keyCode) {
+                case 37: // LEFT → My List on VOD
+                    if (currentView === 'vod') {
+                        clearProfileChromeFocus(false);
+                        setFocus(vodTabIndex('mylist'), false);
+                    }
+                    e.preventDefault();
+                    break;
+                case 39:
+                    e.preventDefault();
+                    break;
+                case 38:
+                    e.preventDefault();
+                    break;
+                case 40:
+                case 13:
+                    openProfileMenu();
+                    e.preventDefault();
+                    break;
+                case 27:
+                case 10009:
+                    clearProfileChromeFocus(true);
+                    e.preventDefault();
+                    break;
+                default:
+                    break;
+            }
+            return;
+        }
+
         switch (e.keyCode) {
             case 37:
+                clearOkHold();
                 moveFocus(-1, 0);
                 e.preventDefault();
                 break;
             case 38:
+                clearOkHold();
                 moveFocus(0, -1);
                 e.preventDefault();
                 break;
             case 39:
+                clearOkHold();
                 moveFocus(1, 0);
                 e.preventDefault();
                 break;
             case 40:
+                clearOkHold();
                 moveFocus(0, 1);
                 e.preventDefault();
                 break;
             case 13:
+            case 29443:
+                if (e.repeat) {
+                    if (okHoldItem) {
+                        okHoldSawRepeat = true;
+                        if (okShortTimer) {
+                            clearTimeout(okShortTimer);
+                            okShortTimer = null;
+                        }
+                        if (!okHoldFired && okHoldDownAt && Date.now() - okHoldDownAt >= OK_HOLD_MYLIST_MS) {
+                            fireOkMyList(okHoldItem);
+                        }
+                    }
+                    e.preventDefault();
+                    break;
+                }
+                if (isVodSeriesCard(focusableItems[focusedIndex])) {
+                    startOkHoldForMyList(focusableItems[focusedIndex]);
+                    e.preventDefault();
+                    break;
+                }
+                clearOkHold();
                 activateItem(focusableItems[focusedIndex]);
                 e.preventDefault();
                 break;
+            case 403: // Color Red — toggle My List on focused series
+                if (currentView === 'vod' && !profileDialogOpen && focusableItems[focusedIndex]) {
+                    var seriesId = focusableItems[focusedIndex].getAttribute('data-series');
+                    if (seriesId) {
+                        toggleMyListSeries(seriesId);
+                        flashMyListHeart(seriesId);
+                        e.preventDefault();
+                        break;
+                    }
+                }
+                break;
+            case 27:
             case 10009:
                 goBack();
                 e.preventDefault();
@@ -3476,6 +6264,16 @@
             return;
         }
 
+        if (profileMenuOpen) {
+            moveProfileMenuFocus(dx, dy);
+            return;
+        }
+
+        if (profileDialogOpen) {
+            moveProfileDialogFocus(dx, dy);
+            return;
+        }
+
         if (seriesSeasonMenuOpen) {
             var next = focusedIndex + dy;
             if (next < 0 || next >= items.length) {
@@ -3487,6 +6285,11 @@
 
         if (currentView === 'vod') {
             moveVodFocus(dx, dy);
+            return;
+        }
+
+        if (currentView === 'live') {
+            moveLiveFocus(dx, dy);
             return;
         }
 
@@ -3510,7 +6313,11 @@
         if (nextCol < 0 || nextCol >= cols) {
             return;
         }
-        if (nextRow < 0 || nextRow > maxRow) {
+        if (nextRow < 0) {
+            tryFocusProfileChromeFromTop();
+            return;
+        }
+        if (nextRow > maxRow) {
             return;
         }
 
@@ -3598,6 +6405,8 @@
         if (header && focusedIndex < header) {
             if (dy > 0 && items.length > header) {
                 setFocus(header, true);
+            } else if (dy < 0) {
+                tryFocusProfileChromeFromTop();
             }
             return;
         }
@@ -3633,10 +6442,6 @@
         nextIndex = findEpisodeClosestCol(targetSeason, targetRow, pos.col);
 
         if (nextIndex < 0) {
-            if (dy < 0 && header) {
-                setFocus(0, true);
-                return;
-            }
             targetSeason = pos.season + dy;
             if (dy > 0) {
                 targetRow = 0;
@@ -3644,12 +6449,22 @@
                 targetRow = seasonMaxRow(targetSeason);
             }
             if (targetRow < 0) {
+                if (dy < 0 && header) {
+                    setFocus(0, true);
+                    return;
+                }
+                if (dy < 0) {
+                    tryFocusProfileChromeFromTop();
+                }
                 return;
             }
             nextIndex = findEpisodeClosestCol(targetSeason, targetRow, pos.col);
         }
 
         if (nextIndex < 0) {
+            if (dy < 0) {
+                tryFocusProfileChromeFromTop();
+            }
             return;
         }
         setFocus(nextIndex, true);
@@ -3664,49 +6479,77 @@
         var searchIndex = tabs;
         var clearIndex = tabs + 1;
 
-        if (focusedIndex < tabs) {
+        var mylistIndex = vodTabIndex('mylist');
+        var lastProvider = mylistIndex > 0 ? mylistIndex - 1 : Math.max(0, tabs - 1);
+
+        if (focusedIndex === mylistIndex) {
             if (dy > 0) {
-                setFocus(searchIndex, true);
+                setFocus(0, false);
                 return;
             }
-            if (dy < 0) {
-                return;
-            }
-            var nextTab = focusedIndex + dx;
-            if (nextTab >= 0 && nextTab < tabs) {
-                setFocus(nextTab, false);
+            if (dx > 0) {
+                tryFocusProfileChromeFromTop();
             }
             return;
         }
 
-        if (focusedIndex === searchIndex || focusedIndex === clearIndex) {
-            if (dy < 0) {
-                setFocus(vodTabIndex(vodProviderTab), true);
-                return;
-            }
+        if (focusedIndex < tabs) {
             if (dy > 0) {
                 if (items.length > header) {
                     setFocus(header, true);
                 }
                 return;
             }
+            if (dy < 0) {
+                setFocus(mylistIndex, false);
+                return;
+            }
+            var nextTab = focusedIndex + dx;
+            if (nextTab >= 0 && nextTab <= lastProvider) {
+                setFocus(nextTab, false);
+            } else if (dx > 0 && nextTab > lastProvider) {
+                setFocus(searchIndex, false);
+            } else if (dx < 0 && focusedIndex === 0) {
+                setFocus(mylistIndex, false);
+            }
+            return;
+        }
+
+        if (focusedIndex === searchIndex || focusedIndex === clearIndex) {
+            if (dy > 0) {
+                if (items.length > header) {
+                    setFocus(header, true);
+                }
+                return;
+            }
+            if (dy < 0) {
+                setFocus(mylistIndex, false);
+                return;
+            }
             if (focusedIndex === searchIndex && dx < 0) {
                 if (vodSearchQuery) {
                     setFocus(clearIndex, false);
+                } else {
+                    setFocus(lastProvider, false);
                 }
                 return;
             }
             if (focusedIndex === clearIndex && dx > 0) {
                 setFocus(searchIndex, false);
+                return;
+            }
+            if (focusedIndex === clearIndex && dx < 0) {
+                setFocus(lastProvider, false);
             }
             return;
         }
 
         var cardIndex = focusedIndex - header;
         var cardCount = items.length - header;
+        var activeTabIndex = vodTabIndex(vodProviderTab);
         if (cardCount <= 0) {
             if (dy < 0 || dx !== 0) {
-                setFocus(searchIndex, true);
+                setFocus(activeTabIndex, true);
             }
             return;
         }
@@ -3721,7 +6564,7 @@
             return;
         }
         if (nextRow < 0) {
-            setFocus(searchIndex, true);
+            setFocus(activeTabIndex, true);
             return;
         }
         if (nextRow > maxRow) {
@@ -3735,32 +6578,122 @@
         setFocus(header + nextCard, shouldScroll);
     }
 
+    function needsNativeFocus(el) {
+        if (!el) {
+            return false;
+        }
+        // Inputs / tabs / IME need real DOM focus. Media tiles use .is-focused only on TV.
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+            return true;
+        }
+        if (
+            el.classList.contains('vod-tab') ||
+            el.classList.contains('vod-search-clear') ||
+            el.classList.contains('vod-season-trigger') ||
+            el.classList.contains('vod-season-option') ||
+            el.classList.contains('vod-ime-key') ||
+            el.classList.contains('vod-next-btn') ||
+            el.classList.contains('profile-btn') ||
+            el.classList.contains('profile-dropdown-item') ||
+            el.classList.contains('profile-card') ||
+            el.classList.contains('profile-manage-btn') ||
+            el.classList.contains('profile-edit-close') ||
+            el.classList.contains('profile-action-btn') ||
+            el.classList.contains('profile-icon-btn') ||
+            el.classList.contains('profile-name-field')
+        ) {
+            return true;
+        }
+        if (!isTizenTv) {
+            return true;
+        }
+        return false;
+    }
+
     function setFocus(index, allowScroll) {
         var items = focusableItems;
         var prev;
+        var tabId;
+        var el;
         if (!items.length) {
             return;
         }
         if (index < 0 || index >= items.length) {
-            index = 0;
+            // During restore, never snap to tab 0 (that switches provider content)
+            if (vodRestoreLock && currentView === 'vod') {
+                index = Math.min(vodHeaderFocusCount(), Math.max(0, items.length - 1));
+            } else {
+                index = 0;
+            }
         }
+
+        // VOD: focusing a tab is enough to show its content (no need to press OK)
+        if (currentView === 'vod' && items[index] && !vodRestoreLock) {
+            tabId = items[index].getAttribute('data-vod-tab');
+            if (tabId && tabId !== vodProviderTab) {
+                setVodProviderTab(tabId, true);
+                return;
+            }
+        }
+
+        // LIVE: focusing a region tab switches its channel grid
+        if (currentView === 'live' && items[index]) {
+            tabId = items[index].getAttribute('data-live-tab');
+            if (tabId && tabId !== liveRegionTab) {
+                setLiveRegionTab(tabId, true);
+                return;
+            }
+        }
+
         prev = focusedIndex;
         focusedIndex = index;
         viewFocus[currentView] = index;
         applyFocusClass(prev, index);
 
+        el = items[index];
         focusFromCode = true;
         try {
-            items[index].focus();
+            if (needsNativeFocus(el)) {
+                try {
+                    el.focus({ preventScroll: true });
+                } catch (eFocusOpts) {
+                    el.focus();
+                }
+            } else if (document.activeElement && document.activeElement.blur) {
+                // Drop native :focus so only .is-focused drives the ring (cheaper on Tizen).
+                document.activeElement.blur();
+            }
         } catch (e) {}
         focusFromCode = false;
 
-        ensureFocusedItemVisible(items[index], !!allowScroll);
+        // Focusing search enters the dedicated search view (not the previous tab grid)
+        if (
+            currentView === 'vod' &&
+            !vodRestoreLock &&
+            el &&
+            (el.id === 'vod-search-input' || el.id === 'vod-search-clear')
+        ) {
+            enterVodSearchMode();
+            // bindVodItems() resets focus classes — restore onto search
+            focusedIndex = el.id === 'vod-search-clear' ? vodTabCount() + 1 : vodTabCount();
+            viewFocus.vod = focusedIndex;
+            applyFocusClass(-1, focusedIndex);
+            el = focusableItems[focusedIndex] || el;
+        }
+
+        ensureFocusedItemVisible(el, !!allowScroll);
+        if (currentView === 'series') {
+            syncSeriesSeasonSticky(el);
+        }
         if (currentView === 'vod' || currentView === 'series' || currentView === 'home') {
-            hydrateNearbyVodImages(index);
+            scheduleHydrateNearbyVodImages(index);
         }
         if (currentView === 'live') {
-            schedulePreview(items[index]);
+            if (items[index] && (items[index].classList.contains('channel') || items[index].classList.contains('live-card'))) {
+                schedulePreview(items[index]);
+            } else {
+                stopPreview();
+            }
         }
     }
 
@@ -3838,6 +6771,8 @@
     function playResolvedFullscreen(url, item) {
         showMessage(playLoadingLabel());
         pendingDrm = null;
+        pendingSubtitleLang = (item && item.getAttribute('data-subtitles')) || null;
+        pendingPreferHlsJs = !!(item && item.getAttribute('data-prefer-hlsjs') === '1');
 
         var resolveKind = item && item.getAttribute('data-stream-resolve');
         var assetId = item && item.getAttribute('data-asset-id');
@@ -3853,6 +6788,17 @@
             });
             return;
         }
+        if (resolveKind === 'tv4' && assetId) {
+            resolveTv4Play(assetId, function (err, playUrl) {
+                if (err || !playUrl) {
+                    console.warn('TV4 resolve failed:', err);
+                    showMessage(playFailLabel(err || 'TV4 resolve failed'));
+                    return;
+                }
+                playFullscreen(playUrl);
+            });
+            return;
+        }
 
         resolveMakoPlayUrl(url, function (err, playUrl) {
             if (err) {
@@ -3861,6 +6807,249 @@
                 return;
             }
             playFullscreen(playUrl || url);
+        });
+    }
+
+    // TV4 Play session (obfuscated; XOR+base64 — not plaintext in source)
+    var TV4_AUTH_URL = 'https://auth.tv4.a2d.tv/v2/auth';
+    var TV4_CLIENT = 'tv4-web';
+    var TV4_LS_RT = 'isrtv_tv4_rt';
+    var TV4_LS_DEVICE = 'isrtv_tv4_device';
+    var TV4_SEED = {
+        u: 'Py0hOHAsNCw+PCA/Hzs3OjE1cDwzNw==',
+        p: 'EjQ0ODA7NS4bNTYybg==',
+        r: 'PyISMTwYPzMUMRMYCiYTahYwFywVNAltOh0WahMwKAEIHBUpEjUtLgUfE20RNAw0Bg4wawM0GTYWDxo0ERsVLhUfEG8SJWszFg02NhAOEiIANAU0FDEZaxALCjECIRNncTkjEWg8Bh0wEzE3MD0yCjc4NQ8kPh8TKBE3EDM/aRUoO2xqOjsMCTARNhYgAQAXJD4LYy4AawtqEg0eIBRsETQWDBVoExs7LhUcFGwRNWsyFR4LahANCiAXGRorFA8ZIREbBjYVGxAtFjIMKwIaF2kVMAoiFBo3MQAPFWsSCBYxFQ8IKhEYADIVGm82ETAZMhUJFTYUIQ4xBBsaMxQfDzcFNRMoETQQLD0NDS09GGYsABgRbxc1O2kVMgMXBgQTITk3Hyk9Hw0MFW4RBg4cNyA8FwoyOSIbLDwUFB8VNRwqDgkvIDo0MwgIHiAhDW4ZYxIxLjcGCwgwOQEMLz5objA7GGY3AwMKMRc1LC8/DyEtEx8QMzwODzYTMxFoPTQONRYYEjU7Fx0zFDIcahIIOWsWMwsnETACKxAzMzQ+GBFvEws/bhUMMicQCB8iFjApNj0CFSIQNDA1OxMKaT0XEWwXIWA2OwQINBQ3DG0SGW4wFDMOKT4TATASHBYrPx8yNxA1EDEBMx8lETACaAMdb2gAHzQyEgsONgI1ECoQCDkiFTBubhIwGmoDGQZsFB8SMxMLPzMXGxMrBjEDMhczG2wTHg5tFDQ0JBcxAmBwCDIPdjkQBhM4PwoJABYZOzE+NRE3bxA0CC4RKAUeCD8QaDs5MhghIgEWCyR3KRsoCSwILRcsFRMyLxEiIm43KAktKwwSCDwWEzUvFQQxBR0DPhYvJg0='
+    };
+    var tv4AccessCache = { token: null, expiry: 0 };
+
+    function tv4Reveal(blob) {
+        var raw;
+        var out = '';
+        var i;
+        var k = 0x5a;
+        try {
+            raw = atob(blob);
+        } catch (e) {
+            return '';
+        }
+        for (i = 0; i < raw.length; i++) {
+            out += String.fromCharCode(raw.charCodeAt(i) ^ k ^ (i % 7));
+        }
+        return out;
+    }
+
+    function tv4DeviceId() {
+        var id = null;
+        try {
+            id = localStorage.getItem(TV4_LS_DEVICE);
+        } catch (e) {}
+        if (id) {
+            return id;
+        }
+        id = 'isrtv-' + String(Date.now()) + '-' + String(Math.floor(Math.random() * 1e9));
+        try {
+            localStorage.setItem(TV4_LS_DEVICE, id);
+        } catch (e2) {}
+        return id;
+    }
+
+    function tv4GetStoredRefresh() {
+        try {
+            return localStorage.getItem(TV4_LS_RT) || tv4Reveal(TV4_SEED.r) || '';
+        } catch (e) {
+            return tv4Reveal(TV4_SEED.r) || '';
+        }
+    }
+
+    function tv4SetStoredRefresh(token) {
+        if (!token) {
+            return;
+        }
+        try {
+            localStorage.setItem(TV4_LS_RT, token);
+        } catch (e) {}
+    }
+
+    function tv4XhrJson(method, url, body, headers, callback) {
+        try {
+            var xhr = new XMLHttpRequest();
+            var key;
+            xhr.open(method, url, true);
+            xhr.timeout = 15000;
+            xhr.setRequestHeader('Accept', 'application/json');
+            if (headers) {
+                for (key in headers) {
+                    if (Object.prototype.hasOwnProperty.call(headers, key) && headers[key]) {
+                        xhr.setRequestHeader(key, headers[key]);
+                    }
+                }
+            }
+            xhr.onload = function () {
+                var data = null;
+                try {
+                    data = JSON.parse(xhr.responseText || '{}');
+                } catch (eParse) {
+                    data = null;
+                }
+                callback(null, xhr.status, data, xhr.responseText);
+            };
+            xhr.onerror = function () {
+                callback('TV4 network error', 0, null, '');
+            };
+            xhr.ontimeout = function () {
+                callback('TV4 timeout', 0, null, '');
+            };
+            xhr.send(body ? JSON.stringify(body) : null);
+        } catch (e) {
+            callback((e && e.message) || 'TV4 request failed', 0, null, '');
+        }
+    }
+
+    function tv4LoginPassword(callback) {
+        var email = tv4Reveal(TV4_SEED.u);
+        var password = tv4Reveal(TV4_SEED.p);
+        if (!email || !password) {
+            callback('TV4 credentials missing', null);
+            return;
+        }
+        tv4XhrJson('POST', TV4_AUTH_URL + '/login', {
+            email: email,
+            password: password,
+            device_id: tv4DeviceId()
+        }, {
+            'Content-Type': 'application/json',
+            'Client-name': TV4_CLIENT,
+            'Origin': 'https://www.tv4play.se',
+            'Referer': 'https://www.tv4play.se/'
+        }, function (err, status, data) {
+            if (err) {
+                callback(err, null);
+                return;
+            }
+            if (status === 202) {
+                callback('TV4 login blocked (WAF)', null);
+                return;
+            }
+            if (status < 200 || status >= 300 || !data || !data.access_token) {
+                callback((data && (data.message || data.code)) || ('TV4 login HTTP ' + status), null);
+                return;
+            }
+            if (data.refresh_token) {
+                tv4SetStoredRefresh(data.refresh_token);
+            }
+            callback(null, data);
+        });
+    }
+
+    function tv4RefreshAccess(refreshToken, callback) {
+        tv4XhrJson('POST', TV4_AUTH_URL + '/token', {
+            grant_type: 'refresh_token',
+            refresh_token: refreshToken,
+            profile_id: 'default',
+            is_child: false
+        }, {
+            'Content-Type': 'application/json',
+            'client-name': TV4_CLIENT,
+            'Origin': 'https://www.tv4play.se',
+            'Referer': 'https://www.tv4play.se/'
+        }, function (err, status, data) {
+            if (err) {
+                callback(err, null);
+                return;
+            }
+            if (status < 200 || status >= 300 || !data || !data.access_token) {
+                callback((data && (data.message || data.code)) || ('TV4 token HTTP ' + status), null);
+                return;
+            }
+            if (data.refresh_token) {
+                tv4SetStoredRefresh(data.refresh_token);
+            }
+            callback(null, data);
+        });
+    }
+
+    function getTv4AccessToken(callback) {
+        var now = Date.now() / 1000;
+        var refresh;
+        if (tv4AccessCache.token && tv4AccessCache.expiry > now + 60) {
+            callback(null, tv4AccessCache.token);
+            return;
+        }
+        refresh = tv4GetStoredRefresh();
+        function storeAndReturn(data) {
+            var ttl = parseInt(data.expires_in, 10) || 3600;
+            tv4AccessCache.token = data.access_token;
+            tv4AccessCache.expiry = now + ttl;
+            callback(null, data.access_token);
+        }
+        function afterRefreshFail() {
+            tv4LoginPassword(function (err2, data2) {
+                if (err2 || !data2) {
+                    callback(err2 || 'TV4 auth failed', null);
+                    return;
+                }
+                storeAndReturn(data2);
+            });
+        }
+        if (refresh) {
+            tv4RefreshAccess(refresh, function (err, data) {
+                if (!err && data && data.access_token) {
+                    storeAndReturn(data);
+                    return;
+                }
+                afterRefreshFail();
+            });
+            return;
+        }
+        afterRefreshFail();
+    }
+
+    function resolveTv4Play(assetId, callback) {
+        if (!assetId) {
+            callback('TV4 asset missing', null);
+            return;
+        }
+        getTv4AccessToken(function (authErr, accessToken) {
+            if (authErr || !accessToken) {
+                callback(authErr || 'TV4 auth failed', null);
+                return;
+            }
+            var url = 'https://playback2.a2d.tv/play/' + encodeURIComponent(String(assetId)) +
+                '?service=tv4&device=browser&protocol=hls&browser=chrome&capabilities=vod-hls';
+            tv4XhrJson('GET', url, null, {
+                'Authorization': 'Bearer ' + accessToken,
+                'Origin': 'https://www.tv4play.se',
+                'Referer': 'https://www.tv4play.se/'
+            }, function (err, status, data) {
+                var playUrl;
+                var errMsg;
+                if (err) {
+                    callback(err, null);
+                    return;
+                }
+                if (status === 401 || (data && data.errorCode === 'LOGIN_REQUIRED')) {
+                    tv4AccessCache.token = null;
+                    tv4AccessCache.expiry = 0;
+                    callback('נדרשת התחברות ל-TV4 Play', null);
+                    return;
+                }
+                if (status < 200 || status >= 300) {
+                    errMsg = (data && (data.message || data.errorCode)) || ('TV4 HTTP ' + status);
+                    callback(errMsg, null);
+                    return;
+                }
+                playUrl = data && (
+                    (data.playbackItem && (data.playbackItem.manifestUrl || data.playbackItem.mediaUri)) ||
+                    data.manifestUrl ||
+                    data.mediaUri ||
+                    data.url
+                );
+                if (!playUrl) {
+                    callback('TV4 stream missing', null);
+                    return;
+                }
+                callback(null, playUrl);
+            });
         });
     }
 
@@ -4075,14 +7264,15 @@
             if (generation !== playGeneration) {
                 return;
             }
-            if (!ok) {
-                showMessage('VOD proxy is not running on your PC. On the Mac run: node scripts/vod-cors-proxy.js');
-                return;
-            }
             usingAvplayPlayback = false;
             setAvplayOverlay(false);
-            // Use original geo URL — proxy follows redirects and rewrites playlists
-            playWithHtmlVideo(vodProxyUrl(url), generation);
+            if (ok) {
+                // Use original geo URL — proxy follows redirects and rewrites playlists
+                playWithHtmlVideo(vodProxyUrl(url), generation);
+                return;
+            }
+            // Proxy down: still try hls.js directly (Mako often allows CORS; native demux does not).
+            playWithHtmlVideo(url, generation);
         });
     }
 
@@ -4183,12 +7373,18 @@
         return (url || '').toLowerCase().indexOf('.m3u8') !== -1;
     }
 
-    // KanBox VOD: CMAF/fMP4 HLS with demuxed audio
+    // KanBox VOD: CMAF/fMP4 HLS with demuxed audio.
+    // Mako/Keshet uses .mp4.csmil masters (TS variants) that AVPlay also can't demux.
     function isFmp4HlsUrl(url) {
         var lower = (url || '').toLowerCase();
         return lower.indexOf('fmp4') !== -1 ||
             lower.indexOf('/manifest.ism/playlist') !== -1 ||
-            lower.indexOf('fragment.mp4') !== -1;
+            lower.indexOf('fragment.mp4') !== -1 ||
+            lower.indexOf('.mp4.csmil') !== -1;
+    }
+
+    function needsHlsJsVod(url) {
+        return isFmp4HlsUrl(url) || isMakoVodUrl(url);
     }
 
     function isDashUrl(url) {
@@ -4255,6 +7451,61 @@
         } catch (e) {}
     }
 
+    function enablePreferredSubtitles(hls, video) {
+        var lang = pendingSubtitleLang;
+        var i;
+        var track;
+        var langLower = lang ? String(lang).toLowerCase() : '';
+
+        if (hls && typeof hls.subtitleTrack === 'number') {
+            try {
+                hls.subtitleDisplay = true;
+                var tracks = hls.subtitleTracks || [];
+                var idx = -1;
+                for (i = 0; i < tracks.length; i++) {
+                    track = tracks[i] || {};
+                    var tLang = String(track.lang || track.language || '').toLowerCase();
+                    if (langLower && (tLang === langLower || tLang.indexOf(langLower) === 0)) {
+                        idx = i;
+                        break;
+                    }
+                    if (idx < 0 && (track.default || track.autoselect)) {
+                        idx = i;
+                    }
+                }
+                if (idx < 0 && tracks.length) {
+                    idx = 0;
+                }
+                if (idx >= 0) {
+                    hls.subtitleTrack = idx;
+                }
+            } catch (eHlsSub) {
+                console.warn('hls subtitle select failed:', eHlsSub);
+            }
+        }
+
+        if (video && video.textTracks && video.textTracks.length) {
+            try {
+                for (i = 0; i < video.textTracks.length; i++) {
+                    track = video.textTracks[i];
+                    if (!track) {
+                        continue;
+                    }
+                    var vLang = String(track.language || '').toLowerCase();
+                    var matchLang = !langLower || vLang === langLower || vLang.indexOf(langLower) === 0;
+                    var isSub = !track.kind || track.kind === 'subtitles' || track.kind === 'captions';
+                    if (isSub && matchLang) {
+                        track.mode = 'showing';
+                    } else if (isSub) {
+                        track.mode = 'disabled';
+                    }
+                }
+            } catch (eText) {
+                console.warn('textTrack subtitle select failed:', eText);
+            }
+        }
+    }
+
     function attachStream(video, url, onError) {
         if (!video || !url) {
             return null;
@@ -4277,11 +7528,17 @@
             hls.loadSource(playUrl);
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                enablePreferredSubtitles(hls, video);
                 var playPromise = video.play();
                 if (playPromise && typeof playPromise.catch === 'function') {
                     playPromise.catch(function () {});
                 }
             });
+            if (Hls.Events && Hls.Events.SUBTITLE_TRACKS_UPDATED) {
+                hls.on(Hls.Events.SUBTITLE_TRACKS_UPDATED, function () {
+                    enablePreferredSubtitles(hls, video);
+                });
+            }
             hls.on(Hls.Events.ERROR, function (event, data) {
                 console.warn('HLS error:', data && data.type, data && data.details, data);
                 if (data && data.fatal && typeof onError === 'function') {
@@ -4294,6 +7551,10 @@
         // Safari / environments without MSE: native HLS
         if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src = playUrl;
+            video.addEventListener('loadedmetadata', function onMeta() {
+                video.removeEventListener('loadedmetadata', onMeta);
+                enablePreferredSubtitles(null, video);
+            });
             return null;
         }
 
@@ -4610,8 +7871,18 @@
                 return;
             }
             var detail = data && data.details ? data.details : '';
+            var isNetwork = data && data.type === 'networkError';
+            // Mako/Kan VOD: if direct hls.js is blocked (CORS / widget origin), retry via LAN proxy.
+            if (isNetwork && !isProxiedUrl(url) && needsHlsJsVod(url)) {
+                destroyHls(fullscreenHls);
+                fullscreenHls = null;
+                playLiveViaProxy(url, generation, function () {
+                    showMessage('VOD proxy is not running on your PC. On the Mac run: node scripts/vod-cors-proxy.js');
+                });
+                return;
+            }
             // Rotate CDN edge and retry on network failures (bad/stale edge node)
-            if (edgeRetriesLeft > 0 && data && data.type === 'networkError') {
+            if (edgeRetriesLeft > 0 && isNetwork && !needsHlsJsVod(url)) {
                 nextRedgeEdge();
                 destroyHls(fullscreenHls);
                 fullscreenHls = null;
@@ -4702,11 +7973,15 @@
                 return;
             }
             // Native demux often fails with DEMUXER_ERROR_DETECTED_HLS — retry via proxy+hls.js
-            if (!isProxiedUrl(url) && isHlsUrl(url) && !isVodMode) {
+            if (!isProxiedUrl(url) && isHlsUrl(url) && (!isVodMode || needsHlsJsVod(url))) {
                 settled = true;
                 clearAvplayWatchdog();
                 console.warn('Native video failed, trying proxy/hls.js:', msg);
                 playLiveViaProxy(url, generation, function () {
+                    if (needsHlsJsVod(url)) {
+                        playWithHtmlVideo(url, generation);
+                        return;
+                    }
                     showMessage(msg || playFailLabel());
                 });
                 return;
@@ -4770,8 +8045,12 @@
         // After AVPlay: try hls.js via LAN proxy (handles SCTE / odd demux / Mako), then native <video>
         console.warn('AVPlay exhausted (' + reason + '), trying proxy/hls.js then native');
         setAvplayOverlay(false);
-        if (isHlsUrl(url) && !isProxiedUrl(url) && (!isVodMode || isMakoVodUrl(url))) {
+        if (isHlsUrl(url) && !isProxiedUrl(url) && (!isVodMode || needsHlsJsVod(url))) {
             playLiveViaProxy(url, generation, function () {
+                if (needsHlsJsVod(url)) {
+                    playWithHtmlVideo(url, generation);
+                    return;
+                }
                 playWithNativeVideo(url, generation);
             });
             return;
@@ -4950,9 +8229,17 @@
         stopFullscreenPlayback();
         var generation = playGeneration;
 
-        // Live TS → AVPlay. Kan fMP4 VOD on TV → hls.js via LAN CORS proxy.
+        // Demuxed CMAF live (e.g. SVT) — prefer hls.js; AVPlay often can't demux separate A/V
+        if (pendingPreferHlsJs && isHlsUrl(url)) {
+            usingAvplayPlayback = false;
+            setAvplayOverlay(false);
+            playWithHtmlVideo(url, generation);
+            return;
+        }
+
+        // Live TS → AVPlay. Kan fMP4 / Mako .csmil VOD on TV → hls.js (proxy when needed).
         if (isHlsUrl(url)) {
-            if (hasAvplay() && isFmp4HlsUrl(url)) {
+            if (hasAvplay() && needsHlsJsVod(url)) {
                 playKanVodOnDevice(url, generation);
                 return;
             }
@@ -4999,9 +8286,19 @@
         var action = channel.getAttribute('data-action');
         if (action === 'live' || action === 'vod' || action === 'kanbox' || action === 'radio' ||
             action === 'radio-play' || action === 'series' || action === 'home' || action === 'vod-tab' ||
+            action === 'live-tab' ||
             action === 'vod-search' || action === 'vod-search-clear' || action === 'series-season' ||
             action === 'series-season-option' || action === 'vod-ime-char' || action === 'vod-ime-space' ||
-            action === 'vod-ime-backspace' || action === 'vod-ime-layout' || action === 'vod-ime-done') {
+            action === 'vod-ime-backspace' || action === 'vod-ime-layout' || action === 'vod-ime-done' ||
+            action === 'continue-play' || action === 'mylist-toggle' ||
+            action === 'profile-open' || action === 'profile-close' || action === 'profile-add' ||
+            action === 'profile-edit' || action === 'profile-select' || action === 'profile-icon' ||
+            action === 'profile-name' || action === 'profile-save' || action === 'profile-edit-cancel' ||
+            action === 'profile-delete' || action === 'profile-manage' ||
+            action === 'profile-confirm-yes' || action === 'profile-confirm-no' ||
+            action === 'profile-delete-confirm' || action === 'profile-delete-cancel' ||
+            action === 'profile-menu-toggle' || action === 'profile-menu-select' ||
+            action === 'profile-menu-edit') {
             activateItem(channel);
             return;
         }
@@ -5066,6 +8363,8 @@
         currentVodEpisodeId = null;
         vodResumeTargetSec = 0;
         vodResumeApplied = false;
+        pendingSubtitleLang = null;
+        pendingPreferHlsJs = false;
         resetVodNextUi();
 
         showMessage('');

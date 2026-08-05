@@ -1,0 +1,131 @@
+{
+  "slug": "patrick",
+  "title": "פטריק",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/655/",
+  "seriesId": 655,
+  "localPoster": "images/kanbox/patrick/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פטריק - רגע לפני",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3611439/",
+      "assetId": 3611439,
+      "entryId": "1_j3i84687",
+      "externalId": "shows-patrick-season-01-episodes-full",
+      "localImage": "images/kanbox/patrick/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/e4cae35bdf23436284b78c6e0ecdee2b/version/3/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 1: פרק הבכורה!",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3396509/",
+      "assetId": 3396509,
+      "entryId": "1_itilu13d",
+      "externalId": "shows-patrick-season-01-episodes-01-full",
+      "localImage": "images/kanbox/patrick/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6774764dc9de4a87ae2c342fe16ee830/version/26/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 2: לירון",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3408343/",
+      "assetId": 3408343,
+      "entryId": "1_o67ng0aw",
+      "externalId": "shows-patrick-season-01-episodes-02-full",
+      "localImage": "images/kanbox/patrick/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/6928dd2b3a1c4091ad129571ba26218d/version/21/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 3: כי תצא",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3422668/",
+      "assetId": 3422668,
+      "entryId": "1_8xz861nf",
+      "externalId": "shows-patrick-season-01-episodes-03-full",
+      "localImage": "images/kanbox/patrick/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/d90f759b0aba42c2b219b32591c2e835/version/21/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 4: רוחות מן העבר",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3434332/",
+      "assetId": 3434332,
+      "entryId": "1_hwf53ft1",
+      "externalId": "shows-patrick-season-01-episodes-04-full",
+      "localImage": "images/kanbox/patrick/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/884ef665683f442789238ce13600c5e5/version/17/width/640/height/360"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 5: מוסר כליות",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3443969/",
+      "assetId": 3443969,
+      "entryId": "1_laznq203",
+      "externalId": "shows-patrick-season-01-episodes-05-full",
+      "localImage": "images/kanbox/patrick/s1-ep6.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/301c1ae738054877bfe118504c1209d9/version/14/width/640/height/360"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 6: חיים חדשים",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3453989/",
+      "assetId": 3453989,
+      "entryId": "1_130sh2ay",
+      "externalId": "shows-patrick-season-01-episodes-06-full",
+      "localImage": "images/kanbox/patrick/s1-ep7.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/b17453887b0f49c69d660eecbcd523d1/version/21/width/640/height/360"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 7: לואיס קספר",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3468168/",
+      "assetId": 3468168,
+      "entryId": "1_zwmft7oz",
+      "externalId": "shows-patrick-season-01-episodes-07-full",
+      "localImage": "images/kanbox/patrick/s1-ep8.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/805800cf952d456c94d2863c1e4b00d5/version/17/width/640/height/360"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 8: ילדי העבריינים",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3478799/",
+      "assetId": 3478799,
+      "entryId": "1_y2bdzq7o",
+      "externalId": "shows-patrick-season-01-episodes-08-full",
+      "localImage": "images/kanbox/patrick/s1-ep9.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9b1b675b9a6342bf9d22dac78c83a745/version/11/width/640/height/360"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 9: הילה",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3490288/",
+      "assetId": 3490288,
+      "entryId": "1_rgbqzb9b",
+      "externalId": "shows-patrick-season-01-episodes-09-full",
+      "localImage": "images/kanbox/patrick/s1-ep10.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/5559b283c9044d1eba821598554f4d0e/version/10/width/640/height/360"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פטריק, עונה 1, פרק 10: שני ילדים ודלי - פרק סיום העונה",
+      "pageURL": "https://13tv.co.il/allshows/series/655/season/1/3518882/",
+      "assetId": 3518882,
+      "entryId": "1_5r8bty60",
+      "externalId": "shows-patrick-season-01-episodes-10-full",
+      "localImage": "images/kanbox/patrick/s1-ep11.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/8884955e175945d79176a0e18645e51d/version/10/width/640/height/360"
+    }
+  ]
+}

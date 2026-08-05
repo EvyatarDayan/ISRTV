@@ -1,0 +1,46 @@
+{
+  "scrapedAt": "2026-08-01T09:44:20.438Z",
+  "seriesId": "881019",
+  "slug": "haklatot-hanatzim",
+  "title": "הקלטות הנאצים",
+  "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-881019/",
+  "episodeCount": 3,
+  "episodes": [
+    {
+      "pathSeason": 1,
+      "ep": 1,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886627/",
+      "pageId": "886627",
+      "imageURL": "",
+      "text": "לצפייה בפרק הראשון",
+      "season": 1,
+      "pageTitle": "עונה 1",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kcjtnuuz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep1.jpg"
+    },
+    {
+      "pathSeason": 1,
+      "ep": 2,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886628/",
+      "pageId": "886628",
+      "imageURL": "https://www.kan.org.il/media/pnxp1wdq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.7245759725615486,0.5014194215688201&width=490&height=272&v=1dbbc7217bb3500",
+      "text": "פרק 2 תהליך השתכללות ההשמדה מפי עדויות של גנרלים נאצים בכירים",
+      "season": 1,
+      "pageTitle": "עונה 1",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_shetz95z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep2.jpg"
+    },
+    {
+      "pathSeason": 1,
+      "ep": 3,
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886629/",
+      "pageId": "886629",
+      "imageURL": "https://www.kan.org.il/media/hnuftw1l/%D7%90%D7%AA%D7%A8.jpg?rxy=0.4591975518531112,0.4854169386935937&width=490&height=272&v=1dc0d1515d69150",
+      "text": "פרק 3 איך מטשטשטים את הזוועות ונמלטים מאימת הדין? פרק הסיום",
+      "season": 1,
+      "pageTitle": "עונה 1",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ots4fcjb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep3.jpg"
+    }
+  ]
+}
