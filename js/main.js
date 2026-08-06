@@ -54,6 +54,9 @@
     var vodImeFocusBefore = 0;
     var focusableItems = [];
     var hydrateNearbyTimer = null;
+    var vodImageCache = Object.create(null);
+    var vodImageCacheKeys = [];
+    var VOD_IMAGE_CACHE_MAX = 180;
     // Tizen TV WebKit is much slower than the simulator — keep focus path lean.
     var isTizenTv =
         typeof tizen !== 'undefined' ||
@@ -2006,6 +2009,7 @@
                 stopRadioPlayback();
                 stopSnapshotCapture();
                 flushProfileCachesToStorage();
+                clearVodImageCache();
             } else if (!isFullscreen) {
                 setFocus(viewFocus[currentView] || 0, false);
                 if (currentView === 'live') {
@@ -2013,6 +2017,9 @@
                 }
             }
         });
+
+        window.addEventListener('pagehide', clearVodImageCache);
+        window.addEventListener('beforeunload', clearVodImageCache);
 
         document.addEventListener('keydown', onKeyDown);
         document.addEventListener('keyup', onKeyUp);
@@ -2927,7 +2934,57 @@
         applyFocusClass(focusedIndex, focusedIndex);
     }
 
-    /** Defer poster decode until cards are near focus — eager load of 100+ images freezes Tizen. */
+    /** Defer poster decode until cards are near focus — eager load of 100+ images freezes Tizen.
+     *  Once loaded, keep an in-memory cache so revisiting tiles shows instantly (no wipe animation). */
+    function touchVodImageCacheKey(url) {
+        var idx = vodImageCacheKeys.indexOf(url);
+        if (idx >= 0) {
+            vodImageCacheKeys.splice(idx, 1);
+        }
+        vodImageCacheKeys.push(url);
+        while (vodImageCacheKeys.length > VOD_IMAGE_CACHE_MAX) {
+            var old = vodImageCacheKeys.shift();
+            if (old && old !== url) {
+                delete vodImageCache[old];
+            }
+        }
+    }
+
+    function rememberVodImage(url) {
+        var im;
+        if (!url) {
+            return;
+        }
+        if (vodImageCache[url] && vodImageCache[url].ready) {
+            touchVodImageCacheKey(url);
+            return;
+        }
+        im = vodImageCache[url] && vodImageCache[url].img;
+        if (!im) {
+            im = new Image();
+            im.decoding = 'async';
+            im.src = url;
+        }
+        vodImageCache[url] = { img: im, ready: true };
+        touchVodImageCacheKey(url);
+    }
+
+    function isVodImageCached(url) {
+        return !!(url && vodImageCache[url] && vodImageCache[url].ready);
+    }
+
+    function clearVodImageCache() {
+        vodImageCache = Object.create(null);
+        vodImageCacheKeys = [];
+    }
+
+    function applyCachedVodImage(wrap, img, url) {
+        img.src = url;
+        img.classList.add('is-revealed', 'is-cached');
+        wrap.classList.add('is-revealed', 'is-cached');
+        rememberVodImage(url);
+    }
+
     function makeLazyVodImage(url, alt) {
         var wrap = document.createElement('span');
         var line = document.createElement('span');
@@ -2937,8 +2994,12 @@
         line.setAttribute('aria-hidden', 'true');
         img.className = 'vod-card-img';
         img.alt = alt || '';
-        img.setAttribute('data-src', url);
         img.decoding = 'async';
+        if (url && isVodImageCached(url)) {
+            applyCachedVodImage(wrap, img, url);
+        } else if (url) {
+            img.setAttribute('data-src', url);
+        }
         wrap.appendChild(line);
         wrap.appendChild(img);
         return wrap;
@@ -2947,7 +3008,7 @@
     /** Samsung-style reveal: white midline, then open upward and downward. */
     function revealVodImage(img) {
         var wrap;
-        if (!img || img.classList.contains('is-revealed')) {
+        if (!img || img.classList.contains('is-revealed') || img.classList.contains('is-cached')) {
             return;
         }
         wrap = img.parentElement;
@@ -2975,6 +3036,7 @@
         var i;
         var img;
         var src;
+        var wrap;
         for (i = start; i <= end; i++) {
             if (!items[i] || !items[i].querySelector) {
                 continue;
@@ -2988,8 +3050,21 @@
                 continue;
             }
             img.removeAttribute('data-src');
-            img.src = src;
-            revealVodImage(img);
+            wrap = img.parentElement;
+            if (isVodImageCached(src)) {
+                applyCachedVodImage(wrap, img, src);
+            } else {
+                img.src = src;
+                img.addEventListener(
+                    'load',
+                    (function (cachedUrl) {
+                        return function () {
+                            rememberVodImage(cachedUrl);
+                        };
+                    })(src)
+                );
+                revealVodImage(img);
+            }
         }
     }
 
@@ -4644,7 +4719,8 @@
             return;
         }
         if (typeof tizen !== 'undefined' && tizen.application) {
-		tizen.application.getCurrentApplication().exit();
+            clearVodImageCache();
+            tizen.application.getCurrentApplication().exit();
         }
     }
 
