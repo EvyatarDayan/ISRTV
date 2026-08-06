@@ -1,12 +1,19 @@
+# Tizen package / build output
 *.wgt
 .buildResult/
 .buildResult/**
+
+# Tizen signing / packaging temps (regenerated on package)
+author-signature.xml
+signature1.xml
+.manifest.tmp
+.delta.lst
+
+# Local / tooling
 .git/
 scripts/node_modules/
 scripts/_assets_unused/
 scripts/.tv4-*.json
 scripts/.tv4-session.json
-.manifest.tmp
-.delta.lst
 .DS_Store
 **/.DS_Store
