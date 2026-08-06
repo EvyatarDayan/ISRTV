@@ -249,9 +249,15 @@
     <p class="player-message" id="player-message" hidden></p>
     <p class="player-hint" id="player-hint">Press Return to go back</p>
 
+    <div class="vod-pause-info" id="vod-pause-info" hidden>
+      <div class="vod-pause-info-inner" dir="rtl">
+        <p class="vod-pause-series" id="vod-pause-series"></p>
+        <p class="vod-pause-episode" id="vod-pause-episode"></p>
+      </div>
+    </div>
+
     <div class="vod-controls" id="vod-controls" hidden>
       <div class="vod-controls-meta">
-        <span class="vod-episode-label" id="vod-episode-label" hidden></span>
         <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>
           <span class="vod-next-fill" id="vod-next-fill" aria-hidden="true"></span>
           <span class="vod-next-label" id="vod-next-label">לפרק הבא</span>
@@ -268,7 +274,14 @@
           </svg>
         </button>
         <span class="vod-time" id="vod-time-current">00:00</span>
-        <input class="vod-seek" id="vod-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"/>
+        <div class="vod-seek-wrap">
+          <div class="vod-seek-visual" aria-hidden="true">
+            <div class="vod-seek-visual-track"></div>
+            <div class="vod-seek-visual-fill" id="vod-seek-fill"></div>
+            <div class="vod-seek-visual-thumb" id="vod-seek-thumb"></div>
+          </div>
+          <input class="vod-seek" id="vod-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"/>
+        </div>
         <span class="vod-time" id="vod-time-duration">00:00</span>
       </div>
     </div>

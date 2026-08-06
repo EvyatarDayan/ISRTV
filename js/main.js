@@ -86,24 +86,39 @@
     var vodControls = null;
     var vodPlayPauseBtn = null;
     var vodSeek = null;
+    var vodSeekFill = null;
+    var vodSeekThumb = null;
+    var vodSeekVisualPct = 0;
+    var vodSeekTargetPct = 0;
+    var vodSeekAnimRaf = null;
     var vodTimeCurrent = null;
     var vodTimeDuration = null;
-    var vodEpisodeLabel = null;
+    var vodPauseInfo = null;
+    var vodPauseSeries = null;
+    var vodPauseEpisode = null;
     var vodNextBtn = null;
     var vodNextFill = null;
     var vodNextLabel = null;
     var vodSeeking = false;
     var vodDurationMs = 0;
     var vodHideTimer = null;
-    var vodEpisodeLabelTimer = null;
     var vodNextPromptVisible = false;
     var vodNextIsLast = false;
     var vodNextAutoFired = false;
     var VOD_SEEK_STEP_SEC = 10;
+    var VOD_SEEK_FAST_AFTER_MS = 4000;
+    var VOD_SEEK_FAST_STEP_SEC = 30;
+    var VOD_SEEK_FASTER_AFTER_MS = 7000;
+    var VOD_SEEK_FASTER_STEP_SEC = 60;
+    var VOD_SEEK_HOLD_TICK_MS = 280;
+    var VOD_SEEK_HOLD_IDLE_MS = 420;
+    var vodSeekHoldKey = 0;
+    var vodSeekHoldStartedAt = 0;
+    var vodSeekHoldLastKeyAt = 0;
+    var vodSeekHoldTimer = null;
     var VOD_CONTROLS_HIDE_MS = 3000;
     var VOD_NEXT_PROMPT_SEC = 40;
     var VOD_NEXT_AUTOFILL_SEC = 10;
-    var VOD_EPISODE_LABEL_MS = 5000;
     var VOD_PROGRESS_KEY = 'isrtv_vod_progress';
     var VOD_MYLIST_KEY = 'isrtv_vod_mylist';
     var PROFILES_KEY = 'isrtv_profiles_v1';
@@ -540,6 +555,21 @@
 
     function tryFocusProfileChromeFromTop() {
         return focusProfileChrome();
+    }
+
+    /** Leave the profile chip downward into the main view — never onto My List (use Left for that). */
+    function leaveProfileChromeDown() {
+        var target = 0;
+        clearProfileChromeFocus(false);
+        if (!focusableItems.length) {
+            return;
+        }
+        if (currentView === 'vod') {
+            target = vodProviderTab === 'mylist' ? 0 : vodTabIndex(vodProviderTab);
+        } else if (currentView === 'live') {
+            target = liveTabIndex(liveRegionTab);
+        }
+        setFocus(Math.min(Math.max(0, target), focusableItems.length - 1), true);
     }
 
     function openProfileDialog(startInManage) {
@@ -1668,6 +1698,10 @@
     }
 
     function onKeyUp(e) {
+        // Clear on any keyup while seeking — Tizen arrow keyCodes on keyup are unreliable
+        if (vodSeekHoldTimer || vodSeekHoldKey) {
+            clearVodSeekHold();
+        }
         if (!isOkKey(e)) {
             return;
         }
@@ -1982,9 +2016,13 @@
         vodControls = document.getElementById('vod-controls');
         vodPlayPauseBtn = document.getElementById('vod-playpause');
         vodSeek = document.getElementById('vod-seek');
+        vodSeekFill = document.getElementById('vod-seek-fill');
+        vodSeekThumb = document.getElementById('vod-seek-thumb');
         vodTimeCurrent = document.getElementById('vod-time-current');
         vodTimeDuration = document.getElementById('vod-time-duration');
-        vodEpisodeLabel = document.getElementById('vod-episode-label');
+        vodPauseInfo = document.getElementById('vod-pause-info');
+        vodPauseSeries = document.getElementById('vod-pause-series');
+        vodPauseEpisode = document.getElementById('vod-pause-episode');
         vodNextBtn = document.getElementById('vod-next-btn');
         vodNextFill = document.getElementById('vod-next-fill');
         vodNextLabel = document.getElementById('vod-next-label');
@@ -2023,6 +2061,16 @@
 
         document.addEventListener('keydown', onKeyDown);
         document.addEventListener('keyup', onKeyUp);
+        // Capture phase: AVPlay / focused controls sometimes swallow bubble keyup on Tizen
+        document.addEventListener(
+            'keyup',
+            function (e) {
+                if (vodSeekHoldTimer || vodSeekHoldKey) {
+                    clearVodSeekHold();
+                }
+            },
+            true
+        );
     }
 
     function beginVodRestoreLock() {
@@ -4739,7 +4787,9 @@
                 vodSeeking = true;
                 var duration = getVodDurationSec();
                 if (duration > 0) {
-                    updateVodTimeLabels((Number(vodSeek.value) / 1000) * duration, duration);
+                    var sec = (Number(vodSeek.value) / 1000) * duration;
+                    updateVodTimeLabels(sec, duration);
+                    setVodSeekVisual(Number(vodSeek.value) / 1000, true);
                 }
             });
 
@@ -4849,12 +4899,55 @@
             return;
         }
         // Show controls when playback begins, then auto-hide after 3s
+        hideVodPauseInfo();
         revealVodControls();
-        showVodEpisodeLabel();
         applyVodResumeIfNeeded();
         updateVodProgress();
         syncVodPlayPauseUi();
         updateVodNextPrompt();
+    }
+
+    function showVodPauseInfo() {
+        var info = getCurrentVodEpisodeInfo();
+        var seriesName = (currentSeries && currentSeries.name) || '';
+        var episodeName = info && info.episode ? episodeDisplayName(info.episode) : '';
+        if (!vodPauseInfo || !isVodMode || !isFullscreen) {
+            return;
+        }
+        if (vodPauseSeries) {
+            vodPauseSeries.textContent = seriesName;
+        }
+        if (vodPauseEpisode) {
+            vodPauseEpisode.textContent = episodeName;
+        }
+        if (!seriesName && !episodeName) {
+            hideVodPauseInfo(true);
+            return;
+        }
+        vodPauseInfo.hidden = false;
+        vodPauseInfo.classList.remove('is-visible');
+        // Force reflow so the enter transition always runs
+        try {
+            void vodPauseInfo.offsetWidth;
+        } catch (eReflow) {}
+        vodPauseInfo.classList.add('is-visible');
+    }
+
+    function hideVodPauseInfo(instant) {
+        if (!vodPauseInfo) {
+            return;
+        }
+        vodPauseInfo.classList.remove('is-visible');
+        if (instant) {
+            vodPauseInfo.hidden = true;
+            return;
+        }
+        // Allow a short fade-out, then fully remove from layout
+        setTimeout(function () {
+            if (vodPauseInfo && !vodPauseInfo.classList.contains('is-visible')) {
+                vodPauseInfo.hidden = true;
+            }
+        }, 420);
     }
 
     function onVodPaused() {
@@ -4868,6 +4961,7 @@
             vodControls.classList.remove('is-auto-hidden');
         }
         syncVodPlayPauseUi();
+        showVodPauseInfo();
     }
 
     function formatTime(sec) {
@@ -4983,44 +5077,6 @@
         };
     }
 
-    function clearVodEpisodeLabelTimer() {
-        if (vodEpisodeLabelTimer) {
-            clearTimeout(vodEpisodeLabelTimer);
-            vodEpisodeLabelTimer = null;
-        }
-    }
-
-    function showVodEpisodeLabel() {
-        var info = getCurrentVodEpisodeInfo();
-        if (!vodEpisodeLabel || !info || !info.episode) {
-            if (vodEpisodeLabel) {
-                vodEpisodeLabel.hidden = true;
-                vodEpisodeLabel.textContent = '';
-            }
-            return;
-        }
-        vodEpisodeLabel.textContent = '';
-        var titleEl = document.createElement('span');
-        titleEl.className = 'vod-episode-label-title';
-        titleEl.textContent = episodeDisplayName(info.episode);
-        vodEpisodeLabel.appendChild(titleEl);
-        if (episodeSubtitle(info.episode)) {
-            var subEl = document.createElement('span');
-            subEl.className = 'vod-episode-label-sub';
-            subEl.textContent = episodeSubtitle(info.episode);
-            vodEpisodeLabel.appendChild(subEl);
-        }
-        vodEpisodeLabel.hidden = false;
-        clearVodEpisodeLabelTimer();
-        vodEpisodeLabelTimer = setTimeout(function () {
-            vodEpisodeLabelTimer = null;
-            // Keep label if next prompt is up; otherwise hide with normal controls flow
-            if (!vodNextPromptVisible && vodEpisodeLabel) {
-                vodEpisodeLabel.hidden = true;
-            }
-        }, VOD_EPISODE_LABEL_MS);
-    }
-
     function focusVodNextBtn() {
         if (!vodNextBtn || vodNextBtn.hidden) {
             return;
@@ -5063,11 +5119,6 @@
 
     function resetVodNextUi() {
         hideVodNextPrompt();
-        clearVodEpisodeLabelTimer();
-        if (vodEpisodeLabel) {
-            vodEpisodeLabel.hidden = true;
-            vodEpisodeLabel.textContent = '';
-        }
     }
 
     function nextEpisodePlayLabel(episode) {
@@ -5122,9 +5173,6 @@
             vodNextBtn.textContent = label;
         }
         vodNextBtn.hidden = false;
-        if (vodEpisodeLabel && !vodEpisodeLabel.hidden) {
-            // keep episode label on the left while next prompt shows
-        }
         revealVodControls();
         clearVodHideTimer();
         focusVodNextBtn();
@@ -5309,6 +5357,73 @@
         }
     }
 
+    function applyVodSeekVisual() {
+        var pct = Math.max(0, Math.min(1, vodSeekVisualPct));
+        var pctCss = (pct * 100).toFixed(3) + '%';
+        if (vodSeekFill) {
+            vodSeekFill.style.width = pctCss;
+        }
+        if (vodSeekThumb) {
+            vodSeekThumb.style.left = pctCss;
+        }
+    }
+
+    function stopVodSeekAnim() {
+        if (vodSeekAnimRaf) {
+            try {
+                cancelAnimationFrame(vodSeekAnimRaf);
+            } catch (eCancel) {}
+            vodSeekAnimRaf = null;
+        }
+    }
+
+    function tickVodSeekAnim() {
+        var diff = vodSeekTargetPct - vodSeekVisualPct;
+        var ease;
+        vodSeekAnimRaf = null;
+        if (Math.abs(diff) < 0.0004) {
+            vodSeekVisualPct = vodSeekTargetPct;
+            applyVodSeekVisual();
+            return;
+        }
+        // Catch up faster while hold-seeking so big jumps still feel fluid
+        ease = vodSeekHoldTimer ? 0.32 : 0.2;
+        vodSeekVisualPct += diff * ease;
+        applyVodSeekVisual();
+        if (typeof requestAnimationFrame === 'function') {
+            vodSeekAnimRaf = requestAnimationFrame(tickVodSeekAnim);
+        } else {
+            vodSeekAnimRaf = setTimeout(tickVodSeekAnim, 16);
+        }
+    }
+
+    function startVodSeekAnim() {
+        if (vodSeekAnimRaf) {
+            return;
+        }
+        if (typeof requestAnimationFrame === 'function') {
+            vodSeekAnimRaf = requestAnimationFrame(tickVodSeekAnim);
+        } else {
+            vodSeekAnimRaf = setTimeout(tickVodSeekAnim, 16);
+        }
+    }
+
+    /** @param {number} pct 0–1 @param {boolean=} instant */
+    function setVodSeekVisual(pct, instant) {
+        pct = Math.max(0, Math.min(1, pct));
+        vodSeekTargetPct = pct;
+        if (vodSeek) {
+            vodSeek.value = String(Math.round(pct * 1000));
+        }
+        if (instant) {
+            stopVodSeekAnim();
+            vodSeekVisualPct = pct;
+            applyVodSeekVisual();
+            return;
+        }
+        startVodSeekAnim();
+    }
+
     function updateVodProgress(currentSec, durationSec) {
         if (!isVodMode) {
             return;
@@ -5316,8 +5431,8 @@
         durationSec = durationSec || getVodDurationSec();
         currentSec = typeof currentSec === 'number' ? currentSec : getVodCurrentSec();
         updateVodTimeLabels(currentSec, durationSec);
-        if (vodSeek && !vodSeeking && durationSec > 0) {
-            vodSeek.value = String(Math.round((currentSec / durationSec) * 1000));
+        if (!vodSeeking && durationSec > 0) {
+            setVodSeekVisual(currentSec / durationSec, !vodSeekHoldTimer);
         }
         if (durationSec > 0) {
             applyVodResumeIfNeeded();
@@ -5386,6 +5501,7 @@
     }
 
     function resumeVod() {
+        hideVodPauseInfo();
         if (usingAvplayPlayback && hasAvplay()) {
             try {
                 webapis.avplay.play();
@@ -5428,6 +5544,66 @@
 
     function seekVodBy(deltaSec) {
         seekVodTo(getVodCurrentSec() + deltaSec);
+    }
+
+    function clearVodSeekHold() {
+        if (vodSeekHoldTimer) {
+            clearInterval(vodSeekHoldTimer);
+            vodSeekHoldTimer = null;
+        }
+        vodSeekHoldKey = 0;
+        vodSeekHoldStartedAt = 0;
+        vodSeekHoldLastKeyAt = 0;
+    }
+
+    function vodSeekStepForHold(heldMs) {
+        if (heldMs >= VOD_SEEK_FASTER_AFTER_MS) {
+            return VOD_SEEK_FASTER_STEP_SEC;
+        }
+        if (heldMs >= VOD_SEEK_FAST_AFTER_MS) {
+            return VOD_SEEK_FAST_STEP_SEC;
+        }
+        return VOD_SEEK_STEP_SEC;
+    }
+
+    function tickVodSeekHold() {
+        var now = Date.now();
+        var held;
+        var step;
+        var dir;
+        if (!vodSeekHoldStartedAt || !vodSeekHoldKey || !isFullscreen || !isVodMode) {
+            clearVodSeekHold();
+            return;
+        }
+        // Tizen often never delivers keyup for arrows. While held it keeps sending
+        // keydowns — when those stop, end the seek hold.
+        if (now - vodSeekHoldLastKeyAt > VOD_SEEK_HOLD_IDLE_MS) {
+            clearVodSeekHold();
+            return;
+        }
+        held = now - vodSeekHoldStartedAt;
+        step = vodSeekStepForHold(held);
+        dir = vodSeekHoldKey === 37 ? -1 : 1;
+        revealVodControls();
+        seekVodBy(dir * step);
+    }
+
+    /**
+     * Own timer while Left/Right is held. Keepalive via repeated keydowns
+     * (Tizen rarely sets KeyboardEvent.repeat / keyup reliably).
+     */
+    function startVodSeekHold(keyCode) {
+        var now = Date.now();
+        if (vodSeekHoldKey === keyCode && vodSeekHoldTimer) {
+            vodSeekHoldLastKeyAt = now;
+            return;
+        }
+        clearVodSeekHold();
+        vodSeekHoldKey = keyCode;
+        vodSeekHoldStartedAt = now;
+        vodSeekHoldLastKeyAt = now;
+        tickVodSeekHold();
+        vodSeekHoldTimer = setInterval(tickVodSeekHold, VOD_SEEK_HOLD_TICK_MS);
     }
 
     function ensureSnapshotVideo() {
@@ -6184,6 +6360,7 @@
     function onKeyDown(e) {
         if (isFullscreen) {
             if (e.keyCode === 10009 || e.keyCode === 27) {
+                clearVodSeekHold();
                 closeFullscreen();
                 e.preventDefault();
                 return;
@@ -6192,6 +6369,7 @@
             if (isVodMode) {
                 switch (e.keyCode) {
                     case 13: // OK
+                        clearVodSeekHold();
                         if (activateVodNextAction()) {
                             e.preventDefault();
                             break;
@@ -6203,18 +6381,17 @@
                     case 415: // MediaPlay
                     case 19: // MediaPause
                     case 10252: // MediaPlayPause
+                        clearVodSeekHold();
                         revealVodControls();
                         toggleVodPlayPause();
                         e.preventDefault();
                         break;
                     case 37: // LEFT seek back
-                        revealVodControls();
-                        seekVodBy(-VOD_SEEK_STEP_SEC);
+                        startVodSeekHold(37);
                         e.preventDefault();
                         break;
                     case 39: // RIGHT seek forward
-                        revealVodControls();
-                        seekVodBy(VOD_SEEK_STEP_SEC);
+                        startVodSeekHold(39);
                         e.preventDefault();
                         break;
                     default:
@@ -6239,8 +6416,12 @@
                 case 38:
                     e.preventDefault();
                     break;
-                case 40:
-                case 13:
+                case 40: // DOWN → main chrome/content below (not My List)
+                    leaveProfileChromeDown();
+                    e.preventDefault();
+                    break;
+                case 13: // OK — expand profile list
+                case 29443:
                     openProfileMenu();
                     e.preventDefault();
                     break;
@@ -6559,8 +6740,11 @@
         var lastProvider = mylistIndex > 0 ? mylistIndex - 1 : Math.max(0, tabs - 1);
 
         if (focusedIndex === mylistIndex) {
+            // Down → first series tile (same as other tabs), not back onto provider tabs
             if (dy > 0) {
-                setFocus(0, false);
+                if (items.length > header) {
+                    setFocus(header, true);
+                }
                 return;
             }
             if (dx > 0) {
@@ -6640,6 +6824,11 @@
             return;
         }
         if (nextRow < 0) {
+            // From My List tiles, Up returns to the provider tabs — not the My List chip
+            if (vodProviderTab === 'mylist') {
+                setFocus(0, true);
+                return;
+            }
             setFocus(activeTabIndex, true);
             return;
         }
@@ -7828,7 +8017,10 @@
         setAvplayOverlay(false);
         vodDurationMs = 0;
         vodSeeking = false;
+        clearVodSeekHold();
+        stopVodSeekAnim();
         clearVodHideTimer();
+        hideVodPauseInfo(true);
         stopAvplay();
         destroyHls(fullscreenHls);
         fullscreenHls = null;
@@ -7853,7 +8045,7 @@
         }
 
         if (vodSeek) {
-            vodSeek.value = '0';
+            setVodSeekVisual(0, true);
         }
         updateVodTimeLabels(0, 0);
         syncVodPlayPauseUi();
