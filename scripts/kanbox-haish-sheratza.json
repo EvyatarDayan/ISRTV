@@ -8,74 +8,82 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/578431/",
       "imageURL": "https://www.kan.org.il/media/1ehbldmz/%D7%90%D7%AA%D7%A8.jpg?rxy=0.47071971955452396,0.36742175077610356&width=490&height=272&v=1dadc5a84b3e380",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6ee94am7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep1.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep1.jpg",
+      "subtitle": "דרמה בלשית חדשה המבוססת על ספרו של דרור משעני. מלי יוצאת למלון ליום גיבוש מטעם עבודתה. בלילה קורה אירוע שמטלטל את חייה ואת חיי בעלה. כעבור עשרה חודשים יתרחש מקרה דומה באותה רשת. האם יש קשר בין הפשעים? 19.05.2024"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/578453/",
       "imageURL": "https://www.kan.org.il/media/msrjspkp/%D7%9C%D7%90%D7%AA%D7%A8-%D7%94%D7%97%D7%93%D7%A9-%D7%94%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%94%D7%99%D7%90-%D7%94%D7%97%D7%93%D7%A9%D7%94-%D7%94%D7%90%D7%AA%D7%A8-%D7%A4%D7%97%D7%95%D7%AA.jpg?rxy=0.37691275955267123,0.4339133030580585&width=490&height=272&v=1dadb6b7192a330",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_59336558/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep2.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep2.jpg",
+      "subtitle": "חוקר המשטרה אבי אברהם ממונה להיות ראש צוות חקירה מיוחד בדיוק כשחברתו עוזבת אותו. לצוות מצטרפת אורנה דניס, חוקרת מנוסה אבל מעצבנת 19.05.2024"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666304/",
       "imageURL": "https://www.kan.org.il/media/o4gpjxei/%D7%A4%D7%A8%D7%A7-3-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadb6b70501110",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b3rs7xhx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep3.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep3.jpg",
+      "subtitle": "החשוד המרכזי, מארגן הכנס במלון בבת ים, מגיע מרצונו למסור עדות. החקירה מסתבכת כשהראיות מצביעות על אדם נוסף 21.05.2024"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/631961/",
       "imageURL": "https://www.kan.org.il/media/dbejl45j/%D7%A4%D7%A8%D7%A7-4-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadd066ada13b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f8vt085r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep4.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep4.jpg",
+      "subtitle": "קובי מאבד אמון במשטרה ויוצא לחקירה עצמאית משלו. הוא נחוש למצוא את האנס שהרס את חיי משפחתו. גם במחיר שקר למלי אשתו 26.05.2024"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666308/",
       "imageURL": "https://www.kan.org.il/media/1zsjc0h1/%D7%A4%D7%A8%D7%A7-5-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadd0412d0c350",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y8dyyn1u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep5.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep5.jpg",
+      "subtitle": "אבי ואורנה עוצרים חשוד מרכזי חדש. נדמה שהם מצאו את האיש, אבל האם יצליחו להוכיח את אשמתו? 28.05.2024"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/631964/",
       "imageURL": "https://www.kan.org.il/media/uj5ldgad/%D7%A4%D7%A8%D7%A7-6-%D7%90%D7%AA%D7%A8.jpg?rxy=0.5292717705304142,0.3672364157235065&width=490&height=272&v=1dadd0395f3bc70",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jpvyv06c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep6.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep6.jpg",
+      "subtitle": "קובי ממשיך בחקירה שלו ומצליח להתחקות אחרי האיש שהמשטרה לא הצליחה להפליל. החוקרים אבי ואורנה מתמודדים עם תוצאות המפגש 02.06.2024"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - האיש שרצה לדעת הכל - פרק 7",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666311/",
       "imageURL": "https://www.kan.org.il/media/hrslusd3/%D7%A4%D7%A8%D7%A7-7-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadd0fdb873490",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nni6we8d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep7.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep7.jpg",
+      "subtitle": "אבי ואורנה מוצאים בזירת הרצח טוקמן שלא שייך לישראל גל. דיאנה גולדין מגיעה לתחנת המשטרה ומספקת מידע נוסף בעוד החוקרים מגיעים אל מלי ברכה 04.06.2024"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - האיש שרצה לדעת הכל - פרק 8",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/681399/",
       "imageURL": "https://www.kan.org.il/media/jydk00jt/%D7%A4%D7%A8%D7%A7-8-%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadd0fe3b6b1e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bcdksgxy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/haish-sheratza/ep8.jpg"
+      "localImage": "images/kanbox/haish-sheratza/ep8.jpg",
+      "subtitle": "פרק סיום העונה. אבי ואורנה יוצאים לעצור את קובי ברכה בחשד לרצח. המצב מסתבך דווקא בגלל ניסיונותיהם שלא לסכן את מלי ושתי הילדות שלה 04.06.2024"
     }
   ],
   "localPoster": "images/kanbox/haish-sheratza/series.jpg"

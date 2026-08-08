@@ -8,74 +8,82 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - הנה היא עולה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841980/",
       "imageURL": "https://www.kan.org.il/media/i2hlhuj4/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1db5adb2aed6420",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gyb847em/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep1.jpg"
+      "localImage": "images/kanbox/huliganim/ep1.jpg",
+      "subtitle": "סדרת דרמה חדשה המביאה את סיפורו של מני, צעיר ממשפחה לא מתפקדת, שמסתבך בקטטת אוהדים המקרבת בינו לבין עובד מנהיג ארגון האוהדים 'שומרי החומות', אך גם מסבכת אותו עם המשטרה הרוצה להפעיל אותו כמושתל בארגון 09.06.2025"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - העיר הזאת שייכת לי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841981/",
       "imageURL": "https://www.kan.org.il/media/ueqjptn4/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4228528472091712,0.3046443522867981&width=490&height=272&v=1db5adbde16b790",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lwpgomrg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep2.jpg"
+      "localImage": "images/kanbox/huliganim/ep2.jpg",
+      "subtitle": "מני מקבל הזדמנות להוכיח את עצמו בפני חברי ארגון \"שומרי החומות\". עובד מגלה כי ראש העיר מונע ממנו לעבוד במכרז הקבלני בו זכה, ופועל כדי לפתור את הבעיה 18.06.2025"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - קראו לי אלים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841982/",
       "imageURL": "https://www.kan.org.il/media/dovohx4i/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.31553893233594016,0.3288503295757347&width=490&height=272&v=1db5adc8e7922d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_udji50fc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep3.jpg"
+      "localImage": "images/kanbox/huliganim/ep3.jpg",
+      "subtitle": "עובד מזמין את מני לגור בביתו, והקשר בין השניים מתהדק עוד יותר. בינתיים, בלחץ המשטרה וראש העיר, מנכ\"ל קבוצת הכדורגל מחליט להרחיק מהמשחקים את כל אנשי \"שומרי החומות\" 23.06.2025"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - להיות עם חופשי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841984/",
       "imageURL": "https://www.kan.org.il/media/l4xdxyau/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc0adc572b9870",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aq74hhed/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep4.jpg"
+      "localImage": "images/kanbox/huliganim/ep4.jpg",
+      "subtitle": "אוטובוס של אוהדי ירושלים יוצא לסכנין למשחק הנפיץ עם הקבוצה הערבית המקומית. על האוטובוס נמצא גם מני, אלא שחשדם של אנשי הארגון כי ביניהם נמצא \"שתול\" מוביל להורדתו של מני מהנסיעה באמצע הדרך 28.06.2025"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - אל תירא ישראל",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841986/",
       "imageURL": "https://www.kan.org.il/media/unjh1vvd/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.31009860591635496,0.45458722029586857&width=490&height=272&v=1db5ade31a50720",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5zkrxnz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep5.jpg"
+      "localImage": "images/kanbox/huliganim/ep5.jpg",
+      "subtitle": "אירועי המשחק בסכנין מובילים להתפרעויות והפרות סדר בירושלים. כתגובה מחליטים \"שומרי החומות\" לצאת במצעד דגלים. עובד מטיל על מני את ההשגחה על אסי, בו הוא חושד כשתול בארגון 30.06.2025"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - אוהב אותך",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841987/",
       "imageURL": "https://www.kan.org.il/media/r2rin4jl/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5385923155389324,0.6045042823083359&width=490&height=272&v=1db5adedfc79480",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ovgfs6n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep6.jpg"
+      "localImage": "images/kanbox/huliganim/ep6.jpg",
+      "subtitle": "ארגון \"שומרי החומות\" מתארגן לקראת משחק החוץ האירופי של הקבוצה. מדמוני שולחת את מני למשחק החוץ במטרה להשיג מידע על עסקת סמים שבה מעורב יקיר. בעודם בחו\"ל רומן מתפתח בין כינרת למני 05.07.2025"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - אני נשבע",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841988/",
       "imageURL": "https://www.kan.org.il/media/wsiala13/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4433866031961918,0.4255710147450684&width=490&height=272&v=1db5adf98a21ed0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ra11gvgn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep7.jpg"
+      "localImage": "images/kanbox/huliganim/ep7.jpg",
+      "subtitle": "מדמוני מגבירה את הלחץ ודורשת ממני להשיג מידע על עסקת הסמים. העימות בין אוהדי הקבוצה האירופית לשומרי החומות מוביל לפיצוץ המשחק ולפציעתו של מני, מיד לאחר שהוא מגלה היכן יקיר ועובד מסתירים את הסמים 12.07.2025"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - אם אשכחך ירושלים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-841973/s1/841989/",
       "imageURL": "https://www.kan.org.il/media/ef5a3fiz/s0476862_100_11_36_00still001.jpg?width=490&height=272&v=1dc0a185a333330",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d5yh9w7r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/huliganim/ep8.jpg"
+      "localImage": "images/kanbox/huliganim/ep8.jpg",
+      "subtitle": "העונה מגיעה לשיאה בעימות דרמטי בין מני לעובד, בו מערכת היחסים המיוחדת שלהם עומדת בפני מבחן קשה 17.07.2025"
     }
   ],
   "localPoster": "images/kanbox/huliganim/series.jpg"

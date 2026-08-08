@@ -7,74 +7,82 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - גאות ושפל",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98663/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jgq2c4qo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep1.jpg"
+      "localImage": "images/kanbox/mona/ep1.jpg",
+      "subtitle": "על רקע עוד סבב מתיחות בעזה, מונא נבחרת להציג יצירותיה בתערוכה בפריז אבל זוכה לכתף קרה מאביה ולנאצות מהטוקבקיסטים. גם שני אוהביה לא מצליחים לנחם אותה 12.06.2018"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - צבע אדום",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98666/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hempk6u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep2.jpg"
+      "localImage": "images/kanbox/mona/ep2.jpg",
+      "subtitle": "הלוויות וטילים מעכירים את האווירה והנסיעה לפריז בסכנה. מונא מושפלת בשידור חי וחוטפת גם מחבריה ומאביה. ראני מנסה לגונן עליה אבל מונא עסוקה בהגנה על חברתה המוכה 12.06.2018"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - אורחים לרגע",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98669/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y7274y7z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep3.jpg"
+      "localImage": "images/kanbox/mona/ep3.jpg",
+      "subtitle": "מונא מסתירה את חברתה מבעלה האלים ויניב מארח את הוריו בזמן שנופלים טילים. הסטודיו מאבד לקוחות ויחסי יניב ומונא הולכים ומסתבכים 12.06.2018"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - עשו מלחמה, לא אהבה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98672/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kipju3m1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep4.jpg"
+      "localImage": "images/kanbox/mona/ep4.jpg",
+      "subtitle": "לאיהאב יש רעיון איך להציל את הסטודיו אבל ראני עסוק בלשמח את סוהיר. הסודות והשקרים מסבכים את יחסי יניב, והחדשות מסבכות את ראני המשלם מחיר כבד על המצב 12.06.2018"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - נקודות תורפה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98675/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mwmrd9o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep5.jpg"
+      "localImage": "images/kanbox/mona/ep5.jpg",
+      "subtitle": "יניב חושד ביחסי מונא וראני אבל מציל את התערוכה של מונא. אביה של מונא חושש שיפסיד בגללה את הבחירות ואמא שלה מחליטה לנקוט עמדה 12.06.2018"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - משפחה לא בוחרים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98678/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_580t2j5h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep6.jpg"
+      "localImage": "images/kanbox/mona/ep6.jpg",
+      "subtitle": "בין האזעקות סוהיר עושה מהלך שמפתיע את כולם. יניב מחליט לחשוף את יחסיו עם מונא אבל דריה, ביתו, יודעת איך להרוס את הכל 12.06.2018"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - נחמות קטנות",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98681/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qdtvdgic/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep7.jpg"
+      "localImage": "images/kanbox/mona/ep7.jpg",
+      "subtitle": "מונא פגועה בגלל יניב ומודאגת בגלל סוהיר. תכניתו של איהאב להצלת הסטודיו הצליחה, לפחות כלכלית, אבל האווירה העוינת מתעצמת ודוחפת את האוהבים זה לזרועות זו 12.06.2018"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - לרדת מן הגדר",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13827/98684/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7a9j6yb1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/mona/ep8.jpg"
+      "localImage": "images/kanbox/mona/ep8.jpg",
+      "subtitle": "פרק סיום העונה: מונא שוברת שתיקה ומסרבת להשלים עם המצב של חברתה. העימות עם אביה מגיע לשיאו והוא צריך להחליט על העדפותיו. בהעדרה של אהובתם, האוהבים-היריבים נאלצים להתנחם בלעדיה 12.06.2018"
     }
   ],
   "localPoster": "images/kanbox/mona/series.jpg",

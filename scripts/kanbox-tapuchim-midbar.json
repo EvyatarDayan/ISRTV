@@ -8,29 +8,32 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81379/",
       "imageURL": "https://www.kan.org.il/media/y4ocnakd/cat23206_img94080545.jpg?width=490&height=272&v=1d9753bf839d440",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_twen8deu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/tapuchim-midbar/ep1.jpg"
+      "localImage": "images/kanbox/tapuchim-midbar/ep1.jpg",
+      "subtitle": "רבקה, צעירה מבית חרדי מואסת במציאות חייה ופוגשת קיבוצניק חילוני שמציע לה חיים אחרים 28.11.2016"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81381/",
       "imageURL": "https://www.kan.org.il/media/kkodn5vx/cat23207_img797783392.jpg?width=490&height=272&v=1d9753bf94e7890",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ru4diuns/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/tapuchim-midbar/ep2.jpg"
+      "localImage": "images/kanbox/tapuchim-midbar/ep2.jpg",
+      "subtitle": "ראובן נועל את רבקה בחדרה עד שתתרצה ותסכים לפגוש את החתן המיועד בארוחת שישי 28.11.2016"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81383/",
       "imageURL": "https://www.kan.org.il/media/ttph4o4w/cat23208_img348631543.jpg?width=490&height=272&v=1d9753bfa64ca90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_txr3tnvs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/tapuchim-midbar/ep3.jpg"
+      "localImage": "images/kanbox/tapuchim-midbar/ep3.jpg",
+      "subtitle": "רבקה ודובי חוזרים למעגל החיים בקיבוץ והקשר מתחזק. הם מנסים לתלות מזוזה בחדר התרבות שמהווה בית כנסת בקיבוץ, ונוצר משבר גדול בקרב חברי הקיבוץ 28.11.2016"
     }
   ],
   "localPoster": "images/kanbox/tapuchim-midbar/series.jpg"

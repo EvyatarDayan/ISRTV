@@ -8,47 +8,52 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - מתקפת פתע",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-538817/s1/555859/",
       "imageURL": "https://www.kan.org.il/media/dsph2bhg/%D7%9E%D7%96%D7%97-1.jpg?width=490&height=272&v=1dc0d1903e19090",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kx1e31tw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamazah/ep1.jpg"
+      "localImage": "images/kanbox/hamazah/ep1.jpg",
+      "subtitle": "דרמה חדשה המביאה את סיפורו האמיתי של מוצב ה\"מזח\" שנותר מבודד מאחורי קווי האויב עם פרוץ מלחמת יום הכיפורים. נחום, רופא מילואים נקלע למוצב מבודד בקצה תעלת סואץ, שם המלחמה תופסת אותו בהפתעה גמורה. בזמן שהמפקד שלמה ולוחמיו הודפים את התקפות האויב, נחום נאבק על חיי הפצועים הרבים בתאג״ד"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - האדם הוא הפלדה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-538817/s1/555862/",
       "imageURL": "https://www.kan.org.il/media/beof3b15/%D7%9E%D7%96%D7%97-2.jpg?width=490&height=272&v=1dc0d19019d45e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h3g7trtp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamazah/ep2.jpg"
+      "localImage": "images/kanbox/hamazah/ep2.jpg",
+      "subtitle": "לוחמי השריון מנסים להגן בחירוף נפש על המוצב הנצור מהסתערות טנקים מצריים. בינתיים בעורף, אשת הרופא חרדה לגורלו ומנסה לאתר אותו. לאחר שהלוחמים מבינים מה עלה בגורלו של קו בר-לב, הם מתכוננים לקרב אחרון 04.05.2025"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - האופציה של הדוקטור",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-538817/s1/555866/",
       "imageURL": "https://www.kan.org.il/media/jp4liiql/%D7%94%D7%9E%D7%96%D7%97-%D7%A4%D7%A8%D7%A7-3-%D7%94%D7%90%D7%95%D7%A4%D7%A6%D7%99%D7%94-%D7%A9%D7%9C-%D7%94%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8.jpg?rxy=0.44561055252772036,0.3401145364492227&width=490&height=272&v=1dbc8a55f3b1c30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mhuvabgz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamazah/ep3.jpg"
+      "localImage": "images/kanbox/hamazah/ep3.jpg",
+      "subtitle": "המצרים עוברים למלחמת התשה כנגד המוצב והציוד הרפואי אוזל. ד\"ר נחום מתחיל להתעמת עם שלמה המ״פ, ולאחר שאחד החיילים נפצע באורך אנוש, נחום דוחף לכניעה מאחורי גבו של שלמה 11.05.2025"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - \"אני משנה את הפקודה\"",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-538817/s1/609199/",
       "imageURL": "https://www.kan.org.il/media/osuiaw1g/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc0d0bf0f60a90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a7vmyi27/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamazah/ep4.jpg"
+      "localImage": "images/kanbox/hamazah/ep4.jpg",
+      "subtitle": "לאחר ניסיון של חיל הים להגיע למוצב הנצור, במטכ״ל פורץ ויכוח האם ראוי שלוחמי המזח יכנעו באופן יזום, או שעליהם להחזיק בכל מחיר 18.05.2025"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - רגע האמת",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-538817/s1/609201/",
       "imageURL": "https://www.kan.org.il/media/hs1mc4qs/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dbcd929d135210",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gyfpsaky/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamazah/ep5.jpg"
+      "localImage": "images/kanbox/hamazah/ep5.jpg",
+      "subtitle": "לוחמי המזח נכנעים באופן יזום לפי המתווה שהציע הרופא ומועברים לכלא בקהיר, שם הם עוברים חוויות קשות. שלמה המ\"פ מסיים את עדותו בוועדת אגרנט, וד\"ר נחום יוצא מחקירתו במצ\"ח מטולטל 25.05.2025"
     }
   ],
   "localPoster": "images/kanbox/hamazah/series.jpg"

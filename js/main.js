@@ -57,6 +57,16 @@
     var vodImageCache = Object.create(null);
     var vodImageCacheKeys = [];
     var VOD_IMAGE_CACHE_MAX = 180;
+    /** Live tile stills keyed by channel id — kept until app exit. */
+    var liveSnapshotCache = Object.create(null);
+    var liveFrameQueue = [];
+    var liveFrameActive = 0;
+    var liveFrameGeneration = 0;
+    var LIVE_FRAME_CONCURRENCY = 6;
+    var LIVE_TILE_WAIT_MS = 60000;
+    var liveTileWaitStarted = Object.create(null);
+    var liveTileWaitTimers = Object.create(null);
+    var liveUnavailable = Object.create(null);
     // Tizen TV WebKit is much slower than the simulator — keep focus path lean.
     var isTizenTv =
         typeof tizen !== 'undefined' ||
@@ -86,6 +96,7 @@
     var vodControls = null;
     var vodPlayPauseBtn = null;
     var vodSeek = null;
+    var vodSeekWrap = null;
     var vodSeekFill = null;
     var vodSeekThumb = null;
     var vodSeekVisualPct = 0;
@@ -99,9 +110,13 @@
     var vodNextBtn = null;
     var vodNextFill = null;
     var vodNextLabel = null;
+    var vodRestartBtn = null;
     var vodSeeking = false;
     var vodDurationMs = 0;
     var vodHideTimer = null;
+    var vodPendingStartTitle = false;
+    var vodStartTitleActive = false;
+    var vodLastTopBtn = 'next';
     var vodNextPromptVisible = false;
     var vodNextIsLast = false;
     var vodNextAutoFired = false;
@@ -117,7 +132,7 @@
     var vodSeekHoldLastKeyAt = 0;
     var vodSeekHoldTimer = null;
     var VOD_CONTROLS_HIDE_MS = 3000;
-    var VOD_NEXT_PROMPT_SEC = 40;
+    var VOD_NEXT_PROMPT_SEC = 10;
     var VOD_NEXT_AUTOFILL_SEC = 10;
     var VOD_PROGRESS_KEY = 'isrtv_vod_progress';
     var VOD_MYLIST_KEY = 'isrtv_vod_mylist';
@@ -565,7 +580,8 @@
             return;
         }
         if (currentView === 'vod') {
-            target = vodProviderTab === 'mylist' ? 0 : vodTabIndex(vodProviderTab);
+            // Profile → חיפוש → content (Down again). My List still lands on first provider tab.
+            target = vodProviderTab === 'mylist' ? 0 : vodTabCount();
         } else if (currentView === 'live') {
             target = liveTabIndex(liveRegionTab);
         }
@@ -2016,6 +2032,7 @@
         vodControls = document.getElementById('vod-controls');
         vodPlayPauseBtn = document.getElementById('vod-playpause');
         vodSeek = document.getElementById('vod-seek');
+        vodSeekWrap = document.querySelector('#vod-controls .vod-seek-wrap');
         vodSeekFill = document.getElementById('vod-seek-fill');
         vodSeekThumb = document.getElementById('vod-seek-thumb');
         vodTimeCurrent = document.getElementById('vod-time-current');
@@ -2026,8 +2043,10 @@
         vodNextBtn = document.getElementById('vod-next-btn');
         vodNextFill = document.getElementById('vod-next-fill');
         vodNextLabel = document.getElementById('vod-next-label');
+        vodRestartBtn = document.getElementById('vod-restart-btn');
         bindVodControls();
         bindVodSearch();
+        registerVodRemoteKeys();
 
         var profileBtn = document.getElementById('profile-btn');
         if (profileBtn && !profileBtn.getAttribute('data-bound')) {
@@ -2234,9 +2253,12 @@
             startHubVodRotation();
             renderHomeContinueWatching();
             bindHomeItems();
+            warmLiveSnapshotsInBackground();
         } else if (viewName === 'live') {
             stopHubVodRotation();
+            stopPreview();
             stopRadioPlayback();
+            clearAllFrozenPreviews();
             syncLiveTabUi();
             renderChannels();
             bindLiveItems();
@@ -4813,7 +4835,15 @@
             vodNextBtn.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
-                activateVodNextAction();
+                activateVodNextAction(true);
+            });
+        }
+
+        if (vodRestartBtn) {
+            vodRestartBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                restartVodFromBeginning();
             });
         }
 
@@ -4861,6 +4891,15 @@
             return;
         }
         vodControls.classList.add('is-auto-hidden');
+        if (vodRestartBtn) {
+            vodRestartBtn.classList.add('is-auto-hidden');
+            blurVodRestartBtn();
+        }
+        blurVodSeekBar();
+        if (vodStartTitleActive) {
+            vodStartTitleActive = false;
+            hideVodPauseInfo();
+        }
     }
 
     function revealVodControls() {
@@ -4869,6 +4908,21 @@
         }
         vodControls.hidden = false;
         vodControls.classList.remove('is-auto-hidden');
+        if (vodRestartBtn) {
+            vodRestartBtn.hidden = false;
+            vodRestartBtn.classList.remove('is-auto-hidden');
+        }
+        // Default focus is the seek bar unless next/restart already owns focus
+        if (
+            !(vodNextBtn &&
+                (vodNextBtn.classList.contains('is-focused') ||
+                    document.activeElement === vodNextBtn)) &&
+            !(vodRestartBtn &&
+                (vodRestartBtn.classList.contains('is-focused') ||
+                    document.activeElement === vodRestartBtn))
+        ) {
+            focusVodSeekBar();
+        }
         scheduleVodControlsHide();
     }
 
@@ -4898,8 +4952,14 @@
         if (!isVodMode) {
             return;
         }
-        // Show controls when playback begins, then auto-hide after 3s
-        hideVodPauseInfo();
+        // Same pause title overlay, shown once at episode start with the control bar
+        if (vodPendingStartTitle) {
+            vodPendingStartTitle = false;
+            vodStartTitleActive = true;
+            showVodPauseInfo();
+        } else if (!vodStartTitleActive) {
+            hideVodPauseInfo();
+        }
         revealVodControls();
         applyVodResumeIfNeeded();
         updateVodProgress();
@@ -4956,6 +5016,7 @@
         }
         saveCurrentVodProgress(true);
         clearVodHideTimer();
+        vodStartTitleActive = false;
         if (vodControls) {
             vodControls.hidden = false;
             vodControls.classList.remove('is-auto-hidden');
@@ -4991,6 +5052,10 @@
                 vodControls.hidden = false;
                 vodControls.classList.remove('is-auto-hidden');
             }
+            if (vodRestartBtn) {
+                vodRestartBtn.hidden = false;
+                vodRestartBtn.classList.remove('is-auto-hidden');
+            }
             scheduleVodControlsHide();
         } else {
             playerEl.classList.remove('is-vod');
@@ -4999,6 +5064,10 @@
             if (vodControls) {
                 vodControls.hidden = true;
                 vodControls.classList.remove('is-auto-hidden');
+            }
+            if (vodRestartBtn) {
+                vodRestartBtn.hidden = true;
+                vodRestartBtn.classList.remove('is-auto-hidden', 'is-focused');
             }
         }
         syncVodPlayPauseUi();
@@ -5044,6 +5113,18 @@
         return info.list[info.index + 1];
     }
 
+    /** Movies / single-episode titles should not show סיום העונה. */
+    function seriesHasMultipleEpisodes() {
+        var info = getCurrentVodEpisodeInfo();
+        if (info && info.list) {
+            return info.list.length > 1;
+        }
+        if (!currentSeries) {
+            return false;
+        }
+        return sortedSeriesEpisodes(currentSeries).length > 1;
+    }
+
     function episodeAsPlayItem(episode) {
         var series = currentSeries;
         return {
@@ -5081,10 +5162,144 @@
         if (!vodNextBtn || vodNextBtn.hidden) {
             return;
         }
+        blurVodSeekBar();
+        blurVodRestartBtn();
         try {
             vodNextBtn.focus();
         } catch (e) {}
         vodNextBtn.classList.add('is-focused');
+        vodLastTopBtn = 'next';
+    }
+
+    function blurVodNextBtn() {
+        if (!vodNextBtn) {
+            return;
+        }
+        vodNextBtn.classList.remove('is-focused');
+        try {
+            vodNextBtn.blur();
+        } catch (eBlur) {}
+    }
+
+    function blurVodSeekBar() {
+        if (vodSeekWrap) {
+            vodSeekWrap.classList.remove('is-focused');
+        }
+    }
+
+    function focusVodSeekBar() {
+        if (!vodSeekWrap || !isVodMode) {
+            return;
+        }
+        blurVodNextBtn();
+        blurVodRestartBtn();
+        vodSeekWrap.classList.add('is-focused');
+    }
+
+    function focusVodRestartBtn() {
+        if (
+            !vodRestartBtn ||
+            vodRestartBtn.hidden ||
+            vodRestartBtn.classList.contains('is-auto-hidden')
+        ) {
+            return;
+        }
+        blurVodSeekBar();
+        blurVodNextBtn();
+        try {
+            vodRestartBtn.focus();
+        } catch (eFocus) {}
+        vodRestartBtn.classList.add('is-focused');
+        vodLastTopBtn = 'restart';
+    }
+
+    function isVodRestartFocused() {
+        return !!(
+            vodRestartBtn &&
+            !vodRestartBtn.hidden &&
+            !vodRestartBtn.classList.contains('is-auto-hidden') &&
+            (vodRestartBtn.classList.contains('is-focused') ||
+                document.activeElement === vodRestartBtn)
+        );
+    }
+
+    function isVodNextFocused() {
+        return !!(
+            vodNextBtn &&
+            !vodNextBtn.hidden &&
+            (vodNextBtn.classList.contains('is-focused') ||
+                document.activeElement === vodNextBtn)
+        );
+    }
+
+    function isVodSeekFocused() {
+        return !!(vodSeekWrap && vodSeekWrap.classList.contains('is-focused'));
+    }
+
+    function isVodNextAvailable() {
+        return !!(vodNextBtn && !vodNextBtn.hidden);
+    }
+
+    function isVodRestartAvailable() {
+        return !!(
+            vodRestartBtn &&
+            !vodRestartBtn.hidden &&
+            !vodRestartBtn.classList.contains('is-auto-hidden')
+        );
+    }
+
+    function isVodTopBtnFocused() {
+        return isVodRestartFocused() || isVodNextFocused();
+    }
+
+    function focusVodLastTopBtn() {
+        if (vodLastTopBtn === 'restart' && isVodRestartAvailable()) {
+            focusVodRestartBtn();
+            return;
+        }
+        if (isVodNextAvailable()) {
+            focusVodNextBtn();
+            return;
+        }
+        if (isVodRestartAvailable()) {
+            focusVodRestartBtn();
+        }
+    }
+
+    /** Top row (restart ↔ next) above seek. Down → seek; Up → last top button. */
+    function moveVodFocusVertical(dir) {
+        revealVodControls();
+        if (dir < 0) {
+            // UP from seek (or nowhere) → top button row
+            if (isVodSeekFocused() || !isVodTopBtnFocused()) {
+                focusVodLastTopBtn();
+            }
+            return;
+        }
+        // DOWN from either top button → seek
+        if (isVodTopBtnFocused()) {
+            focusVodSeekBar();
+        }
+    }
+
+    /** Left/right between top buttons; otherwise seek. */
+    function moveVodFocusHorizontal(dir) {
+        revealVodControls();
+        if (isVodTopBtnFocused()) {
+            if (dir > 0) {
+                // RIGHT → next (restart is on the left)
+                if (isVodRestartFocused() && isVodNextAvailable()) {
+                    focusVodNextBtn();
+                    return true;
+                }
+            } else if (isVodNextFocused() && isVodRestartAvailable()) {
+                // LEFT → restart
+                focusVodRestartBtn();
+                return true;
+            }
+            return true;
+        }
+        return false;
     }
 
     function setVodNextFillProgress(progress) {
@@ -5103,75 +5318,84 @@
         }
     }
 
+    function setVodNextLabel(label) {
+        if (vodNextLabel) {
+            vodNextLabel.textContent = label;
+        } else if (vodNextBtn) {
+            vodNextBtn.textContent = label;
+        }
+    }
+
+    /** Always-available skip control; last of multi-ep series shows סיום העונה. */
+    function syncVodNextButtonIdle() {
+        var next;
+        if (!vodNextBtn) {
+            return;
+        }
+        if (!isVodMode || !isFullscreen || vodNextPromptVisible) {
+            return;
+        }
+        next = getNextVodEpisode();
+        if (!next) {
+            if (!seriesHasMultipleEpisodes()) {
+                vodNextIsLast = false;
+                vodNextBtn.hidden = true;
+                vodNextBtn.classList.remove('is-prompt');
+                blurVodNextBtn();
+                setVodNextFillProgress(0);
+                return;
+            }
+            vodNextIsLast = true;
+            setVodNextLabel('סיום העונה');
+            vodNextBtn.classList.remove('is-prompt');
+            setVodNextFillProgress(0);
+            vodNextBtn.hidden = false;
+            return;
+        }
+        vodNextIsLast = false;
+        setVodNextLabel('לפרק הבא');
+        vodNextBtn.classList.remove('is-prompt');
+        setVodNextFillProgress(0);
+        vodNextBtn.hidden = false;
+    }
+
     function hideVodNextPrompt() {
+        vodNextPromptVisible = false;
+        vodNextAutoFired = false;
+        setVodNextFillProgress(0);
+        if (vodNextBtn) {
+            vodNextBtn.classList.remove('is-prompt');
+        }
+        blurVodNextBtn();
+        syncVodNextButtonIdle();
+    }
+
+    function resetVodNextUi() {
         vodNextPromptVisible = false;
         vodNextIsLast = false;
         vodNextAutoFired = false;
         setVodNextFillProgress(0);
         if (vodNextBtn) {
             vodNextBtn.hidden = true;
-            vodNextBtn.classList.remove('is-focused');
-            try {
-                vodNextBtn.blur();
-            } catch (e) {}
+            vodNextBtn.classList.remove('is-prompt');
         }
-    }
-
-    function resetVodNextUi() {
-        hideVodNextPrompt();
-    }
-
-    function nextEpisodePlayLabel(episode) {
-        var season;
-        var ep;
-        if (!episode) {
-            return 'לפרק הבא';
-        }
-        season = episode.season || 1;
-        ep = episode.ep || episode.chapter || 0;
-        if (season >= 800) {
-            return 'נגן ' + episodeDisplayName(episode);
-        }
-        if (ep) {
-            return 'נגן עונה ' + season + ' פרק ' + ep;
-        }
-        return 'נגן ' + episodeDisplayName(episode);
+        blurVodNextBtn();
     }
 
     function showVodNextPrompt(isLast) {
-        var info;
-        var next;
-        var label;
-        var currentSeason;
-        var nextSeason;
         if (!vodNextBtn) {
+            return;
+        }
+        if (isLast && !seriesHasMultipleEpisodes()) {
+            resetVodNextUi();
             return;
         }
         vodNextIsLast = !!isLast;
         vodNextPromptVisible = true;
         vodNextAutoFired = false;
         setVodNextFillProgress(0);
-        if (isLast) {
-            label = 'העונה הסתיימה';
-        } else {
-            info = getCurrentVodEpisodeInfo();
-            next = info ? info.list[info.index + 1] : null;
-            currentSeason = info && info.episode ? info.episode.season || 1 : 1;
-            nextSeason = next ? next.season || 1 : currentSeason;
-            if (next && nextSeason !== currentSeason) {
-                // Last episode of this season — offer starting the next one
-                label = 'התחל ' + seasonDisplayLabel(nextSeason, currentSeries);
-            } else if (info && info.list.length >= 2 && info.index === info.list.length - 2) {
-                label = 'נגן פרק אחרון';
-            } else {
-                label = nextEpisodePlayLabel(next);
-            }
-        }
-        if (vodNextLabel) {
-            vodNextLabel.textContent = label;
-        } else {
-            vodNextBtn.textContent = label;
-        }
+        setVodNextLabel(isLast ? 'סיום העונה' : 'לפרק הבא');
+        vodNextBtn.classList.add('is-prompt');
         vodNextBtn.hidden = false;
         revealVodControls();
         clearVodHideTimer();
@@ -5198,24 +5422,46 @@
 
     function updateVodNextPrompt() {
         if (!isVodMode || !isFullscreen) {
-            hideVodNextPrompt();
+            resetVodNextUi();
+            return;
+        }
+        // Final episode of a multi-ep series: keep סיום העונה visible the whole time
+        if (!getNextVodEpisode()) {
+            if (!seriesHasMultipleEpisodes()) {
+                if (vodNextPromptVisible) {
+                    hideVodNextPrompt();
+                    scheduleVodControlsHide();
+                } else {
+                    syncVodNextButtonIdle();
+                }
+                return;
+            }
+            if (vodNextPromptVisible && !vodNextIsLast) {
+                hideVodNextPrompt();
+            } else if (vodNextPromptVisible && vodNextIsLast) {
+                // Stay in focused end state if already prompted (e.g. episode ended)
+                setVodNextLabel('סיום העונה');
+                setVodNextFillProgress(0);
+                return;
+            }
+            syncVodNextButtonIdle();
             return;
         }
         var duration = getVodDurationSec();
         var current = getVodCurrentSec();
         if (!(duration > 0) || duration < VOD_NEXT_PROMPT_SEC + 5) {
-            // Too short / unknown — don't flash the prompt
             if (vodNextPromptVisible) {
                 hideVodNextPrompt();
                 scheduleVodControlsHide();
+            } else {
+                syncVodNextButtonIdle();
             }
             return;
         }
         var remaining = duration - current;
         if (remaining <= VOD_NEXT_PROMPT_SEC) {
-            var next = getNextVodEpisode();
             if (!vodNextPromptVisible) {
-                showVodNextPrompt(!next);
+                showVodNextPrompt(false);
             }
             updateVodNextAutofill(Math.max(0, remaining));
             return;
@@ -5223,11 +5469,23 @@
         if (vodNextPromptVisible) {
             hideVodNextPrompt();
             scheduleVodControlsHide();
+        } else {
+            syncVodNextButtonIdle();
         }
     }
 
-    function activateVodNextAction() {
-        if (!vodNextPromptVisible) {
+    function activateVodNextAction(fromClick) {
+        if (!vodNextBtn || vodNextBtn.hidden) {
+            return false;
+        }
+        // OK on remote: only when end-prompt is up or the next button itself is focused.
+        // Clicks always work while the button is visible.
+        if (
+            !fromClick &&
+            !vodNextPromptVisible &&
+            document.activeElement !== vodNextBtn &&
+            !vodNextBtn.classList.contains('is-focused')
+        ) {
             return false;
         }
         if (vodNextIsLast || !getNextVodEpisode()) {
@@ -5273,6 +5531,8 @@
         vodResumeTargetSec = 0;
         vodResumeApplied = false;
         vodLastProgressSaveAt = 0;
+        vodPendingStartTitle = true;
+        vodStartTitleActive = false;
 
         if (opts.resume !== false) {
             var saved = getVodProgress(currentVodEpisodeId);
@@ -5501,6 +5761,7 @@
     }
 
     function resumeVod() {
+        vodStartTitleActive = false;
         hideVodPauseInfo();
         if (usingAvplayPlayback && hasAvplay()) {
             try {
@@ -5544,6 +5805,34 @@
 
     function seekVodBy(deltaSec) {
         seekVodTo(getVodCurrentSec() + deltaSec);
+    }
+
+    function blurVodRestartBtn() {
+        if (!vodRestartBtn) {
+            return;
+        }
+        vodRestartBtn.classList.remove('is-focused');
+        try {
+            vodRestartBtn.blur();
+        } catch (eBlur) {}
+    }
+
+    function restartVodFromBeginning() {
+        if (!isVodMode || !isFullscreen) {
+            return;
+        }
+        revealVodControls();
+        hideVodPauseInfo();
+        vodResumeTargetSec = 0;
+        vodResumeApplied = true;
+        if (currentVodEpisodeId) {
+            clearVodProgress(currentVodEpisodeId);
+        }
+        seekVodTo(0);
+        setVodSeekVisual(0, true);
+        resumeVod();
+        syncVodPlayPauseUi();
+        blurVodRestartBtn();
     }
 
     function clearVodSeekHold() {
@@ -5712,7 +6001,8 @@
 
     // Fetch a still frame from every live channel stream (on enter + every minute).
     // Uses Mac proxy /frame (ffmpeg) — reliable on TV where canvas/hls snapshots fail.
-    function refreshAllLiveSnapshots() {
+    function refreshAllLiveSnapshots(opts) {
+        var onlyMissing = !!(opts && opts.onlyMissing);
         if (currentView !== 'live' || isFullscreen) {
             return;
         }
@@ -5732,92 +6022,441 @@
             }
 
             Array.prototype.forEach.call(list, function (channel) {
-                var streamUrl = getChannelUrl(channel);
+                var id = channel.getAttribute('data-channel') || '';
+                var streamUrl;
+                if (isLiveChannelUnavailable(id)) {
+                    return;
+                }
+                if (onlyMissing && id && liveSnapshotCache[id] && liveSnapshotCache[id].url) {
+                    return;
+                }
+                streamUrl = getChannelUrl(channel);
                 if (!streamUrl || !isPlayableUrl(streamUrl) || !isHlsUrl(streamUrl)) {
                     return;
                 }
-                if (isMakoVodUrl(streamUrl)) {
-                    resolveMakoPlayUrl(streamUrl, function (err, playUrl) {
-                        if (err || !playUrl) {
-                            console.warn('Live frame Mako resolve failed:', err);
-                            return;
-                        }
-                        applyRemoteFrameToChannel(channel, playUrl);
-                    });
-                    return;
-                }
+                beginLiveTileWait(channel, id);
+                // Proxy /frame applies Mako tickets — no need to resolve on the TV first
                 applyRemoteFrameToChannel(channel, streamUrl);
             });
         });
     }
 
+    function isLiveChannelUnavailable(channelId) {
+        return !!(channelId && liveUnavailable[channelId]);
+    }
+
+    function findLiveChannelEl(channelId) {
+        var list;
+        var i;
+        if (!channelId) {
+            return null;
+        }
+        list = document.querySelectorAll('#channels .channel[data-channel]');
+        for (i = 0; i < list.length; i++) {
+            if (list[i].getAttribute('data-channel') === channelId) {
+                return list[i];
+            }
+        }
+        return null;
+    }
+
+    function clearLiveTileWait(channelId) {
+        if (!channelId) {
+            return;
+        }
+        if (liveTileWaitTimers[channelId]) {
+            clearTimeout(liveTileWaitTimers[channelId]);
+            delete liveTileWaitTimers[channelId];
+        }
+        delete liveTileWaitStarted[channelId];
+    }
+
+    function clearLiveUnavailableUi(channel) {
+        var thumb;
+        var status;
+        if (!channel) {
+            return;
+        }
+        channel.removeAttribute('data-unavailable');
+        thumb = channel.querySelector('.channel-thumb');
+        if (!thumb) {
+            return;
+        }
+        thumb.classList.remove('is-unavailable');
+        status = thumb.querySelector('.live-tile-unavailable');
+        if (status && status.parentNode) {
+            status.parentNode.removeChild(status);
+        }
+    }
+
+    function applyUnavailableToChannel(channel) {
+        var thumb;
+        var wrap;
+        var status;
+        if (!channel) {
+            return;
+        }
+        channel.setAttribute('data-unavailable', '1');
+        thumb = channel.querySelector('.channel-thumb');
+        if (!thumb) {
+            return;
+        }
+        hideLiveTileSpinner(thumb);
+        thumb.classList.add('is-unavailable');
+        thumb.classList.remove('has-snapshot', 'is-live', 'is-frozen');
+        wrap = thumb.querySelector('.live-snap-wrap') || thumb;
+        status = wrap.querySelector('.live-tile-unavailable');
+        if (!status) {
+            status = document.createElement('span');
+            status.className = 'live-tile-unavailable';
+            status.setAttribute('dir', 'rtl');
+            status.setAttribute('aria-hidden', 'true');
+            status.textContent = 'השידור לא זמין';
+            wrap.appendChild(status);
+        }
+    }
+
+    function markLiveChannelUnavailable(channelId) {
+        var channel;
+        if (!channelId || liveUnavailable[channelId]) {
+            return;
+        }
+        liveUnavailable[channelId] = true;
+        clearLiveTileWait(channelId);
+        liveFrameQueue = liveFrameQueue.filter(function (job) {
+            return job.id !== channelId;
+        });
+        channel = findLiveChannelEl(channelId);
+        applyUnavailableToChannel(channel);
+        console.warn('Live tile unavailable after wait:', channelId);
+    }
+
+    function beginLiveTileWait(channel, channelId) {
+        var started;
+        var elapsed;
+        var remaining;
+        if (!channelId) {
+            return;
+        }
+        if (isLiveChannelUnavailable(channelId)) {
+            applyUnavailableToChannel(channel);
+            return;
+        }
+        if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url) {
+            return;
+        }
+        started = liveTileWaitStarted[channelId];
+        if (!started) {
+            liveTileWaitStarted[channelId] = Date.now();
+            started = liveTileWaitStarted[channelId];
+        }
+        elapsed = Date.now() - started;
+        if (elapsed >= LIVE_TILE_WAIT_MS) {
+            markLiveChannelUnavailable(channelId);
+            return;
+        }
+        if (liveTileWaitTimers[channelId]) {
+            return;
+        }
+        remaining = LIVE_TILE_WAIT_MS - elapsed;
+        liveTileWaitTimers[channelId] = setTimeout(function () {
+            delete liveTileWaitTimers[channelId];
+            if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url) {
+                return;
+            }
+            markLiveChannelUnavailable(channelId);
+        }, remaining);
+    }
+
+    function hideLiveTileSpinner(thumb) {
+        var spinner;
+        if (!thumb) {
+            return;
+        }
+        spinner = thumb.querySelector('.live-tile-spinner');
+        if (spinner) {
+            spinner.hidden = true;
+        }
+    }
+
+    function rememberLiveSnapshot(channelId, url) {
+        var channel;
+        if (!channelId || !url) {
+            return;
+        }
+        liveSnapshotCache[channelId] = { url: url };
+        clearLiveTileWait(channelId);
+        if (liveUnavailable[channelId]) {
+            delete liveUnavailable[channelId];
+            channel = findLiveChannelEl(channelId);
+            clearLiveUnavailableUi(channel);
+        }
+    }
+
+    function applyCachedLiveSnapshot(channel, channelId) {
+        var entry = channelId && liveSnapshotCache[channelId];
+        var thumb;
+        var img;
+        var wrap;
+        if (!entry || !entry.url || !channel) {
+            return false;
+        }
+        thumb = channel.querySelector('.channel-thumb');
+        img = channel.querySelector('.channel-snapshot');
+        if (!thumb || !img) {
+            return false;
+        }
+        wrap = img.parentElement;
+        // Blob URLs can die after the previous LIVE DOM was torn down (common on Tizen).
+        img.onerror = function () {
+            var streamUrl;
+            img.onerror = null;
+            if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url === entry.url) {
+                delete liveSnapshotCache[channelId];
+            }
+            thumb.classList.remove('has-snapshot');
+            img.classList.remove('is-revealed', 'is-cached');
+            if (wrap && wrap.classList) {
+                wrap.classList.remove('is-revealed', 'is-cached');
+            }
+            img.removeAttribute('src');
+            img.removeAttribute('data-blob-url');
+            if (currentView !== 'live' || isFullscreen) {
+                return;
+            }
+            streamUrl = getChannelUrl(channel);
+            if (!streamUrl || !isHlsUrl(streamUrl)) {
+                return;
+            }
+            checkVodProxy(function (ok) {
+                if (!ok || currentView !== 'live' || isFullscreen) {
+                    return;
+                }
+                applyRemoteFrameToChannel(channel, streamUrl);
+            });
+        };
+        img.src = entry.url;
+        img.setAttribute('data-blob-url', entry.url);
+        img.classList.add('is-revealed', 'is-cached');
+        if (wrap && wrap.classList) {
+            wrap.classList.add('is-revealed', 'is-cached');
+        }
+        hideLiveTileSpinner(thumb);
+        thumb.classList.add('has-snapshot');
+        channel.setAttribute('data-hero', entry.url);
+        return true;
+    }
+
+    /** First snapshot: VOD-style white line + vertical open. Later / cached frames: instant. */
+    function revealLiveSnapshot(thumb, img) {
+        var wrap;
+        if (!thumb || !img) {
+            return;
+        }
+        hideLiveTileSpinner(thumb);
+        thumb.classList.add('has-snapshot');
+        wrap = img.parentElement;
+        if (img.classList.contains('is-revealed') || img.classList.contains('is-cached')) {
+            img.classList.add('is-cached');
+            if (wrap && wrap.classList) {
+                wrap.classList.add('is-cached', 'is-revealed');
+            }
+            return;
+        }
+        revealVodImage(img);
+    }
+
+    function clearLiveFrameQueue() {
+        liveFrameQueue = [];
+        liveFrameGeneration += 1;
+    }
+
+    function enqueueRemoteFrame(channel, streamUrl) {
+        if (!streamUrl) {
+            return;
+        }
+        var id = (channel && channel.getAttribute('data-channel')) || '';
+        var i;
+        if (id && isLiveChannelUnavailable(id)) {
+            return;
+        }
+        // Replace pending job for same channel (avoid duplicate work on re-enter)
+        for (i = 0; i < liveFrameQueue.length; i++) {
+            if (liveFrameQueue[i].id && liveFrameQueue[i].id === id) {
+                liveFrameQueue[i].channel = channel || liveFrameQueue[i].channel;
+                liveFrameQueue[i].streamUrl = streamUrl;
+                liveFrameQueue[i].gen = liveFrameGeneration;
+                pumpLiveFrameQueue();
+                return;
+            }
+        }
+        liveFrameQueue.push({
+            id: id,
+            channel: channel || null,
+            streamUrl: streamUrl,
+            gen: liveFrameGeneration
+        });
+        pumpLiveFrameQueue();
+    }
+
+    function enqueueWarmFrame(channelId, streamUrl) {
+        if (!channelId || !streamUrl) {
+            return;
+        }
+        if (isLiveChannelUnavailable(channelId)) {
+            return;
+        }
+        if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url) {
+            return;
+        }
+        var i;
+        for (i = 0; i < liveFrameQueue.length; i++) {
+            if (liveFrameQueue[i].id === channelId) {
+                return;
+            }
+        }
+        liveFrameQueue.push({
+            id: channelId,
+            channel: null,
+            streamUrl: streamUrl,
+            gen: liveFrameGeneration
+        });
+        pumpLiveFrameQueue();
+    }
+
+    /** Prefetch LIVE stills into session cache while user is on Home (or elsewhere). */
+    function warmLiveSnapshotsInBackground() {
+        checkVodProxy(function (ok) {
+            var list;
+            var prefer;
+            if (!ok) {
+                return;
+            }
+            list = window.ISRTV_CHANNELS || [];
+            prefer = liveRegionTab || 'israel';
+            // Warm preferred region first, then the rest
+            [prefer, 'israel', 'world', 'kids'].filter(function (r, idx, arr) {
+                return arr.indexOf(r) === idx;
+            }).forEach(function (region) {
+                list.forEach(function (item) {
+                    var itemRegion = item.region || 'israel';
+                    if (itemRegion !== region) {
+                        return;
+                    }
+                    if (!item.id || !item.streamURL || !isHlsUrl(item.streamURL)) {
+                        return;
+                    }
+                    enqueueWarmFrame(item.id, item.streamURL);
+                });
+            });
+        });
+    }
+
+    function pumpLiveFrameQueue() {
+        while (liveFrameActive < LIVE_FRAME_CONCURRENCY && liveFrameQueue.length) {
+            (function (job) {
+                if (job.gen !== liveFrameGeneration) {
+                    return;
+                }
+                if (job.id && isLiveChannelUnavailable(job.id)) {
+                    return;
+                }
+                liveFrameActive += 1;
+                fetchRemoteFrame(job.channel, job.streamUrl, job.id, function () {
+                    liveFrameActive = Math.max(0, liveFrameActive - 1);
+                    pumpLiveFrameQueue();
+                });
+            })(liveFrameQueue.shift());
+        }
+    }
+
     function applyRemoteFrameToChannel(channel, streamUrl) {
-        var thumb = channel.querySelector('.channel-thumb');
-        var img = channel.querySelector('.channel-snapshot');
-        if (!thumb || !img || !streamUrl) {
+        enqueueRemoteFrame(channel, streamUrl);
+    }
+
+    function fetchRemoteFrame(channel, streamUrl, channelId, done) {
+        var thumb = channel ? channel.querySelector('.channel-thumb') : null;
+        var img = channel ? channel.querySelector('.channel-snapshot') : null;
+        var id = channelId || (channel && channel.getAttribute('data-channel')) || '';
+        var finished = false;
+        function finish() {
+            if (finished) {
+                return;
+            }
+            finished = true;
+            if (typeof done === 'function') {
+                done();
+            }
+        }
+        if (!streamUrl || (id && isLiveChannelUnavailable(id))) {
+            finish();
             return;
         }
 
-        // Download fully first, then swap — keeps the previous still visible (no black flash)
         var frameSrc = VOD_PROXY_BASE + '/frame?url=' + encodeURIComponent(streamUrl) +
             '&t=' + Date.now();
         var xhr = new XMLHttpRequest();
         xhr.open('GET', frameSrc, true);
         xhr.responseType = 'blob';
-        xhr.timeout = 25000;
+        xhr.timeout = 15000;
         xhr.onload = function () {
             if (xhr.status < 200 || xhr.status >= 300 || !xhr.response || !xhr.response.size) {
+                finish();
                 return;
             }
-            var blobUrl = URL.createObjectURL(xhr.response);
-            var previousBlob = img.getAttribute('data-blob-url') || '';
-            var probe = new Image();
-            probe.onload = function () {
-                // Only replace once the new frame is decoded
-                img.src = blobUrl;
-                img.setAttribute('data-blob-url', blobUrl);
-                thumb.classList.add('has-snapshot');
-                // Don't cover a good still with a frozen/black decoder
-                if (previewChannel !== channel) {
-                    thumb.classList.remove('is-frozen', 'is-live');
-                    destroyFrozenHls(channelKey(channel));
-                    var video = channel.querySelector('.channel-preview');
-                    if (video) {
-                        video.muted = true;
-                        video.pause();
-                        video.removeAttribute('src');
-                        try {
-                            video.load();
-                        } catch (e) {}
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                var dataUrl = reader.result;
+                if (!dataUrl || typeof dataUrl !== 'string' || dataUrl.indexOf('data:image') !== 0) {
+                    finish();
+                    return;
+                }
+                rememberLiveSnapshot(id, dataUrl);
+                if (channel && thumb && img && currentView === 'live') {
+                    img.src = dataUrl;
+                    img.removeAttribute('data-blob-url');
+                    revealLiveSnapshot(thumb, img);
+                    if (previewChannel !== channel) {
+                        thumb.classList.remove('is-frozen', 'is-live');
+                        destroyFrozenHls(channelKey(channel));
+                        var video = channel.querySelector('.channel-preview');
+                        if (video) {
+                            video.muted = true;
+                            video.pause();
+                            video.removeAttribute('src');
+                            try {
+                                video.load();
+                            } catch (e) {}
+                        }
                     }
+                    channel.setAttribute('data-hero', dataUrl);
                 }
-                channel.setAttribute('data-hero', blobUrl);
-                if (previousBlob && previousBlob !== blobUrl) {
-                    setTimeout(function () {
-                        try {
-                            URL.revokeObjectURL(previousBlob);
-                        } catch (e) {}
-                    }, 1500);
-                }
+                finish();
             };
-            probe.onerror = function () {
-                try {
-                    URL.revokeObjectURL(blobUrl);
-                } catch (e) {}
+            reader.onerror = function () {
+                finish();
             };
-            probe.src = blobUrl;
+            try {
+                reader.readAsDataURL(xhr.response);
+            } catch (eRead) {
+                finish();
+            }
         };
         xhr.onerror = function () {
             console.warn('Live frame failed:', streamUrl);
+            finish();
         };
         xhr.ontimeout = function () {
             console.warn('Live frame timeout:', streamUrl);
+            finish();
         };
         xhr.send();
     }
 
     function startSnapshotRefresh() {
-        refreshAllLiveSnapshots();
+        // Cache paints instantly in renderChannels; only fetch tiles still missing a still.
+        // Queued concurrency avoids XHR timeouts while ffmpeg jobs wait on the Mac.
+        refreshAllLiveSnapshots({ onlyMissing: true });
         if (snapshotRefreshTimer) {
             clearInterval(snapshotRefreshTimer);
         }
@@ -5833,6 +6472,7 @@
     }
 
     function stopSnapshotCapture() {
+        clearLiveFrameQueue();
         snapshotBusy = false;
         snapshotQueue = [];
         if (snapshotRefreshTimer) {
@@ -5863,7 +6503,8 @@
             return false;
         }
         img.src = dataUrl;
-        thumb.classList.add('has-snapshot');
+        rememberLiveSnapshot(channel.getAttribute('data-channel'), dataUrl);
+        revealLiveSnapshot(thumb, img);
         // While previewing, only refresh the still under the video.
         if (keepPreview || previewChannel === channel) {
             return true;
@@ -6180,10 +6821,27 @@
                 applyThumbImage(inner, item.imageURL);
             }
 
+            var snapWrap = document.createElement('span');
+            snapWrap.className = 'vod-card-img-wrap live-snap-wrap';
+
+            var snapLine = document.createElement('span');
+            snapLine.className = 'vod-card-img-line';
+            snapLine.setAttribute('aria-hidden', 'true');
+            snapWrap.appendChild(snapLine);
+
+            var spinner = document.createElement('span');
+            spinner.className = 'live-tile-spinner';
+            spinner.setAttribute('aria-hidden', 'true');
+            for (var si = 0; si < 12; si++) {
+                spinner.appendChild(document.createElement('i'));
+            }
+            snapWrap.appendChild(spinner);
+
             var snapshot = document.createElement('img');
-            snapshot.className = 'channel-snapshot';
+            snapshot.className = 'channel-snapshot vod-card-img';
             snapshot.alt = '';
-            inner.appendChild(snapshot);
+            snapWrap.appendChild(snapshot);
+            inner.appendChild(snapWrap);
 
             var video = document.createElement('video');
             video.className = 'channel-preview';
@@ -6204,6 +6862,11 @@
 
             button.appendChild(inner);
             container.appendChild(button);
+            if (isLiveChannelUnavailable(item.id)) {
+                applyUnavailableToChannel(button);
+            } else if (!applyCachedLiveSnapshot(button, item.id)) {
+                beginLiveTileWait(button, item.id);
+            }
         });
     }
 
@@ -6357,6 +7020,48 @@
         setFocus(tabs + nextCard, shouldScroll);
     }
 
+    function registerVodRemoteKeys() {
+        var names;
+        var i;
+        if (typeof tizen === 'undefined' || !tizen.tvinputdevice) {
+            return;
+        }
+        names = [
+            'MediaPlay',
+            'MediaPause',
+            'MediaPlayPause',
+            'MediaFastForward',
+            'MediaRewind',
+            'MediaTrackNext',
+            'MediaTrackPrevious'
+        ];
+        try {
+            if (typeof tizen.tvinputdevice.registerKeyBatch === 'function') {
+                tizen.tvinputdevice.registerKeyBatch(names);
+                return;
+            }
+        } catch (eBatch) {}
+        for (i = 0; i < names.length; i++) {
+            try {
+                tizen.tvinputdevice.registerKey(names[i]);
+            } catch (eKey) {}
+        }
+    }
+
+    function skipToNextVodFromRemote() {
+        clearVodSeekHold();
+        blurVodRestartBtn();
+        revealVodControls();
+        if (getNextVodEpisode()) {
+            playNextVodEpisode();
+            return;
+        }
+        // Last of multi-ep series — show end button; single-ep titles have no next control
+        if (seriesHasMultipleEpisodes()) {
+            showVodNextPrompt(true);
+        }
+    }
+
     function onKeyDown(e) {
         if (isFullscreen) {
             if (e.keyCode === 10009 || e.keyCode === 27) {
@@ -6370,6 +7075,15 @@
                 switch (e.keyCode) {
                     case 13: // OK
                         clearVodSeekHold();
+                        if (
+                            vodRestartBtn &&
+                            (document.activeElement === vodRestartBtn ||
+                                vodRestartBtn.classList.contains('is-focused'))
+                        ) {
+                            restartVodFromBeginning();
+                            e.preventDefault();
+                            break;
+                        }
                         if (activateVodNextAction()) {
                             e.preventDefault();
                             break;
@@ -6382,16 +7096,46 @@
                     case 19: // MediaPause
                     case 10252: // MediaPlayPause
                         clearVodSeekHold();
+                        blurVodRestartBtn();
                         revealVodControls();
                         toggleVodPlayPause();
                         e.preventDefault();
                         break;
-                    case 37: // LEFT seek back
-                        startVodSeekHold(37);
+                    case 417: // MediaFastForward
+                    case 10233: // MediaTrackNext (FF long-press on Smart Remote)
+                        skipToNextVodFromRemote();
                         e.preventDefault();
                         break;
-                    case 39: // RIGHT seek forward
-                        startVodSeekHold(39);
+                    case 412: // MediaRewind
+                    case 10232: // MediaTrackPrevious
+                        clearVodSeekHold();
+                        restartVodFromBeginning();
+                        e.preventDefault();
+                        break;
+                    case 37: // LEFT — top buttons, else seek back
+                        clearVodSeekHold();
+                        if (!moveVodFocusHorizontal(-1)) {
+                            focusVodSeekBar();
+                            startVodSeekHold(37);
+                        }
+                        e.preventDefault();
+                        break;
+                    case 39: // RIGHT — top buttons, else seek forward
+                        clearVodSeekHold();
+                        if (!moveVodFocusHorizontal(1)) {
+                            focusVodSeekBar();
+                            startVodSeekHold(39);
+                        }
+                        e.preventDefault();
+                        break;
+                    case 38: // UP → top button row
+                        clearVodSeekHold();
+                        moveVodFocusVertical(-1);
+                        e.preventDefault();
+                        break;
+                    case 40: // DOWN → seek bar
+                        clearVodSeekHold();
+                        moveVodFocusVertical(1);
                         e.preventDefault();
                         break;
                     default:
@@ -6783,7 +7527,7 @@
                 return;
             }
             if (dy < 0) {
-                setFocus(mylistIndex, false);
+                tryFocusProfileChromeFromTop();
                 return;
             }
             if (focusedIndex === searchIndex && dx < 0) {
@@ -6829,7 +7573,8 @@
                 setFocus(0, true);
                 return;
             }
-            setFocus(activeTabIndex, true);
+            // Content → חיפוש (then Up again → profile)
+            setFocus(searchIndex, true);
             return;
         }
         if (nextRow > maxRow) {
@@ -6858,6 +7603,7 @@
             el.classList.contains('vod-season-option') ||
             el.classList.contains('vod-ime-key') ||
             el.classList.contains('vod-next-btn') ||
+            el.classList.contains('vod-restart-btn') ||
             el.classList.contains('profile-btn') ||
             el.classList.contains('profile-dropdown-item') ||
             el.classList.contains('profile-card') ||
@@ -7523,8 +8269,10 @@
         }
     }
 
-    function playKanVodOnDevice(url, generation) {
-        showMessage('Connecting to VOD proxy…');
+    // Same engine as live tile preview: hls.js, prefer LAN CORS proxy on TV.
+    // Avoids Samsung AVPlay DEMUXER_ERROR_DETECTED_HLS on many live masters.
+    function playHlsJsOnDevice(url, generation) {
+        showMessage(playLoadingLabel());
         checkVodProxy(function (ok) {
             if (generation !== playGeneration) {
                 return;
@@ -7536,9 +8284,13 @@
                 playWithHtmlVideo(vodProxyUrl(url), generation);
                 return;
             }
-            // Proxy down: still try hls.js directly (Mako often allows CORS; native demux does not).
+            // Proxy down: still try hls.js directly (many CDNs allow CORS; native demux often does not).
             playWithHtmlVideo(url, generation);
         });
+    }
+
+    function playKanVodOnDevice(url, generation) {
+        playHlsJsOnDevice(url, generation);
     }
 
     // Live HLS that AVPlay/native can't demux (SCTE, odd masters) → hls.js via LAN proxy
@@ -7868,6 +8620,11 @@
             return;
         }
 
+        var channelId = channel.getAttribute('data-channel') || '';
+        if (isLiveChannelUnavailable(channelId) || channel.getAttribute('data-unavailable') === '1') {
+            return;
+        }
+
         var url = getChannelUrl(channel);
         var thumb = channel.querySelector('.channel-thumb');
         var video = channel.querySelector('.channel-preview');
@@ -8020,7 +8777,11 @@
         clearVodSeekHold();
         stopVodSeekAnim();
         clearVodHideTimer();
-        hideVodPauseInfo(true);
+        // Keep pending start-title across the stop→playFullscreen handoff
+        if (!vodPendingStartTitle) {
+            vodStartTitleActive = false;
+            hideVodPauseInfo(true);
+        }
         stopAvplay();
         destroyHls(fullscreenHls);
         fullscreenHls = null;
@@ -8140,12 +8901,13 @@
             }
             var detail = data && data.details ? data.details : '';
             var isNetwork = data && data.type === 'networkError';
-            // Mako/Kan VOD: if direct hls.js is blocked (CORS / widget origin), retry via LAN proxy.
-            if (isNetwork && !isProxiedUrl(url) && needsHlsJsVod(url)) {
+            // Direct hls.js blocked (CORS / widget origin): retry via LAN proxy (live + Mako/Kan).
+            if (isNetwork && !isProxiedUrl(url) && (!isVodMode || needsHlsJsVod(url))) {
                 destroyHls(fullscreenHls);
                 fullscreenHls = null;
                 playLiveViaProxy(url, generation, function () {
-                    showMessage('VOD proxy is not running on your PC. On the Mac run: node scripts/vod-cors-proxy.js');
+                    showMessage((isVodMode ? 'VOD' : 'Media') +
+                        ' proxy is not running on your PC. On the Mac run: node scripts/vod-cors-proxy.js');
                 });
                 return;
             }
@@ -8246,11 +9008,8 @@
                 clearAvplayWatchdog();
                 console.warn('Native video failed, trying proxy/hls.js:', msg);
                 playLiveViaProxy(url, generation, function () {
-                    if (needsHlsJsVod(url)) {
-                        playWithHtmlVideo(url, generation);
-                        return;
-                    }
-                    showMessage(msg || playFailLabel());
+                    // Never fall back to native again for HLS demux failures — use hls.js.
+                    playWithHtmlVideo(url, generation);
                 });
                 return;
             }
@@ -8310,17 +9069,17 @@
             return;
         }
 
-        // After AVPlay: try hls.js via LAN proxy (handles SCTE / odd demux / Mako), then native <video>
-        console.warn('AVPlay exhausted (' + reason + '), trying proxy/hls.js then native');
+        // After AVPlay: hls.js via LAN proxy, then direct hls.js (never native demux for HLS).
+        console.warn('AVPlay exhausted (' + reason + '), trying proxy/hls.js');
         setAvplayOverlay(false);
         if (isHlsUrl(url) && !isProxiedUrl(url) && (!isVodMode || needsHlsJsVod(url))) {
             playLiveViaProxy(url, generation, function () {
-                if (needsHlsJsVod(url)) {
-                    playWithHtmlVideo(url, generation);
-                    return;
-                }
-                playWithNativeVideo(url, generation);
+                playWithHtmlVideo(url, generation);
             });
+            return;
+        }
+        if (isHlsUrl(url)) {
+            playWithHtmlVideo(url, generation);
             return;
         }
         playWithNativeVideo(url, generation);
@@ -8494,23 +9253,28 @@
     }
 
     function playFullscreen(url) {
+        var keepStartTitle = isVodMode && vodPendingStartTitle;
         stopFullscreenPlayback();
+        if (keepStartTitle) {
+            vodPendingStartTitle = true;
+        }
         var generation = playGeneration;
 
-        // Demuxed CMAF live (e.g. SVT) — prefer hls.js; AVPlay often can't demux separate A/V
-        if (pendingPreferHlsJs && isHlsUrl(url)) {
-            usingAvplayPlayback = false;
-            setAvplayOverlay(false);
-            playWithHtmlVideo(url, generation);
+        // Live HLS: same path as tile preview (hls.js ± proxy). AVPlay often throws
+        // DEMUXER_ERROR_DETECTED_HLS on MediaPackage / SCTE / demuxed masters.
+        if (isHlsUrl(url) && !isVodMode) {
+            playHlsJsOnDevice(url, generation);
             return;
         }
 
-        // Live TS → AVPlay. Kan fMP4 / Mako .csmil VOD on TV → hls.js (proxy when needed).
+        // VOD / preferHlsJs: Kan fMP4, Mako, SVT-style CMAF — hls.js (proxy when needed).
+        if (isHlsUrl(url) && (pendingPreferHlsJs || (hasAvplay() && needsHlsJsVod(url)))) {
+            playHlsJsOnDevice(url, generation);
+            return;
+        }
+
+        // Remaining VOD HLS that AVPlay can usually demux.
         if (isHlsUrl(url)) {
-            if (hasAvplay() && needsHlsJsVod(url)) {
-                playKanVodOnDevice(url, generation);
-                return;
-            }
             if (hasAvplay()) {
                 playWithAvplay(url, generation, 0);
                 return;
@@ -8594,12 +9358,15 @@
         vodResumeTargetSec = 0;
         vodResumeApplied = false;
         vodLastProgressSaveAt = 0;
+        vodPendingStartTitle = false;
+        vodStartTitleActive = false;
         if (vod) {
             currentVodEpisodeId = channel.getAttribute('data-episode') || '';
             var saved = getVodProgress(currentVodEpisodeId);
             if (saved && saved.p >= VOD_PROGRESS_MIN_SEC) {
                 vodResumeTargetSec = saved.p;
             }
+            vodPendingStartTitle = true;
         }
 
         if (!url && !assetId) {
@@ -8626,6 +9393,8 @@
 
         isFullscreen = false;
         document.body.classList.remove('is-fullscreen');
+        vodPendingStartTitle = false;
+        vodStartTitleActive = false;
         stopFullscreenPlayback();
         setVodMode(false);
         currentVodEpisodeId = null;

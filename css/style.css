@@ -234,10 +234,86 @@ body {
     margin-top: 0;
 }
 
+/* Match VOD provider tab chrome exactly (fixed box, no text-width growth) */
+#live-tabs .vod-tab {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 80px;
+    flex: 0 0 200px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#vod-tabs .vod-tab.vod-tab-logo {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 80px;
+    flex: 0 0 200px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+}
+
 /* Live channel cards reuse VOD card chrome + keep snapshot/preview layers */
 .live-card.vod-card .vod-card-inner {
     aspect-ratio: 16 / 9;
+    background: #000;
 }
+
+.live-card .live-snap-wrap {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+    overflow: hidden;
+    background: #000;
+}
+
+.live-card .live-tile-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 52px;
+    height: 52px;
+    margin: -26px 0 0 -26px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.live-card .live-tile-spinner[hidden],
+.live-card .channel-thumb.has-snapshot .live-tile-spinner,
+.live-card .channel-thumb.is-live .live-tile-spinner,
+.live-card .channel-thumb.is-frozen .live-tile-spinner,
+.live-card .channel-thumb.is-unavailable .live-tile-spinner {
+    display: none;
+}
+
+.live-card .live-tile-spinner i {
+    position: absolute;
+    left: 24px;
+    top: 2px;
+    width: 4px;
+    height: 12px;
+    border-radius: 2px;
+    background: #fff;
+    transform-origin: 2px 24px;
+    animation: player-spinner-fade 1s linear infinite;
+}
+
+.live-card .live-tile-spinner i:nth-child(1)  { transform: rotate(0deg);   animation-delay: -0.916s; }
+.live-card .live-tile-spinner i:nth-child(2)  { transform: rotate(30deg);  animation-delay: -0.833s; }
+.live-card .live-tile-spinner i:nth-child(3)  { transform: rotate(60deg);  animation-delay: -0.750s; }
+.live-card .live-tile-spinner i:nth-child(4)  { transform: rotate(90deg);  animation-delay: -0.666s; }
+.live-card .live-tile-spinner i:nth-child(5)  { transform: rotate(120deg); animation-delay: -0.583s; }
+.live-card .live-tile-spinner i:nth-child(6)  { transform: rotate(150deg); animation-delay: -0.500s; }
+.live-card .live-tile-spinner i:nth-child(7)  { transform: rotate(180deg); animation-delay: -0.416s; }
+.live-card .live-tile-spinner i:nth-child(8)  { transform: rotate(210deg); animation-delay: -0.333s; }
+.live-card .live-tile-spinner i:nth-child(9)  { transform: rotate(240deg); animation-delay: -0.250s; }
+.live-card .live-tile-spinner i:nth-child(10) { transform: rotate(270deg); animation-delay: -0.166s; }
+.live-card .live-tile-spinner i:nth-child(11) { transform: rotate(300deg); animation-delay: -0.083s; }
+.live-card .live-tile-spinner i:nth-child(12) { transform: rotate(330deg); animation-delay: 0s; }
 
 .live-card .channel-snapshot,
 .live-card .channel-preview,
@@ -252,14 +328,18 @@ body {
     z-index: 0;
 }
 
-.live-card .channel-thumb.has-image .channel-poster,
-.live-card .channel-thumb.has-snapshot .channel-snapshot {
+.live-card .live-snap-wrap .channel-snapshot {
+    display: block;
+    z-index: 0;
+}
+
+.live-card .channel-thumb.has-image .channel-poster {
     display: block;
     z-index: 0;
 }
 
 /* Snapshot stays under the live/frozen video so there is no black gap while buffering */
-.live-card .channel-thumb.has-snapshot .channel-snapshot {
+.live-card .channel-thumb.has-snapshot .live-snap-wrap {
     z-index: 0;
 }
 
@@ -274,8 +354,7 @@ body {
 }
 
 /* Prefer the still over a paused decoder — Tizen often paints black on pause */
-.live-card .channel-thumb.is-frozen.has-snapshot:not(.is-live) .channel-snapshot {
-    display: block;
+.live-card .channel-thumb.is-frozen.has-snapshot:not(.is-live) .live-snap-wrap {
     z-index: 2;
 }
 
@@ -313,8 +392,28 @@ body {
 .live-card .channel-thumb.has-image::after,
 .live-card .channel-thumb.has-snapshot::after,
 .live-card .channel-thumb.is-live::after,
-.live-card .channel-thumb.is-frozen::after {
+.live-card .channel-thumb.is-frozen::after,
+.live-card .channel-thumb.is-unavailable::after {
     display: none;
+}
+
+.live-card .live-tile-unavailable {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    text-align: center;
+    background: #000;
+    color: rgba(255, 255, 255, 0.88);
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    line-height: 1.25;
+    pointer-events: none;
 }
 
 .channels {
@@ -1040,7 +1139,7 @@ body.is-fullscreen .vod-view.is-active {
     right: 0;
     bottom: 0;
     z-index: 2;
-    padding: 28px 64px 64px;
+    padding: 28px 140px 64px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.35), transparent);
     opacity: 1;
     visibility: visible;
@@ -1069,24 +1168,71 @@ body.is-fullscreen .vod-view.is-active {
     display: none;
 }
 
+.vod-restart-btn {
+    appearance: none;
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    background: #fff;
+    color: #111;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 14px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    direction: rtl;
+    white-space: nowrap;
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition:
+        border-color 0.15s ease,
+        border-width 0.15s ease,
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        background 0.15s ease,
+        opacity 0.45s ease,
+        visibility 0s linear 0s;
+}
+
+.vod-restart-btn:focus,
+.vod-restart-btn.is-focused {
+    outline: none;
+    border-width: 4px;
+    border-color: #6bb3ff;
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.45);
+    transform: scale(1.04);
+}
+
+.vod-restart-btn.is-auto-hidden {
+    /* Visibility follows .vod-controls; class kept for focus logic */
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: none;
+}
+
+.vod-restart-btn[hidden] {
+    display: none;
+}
+
 .vod-controls-meta {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    gap: 24px;
-    max-width: 1600px;
-    margin: 0 auto 18px;
-    min-height: 56px;
-    direction: ltr;
+    display: none;
 }
 
 .vod-seek-wrap {
-    flex: 1;
+    flex: 1 1 auto;
     min-width: 0;
+    max-width: none;
     position: relative;
     display: flex;
     align-items: center;
     height: 28px;
+    margin: 0 8px;
 }
 
 .vod-seek-visual {
@@ -1113,7 +1259,7 @@ body.is-fullscreen .vod-view.is-active {
     top: 0;
     bottom: 0;
     width: 0%;
-    background: var(--accent);
+    background: #fff;
     border-radius: 999px;
     will-change: width;
 }
@@ -1129,31 +1275,58 @@ body.is-fullscreen .vod-view.is-active {
     background: #fff;
     border: 3px solid var(--accent);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
-    will-change: left;
+    transform: scale(1);
+    transform-origin: center center;
+    will-change: left, transform;
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.25s ease;
+}
+
+.vod-seek-wrap.is-focused .vod-seek-visual-thumb {
+    background: #8ec8ff;
+    border-color: #6bb3ff;
+    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.5), 0 2px 14px rgba(0, 0, 0, 0.45);
+    animation: vod-seek-thumb-nudge 0.45s ease-out;
+}
+
+@keyframes vod-seek-thumb-nudge {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .vod-next-btn {
     appearance: none;
     position: relative;
     overflow: hidden;
-    border: 3px solid transparent;
-    background: rgba(255, 255, 255, 0.32);
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    background: #fff;
     color: #111;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
-    padding: 14px 36px;
+    padding: 14px 28px;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: auto;
+    margin: 0;
     direction: rtl;
-    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+    white-space: nowrap;
+    transition: border-color 0.15s ease, border-width 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
 
 .vod-next-fill {
     position: absolute;
     inset: 0;
-    background: #fff;
+    background: #8ec8ff;
     transform: scaleX(0);
     transform-origin: left center;
     transition: transform 0.25s linear;
@@ -1174,17 +1347,74 @@ body.is-fullscreen .vod-view.is-active {
 .vod-next-btn:focus,
 .vod-next-btn.is-focused {
     outline: none;
-    border-color: #111;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.85);
+    border-width: 4px;
+    border-color: #6bb3ff;
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.45);
     transform: scale(1.04);
+}
+
+.vod-next-btn:focus .vod-next-label,
+.vod-next-btn.is-focused .vod-next-label {
+    color: #111;
+}
+
+.vod-next-btn.is-prompt {
+    background: #fff;
+}
+
+.vod-next-btn.is-prompt .vod-next-label {
+    color: #111;
+}
+
+.vod-next-btn.is-prompt:focus,
+.vod-next-btn.is-prompt.is-focused {
+    background: #fff;
 }
 
 .vod-controls-inner {
     display: flex;
     align-items: center;
-    gap: 24px;
-    max-width: 1600px;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    direction: ltr;
+}
+
+.vod-controls-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+    max-width: 1580px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.vod-controls-stack:has(#vod-next-btn[hidden]) {
+    gap: 28px;
+}
+
+.vod-controls-next-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    min-height: 0;
+    margin-left: -65px;
+    margin-right: -65px;
+}
+
+.vod-controls-next-row .vod-restart-btn {
+    margin-right: auto;
+}
+
+.vod-controls-stack:has(#vod-next-btn[hidden]):has(#vod-restart-btn[hidden]) .vod-controls-next-row {
+    display: none;
+}
+
+.vod-controls-stack:has(#vod-next-btn[hidden]) .vod-controls-next-row {
+    display: flex;
 }
 
 .vod-btn {

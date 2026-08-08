@@ -8,29 +8,32 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - למען הילדים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12527/143194/",
-      "imageURL": "",
+      "imageURL": "https://www.kan.org.il/media/owekto2l/2022-4-5-imgid-72182_b.jpeg?rmode=pad&width=1200&height=630",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qjf3kpyj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/dor-echad-vachetsi/ep1.jpg",
+      "subtitle": "סיפור העלייה הגדולה מברה\"מ בשנות ה-90 דרך עיניהם של ״דור 1.5״- ילדי העלייה, שפותחים מול הוריהם שאלות קשות על הישרדות כלכלית וחברתית, כדי להבין אם העלייה היא סיפור הצלחה או כישלון 08.11.2020"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - נשארים לבד",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12527/143197/",
       "imageURL": "https://www.kan.org.il/media/rujn1o2f/2022-4-12-imgid-72606_b.jpeg?width=490&height=272&v=1d975e43b29d1d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_335pmemj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/dor-echad-vachetsi/ep2.jpg",
+      "subtitle": "סיפור העלייה הגדולה מברה\"מ בשנות ה-90 דרך עיניהם של ״דור 1.5״- ילדי העלייה, שפותחים מול הוריהם שאלות קשות על הישרדות כלכלית וחברתית, כדי להבין אם העלייה היא סיפור הצלחה או כישלון 08.11.2020"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - אחרי 30 שנה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12527/143200/",
       "imageURL": "https://www.kan.org.il/media/0n3jnz0w/2022-4-19-imgid-72961_b.jpeg?width=490&height=272&v=1d975e43c9e2250",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nqbtzman/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/dor-echad-vachetsi/ep3.jpg",
+      "subtitle": "תעודה. סיפור העלייה הגדולה מברה\"מ בניינטיז, דרך עיניהם של ילדי העלייה. בפרק האחרון - הפיגוע בדולפינריום בו נפגעים גם עולים מרוסיה הופך אותם באחת לישראלים, אבל גם 30 שנה אחרי, הם עדיין בוחנים את מקומם. 08.11.2020"
     }
   ],
   "localPoster": "images/kanbox/dor-echad-vachetsi/series.jpg"

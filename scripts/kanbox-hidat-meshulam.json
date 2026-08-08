@@ -8,29 +8,32 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - אש בלב יהוד",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145032/",
-      "imageURL": "",
+      "imageURL": "https://www.kan.org.il/media/4bkhxocx/2022-5-17-imgid-74572_b.jpeg?rmode=pad&width=1200&height=630",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2794np20/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hidat-meshulam/ep1.jpg",
+      "subtitle": "מה שהחל כסכסוך שכנים, מתדרדר מהר מאוד לאירוע אלים הכולל ירי ובקבוקי תבערה 17.05.2022"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - חמישים ימים של מצור",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145044/",
       "imageURL": "https://www.kan.org.il/media/pijdul1c/2022-5-17-imgid-74584_b.jpeg?width=490&height=272&v=1d975e7c105fab0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oa148l7o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hidat-meshulam/ep2.jpg",
+      "subtitle": "דוקו דרמה על הפרשה ההחברתית הקשה והמטלטלת שבמרכזה הרב עוזי משולם וחסידיו. פרק 2. להרוג ולהיהרג: האירועים ביהוד מסלימים. אחרי שכבר הושגה פשרה, ההסכם מתפוצץ וכוחות משטרה גדולים צרים על הבית 24.05.2022"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - תם ולא נשלם",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12487/145047/",
       "imageURL": "https://www.kan.org.il/media/gcjja0rs/2022-5-31-imgid-75428_b.jpeg?width=490&height=272&v=1d975e7c2a10d10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3gfjfobh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hidat-meshulam/ep3.jpg",
+      "subtitle": "הרב משולם ואנשיו נעצרים ונשלחים לכלא. ועדת כהן-קדמי לחקירת פרשת היעלמות ילדי תימן נפתחת 31.05.2022"
     }
   ],
   "localPoster": "images/kanbox/hidat-meshulam/series.jpg"

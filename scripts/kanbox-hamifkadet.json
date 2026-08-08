@@ -8,272 +8,302 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - עיניים אלי!",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128175/",
       "imageURL": "https://www.kan.org.il/media/z4zj11r0/https-kanstaticazureedgenet-download-pictures-2021-3-21-imgid-49496_aa.jpeg?width=490&height=272&v=1d97a099e66c590",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hjkpi0ws/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep1.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep1.jpg",
+      "subtitle": "דרמה קומית על עולם הטירונות הכלל צה\"לית. נועה, קצינה נטולת יכולות בינאישיות, מפקדת לראשונה על מחזור טירונות ונאלצת להתמודד עם חיילות קשות במיוחד, סגל שלא יודע איך לאכול אותה ומערכת ללא סובלנות לטעויות 15.04.2021"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - מה שלא הורג",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128178/",
       "imageURL": "https://www.kan.org.il/media/zw1hhbcr/https-kanstaticazureedgenet-download-pictures-2021-3-21-imgid-49497_aa.jpeg?width=490&height=272&v=1d97a099fcf5640",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7y3xyo70/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep2.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep2.jpg",
+      "subtitle": "נועה חדורת המוטיבציה לוקחת פרויקט מיוחד - לשקם מ\"כית שהייתה אמורה לצאת מהתפקיד עקב אי-התאמה. בין הטירוניות פורצת מלחמה סביב שאלת בגדי הים במקלחות המשותפות 19.04.2021"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - כשהגלים מתחזקים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128181/",
       "imageURL": "https://www.kan.org.il/media/wytcmp0t/https-kanstaticazureedgenet-download-pictures-2021-4-22-imgid-51464_aa.jpeg?width=490&height=272&v=1d97a09a0886d10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ft95bem9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep3.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep3.jpg",
+      "subtitle": "המ\"מ הקודמת, סאלי, מגיעה לביקור שמערער את מקומה של נועה במחלקה. הטירוניות גונבות את הטלפון של המ\"כית שלהן והמפקדות שוברות את הראש כיצד להשיב אותו 22.04.2021"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - החזקים מתגלים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128184/",
       "imageURL": "https://www.kan.org.il/media/e2goydkk/https-kanstaticazureedgenet-download-pictures-2021-4-25-imgid-51585_aa.jpeg?width=490&height=272&v=1d97a09a13575f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_frhxqfqs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep4.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep4.jpg",
+      "subtitle": "כשחגית מסרבת לקלוט נשק ועלולה שלא לסיים טירונות, צליל יוצאת מגדרה כדי למנוע זאת בכל מחיר. כפיר מתכונן לוועדה שתכריע את עתידו הצבאי ומוצא את עצמו תלוי בחוות הדעת החיובית של נועה 26.04.2021"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - חתירה למגע",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128977/",
       "imageURL": "https://www.kan.org.il/media/rinfmihr/https-kanstaticazureedgenet-download-pictures-2021-4-28-imgid-51788_aa.jpeg?width=490&height=272&v=1d97a09a1d51150",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xlbw3son/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep5.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep5.jpg",
+      "subtitle": "ביום המטווחים של המחלקה, נועה מוצאת מכתב אהבה מסתורי באפוד שלה ונעשית אובססיבית לגבי זהות הכותבת שלו. צליל מתמודדת עם ההשלכות של ההחלטה שלה לעזור לחגית 29.04.2021"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - פיקוח נפש",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128980/",
       "imageURL": "https://www.kan.org.il/media/3euhdp4h/https-kanstaticazureedgenet-download-pictures-2021-5-2-imgid-52095_aa.jpeg?width=490&height=272&v=1d97a09a2785630",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0skh2szn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep6.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep6.jpg",
+      "subtitle": "במהלך ערב גיבוש פלוגתי, בו מתחרות המחלקות על גביע יקר מפז, החברות של ספיר וצימר עומדת במבחן לא צפוי. נועה, שלא הוזמנה לאירוע, מוצאת עצמה על גג השק\"ם בחברת טירון שמאיים לקפוץ 19.10.2020"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - נכתבו בדם",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128983/",
       "imageURL": "https://www.kan.org.il/media/krmcwbne/https-kanstaticazureedgenet-download-pictures-2021-5-2-imgid-52096_aa.jpeg?width=490&height=272&v=1d97a09a3161cd0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mweq6d53/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep7.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep7.jpg",
+      "subtitle": "שבע חיילות, שלוש עמדות, ולילה אחד ארוך של שמירות. פרק שכולו מפגשים משונים ובלתי צפויים שרק טירונות יכולה לייצר 19.10.2020"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - מדוגמת פלס",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128986/",
       "imageURL": "https://www.kan.org.il/media/43zm2phm/https-kanstaticazureedgenet-download-pictures-2021-5-10-imgid-52694_aa.jpeg?width=490&height=272&v=1d97a09a3c68110",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d11lyylr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep8.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep8.jpg",
+      "subtitle": "לקראת מסדר ניקיון המב\"סית, נועה מתעקשת, בניגוד לעמדת כפיר, לקחת עוד פרויקט מיוחד עבור המחלקה שלה. בזמן שצליל מסתבכת עם האורח שלה בבסיס, נועה מתעמתת עם שמרית על אירועי השבת הפלוגתית 17.05.2021"
     },
     {
       "season": 1,
       "ep": 9,
-      "name": "עונה 1 פרק 9",
+      "name": "פרק 9 - נשבעת נשבעת נשבעת",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128989/",
       "imageURL": "https://www.kan.org.il/media/hr4osgxg/https-kanstaticazureedgenet-download-pictures-2021-5-13-imgid-52960_aa.jpeg?width=490&height=272&v=1d97a09a5c0a360",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oukb7xm0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep9.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep9.jpg",
+      "subtitle": "החיילות יוצאות למסע הכומתה שלהן בשטח מחוץ לבסיס. אלא שברית מפתיעה בין שתי אויבות מייצרת עבור המפקדות מסע משלהן 17.05.2021"
     },
     {
       "season": 1,
       "ep": 10,
-      "name": "עונה 1 פרק 10",
+      "name": "פרק 10 ואחרון לעונה - איחלתי לחיילת בהצלחה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s1/128992/",
       "imageURL": "https://www.kan.org.il/media/pnjhabf4/https-kanstaticazureedgenet-download-pictures-2021-5-16-imgid-53170_aa.jpeg?width=490&height=272&v=1d97a09a74324b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0mngkesx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s1-ep10.jpg"
+      "localImage": "images/kanbox/hamifkadet/s1-ep10.jpg",
+      "subtitle": "יום אחרון לטירונות והחיילות עומדות להתפזר ליחידות. חגית מפתיעה את צליל עם שאיפות חדשות. כפיר מבין שנועה לא ליכלכה עליו בפני המב\"סית. נועה, אכולת האשמה עקב האירועים האחרונים, עומדת בפני החלטה קשה 19.05.2021"
     },
     {
       "season": 2,
       "ep": 1,
-      "name": "עונה 2 פרק 1",
+      "name": "פרק 1 - נוהל כיף",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151001/",
       "imageURL": "https://www.kan.org.il/media/oimarcv5/https-kanstaticazureedgenet-download-pictures-2022-10-23-imgid-83578_aa.jpeg?width=490&height=272&v=1d97a099744c0a0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b5qgipfs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep1.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep1.jpg",
+      "subtitle": "עונה חדשה לדרמה הקומית עטורת הפרסים! לפני פתיחת מחזור חדש, הבט״ר יוצא ליום כיף בפארק מים. נועה והמפקדות מגלות שאירועי המחזור הקודם הוציאו להן שם רע. הן מנסות לתקן את תדמיתן וגם לעכל את הסמ״פ החדשה 19.10.2022"
     },
     {
       "season": 2,
       "ep": 2,
-      "name": "עונה 2 פרק 2",
+      "name": "פרק 2 - הכאב הוא רגעי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151070/",
       "imageURL": "https://www.kan.org.il/media/tyqd2gfd/https-kanstaticazureedgenet-download-pictures-2022-10-19-imgid-83635_aa.jpeg?width=490&height=272&v=1d97a09980d19b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rw8wcwmn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep2.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep2.jpg",
+      "subtitle": "במקביל לקליטת מחזור חדש של חיילים עתודאים, המחלקה צריכה גם לעכל טלטלה בלתי צפויה. צימר מובילה התנגדות ל\"תוכנית 2025״ עליה טולי אחראית 23.10.2022"
     },
     {
       "season": 2,
       "ep": 3,
-      "name": "עונה 2 פרק 3",
+      "name": "פרק 3 - הנפקדת",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/150872/",
       "imageURL": "https://www.kan.org.il/media/jlwb3gfc/https-kanstaticazureedgenet-download-pictures-2022-10-12-imgid-83210_aa.jpeg?width=490&height=272&v=1d97a0995c329b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_phc92zcu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep3.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep3.jpg",
+      "subtitle": "צליל יוצאת למסע מחוץ לגבולות הבסיס ונקלעת לאירוע חגיגי ולא צפוי. נועה מנסה לנהל יום קליטת נשקים בסגל חסר ונאלצת להיעזר בטולי שמנצלת את ההזדמנות כדי לנסות לשכנע את צימר להצטרף לצוות ההטמעה 26.10.2022"
     },
     {
       "season": 2,
       "ep": 4,
-      "name": "עונה 2 פרק 4",
+      "name": "פרק 4 - מורשת קרב",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151250/",
       "imageURL": "https://www.kan.org.il/media/rbkcien3/https-kanstaticazureedgenet-download-pictures-2022-10-25-imgid-84039_aa.jpeg?width=490&height=272&v=1d97a099972c430",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6abyeeoy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep4.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep4.jpg",
+      "subtitle": "בזמן שנועה חוששת מהתקרבות המפקדות שלה אל טולי, יוגב מגלה שהילל מתקשה להשתלב במחלקה של נועה ויוזם מבצע לשקם את מעמדו החברתי 30.10.2022"
     },
     {
       "season": 2,
       "ep": 5,
-      "name": "עונה 2 פרק 5",
+      "name": "פרק 5 - מכת אש",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/150875/",
       "imageURL": "https://www.kan.org.il/media/mcemi5ep/https-kanstaticazureedgenet-download-pictures-2022-10-12-imgid-83214_aa.jpeg?width=490&height=272&v=1d97a0996828210",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_byun7c99/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep5.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep5.jpg",
+      "subtitle": "בשביל לאחד את המחלקה נועה יוזמת יום אימון מיוחד בשטח ומסרבת לוותר עליו גם לנוכח עומס חום, חזיונות מערערים ולחץ מצד טולי. כפיר מקבל בשורה משמחת אך מתקשה לשמוח ממנה. החברות של הילל עם פרטוש עומדת למבחן 02.11.2022"
     },
     {
       "season": 2,
       "ep": 6,
-      "name": "עונה 2 פרק 6",
+      "name": "פרק 6 - להוביל",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151571/",
       "imageURL": "https://www.kan.org.il/media/zaim2fue/https-kanstaticazureedgenet-download-pictures-2022-11-2-imgid-84619_aa.jpeg?width=490&height=272&v=1d97a099a424930",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eonygkg7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep6.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep6.jpg",
+      "subtitle": "צליל לא מסתפקת בתפקיד שהוטל עליה לקראת טקס יום הזיכרון הבט״רי, ומסתבכת כשהיא פועלת, בעצתה של חגו, כדי לשדרג את מעמדה 06.11.2022"
     },
     {
       "season": 2,
       "ep": 7,
-      "name": "עונה 2 פרק 7",
+      "name": "פרק 7 - הפולשת",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151574/",
       "imageURL": "https://www.kan.org.il/media/lkhibwi0/https-kanstaticazureedgenet-download-pictures-2022-11-2-imgid-84620_aa.jpeg?width=490&height=272&v=1d97a099b0e24b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9p9rdcm9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep7.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep7.jpg",
+      "subtitle": "נועה יוצאת שבת בבית הוריה עם משימה שמפחידה אותה יותר מכל. התוכנית שלה מסתבכת עקב נוכחותה של אורחת לא רצויה 09.11.2022"
     },
     {
       "season": 2,
       "ep": 8,
-      "name": "עונה 2 פרק 8",
+      "name": "פרק 8 - להפסיד בקרב",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/151694/",
       "imageURL": "https://www.kan.org.il/media/tdfovrr2/https-kanstaticazureedgenet-download-pictures-2022-11-6-imgid-84839_aa.jpeg?width=490&height=272&v=1d97a099bd59360",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1sf90ktm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep8.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep8.jpg",
+      "subtitle": "צליל מאבדת תקווה שתקבל המלצה לקצונה מנועה, ומגלה אפשרות לחיים אחרים בבסיס. כפיר טומן מלכודת לטולי ונועה מגלה תופעה מדאיגה בקרב חיילי המחלקה 13.11.2022"
     },
     {
       "season": 2,
       "ep": 9,
-      "name": "עונה 2 פרק 9",
+      "name": "פרק 9 - לנצח במערכה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/152034/",
       "imageURL": "https://www.kan.org.il/media/jafbudkq/https-kanstaticazureedgenet-download-pictures-2022-11-13-imgid-85451_aa.jpeg?width=490&height=272&v=1d97a099c93da50",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lwmeesoz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep9.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep9.jpg",
+      "subtitle": "הבט״ר עומד למסדר במעמד מפקד מג״ל, וכולם במתח: הילל מסתכן כדי להתחבב מחדש על חבריו, צימר מחבלת לטולי בהכנות למסדר, וצליל חוצה עוד גבול 16.11.2022"
     },
     {
       "season": 2,
       "ep": 10,
-      "name": "עונה 2 פרק 10",
+      "name": "פרק 10 - שיפור שימור",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s2/152371/",
       "imageURL": "https://www.kan.org.il/media/mrejpgts/2022-10-20-imgid-83712_b.jpeg?width=490&height=272&v=1d975f62c06fb80",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rclbzzw3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s2-ep10.jpg"
+      "localImage": "images/kanbox/hamifkadet/s2-ep10.jpg",
+      "subtitle": "חגית מתכוננת לשלב הבא בקריירה הצבאית ועוזרת לחיילת במצוקה בזמן שצליל מצטרפת למאבק של צימר על ההילטונים, נועה וכפיר מתמודדים עם השלכות ההחלטות שלהם בנוגע לטולי 20.11.2022"
     },
     {
       "season": 3,
       "ep": 1,
-      "name": "עונה 3 פרק 1",
+      "name": "פרק 1 - הבוגדת חלק א'",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/771333/",
       "imageURL": "https://www.kan.org.il/media/wcdoqiam/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc0ae3987c2900",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2216527/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep1.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep1.jpg",
+      "subtitle": "פרק פתיחת העונה. יום פיזורים בבט\"ר. נועה, שהוגלתה על ידי המב\"סית לחדר אוכל, חוקרת תעלומה במזווה של הבסיס - בזמן שחייה הקודמים בפלוגת געש לא מפסיקים לרדוף אותה 08.09.2024"
     },
     {
       "season": 3,
       "ep": 2,
-      "name": "עונה 3 פרק 2",
+      "name": "פרק 2 - הבוגדת חלק ב'",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/771335/",
       "imageURL": "https://www.kan.org.il/media/205lvybo/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5026611177359938,0.19064580448365623&width=490&height=272&v=1dae344c92c83f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7poovgt4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep2.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep2.jpg",
+      "subtitle": "צימר מגלה שפלוגת געש נבחרה לייצג את הבט״ר בתחרות הפלוגה המעולה, והיא תעשה הכול כדי למנוע זאת. צליל חוזרת מקורס הקצינים להיות מ\"מ בפלוגה, אבל מתקשה במשימה שאמורה להיות פשוטה 08.09.2024"
     },
     {
       "season": 3,
       "ep": 3,
-      "name": "עונה 3 פרק 3",
+      "name": "פרק 3 - ציפיות",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772921/",
       "imageURL": "https://www.kan.org.il/media/aprixfmt/%D7%90%D7%AA%D7%A8.jpg?rxy=0.26892188874395095,0.23489358148182218&width=490&height=272&v=1dc1773d8602610",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9yl7d297/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep3.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep3.jpg",
+      "subtitle": "טולי נוסעת עם כפיר לבה\"ד 12 כדי להציג תוכניות למפקד מגל, אך נתקלת בדמות מעברה שהיא התאמצה לשכוח. בינתיים נועה, שחזרה לפיקוד, נשארת אחראית על הפלוגה ומגלה שאיבדה את הכוח הפיקודי שלה 10.09.2024"
     },
     {
       "season": 3,
       "ep": 4,
-      "name": "עונה 3 פרק 4",
+      "name": "פרק 4 - סרגל מאמצים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772922/",
       "imageURL": "https://www.kan.org.il/media/3upfvwiv/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA.jpg?rxy=0.4841890513430806,0.24180171292333436&width=490&height=272&v=1dc177133369270",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fy4x26np/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep4.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep4.jpg",
+      "subtitle": "חגית יוצאת לשליחות חריגה מטעם המב״סית כדי לנטרל אויבים מבית. בינתיים טולי עלולה לאבד את כל מה שנלחמה עבורו, ונועה מנסה טכניקות פיקודיות חדשות ומאתגרות 15.09.2024"
     },
     {
       "season": 3,
       "ep": 5,
-      "name": "עונה 3 פרק 5",
+      "name": "פרק 5 - רעיונות לא תקינים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772924/",
       "imageURL": "https://www.kan.org.il/media/cn3gltjy/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA.jpg?rxy=0.47862835231264866,0.2535062742667063&width=490&height=272&v=1dc17676f3fe140",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ew6rztg7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep5.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep5.jpg",
+      "subtitle": "ביקורת פיקוד מרכז לקראת תחרות הפלוגה המעולה מביאה איתה אורחת מפתיעה שמערערת את האמונה של המפקדים במוסד הטירונות עצמו 17.09.2024"
     },
     {
       "season": 3,
       "ep": 6,
-      "name": "עונה 3 פרק 6",
+      "name": "פרק 6 - איפוס כוונות",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772925/",
       "imageURL": "https://www.kan.org.il/media/hxwlvwpq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc15b5cbd1f230",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i1idr3if/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep6.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep6.jpg",
+      "subtitle": "הפלוגה עוברת אימון מטווחים מיוחד לקראת התחרות, בהובלת מדריך קליעה קשוח שמטיל אימה על המפקדים. מייקי מגלה סוד שצליל נואשת להסתיר, וטולי נדרשת לבחירה בלתי אפשרית 22.09.2024"
     },
     {
       "season": 3,
       "ep": 7,
-      "name": "עונה 3 פרק 7",
+      "name": "פרק 7 - מהנה ומגבש",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772912/",
       "imageURL": "https://www.kan.org.il/media/y3aew5io/%D7%9E%D7%A4%D7%A7%D7%93%D7%AA-%D7%A4%D7%A8%D7%A7-7.jpg?width=490&height=272&v=1db0e9b43d53e90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r9mpnanp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep7.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep7.jpg",
+      "subtitle": "הפלוגות המתחרות משתתפות בערב גיבוש חגיגי בבאולינג לקראת תחילת התחרות, אבל נועה וכפיר נאלצים להסתיר כשל חמור שעלול להביא להדחת הפלוגה מהתחרות 24.09.2024"
     },
     {
       "season": 3,
       "ep": 8,
-      "name": "עונה 3 פרק 8",
+      "name": "פרק 8 - המפקד",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772914/",
       "imageURL": "https://www.kan.org.il/media/pvubbkay/%D7%94%D7%9E%D7%A4%D7%A7%D7%93%D7%AA-2.jpg?width=490&height=272&v=1dc176481250e10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lekkvqvw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep8.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep8.jpg",
+      "subtitle": "בזמן ששאר המפקדות יוצאות לשטח התחרות, כפיר, יוגב ומייקי מוצאים את עצמם תקועים בחדר האוכל, מאוימים על ידי כוח עליון שמאלץ אותם להתמודד עם הרגשות שלהם 29.09.2024"
     },
     {
       "season": 3,
       "ep": 9,
-      "name": "עונה 3 פרק 9",
+      "name": "פרק 9 - סיפור דרך",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772926/",
       "imageURL": "https://www.kan.org.il/media/2m0bdr3x/%D7%90%D7%AA%D7%A8-%D7%9E%D7%95%D7%91%D7%94%D7%A8.jpg?rxy=0.4677464957509514,0.337611882599103&width=490&height=272&v=1dc17643ce2b090",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vq8jmv42/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep9.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep9.jpg",
+      "subtitle": "בלי טולי ובלי כפיר, נועה נאלצת להוביל את פלוגת געש בניווט בשטח בזמן שהמפקדים הממורמרים הולכים ויוצאים משליטה. במקביל, צימר יוצאת למשימה מיוחדת מחוץ לבסיס לבד 15.10.2024"
     },
     {
       "season": 3,
       "ep": 10,
-      "name": "עונה 3 פרק 10",
+      "name": "פרק 10 - שירות משמעותי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11766/s3/772927/",
       "imageURL": "https://www.kan.org.il/media/10ej0isn/%D7%90%D7%AA%D7%A8-%D7%97%D7%93%D7%A9.jpg?width=490&height=272&v=1dc176437f9f9d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hhqmvjqw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hamifkadet/s3-ep10.jpg"
+      "localImage": "images/kanbox/hamifkadet/s3-ep10.jpg",
+      "subtitle": "פרק אחרון בסדרה. תחרות הפלוגה המעולה בשיאה וכך גם המתח בין המחנות השונים בפלוגה. טולי וצימר לוקחות סיכון מחושב שעלול להיגמר בכלא, ונועה נדרשת לקבל את ההחלטה הפיקודית הגדולה ביותר שלה 15.10.2024"
     }
   ],
   "localPoster": "images/kanbox/hamifkadet/series.jpg"

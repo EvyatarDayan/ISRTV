@@ -8,74 +8,82 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - גזר דין",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840303/",
       "imageURL": "https://www.kan.org.il/media/5xjnelze/%D7%A4%D7%A8%D7%A7-1-%D7%9C%D7%90%D7%AA%D7%A8_.jpg?rxy=0.5299217953077184,0.3741881507488599&width=490&height=272&v=1dbbd1987182460",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g9r1iy0w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep1.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep1.jpg",
+      "subtitle": "שנת 1991. עולה חדשה נרצחת בירושלים. הרוצח חרט לה את המספר 37 על המצח. החשד נופל על ניקולאי, בעלה של הנרצחת. יהודה ג'רסי, הבלש שבידיו מופקד התיק, מטיל ספק באשמתו של ניקולאי ומגלה שרציחות דומות קרו בביה\"מ 24.02.2025"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - קרוקודיל",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840305/",
       "imageURL": "https://www.kan.org.il/media/lsvpzv0l/%D7%A4%D7%A8%D7%A7-2-%D7%9C%D7%90%D7%AA%D7%A8_.jpg?rxy=0.600045785907956,0.39825119236883944&width=490&height=272&v=1dbbd19835046f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pn50viki/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep2.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep2.jpg",
+      "subtitle": "מפקד התחנה אוסר על יהודה לשתף פעולה עם אנדריי. יהודה הולך בעקבותיו של נרקומן, שמשתמש באותו סם שהוזרק לנרצחת בירושלים, ובמקביל אנדריי מתחיל חקירה עצמאית בארץ הזרה 24.02.2025"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - מולדת",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840307/",
       "imageURL": "https://www.kan.org.il/media/jdbjhcea/%D7%90%D7%AA%D7%A8.jpg?rxy=0.44555159149687706,0.349941913710429&width=490&height=272&v=1dbbd1549002230",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vglb2gy5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep3.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep3.jpg",
+      "subtitle": "יהודה מנסה לפענח את הקשר בין מאשה קוגן, שהפרטים שלה נמצאו בזירה, לרצח העולה החדשה. אנדריי טוען שמאשה משתפת פעולה עם הרוצח. יהודה מחליט לבדוק את הכיוון הזה 03.03.2025"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - מתחת לחול",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840310/",
       "imageURL": "https://www.kan.org.il/media/b10b443b/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.3509010540632438,0.27081791847413444&width=490&height=272&v=1dc0d3066554d90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5l3ykfcl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep4.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep4.jpg",
+      "subtitle": "יהודה מחפש את אנדריי, שלפי חשדו קשור לניסיון ההתנקשות במאשה. בינתיים אנדריי מגלה מה משותף בין כל הרציחות 10.03.2025"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - בוגה נייט",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840311/",
       "imageURL": "https://www.kan.org.il/media/gkhp5z0z/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.3699421965317919,0.401390843452735&width=490&height=272&v=1dc0d3064c00790",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a51pyeui/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep5.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep5.jpg",
+      "subtitle": "החקירה מקבלת תפנית חדשה כשאנדריי משיג מידע סודי מלנינגרד. הרשויות ברוסיה מגלות על החקירה שמנהל אנדריי בישראל 17.03.2025"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - בעלטה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840312/",
       "imageURL": "https://www.kan.org.il/media/3mclnkfl/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.2597919453441967,0.28498987794571434&width=490&height=272&v=1dc0d306165e010",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5uua6li1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep6.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep6.jpg",
+      "subtitle": "החקירה מובילה את יהודה, אנדריי ומאשה למקום שבו יכול להסתתר הרוצח הסדרתי. הם חושפים שמדובר במקום סודי ומאוד רגיש לרשויות הישראליות 24.03.2025"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - הבן האבוד",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840313/",
       "imageURL": "https://www.kan.org.il/media/hdsnbynm/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.5086705202312138,0.30467015828340127&width=490&height=272&v=1dc0d30600b0b00",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kl18jeau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep7.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep7.jpg",
+      "subtitle": "החשוד ברצח נמלט ומרוסיה מגיעות חדשות מזעזעות, בדיוק כשנראה שהתיק פוצח 31.03.2025"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - שבות",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840315/",
       "imageURL": "https://www.kan.org.il/media/vxncmhgt/%D7%9E%D7%92%D7%A8%D7%A9-%D7%94%D7%A8%D7%95%D7%A1%D7%99%D7%9D.jpg?rxy=0.6665177951400709,0.3849833932885646&width=490&height=272&v=1dba7e3333f68d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ux13c834/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/migras-harusim/ep8.jpg"
+      "localImage": "images/kanbox/migras-harusim/ep8.jpg",
+      "subtitle": "המרדף אחר הרוצח הסדרתי מגיע לשיאו בפרק סיום מטלטל 07.04.2025"
     }
   ],
   "localPoster": "images/kanbox/migras-harusim/series.jpg"

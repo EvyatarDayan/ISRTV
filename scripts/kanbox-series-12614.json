@@ -1,6 +1,6 @@
 {
   "seriesId": "12614",
-  "slug": "series-12614",
+  "slug": "hayehudim-baim",
   "title": "היהודים באים",
   "poster": "https://www.kan.org.il/media/mudpmqnb/share-image_1200x630_%d7%94%d7%99%d7%94%d7%95%d7%93%d7%99%d7%9d-%d7%91%d7%90%d7%99%d7%9d.jpg?rmode=pad&width=1200&height=630",
   "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-12614/",
@@ -10,9 +10,9 @@
       "ep": 1,
       "name": "עונה 1 פרק 1",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77532/",
-      "imageURL": "",
+      "imageURL": "https://www.kan.org.il/media/pfsj1ue2/2022-10-18-imgid-83522_b.jpeg?width=490&height=272&v=1d975336d7e83d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lxdm9l6x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep1.jpg"
     },
     {
       "season": 1,
@@ -21,7 +21,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77538/",
       "imageURL": "https://www.kan.org.il/media/fucjc4qe/2022-10-18-imgid-83525_b.jpeg?width=490&height=272&v=1d975337046a480",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9uqy3c91/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep2.jpg"
     },
     {
       "season": 1,
@@ -30,7 +30,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77541/",
       "imageURL": "https://www.kan.org.il/media/i5hllnqu/2022-10-18-imgid-83528_b.jpeg?width=490&height=272&v=1d975337194cf60",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ugr5ia37/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep3.jpg"
     },
     {
       "season": 1,
@@ -39,7 +39,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77544/",
       "imageURL": "https://www.kan.org.il/media/xjujpy0f/2022-10-18-imgid-83530_b.jpeg?width=490&height=272&v=1d9753372ceaef0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0jubt9h1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep4.jpg"
     },
     {
       "season": 1,
@@ -48,7 +48,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77547/",
       "imageURL": "https://www.kan.org.il/media/gbmfgft1/2022-10-18-imgid-83531_b.jpeg?width=490&height=272&v=1d9753374173480",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ncm66jxb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep5.jpg"
     },
     {
       "season": 1,
@@ -57,7 +57,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77550/",
       "imageURL": "https://www.kan.org.il/media/fjcbuq3i/2022-10-18-imgid-83532_b.jpeg?width=490&height=272&v=1d97533755f44e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7jsxb0y1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep6.jpg"
     },
     {
       "season": 1,
@@ -66,7 +66,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77553/",
       "imageURL": "https://www.kan.org.il/media/xcybdotn/2022-10-18-imgid-83533_b.jpeg?width=490&height=272&v=1d97533769e2d80",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_inhj4b37/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep7.jpg"
     },
     {
       "season": 1,
@@ -75,7 +75,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77556/",
       "imageURL": "https://www.kan.org.il/media/lslhyjjy/2022-10-18-imgid-83534_b.jpeg?width=490&height=272&v=1d9753377e94b20",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eubejkcu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep8.jpg"
     },
     {
       "season": 1,
@@ -84,7 +84,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77559/",
       "imageURL": "https://www.kan.org.il/media/oqeemqo2/2022-10-18-imgid-83537_b.jpeg?width=490&height=272&v=1d97533793af870",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8aij0a4q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep9.jpg"
     },
     {
       "season": 1,
@@ -93,7 +93,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77562/",
       "imageURL": "https://www.kan.org.il/media/g4nkfmfm/2022-10-18-imgid-83538_b.jpeg?width=490&height=272&v=1d975337a810d00",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hs7exusx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep10.jpg"
     },
     {
       "season": 1,
@@ -102,7 +102,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77565/",
       "imageURL": "https://www.kan.org.il/media/bd2jmycd/2022-10-18-imgid-83539_b.jpeg?width=490&height=272&v=1d975337bdd68b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i0sk86an/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep11.jpg"
     },
     {
       "season": 1,
@@ -111,7 +111,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77568/",
       "imageURL": "https://www.kan.org.il/media/ehygryvf/2022-10-18-imgid-83540_b.jpeg?width=490&height=272&v=1d975337d1e7430",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ujfrgzgc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep12.jpg"
     },
     {
       "season": 2,
@@ -120,7 +120,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77571/",
       "imageURL": "https://www.kan.org.il/media/er0f5tyz/2022-10-18-imgid-83541_b.jpeg?width=490&height=272&v=1d975337e9d7310",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aba88chk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep1.jpg"
     },
     {
       "season": 2,
@@ -129,7 +129,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77574/",
       "imageURL": "https://www.kan.org.il/media/soifmnaw/2022-10-18-imgid-83542_b.jpeg?width=490&height=272&v=1d975337fd9c3a0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jql71ei8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep2.jpg"
     },
     {
       "season": 2,
@@ -138,7 +138,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77577/",
       "imageURL": "https://www.kan.org.il/media/hohjnwpm/2022-10-18-imgid-83543_b.jpeg?width=490&height=272&v=1d9753381161430",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_prbfyns1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep3.jpg"
     },
     {
       "season": 2,
@@ -147,7 +147,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77580/",
       "imageURL": "https://www.kan.org.il/media/v4vpyvo4/2022-10-18-imgid-83544_b.jpeg?width=490&height=272&v=1d97533824bd510",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kadx6msz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep4.jpg"
     },
     {
       "season": 2,
@@ -156,7 +156,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77583/",
       "imageURL": "https://www.kan.org.il/media/4sijvvrl/2022-10-18-imgid-83516_b.jpeg?width=490&height=272&v=1d97533838629d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4plp6fy1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep5.jpg"
     },
     {
       "season": 2,
@@ -165,7 +165,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77586/",
       "imageURL": "https://www.kan.org.il/media/rtml4zrz/2022-10-18-imgid-83517_b.jpeg?width=490&height=272&v=1d9753384b756d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dyvcw1u7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep6.jpg"
     },
     {
       "season": 2,
@@ -174,7 +174,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77589/",
       "imageURL": "https://www.kan.org.il/media/qarc2uut/2022-10-18-imgid-83518_b.jpeg?width=490&height=272&v=1d9753386018a10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9vf91vwd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep7.jpg"
     },
     {
       "season": 2,
@@ -183,7 +183,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77592/",
       "imageURL": "https://www.kan.org.il/media/d5qpskgn/2022-10-18-imgid-83519_b.jpeg?width=490&height=272&v=1d97533873b4290",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f41yomus/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep8.jpg"
     },
     {
       "season": 2,
@@ -192,7 +192,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77595/",
       "imageURL": "https://www.kan.org.il/media/tq1nqfzd/2022-10-18-imgid-83520_b.jpeg?width=490&height=272&v=1d9753388701910",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ya67ok21/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep9.jpg"
     },
     {
       "season": 2,
@@ -201,7 +201,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77598/",
       "imageURL": "https://www.kan.org.il/media/s2ylp5qc/2022-10-18-imgid-83521_b.jpeg?width=490&height=272&v=1d9753389af01b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yf7drpf4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep10.jpg"
     },
     {
       "season": 2,
@@ -210,7 +210,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77601/",
       "imageURL": "https://www.kan.org.il/media/zumf50sy/2022-10-18-imgid-83523_b.jpeg?width=490&height=272&v=1d975338af58b70",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eflcrf6p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep11.jpg"
     },
     {
       "season": 2,
@@ -219,7 +219,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77604/",
       "imageURL": "https://www.kan.org.il/media/xrdje15e/2022-10-18-imgid-83524_b.jpeg?width=490&height=272&v=1d975338c5d0ab0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vchg4mt9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep12.jpg"
     },
     {
       "season": 2,
@@ -228,7 +228,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77607/",
       "imageURL": "https://www.kan.org.il/media/yhwnghkk/2022-10-18-imgid-83526_b.jpeg?width=490&height=272&v=1d975338d9c8f90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c614f33n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep13.jpg"
     },
     {
       "season": 2,
@@ -237,7 +237,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77610/",
       "imageURL": "https://www.kan.org.il/media/fejjc1za/2022-10-18-imgid-83527_b.jpeg?width=490&height=272&v=1d975338eef4e50",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tctmvlyl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep14.jpg"
     },
     {
       "season": 2,
@@ -246,7 +246,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/81571/",
       "imageURL": "https://www.kan.org.il/media/nbffhg0y/2022-10-18-imgid-83529_b.jpeg?width=490&height=272&v=1d9753c60fe33e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fdtg8un8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep15.jpg"
     },
     {
       "season": 2,
@@ -255,7 +255,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77507/",
       "imageURL": "https://www.kan.org.il/media/oxlcyisz/cat17951_img_cover.jpg?width=490&height=272&v=1d9753360d82460",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r3z1gpzg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep16.jpg"
     },
     {
       "season": 3,
@@ -264,7 +264,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81564/",
       "imageURL": "https://www.kan.org.il/media/mmyprbbx/cat23532_img_cover260642859.jpg?width=490&height=272&v=1d9753c5e0231f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y63nudqx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep1.jpg"
     },
     {
       "season": 3,
@@ -273,7 +273,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81574/",
       "imageURL": "https://www.kan.org.il/media/20db1jtx/cat23542_img699692420.jpg?width=490&height=272&v=1da5dadcbfafd40",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_069gsgby/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep2.jpg"
     },
     {
       "season": 3,
@@ -282,7 +282,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81582/",
       "imageURL": "https://www.kan.org.il/media/kw0jajoq/cat23549_img_cover219626913.jpg?width=490&height=272&v=1d9753c673f4eb0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_brdqnmbg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep3.jpg"
     },
     {
       "season": 3,
@@ -291,7 +291,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81585/",
       "imageURL": "https://www.kan.org.il/media/qj5bft1c/cat23550_img582958549.jpg?width=490&height=272&v=1da5dadc9ad8ad0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlg5dqvj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep4.jpg"
     },
     {
       "season": 3,
@@ -300,7 +300,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81588/",
       "imageURL": "https://www.kan.org.il/media/mwchrp2f/cat23551_img905928273.jpg?width=490&height=272&v=1da5dadc6e4f4f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zgmr3kml/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep5.jpg"
     },
     {
       "season": 3,
@@ -309,7 +309,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81591/",
       "imageURL": "https://www.kan.org.il/media/jegizij0/cat23552_img_cover522352248.jpg?width=490&height=272&v=1d9753c6c602c70",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zd18sct9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep6.jpg"
     },
     {
       "season": 3,
@@ -318,7 +318,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81594/",
       "imageURL": "https://www.kan.org.il/media/hd2gssig/cat23553_img365646966.jpg?width=490&height=272&v=1da5dadcf83d5e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cr3dulrz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep7.jpg"
     },
     {
       "season": 3,
@@ -327,7 +327,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81597/",
       "imageURL": "https://www.kan.org.il/media/ac2jrma5/cat23554_img971845580.jpg?width=490&height=272&v=1da5dadd2bdcb30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_87jh9nz8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep8.jpg"
     },
     {
       "season": 3,
@@ -336,7 +336,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81600/",
       "imageURL": "https://www.kan.org.il/media/mcqnusno/imgid-72291_a.jpg?width=490&height=272&v=1dad86b0543a330",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2mrnlhtf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep9.jpg"
     },
     {
       "season": 3,
@@ -345,7 +345,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81603/",
       "imageURL": "https://www.kan.org.il/media/0aihphmn/imgid-73424_a.jpg?width=490&height=272&v=1dad86b0f077c20",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f763zh4o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep10.jpg"
     },
     {
       "season": 3,
@@ -354,7 +354,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81606/",
       "imageURL": "https://www.kan.org.il/media/0jmfhvyg/cat23557_img926013151.jpg?width=490&height=272&v=1dad86af99670d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_45oqaas6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep11.jpg"
     },
     {
       "season": 3,
@@ -363,7 +363,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81609/",
       "imageURL": "https://www.kan.org.il/media/e0ypqswh/cat23558_img498168000.jpg?width=490&height=272&v=1dad86af3df94a0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_erfers1p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep12.jpg"
     },
     {
       "season": 3,
@@ -372,7 +372,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81612/",
       "imageURL": "https://www.kan.org.il/media/zksjy2ig/cat23559_img536971186.jpg?width=490&height=272&v=1dad86ae2cc6530",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d02ivkef/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep13.jpg"
     },
     {
       "season": 3,
@@ -381,7 +381,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81615/",
       "imageURL": "https://www.kan.org.il/media/rd4e05be/imgid-64081_a.jpg?width=490&height=272&v=1dad86aeb7494f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0yscs2wl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep14.jpg"
     },
     {
       "season": 3,
@@ -390,7 +390,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/84085/",
       "imageURL": "https://www.kan.org.il/media/yhppbjkv/cat27037_img_cover787770151.jpg?width=490&height=272&v=1d97541b181ad10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_afgneflz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep15.jpg"
     },
     {
       "season": 4,
@@ -399,7 +399,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113627/",
       "imageURL": "https://www.kan.org.il/media/zoulxltb/2020-6-4-imgid-34516_b.jpeg?width=490&height=272&v=1d9757d39e9dd90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ermsegyf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep1.jpg"
     },
     {
       "season": 4,
@@ -408,7 +408,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113884/",
       "imageURL": "https://www.kan.org.il/media/syllhijk/2020-6-11-imgid-34957_b.jpeg?width=490&height=272&v=1d9757db584a070",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3658z3rw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep2.jpg"
     },
     {
       "season": 4,
@@ -417,7 +417,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113887/",
       "imageURL": "https://www.kan.org.il/media/nslkw50v/2020-6-18-imgid-35347_a.jpeg?width=490&height=272&v=1d9757db6d2cb50",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bxk9ib3l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep3.jpg"
     },
     {
       "season": 4,
@@ -426,7 +426,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113889/",
       "imageURL": "https://www.kan.org.il/media/ahrofo2b/2020-6-21-imgid-35470_b.jpeg?width=490&height=272&v=1d9757db7b7ad10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bgan9ut2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep4.jpg"
     },
     {
       "season": 4,
@@ -435,7 +435,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113892/",
       "imageURL": "https://www.kan.org.il/media/1s5jydel/2020-6-21-imgid-35471_b.jpeg?width=490&height=272&v=1d9757db91a9870",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_70zt6s2m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep5.jpg"
     },
     {
       "season": 4,
@@ -444,7 +444,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113895/",
       "imageURL": "https://www.kan.org.il/media/cpjbrr2e/2020-7-6-imgid-36262_a.jpeg?width=490&height=272&v=1d9757dba60ad00",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9nc7bhxs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep6.jpg"
     },
     {
       "season": 4,
@@ -453,7 +453,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113897/",
       "imageURL": "https://www.kan.org.il/media/jganh515/2020-7-13-imgid-36579_a.jpeg?width=490&height=272&v=1d9757dbb478a90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ofrumhc3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep7.jpg"
     },
     {
       "season": 4,
@@ -462,7 +462,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113899/",
       "imageURL": "https://www.kan.org.il/media/i1njaday/2020-7-20-imgid-36736_a.jpeg?width=490&height=272&v=1d9757dbc24cb30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pou5x9y1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep8.jpg"
     },
     {
       "season": 4,
@@ -471,7 +471,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113901/",
       "imageURL": "https://www.kan.org.il/media/j12dfpty/2020-7-23-imgid-36938_a.jpeg?width=490&height=272&v=1d9757dbd02a810",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_axznvp5q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep9.jpg"
     },
     {
       "season": 4,
@@ -480,7 +480,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113903/",
       "imageURL": "https://www.kan.org.il/media/qzblooak/2020-7-23-imgid-36935_a.jpeg?width=490&height=272&v=1d9757dbde566f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mxwhbayk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep10.jpg"
     },
     {
       "season": 4,
@@ -489,7 +489,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113905/",
       "imageURL": "https://www.kan.org.il/media/uxpdftdg/2020-8-10-imgid-37212_a.jpeg?width=490&height=272&v=1d9757dbecb5a20",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wuxmjnbj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep11.jpg"
     },
     {
       "season": 4,
@@ -498,7 +498,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113907/",
       "imageURL": "https://www.kan.org.il/media/awijr4gy/2020-8-13-imgid-37477_a.jpeg?width=490&height=272&v=1d9757dbfaba800",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ggozlxhi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep12.jpg"
     },
     {
       "season": 4,
@@ -507,7 +507,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113909/",
       "imageURL": "https://www.kan.org.il/media/1njdj531/2020-8-20-imgid-37622_b.jpeg?width=490&height=272&v=1d9757dc09cbec0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g52ozb6t/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep13.jpg"
     },
     {
       "season": 4,
@@ -516,7 +516,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113912/",
       "imageURL": "https://www.kan.org.il/media/t1aaru04/2020-8-31-imgid-38181_a.jpeg?width=490&height=272&v=1d9757dc1cefd30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v5bdlfqa/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep14.jpg"
     },
     {
       "season": 4,
@@ -525,7 +525,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113914/",
       "imageURL": "https://www.kan.org.il/media/duoh4ep1/2020-9-3-imgid-38435_b.jpeg?width=490&height=272&v=1d9757dc2b76160",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tkh0r5au/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep15.jpg"
     },
     {
       "season": 5,
@@ -534,7 +534,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138294/",
       "imageURL": "https://www.kan.org.il/media/r35aupmu/2022-2-16-imgid-69406_b.jpeg?width=490&height=272&v=1d975daea2f50b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kj3cfpkb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep1.jpg"
     },
     {
       "season": 5,
@@ -543,7 +543,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138297/",
       "imageURL": "https://www.kan.org.il/media/uksbfl5k/2022-2-16-imgid-69407_b.jpeg?width=490&height=272&v=1d975daebd78270",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lu424a96/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep2.jpg"
     },
     {
       "season": 5,
@@ -552,7 +552,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138300/",
       "imageURL": "https://www.kan.org.il/media/dnzjke5k/2022-2-16-imgid-69409_b.jpeg?width=490&height=272&v=1d975daed3eb390",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5bzv29t8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep3.jpg"
     },
     {
       "season": 5,
@@ -561,7 +561,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138303/",
       "imageURL": "https://www.kan.org.il/media/jc3jf5o2/2022-2-16-imgid-69410_b.jpeg?width=490&height=272&v=1d975daeea2b060",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o5r96g8e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep4.jpg"
     },
     {
       "season": 5,
@@ -570,7 +570,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138306/",
       "imageURL": "https://www.kan.org.il/media/j1lfe1td/2022-10-18-imgid-71243_b.jpeg?width=490&height=272&v=1d975daf0063800",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x73y6glz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep5.jpg"
     },
     {
       "season": 5,
@@ -579,7 +579,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138309/",
       "imageURL": "https://www.kan.org.il/media/1u3p4sx4/2022-3-27-imgid-71654_b.jpeg?width=490&height=272&v=1d975daf1663d30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rsvz4xlt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep6.jpg"
     },
     {
       "season": 5,
@@ -588,7 +588,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138312/",
       "imageURL": "https://www.kan.org.il/media/xc5iwrmo/2022-4-6-imgid-72278_b.jpeg?width=490&height=272&v=1d975daf2df2190",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk4bxm50/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep7.jpg"
     },
     {
       "season": 5,
@@ -597,7 +597,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138315/",
       "imageURL": "https://www.kan.org.il/media/refostol/2022-4-7-imgid-72289_b.jpeg?width=490&height=272&v=1d975daf4514f30",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kkhll854/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep8.jpg"
     },
     {
       "season": 5,
@@ -606,7 +606,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138318/",
       "imageURL": "https://www.kan.org.il/media/rvxmnjk3/2022-4-7-imgid-72291_b.jpeg?width=490&height=272&v=1d975daf631f610",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6y0jgrkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep9.jpg"
     },
     {
       "season": 5,
@@ -615,7 +615,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138321/",
       "imageURL": "https://www.kan.org.il/media/n0nl2eoq/2022-4-27-imgid-73424_b.jpeg?width=490&height=272&v=1d975daf7a5d160",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk5aq35r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep10.jpg"
     },
     {
       "season": 5,
@@ -624,7 +624,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138324/",
       "imageURL": "https://www.kan.org.il/media/xfifc3dx/2022-5-3-imgid-73720_b.jpeg?width=490&height=272&v=1d975daf90fe8b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f87o59xd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep11.jpg"
     },
     {
       "season": 5,
@@ -633,7 +633,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138327/",
       "imageURL": "https://www.kan.org.il/media/iutb55hu/2022-5-3-imgid-73724_b.jpeg?width=490&height=272&v=1d975dafa7915a0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5la3ylk4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep12.jpg"
     },
     {
       "season": 5,
@@ -642,7 +642,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138330/",
       "imageURL": "https://www.kan.org.il/media/qyakisuy/2022-6-7-imgid-75743_b.jpeg?width=490&height=272&v=1d975dafc002ad0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t3sc4l57/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep13.jpg"
     },
     {
       "season": 6,
@@ -651,7 +651,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748629/",
       "imageURL": "https://www.kan.org.il/media/t33jgfjf/%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%99%D7%9D.jpg?width=490&height=272&v=1dad9006959c850",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88c72fv6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep1.jpg"
     },
     {
       "season": 6,
@@ -660,7 +660,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748630/",
       "imageURL": "https://www.kan.org.il/media/0gpecnhe/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadb6f535bd130",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1x4kxgp7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep2.jpg"
     },
     {
       "season": 6,
@@ -669,7 +669,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748698/",
       "imageURL": "https://www.kan.org.il/media/c1ebgxvu/%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%99%D7%9D.jpg?rxy=0.5106464672813611,0.38161876750965396&width=490&height=272&v=1daaf5848c2f4d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_470kg86z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep3.jpg"
     },
     {
       "season": 6,
@@ -678,7 +678,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/751088/",
       "imageURL": "https://www.kan.org.il/media/hjtpobo1/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dadc5a98413ab0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1eubipqy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep4.jpg"
     },
     {
       "season": 6,
@@ -687,7 +687,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/757726/",
       "imageURL": "https://www.kan.org.il/media/51fowklm/s0421919_item01.jpg?width=490&height=272&v=1dadd1091e77010",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oljq8q9b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep5.jpg"
     },
     {
       "season": 6,
@@ -696,7 +696,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/765598/",
       "imageURL": "https://www.kan.org.il/media/kzkaknya/%D7%AA%D7%9E%D7%95%D7%A0%D7%94-%D7%9C%D7%99%D7%95%D7%98%D7%99%D7%95%D7%91-%D7%9D%D7%A8%D7%A7-6.jpg?width=490&height=272&v=1dacba01d21a100",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q55r111g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep6.jpg"
     },
     {
       "season": 6,
@@ -705,7 +705,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/762454/",
       "imageURL": "https://www.kan.org.il/media/l2ulvevk/s0421921.jpg?rxy=0.4950159524981209,0.3588036538366933&width=490&height=272&v=1dace56395593f0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u8iyng4c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep7.jpg"
     },
     {
       "season": 6,
@@ -714,7 +714,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/763623/",
       "imageURL": "https://www.kan.org.il/media/tqcnfjwo/%D7%A4%D7%A8%D7%A7-8-%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4337174122076118,0.34011667507043447&width=490&height=272&v=1dae1cd0949d5b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hbkw9ani/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep8.jpg"
     },
     {
       "season": 6,
@@ -723,7 +723,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/765592/",
       "imageURL": "https://www.kan.org.il/media/rvyizbik/%D7%94%D7%99%D7%94%D7%95%D7%93%D7%99%D7%9D-%D7%91%D7%90%D7%99%D7%9D-6-%D7%A4%D7%A8%D7%A7-9.jpg?rxy=0.4583567564393906,0.41581285731108164&width=490&height=272&v=1dae344fc6c7ae0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nvgi2cco/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep9.jpg"
     },
     {
       "season": 6,
@@ -732,7 +732,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769755/",
       "imageURL": "https://www.kan.org.il/media/e0co2rag/%D7%98%D7%9E%D7%91%D7%A0%D7%99%D7%99%D7%9C-%D7%A4%D7%A8%D7%A7-10.jpg?width=490&height=272&v=1dae4218b078330",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_632hzt0d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep10.jpg"
     },
     {
       "season": 6,
@@ -741,7 +741,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769764/",
       "imageURL": "https://www.kan.org.il/media/f35lofzi/%D7%90%D7%AA%D7%A82.jpg?rxy=0.44410188773663256,0.30116900601953506&width=490&height=272&v=1daf23f9e24e350",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v2cusxmn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep11.jpg"
     },
     {
       "season": 6,
@@ -750,7 +750,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769765/",
       "imageURL": "https://www.kan.org.il/media/3bsho5kx/%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.4599776362807876,0.28675887958725377&width=490&height=272&v=1dc15b6add12bb0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j3571fl5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep12.jpg"
     },
     {
       "season": 6,
@@ -759,7 +759,7 @@
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769766/",
       "imageURL": "https://www.kan.org.il/media/h13pehij/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc1c035f53a870",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1qr41r8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep13.jpg"
     }
   ],
   "localPoster": "images/kanbox/series-12614/series.jpg"

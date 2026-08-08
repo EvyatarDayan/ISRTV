@@ -123,9 +123,15 @@
         <h1 class="vod-title">LIVE</h1>
         <div class="vod-toolbar live-toolbar" id="live-toolbar">
           <div class="vod-tabs" id="live-tabs" role="tablist" aria-label="Live regions">
-            <button type="button" class="vod-tab is-active" id="live-tab-israel" role="tab" data-action="live-tab" data-live-tab="israel" aria-selected="true">ישראל</button>
-            <button type="button" class="vod-tab" id="live-tab-world" role="tab" data-action="live-tab" data-live-tab="world" aria-selected="false">מהעולם</button>
-            <button type="button" class="vod-tab" id="live-tab-kids" role="tab" data-action="live-tab" data-live-tab="kids" aria-selected="false">ילדים</button>
+            <button type="button" class="vod-tab vod-tab-logo is-active" id="live-tab-israel" role="tab" data-action="live-tab" data-live-tab="israel" aria-selected="true" aria-label="ישראל">
+              <img class="vod-tab-img" src="images/live/tab-israel.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-logo" id="live-tab-world" role="tab" data-action="live-tab" data-live-tab="world" aria-selected="false" aria-label="מהעולם">
+              <img class="vod-tab-img" src="images/live/tab-world.png" alt="" />
+            </button>
+            <button type="button" class="vod-tab vod-tab-logo" id="live-tab-kids" role="tab" data-action="live-tab" data-live-tab="kids" aria-selected="false" aria-label="ילדים">
+              <img class="vod-tab-img" src="images/live/tab-kids.png" alt="" />
+            </button>
           </div>
         </div>
       </header>
@@ -257,32 +263,35 @@
     </div>
 
     <div class="vod-controls" id="vod-controls" hidden>
-      <div class="vod-controls-meta">
-        <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>
-          <span class="vod-next-fill" id="vod-next-fill" aria-hidden="true"></span>
-          <span class="vod-next-label" id="vod-next-label">לפרק הבא</span>
-        </button>
-      </div>
-      <div class="vod-controls-inner">
-        <button type="button" class="vod-btn" id="vod-playpause" aria-label="Play/Pause">
-          <svg class="vod-btn-icon vod-btn-icon-pause" viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="5" y="4" width="5" height="16" rx="1.5"/>
-            <rect x="14" y="4" width="5" height="16" rx="1.5"/>
-          </svg>
-          <svg class="vod-btn-icon vod-btn-icon-play" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M7 4.5v15l13-7.5z"/>
-          </svg>
-        </button>
-        <span class="vod-time" id="vod-time-current">00:00</span>
-        <div class="vod-seek-wrap">
-          <div class="vod-seek-visual" aria-hidden="true">
-            <div class="vod-seek-visual-track"></div>
-            <div class="vod-seek-visual-fill" id="vod-seek-fill"></div>
-            <div class="vod-seek-visual-thumb" id="vod-seek-thumb"></div>
-          </div>
-          <input class="vod-seek" id="vod-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"/>
+      <div class="vod-controls-stack">
+        <div class="vod-controls-next-row">
+          <button type="button" class="vod-restart-btn" id="vod-restart-btn" hidden>מההתחלה</button>
+          <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>
+            <span class="vod-next-fill" id="vod-next-fill" aria-hidden="true"></span>
+            <span class="vod-next-label" id="vod-next-label">לפרק הבא</span>
+          </button>
         </div>
-        <span class="vod-time" id="vod-time-duration">00:00</span>
+        <div class="vod-controls-inner">
+          <button type="button" class="vod-btn" id="vod-playpause" aria-label="Play/Pause">
+            <svg class="vod-btn-icon vod-btn-icon-pause" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="5" y="4" width="5" height="16" rx="1.5"/>
+              <rect x="14" y="4" width="5" height="16" rx="1.5"/>
+            </svg>
+            <svg class="vod-btn-icon vod-btn-icon-play" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 4.5v15l13-7.5z"/>
+            </svg>
+          </button>
+          <span class="vod-time" id="vod-time-current">00:00</span>
+          <div class="vod-seek-wrap">
+            <div class="vod-seek-visual" aria-hidden="true">
+              <div class="vod-seek-visual-track"></div>
+              <div class="vod-seek-visual-fill" id="vod-seek-fill"></div>
+              <div class="vod-seek-visual-thumb" id="vod-seek-thumb"></div>
+            </div>
+            <input class="vod-seek" id="vod-seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"/>
+          </div>
+          <span class="vod-time" id="vod-time-duration">00:00</span>
+        </div>
       </div>
     </div>
   </div>

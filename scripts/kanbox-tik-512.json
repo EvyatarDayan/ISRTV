@@ -8,29 +8,32 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - משפחת הפשע",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12274/142696/",
-      "imageURL": "",
+      "imageURL": "https://www.kan.org.il/media/cwbd1kgq/https-kanstaticazureedgenet-download-pictures-2022-6-28-imgid-76914_aa.jpeg?rmode=pad&width=1200&height=630",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_adnxljkm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/tik-512/ep1.jpg",
+      "subtitle": "ביום 28.6.22 נגזרו על יצחק אברג'יל שלושה מאסרי עולם לאחר שהורשע בשלושה מעשי רצח ובעבירות סמים בהיקף ענק. זוהי סדרת דוקו המביאה את סיפור תיק חקירת משפחות הפשע בישראל. בשנות ה-90 יצחק אברג׳יל היה העבריין החזק בישראל. מלחמות העבריינים מגיעות לשיאן בפיגוע פלילי בו נהרגים 3 חפים מפשע."
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - מלוד לעולם",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12274/142963/",
       "imageURL": "https://www.kan.org.il/media/fq4nmlo0/https-kanstaticazureedgenet-download-pictures-2022-3-27-imgid-71638_aa.jpeg?width=490&height=272&v=1d97aeb095b6c70",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1cfix6yq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/tik-512/ep2.jpg",
+      "subtitle": "ביום 28.6.22 נגזרו על יצחק אברג'יל שלושה מאסרי עולם לאחר שהורשע בשלושה מעשי רצח ובעבירות סמים בהיקף ענק. זוהי סדרת דוקו המביאה את סיפור תיק חקירת משפחות הפשע בישראל. פרק 2. הפשע הישראלי שולח זרועות לכל העולם. יצחק אברג׳יל נכנס לכלא בארה\"ב והמשטרה הישראלית מנסה לגייס נגדו עד מדינה"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - נפילת האימפריה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12274/147087/",
       "imageURL": "https://www.kan.org.il/media/aucnakqd/https-kanstaticazureedgenet-download-pictures-2022-6-29-imgid-76994_aa.jpeg?width=490&height=272&v=1d97aeb0abe09b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7vat2odq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/tik-512/ep3.jpg",
+      "subtitle": "סדרת תעודה על תיק חקירת משפחות הפשע בישראל. בפרק האחרון, אחרי עשור וחצי של חקירה סמויה וחוצת יבשות, ישראל יוצאת למהלך חקירה גלוי: 600 נחקרים, 6 עדי מדינה ו-13,000 עמודי פרוטוקול. האם יצחק אברג'יל יורשע? 30.06.2022"
     }
   ],
   "localPoster": "images/kanbox/tik-512/series.jpg"

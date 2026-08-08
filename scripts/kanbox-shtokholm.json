@@ -2,72 +2,139 @@
   "seriesId": "13291",
   "slug": "shtokholm",
   "title": "שטוקהולם",
-  "poster": "https://www.kan.org.il/media/hdafuubk/2020-4-6-imgid-31573_d.jpeg?rmode=pad&width=1200&height=630",
   "seriesUrl": "https://www.kan.org.il/content/kan/kan-11/p-13291/",
   "episodes": [
     {
-      "id": "shtokholm-ep1",
+      "id": "shtokholm-s1-ep1",
+      "season": 1,
       "ep": 1,
-      "name": "פרק 1 - מאדם אתה ואל",
+      "name": "פרק 1 - זוהרה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87633/",
+      "imageURL": "https://www.kan.org.il/media/sxqh1ey3/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40485_aa.jpeg?width=490&height=272&v=1d97af307456410",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0sygkyt2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep1.jpg",
+      "subtitle": "זוהרה מוצאת את אבישי מת במיטתו. היא מזעיקה את חבריה, כדי להתחיל להניע את סידורי הלוויה – אלא שאז מציע יהודה רעיון: להסתיר את דבר מותו של אבישי למשך חמישה ימים, כדי לאפשר לו לזכות בפרס נובל. לאחר ויכוח הרעיון מתקבל"
+    },
+    {
+      "id": "shtokholm-s1-ep2",
+      "season": 1,
+      "ep": 2,
+      "name": "פרק 2 - עמוס",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87636/",
+      "imageURL": "https://www.kan.org.il/media/hrcfvbnz/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40486_aa.jpeg?width=490&height=272&v=1d97af3085b8f00",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_usjmhtkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep2.jpg",
+      "subtitle": "עמוס וזוהרה מצליחים לפרוץ אל הדירה העולה באש ולכבותה. הוא נוסע לאוניברסיטה כדי להחליף את אבישי בפגישה חשובה עם תורמים שאבישי לא הגיע אליה, ובדרך סופג השפלות סביב מעמדו באקדמיה ויכולותיו כחוקר"
+    },
+    {
+      "id": "shtokholm-s1-ep3",
+      "season": 1,
+      "ep": 3,
+      "name": "פרק 3 - יהודה",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87639/",
+      "imageURL": "https://www.kan.org.il/media/cq2moav2/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40488_aa.jpeg?width=490&height=272&v=1d97af3095e8010",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kyp57enp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep3.jpg",
+      "subtitle": "יהודה נוסע לפגישה בצפון הארץ, עם אינטלקטואל ואיש טלוויזיה מוכר שהסכים לקרוא את ספרו ולהעיר את הערותיו. הוא משאיר את גופתו של חברו הקרוב על הרצפה בביתו, ויוצא מן הבית"
+    },
+    {
+      "id": "shtokholm-s1-ep4",
+      "season": 1,
+      "ep": 4,
+      "name": "פרק 4 ואחרון - נילי",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87642/",
+      "imageURL": "https://www.kan.org.il/media/me2d1af5/https-kanstaticazureedgenet-download-pictures-2020-10-13-imgid-40489_aa.jpeg?width=490&height=272&v=1d97af30a6800d0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_23f60iwo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep4.jpg",
+      "subtitle": "יוצאים למסע בעקבות הגופה. בתוך כך מגיעות לנקודת רתיחה מערכות היחסים השונות בתוך הרביעייה, ומניעים סמויים ומתחים בלתי מדוברים צפים ועולים על פני השטח"
+    },
+    {
+      "id": "shtokholm-s2-ep1",
+      "season": 2,
+      "ep": 1,
+      "name": "פרק 1 - מאדם אתה ואל אדם תשוב",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112510/",
       "imageURL": "https://www.kan.org.il/media/nyinxfwi/https-kanstaticazureedgenet-download-pictures-2020-4-27-imgid-32573_aa.jpeg?width=490&height=272&v=1d97af2fef4ca30",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j0yj95ph/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j0yj95ph/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep1.jpg",
+      "subtitle": "להלווייתו של אבישי מגיע גבר המציג עצמו כחבר ותיק של אבישי, שחי כבר שנים בארה\"ב. אבל סימני השאלה הולכים ומתרבים: מה מניעיו של הגבר המסתורי, ומי הוא באמת?"
     },
     {
-      "id": "shtokholm-ep2",
+      "id": "shtokholm-s2-ep2",
+      "season": 2,
       "ep": 2,
-      "name": "פרק 2 - דגים שמנים \"גרשי",
+      "name": "פרק 2 - דגים שמנים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112513/",
       "imageURL": "https://www.kan.org.il/media/fk0ahtf4/https-kanstaticazureedgenet-download-pictures-2020-4-27-imgid-32574_aa.jpeg?width=490&height=272&v=1d97af2fff52330",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_134f8w93/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_134f8w93/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep2.jpg",
+      "subtitle": "\"גרשי זומר\" - או איך שלא קוראים לו באמת – מזמין את החברים ליאכטה שלו. הארבעה מחליטים ללכת, חמושים בציוד הקלטה, כדי לנסות לרדת לחקר מניעיו ומטרתו האמיתית; ככל הנראה כספו הרב של המנוח"
     },
     {
-      "id": "shtokholm-ep3",
+      "id": "shtokholm-s2-ep3",
+      "season": 2,
       "ep": 3,
       "name": "פרק 3 - אישה עם ציצים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112516/",
       "imageURL": "https://www.kan.org.il/media/jrqkhadc/https-kanstaticazureedgenet-download-pictures-2020-5-13-imgid-33406_aa.jpeg?width=490&height=272&v=1d97af300ff8e50",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mh0hw6c2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mh0hw6c2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep3.jpg",
+      "subtitle": "אישה עם ציצים: צוואתו של אבישי נחשפת וטורפת את כל הקלפים; יהודה מתמודד עם ההשלכות הכלכליות של גירושיו; הבעיה הרפואית של עמוס נחשפת; ואחותו של המנוח מאירה באור חדש ומפתיע את זהותו ומניעיו של גרשי"
     },
     {
-      "id": "shtokholm-ep4",
+      "id": "shtokholm-s2-ep4",
+      "season": 2,
       "ep": 4,
       "name": "פרק 4 - כסף וכוח",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112522/",
       "imageURL": "https://www.kan.org.il/media/kq1fzhs5/https-kanstaticazureedgenet-download-pictures-2022-10-16-imgid-33748_aa.jpeg?width=490&height=272&v=1d97af301fbefb0",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkrilcx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkrilcx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep4.jpg",
+      "subtitle": "כסף וכוח: חוקרי המשטרה עורכים ביקור מטריד בביתה של זוהרה. גרשי זומר לוקח את כל החברים למסע נוסטלגי לטנטורה. נילי מנצלת את הטיול כדי לחזר נמרצות אחרי גרשי, שמצדו מחזר אחרי זוהרה."
     },
     {
-      "id": "shtokholm-ep5",
+      "id": "shtokholm-s2-ep5",
+      "season": 2,
       "ep": 5,
       "name": "פרק 5 - אפרסמון לא בשל",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113353/",
       "imageURL": "https://www.kan.org.il/media/qlndps4h/https-kanstaticazureedgenet-download-pictures-2020-5-24-imgid-33945_aa.jpeg?width=490&height=272&v=1d97af3032c0b40",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hq91xlh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hq91xlh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep5.jpg",
+      "subtitle": "אפרסמון לא בשל: זוהרה עצורה בחשד לרצח אבישי. יהודה - החושד שלפרודתו יש מאהב חדש - מנצל את היעדרה של זוהרה כדי להתנחל בביתו של אבישי ולגור שם; עמוס מגלה שהאוניברסיטה מוציאה אותו לפנסיה כפויה"
     },
     {
-      "id": "shtokholm-ep6",
+      "id": "shtokholm-s2-ep6",
+      "season": 2,
       "ep": 6,
       "name": "פרק 6 - איש קריות",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113531/",
       "imageURL": "https://www.kan.org.il/media/c0dj15j5/https-kanstaticazureedgenet-download-pictures-2020-5-31-imgid-34294_aa.jpeg?width=490&height=272&v=1d97af304390e70",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8rhb9ozy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8rhb9ozy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep6.jpg",
+      "subtitle": "איש קריות: זוהרה משתחררת ממעצר לאחר שנוקתה מהחשדות בזכות גרשי. היא מנסה להתקרב אליו, אך מגלה שהיחסים בינו ובין נילי התחממו בינתיים. יהודה מרגל אחרי גרושתו, בניסיון לגלות עם מי היא מנהלת רומן"
     },
     {
-      "id": "shtokholm-ep7",
+      "id": "shtokholm-s2-ep7",
+      "season": 2,
       "ep": 7,
       "name": "פרק 7 - גמל עם עניבה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113766/",
       "imageURL": "https://www.kan.org.il/media/313p4sfq/https-kanstaticazureedgenet-download-pictures-2020-6-7-imgid-34678_aa.jpeg?width=490&height=272&v=1d97af305387d10",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7nvejit/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7nvejit/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep7.jpg",
+      "subtitle": "רומן לוהט ניצת בין זוהרה לגרשי, והשניים נאלצים להסתיר אותו מנילי המאוהבת. עמוס מתמנה לראשות החוג. במקביל, מתרבים סימני השאלה סביב דמותו של גרשי זומר"
     },
     {
-      "id": "shtokholm-ep8",
+      "id": "shtokholm-s2-ep8",
+      "season": 2,
       "ep": 8,
       "name": "פרק 8 - ספירלה של פרדוקסים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113945/",
       "imageURL": "https://www.kan.org.il/media/nc5eutbz/https-kanstaticazureedgenet-download-pictures-2020-6-14-imgid-35036_aa.jpeg?width=490&height=272&v=1d97af3063ad1e0",
-      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cle4pyah/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4"
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cle4pyah/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep8.jpg",
+      "subtitle": "ספירלה של פרדוקסים: נילי מנסה להזהיר את זוהרה מפני גרשי, אך זוהרה לא שועה לאזהרותיה ויוצאת עמו למסע על גבי היאכטה שלו. נילי ויהודה מגלים פרטים חדשים ומטרידים ביחס לנסיבות מותה של אשתו של גרשי"
     }
   ]
 }

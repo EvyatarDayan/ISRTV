@@ -7,20 +7,22 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - הלילה הארוך ביותר - חלק א'",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13157/129541/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w2ja5hy1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/halayla-haaroch/ep1.jpg"
+      "localImage": "images/kanbox/halayla-haaroch/ep1.jpg",
+      "subtitle": "חוליית מחבלים מארגון חזית השחרור הערבית, חוצה את גדר המערכת ומשתלטת על בית הילדים בקיבוץ משגב עם. כוח של סיירת גולני נאלץ לקבל החלטה כשהילדים, בני הערובה, נמצאים בסכנה 03.09.2018"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - חלק ב'",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13157/129544/",
       "imageURL": "",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_k73ws06t/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/halayla-haaroch/ep2.jpg"
+      "localImage": "images/kanbox/halayla-haaroch/ep2.jpg",
+      "subtitle": "לאחר הלילה הארוך, אלוף פיקוד הצפון, ינוש בן גל וצוות המשא ומתן המטכ\"לי מנסים לשכנע את החוטפים לא לפגוע בבני הערובה, בזמן שלוחמי סיירת מטכ\"ל מתכוננים למבצע חילוץ. 03.09.2018"
     }
   ],
   "localPoster": "images/kanbox/halayla-haaroch/series.jpg",

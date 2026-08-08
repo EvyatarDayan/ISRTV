@@ -8,92 +8,102 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - לוקסמבורג",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/135563/",
       "imageURL": "https://www.kan.org.il/media/3tandxu1/https-kanstaticazureedgenet-download-pictures-2021-9-26-imgid-61447_aa.jpeg?width=490&height=272&v=1d97a0f6c430550",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m0gbfydv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep1.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep1.jpg",
+      "subtitle": "הפרק הראשון והמצופה של הדרמה המוסיקלית עטורת הפרסים מאת הבמאי תום שובל ועם שירים מקוריים של שלומי שבן. סיפור מפותל ומפתיע על שלושה דורות של משפחה אחת, על הסודות וההדים שביניהם 20.05.2020"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - תולדות השקר",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/135566/",
       "imageURL": "https://www.kan.org.il/media/gmqpja1w/https-kanstaticazureedgenet-download-pictures-2021-9-26-imgid-61448_aa.jpeg?width=490&height=272&v=1d97a0f6d4cfb40",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ws0juznc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep2.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep2.jpg",
+      "subtitle": "שקרים נחשפים ונרקמים; קובי מסכים להופיע עם גידי והלהקה במקום אביו המנוח. לני נבחן לתוכנית \"כוכב אחד\" ונקרע בין הפופולריות לה הוא זוכה לבין הצורך לשמור על האמת המוסיקלית כפי שייעץ לו אביו 20.05.2020"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - נקודת האל חזור",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/135569/",
       "imageURL": "https://www.kan.org.il/media/xzafi4zj/https-kanstaticazureedgenet-download-pictures-2021-9-26-imgid-61449_aa.jpeg?width=490&height=272&v=1d97a0f6dff8260",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oskx3p6q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep3.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep3.jpg",
+      "subtitle": "גורלות נחרצים בלילה אחד חוצה זמנים. ארי שמר יוצא להופעה למרות שדליה אשתו השאירה אותו לשמור על קובי התינוק וקובי עולה ארבעים שנה אחר כך להופיע עם גידי והלהקה אך בלב כבד מאחר והוא לא רואה את לני בקהל 20.05.2020"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - יפה ומסריח",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/135572/",
       "imageURL": "https://www.kan.org.il/media/25ljsppi/https-kanstaticazureedgenet-download-pictures-2021-9-26-imgid-61460_aa.jpeg?width=490&height=272&v=1d97a0f6eabef00",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9qr1tsix/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep4.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep4.jpg",
+      "subtitle": "קובי והלהקה של אביו יוצאים להופעה בקיבוץ וגידי, שחושש שקובי מאבד עניין, מציע לו הצעה מפתיעה. לני הופך לסנסציה ב\"כוכב אחד\" ויוצא למסיבה בדירתה של עוזרת הבמאי. הסודות של ארי מסרבים להישאר נסתרים 20.05.2020"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 - הזמן הוא חבר ואויב",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136837/",
       "imageURL": "https://www.kan.org.il/media/ctikqxiu/https-kanstaticazureedgenet-download-pictures-2021-11-2-imgid-63489_aa.jpeg?width=490&height=272&v=1d97a0f6f9f9dd0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bxpzhofa/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep5.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep5.jpg",
+      "subtitle": "קובי מקליט את השירים אך מצפונו כבד עליו. גידי מדרבן אותו להקליט ומשכנע אותו שזו הדרך לפנתיאון, במקביל הוא מוודא שלשירים האלה לא היו שומעים. לני ממשיך את הנסיקה לכוכבות אבל הדאגה לאביו לא שוככת 20.05.2020"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - תולדות השקר רסטורציה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136840/",
       "imageURL": "https://www.kan.org.il/media/vbifnhte/https-kanstaticazureedgenet-download-pictures-2021-11-2-imgid-63495_aa.jpeg?width=490&height=272&v=1d97a0f705fe090",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j3i3roj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep6.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep6.jpg",
+      "subtitle": "בעבר הרחוק ארי וגידי מכירים לראשונה בהופעה לחיילים במלחמת יום כיפור, ובהווה אחרי האסון הבלתי נתפס, \"להקת הקאמבק\" מפסיקה את הופעותיה ודליה פותחת את ביתה לשבעה. קובי אובד עצות אך התגליות לא פוסקות 20.05.2020"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - שיר לאף אחד",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136842/",
       "imageURL": "https://www.kan.org.il/media/notj0oke/https-kanstaticazureedgenet-download-pictures-2021-11-15-imgid-64260_aa.jpeg?width=490&height=272&v=1d97a0f71019ed0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qhdkblxb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep7.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep7.jpg",
+      "subtitle": "השיר של קובי נכנס לפלייליסט של גלגל\"צ וקובי לא יודע את נפשו משמחה. שירלי מנסה שהבכורה ל\"המלט\" תעבור בשלום, אבל ההצלחה של קובי מעיבה על הכל, ולני שמח כל כך בשביל אבא שלו אבל החשד ממשיך לנקר בו 20.05.2020"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - מותו של ארי שמר",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136845/",
       "imageURL": "https://www.kan.org.il/media/xpep321q/https-kanstaticazureedgenet-download-pictures-2021-11-18-imgid-64450_aa.jpeg?width=490&height=272&v=1d97a0f71bdc2e0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qjnnfgcr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep8.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep8.jpg",
+      "subtitle": "היומיים האחרונים בחייו של ארי שמר 11.09.2025"
     },
     {
       "season": 1,
       "ep": 9,
-      "name": "עונה 1 פרק 9",
+      "name": "פרק 9 - נפל דבר נפלא",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136848/",
       "imageURL": "https://www.kan.org.il/media/fiznbyd4/https-kanstaticazureedgenet-download-pictures-2021-11-18-imgid-64459_aa.jpeg?width=490&height=272&v=1d97a0f727b6d90",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_en24tmqi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep9.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep9.jpg",
+      "subtitle": "גידי מוכה צער על מות חברו, בטוח שארי הקליט שירים ויוצא לחפש את הסלילים למרות הסקפטיות של כולם. לני עדין פגוע מאבא שלו ומופתע ממחוות הפיוס של קובי, ונרי פוגשת את קובי כדי לספר לו על הסרט החדש שלה 20.05.2020"
     },
     {
       "season": 1,
       "ep": 10,
-      "name": "עונה 1 פרק 10",
+      "name": "פרק 10 - הגרסה שלי שלך",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-12967/s1/136851/",
       "imageURL": "https://www.kan.org.il/media/oundw4v2/https-kanstaticazureedgenet-download-pictures-2021-11-22-imgid-64660_aa.jpeg?width=490&height=272&v=1d97a0f732c6e10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wn98hpeo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/hed-kolech/ep10.jpg"
+      "localImage": "images/kanbox/hed-kolech/ep10.jpg",
+      "subtitle": "פרק עשירי ואחרון. הגרסה שלי שלך: אחרי הגילויים המפתיעים והבלתי נתפסים יוצאת דליה שמר מביתה בנהלל כדי לנסות ולפתור את המצב 22.09.2025"
     }
   ],
   "localPoster": "images/kanbox/hed-kolech/series.jpg"

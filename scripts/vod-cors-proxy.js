@@ -22,12 +22,40 @@ var HOST = process.env.VOD_PROXY_HOST || '0.0.0.0';
 var FFMPEG = process.env.FFMPEG_PATH || 'ffmpeg';
 var FRAME_DIR = path.join(os.tmpdir(), 'isrtv-frames');
 var activeFrames = 0;
-var MAX_PARALLEL_FRAMES = 3;
+var MAX_PARALLEL_FRAMES = 6;
+var FRAME_TIMEOUT_MS = 8000;
+var FRAME_CACHE_MS = 90000;
 var frameWaiters = [];
+var frameCache = Object.create(null);
 
 try {
   fs.mkdirSync(FRAME_DIR, { recursive: true });
 } catch (e) {}
+
+function frameCacheKey(targetUrl) {
+  return String(targetUrl || '').replace(/[?&](hdnea|hdntl|token|__hdnea__)=[^&]*/gi, '');
+}
+
+function getCachedFrame(targetUrl) {
+  var key = frameCacheKey(targetUrl);
+  var hit = frameCache[key];
+  if (!hit || !hit.data || !hit.data.length) {
+    return null;
+  }
+  if (Date.now() - hit.at > FRAME_CACHE_MS) {
+    delete frameCache[key];
+    return null;
+  }
+  return hit.data;
+}
+
+function setCachedFrame(targetUrl, data) {
+  var key = frameCacheKey(targetUrl);
+  if (!key || !data || !data.length) {
+    return;
+  }
+  frameCache[key] = { data: data, at: Date.now() };
+}
 
 function lanIPv4() {
   var nets = os.networkInterfaces();
@@ -258,37 +286,154 @@ function enqueueFrame(targetUrl, cb) {
   runNextFrameJob();
 }
 
-function captureFrame(targetUrl, cb) {
-  var outFile = path.join(
-    FRAME_DIR,
-    'frame-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.jpg'
-  );
+function absolutePlaylistUrl(baseUrl, ref) {
+  if (!ref) {
+    return '';
+  }
+  ref = String(ref).trim();
+  if (!ref || ref.charAt(0) === '#') {
+    return '';
+  }
+  try {
+    return url.resolve(baseUrl, ref);
+  } catch (e) {
+    return '';
+  }
+}
 
+function pickLowestVariant(masterText, masterUrl) {
+  var lines = String(masterText || '').split(/\r?\n/);
+  var bestUrl = '';
+  var bestBw = Infinity;
+  var i;
+  var bwMatch;
+  var bw;
+  var next;
+  for (i = 0; i < lines.length; i++) {
+    if (lines[i].indexOf('#EXT-X-STREAM-INF') !== 0) {
+      continue;
+    }
+    bwMatch = /BANDWIDTH=(\d+)/i.exec(lines[i]);
+    bw = bwMatch ? parseInt(bwMatch[1], 10) : 999999999;
+    next = absolutePlaylistUrl(masterUrl, lines[i + 1]);
+    if (next && bw < bestBw) {
+      bestBw = bw;
+      bestUrl = next;
+    }
+  }
+  return bestUrl;
+}
+
+function pickLatestSegment(mediaText, mediaUrl) {
+  var lines = String(mediaText || '').split(/\r?\n/);
+  var last = '';
+  var i;
+  var abs;
+  for (i = 0; i < lines.length; i++) {
+    abs = absolutePlaylistUrl(mediaUrl, lines[i]);
+    if (abs) {
+      last = abs;
+    }
+  }
+  return last;
+}
+
+function isTsLikeSegment(segUrl) {
+  return /\.ts(\?|$)/i.test(segUrl || '') || /mpegts|video\/mp2t/i.test(segUrl || '');
+}
+
+function fetchText(targetUrl, cb) {
+  fetchUrl(targetUrl, 0, function (err, result) {
+    if (err || !result) {
+      cb(err || new Error('fetch failed'));
+      return;
+    }
+    if (result.status >= 400) {
+      cb(new Error('HTTP ' + result.status));
+      return;
+    }
+    cb(null, result.body.toString('utf8'), result.finalUrl || targetUrl);
+  });
+}
+
+/** Prefer a single low-bitrate .ts segment — much faster than opening live HLS in ffmpeg. */
+function resolveThumbSegment(streamUrl, cb) {
+  fetchText(streamUrl, function (err, text, finalUrl) {
+    if (err || !text) {
+      cb(err || new Error('playlist empty'));
+      return;
+    }
+    var base = finalUrl || streamUrl;
+    var mediaUrl = base;
+    var mediaText = text;
+    if (/#EXT-X-STREAM-INF/i.test(text)) {
+      mediaUrl = pickLowestVariant(text, base);
+      if (!mediaUrl) {
+        cb(new Error('no variant'));
+        return;
+      }
+      fetchText(mediaUrl, function (err2, text2, final2) {
+        if (err2 || !text2) {
+          cb(err2 || new Error('media playlist empty'));
+          return;
+        }
+        var seg = pickLatestSegment(text2, final2 || mediaUrl);
+        if (!seg) {
+          cb(new Error('no segment'));
+          return;
+        }
+        cb(null, seg);
+      });
+      return;
+    }
+    var segDirect = pickLatestSegment(mediaText, mediaUrl);
+    if (!segDirect) {
+      cb(new Error('no segment'));
+      return;
+    }
+    cb(null, segDirect);
+  });
+}
+
+function runFfmpegJpeg(inputPathOrUrl, outFile, isLocalFile, cb) {
   var args = [
     '-hide_banner',
     '-loglevel',
     'error',
-    '-y',
-    '-analyzeduration',
-    '1500000',
-    '-probesize',
-    '1500000',
-    '-rw_timeout',
-    '8000000',
+    '-y'
+  ];
+  if (!isLocalFile) {
+    args.push(
+      '-fflags',
+      'nobuffer+discardcorrupt',
+      '-flags',
+      'low_delay',
+      '-analyzeduration',
+      '400000',
+      '-probesize',
+      '400000',
+      '-rw_timeout',
+      '4000000',
+      '-user_agent',
+      'Mozilla/5.0 (SMART-TV; Linux; Tizen 9.0) AppleWebKit/537.36'
+    );
+  }
+  args.push(
     '-i',
-    targetUrl,
+    inputPathOrUrl,
     '-an',
     '-frames:v',
     '1',
+    '-vf',
+    'scale=320:-2',
     '-q:v',
-    '5',
+    '8',
     outFile
-  ];
+  );
 
   var child = childProcess.spawn(FFMPEG, args, { stdio: ['ignore', 'ignore', 'pipe'] });
   var stderr = '';
   var settled = false;
-
   var timer = setTimeout(function () {
     if (settled) {
       return;
@@ -299,12 +444,11 @@ function captureFrame(targetUrl, cb) {
     } catch (e) {}
     cleanupFile(outFile);
     cb(new Error('ffmpeg timeout'));
-  }, 20000);
+  }, isLocalFile ? 4000 : FRAME_TIMEOUT_MS);
 
   child.stderr.on('data', function (buf) {
     stderr += buf.toString();
   });
-
   child.on('error', function (err) {
     if (settled) {
       return;
@@ -314,7 +458,6 @@ function captureFrame(targetUrl, cb) {
     cleanupFile(outFile);
     cb(err);
   });
-
   child.on('close', function (code) {
     if (settled) {
       return;
@@ -337,6 +480,72 @@ function captureFrame(targetUrl, cb) {
   });
 }
 
+function captureFromSegment(segUrl, outFile, cb) {
+  var segFile = outFile + '.seg';
+  fetchUrl(segUrl, 0, function (err, result) {
+    if (err || !result || result.status >= 400 || !result.body || !result.body.length) {
+      cleanupFile(segFile);
+      cb(err || new Error('segment HTTP ' + (result && result.status)));
+      return;
+    }
+    // Cap huge segments — first ~2.5MB is enough for a keyframe in typical live TS
+    var body = result.body.length > 2500000 ? result.body.slice(0, 2500000) : result.body;
+    fs.writeFile(segFile, body, function (writeErr) {
+      if (writeErr) {
+        cleanupFile(segFile);
+        cb(writeErr);
+        return;
+      }
+      runFfmpegJpeg(segFile, outFile, true, function (ffErr, jpeg) {
+        cleanupFile(segFile);
+        cb(ffErr, jpeg);
+      });
+    });
+  });
+}
+
+function captureFrame(targetUrl, cb) {
+  var cached = getCachedFrame(targetUrl);
+  if (cached) {
+    cb(null, cached);
+    return;
+  }
+
+  var outFile = path.join(
+    FRAME_DIR,
+    'frame-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.jpg'
+  );
+
+  function finish(err, jpeg) {
+    if (err || !jpeg) {
+      cb(err || new Error('empty frame'));
+      return;
+    }
+    setCachedFrame(targetUrl, jpeg);
+    cb(null, jpeg);
+  }
+
+  resolveThumbSegment(targetUrl, function (segErr, segUrl) {
+    if (!segErr && segUrl && isTsLikeSegment(segUrl)) {
+      captureFromSegment(segUrl, outFile, function (err, jpeg) {
+        if (!err && jpeg) {
+          finish(null, jpeg);
+          return;
+        }
+        console.warn('[frame] segment path failed, falling back to stream:', (err && err.message) || segErr);
+        var fallbackOut = path.join(
+          FRAME_DIR,
+          'frame-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8) + '.jpg'
+        );
+        runFfmpegJpeg(targetUrl, fallbackOut, false, finish);
+      });
+      return;
+    }
+    // CMAF / odd packs — open the stream (or media playlist) directly
+    runFfmpegJpeg(targetUrl, outFile, false, finish);
+  });
+}
+
 function cleanupFile(filePath) {
   try {
     fs.unlinkSync(filePath);
@@ -348,6 +557,19 @@ function handleFrame(req, res, targetUrl) {
     if (ticketErr) {
       console.warn('[frame] mako ticket failed:', targetUrl, ticketErr.message || ticketErr);
       sendCors(res, 502, { 'Content-Type': 'text/plain; charset=utf-8' }, String(ticketErr.message || ticketErr));
+      return;
+    }
+    var warm = getCachedFrame(ticketedUrl) || getCachedFrame(targetUrl);
+    if (warm) {
+      sendCors(
+        res,
+        200,
+        {
+          'Content-Type': 'image/jpeg',
+          'Cache-Control': 'public, max-age=30'
+        },
+        warm
+      );
       return;
     }
     enqueueFrame(ticketedUrl, function (err, jpeg) {
@@ -362,7 +584,7 @@ function handleFrame(req, res, targetUrl) {
         200,
         {
           'Content-Type': 'image/jpeg',
-          'Cache-Control': 'no-cache, no-store'
+          'Cache-Control': 'public, max-age=30'
         },
         jpeg
       );

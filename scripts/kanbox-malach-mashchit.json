@@ -8,74 +8,82 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - אוקסן אוקסן",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159765/",
       "imageURL": "https://www.kan.org.il/media/ginh5jby/2023-2-8-imgid-93458_b.jpeg?width=490&height=272&v=1d9762252dd22d0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891552/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep1.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep1.jpg",
+      "subtitle": "סדרת מתח ואימה חדשה שבמרכזה שד רצחני שעובר מאישה לאישה בקהילה חסידית במאה שערים וזורע הרס וחורבן. פרופסור לפיזיקה, חילוני מושבע ופסיכולוגית חרדית חוברים יחד כדי לחקור את מקורותיו. באר מוזמן לחקירת משטרה בעקבות רצח מחריד במאה שערים. ומלכי נפרדת מרשי, המטופלת האהובה שלה, למרות שהיא"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - דב-בער מברודי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159771/",
       "imageURL": "https://www.kan.org.il/media/mq3phkn2/2023-2-8-imgid-93446_b.jpeg?width=490&height=272&v=1d9762255ee8180",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891554/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep2.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep2.jpg",
+      "subtitle": "באר נקשר לעוד מקרה מוות במאה שערים ומבקש את עזרתו של ישי, חבר מהעבר הרחוק. מלכי מוזעקת אל בית חסידי במאה שערים שבו ילדה בשם רוח׳לאה עוברת מה שנראה כמו התעללות בידי רב מקובל. 29.09.2021"
     },
     {
       "season": 1,
       "ep": 3,
-      "name": "עונה 1 פרק 3",
+      "name": "פרק 3 - אשת זנונים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159777/",
       "imageURL": "https://www.kan.org.il/media/gfeey20e/2023-2-8-imgid-93456_b.jpeg?width=490&height=272&v=1d9762258c9dc10",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891555/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep3.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep3.jpg",
+      "subtitle": "למרות אזהרותיה של איטה, מלכי מביאה את רוח׳לאה אל המוסד במטרה לטפל בה. ההתנהגות המוזרה של רוח׳לאה מובילה את מלכי ובאר אל אשה ערירית בשם ידידה שץ, שנעלמה מביתה לאחרונה. 29.09.2021"
     },
     {
       "season": 1,
       "ep": 4,
-      "name": "עונה 1 פרק 4",
+      "name": "פרק 4 - ידידה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159783/",
       "imageURL": "https://www.kan.org.il/media/2hlhooj5/2023-2-8-imgid-93421_b.jpeg?width=490&height=272&v=1d976225bbc4110",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891557/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep4.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep4.jpg",
+      "subtitle": "שמואל משה קלמן מנסה לנחם את מלכי, אבל מעורר אצלה אי נחת. רוח׳לאה נעלמת מהמוסד ומופיעה במרפאה של נמי, וכשבאר ומלכי מגיעים לאסוף אותה, הם חווים עוד התפרצות מפחידה של הילדה. 23.04.2023"
     },
     {
       "season": 1,
       "ep": 5,
-      "name": "עונה 1 פרק 5",
+      "name": "פרק 5 – אור מלפני 1300 שנה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159789/",
       "imageURL": "https://www.kan.org.il/media/ftspmal4/2023-2-8-imgid-93423_b.jpeg?width=490&height=272&v=1d976225e959fd0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891556/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep5.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep5.jpg",
+      "subtitle": "בעבר, דב-בער וידידה הצעירים בורחים ממאה שערים ומתחילים חיים משותפים בעולם החילוני. ובהווה, באר ממשיך בחיפושים אחר ידידה, בניסיון לפענח את הקשר בינה לבין האירועים המצמררים שפוקדים את מאה שערים. 29.09.2021"
     },
     {
       "season": 1,
       "ep": 6,
-      "name": "עונה 1 פרק 6",
+      "name": "פרק 6 - אשמדאי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159792/",
       "imageURL": "https://www.kan.org.il/media/khtf240e/2023-2-8-imgid-93459_b.jpeg?width=490&height=272&v=1d976225fd0def0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891560/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep6.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep6.jpg",
+      "subtitle": "החיפוש אחר ידידה מוביל את מלכי ובאר לצפת, ולביתו של שושני, שמגלה להם פרטים מטרידים על ידידה שץ שקשורים גם לבאר. 29.09.2021"
     },
     {
       "season": 1,
       "ep": 7,
-      "name": "עונה 1 פרק 7",
+      "name": "פרק 7 - נחמי",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159795/",
       "imageURL": "https://www.kan.org.il/media/quxdy02k/2023-2-8-imgid-93460_b.jpeg?width=490&height=272&v=1d97622611d8330",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891562/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep7.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep7.jpg",
+      "subtitle": "שמואל משה קלמן מטריד את מלכי ומאיים על המשך חייה בקהילה. נחמי בתו של ישי מתחילה להתנהג מוזר, ובאר נחלץ לעזרתה. היא מעוררת אצל באר זיכרונות מהעבר הטרגי שלו עם ידידה, ולבסוף מובילה אותו אל ידידה עצמה 29.09.2021"
     },
     {
       "season": 1,
       "ep": 8,
-      "name": "עונה 1 פרק 8",
+      "name": "פרק 8 - צא טמא",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159798/",
       "imageURL": "https://www.kan.org.il/media/em5brixe/2023-2-8-imgid-93461_b.jpeg?width=490&height=272&v=1d97622628f62b0",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891558/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": "images/kanbox/malach-mashchit/ep8.jpg"
+      "localImage": "images/kanbox/malach-mashchit/ep8.jpg",
+      "subtitle": "באר, מלכי וג׳ובאני מארגנים טקס גירוש בניסיון נואש להציל את נחמי מאחיזתה של השדה הרצחנית. 29.09.2021"
     }
   ],
   "localPoster": "images/kanbox/malach-mashchit/series.jpg"

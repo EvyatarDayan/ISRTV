@@ -8,20 +8,22 @@
     {
       "season": 1,
       "ep": 1,
-      "name": "עונה 1 פרק 1",
+      "name": "פרק 1 - חלק א - הלם השיבה",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13015/134999/",
-      "imageURL": "",
+      "imageURL": "https://www.kan.org.il/media/kocp5qyh/https-kanstaticazureedgenet-download-pictures-2021-8-26-imgid-59959_aa.jpeg?rmode=pad&width=1200&height=630",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vf3kemwq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/peduyim/ep1.jpg",
+      "subtitle": "סיפורם של השבויים: הנפילה בשבי והחזרה לארץ, עם הגילוי כי גם בישראל הם חשודים 13.09.2021"
     },
     {
       "season": 1,
       "ep": 2,
-      "name": "עונה 1 פרק 2",
+      "name": "פרק 2 - חלק ב - קווים אדומים",
       "page": "https://www.kan.org.il/content/kan/kan-11/p-13015/135001/",
       "imageURL": "https://www.kan.org.il/media/fgrdzmrq/https-kanstaticazureedgenet-download-pictures-2021-8-26-imgid-59960_aa.jpeg?width=490&height=272&v=1d97af1cfef1700",
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb7ntvkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
-      "localImage": ""
+      "localImage": "images/kanbox/peduyim/ep2.jpg",
+      "subtitle": "השבויים נחקרים בשיטת זריקת הפנטוטאל, חומר כימי שמחזיר אותם לשדה הקרב ולשבי, כדי שיספרו את האמת 14.09.2021"
     }
   ],
   "localPoster": "images/kanbox/peduyim/series.jpg"
