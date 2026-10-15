@@ -1,0 +1,103 @@
+{
+  "slug": "alumim",
+  "title": "עלומים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/",
+  "version": "f1208e33df62",
+  "updatedAt": "2026-10-05T12:27:58Z",
+  "episodeCount": 9,
+  "localPoster": "images/kanbox/alumim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/alumim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - תמיד צריך לתת את הכאפה הראשונה",
+      "subtitle": "נערים בבי\"ס לנוער בסיכון הם החשודים המידיים באונס נערה. מפקד המשטרה בעיר נחוש לגלות מי מהם עשה זאת, חרף העובדה שאשתו היא המחנכת המסורה שלהם ומאמינה בחפותם 03.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_avpzqwxi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - ילד, חסר לך משהו?",
+      "subtitle": "מנחם חייב להשמיד את מצלמות האבטחה בביה\"ס לפני שאבנר ישיג אותן ויפליל אותו ואת וואסה. הנערה שנאנסה מסרבת להתלונן, נעמי מסייעת בחקירה וחושפת סוד שמאיים על הזוגיות שלה 07.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134630/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1z78mwkr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - ראינו \"אלמנות\" עד שש בבוקר",
+      "subtitle": "השעון מתקתק ואבנר חייב להשיג ראייה נגד וואסה שתוכיח שהוא האנס לפני שהאחרון משתחרר. יינון שיודע את האמת על וואסה ומנחם, מתלבט אם לחשוף את הסוד או לא 11.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134805/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2lx0iese/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - רגוע כמו המוות",
+      "subtitle": "כולם מנסים להתמודד עם האובדן. אושר מאשים את מנחם ונעמי דורשת לדעת מה אבנר מסתיר ממנה, בהודעה ששלח לה ומחק. 14.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134807/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cdd61q7l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - איפה הכלה?",
+      "subtitle": "מנחם מחפש את אושר כדי לנקום בו, ביה\"ס מארגן אירוע לגיוס לצה\"ל לקראת הועדה למחיקת תיקים של אושר. נעמי מחליטה לעשות מעשה ולפענח את ההודעה שאבנר שלח לה ומחק 18.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134809/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a9a9fl0s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - חמישים גרם קריסטל",
+      "subtitle": "אושר מצליח להיפטר ממשלוח הסמים ומתכונן לוועדה למחיקת תיקים שתקבע אם יתגייס לצה\"ל. יניב מבין שהסתבך עם מנחם כשבא לעזור לאושר ונעמי מגלה סוד שיטלטל את חייה עם אבנר. 21.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134812/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7hz3fjv3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - מדליק נר לאימא",
+      "subtitle": "נעמי ואושר מוצאים מקלט אצל יניב בת\"א ונחשפים לחייו האישיים. מנחם נשאר לבדו בבית שמש להתמודד מול חוסאם שבטוח שזה מנחם שהלשין עליו למשטרה והוא מאיים לרצוח אותו 25.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134815/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_prmxhte9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - בכמה הוא קנה אותך אח שלי היקר?",
+      "subtitle": "אבנר דורש מחוסאם להפליל את הנער שמוכר בשבילו את הסמים, מנחם מגורש מביתו ומוצא מקלט במקום מפתיע. השהות של נעמי ואושר בבית יניב מביאה להתנגשות ולהתפקחות של נעמי. 28.10.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134818/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ya9vktsc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9 - מכירה אותך כמו את כף היד שלי",
+      "subtitle": "מנחם המבוקש מסתתר והחברות בינו לבין אושר עומדת במבחן, כאשר מנחם דורש מאושר לבצע משימה שאין ממנה חזרה. 01.11.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/s1/134821/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_52hvhhlg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/alumim/ep9.jpg",
+      "catalogImage": "scripts/catalog/media/alumim/s1-ep9.jpg"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "migras-harusim",
+  "title": "מגרש הרוסים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/",
+  "version": "3a295e483841",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/migras-harusim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/migras-harusim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - גזר דין",
+      "subtitle": "שנת 1991. עולה חדשה נרצחת בירושלים. הרוצח חרט לה את המספר 37 על המצח. החשד נופל על ניקולאי, בעלה של הנרצחת. יהודה ג'רסי, הבלש שבידיו מופקד התיק, מטיל ספק באשמתו של ניקולאי ומגלה שרציחות דומות קרו בביה\"מ 24.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840303/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g9r1iy0w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - קרוקודיל",
+      "subtitle": "מפקד התחנה אוסר על יהודה לשתף פעולה עם אנדריי. יהודה הולך בעקבותיו של נרקומן, שמשתמש באותו סם שהוזרק לנרצחת בירושלים, ובמקביל אנדריי מתחיל חקירה עצמאית בארץ הזרה 24.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840305/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pn50viki/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - מולדת",
+      "subtitle": "יהודה מנסה לפענח את הקשר בין מאשה קוגן, שהפרטים שלה נמצאו בזירה, לרצח העולה החדשה. אנדריי טוען שמאשה משתפת פעולה עם הרוצח. יהודה מחליט לבדוק את הכיוון הזה 03.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840307/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vglb2gy5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - מתחת לחול",
+      "subtitle": "יהודה מחפש את אנדריי, שלפי חשדו קשור לניסיון ההתנקשות במאשה. בינתיים אנדריי מגלה מה משותף בין כל הרציחות 10.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840310/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5l3ykfcl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - בוגה נייט",
+      "subtitle": "החקירה מקבלת תפנית חדשה כשאנדריי משיג מידע סודי מלנינגרד. הרשויות ברוסיה מגלות על החקירה שמנהל אנדריי בישראל 17.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840311/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a51pyeui/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - בעלטה",
+      "subtitle": "החקירה מובילה את יהודה, אנדריי ומאשה למקום שבו יכול להסתתר הרוצח הסדרתי. הם חושפים שמדובר במקום סודי ומאוד רגיש לרשויות הישראליות 24.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840312/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5uua6li1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - הבן האבוד",
+      "subtitle": "החשוד ברצח נמלט ומרוסיה מגיעות חדשות מזעזעות, בדיוק כשנראה שהתיק פוצח 31.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840313/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kl18jeau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - שבות",
+      "subtitle": "המרדף אחר הרוצח הסדרתי מגיע לשיאו בפרק סיום מטלטל 07.04.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/s1/840315/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ux13c834/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/migras-harusim/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/migras-harusim/s1-ep8.jpg"
+    }
+  ]
+}

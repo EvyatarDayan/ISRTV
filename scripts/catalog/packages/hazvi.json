@@ -1,0 +1,73 @@
+{
+  "slug": "hazvi",
+  "title": "הצבי",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/",
+  "version": "dfa1fa643a18",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 6,
+  "localPoster": "images/kanbox/hazvi/series.jpg",
+  "catalogPoster": "scripts/catalog/media/hazvi/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - פרומה ציפיס",
+      "subtitle": "סדרת דרמה חדשה המתרחשת בירושלים הקנאית של 1885, ומביאה את סיפורה של פרומה בת ה-21, שמתחילה לעבוד בעיתון של אליעזר בן יהודה \"הצבי\", הופכת לעיתונאית חוקרת, ומתאהבת בשפה העברית. פרק הבכורה 05.03.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/713643/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jxo65s0a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - מעניין",
+      "subtitle": "בזמן שאליעזר מעוניין בעברית הנעורים של פרומה, היא מעוניינת בחשיפת הלינץ׳ שעשו לנערה מהקהילה 12.03.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/713646/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7whutnys/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - משווה ומעלה",
+      "subtitle": "פרומה נסחפת בתשוקה לעברית של אליעזר בן יהודה, ומחליטה לדבר רק עברית גם בבית 19.03.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/724805/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1w7rhabb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - לא כל עלמה באשר היא",
+      "subtitle": "פרומה מצליחה להביא גילויים חדשים ומסעירים בפרשת הלינץ'. חיה מודאגת מבנותיה, ואריה מחליט לחזור להיות אבא של פעם ולסדר את העניינים 26.03.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/724815/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jpfjwwyx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - המילים מתקיפות אותי",
+      "subtitle": "פרומה מחכה בהתרגשות לפרסום הכתבה שלה; אריה מוזמן אל הרב סלאנט, ומבין שאיבד שליטה על חיי בנותיו; חיה מאבדת ביטחון בשפיותה 02.04.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/731360/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tnh20omj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - אסור לך למות פרומה",
+      "subtitle": "חיה ואריה נאלצים להתמודד עם סודות מעברם. סוניה וגבריאל ניסן מדברים סוף סוף בכנות. פרומה מגלה אמיתות מפתיעות על הכתבה שלה ועל אליעזר, ובוחרת בחירה גורלית להמשך חייה 09.04.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/s1/734106/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2wn2j0dd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hazvi/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hazvi/s1-ep6.jpg"
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "slug": "arabic-work",
+  "title": "עבודה ערבית",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1",
+  "version": "a712448d28ff",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 44,
+  "localPoster": "images/kanbox/arabic-work/series.jpg",
+  "catalogPoster": "scripts/catalog/media/arabic-work/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המכונית",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-904ea38b7b6a921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_1_vod/avoda_aravit1_1_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הכבשה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-a1c29c005a6a921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_2_vod_fix/avoda_aravit1_2_vod_fix_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "גן ילדים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-9e9e9c005a6a921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_3_vod/avoda_aravit1_3_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "חטיפה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-1367dc9e0a2a921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_4_vod/avoda_aravit1_4_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "ארוחות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-6cb0dc9e0a2a921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_5_vod/avoda_aravit1_5_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "מילואים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-f198c42c5e48921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_6_vod/avoda_aravit1_6_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "נאמנות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-61e3507bbf44921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_7_vod/avoda_aravit1_7_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פשע גבולי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-d529564e4a04921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_8_vod/avoda_aravit1_8_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "ביקור הורים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-02704ca768b3921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_9_vod/avoda_aravit1_9_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "סייד קשוע מדבר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-b551e8945c6a921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_10_vod/avoda_aravit1_10_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "סיום העונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1/VOD-f8dcc69785b3921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S01/avoda_aravit1_11_vod/avoda_aravit1_11_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s1-ep11.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "המקלחת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-3a2237c349fc921004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_1_vod/avoda_aravit2_1_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "מעבר דירה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-c165c7c9f5af921006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_2_vod/avoda_aravit2_2_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "כלב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-81dc71c8f5e1a21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_3_vod/avoda_aravit2_3_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "כותונת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-bb853683df83a21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_4_vod/avoda_aravit2_4_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "ועד בית",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-8d23ce6facc5a21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_5_vod/avoda_aravit2_5_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פורים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-1ec5992fd598a21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_6_vod/avoda_aravit2_6_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "מוסיקה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-605035af949aa21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_7_vod/avoda_aravit2_7_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "זיכרון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-d2ff9acb047ea21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_8_vod/avoda_aravit2_8_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "משמר השכונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-9187179bbe01b21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_9_vod/avoda_aravit2_9_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "אמג'ד חושד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-15c94ba06b33b21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_10_vod/avoda_aravit2_10_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "name": "מתח בדרום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-7bfdf326f545b21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_11_vod/avoda_aravit2_11_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "name": "שחייה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-c948f903b177b21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_12_vod/avoda_aravit2_12_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "name": "אמג'ד כוכב עליון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s2/VOD-5af1733a5168b21004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S02/avoda_aravit2_13_vod/avoda_aravit2_13_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s2-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s2-ep13.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "ריאליטי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-444028235d83531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_1_vod/avoda_aravit3_1_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "השלפוחית הפוליטית",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-5bdac8eb2167531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_2_vod/avoda_aravit3_2_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "תולעים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-4f88bbcc1d99531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_3_vod/avoda_aravit3_3_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "התחרדות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-79edb10061eb531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_arvit3_04_vod/avoda_arvit3_04_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "כבוד המשפחה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-3e02334b142e531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_5_fixx/avoda_aravit3_5_fixx_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "כתב זר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-6c2e41d7322f531006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_06_vod/avoda_aravit3_06_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "ערבי צמחוני",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-5c2dcb2a65a2631006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_7_vod/avoda_aravit3_7_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "מדברים בקול",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-b98eb1c686a2631006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_8_vod/avoda_aravit3_8_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 3,
+      "name": "עיתונאי ערבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-3e2344023c8d631006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_9_vod/avoda_aravit3_9_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 3,
+      "name": "מקלט",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s3/VOD-9832a3888dcf631006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S03/avoda_aravit3_10_vod/avoda_aravit3_10_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s3-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s3-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 4,
+      "name": "הריון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-7de6611a522cf31006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_1_vod_fix/avoda_aravit4_1_vod_fix_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 4,
+      "name": "כבוד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-70e910e6091ef31006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_2_vod/avoda_aravit4_2_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 4,
+      "name": "זהות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-2f49b6c8f250041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_3_vod/avoda_aravit4_3_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 4,
+      "name": "בית מאיר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-f848bf907b92041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_4_vod/avoda_aravit4_4_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 4,
+      "name": "לוטו",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-f061c38ae2d4041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_5_vod/avoda_aravit4_5_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 4,
+      "name": "שורף היערות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-78bfc13caf17041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_6_vod/avoda_aravit4_6_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 4,
+      "name": "טעם ערבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-b2509ad20759041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_7_vod/avoda_aravit4_7_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 4,
+      "name": "ספורט לאומי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-8bca10d5c78d041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_8_vod/avoda_aravit4_8_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 4,
+      "name": "פייסבוק",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-478de1642fcf041006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_9_vod/avoda_aravit4_9_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 4,
+      "name": "לידה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s4/VOD-ccdf76474c02141006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/avoda_aravit/S04/avoda_aravit4_10_vod/avoda_aravit4_10_vod_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/arabic-work/s4-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/arabic-work/s4-ep10.jpg"
+    }
+  ]
+}

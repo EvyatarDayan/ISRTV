@@ -1,0 +1,253 @@
+{
+  "slug": "she-is-with-me",
+  "title": "להיות איתה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1",
+  "version": "4e612ae26f27",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 24,
+  "localPoster": "images/kanbox/she-is-with-me/series.jpg",
+  "catalogPoster": "scripts/catalog/media/she-is-with-me/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "מרק ארטישוק",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-08957001d856241006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_01_211113_VOD_gh45/Lehiyot_Ita_01_211113_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "סופרמן הישראלי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-76b32b67a2b6241006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_02_251113_VOD_gh45/Lehiyot_Ita_02_251113_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "ביג בן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-266a6cec812b241006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_03_021213_VOD_gh45/Lehiyot_Ita_03_021213_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "המעריץ של נועה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-ae0e3a0db9bf241006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_04_161213_VOD_gh45/Lehiyot_Ita_04_161213_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "ארוחת שישי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-4bcb2ea5e0a1341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_05_221213_VOD_gh45/Lehiyot_Ita_05_221213_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הלילה המאושר בחייה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-77799eeffcd3341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_06_291213_VOD_gh45/Lehiyot_Ita_06_291213_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "תכירו את עמוס",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-1bae36402935341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_07_040114_VOD_gh45S/Lehiyot_Ita_07_040114_VOD_gh45S_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "הלך היום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-945d781b3f67341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_08_180114_VOD_gh45/Lehiyot_Ita_08_180114_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "בואי לאילת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-de0ec53823fb341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_09_250114_VOD_gh45/Lehiyot_Ita_09_250114_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פיט או עמוס",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1/VOD-b809a1a8963d341006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S01/EP_HD/Lehiyot_Ita_10_010214_VOD_gh45/Lehiyot_Ita_10_010214_VOD_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s1-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "אבא בא",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-d25ca376ca2db51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_01_040517_vod_dses214/Lehiyot_Ita2_01_040517_vod_dses214_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "היום השחור בחייה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-7b7326c9a9ceb51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_02_090517_vod_dses214/Lehiyot_Ita2_02_090517_vod_dses214_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "יאיר מפעם",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-1e0e0bf30f01c51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_03_160517_vod_fad43/Lehiyot_Ita2_03_160517_vod_fad43_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "בשמלת כלה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-db59308faa43c51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_04_230517_vod_drd46/Lehiyot_Ita2_04_230517_vod_drd46_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "גנגסטר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-d981a8849cc7c51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_05_060617_vod_guk7453/Lehiyot_Ita2_05_060617_vod_guk7453_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "מה שקורה בבולגריה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-3e8727d5cb0ac51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_06_130617_vod_hjfm254/Lehiyot_Ita2_06_130617_vod_hjfm254_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "לא היה כלום - כי אין כלום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-928808768d5cc51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_07_200617_vod_fdv145/Lehiyot_Ita2_07_200617_vod_fdv145_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "Red Wedding",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-4dcae52d2f8ec51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_08_270617_vod_jihn543/Lehiyot_Ita2_08_270617_vod_jihn543_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "חדשות רעות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-f3bc76467ec0d51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_09_040717_vod_kjfd241/Lehiyot_Ita2_09_040717_vod_kjfd241_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "גן עדן - סיום העונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s2/VOD-756aa1b69213d51006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S02/EP/Lehiyot_Ita2_10_110717_vod_gulds523/Lehiyot_Ita2_10_110717_vod_gulds523_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s2-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "Save the date",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s3/VOD-e456ced922a5c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S03/EP/Lehiyot_Ita3_01_121021_vod_gh45/Lehiyot_Ita3_01_121021_vod_gh45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "ואז הגיע אביתר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s3/VOD-86c03ac5a379c71027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S03/EP/Lehiyot_Ita3_02_191021_vod_fsv442/Lehiyot_Ita3_02_191021_vod_fsv442_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "תינוקה של ונסה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s3/VOD-4d770d0a680cc71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S03/EP/Lehiyot_Ita3_03_271021_vod_kug423/Lehiyot_Ita3_03_271021_vod_kug423_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "תגיד לי שאתה אוהב אותי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s3/VOD-dace3d359e4ec71027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Lehiyot_Ita/S03/EP/Lehiyot_Ita3_04_031121_vod_hjv442/Lehiyot_Ita3_04_031121_vod_hjv442_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/she-is-with-me/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/she-is-with-me/s3-ep4.jpg"
+    }
+  ]
+}

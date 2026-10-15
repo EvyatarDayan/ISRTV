@@ -1,0 +1,43 @@
+{
+  "slug": "sky-army",
+  "title": "צבא שמיים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army",
+  "version": "b363e110fc0f",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 3,
+  "localPoster": "images/kanbox/sky-army/series.jpg",
+  "catalogPoster": "scripts/catalog/media/sky-army/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - הישיבה החרדית הסגורה בישראל",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-7d416e6acb86091027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/TV/Programs/hadashot_keshet/mahadura_merkazit_300624_herdim/mahadura_merkazit_300624_herdim_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/sky-army/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/sky-army/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - לא הולכים לישיבה וגם לצבא",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-893a2f2a72d6091026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shalmor_vtr2_n20240701_v1/20shalmor_vtr2_n20240701_v1_,850,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/sky-army/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/sky-army/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - \"נמות ולא נתגייס\"",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-450d27af3677091026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shamaim_vtr2_n20240702_v1/20shamaim_vtr2_n20240702_v1_,850,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/sky-army/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/sky-army/s1-ep3.jpg"
+    }
+  ]
+}

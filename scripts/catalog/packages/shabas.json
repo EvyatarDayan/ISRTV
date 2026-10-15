@@ -1,0 +1,213 @@
+{
+  "slug": "shabas",
+  "title": "שב\"ס",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/",
+  "version": "3ab1ea4d5da5",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 20,
+  "localPoster": "images/kanbox/shabas/series.jpg",
+  "catalogPoster": "scripts/catalog/media/shabas/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "נטפליקס בכלא - פרק 1",
+      "subtitle": "פרק הבכורה! בכלא ענבים מתמודדים עם מהומות אסירים ורה\"מ נכנס למאסר באשמת קניבליזם 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104393/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_k8x1b3bx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "היכונו לכליאת המשיח - פרק 2",
+      "subtitle": "מה עושים כשהילד לא רוצה לעמוד בראש כת פוליגמיסטית שמנצלת נשים? 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104657/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5thtej3j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פצפוני ואנטון - פרק 3",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים. 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104752/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qvh1rpcz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "שביתת הסגל הזוטר - פרק 4",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים. 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104755/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2w7fh3y4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "תעלומת רוצח הפטיש - פרק 5",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104758/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9e2w1qui/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "שובה של מיכלי - פרק 6",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104761/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_egootzz5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פינקי והשד - פרק 7",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104764/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vyel2sqx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "דגל שחור - פרק 8",
+      "subtitle": "למה עדי המפקדת לא רוצה שסוהר אתיופי ייצא עם נשק הביתה? מי האסיר המסוכן באגף טעוני ההגנה? מה משותף לבר רפאלי וקפקא והאם אילן ברקן יזכה סופסוף לגאולה? 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104767/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_detc2xh8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "להתראות אנטון - פרק 9",
+      "subtitle": "תוכנית מערכונים המתרחשת בכלא ענבים ומביאה את קורותיהם של הסוהרים, האסירים והמבקרים. עם נעמי לבוב, מנשה נוי, יגאל נאור, יניב ביטון, נועה קולר, איתי זבולון, מעיין בלום ועוד רבות וטובות ורבים וטובים 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104770/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sszxbki7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "להציל את פינקי - פרק 10",
+      "subtitle": "בפרק האחרון של העונה האסירים הביטחוניים מקבלים הזדמנות לשחרור, ניתאי מכין הפתעה ליום ההולדת של המפקדת והאם יכול להיות שפינקי יקבל עזרה ממקור לא צפוי? 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s1/104773/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_spa2mtyc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s1-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "המשפחה מתרחבת - פרק 1",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115783/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ci1vp1w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "הרוצח הטוב - פרק 2",
+      "subtitle": "סאטירה. עונה שניה לתוכנית המערכונים שמביאה את קורותיהם של אסירי, סוהרי ומבקרי כלא ענבים. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115786/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jxgtyuvf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "בעיות משקל - פרק 3",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115789/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9mvbhu2z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "יום הורים - פרק 4",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115792/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2vz2strj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "שביתת רופאים - פרק 5",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115795/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7nr00jq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "עד אשר תמותנה - פרק 6",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115798/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ubhbcpkh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "מתנגדי חיסונים - פרק 7",
+      "subtitle": "סאטירה. עונה שניה לתוכנית המערכונים שמביאה את קורותיהם של אסירי, סוהרי ומבקרי כלא ענבים. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115801/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7c5qid9t/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "חשמלית ושמה עזרא - פרק 8",
+      "subtitle": "סאטירה. האנשים שהיו בסגר עוד לפני שזה היה פופולרי חוזרים לעונה שניה ולא פחות מטורפת. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד. 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115804/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f5wrhv6v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פוריש צדק - פרק 9",
+      "subtitle": "סאטירה. עונה שניה לתוכנית המערכונים שמביאה את קורותיהם של אסירי, סוהרי ומבקרי כלא ענבים. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115807/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kxq235sd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "יום שישי השחור - פרק 10",
+      "subtitle": "סאטירה. עונה שניה לתוכנית המערכונים שמביאה את קורותיהם של אסירי, סוהרי ומבקרי כלא ענבים. עם נעמי לבוב, מנשה נוי, יניב ביטון, נועה קולר, יניב סוויסה, איתי זבולון, עופר שכטר, דביר בנדק, איציק כהן ועוד 18.11.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/s2/115809/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9fbkv2t9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shabas/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/shabas/s2-ep10.jpg"
+    }
+  ]
+}

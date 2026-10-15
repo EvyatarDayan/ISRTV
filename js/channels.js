@@ -135,6 +135,15 @@ window.ISRTV_CHANNELS = [
         placeholder: 'עכשיו 14'
     },
     {
+        id: 'ch16',
+        name: 'ערוץ 16',
+        region: 'israel',
+        streamURL: 'https://ch16israel-cdn.encoders.immergo.tv/master.m3u8',
+        imageName: 'ch16',
+        imageURL: 'images/live/ch16.jpg',
+        placeholder: 'ערוץ 16'
+    },
+    {
         id: 'reshet-comedy',
         name: 'רשת קומדיות',
         region: 'israel',
@@ -182,6 +191,36 @@ window.ISRTV_CHANNELS = [
         streamURL: 'https://mako-streaming.akamaized.net/evrideo/hls/live/20001278/ch24live/index.m3u8',
         imageName: 'channel24',
         placeholder: 'ערוץ 24'
+    },
+    {
+        id: 'eretz-nehederet',
+        name: 'ארץ נהדרת',
+        region: 'israel',
+        // Mako linear FAST — resolveMakoPlayUrl adds Akamai ticket
+        streamURL: 'https://mako-streaming.akamaized.net/evrideo/hls/live/20001278/erets/index.m3u8',
+        imageName: 'eretz-nehederet',
+        imageURL: 'images/live/eretz-nehederet.jpg',
+        placeholder: 'ארץ נהדרת'
+    },
+    {
+        id: 'comedy-nonstop',
+        name: 'ערוץ הקומדיה',
+        region: 'israel',
+        // Mako linear FAST — resolveMakoPlayUrl adds Akamai ticket
+        streamURL: 'https://mako-streaming.akamaized.net/evrideo/hls/live/20001278/free_comedy/index.m3u8',
+        imageName: 'comedy-nonstop',
+        imageURL: 'images/live/comedy-nonstop.jpg',
+        placeholder: 'ערוץ הקומדיה'
+    },
+    {
+        id: 'music-nonstop',
+        name: 'ערוץ המוזיקה',
+        region: 'israel',
+        // Mako linear FAST — resolveMakoPlayUrl adds Akamai ticket
+        streamURL: 'https://mako-streaming.akamaized.net/evrideo/hls/live/20001278/free_music/index.m3u8',
+        imageName: 'music-nonstop',
+        imageURL: 'images/live/music-nonstop.jpg',
+        placeholder: 'ערוץ המוזיקה'
     },
     /* מהעולם — free web / FAST HLS mirrors of the listed live pages */
     {
@@ -269,6 +308,33 @@ window.ISRTV_CHANNELS = [
         defaultSubtitles: 'sv'
     },
     {
+        id: 'chinuchit-kids',
+        name: 'חינוכית',
+        region: 'kids',
+        streamURL: 'https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/kan_edu/live.livx/playlist.m3u8?renditions&fmp4',
+        imageName: 'check1',
+        placeholder: 'חינוכית',
+        preferHlsJs: true
+    },
+    {
+        id: 'hop',
+        name: 'הופ!',
+        region: 'kids',
+        streamURL: 'http://stream.mcquack.net/44/index.m3u8',
+        imageName: 'hop',
+        placeholder: 'הופ!',
+        preferHlsJs: true
+    },
+    {
+        id: 'zoom',
+        name: 'זום',
+        region: 'kids',
+        streamURL: 'http://stream.mcquack.net/377/index.m3u8',
+        imageName: 'zoom',
+        placeholder: 'זום',
+        preferHlsJs: true
+    },
+    {
         id: 'svtbarn',
         name: 'SVT Barn',
         region: 'kids',
@@ -278,6 +344,51 @@ window.ISRTV_CHANNELS = [
         placeholder: 'SVT Barn',
         preferHlsJs: true,
         defaultSubtitles: 'sv'
+    },
+    {
+        id: 'pbskids',
+        name: 'PBS Kids',
+        region: 'kids',
+        streamURL: 'https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8',
+        imageName: 'pbskids',
+        placeholder: 'PBS Kids',
+        preferHlsJs: true
+    },
+    {
+        id: 'nickelodeon',
+        name: 'Nickelodeon',
+        region: 'kids',
+        streamURL: 'https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8',
+        imageName: 'nickelodeon',
+        placeholder: 'Nickelodeon',
+        preferHlsJs: true
+    },
+    {
+        id: 'nicktoons',
+        name: 'Nicktoons',
+        region: 'kids',
+        streamURL: 'https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8',
+        imageName: 'nicktoons',
+        placeholder: 'Nicktoons',
+        preferHlsJs: true
+    },
+    {
+        id: 'totally-turtles',
+        name: 'Totally Turtles',
+        region: 'kids',
+        streamURL: 'https://jmp2.uk/plu-61c185e36faf920007f04b6e.m3u8',
+        imageName: 'totally-turtles',
+        placeholder: 'Totally Turtles',
+        preferHlsJs: true
+    },
+    {
+        id: 'icarly',
+        name: 'iCarly',
+        region: 'kids',
+        streamURL: 'https://jmp2.uk/plu-61c185049e0bde0007820039.m3u8',
+        imageName: 'icarly',
+        placeholder: 'iCarly',
+        preferHlsJs: true
     }
 ];
 
@@ -294,266 +405,6 @@ window.ISRTV_KANBOX = [
         pageURL: 'https://www.tv4play.se/program/2cec9a9f7ab85bb7a04c/halv-atta-hos-mig',
         episodes: [
             {
-                id: 'halv-atta-hos-mig-s25-ep1',
-                season: 25,
-                ep: 1,
-                name: 'Avsnitt 1 - Söderköping - måndag',
-                streamURL: '',
-                assetId: 'f3b7060ab873f721dc2b',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep1.jpg',
-                placeholder: '1',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep2',
-                season: 25,
-                ep: 2,
-                name: 'Avsnitt 2 - Söderköping - tisdag',
-                streamURL: '',
-                assetId: '6ad4442e0970200b4456',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep2.jpg',
-                placeholder: '2',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep3',
-                season: 25,
-                ep: 3,
-                name: 'Avsnitt 3 - Söderköping - onsdag',
-                streamURL: '',
-                assetId: '5816189e589d5a371bc6',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep3.jpg',
-                placeholder: '3',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep4',
-                season: 25,
-                ep: 4,
-                name: 'Avsnitt 4 - Söderköping - torsdag',
-                streamURL: '',
-                assetId: '18f07737621bb14b5a80',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep4.jpg',
-                placeholder: '4',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep5',
-                season: 25,
-                ep: 5,
-                name: 'Avsnitt 5 - Falkenberg - måndag',
-                streamURL: '',
-                assetId: 'e6b46381b6e322f3cf5b',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep5.jpg',
-                placeholder: '5',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep6',
-                season: 25,
-                ep: 6,
-                name: 'Avsnitt 6 - Falkenberg - tisdag',
-                streamURL: '',
-                assetId: '033fb1899e299af054ac',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep6.jpg',
-                placeholder: '6',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep7',
-                season: 25,
-                ep: 7,
-                name: 'Avsnitt 7 - Falkenberg - onsdag',
-                streamURL: '',
-                assetId: 'e3d9cc2b5d902e259080',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep7.jpg',
-                placeholder: '7',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep8',
-                season: 25,
-                ep: 8,
-                name: 'Avsnitt 8 - Falkenberg - torsdag',
-                streamURL: '',
-                assetId: '5470e599251cc806f707',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep8.jpg',
-                placeholder: '8',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep9',
-                season: 25,
-                ep: 9,
-                name: 'Avsnitt 9 - Stockholm - måndag',
-                streamURL: '',
-                assetId: '6eee13e5505db4b234c2',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep9.jpg',
-                placeholder: '9',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep10',
-                season: 25,
-                ep: 10,
-                name: 'Avsnitt 10 - Stockholm - tisdag',
-                streamURL: '',
-                assetId: '5377236d12113bb9c1f3',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep10.jpg',
-                placeholder: '10',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep11',
-                season: 25,
-                ep: 11,
-                name: 'Avsnitt 11 - Stockholm - onsdag',
-                streamURL: '',
-                assetId: '150d5d7e7d145b33f680',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep11.jpg',
-                placeholder: '11',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep12',
-                season: 25,
-                ep: 12,
-                name: 'Avsnitt 12 - Stockholm - torsdag',
-                streamURL: '',
-                assetId: '9c560f4f962c0461aac4',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep12.jpg',
-                placeholder: '12',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep13',
-                season: 25,
-                ep: 13,
-                name: 'Avsnitt 13 - Karlskoga - måndag',
-                streamURL: '',
-                assetId: '32c72ca7d729a1df1f91',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep13.jpg',
-                placeholder: '13',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep14',
-                season: 25,
-                ep: 14,
-                name: 'Avsnitt 14 - Karlskoga - tisdag',
-                streamURL: '',
-                assetId: '0029e6f5ebf3f012b190',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep14.jpg',
-                placeholder: '14',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep15',
-                season: 25,
-                ep: 15,
-                name: 'Avsnitt 15 - Karskoga - onsdag',
-                streamURL: '',
-                assetId: '2e42adaa74b31b0a80d9',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep15.jpg',
-                placeholder: '15',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep16',
-                season: 25,
-                ep: 16,
-                name: 'Avsnitt 16 - Karlskoga - torsdag',
-                streamURL: '',
-                assetId: '78c1635a72d457e7f75d',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep16.jpg',
-                placeholder: '16',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep17',
-                season: 25,
-                ep: 17,
-                name: 'Avsnitt 17 - Stockholm - måndag',
-                streamURL: '',
-                assetId: 'a67bb31aef899cf7536b',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep17.jpg',
-                placeholder: '17',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep18',
-                season: 25,
-                ep: 18,
-                name: 'Avsnitt 18 - Stockholm - tisdag',
-                streamURL: '',
-                assetId: 'edee8a21a3161105522c',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep18.jpg',
-                placeholder: '18',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep19',
-                season: 25,
-                ep: 19,
-                name: 'Avsnitt 19 - Stockholm - onsdag',
-                streamURL: '',
-                assetId: '32f906061c7b2cbef6aa',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep19.jpg',
-                placeholder: '19',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
-                id: 'halv-atta-hos-mig-s25-ep20',
-                season: 25,
-                ep: 20,
-                name: 'Avsnitt 20 - Stockholm - torsdag',
-                streamURL: '',
-                assetId: '0d5eb70c3dc9925822f8',
-                streamResolve: 'tv4',
-                imageURL: 'images/kanbox/halv-atta-hos-mig/s25-ep20.jpg',
-                placeholder: '20',
-                defaultSubtitles: 'sv',
-                preferHlsJs: true
-            },
-            {
                 id: 'halv-atta-hos-mig-s26-ep1',
                 season: 26,
                 ep: 1,
@@ -563,7 +414,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep1.jpg',
                 placeholder: '1',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep1.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -602,7 +454,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep4.jpg',
                 placeholder: '4',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep4.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -615,7 +468,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep5.jpg',
                 placeholder: '5',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep5.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -628,7 +482,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep6.jpg',
                 placeholder: '6',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep6.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -641,7 +496,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep7.jpg',
                 placeholder: '7',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep7.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -654,7 +510,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep8.jpg',
                 placeholder: '8',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep8.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -667,7 +524,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep9.jpg',
                 placeholder: '9',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep9.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -680,7 +538,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep10.jpg',
                 placeholder: '10',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep10.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -693,7 +552,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep11.jpg',
                 placeholder: '11',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep11.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -706,7 +566,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep12.jpg',
                 placeholder: '12',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep12.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -719,7 +580,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep13.jpg',
                 placeholder: '13',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep13.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -732,7 +594,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep14.jpg',
                 placeholder: '14',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep14.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -745,7 +608,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep15.jpg',
                 placeholder: '15',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep15.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -758,7 +622,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep16.jpg',
                 placeholder: '16',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep16.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -771,7 +636,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep17.jpg',
                 placeholder: '17',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep17.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -784,7 +650,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep18.jpg',
                 placeholder: '18',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep18.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -797,7 +664,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep19.jpg',
                 placeholder: '19',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep19.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -810,7 +678,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep20.jpg',
                 placeholder: '20',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep20.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -823,7 +692,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep21.jpg',
                 placeholder: '21',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep21.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -836,7 +706,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep22.jpg',
                 placeholder: '22',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep22.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -849,7 +720,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep23.jpg',
                 placeholder: '23',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep23.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -862,7 +734,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep24.jpg',
                 placeholder: '24',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep24.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -875,7 +748,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep25.jpg',
                 placeholder: '25',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep25.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -888,7 +762,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep26.jpg',
                 placeholder: '26',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep26.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -901,7 +776,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep27.jpg',
                 placeholder: '27',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep27.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -914,7 +790,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep28.jpg',
                 placeholder: '28',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep28.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -940,7 +817,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep30.jpg',
                 placeholder: '30',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep30.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -953,7 +831,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep31.jpg',
                 placeholder: '31',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep31.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -966,7 +845,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s26-ep32.jpg',
                 placeholder: '32',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s26-ep32.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -979,7 +859,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep1.jpg',
                 placeholder: '1',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep1.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -992,7 +873,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep2.jpg',
                 placeholder: '2',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep2.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1005,7 +887,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep3.jpg',
                 placeholder: '3',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep3.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1018,7 +901,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep4.jpg',
                 placeholder: '4',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep4.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1031,7 +915,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep5.jpg',
                 placeholder: '5',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep5.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1044,7 +929,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep6.jpg',
                 placeholder: '6',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep6.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1057,7 +943,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep7.jpg',
                 placeholder: '7',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep7.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1070,7 +957,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep8.jpg',
                 placeholder: '8',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep8.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1083,7 +971,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep9.jpg',
                 placeholder: '9',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep9.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1096,7 +985,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep10.jpg',
                 placeholder: '10',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep10.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1109,7 +999,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep11.jpg',
                 placeholder: '11',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep11.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1122,7 +1013,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep12.jpg',
                 placeholder: '12',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep12.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1135,7 +1027,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep13.jpg',
                 placeholder: '13',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep13.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1148,7 +1041,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep14.jpg',
                 placeholder: '14',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep14.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1161,7 +1055,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep15.jpg',
                 placeholder: '15',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep15.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1174,7 +1069,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep16.jpg',
                 placeholder: '16',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep16.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1187,7 +1083,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep17.jpg',
                 placeholder: '17',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep17.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1200,7 +1097,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep18.jpg',
                 placeholder: '18',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep18.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1213,7 +1111,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep19.jpg',
                 placeholder: '19',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep19.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1226,7 +1125,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep20.jpg',
                 placeholder: '20',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep20.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1239,7 +1139,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep21.jpg',
                 placeholder: '21',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep21.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1252,7 +1153,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep22.jpg',
                 placeholder: '22',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep22.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1265,7 +1167,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep23.jpg',
                 placeholder: '23',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep23.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1278,7 +1181,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep24.jpg',
                 placeholder: '24',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep24.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1291,7 +1195,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep25.jpg',
                 placeholder: '25',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep25.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1304,7 +1209,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep26.jpg',
                 placeholder: '26',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep26.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1317,7 +1223,8 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep27.jpg',
                 placeholder: '27',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep27.he.vtt',
                 preferHlsJs: true
             },
             {
@@ -1330,8 +1237,3721 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'tv4',
                 imageURL: 'images/kanbox/halv-atta-hos-mig/s27-ep28.jpg',
                 placeholder: '28',
-                defaultSubtitles: 'sv',
+                defaultSubtitles: 'he',
+                subtitleURL: 'subs/halv-atta-hos-mig/s27-ep28.he.vtt',
                 preferHlsJs: true
+            }
+        ]
+    },
+    {
+        id: 'pgisha-roni-kuban',
+        name: 'פגישה עם רוני קובן',
+        placeholder: 'פגישה עם רוני קובן',
+        imageURL: 'images/kanbox/pgisha-roni-kuban/series.jpg',
+        source: 'kan',
+        episodes: [
+            {
+                id: 'pgisha-roni-kuban-s1-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - איתי אנגל',
+                subtitle: 'העיתונאי איתי אנגל בפגישה עם רוני קובן על המחיר הנפשי שהוא משלם על סיקור הזוועות בעולם, הנישואים לקראת גיל 50 וההתלבטות אם לפרוש מהמקצוע 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_11zdivew/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2 - עידן רייכל',
+                subtitle: 'עידן רייכל בפגישה עם רוני קובן, על הילדות בכפר סבא שממנה צמח להיות האמן הישראלי הכי מצליח בעולם וההחלטה המפתיעה לפרוש מפעילות לזמן בלתי מוגבל 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88tqwafj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3 - אורלי לוי-אבקסיס',
+                subtitle: 'חברת הכנסת אורלי לוי אבקסיס בראיון אישי על העבר והעתיד ועל ההכנות לדרמה של חייה הפוליטיים - התמודדות בבחירות בראש רשימה עצמאית 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ca0bf9yv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4 - רמי פורטיס',
+                subtitle: 'רמי פורטיסמגיע לפגישה עם רוני קובן ומספר על אורח החיים החדש, על הדירה השכורה בתל אביב, על המוסיקה, על החברים הדימיוניים וגם מלמד את קובן לעשות מדיטציה ולגלות את האור 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ub7c0np9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פרק 5 - אריק זאבי',
+                subtitle: 'המדליסט האולימפי בג\'ודו, אריק זאבי,מדבר עם רוני קובן על גבריות בעידן החדש, על לחימה ותחרותיות על לחצים ושיאים כמו על רגישות, דמעות ואכזבות גדולות 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6jy4kktc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פרק 6 - צחי הנגבי',
+                subtitle: 'צחי הנגבי מגיע לפגישה עם רוני קובן, לשיחה על פוליטיקה,התבגרות בזירה הפוליטית ,התמתנות, הכאה על חטא והקשר שבין כדורגל לפוליטיקה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_27nrqvlq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7 - נלי תגר',
+                subtitle: 'שחקנית הקולנוע והתיאטרון המוערכת נלי תגר מגיעה לפגישה עם רוני קובן ומדברת על הבית, החרדות, מאחורי הקלעים של עולם התיאטרון וההטרדות המיניות 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o6ch1ckc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פרק 8 - תם אהרון',
+                subtitle: 'הסטנדאפיסט תם אהרון שמתחיל להוביל תכנית סאטירה שבועית חדשה (״פעם בשבוע עם תם אהרון״ בכאן 11). מגיע לפגישה עם רוני קובן ומסביר מה האשכנזים צריכים לעשות כדי להשתלב בעולם החדש 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bx6fvuwg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep9',
+                season: 1,
+                ep: 9,
+                name: 'פרק 9 - דיקלה',
+                subtitle: 'הזמרת דיקלה מגיעה לפגישה עם רוני קובן ומספרת על המסע המורכב שלה אל תהילת ההופעה בקיסריה, על 15 שנים של מאבקים, כולל שינה על ספסלים בגנים ציבוריים, עד שכבשה את הלבבות עם היצירה המיוחדת שלה במוסיקה הישראלית 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_799kl2bm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep10',
+                season: 1,
+                ep: 10,
+                name: 'פרק 10 - חיים כהן',
+                subtitle: 'השף חיים כהן, מגיע לפגישה עם רוני קובן בשבוע שבו נודע לו שזכה בכוכב מישלן באמסטרדם. בשיחה אישית, הוא מספר בפעם הראשונה בגילוי לב על הפרידה מאמו 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jgb47x4h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep11',
+                season: 1,
+                ep: 11,
+                name: 'פרק 11 - נעם סמל',
+                subtitle: 'נעם סמל בפגישה עם רוני קובן על השנה הקשה בחייו, האובדן והאבל על מות אשתו הסופרת נאווה סמל וגם על הנסיבות לעזיבת הקאמרי אחרי 25 שנים כמנכ"ל 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gub91icc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep12',
+                season: 1,
+                ep: 12,
+                name: 'פרק 12 - אורלי וילנאי',
+                subtitle: 'העתונאית אורלי וילנאי מספרת לרוני קובן על המאבקים האינסופיים לסייע לנזקקים הרבים שפונים אליה, השילוב של זוגיות ועבודה משותפת והמאבקים הבריאותיים איתם היא מתמודדת 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lpd69k3a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep13',
+                season: 1,
+                ep: 13,
+                name: 'פרק 13 - ריקי גל',
+                subtitle: 'בגיל 67, ריקי גל מעידה על עצמה שבפעם הראשונה מצאה אהבת אמת ומספרת על הופעה בימתית חדשה בה היא מעיזה להתמודד עם השדים והטראומות של העבר 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vwdofnpl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep14',
+                season: 1,
+                ep: 14,
+                name: 'פרק 14 - דן מרגלית',
+                subtitle: 'דן מרגלית מגיע לפגישה רגע אחרי הפיטורים מ״ישראל היום״ ולפני שהוא חוגג יום הולדת 80, ומסכם יותר מחמישים שנים סוערות בצומת הסואן של התקשורת והפוליטיקה בישראל 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2w651zmh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep15',
+                season: 1,
+                ep: 15,
+                name: 'פרק 15 - דניאלה לונדון-דקל',
+                subtitle: 'דניאלה לונדון-דקל, בתו של ירון לונדון, חשפה את חייה במשך שנים בטורים המאויירים האישיים שלה, בסדרה הקומית ״יום האם״ ובהצגה "עובדים על הזוגיות" ובכל זאת, היא מתעקשת שרק נדמה לנו שאנחנו מכירים אותה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2j8j3zx9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep16',
+                season: 1,
+                ep: 16,
+                name: 'פרק 16 - מאור זגורי',
+                subtitle: 'מאור זגורי, מחזאי ובמאי תיאטרון וטלויזיה, היוצר של "זגורי אמפריה" והבמאי של "שבאבניקים", מדבר בגילוי לב על המהפכה המזרחית, התלונות על משה איבגי, הפסיכואנליזה שעובר והחתונה עם השחקנית חן אמסלם 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7dfdtbsw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep17',
+                season: 1,
+                ep: 17,
+                name: 'פרק 17 - קרן פלס',
+                subtitle: 'קרן פלס כוכבת לכל המשפחה, זמרת מצליחה, שופטת בריאליטי ובעלת טור שבועי בעיתון, יוצאת במחזמר נועז במיוחד, ומספרת לרוני קובן על הדמות הפרועה וחסרת המעצורים שיצרה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hkm5atd8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep18',
+                season: 1,
+                ep: 18,
+                name: 'פרק 18 - איימן סיכסק',
+                subtitle: 'הסופר והעיתונאי איימן סיכסק, מגיע לפגישה עם רוני קובן ומדבר על ספרו האחרון "תשרין", יציאתו מהארון וקולו התרבותי הייחודי 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4uxtppnl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep19',
+                season: 1,
+                ep: 19,
+                name: 'פרק 19 - זאב רווח',
+                subtitle: 'על האכזבה שחש מאביו כשבחר במשחק ועל פרשת ההטרדות המיניות 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bc5a64ht/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep20',
+                season: 1,
+                ep: 20,
+                name: 'פרק 20 - קובי אוז',
+                subtitle: 'הסופר, המוזיקאי ומנהיג להקת "טיפקס" מתארח לשיחה אישית 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7awnh0mo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep21',
+                season: 1,
+                ep: 21,
+                name: 'פרק 21 - הרב לאו',
+                subtitle: 'זכרונות הילדות הקשים בזמן השואה, והלילה בו ראה את אביו בפעם האחרונה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jvij72ki/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep22',
+                season: 1,
+                ep: 22,
+                name: 'פרק 22 - ציפי לבני',
+                subtitle: 'חברת הכנסת ציפי לבני מסבירה מדוע נתניהו מסוכן ומדברת על שאיפות פוליטיות ואחוות נשים 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q71fzc50/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep23',
+                season: 1,
+                ep: 23,
+                name: 'פרק 23 - דליה דורנר',
+                subtitle: 'השופטת דורנר מדברת על תקרת הזכוכית, הזקנה, פסקת ההתגברות והמתקפה על העיתונות 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q8025yfo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep24',
+                season: 1,
+                ep: 24,
+                name: 'פרק 24 - ירדנה ארזי',
+                subtitle: 'ירדנה ארזי חוזרת לנקודות ציון בקריירה שלה, ופותחת את תיבת הפנדורה של ילדותה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bf2s5gkj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep24.jpg',
+                placeholder: '24'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep25',
+                season: 1,
+                ep: 25,
+                name: 'פרק 25 - עפר שלח',
+                subtitle: 'חבר הכנסת עפר שלח מספר על החברות והמריבות עם יאיר לפיד, והחלום להיות שר הביטחון 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_knzbbm9q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep25.jpg',
+                placeholder: '25'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep26',
+                season: 1,
+                ep: 26,
+                name: 'פרק 26 - דיוויד ברוזה',
+                subtitle: 'דיוויד ברוזה מדבר על הפרידה הכואבת, האהבה החדשה, והחיים על קו אמריקה-ישראל 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zhh1rfux/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep26.jpg',
+                placeholder: '26'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep27',
+                season: 1,
+                ep: 27,
+                name: 'פרק 27 - בן כספית',
+                subtitle: 'העיתונאי בן כספית, מחבר ״נתניהו: ביוגרפיה״ מסכם עשרים שנות של סיקור אובססיבי של נתניהו 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8h3ta7pb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep27.jpg',
+                placeholder: '27'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep28',
+                season: 1,
+                ep: 28,
+                name: 'פרק 28 - אתגר קרת',
+                subtitle: 'הסופר אתגר קרת מדבר על כתיבה, משפחתו המיוחדת ועל פגישה יוצאת דופן עם ראש הממשלה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_62kpk7jj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep28.jpg',
+                placeholder: '28'
+            },
+            {
+                id: 'pgisha-roni-kuban-s1-ep29',
+                season: 1,
+                ep: 29,
+                name: 'פרק 29 - יורם ארבל',
+                subtitle: 'שדר הספורט הוותיק יורם ארבל מדבר על רגעי שידור בלתי נשכחים ועל המונדיאל הראשון שיראה מהבית 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hhcj85bq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s1-ep29.jpg',
+                placeholder: '29'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep1',
+                season: 2,
+                ep: 1,
+                name: 'פרק 1 - תמר זנדברג',
+                subtitle: 'תמר זנדברג הצליחה תוך 24 שעות לעבור מפסגת חייה - ניצחון בבחירות ליו״ר מרצ - לטראומה של חייה, כשנחשף שנעזרה ביועץ השנוי במחלוקת קלוגהפט. עכשיו היא יוצאת לקרב הגדול של חייה: להגן על השמאל הישראלי 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ycxkj22c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep2',
+                season: 2,
+                ep: 2,
+                name: 'פרק 2 - מירב מיכאלי',
+                subtitle: 'מירב מיכאלי ממשיכה בפרויקט חייה: העצמת הקול הנשי ומאבק נוקב בשוביניזם. ובין לבין מרגילה את עצמה למחשבה שבעתיד היא תרצה להיות ראש ממשלה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2e4zd0bn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep3',
+                season: 2,
+                ep: 3,
+                name: 'פרק 3 - דן שילון',
+                subtitle: 'דן שילון חוזר לשידורי הספורט הגדולים שהוביל בשנות השבעים- נבחרת ישראל במונדיאל 70׳ והטבח בספורטאים הישראלים במינכן 72׳, ומספר לרוני קובן מה באמת קרה מאחורי הקלעים 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7blwwao/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep4',
+                season: 2,
+                ep: 4,
+                name: 'פרק 4 - רון בן ישי',
+                subtitle: 'חתן פרס ישראל לתקשורת רון בן ישי מתארח ב"פגישה עם רוני קובן" ומספר על הקריירה העתונאית יוצאת הדופן, שהביאה אותו לכמה מהמקומות המסוכנים בעולם 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0n4p0tqb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep5',
+                season: 2,
+                ep: 5,
+                name: 'פרק 5 - לוסי אהריש',
+                subtitle: 'העיתונאית לוסי אהריש מתארחת ומדברת על המחיר האישי שנדרשה לשלם כדי להפוך מילדה מוסלמית שגדלה בדימונה לכוכבת תקשורת שמוזמנת להדליק משואה ביום העצמאות 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jtil713h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep6',
+                season: 2,
+                ep: 6,
+                name: 'פרק 6 - יועז הנדל',
+                subtitle: 'ד"ר יועז הנדל מגיע לפגישה עם רוני קובן ומספר איך הגיע לתפקיד ראש ההסברה הלאומי בלשכת נתניהו, וגילה שהמדינה לא מתנהלת כמו שהאמין כל חייו 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ieim63ue/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep7',
+                season: 2,
+                ep: 7,
+                name: 'פרק 7 - צרויה שלו',
+                subtitle: 'הסופרת צרויה שלו מגיעה לפגישה עם רוני קובן ומסבירה איך היא מצליחה לשלב בין חיי משפחה בורגניים ורגועים לנפש הסוערת שמתגלה בספרים שלה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_khxolre8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep8',
+                season: 2,
+                ep: 8,
+                name: 'פרק 8 - ענת וקסמן',
+                subtitle: 'השחקנית ענת וקסמן מגיעה לפגישה עם רוני קובן ומדברת על ההתמודדות המורכבת שעברה בשנים האחרונות, הגירושים, הגידול בראש והתבטאות אחת- שכמעט גמרה לה את הקריירה 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c6218sjy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep9',
+                season: 2,
+                ep: 9,
+                name: 'פרק 9 - יוסי מרשק',
+                subtitle: 'יוסי מרשק מגיע לפגישה עם רוני קובן ומספר על התהילה וההורות שהגיעו בגיל מבוגר, אחרי שכבר כמעט הרים ידיים וויתר 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kiewg3q8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep10',
+                season: 2,
+                ep: 10,
+                name: 'פרק 10 - סתיו שפיר',
+                subtitle: 'ח"כ סתיו שפיר מגיעה לפגישה עם רוני קובן ומספרת על המסע יוצא הדופן שלה מאוהלי המחאה החברתית אל צמרת הפוליטיקה הישראלית 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ywvzouya/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep11',
+                season: 2,
+                ep: 11,
+                name: 'פרק 11 - שאול אמסטרדמסקי',
+                subtitle: 'שאול אמסטרדמסקי מגיע לפגישה עם רוני קובן ומספר איך אירוע מפחיד בשם "דימום מוחי תת עכבישי לא מפרצתי" שינה את חייו והפך אותו לאחד העתונאים הכלכליים החשובים והמשפיעים בישראל 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_84uosyn3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s2-ep12',
+                season: 2,
+                ep: 12,
+                name: 'פרק 12 - ארקדי דוכין',
+                subtitle: 'ארקדי דוכין מגיע לפגישה עם רוני קובן ומספר למה החליט, בניגוד לכל העצות, להמציא את עצמו מחדש כראפר בשם Sugar Pain 23.10.2017',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eibbkt3k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 2,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s2-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep1',
+                season: 3,
+                ep: 1,
+                name: 'פרק 1 - ריטה',
+                subtitle: 'ריטה- הדיווה הגדולה מכולן מגיעה לדבר עם רוני קובן על ההתבגרות על הבמה ובחיים, על פרידות, על לשיר קטן וגדול, על אבא ואמא, על אושר ועל שגרה ומבטיחה לעוף מהאולפן על שטיח מעופף 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_urr8j2py/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep2',
+                season: 3,
+                ep: 2,
+                name: 'פרק 2 - אברי גלעד',
+                subtitle: 'אברי גלעד- המגיש הוותיק מגיע לדבר על התבגרות מול המצלמה, על ההצלחה של פעם וזו של היום, על החיקוי המפורסם שהעליב אותו, על דעותיו הפוליטיות וההתבטאויות שזכו לביקורת, על התדמית ומה שמאחוריה 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n6vyz45g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep3',
+                season: 3,
+                ep: 3,
+                name: 'פרק 3 - גורי אלפי',
+                subtitle: 'אחרי שנה באמריקה- גורי אלפי מגיע לספר על להתחיל מחדש בשפה זרה, על הצורך לעזוב בשיא, החיים המרובעים עד כאב שהוא מנהל, ועל הסיפור הכי מביך שאי פעם סיפרו עליו. וכן, יהיה גם עירום 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9dmp92wx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep4',
+                season: 3,
+                ep: 4,
+                name: 'פרק 4 - גיא רולניק',
+                subtitle: 'גיא רולניק- הפרשן הכלכלי הבכיר בישראל ומי שניהל אינספור מאבקים עם האנשים החזקים במשק מגיע לריאיון אישי ראשון. על אומץ, על מי שניסה לקנות אותו ומי שניסה לחסל אותו, ועל האויב הגדול הבא של כולנו 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6db3m598/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep5',
+                season: 3,
+                ep: 5,
+                name: 'פרק 5 - אסף גרניט',
+                subtitle: 'עם שתי מסעדות בפריז, שלוש בלונדון, שבע בארץ, ועוד עונה של ריאליטי בכיכובו, אסף גרניט מגיע לדבר על הצורך להצליח, על החרדות, על הרגע שבו הבין שהוא יהיה שף, ועל הדברים שהוא לא מתכוון לסלוח עליהם 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nes8vbsu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep6',
+                season: 3,
+                ep: 6,
+                name: 'פרק 6 - עינת נתן',
+                subtitle: 'מדריכת ההורים עינת נתן מספרת על ההורות שלה עצמה, על המסע המפרך שלה להיות אמא, על מה שהורים לא יודעים לעשות, על גבולות ועל אהבה וגם מספקת כמה עצות להורים מיואשים 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jiq17s0i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep7',
+                season: 3,
+                ep: 7,
+                name: 'פרק 7 - דודו טסה',
+                subtitle: 'דודו טסה מספר על חרדות שהצליח להשאיר מאחור ועל כאלה שלא, על ההחלטה לחזור למוסיקה של סבו וההצלחה הגדולה שהביאה, על ילד הפלא שהיה, ועל האומן הבוגר שהוא היום וגם על הסיבה שבגללה אף פעם לא יתלונן על אפליה 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kgxk07tb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep8',
+                season: 3,
+                ep: 8,
+                name: 'פרק 8 - חנה לסלאו',
+                subtitle: 'חנה לסלאו מסכמת עם קובן קריירה ארוכה של הצלחות, מעט כשלונות וגם פרס אחד מרשים במיוחד. מסבירה למה היא לא סומכת על אף אחד, איך לצחוק על השואה כשההורים שלך ניצולי אושוויץ, וגם למה החליטה להיפרד מצביקה פיק 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_32raovpy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep9',
+                season: 3,
+                ep: 9,
+                name: 'פרק 9 - אביגדור פלדמן',
+                subtitle: 'הסניגור ולוחם הצדק מגיע לפגישה, כדי לדבר על הכשלונות שרודפים אותו בחלומות, על הגאווה שמנעה ממנו לפרוש מתיק קצב, על כך שבעיני עצמו הוא הנוכל הכי גדול שיש, וגם על אבא ואמא, והחרטות והגעגועים שקשורים בהם 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3bw4n66r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep10',
+                season: 3,
+                ep: 10,
+                name: 'פרק 10 - יעקב אחימאיר',
+                subtitle: 'יעקב אחימאיר, המגיש הוותיק והסמל של השידור הממלכתי, מגיע לדבר באופן לא ממלכתי על הכל. על להיות הבן של, היחסים עם בגין ונתניהו, הציוצים הפרובוקטיביים, החרטות בגיל 80 ועל הרייטינג 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lfoh9mui/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep11',
+                season: 3,
+                ep: 11,
+                name: 'פרק 11 - חיים באר',
+                subtitle: 'חיים באר מגיע לפגישה עם ספר חדש ועם מחשבות חדשות על החיים ועל המוות, על הציונות הדתית שממנה יצא ועל אלוהים, על ההורים שלו, ועל אהבה ובושה וגם על למה, בדיעבד, הוא חושב שלא צריך לאגור יותר מדי ספרים 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jihagngm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep12',
+                season: 3,
+                ep: 12,
+                name: 'פרק 12 - גל גבאי',
+                subtitle: 'גל גבאי מספרת לרוני קובן על הצורך להמציא את עצמה מחדש, על המאבקים שניהלה כעיתונאית, על קטיעת היד וההתמודדות איתה כילדה, ועל הגיבור שלא תשכח לעולם 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_54bqw9bg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep13',
+                season: 3,
+                ep: 13,
+                name: 'פרק 13 - נתן דטנר',
+                subtitle: 'נתן דטנר משוחח עם רוני קובן על כישרון ועל תחרות, על המאבק האינסופי כדי לזכות בתפקידים, על טוביה החולב, תפקיד חייו, על הוריו ניצולי השואה וגם על מה שהוא עושה כשמישהו בקהל לא מוחא כפיים בסוף ההצגה 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlm6kqe7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep14',
+                season: 3,
+                ep: 14,
+                name: 'פרק 14 - ירון לונדון',
+                subtitle: 'ירון לונדון מדבר עם קובן על החיים בגיל 80, בטלוויזיה ומחוצה לה, על הזוגיות החדשה עם גאולה אבן והישנה עם מוטי קירשנבאום, על איך מראיינים ומה שואלים, וגם על השערוריות האחרונות בכיכובו 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pz5yf5tq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep15',
+                season: 3,
+                ep: 15,
+                name: 'פרק 15 - סיוון רהב מאיר',
+                subtitle: 'רגע לפני הנסיעה לשליחות בארה"ב, סיוון רהב מאיר מדברת על השינוי ביחסה לתקשורת, על השיעורים הפופולאריים שלה, על הילדה החילונית שהייתה וחלמה להיות כתבת תחקירים, על מה שלא תסכים לשדר, וגם על הדתה ושמדתה 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fdq605jo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep16',
+                season: 3,
+                ep: 16,
+                name: 'פרק 16 - אושרת קוטלר',
+                subtitle: 'אחרי סערת "חיות אדם" והחופשה מהמגזין אותו הגישה במשך 12 שנים, אושרת קוטלר מגיעה ל"פגישה" כדי לספר על הסערה והמחיר, על הסרט שבו התחקתה אחרי קורותיו אביה במלה"ע השנייה, הורות, אהבה, זוגיות וגם me too 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5z489yl0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep17',
+                season: 3,
+                ep: 17,
+                name: 'פרק 17 - יגאל גואטה',
+                subtitle: 'מאז שנאלץ לפרוש מהכנסת יגאל גואטה פורח. מגיש תוכניות ברדיו, מוביל תוכנית דוקואקטיביסטית לוחמנית ונהנה מהחיים. ל"פגישה" הוא מגיע כדי לספר איך הגיע לכנסת, למה פרש, ולמה היה חוזר על הכל בלי לשנות דבר 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x7w0j9up/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep18',
+                season: 3,
+                ep: 18,
+                name: 'פרק 18 - גברי בנאי',
+                subtitle: 'גברי בנאי מגיע לפגישה עם רוני קובן ומדבר על ההצלחה הגדולה של הגששים והחיים שאחריה, על הגעגועים לפולי ולאחיו יוסי, על מזל ועל עבודה קשה, וגם על מה מצחיק ומה מכעיס אותו היום 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v29xxmls/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep19',
+                season: 3,
+                ep: 19,
+                name: 'פרק 19 - יעל ארד',
+                subtitle: 'יעל ארד, המדליסטית הראשונה של ישראל מגיעה לפגישה ומדברת על החיים שאחרי המדליה, להמציא את עצמך מחדש, מה צריך כדי להיות ווינר אמיתי ועל הדמעות על הפודיום ביום שבו זכתה במדליה 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x0ce3ye6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep20',
+                season: 3,
+                ep: 20,
+                name: 'פרק 20 - מיקי רוזנטל',
+                subtitle: 'מיקי רוזנטל מגיע לפגישה כדי לספר למה עזב מאוכזב ומלא הקלה את הכנסת, איפה כשל כפוליטיקאי וגם על הסיבה המפתיעה שבגללה הוא אחראי (חלקית) לתיאוריות הקונספירציה סביב רצח רבין 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u618s5on/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep21',
+                season: 3,
+                ep: 21,
+                name: 'פרק 21 - גילה אלמגור',
+                subtitle: 'גילה אלמגור, הגברת הראשונה של הקולנוע חוגגת 80, בלי מומולדת, ובאה לדבר על הגעגוע לאבא ועל האהבה לאמא ועל הפחד משיגעון, על ספילברג ועל אסי דיין, על "הבימה" ועל הילדה שחלמה לשחק בתיאטרון 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p3i95aau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s3-ep22',
+                season: 3,
+                ep: 22,
+                name: 'פרק 22 - מכרם ח\'ורי',
+                subtitle: 'מכרם ח\'ורי מדבר עם רוני קובן על אהבת הקהל ועל התנאים שבה היא ניתנת, על התפקידים בחו"ל ועל אלה שכבר אינו עושה בארץ, ועל החיבה וההזדהות שלו עם שיילוק היהודי שאותו גילם בהפקה של הרויאל שייקספיר קומפני 19.09.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lh4ry4f8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 3,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s3-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep1',
+                season: 4,
+                ep: 1,
+                name: 'פרק 1 - אהוד ברק',
+                subtitle: 'רה״מ לשעבר אהוד ברק בריאיון פתיחת עונה לפגישה עם רוני קובן, על הקרבות בטוויטר נגד נתניהו, המבצעים הנועזים של הסיירת, הטעויות הפוליטיות שעשה בדרך, העושר והמגדלים, והזוגיות המאוחרת עם נילי פריאל 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e10dsmqi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep2',
+                season: 4,
+                ep: 2,
+                name: 'פרק 2 - יובל סמו',
+                subtitle: 'יובל סמו, מכוכבי ״ארץ נהדרת״, היה כלוא בגוף של \'ליצן עצוב\', עד הרגע בו הכישרון הקומי שלו התפוצץ על המסך. הוא מספר לרוני קובן היכן נולד ״אשר הנהג״ ומה אמרה לו מירי רגב במפגש המפתיע בשדה התעופה 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8291560b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep3',
+                season: 4,
+                ep: 3,
+                name: 'פרק 3 - שלי יחימוביץ\'',
+                subtitle: 'שלי יחימוביץ׳ מעריצה את הצעירות שמתפשטות בהפגנות ומוצאת בהן השראה לפמיניזם מודל 2021. היא מדברת עם רוני קובן על קריסת ״העבודה״, המאבק בטייקונים, הילדות בצל השואה והדמות ההיא מארץ נהדרת 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9xwxi4zh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep4',
+                season: 4,
+                ep: 4,
+                name: 'פרק 4 - עידית מטות',
+                subtitle: 'בשנה החולפת הפכה פרופ׳ עידית מטות לפנים של משבר הקורונה- וממבקריו החריפים של משרד הבריאות. בפגישה עם רוני קובן, היא מדברת על המסע האישי המטלטל לצמרת עולם הרפואה 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ebx2yha5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep5',
+                season: 4,
+                ep: 5,
+                name: 'פרק 5 - דרור קרן',
+                subtitle: 'דרור קרן מגיע לפגישה עם רוני קובן ומדבר על תיאטרון, פוליטיקה וזוגיות, ומה זה אומר להיות גבר חדש. בדרך הוא גם יחליף תפקידים עם קובן ויבדוק איך זה להיות המראיין בתוכנית 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8krchxzn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep6',
+                season: 4,
+                ep: 6,
+                name: 'פרק 6 - נפתלי בנט',
+                subtitle: 'אחרי שהתרסק בבחירות 2019, מסתער נפתלי בנט על הנהגת המדינה בחסות מאבקו בקורונה. אבל מיהו בנט האמיתי - פוליטיקאי ממלכתי או אויב בג״צ? 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zh40nagl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep7',
+                season: 4,
+                ep: 7,
+                name: 'פרק 7 - איתי לוי',
+                subtitle: 'משכונת המצוקה אל פסגת המוסיקה הישראלית: איתי לוי, מהזמרים המצליחים בארץ, מדבר בלי חשבון על הפרידה העסקית מאייל גולן, הילדות בצל אב נרקומן, הקשר עם אמו פגועת הראש, ולמה הוא לא מתבייש במרצדס 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1nvgxddy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep8',
+                season: 4,
+                ep: 8,
+                name: 'פרק 8 - ליא קניג',
+                subtitle: 'ליא קניג, הגברת הראשונה של התיאטרון, יושבת בבית ומחכה שהמסך יעלה מחדש. בגיל 91, אחרי ששרדה את השואה ושיחקה בתפקידים הכי נחשבים, היא לא תיתן לקורונה לגזול ממנה את אהבת חייה: הקהל 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ppxb79lu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep9',
+                season: 4,
+                ep: 9,
+                name: 'פרק 9 - אחמד טיבי',
+                subtitle: 'ח״כ אחמד טיבי מנסה לחבר בין הזהות הפלסטינית שלו לישראליות, עדיין חולם על מזרח תיכון חדש, נטול כיבוש וגזענות. מדוע חלם להיות טייס, על מה הוא מצטער בקריירה הפוליטית ולמה הוא מתעצבן כשהוא נשאל על להט״ב? 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q7cgusiw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep10',
+                season: 4,
+                ep: 10,
+                name: 'פרק 10 - ציון אמיר',
+                subtitle: 'עו״ד ציון אמיר עמד במרכזן של כמה מהדרמות המשפטיות הגדולות שהיו כאן- ממשפחת הפשע של אסי אבוטבול ועד הנשיא קצב ודודו טופז. מה מסתתר מתחת לגלימת המצליחן ואיך הוא מתמודד עם הטרגדיה המשפחתית שרודפת אותו? 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yiqjxx3x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep11',
+                season: 4,
+                ep: 11,
+                name: 'פרק 11 - אלונה פרנקל',
+                subtitle: 'אחרי שמכרה מיליוני עותקים של ספרי ילדים וזכתה בפרס ספיר, אלונה פרנקל חוזרת לימי ילדותה בשואה ושנות הנעורים המאתגרות כעולה חדשה, ומספרת לרוני קובן על יחסיה המורכבים עם אמה 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d3r7fsuk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep12',
+                season: 4,
+                ep: 12,
+                name: 'פרק 12 - לימור לבנת',
+                subtitle: 'מי שהייתה במשך שנים האישה הראשונה של הליכוד והביאה לניצחונו של נתניהו בבחירות 96׳, היא היום אחת ממבקריו החריפים. ממהפך 77 ועד לנאום הג׳ובים - לימור לבנת חוזרת לתחנות החשובות בחייה הפוליטיים והאישיים 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3fumew07/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep13',
+                season: 4,
+                ep: 13,
+                name: 'פרק 13 - נחום ברנע',
+                subtitle: 'רוני קובן בשיחה ללא צנזורה עם חתן פרס ישראל העיתונאי נחום ברנע: הפגישות הסודיות עם ראשי הממשלה, הסיפורים שמאחורי הסקופים הגדולים ויחסיו עם המו״ל מוזס בעקבות תיק 2000 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ssrll01q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep14',
+                season: 4,
+                ep: 14,
+                name: 'פרק 14 - צביקה הדר',
+                subtitle: 'אחרי שנים רבות בהן כיכב על המסך, נאלץ צביקה הדר להיפרד מהצופים ולחשב מסלול מחדש. בגילוי לב הוא מדבר על מצוקת האמנים בימי הקורונה, על יורשו ב״כוכב הבא״ אסי עזר, ועל הצורך הבלתי נשלט להיות נאהב. 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_svvoer8y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep15',
+                season: 4,
+                ep: 15,
+                name: 'פרק 15 - מינה צמח',
+                subtitle: 'מינה צמח, הסוקרת של המדינה, נפרדת מאולפן הבחירות. מדוע היתלו בה מצביעי הימין? למה הלכנו לישון עם פרס וקמנו בבוקר עם נתניהו? ואיך הפכה הילדה ששנאה סטטיסטיקה לשם נרדף לסקרים? 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c0imuszn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s4-ep16',
+                season: 4,
+                ep: 16,
+                name: 'פרק 16 - יהודה בארקן',
+                subtitle: 'במשך קריירה של יותר מ-50, שיחק יהודה ברקן בעשרות סדרות וסרטי פולחן שאת חלקם גם ביים והפיק. האיש שידע לגרום לנו להתרגש והצחיק אותנו עד דמעות - הלך לעולמו אחרי מאבק במחלת הקורונה. זמן קצר לפני כן, ישב ברקן לשיחה עם רוני קובן- מה שיהפוך לריאיון האחרון שלו 12.08.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qqb8uf5r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s4-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep1',
+                season: 5,
+                ep: 1,
+                name: 'פרק 1 - עברי לידר',
+                subtitle: 'עברי לידר מגיע לפגישה עם רוני קובן ומדבר על אבהות ואהבה, על יצירה ועל מיינסטרים, על אאוטינג ומחויבות של אומן לצאת מהארון, על הסיפור של אבא ואמא וגם על הצורך להישאר רלוונטי 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1wd05lrh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep2',
+                season: 5,
+                ep: 2,
+                name: 'פרק 2 - אריה גולן',
+                subtitle: 'המגיש המיתולוגי של "הבוקר הזה" בכאן ב\' מספר איך שומרים על רלוונטיות וסקרנות כלכך הרבה זמן, איך מראיינים ראשי ממשלה, עד מתי יחפש את אחותו הגדולה שאבדה בשואה, וגם איך הבריח לבדו מחבל שאיים עליו באקדח 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fac2say7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep3',
+                season: 5,
+                ep: 3,
+                name: 'פרק 3 - שני כהן',
+                subtitle: 'שני כהן מספרת על המסלול הייחודי משורת המקהלה לטלוויזיה ובחזרה לתיאטרון- בתפקיד לייזה דוליטל. על החרדות, האימהות והאובדן של אחותה, הצורך להיות \'ילדה טובה\' ואיך מתמודדים עם הרשעות הקלה שיש בחיקויים 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z6cbuy8j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep4',
+                season: 5,
+                ep: 4,
+                name: 'פרק 4 - יאיר גרבוז',
+                subtitle: 'בגיל 75, יאיר גרבוז מגיע לפגישה לדבר על הומור ואיך הוא עובד, על איך מתחיל ציור ואיך הוא נגמר, על חרדות, דאגות וסכנות שיש \'רק במשפחות פולניות\', על מה הוא מתחרט- ועל מה ממש לא 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wjbu8s5h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep5',
+                season: 5,
+                ep: 5,
+                name: 'פרק 5 - רוני גמזו',
+                subtitle: 'רוני גמזו מנהל ביה"ח איכילוב, פרץ לחיינו כפרוייקטור מגפת הקורונה וכעת מגיע לפגישה ןמספר על הבדידות בניהול בית החולים, הקורונה, הפוליטיקאים שלנו, וגם על מחלת הסרטן איתה התמודד, ורגעי השבירה במאבק בה 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_baya0181/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep6',
+                season: 5,
+                ep: 6,
+                name: 'פרק 6 - לינוי בר גפן',
+                subtitle: 'החיים של לינוי בר גפן התהפכו לפני שש וחצי שנים. בפגישה עם רוני קובן היא תספר על החיים עם אובדן מתמשך, חרדות, מאבק בבירוקרטיה, על השאלה אם לעזוב או להישאר, ועל הקשר בין בוורלי הילס לחיים האמיתיים 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sgngn5u5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep7',
+                season: 5,
+                ep: 7,
+                name: 'פרק 7 - עמוס תמם',
+                subtitle: 'עמוס תמם כבר לא רק אחד השחקנים המצליחים בארץ אלא סוג של אייקון. בפגישה עם רוני קובן הוא מספר על ההתמודדות עם התדמית, השאלות המעצבנות, מלכודת "קזבלן", ועל למה הוא לא אוהב לשחק את האיש הרע 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j4bjpuwn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep8',
+                season: 5,
+                ep: 8,
+                name: 'פרק 8 - שלמה ארצי',
+                subtitle: 'שלמה ארצי מגיע לפגישה עם רוני קובן ומדבר על החיים והקריירה, היחסים עם הקהל והשירים הגנוזים, וגם על החודש שבו איבד את אמו ואחותו בזו אחר זו 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mkmafjc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep9',
+                season: 5,
+                ep: 9,
+                name: 'פרק 9 - אורנה בנאי',
+                subtitle: 'אורנה בנאי חזרה לאולמות הסטנד אפ ומגיעה לפגישה עם רוני קובן לדבר על הסערות התקשורתיות שעוררה, המשברים שעברה, מות אחיה מאיר, החתונה החרדית של אביתר, וגם מכריזה על שובה של לימור 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_646r8prv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep10',
+                season: 5,
+                ep: 10,
+                name: 'פרק 10 - מלכה פיוטרקובסקי',
+                subtitle: 'רוני קובן בפגישה עם מלכה פיוטרקובסקי- אשת הלכה שמובילה מהפכה בעולם הדתי. הם משוחחים על נושאים מעוררי מחלוקת כמו תכנון ילודה, קבלת להט"בים והטרדות מיניות 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_33m9sg8z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep11',
+                season: 5,
+                ep: 11,
+                name: 'פרק 11 - שולי רנד',
+                subtitle: 'הזמר והשחקן החרדי שולי רנד מספר לרוני קובן על המהומות והנסים שהתגלו לו בחייו מהיום שבו עלה לגג וחשב לקפוץ, ועד לגאולה שמצא עם צופית גרנט 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ep3a3k96/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep12',
+                season: 5,
+                ep: 12,
+                name: 'פרק 12 - אביגדור קהלני',
+                subtitle: 'גיבור ישראל אביגדור קהלני מגיע לפגישה ומספר לרוני קובן על הכוויות של ששת הימים, על האנאלפביתיות של אמו ועל המשפט שגרם לו לפרוץ בבכי - פעמיים 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a4nkssu6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep13',
+                season: 5,
+                ep: 13,
+                name: 'פרק 13 - רינה מצליח',
+                subtitle: 'אשת התקשורת רינה מצליח מסכמת קריירה של ארבעה עשורים ומספרת לרוני קובן מה היא חושבת על נתניהו, למה היא רווקה נצחית, ואיך נגמרה הפגישה עם חוליו איגלסיאס 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9j39q7r7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep14',
+                season: 5,
+                ep: 14,
+                name: 'פרק 14 - סנדרה שדה',
+                subtitle: 'השחקנית סנדרה שדה מספרת לרוני קובן איך התאהבה במוני מושונוב, איך התמכרה לניתוחים פלסטיים ולמה בתה זמרת האופרה עזבה לברלין 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ikag30vw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep15',
+                season: 5,
+                ep: 15,
+                name: 'פרק 15 - דודי אמסלם',
+                subtitle: 'חבר הכנסת דודי אמסלם מסביר למה אינו מתכוון להתנצל על סגנונו המשתלח במליאה, ומשתף את רוני קובן בפצעי העלייה הפתוחים של ילדותו 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm9g7dmi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep16',
+                season: 5,
+                ep: 16,
+                name: 'פרק 16 - מיה טבת דיין',
+                subtitle: 'המשוררת המדוברת מיה טבת דיין מראה לרוני קובן איך יוצאים מהמטריקס, איך חיים כנוודים ואיך מתקשרים עם המתים 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9j8zk9g7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep17',
+                season: 5,
+                ep: 17,
+                name: 'פרק 17 - איילת שקד',
+                subtitle: 'שרת הפנים איילת שקד מגיעה לפגישה ומגלה לרוני קובן מה עשתה כדי להימנע מממשלת השינוי, על מה היא רבה עם ראש בממשלה ואיפה השתכרה בחו״ל 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_511gith2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep18',
+                season: 5,
+                ep: 18,
+                name: 'פרק 18 - יוני רכטר',
+                subtitle: 'המוזיקאי יוני רכטר מספר לרוני קובן על האודישן לכוורת, על יחסיו עם אביו האדריכל יעקב רכטר ועל הסודות מאחורי שיריו הגדולים 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xdvrf4bb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep19',
+                season: 5,
+                ep: 19,
+                name: 'פרק 19 - ששי גז',
+                subtitle: 'עורך הדין ששי גז משוחח עם רוני קובן על עברייני המין שייצג, על הלקוחות המפורסמים ועל הסיבה שאמר לא ליגאל עמיר ולאב שרצח את בתו 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1yczlw1v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep20',
+                season: 5,
+                ep: 20,
+                name: 'פרק 20 - מרים פרץ',
+                subtitle: 'כלת פרס ישראל מרים פרץ מדברת על המרוץ הכושל לנשיאות, על כאב השכול הכפול שחוותה, על המפגש עם נשיא ארה"ב ברק אובמה ועל החיים לבד כאלמנה 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z5m0h4u3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep21',
+                season: 5,
+                ep: 21,
+                name: 'פרק 21 - יהודה אטלס',
+                subtitle: 'הסופר והמשורר הנערץ בן ה-85, יהודה אטלס, חוגג יומולדת 45 שנים לספר האיקוני- ״והילד הזה הוא אני״ ומדבר לראשונה על גירושיו ואבהותו הכואבת שלו 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aqgpqspp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep22',
+                season: 5,
+                ep: 22,
+                name: 'פרק 22 - אביהו מדינה',
+                subtitle: 'חתן פרס ישראל הטרי, הזמר, הכותב והמלחין אביהו מדינה מדבר בגילוי לב על השירים שלו שחוללו מהפכה במוסיקה הישראלית, על הניסיונות לגמול את זוהר ארגוב ועל פרשת אייל גולן 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ur1zyv4o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s5-ep23',
+                season: 5,
+                ep: 23,
+                name: 'פרק 23 - אסף אמדורסקי',
+                subtitle: 'בפרק האחרון לעונה, הזמר והיוצר אסף אמדורסקי מדבר על השירים הגדולים שהפכו לחלק מפס הקול הישראלי, על חייו כרוקיסט אחרי גיל 50, על היחסים המורכבים עם הוריו ועל האהבה החדשה בחייו 10.05.2021',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tgybrpcb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s5-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep1',
+                season: 6,
+                ep: 1,
+                name: 'פרק 1 - קובי מידן',
+                subtitle: 'איש הטלוויזיה, שדרן הרדיו והמתרגם קובי מידן מדבר עם רוני קובן על ההרפתקאות הרוחניות, ההחלטה לא להיות פסיכולוג, החבר לשעבר אברי גלעד והפוסט השנוי במחלוקת נגד חייל צה״ל 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0cn5q6eb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep2',
+                season: 6,
+                ep: 2,
+                name: 'פרק 2 - ציפי שביט',
+                subtitle: 'ציפי שביט, לנצח כוכבת הילדים הראשונה של ישראל, מדברת על מות בעלה הראשון, החברות עם דודו טופז והנפש התאומה שלה ספי ריבלין 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jtihn893/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep3',
+                season: 6,
+                ep: 3,
+                name: 'פרק 3 - שלמה שרף',
+                subtitle: 'מאמן הכדורגל הלאומי שלמה שרף עושה חשבון נפש, מדבר על פרשת נערות הליווי, על ההדחה ממכבי תל אביב ועל ההתמודדות עם מות אשתו 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jl6hcgtn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep4',
+                season: 6,
+                ep: 4,
+                name: 'פרק 4 - בועז ביסמוט',
+                subtitle: 'בועז ביסמוט בריאיון ראשון אחרי "ישראל היום", מספר על עזיבת העיתון, על יחסיו של נתניהו עם העיתון ואיתו, על הפעם שכמעט נעצר בדמשק, ועל סיפור האהבה מהסרטים שלו ושל אשתו 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tnfsw8ky/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep5',
+                season: 6,
+                ep: 5,
+                name: 'פרק 5 - צופית גרנט',
+                subtitle: 'צופית גרנט מגיעה לפגישה עם רוני קובן אחרי החתונה עם שולי רנד, כדי לספר על האהבה ועל המחיר שלה, על ההתמודדות עם התחקיר על בעלה לשעבר אברם גרנט, ועל איך הופכים טראומת חיים לכלי ריפוי 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aciymjf1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep6',
+                season: 6,
+                ep: 6,
+                name: 'פרק 6 - אבי נשר',
+                subtitle: 'הבמאי אבי נשר, האיש מאחורי הלהיטים הכי גדולים של הקולנוע הישראלי (מהלהקה ועד תמונת הניצחון), מדבר על התהום שנפערה בחייו כשאיבד את בנו ארי ועל הסרט החדש שלו שמציב בפעם הראשונה במרכז המסך את האויבים שלנו 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qmy7frdd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep7',
+                season: 6,
+                ep: 7,
+                name: 'פרק 7 - דב וייסגלס',
+                subtitle: 'פרקליט הצמרת דב וייסגלס מדבר על הקליינט הכי מפורסם שלו אריאל שרון ומספר על הרגעים הדרמטיים לצדו, מהטבח בסברה ושתילה, דרך תכנית ההתנתקות ועד להתמוטטות 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pmqruxfo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep8',
+                season: 6,
+                ep: 8,
+                name: 'פרק 8 - שרה פון שוורצה',
+                subtitle: 'השחקנית שרה פון שוורצה חוגגת את החיים שקיבלה מחדש אחרי המפרצת במוח, אבל גם טוענת שלמות זה לא כ"כ נורא. היא מספרת על חיים ארוכים של זהות מפוצלת בין גרמניה לישראל, בין דת לחילוניות ובין איפוק למשחק 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_82di56yk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s6-ep9',
+                season: 6,
+                ep: 9,
+                name: 'פרק 9 - נינט טייב',
+                subtitle: 'המאמי הלאומית, נערת הפוסטר של כוכבי הריאליטי מספרת איך החליטה לגבש לעצמה זהות מוסיקלית אותנטית, מה עשתה לה החזרה ל"כוכב הבא" ואיך זה מרגיש כשהקהל כועס עליך או פשוט לא אוהב את מה שאת עושה 27.04.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1qybyicj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s6-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep1',
+                season: 7,
+                ep: 1,
+                name: 'פרק 1 - רשף לוי',
+                subtitle: 'רשף לוי הצליח להפוך את הטרגדיות המשפחתיות הכי גדולות, אבא חולה אלצהיימר ואח שמת מאיידס, לקומדיות עכשיו בסדרה החדשה שלו "קרתגו" הוא חוזר לשנות המאסר של אביו באפריקה 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mt61xek/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep2',
+                season: 7,
+                ep: 2,
+                name: 'פרק 2 - זהבה גלאון',
+                subtitle: 'אחרי שחזרה למרצ בכדי להציל את המפלגה שבה גדלה, מצאה עצמה זהבה גלאון ומפלגתה מתחת לאחוז החסימה. בפגישה היא מסכמת את המסע הפוליטי שלה, שהתחיל כשיצאה להפגין למען פתיחת בית קולנוע בשבת 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5jx7k4b8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep3',
+                season: 7,
+                ep: 3,
+                name: 'פרק 3 - משה אדרי',
+                subtitle: 'משה אדרי, מי שהתחיל כמקרין סרטים בדימונה והפך לאיש החזק ביותר בקולנוע הישראלי מדבר בגילוי לב על הפרידה הכואבת מאחיו ליאון, שהיה שותפו למסע, וההתמודדות עם משבר הקורונה שכמעט הכריע את המפעל המשפחתי 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fpd2zwao/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep4',
+                season: 7,
+                ep: 4,
+                name: 'פרק 4 - קורין אלאל',
+                subtitle: 'קורין אלאל מגיעה לפגישה ומסכמת 50 שנות קריירה. במסע בין השירים הגדולים שכתבה, נפרדת מאביה, איש המוסד שנפטר, ומספרת על הבית אפוף הסודות שעיצב את חייה. 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ki2fy4ow/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep5',
+                season: 7,
+                ep: 5,
+                name: 'פרק 5 - רן דנקר',
+                subtitle: 'רן דנקר מספר לרוני קובן על "בית המשוגעים" שעבר עליו מפריצתו כמאמי הלאומי, ועד היציאה מהארון, המשפחה האלטרנטיבית שהקים, והחרדות משינוי היחס לקהילה הלהט"בית, שמובילות אפילו למחשבות על עזיבת הארץ 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q00r9892/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep6',
+                season: 7,
+                ep: 6,
+                name: 'פרק 6 - אהרן ברק',
+                subtitle: 'הפרופ\' אהרן ברק, נשיא בית המשפט העליון לשעבר, שנמצא בלב הדרמה המשפטית שמסעירה את ישראל, מגיע לפגישה עם רוני קובן. בראיון אישי נדיר הוא יסביר את חששותיו מהמהפכה המשפטית המתקרבת 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_doew9xci/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep7',
+                season: 7,
+                ep: 7,
+                name: 'פרק 7 - אדיר מילר',
+                subtitle: 'אדיר מילר מגיע לפגישה עם רוני קובן אחרי שכבש את היכל מנורה עם מופע הסטנדאפ שלו. הוא מספר איך הופכים דרמות משפחתיות, השפלות מקצועיות ואפילו את טראומת השואה - להומור מנצח 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6mxc1kc9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep8',
+                season: 7,
+                ep: 8,
+                name: 'פרק 8 - מיקי חיימוביץ׳',
+                subtitle: 'רגע אחרי שחגגה 60, מיקי חיימוביץ׳ מגיעה לפגישה עם רוני קובן ומדברת על תקרות הזכוכית שניפצה בתקשורת, על האכזבה מהפוליטיקה ועל האתגר הגדול הבא: הצלת כדור הארץ 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n30e8x0k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep9',
+                season: 7,
+                ep: 9,
+                name: 'פרק 9 - יהורם גאון',
+                subtitle: 'יהורם גאון, אחד הסמלים הגדולים והמאחדים של ישראל, מגיע לפגישה עם רוני קובן. הוא מספר על הקשר המיוחד עם אחיו בני גאון, על הפגישה עם יוני נתניהו, ומה כתב לו אביו אחרי שצפה בו מופיע 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_smqtyczo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep10',
+                season: 7,
+                ep: 10,
+                name: 'פרק 10 - דן שכטמן',
+                subtitle: 'דן שכטמן, חתן פרס נובל, מגיע לפגישה עם רוני קובן ומסביר למה מה שקורה עכשיו במערכת החינוך הוא איום אסטרטגי על ישראל 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xyhh6ge9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep11',
+                season: 7,
+                ep: 11,
+                name: 'פרק 11 - איימן עודה',
+                subtitle: 'איימן עודה מגיע ל״פגישה עם רוני קובן״ בשיאה של הדרמה הפוליטית שמסעירה את ישראל, ומציע תסריט אופטימי 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v1w7ou2s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep12',
+                season: 7,
+                ep: 12,
+                name: 'פרק 12 - ארז טל',
+                subtitle: 'ארז טל מגיע לפגישה עם רוני קובן ומדבר על תרבות הרייטינג, התקפי חרדה והפחד להזדקן על המסך 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4uqetnlj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep13',
+                season: 7,
+                ep: 13,
+                name: 'פרק 13 - דן מרידור',
+                subtitle: 'דן מרידור מגיע לפגישה עם רוני קובן ומספר איך הוא עצמו הוביל את המהפיכה המשפטית מטעם הליכוד, ואיך נסיעה אחת לאמריקה עם יצחק שמיר שינתה לתמיד את ישראל 11.09.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fmbfzo35/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep14',
+                season: 7,
+                ep: 14,
+                name: 'פרק 14 - רבקה מיכאלי',
+                subtitle: 'רבקה מיכאלי מגיעה לפגישה עם רוני קובן ומספרת איך היא לא מתגעגעת להיות המצחיקנית האהובה על כולם או להיות בלב הקונצנזוס, ולא נבהלת כשמאשימים אותה שהיא שמאלנית ובוגדת 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uhdnr2ml/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep15',
+                season: 7,
+                ep: 15,
+                name: 'פרק 15 - אניה בוקשטיין',
+                subtitle: 'אניה בוקשטיין מספרת לרוני על הדרך הארוכה שעשתה מהילדה הקטנה שעלתה ארצה ושרה ״כחול ולבן״ בטלוויזיה ועד לתפקיד הנחשק ב-״משחקי הכס״ 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vfvbmk9w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep16',
+                season: 7,
+                ep: 16,
+                name: 'פרק 16 - רות קלדרון',
+                subtitle: 'רוני קובן בפגישה עם ד״ר רות קלדרון, שהתאהבה בגמרא ויצאה לחולל מהפכת תרבות. מפעל חייה הוא חיבור בין תל אביב החופשית, החילונית והפמיניסטית למקורות היהודיים 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ejhs1kn5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep17',
+                season: 7,
+                ep: 17,
+                name: 'פרק 17 - צדי צרפתי',
+                subtitle: 'צדי צרפתי מדבר בגילוי לב נדיר על חיים שלמים של סודות ושקרים מתחת לחזות הנוצצת של מלך הבידור הישראלי 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bfn1la5y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep18',
+                season: 7,
+                ep: 18,
+                name: 'פרק 18 - קרן מור',
+                subtitle: 'קרן מור מגיעה לפגישה עם רוני קובן, ומסכמת שנה עם שתי פסגות בקריירת המשחק שלה בתיאטרון ובטלוויזיה. היא מדברת על החמישייה הקאמרית, ואיך היא מתכוננת למשבר גיל השישים המתקרב ובא 03.07.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xwtwpta0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep19',
+                season: 7,
+                ep: 19,
+                name: 'פרק 19 - אמיר אוחנה',
+                subtitle: 'יו״ר הכנסת, אמיר אוחנה, מגיע לפגישה עם רוני קובן. הוא מדבר בגילוי לב על כל הנושאים הבוערים על סדר היום, ומודה שלמד לראשונה על תוכנית הרפורמה של יריב לוין רק כשהיא הוצגה לציבור 16.07.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tccudswd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep20',
+                season: 7,
+                ep: 20,
+                name: 'פרק 20 - לאורה ריבלין',
+                subtitle: 'לאורה ריבלין כבר זכתה בכל פרס אפשרי לתיאטרון, קולנוע וטלוויזיה. היא מגיעה לפגישה עם רוני קובן, ומשתפת אותו בחומרים הכי רגישים ונפיצים של חייה 24.07.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3t38kpfc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep21',
+                season: 7,
+                ep: 21,
+                name: 'פרק 21 - סימה קדמון',
+                subtitle: 'העיתונאית סימה קדמון, מיוצרות הסדרה "האחת", מספרת לרוני קובן על אחורי הקלעים של הדרמות הפוליטיות הגדולות, השבר שחוותה עם חבריה מטייסת 201 במלחמת יום כיפור, ועל האור והצל בחיים עם אבא מפורסם מאוד 19.09.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jqcbmyxc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s7-ep22',
+                season: 7,
+                ep: 22,
+                name: 'פרק 22 - ספיישל יום השואה',
+                subtitle: 'ראיון מיוחד ליום השואה עם נשיא בית המשפט העליון לשעבר, אהרן ברק, המוקדש במלואו לסיפור ילדותו בצל משטר האימים הנאצי בליטא 27.11.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_66y4g9m8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 7,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s7-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep1',
+                season: 8,
+                ep: 1,
+                name: 'פרק 1 - רובי ריבלין',
+                subtitle: 'עונה חדשה. ראובן (רובי) ריבלין, מי שהיה נשיא המדינה ויו"ר הכנסת, מספר לרוני קובן על אכזבתו הקשה מהמפלגה בה צמח, ומנתניהו שגדל לצידו מינקות. וגם על הפרספקטיבה שקיבל על החיים בפגישותיו עם פוטין, אובמה ומרקל 08.01.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0lpv3ndu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep2',
+                season: 8,
+                ep: 2,
+                name: 'פרק 2 - שאול מופז',
+                subtitle: 'שאול מופז, מי שהיה רמטכ״ל ושר ביטחון, מסביר לרוני קובן מדוע ההתנתקות הייתה אחד הצעדים החשובים בעשורים האחרונים, ומדוע, למרות קשריו המיוחדים עם יוני ובן-ציון נתניהו, הוא מתקשה לשכוח לראש הממשלה את שיחתם בצוק-איתן 15.01.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_06msm8go/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep3',
+                season: 8,
+                ep: 3,
+                name: 'פרק 3 - פרופ\' יורם יובל',
+                subtitle: 'הפסיכיאטר פרופ׳ יורם יובל, המגויס כחוקר התנהגות אוכלוסיה בפיקוד העורף, מסביר לרוני קובן מה באמת מצב החוסן הנפשי של הישראלים, ואיך גרם לו סבו הנערץ, פרופ ישעיהו ליבוביץ׳, להקים אוהל מחאה בגן העצמאות 23.01.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c93j5c8u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep4',
+                season: 8,
+                ep: 4,
+                name: 'פרק 4 - יעקב פרי',
+                subtitle: 'יעקב פרי, מי שהיה ראש השב״כ וחבר כנסת, מספר לרוני קובן למה הפך את בנימין נתניהו לראש האופוזיציה הראשון שזכאי למאבטחים, וכיצד אבחן כבר בחקירותיו של יחיא סינוואר את הפתיל של מה שהתפוצץ עלינו ב-7 באוקטובר 30.01.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_837nqujb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep5',
+                season: 8,
+                ep: 5,
+                name: 'פרק 5 - שקמה ברסלר',
+                subtitle: 'רוני קובן מארח לשיחה אישית את שקמה ברסלר, האישה שלא ירדה מהכותרות השנה, והפכה לפנים של המחאה. בריאיון כנה היא עונה למבקרים שלה, מגיבה לתיאוריות הקונספירציות נגדה ומספרת על המחיר האישי שהיא שילמה 01.02.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s6w758qh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep6',
+                season: 8,
+                ep: 6,
+                name: 'פרק 6 - שלומי אלדר',
+                subtitle: 'שלומי אלדר, העיתונאי שהפך את עזה למפעל חיים, מגייס את ההיכרות הארוכה שלו עם החמאס כדי להסביר מה קרה בשבעה באוקטובר ומתקשה להסתיר את הדמעות, ומספר למה, אחרי עשור מוצלח בארה"ב, הוא שמח שחזר לישראל 06.02.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ei2fk8qk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep7',
+                season: 8,
+                ep: 7,
+                name: 'פרק 7 - עדינה בר שלום',
+                subtitle: 'עדינה בר שלום, בתו של הרב עובדיה יוסף וכלת פרס ישראל, מגיעה לפגישה עם רוני קובן כדי לדבר על ש"ס שנטשה את מורשת אביה, על מאבק הגיוס, על יחסיה עם אביה, ועל הפעמים שבהן נאלצה לוותר על חלומותיה מפני רצונו 12.02.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bf3ozuwl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep8',
+                season: 8,
+                ep: 8,
+                name: 'פרק 8 - ינון מגל',
+                subtitle: 'ינון מגל מגיע לפגישה עם רוני קובן ומדבר על הכל - על הפרובוקציות והשואו, על הקשר עם נתניהו, ועל הטענות שהוא שופר שלו, על פרשת וואלה וההטרדות המיניות, וגם מה יעשה אם יקבל הצעה לעבור ערוץ 20.02.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_axp31cug/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep9',
+                season: 8,
+                ep: 9,
+                name: 'פרק 9 - גיל חובב',
+                subtitle: 'גיל חובב מגיע לפגישה עם רוני קובן ומספר למה ברח מתוכניות האוכל בטלוויזיה דווקא כשהן התחילו להצליח, למה הוא לא יפסיק להגן על כבודה של השפה העברית, ומה זה אומר להיות נין של אליעזר בן יהודה 26.02.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_51jx09z5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep10',
+                season: 8,
+                ep: 10,
+                name: 'פרק 10 - ליאור רז',
+                subtitle: 'ליאור רז מדבר עם רוני קובן על הסדרה שהפכה אותו לכוכב, על הקריירה הבינלאומית, על הטראומה הלאומית והפרטית, וגם על איך נכנסים לדמות של הקילר 02.03.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hmfoifac/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep11',
+                season: 8,
+                ep: 11,
+                name: 'פרק 11- גאולה אבן',
+                subtitle: 'גאולה אבן מגיעה לפגישה עם רוני קובן כדי לדבר על החיים מחוץ לחדשות, על ההתמודדות עם הרייטינג, על המחיר ששילמה בגלל נישואיה לגדעון סער, ועל הילדות בבית עני מאד והצלקות שחרטה בה 09.03.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cxojt4bo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep12',
+                season: 8,
+                ep: 12,
+                name: 'פרק 12 - רפיק חלבי',
+                subtitle: 'רפיק חלבי, ראש מועצת דלית אל כרמל ומראשוני העיתונאים בטלוויזיה הישראלית, מספר לרוני קובן על המחירים שנדרש לשלם כדרוזי הראשון שניפץ את כל תקרות הזכוכית, ועל החיים הכפולים בין הבוהמה הירושלמית לבית בכפר 16.03.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bpzowmnk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep13',
+                season: 8,
+                ep: 13,
+                name: 'פרק 13 - גלית דיסטל אטבריאן',
+                subtitle: 'גלית דיסטל אטבריאן, עד לא מזמן שרת ההסברה, מספרת מה הפך אותה לחלק מרכזי ממפלגת הליכוד והימין, ומספקת הצצה למאחורי הקלעים בלשכת רה"מ: מקשריה עם ראש הממשלה ורעייתו ועד התקרית בה תקפו אותה באלימות 30.03.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t9nzkcrw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep14',
+                season: 8,
+                ep: 14,
+                name: 'פרק 14 - אביגדור ליברמן',
+                subtitle: 'אביגדור ליברמן, שכיהן כשר הביטחון, שר האוצר ושר החוץ, מספר איך הסביבה האנטישמית שבה גדל הפכה אותו לאיש שלא מזיל דמעה, למה הפך ליריב מר של רה"מ בנימין נתניהו, ולמה נוסחת היחסים בינו לרעייתו יכולה להציל את המדינה 06.04.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u1sjpjx3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep15',
+                season: 8,
+                ep: 15,
+                name: 'פרק 15 - יוסי כהן',
+                subtitle: 'ראש המוסד לשעבר יוסי כהן מספר לרוני קובן על התהפוכות במשפחתו, הגעגועים לחיים כמרגל במדינות אויב, וגם - מה הדבר הראשון שיעשה אם יגיע לראשות הממשלה. 13.04.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cw62tnq6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep16',
+                season: 8,
+                ep: 16,
+                name: 'פרק 16 - סולימאן מסוודה',
+                subtitle: 'הכתב המדיני של כאן 11, סולימאן מסוודה, מספר לרוני קובן על הילדות כפלסטיני במזרח ירושלים, משבר הזהות, והאיומים על חייו - בעת סיקור המלחמה 20.04.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_951p0rq8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep17',
+                season: 8,
+                ep: 17,
+                name: 'פרק 17 - דורי בן זאב',
+                subtitle: 'השדרן האייקוני של כאן 88 מסכם יותר מחמישים שנות רדיו, ומספר לרוני קובן על החברויות עם ענקי המוזיקה הישראלית 04.05.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y0wo3w39/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s8-ep18',
+                season: 8,
+                ep: 18,
+                name: 'פרק 18 - גלי עטרי',
+                subtitle: 'גלי עטרי, סוגרת עשור חמישי כאחת הזמרות הפופולריות בישראל. היא מספרת על הזכייה באירוויזיון, על הילדות עם אם חד-הורית וניסיונה שלה כאם יחידנית, ואיך הפכה לזמרת מחאה למרות שהציבור רואה בה רק ״מאמי לאומית״. 07.05.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z0c1owz8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 8,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s8-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep1',
+                season: 9,
+                ep: 1,
+                name: 'פרק 1 - אורן סמדג\'ה',
+                subtitle: 'רוני קובן נפגש לשיחה אישית עם אורן סמדג\'ה. בריאיון כואב וחשוף, סמדג\'ה מדבר על חיי היום יום של השכול, על ההחלטה לנסוע, למרות הכול, לאולימפיאדה, ועל הרגע שבו ביקש מיעל ארד שתוציא אותו משם הביתה 26.10.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jux7ft12/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep2',
+                season: 9,
+                ep: 2,
+                name: 'פרק 2 - יאיר לפיד',
+                subtitle: 'רה"מ לשעבר, יו"ר האופוזיציה ומפלגת יש עתיד, יאיר לפיד, בריאיון אישי נדיר על המלחמה, המאבקים הפוליטיים, וגם - המשפחה. 02.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tw7uwkz2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep3',
+                season: 9,
+                ep: 3,
+                name: 'פרק 3 - ערן זרחוביץ\'',
+                subtitle: 'ערן זרחוביץ\' מגיע לפגישה כדי לדבר על הדרך מאחורי הקלעים לפרונט, לספר על המכניקה של החיקויים, וגם כדי לחשוף סוד שלא סיפר מעולם 09.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eki5nhr7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep4',
+                season: 9,
+                ep: 4,
+                name: 'פרק 4 - צבי יחזקאלי',
+                subtitle: 'צבי יחזקאלי מדבר על המלחמה בעזה, על איך ניסה להזהיר מפני תוכניות חמאס, על האיסלם באירופה, על החזרה בתשובה, וגם על ההורות לשמונה ילדים 16.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pmbrjp08/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep5',
+                season: 9,
+                ep: 5,
+                name: 'פרק 5 - מגי אזרזר',
+                subtitle: 'מגי אזרזר, מבכירות השחקניות בישראל, מגיעה לפגישה עם רוני קובן לדבר על המירוץ לצמרת, על אימהות וזוגיות, על בחירת תפקידים ועל הילדה שהייתה, ובין לבין עושה בלאגן באולפן 23.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1rnfo5sz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep6',
+                season: 9,
+                ep: 6,
+                name: 'פרק 6 - אבישי בן חיים',
+                subtitle: 'אבישי בן חיים, האיש שהכניס לכל בית את המושג ישראל השנייה, מדבר עם רוני קובן על ההחלטה שלו לשתוק מאז תחילת המלחמה, על הבחירה להיות ביביסט, על הטענות לגבי התיאוריה שלו ועל הבית שבו גדל והבית שהקים 30.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1nvbot1w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep7',
+                season: 9,
+                ep: 7,
+                name: 'פרק 7 - עמרי אסנהיים',
+                subtitle: 'רגע לפני העונה החדשה של "יהיה טוב" עמרי אסנהיים מגיע לריאיון לדבר על עיתונות שהולכת עד הסוף, על הילדות במושב של רפול, על מה שעשה לו השירות הצבאי ועל הרגע שבו החליט ללכת לפסיכולוג 07.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_csb77lrv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep8',
+                season: 9,
+                ep: 8,
+                name: 'פרק 8 - מיכאל שמש',
+                subtitle: 'מיכאל שמש, הכתב הפוליטי של כאן 11, מספר על פרשת פלדשטיין, על יחסיו עם נתניהו, על הילדות בבני ברק, על החלום להגיע לגל"צ, ועל מה זה אומר להיות כתב חרדי כמעט בודד בכלי תקשורת חילונים 14.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891553/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep9',
+                season: 9,
+                ep: 9,
+                name: 'פרק 9 - שלום אסייג',
+                subtitle: 'שלום אסייג, אחרי למעלה משלושים שנות קריירה, מגיע לפגישה עם רוני קובן כדי לדבר על סטנד-אפ, על הילדות בטירת הכרמל, על החלום להיות בדרן ועל הדרך לבמה, על הורות ועל דעות קדומות 21.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nkri3ko0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep10',
+                season: 9,
+                ep: 10,
+                name: 'פרק 10 - טוביה צפיר',
+                subtitle: 'טוביה צפיר מגיע לפגישה עם רוני קובן לספר על הצורך להמשיך ולהופיע, המשבר שחווה כשהבין שהוא כבר לא לבד בעולם החיקויים, ההתמכרות להימורים, והטיפול באשתו האהובה שחלתה 28.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_40ubjb0g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep11',
+                season: 9,
+                ep: 11,
+                name: 'פרק 11 - קרן נויבך',
+                subtitle: 'קרן נויבך, מגישת "סדר יום", מגיעה לפגישה עם רוני קובן לדבר על הניסיון ליצר סדר יום חדשותי שונה, על הנצחון הכי גדול שלה, ועל הקשר לתצפיתניות של מוצב עוז, שסיפורן הפך עבורה לפרויקט חיים 04.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t8l0s2mh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep12',
+                season: 9,
+                ep: 12,
+                name: 'פרק 12 - ישי ריבו',
+                subtitle: 'ישי ריבו, אחד הזמרים המובילים בישראל, מדבר עם רוני קובן על ההצלחה המהירה והבלבול שהגיע איתה, על אמונה והשירים האמוניים שמוצאים מקום גם אצל קהל חילוני, ועל השיר שלו שעודד את אחת החטופות בשבי 11.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_suasd3b9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep13',
+                season: 9,
+                ep: 13,
+                name: 'פרק 13 - עינב צנגאוקר',
+                subtitle: 'עינב צנגאוקר, שהפכה לסמל המאבק להשבת החטופים, מדברת על המהפך ממעריצה מושבעת של נתניהו למבקרת הכי חריפה שלו, על החיים כאמא חד הורית, על אבא של מתן, על השיחה האחרונה איתו לפני שנחטף, ועל החלום לחבק אותו 16.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r5ltn5w6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep14',
+                season: 9,
+                ep: 14,
+                name: 'פרק 14 - יאיר גולן',
+                subtitle: 'יאיר גולן מדבר על ההתבטאויות שלו שעוררו סערה, ועל המחיר שמשפחתו משלמת על כך. על הסקרים שמחמיאים לו, על הטעויות שלו ושל אחרים, על הגבורה ב 7.10, על ההשמצות הפרועות נגדו, ועל הסיכוי להפיל את הממשלה 23.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nxlx2iph/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep15',
+                season: 9,
+                ep: 15,
+                name: 'פרק 15 - יורם כהן',
+                subtitle: 'ראש השב"כ לשעבר, יורם כהן, משוחח עם רוני קובן על עסקת החטופים, על שחרורו של יחיא סינוואר, על החשש ממינוי ראש שב"כ שיהיה "נוח לממשלה", ועל המקרים שלטענתו נתניהו ביקש ממנו לבצע פעולות שהיו מבחינתו לא לגיטימיות 13.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ve1pcx3r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep16',
+                season: 9,
+                ep: 16,
+                name: 'פרק 16 - ישראל זיו',
+                subtitle: 'ישראל זיו מספר לרוני קובן על הקשר עם יואב גלנט והרצי הלוי, על ההחלטה לרדת לדרום ב 7/10, והרגע בו הודיע לאלוף הפיקוד "נכבשנו". על איך מפרשים מציאות כאוטית ולא צפויה, וגם - איך מחזיקים זוגיות של 50 שנה 20.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4cxfmj3w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep17',
+                season: 9,
+                ep: 17,
+                name: 'פרק 17 - שי גולדשטיין',
+                subtitle: 'שי גולדשטיין, מגיש התוכנית היומית "פתחי את שי" בערוץ 14, פותח על "ההתפכחות" שחווה והמעבר לימין, על החברים והעבודות שאיבד, על הרגע המפתיע שהבשילה הזוגיות עם אישתו, ועל הפסיכולוג "הקפלניסט" שלו 01.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_atqyqug6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep18',
+                season: 9,
+                ep: 18,
+                name: 'פרק 18 - נטע ברזילי',
+                subtitle: 'נטע ברזילי, זוכת אירוויזיון 2018, מדברת עם רוני קובן על המראה החדש ועל ההתמודדות עם דימוי הגוף, על השפעות המלחמה והאנטישמיות על הקריירה שלה, על החיים אחרי הזכייה, ועל המשימה שלקחה על עצמה בתקופה האחרונה 08.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dhocunjs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep19',
+                season: 9,
+                ep: 19,
+                name: 'טראמפ - פנינה רוזנבלום ורוני קובן',
+                subtitle: 'השילוב שלא ידענו שאנחנו צריכים: פנינה רוזנבלום מארחת את רוני קובן בלהיט הבא של ישראל, ויחד הם פונים לטראמפ ומזכירים לו - "רממבר, אל תהיה זיגזג". את המילים הנפלאות כתבו יחד בתוכנית "פגישה עם רוני קובן", והשאר היסטוריה 22.05.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vubdye0n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep20',
+                season: 9,
+                ep: 20,
+                name: 'פרק 20 - תיקי דיין',
+                subtitle: 'תיקי דיין בשיחה אישית עם רוני קובן על הזיקנה והחששות שהיא מביאה איתה, על הבית שבו גדלה בצל מחלתם של אביה ושניים מאחיה, על האם שהעריצה, על בעלה שנפטר, ועל התפקידים הגדולים והכניסה לדמויות מורכבות 22.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hnm4qg4d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep21',
+                season: 9,
+                ep: 21,
+                name: 'פרק 21 - מירי רגב',
+                subtitle: 'מירי רגב מדברת עם רוני קובן על האחריות של ראש הממשלה נתניהו לטבח 7 באוקטובר, על יחסיה עם שרה נתניהו, על המשבר החוקתי שאולי בפתח, על המאבק לשחרור החטופים, על אייל גולן ועל הבת שלה שנצלה בנס מהטבח בנובה. 29.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_87x33v3q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep22',
+                season: 9,
+                ep: 22,
+                name: 'פרק 22 - ליאור שליין',
+                subtitle: 'ליאור שליין, שחזר לעשות סטנדאפ, מספר על האבהות, על הבחירה של מירב מיכאלי בת זוגו, לא לאחד את "העבודה" עם "מרצ" בבחירות האחרונות, על יאיר לפיד ובנימין נתניהו, ועל הבחירה שלו לא להתייאש ולא להתלונן 05.04.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oec7emmd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep23',
+                season: 9,
+                ep: 23,
+                name: 'פרק 23 - רזי ברקאי',
+                subtitle: 'רזי ברקאי בשיחה עם רוני קובן על כוחה של התקשורת להשפיע ועל אליטיזם, על אחיו שנהרג בשירות הצבאי, על הקשר עם נתניהו שהיה חניך שלו בצבא, ועל המדינה שברחה לו ונמאס לו לרדוף אחריה 24.04.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2vn2e3kk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep24',
+                season: 9,
+                ep: 24,
+                name: 'פרק 24 - פנינה רוזנבלום',
+                subtitle: 'פנינה רוזנבלום מדברת עם רוני קובן על עסקים, על שירים, על התקשורת שמתקשה להחמיא לה, על הבית הדל שבו צמחה, על הכישלון העסקי שעדיין רודף אותה ועל האירוויזיון. בין לבין היא מדגימה איך כותבים להיט חדש ב-5 דקות וחושפת את החלום הגדול שלה: להיות נשיאת ישראל הבאה 24.05.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n61hiau7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep24.jpg',
+                placeholder: '24'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep25',
+                season: 9,
+                ep: 25,
+                name: 'פרק 25 - אייל ברקוביץ\'',
+                subtitle: 'אייל ברקוביץ\' מדבר עם רוני קובן על הפה הגדול והפרובוקציות, על הנתק מאופירה אסייג, על פרשת נערות הליווי, על החיים שאחרי הכדורגל כשכלום כבר לא מרגש כמו המשחק, וגם על פגישה אחת שלו עם רה"מ בנימין נתניהו 31.05.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_obuj682a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep25.jpg',
+                placeholder: '25'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep26',
+                season: 9,
+                ep: 26,
+                name: 'פרק 26 - דדי שמחי',
+                subtitle: 'דדי שמחי מספר לרוני קובן על היום שבו נפרד מבנו והחשש שאולי אכזב אותו, על הכעס על הדרג הצבאי ועל האחריות של נתניהו, על התוכניות הפוליטיות ועל הדרך לתקן את ישראל 07.06.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7lpmhma0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep26.jpg',
+                placeholder: '26'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep27',
+                season: 9,
+                ep: 27,
+                name: 'פרק 27 - רני רהב',
+                subtitle: 'רני רהב, מי שמכונה "היחצ"ן של המדינה" בשיחה עם רוני קובן על סיום הקשר עם נתניהו, על החברות עם יצחק ולאה רבין, על הפה הגדול ועל ההון והשלטון שמתערבבים אצלו בבית 26.07.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3cnm6rgy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep27.jpg',
+                placeholder: '27'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep28',
+                season: 9,
+                ep: 28,
+                name: 'פרק 28- יגאל גואטה',
+                subtitle: 'יגאל גואטה מדבר עם רוני קובן על הקרע החברתי והפוליטי, האכזבה מש"ס, הכאב הגדול מאז 7.10 שמתחבר אצלו לכאב האישי על הרצח של אחיו ואישתו בפיגוע ב1974, ועל הרגעים שבהם הוא מתעצבן ורב עם מרואיינים בשידור. 02.08.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm0mdgjl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep28.jpg',
+                placeholder: '28'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep29',
+                season: 9,
+                ep: 29,
+                name: 'פרק 29 - נעמה לזימי',
+                subtitle: 'נעמה לזימי בריאיון על ההחלטה להשתמש בחסינות הפרלמנטרית לטובת פעילות נגד הממשלה, על אלימות השוטרים כלפיה, על הטענה שהיא עלה התאנה המזרחי של מפלגת העבודה, ועל אימהות בזמן מאבק פוליטי 09.08.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t0xzhck2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep29.jpg',
+                placeholder: '29'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep30',
+                season: 9,
+                ep: 30,
+                name: 'פרק 30 - חגי סגל',
+                subtitle: 'חגי סגל, מבכירי הפובליציסטים בארץ, עורכו של "מקור ראשון" לשעבר, מדבר עם רוני קובן על עיתונות ימנית, על בנימין נתניהו, על הרפורמה המשפטית, על ימיו במחתרת היהודית, ועל בנו עמית סגל 16.08.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e7wv5vjx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep30.jpg',
+                placeholder: '30'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep31',
+                season: 9,
+                ep: 31,
+                name: 'פרק 31 - מיקי זוהר',
+                subtitle: 'שר התרבות והספורט מיקי זוהר, מסביר מתי ולמה החליט להיגמל מפרובוקציות, והאם הוא עומד בכך, מה הפגם היחיד שהוא מוצא ברה"מ נתניהו, ולמה הוא נחוש לנווט את התרבות הישראלית על פי מידת הפטריוטיות שלה וטעם הקהל 23.08.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e5aznfu9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep31.jpg',
+                placeholder: '31'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep32',
+                season: 9,
+                ep: 32,
+                name: 'פרק 32 - מאיה קוסובר',
+                subtitle: 'מאיה קוסובר, מיוצרי הפודקאסט "שיר אחד", מדברת על ילדותה כבת להורים חירשים, על כך שלעולם לא יוכלו לחוות את היצירה שלה, על התרבות והמקום שלה בחיינו, ועל שירים ישראליים שתמיד מחזיקים הרבה יותר מלחן ומילים 30.08.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b9wih0hf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep32.jpg',
+                placeholder: '32'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep33',
+                season: 9,
+                ep: 33,
+                name: 'פרק 33 - שולי רנד',
+                subtitle: 'שולי רנד בריאיון מיוחד למוצאי יום כיפור על מה שמפחיד אותו בימים אלה, על חשבון הנפש עם עצמו, על הקרע בין דתיים לחילונים בישראל, ועל הגשר שהוא מנסה לבנות בין הקהילות האלה 02.10.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6ttr0k5b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep33.jpg',
+                placeholder: '33'
+            },
+            {
+                id: 'pgisha-roni-kuban-s9-ep34',
+                season: 9,
+                ep: 34,
+                name: 'פרק 19 - אהוד אולמרט',
+                subtitle: 'ראש הממשלה לשעבר אהוד אולמרט מספר לרוני קובן על סירובו לשחרר את גלעד שליט ולהקים ועדת חקירה, על השלום שלא נואש ממנו, על החיים בכלא, על הנתק מאחיו, ועל בת האומנה שהיא חלק מהמשפחה 15.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hc9yq621/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 9,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s9-ep34.jpg',
+                placeholder: '34'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep1',
+                season: 10,
+                ep: 1,
+                name: 'פרק 1 - ערן זהבי',
+                subtitle: 'ערן זהבי מדבר עם רוני קובן על הקושי שבפרישה מהקריירה שנתנה לו שיאים של ריגוש, על מה שעשה אותו מצליח כל כך, על משכורות העתק, על אביו שנטש, על השוד האלים שעברו אישתו וילדיו, והטראומה שהוא הותיר 29.11.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1950236/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep2',
+                season: 10,
+                ep: 2,
+                name: 'פרק 2 - נועה קולר',
+                subtitle: 'נועה קולר בריאיון מצחיק, כואב וחשוף מספרת לרוני קובן על תוגת המונוגמיה ולמה לא נתנה לגיבורה שלה לבגוד בבעלה, על השנים שבהן איש לא האמין בה, על הבלבול מההצלחה, וגם את כל האמת על שירה שטיינבוך מ"קופה ראשית" 06.12.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1961409/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep3',
+                season: 10,
+                ep: 3,
+                name: 'פרק 3 - יעקב ברדוגו',
+                subtitle: 'יועצו הקרוב של רה"מ, איש התקשורת יעקב ברדוגו מדבר על איך אפשר להיות גם יועץ לנתניהו וגם פרשן? איך הוא מגיב למי שמכנה אותו שופר? איך פעל להכניס את סער לממשלה? ועל הרגע שחשב שנתניהו חיסל לו את הקריירה 13.12.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1965505/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep4',
+                season: 10,
+                ep: 4,
+                name: 'פרק 4 - ברק סרי',
+                subtitle: 'ברק סרי, הפרשן הפוליטי החד והבוטה, מספר איך נתניהו מתכונן לריאיון, מה חושבים עליו בכירי הליכוד, למה האופוזיציה לא מצליחה להפיל אותו, על ההרשעה השנייה של אריה דרעי, ועל בתו יובל שהתמודדה עם מאניה דיפרסיה 20.12.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1988846/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep5',
+                season: 10,
+                ep: 5,
+                name: 'פרק 5 - ליאור סושרד',
+                subtitle: 'ליאור סושרד מדבר עם רוני קובן על הדרך המפרכת להצלחה העולמית, על הקושי לנוע בין דירה ו-3 ילדים בת"א לבין אחוזות הפאר של הסלבריטאים הבינלאומיים, על הפעם שנתניהו עשה הכל כדי שייכשל, ועל הפחד הכי גדול שלו 27.12.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2014837/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep6',
+                season: 10,
+                ep: 6,
+                name: 'פרק 6 - גיא מרוז',
+                subtitle: 'גיא מרוז, נציג השמאל ב״הפטריוטים״ מספר לרוני קובן על הרגע שבו הפך מוקצה בערוצי המיינסטרים, על ההחלטה ללכת לערוץ 14, על ההתמודדות שלו עם הדיכאון והפסיכוזה, ועל הגעגועים לימים בהם היה נער פלא מוסיקלי 03.01.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2028679/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep7',
+                season: 10,
+                ep: 7,
+                name: 'פרק 7 - ערן סויסה',
+                subtitle: 'ערן סויסה, כתב הרכילות והבידור של ״ישראל היום״, מדבר עם רוני קובן על האנשים שמככבים ברכילות שלנו, על פרסום של ידיעות שהכוכבים היו מעדיפים שלא נדע, וגם על הבית הדתי, טיפולי ההמרה והיציאה מהארון 10.01.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2057750/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep8',
+                season: 10,
+                ep: 8,
+                name: 'פרק 8 - בן כספית',
+                subtitle: 'בן כספית מדבר עם רוני קובן על הפחד והלחץ שעיתונאים חווים בימים אלה, מסביר למה הוא עובד עם ינון מגל למרות הכל, מנסה להעריך מה אבא שלו, הביביסט, היה אומר בימים אלה, ומתי יהיו בחירות 17.01.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2077375/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep9',
+                season: 10,
+                ep: 9,
+                name: 'פרק 9 - עדי שהם',
+                subtitle: 'ד"ר עדי שהם, פסיכולוגית שנחטפה מבארי עם ילדיה ואמה ב-7.10, מספרת על המאבק לשמור על ילדיה בשבי, על המאבק יוצא הדופן שניהלה בהמשך על חייו של בעלה טל, שנותר בשבי, ועל שיקום המשפחה עם חזרתם של כל החטופים 24.01.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2107821/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep10',
+                season: 10,
+                ep: 10,
+                name: 'פרק 10 - יולי אדלשטיין',
+                subtitle: 'חה״כ יולי אדלשטיין, מספר על הרגע שבו הבין שחוק הגיוס שלו לא יעבור, על הברוגז עם נתניהו, על ההחלטה לא לציית לבג״צ, על החיים במחנה העבודה כאסיר ציון, על ברית מילה בגיל 22 ועל החיים עם בת של מיליארדר. 31.01.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2139043/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep11',
+                season: 10,
+                ep: 11,
+                name: 'פרק 11 - גדי איזנקוט',
+                subtitle: 'גדי איזנקוט בריאיון חשוף וכן מספר לרוני קובן פרטים חדשים ומטרידים על פרשת "הבילד", עונה למבקרים על חלקו באחריות ל-7.10, מדבר על הפרידה מבני גנץ וגם על הגעגועים לבנו גל ז"ל שנהרג בפעולה לחילוץ חטופים חללים 07.02.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2164070/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep12',
+                season: 10,
+                ep: 12,
+                name: 'פרק 12 - אביחי שטרן',
+                subtitle: 'אביחי שטרן, ראש העיר של קרית שמונה, מספר לרוני קובן על המאבק להחזרת התושבים לעיר, על הברוגז עם נתניהו והמחיר שהעיר שילמה בגללו, על אביו שאיבד את אימו ואחותו בטבח בקריית שמונה, וגם למה הלך לנינג\'ה ישראל 14.02.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2166490/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep13',
+                season: 10,
+                ep: 13,
+                name: 'פרק 13 - הדס שטייף',
+                subtitle: 'הדס שטייף, כתבת הפלילים המיתולוגית שחשפה פרשיות של הטרדות ופגיעות מיניות מספרת לרוני קובן על העבודה, על סיפורי הטרדה מינית, על השיימינג הציבורי מול האישום הפלילי, ועל פרשת אפי נוה ותביעת הענק שהגיש נגדה. 21.02.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2169081/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep14',
+                season: 10,
+                ep: 14,
+                name: 'פרק 14 - אביחי אדרעי',
+                subtitle: 'אל"מ אביחי אדרעי, דובר צה״ל בערבית, בריאיון פרישה ראשון על מאחורי הקלעים של המערכה באיראן, על הטעות של חיזבאללה, על לוחמה פסיכולוגית ועל הדרך שבה הצליח להיכנס לכל בית במזרח התיכון 06.03.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2175077/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep15',
+                season: 10,
+                ep: 15,
+                name: 'פרק 15 - אורן נהרי',
+                subtitle: 'אורן נהרי, מר חדשות חוץ, בשיחה כנה ומרגשת עם רוני קובן על ההתמודדות שלו עם מחלת ה ALS, על הדרך שבה החליט להתמודד איתה, ועל השאלות הקשות שהיא מעלה אצלו על גורל וצדק ומה שישאיר אחריו. 14.03.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2177834/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep16',
+                season: 10,
+                ep: 16,
+                name: 'פרק 16 - רותי ברודו',
+                subtitle: 'רותי ברודו, כוכבת תוכניות הבישול, בעלת מסעדות בתי קפה ובתי מלון, מספרת על ההתמודדות עם המראה שלה, על הקשיחות, על הילדות בצל השואה, על חיבתה לקבל ולתת ביקורת, ואיך נפרדה סופית מהאפשרות להיות אמא. 25.03.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2179543/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep17',
+                season: 10,
+                ep: 17,
+                name: 'פרק 17 - דן חלוץ',
+                subtitle: 'דן חלוץ מדבר על המלחמה באיראן ועל החששות שהיא מעוררת בו, מגיב כאחד מראשי המחאה, על הטענות לסרבנות הטייסים, על האכזבה מבני גנץ ומראשי האופוזיציה, על "מכה קלה בכנף" ועל אחריותו לתוצאות מלחמת לבנון ה-2 28.03.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2182926/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep18',
+                season: 10,
+                ep: 18,
+                name: 'פרק 18 - לוסי אהריש',
+                subtitle: 'לוסי אהריש מתארחת אצל רוני קובן ומספרת על ההתקפה עליה ועל משפחתה מצד פעילי ימין, על סיפור האהבה שלה ושל צחי הלוי, על הילד שלהם שגדל למציאות מורכבת, ועל הרגע ב-7 באוקטובר בו הופקד בידיה גורלם של 12 אנשים 04.04.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184430/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep19',
+                season: 10,
+                ep: 19,
+                name: 'פרק 19 - הילה קורח',
+                subtitle: 'הילה קורח מספרת לרוני קובן על הרצון להיות גם (בתקשורת) וגם (ברפואה), על ההחלטה להפסיק לעסוק באקטואליה ועל הרגע שבו נשברה ועזבה את ההתמחות. על הכישלון הכי גדול שלה ועל החרדה לבנה שחלה באפילפסיה 11.04.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2187825/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep20',
+                season: 10,
+                ep: 20,
+                name: 'פרק 20 - רועי בר נתן',
+                subtitle: 'רועי בר נתן מדבר עם רוני קובן על הקושי הקבוע להתמודד עם הצלחה, על הילד השחקן שהיה ועל הרגע שבו הפלא נעלם, על איך גילה את כישרון החיקוי שלו, וגם (קצת) על מתי יגיעו זוגיות וילדים 24.04.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2193449/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep21',
+                season: 10,
+                ep: 21,
+                name: 'פרק 21 - נועם בתן',
+                subtitle: 'נועם בתן מדבר עם רוני קובן על הקושי והבדידות שמביאה איתה ההצלחה, על אהבה, רומנטיקה וזוגיות בחייו, על הרגע שבו חשב שכבר לא יצליח אף פעם להיות זמר מפורסם ועל ההכנות לקראת האירוויזיון. 02.05.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2195846/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep22',
+                season: 10,
+                ep: 22,
+                name: 'פרק 22 - יובל רפאל',
+                subtitle: 'יובל רפאל מספרת לרוני קובן על הרגע שבו הרגישה שהיא מאכזבת מדינה שלמה, על הסודות שמאחורי ההופעה באירוויזיון, על הפוסט טראומה שמלווה אותה ועל מי שהפכה להיות. מיועד לגילאי 8+ 09.05.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2198449/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep23',
+                season: 10,
+                ep: 23,
+                name: 'פרק 23 - צחי הלוי',
+                subtitle: 'צחי הלוי מספר על הרגע שבו התאהב בלוסי אהריש, הדימוי כגבר נחשק, והשירות הצבאי כמסתערב 21.05.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2202772/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep24',
+                season: 10,
+                ep: 24,
+                name: 'פרק 24 - משה רדמן אבוטבול',
+                subtitle: 'משה רדמן אבוטבול מספר לרוני קובן על היום שבו החליט להצטרף למאבק כנגד הרפורמה המשפטית, על המעצרים, חסימות הכבישים, והסיבות לכך שהמאבק לא כבש לבבות בפריפריה, על הילדות בלוד ועל ההצלחה בהייטק 28.05.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2205775/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep24.jpg',
+                placeholder: '24'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep25',
+                season: 10,
+                ep: 25,
+                name: 'פרק 25 - יורם ארבל',
+                subtitle: 'רגע לפני שישדר את משחק הפתיחה של המונדיאל, יורם ארבל מספר על המונדיאל הטראומטי שבעקבותיו פוטר מ 3 ערוצים, על המאבק בסרטן הגרון, על הגיל והרצון לשדר לנצח, על הבית העצוב שבו גדל, ועל האהבה העצומה לכדורגל 05.06.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2208120/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep25.jpg',
+                placeholder: '25'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep26',
+                season: 10,
+                ep: 26,
+                name: 'פרק 26 - חגי לוי',
+                subtitle: 'חגי לוי, הבמאי הישראלי המצליח בעולם מספר לרוני קובן על העבודה בחו״ל כישראלי, על המשבר שאחרי 7.10 על השבר שלו מול המגזר הדתי לאומי ממנו יצא, ועל ״בטיפול״ הסדרה שפרצה דרך לישראל בעולם הטלוויזיה 13.09.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2232324/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep26.jpg',
+                placeholder: '26'
+            },
+            {
+                id: 'pgisha-roni-kuban-s10-ep27',
+                season: 10,
+                ep: 27,
+                name: 'פגישה עם רוני קובן | יעקב ברדוגו - הצצה',
+                subtitle: '"רונן בר? צריך להיחקר תוך כדי מעצר במרתף, בצינוק, עד שיגלה את כל האמת": רוני קובן שיחק עם יעקב ברדוגו את המשחק "לחקור או לא לחקור" 11.12.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1962681/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 10,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s10-ep27.jpg',
+                placeholder: '27'
+            },
+            {
+                id: 'pgisha-roni-kuban-s11-ep1',
+                season: 11,
+                ep: 1,
+                name: 'פרק 1 - אסף רפפורט',
+                subtitle: 'אסף רפפורט, מנכ"ל WIZ שנמכרה לגוגל ב-32 מיליארד דולר, מספר לרוני קובן איך התנהל המשא ומתן על העסקה, איך הכסף הגדול שינה אותו, על המאבק בממשלה, על קניית רשת 13 ועל היציאה מהארון 26.09.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246420/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s11-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'pgisha-roni-kuban-s11-ep2',
+                season: 11,
+                ep: 2,
+                name: 'פרק 2 - בני גנץ',
+                subtitle: 'בני גנץ מספר לרוני קובן למה הוא מתעקש לרוץ למרות שהסקרים חוזים לו התרסקות, על החברים הטובים שעזבו אותו, על הכניסה לממשלת החירום תחת נתניהו, וגם על אישתו, רוויטל, שחלתה בגיל צעיר באלצהיימר 03.10.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246421/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s11-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'pgisha-roni-kuban-s11-ep3',
+                season: 11,
+                ep: 3,
+                name: 'פרק 3 - נפתלי בנט',
+                subtitle: 'נפתלי בנט מדבר עם רוני קובן על הסקרים שלא מחמיאים לו, על כך שאיחוד תחתיו היה מביא יותר קולות לגוש, על מכונת הרעל ועל השמועה שהופצה על כך שהוא ואישתו מתגרשים 10.10.2026',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246422/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/pgisha-roni-kuban/s11-ep3.jpg',
+                placeholder: '3'
+            }
+        ]
+    },
+        {
+        id: 'anashim-shepagashti',
+        name: 'אנשים שפגשתי',
+        placeholder: 'אנשים שפגשתי',
+        imageURL: 'images/kanbox/anashim-shepagashti/series.jpg',
+        source: 'kan',
+        episodes: [
+            {
+                id: 'anashim-shepagashti-s1-ep1',
+                season: 1,
+                ep: 1,
+                name: 'עונה 1 פרק 1',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226165/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/anashim-shepagashti/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'anashim-shepagashti-s1-ep2',
+                season: 1,
+                ep: 2,
+                name: 'עונה 1 פרק 2',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226166/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/anashim-shepagashti/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'anashim-shepagashti-s1-ep3',
+                season: 1,
+                ep: 3,
+                name: 'עונה 1 פרק 3',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226167/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/anashim-shepagashti/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'anashim-shepagashti-s1-ep4',
+                season: 1,
+                ep: 4,
+                name: 'עונה 1 פרק 4',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226168/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/anashim-shepagashti/s1-ep4.jpg',
+                placeholder: '4'
+            }
+        ]
+    },
+    {
+        id: 'kupa-rashit',
+        name: 'קופה ראשית',
+        placeholder: 'קופה ראשית',
+        imageURL: 'images/kanbox/kupa-rashit/series.jpg',
+        source: 'kan',
+        episodes: [
+            {
+                id: 'kupa-rashit-s1-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - שלי מהבית',
+                subtitle: 'הפרק הראשון בסדרה: אמנון עושה הכול בשביל לא לשלם על חטיף שלטענתו הביא מהבית. שירה נאלצת לחלוק את המשרד שלה עם ניסים ואנטולי, שהקימו שם בית כנסת לעובדים 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb26cqkv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s1-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2 - נס בקצבייה',
+                subtitle: 'ניסים משוכנע שרב חשוב התגלה לו בסטייק, ומתקשה להתרכז בעבודה. שירה מחליטה אחת ולתמיד לפתור את בעיית השקיות הלא נפתחות בירקנייה. כוכבה לא מוכנה לשרת את אמנון שמוצא פתרון מקורי בשביל להעביר את הלבן שלו 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9fqvzvk6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s1-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3 - בוקר של פיגוע',
+                subtitle: 'פיגוע שאירע סמוך לסופר גורם לכל העובדים והלקוחות להתייחס בצורה שונה לראמזי. כוכבה מארחת את הבן שלה בסופר ונכנסת ללחץ כשהוא ואסתי מתחילים לפלרטט. אמנון אורז הביתה דגימה מכל זית, אבל מתעקש לא לשלם עליהם בטענה שהם "טעימות" 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1xlv7uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s1-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4 - סלב בסופר',
+                subtitle: 'השף ישראל אהרוני נכנס לסניף וגורם להתרגשות רבה בקרב העובדים והלקוחות שמעולם לא ראו "סלב" במציאות. ניסים ואנטולי מוצאים דרך מקורית למרוח את הזמן בקצביה 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iy0id2fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'kupa-rashit-s1-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פרק 5 - כוכבה חוזרת מחו"ל',
+                subtitle: 'סרטון שבו כוכבה מתפרעת במטוס הופך ללהיט ברשת. אביחי מפחד שהכתם ידבק גם בסניף, ומורה לשירה לפטר את כוכבה לאלתר. אמנון משגע את אנטולי בקצביה ומתעקש לא לשלם על העור של העוף 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3o3uz0b8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'kupa-rashit-s1-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פרק 6 - תחתונים',
+                subtitle: 'אמנון מגיע לסניף כדי להחזיר להחזיר תחתונים שקנה, אבל כוכבה מסרבת בכל תוקף לקבל בחזרה תחתונים משומשים. כתם סלק עקשן מטריד את ראמזי. ניסים וכוכבה מארגנים מתיחה מרושעת לאנטולי 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yg6g7s55/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'kupa-rashit-s1-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7 - ראמזי הבלש',
+                subtitle: 'העובדים מאשימים את העובד החדש בהיעלמות מכשירי הסלולר שלהם, ראמזי מסרב להאמין ופוצח בחקירה מאומצת למציאת הגנב האמיתי. אמנון מסרב לקבל את העובדה שמבצע העגבניות הוא רק עד 3 קילו לקנייה, ועושה הכל בשביל לנצח את השיטה 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sy72fxz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'kupa-rashit-s1-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פרק 8 - החולדה',
+                subtitle: 'שירה אוסרת על עובדי הסופר להרוג חולדה שהתגלתה במחסן, ומבטיחה לטפל בה בעצמה בדרכים הומניות. כוכבה מחליטה שגם לקופאיות מגיעים טיפים 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zfr1x8uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'kupa-rashit-s1-ep9',
+                season: 1,
+                ep: 9,
+                name: 'פרק 9 - ראמזי יוצא לחופש',
+                subtitle: 'ראמזי נאלץ לקחת יום חופש ראשון בקריירה, אנטולי מסבך את ניסים עם המאפיה הבלארוסית, ופרנקו עושה לשירה טובה קטנה שהופכת לסיוט גדול 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9g6hxdyc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'kupa-rashit-s1-ep10',
+                season: 1,
+                ep: 10,
+                name: 'פרק 10 - כוכבה מפסיקה לעשן',
+                subtitle: 'חזי מספר לכוכבה שהוא הפסיק לעשן. כוכבה מנסה גם להיגמל וכל הסופר סובל מזה. שירה וראמזי נלחמים במכת \'המנשנשים\' בסופר ומצליחים לפענח את תיק פרנקו 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_atp9dczt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'kupa-rashit-s1-ep11',
+                season: 1,
+                ep: 11,
+                name: 'פרק 11 - כרעיים יפים',
+                subtitle: 'ראמזי מנסה להסתיר משירה שהוא חולה, כי הוא חושש שהיא תשלח אותו הביתה באמצע המשמרת ומתייעץ עם כוכבה על דרכים להבריא. פרנקו עושה קניות לפני משחק כדורגל ונותן לאשתו לדבר עם אבטיחים בטלפון. שוני מבקשת מאנטולי כרעיים יפים ומתאכזבת מהבחירה שלו 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m6ts083a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'kupa-rashit-s1-ep12',
+                season: 1,
+                ep: 12,
+                name: 'פרק 12 - פפרני בשדות זרים',
+                subtitle: 'הבת של פרנקו מבקשת ממנו לקנות מעכשיו רק ביצי חופש. ראמזי חושד שגברת פפרני, הלקוחה האהובה עליו, בוגדת בו עם סופרמרקט אחר. העובדים מעודדים את חזי להוריד סוף סוף וואטסאפ 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9vny92qe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'kupa-rashit-s1-ep13',
+                season: 1,
+                ep: 13,
+                name: 'פרק 13 - מהפכה בסופר (חלק א\')',
+                subtitle: 'תקנה חדשה של שירה מחייבת את העובדים ללבוש כובעים במהלך המשמרת. כוכבה מחליטה להמריד את העובדים נגד ה"גזירה" וגורמת לרעידת אדמה של ממש 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xykp9qau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'kupa-rashit-s1-ep14',
+                season: 1,
+                ep: 14,
+                name: 'פרק 14 - מהפכה בסופר (חלק ב\')',
+                subtitle: 'בעקבות פיטורי שירה ממנה אביחי מנהלת חדשה לסופר. העובדים מנסים להתרגל לשיטת הניהול החדשה, ומתחילים לחשוש שאולי שירה לא הייתה גרועה כל כך 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mgove66l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'kupa-rashit-s1-ep15',
+                season: 1,
+                ep: 15,
+                name: 'פרק 15 - תירוצים תירוצים',
+                subtitle: 'ניסים ואנטולי מתייעצים עם כוכבה על תירוץ שימנע מהם להשתתף בערב הניקיונות בסופר. שוני הלקוחה חושפת את הנשק היעיל ביותר נגד עובדי הסופר - שיימינג 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r8vnmkcs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'kupa-rashit-s1-ep16',
+                season: 1,
+                ep: 16,
+                name: 'פרק 16 - יום שישי בסופר',
+                subtitle: 'יום שישי - הסיוט הגדול ביותר של כל עובדי הסופר ולקוחותיו. פראנקו במירוץ נגד השעון לסיים את הקניות לפי שאישתו חוזרת הביתה. שירה מנסה להלחם בתופעת המריבות בתור באמצעות שיטות מבית סטיב ג\'ובס 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qsppx5cn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'kupa-rashit-s1-ep17',
+                season: 1,
+                ep: 17,
+                name: 'פרק 17 - ראמזי מאוהב',
+                subtitle: 'ראמזי מתאהב באסתי הקופאית, אבל לא יודע איך להביע את אהבתו. ניסים ואנטולי מחליטים לקחת אותו תחת חסותם ומלמדים אותו כל מה שהם יודעים על אהבה 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tsz6366y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'kupa-rashit-s1-ep18',
+                season: 1,
+                ep: 18,
+                name: 'פרק 18 - בני דודים',
+                subtitle: 'אמנון מגלה שיש לו קשר משפחתי לחזי הירקן, ומנסה לנצל את זה לטובת הנחות. אישתו של אנטולי מסלקת אותו מהבית והוא נאלץ לעבור לגור בסופר 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mkb6ofzb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'kupa-rashit-s1-ep19',
+                season: 1,
+                ep: 19,
+                name: 'פרק 19 - סופר חכם (חלק א\')',
+                subtitle: 'שירה מביאה לסופר קופה אוטומטית. העובדים חוששים שזהו תחילתו של הסוף עבורם. גברת ביסמנובסקי, שלא עבדה מעולם, מתחילה לעבוד בסופר בהדרכת ראמזי 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_caqiupm2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'kupa-rashit-s1-ep20',
+                season: 1,
+                ep: 20,
+                name: 'פרק 20 - סופר חכם (חלק ב\')',
+                subtitle: 'האם זהו סוף הסיפור עבור עובדי \'שפע יששכר\'? העובדים יוצאים למלחמת \'להיות או לחדול\' נגד המכונות האוטומטיות, שמאיימות להחליף אותם לתמיד 23.07.2018',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dsolgd88/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'kupa-rashit-s1-ep21',
+                season: 1,
+                ep: 21,
+                name: 'עונה 1 פרק 21',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fo0a77un/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 1,
+                imageURL: 'images/kanbox/kupa-rashit/s1-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'kupa-rashit-s2-ep1',
+                season: 2,
+                ep: 1,
+                name: 'פרק 1 - שירותי הנהלה',
+                subtitle: 'הסניף עובר למתחם חדש ובו תא שירותים אחד לעובדים ותא שירותים אחד להנהלה. שירה מאפשרת גם ללקוחות להשתמש בשירותי העובדים והעובדים יוצאים למלחמה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zmdljg8g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s2-ep2',
+                season: 2,
+                ep: 2,
+                name: 'פרק 2 - אחות של ראמזי',
+                subtitle: 'אחות של ראמזי מתחילה לעבוד בסופר וראמזי לא יודע נפשו מרוב התרגשות. כוכבה כמעט נחנקת מגרעין של זית ורואה בזה סימן מלמעלה להפוך לאדם טוב 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kxavyw9n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s2-ep3',
+                season: 2,
+                ep: 3,
+                name: 'פרק 3 - מה עובר על שירה',
+                subtitle: 'העובדים מנסים להבין מה פשר השינוי לטובה בהתנהגות של שירה. כשהם מגלים את הסיבה, הם מתקשים להאמין. הילד של שוני מעכב את התור בקופה, מה שמביא לעימות בלתי נמנע עם פרנקו 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_juj9uaa7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s2-ep4',
+                season: 2,
+                ep: 4,
+                name: 'פרק 4 - סופר פוד',
+                subtitle: 'דוכן טעימות חינם של מוצרי \'סופר פוד\' עוזר לאמנון להבריא. כשהמוצרים הופכים להיות בתשלום, אמנון נקלע לדילמת חייו: הבריאות או הכסף? אביחי מטיל על שירה משימה: לעשות סרטון פרסומת לסופר שישבור את הרשת 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_28ruvlzc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'kupa-rashit-s2-ep5',
+                season: 2,
+                ep: 5,
+                name: 'פרק 5 - הדרבי הגדול',
+                subtitle: 'עובדי הסופר נרשמים לליגה למקומות עבודה בכדורגל ומתכוננים למשחק העונה מול הסופר המתחרה - "אושר לוי". כוכבה ואסתי בקרב קופאיות: מי תמכור יותר יין במבצע? 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fhen1fb5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'kupa-rashit-s2-ep6',
+                season: 2,
+                ep: 6,
+                name: 'פרק 6 - גזר',
+                subtitle: 'שירה מצליחה לשכנע את אביחי לגייס שליח לסופר לפי שיטת הגיוס של סטיב ג\'ובס. כל העובדים רוכשים יחד כורסת מסאז\' לחדר העובדים. כולם, מלבד כוכבה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izy77qyx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'kupa-rashit-s2-ep7',
+                season: 2,
+                ep: 7,
+                name: 'פרק 7 - סיפורי סבתא',
+                subtitle: 'ניסים רוצה לנמנם במשמרת וממציא לאנטולי סיפורי אגדות כדי שיאפשר לו להמשיך לישון. התחלופה המהירה של עובדי הנקיון מעציבה את ראמזי, שמתקשה להיפרד מכל מנקה שעוזב 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qrz6imlk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'kupa-rashit-s2-ep8',
+                season: 2,
+                ep: 8,
+                name: 'פרק 8 - בטיפול',
+                subtitle: 'קומדיה מוקומנטרית. פרק 8. שירה פותחת מהצד עסק של טיפולי \'מנטורינג\'. כאשר ראמזי מגלה שאין ביקוש לטיפולים, הוא מחליט לקחת את העניינים לידיים. אמנון פוגש בסופר את אהבת נעוריו ורגשות ישנים מתעוררים 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n0i1khx6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'kupa-rashit-s2-ep9',
+                season: 2,
+                ep: 9,
+                name: 'פרק 9 - המרצדס',
+                subtitle: 'אירוע מסתורי שאירע בסופר שולח את ראמזי לחקירה בלשית מסועפת. אמנון מזהה הזדמנות לעקוץ את הסופר, ולוקח אותה בשתי ידיים 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lupa6vd7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'kupa-rashit-s2-ep10',
+                season: 2,
+                ep: 10,
+                name: 'פרק 10 - פורים',
+                subtitle: 'חג פורים בשפע יששכר! כוכבה מוטרדת מבחירת התחפושת של ביתה הקטנה סיטל. טעות בזיהוי גורמת למבוכה גדולה בקצבייה. מבצע משלוחי המנות מחזיר את אמנון לטראומת ילדות 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm478vjs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'kupa-rashit-s2-ep11',
+                season: 2,
+                ep: 11,
+                name: 'פרק 11 - אנטולי מתערב',
+                subtitle: 'ניסים מנסה לגמול את אנטולי מההרגל המגונה של "להתערב" לאנשים בכל דבר. אמנון מנסה לעשות קניות עם \'גיפט קארד\' לא מזוהה, וגורם למהומה בסופר 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g197oqsp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'kupa-rashit-s2-ep12',
+                season: 2,
+                ep: 12,
+                name: 'פרק 12 - אביחי חי ת\'חלום',
+                subtitle: 'אביחי מחליט לעזוב את אשתו בעקבות עצה שהוא חשב ששירה נתנה לו, וכל הסניף נאלץ להתמודד עם ההשלכות. כוכבה פוגשת את המורה שלה מהתיכון וסוגרת אתה חשבון של 35 שנה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3g1tzc7j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'kupa-rashit-s2-ep13',
+                season: 2,
+                ep: 13,
+                name: 'פרק 13 - הקרב על המזגן',
+                subtitle: 'הקיץ הגיע ואיתו הריב הנצחי על הטמפרטורה שבה יפעל המזגן. אמנון מקבל את המשימה השנואה עליו בעולם, לשמור ללקוח אחר את התור בקופה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kvtuphm6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'kupa-rashit-s2-ep14',
+                season: 2,
+                ep: 14,
+                name: 'פרק 14 - פסח בא',
+                subtitle: 'קומדיה מוקומנטרית. ערב פסח והסופר מלא בלקוחות. פרנקו מנסה לחמוק מהקניות עם אשתו, שוני מנסה להצטייד בחמץ רגע לפני החג, וכוכבה ממציאה שיטה חדשה כיצד לעשות קניות בלי לקום מהכיסא 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x2g9r4th/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'kupa-rashit-s2-ep15',
+                season: 2,
+                ep: 15,
+                name: 'פרק 15 - אמנון לא מתנצל',
+                subtitle: 'אמנון מורחק מהירקניה בעקבות התנהגות בלתי הולמת ונאלץ להתמודד עם הגזירה. ניסים ואנטולי ממשיכים במסורת המתיחות שלהם על שאר העובדים 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e3w7edqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'kupa-rashit-s2-ep16',
+                season: 2,
+                ep: 16,
+                name: 'פרק 16 - שירה לא אחראית',
+                subtitle: 'לשירה נמאס להרגיש כמו גננת בסופר. היא מחליטה להעביר לעובדים את כל הסמכויות על מנת להפוך אותם לעצמאיים יותר. החלטה שהיא עשויה להתחרט עליה... 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbbascsx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'kupa-rashit-s2-ep17',
+                season: 2,
+                ep: 17,
+                name: 'פרק 17 - ראמזי ושודדי העגלות',
+                subtitle: 'לקראת ל"ג בעומר ראמזי יוצא למלחמה בגנבי העגלות. פרנקו עושה הכל בשביל לקבל החזר על מוצר שקילקל בעצמו 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_by2ib41h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'kupa-rashit-s2-ep18',
+                season: 2,
+                ep: 18,
+                name: 'פרק 18 - חמישים מיליון',
+                subtitle: 'עובדי הסופר מחליטים לשלוח ביחד טופס לוטו. אמנון מוצא על ספסל חליפה ישנה, שמשנה את חייו מן הקצה אל הקצה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0casqzkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'kupa-rashit-s2-ep19',
+                season: 2,
+                ep: 19,
+                name: 'פרק 19 - מה עושים עם כוכבה',
+                subtitle: 'לשירה נמאס סופית מכוכבה. היא יוזמת מהלך ומצליחה לשכנע את מנהל הסופר המתחרה להציע לכוכבה לעבור אליו. האם כוכבה תסכים ותחצה את הקווים? 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0w4m9wy9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'kupa-rashit-s2-ep20',
+                season: 2,
+                ep: 20,
+                name: 'פרק 20 - מה עושים בלי כוכבה',
+                subtitle: 'אמנון מגלה שכוכבה עזבה את הסניף ומתחיל לעשות ככל העולה על רוחו בסופר. לשירה עולים ספקות לגבי העזיבה של כוכבה. ראמזי מנהל קרב עקוב מדם עם האויבת מספר אחת של הסופר - הנמלה 26.05.2019',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cyi4po0y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s2-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'kupa-rashit-s3-ep1',
+                season: 3,
+                ep: 1,
+                name: 'פרק 1 - בקבוק בלי פקק',
+                subtitle: 'שירה מעבירה את העובדות שלה קורס מקוצר בהגנה עצמית, אמנון מגיע לסופר עם בקשה חריגה, ניסים ואנטולי מחפשים תשובה לשאלה: מי משניהם יותר חתיך? 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_82w8k0c5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s3-ep2',
+                season: 3,
+                ep: 2,
+                name: 'פרק 2 - קוקו וקוקו',
+                subtitle: 'שירה מנסה לקדם את עובדי הסופר האתיופים ולמרות מאמציה גורמת לתקרית גזענית. ראמזי מתכונן לראיון חשוב אצל מנהל כוח האדם של הרשת 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ki7470h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s3-ep3',
+                season: 3,
+                ep: 3,
+                name: 'פרק 3 - 15 דקות',
+                subtitle: 'אמנון נלחם בחוק החדש שמחייב תשלום על חניה בסופר. פרנקו שוכח מה שירלי ביקשה ממנו לקנות ויוצא לחקירה בעידודו של ראמזי 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g8cyt11h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s3-ep4',
+                season: 3,
+                ep: 4,
+                name: 'פרק 4 - יומולדת בסופר',
+                subtitle: 'שירה מחליטה על יוזמה חדשה לחגיגות ימי ההולדת של העובדים ונאלצת להתמודד עם ההשלכות של החלטתה. שוני מנסה לשכנע את בנה לא לקנות ממתקים בסופר ומסבכת בכך את ניסים ואנטולי 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cxas4zeg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'kupa-rashit-s3-ep5',
+                season: 3,
+                ep: 5,
+                name: 'פרק 5 - כוכבה היפה',
+                subtitle: 'אביחי מנסה לקבל כתבה במקומון ודורש משירה למצוא לו לקוח שזקוק לתרומה. עובדת חדשה בסופר (יובל שרף בהופעת אורח) גורמת לכוכבה בעיות זהות וביטחון עצמי 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x3ws6gqf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'kupa-rashit-s3-ep6',
+                season: 3,
+                ep: 6,
+                name: 'פרק 6 - יולנדה',
+                subtitle: 'קומדיה המתרחשת בסופר "שפע יששכר". פרק 6. יולנדה: כוכבה מתערבת לבנה הבכור במערכות היחסים וגורמת לו למהפכים בחיים. ראמזי נלחם על מכונת השטיפה הישנה של הסופר 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izrc96f1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'kupa-rashit-s3-ep7',
+                season: 3,
+                ep: 7,
+                name: 'פרק 7 - הפצוע המולדבי',
+                subtitle: 'במהלך העבודה אנטולי נפצע ברגלו ונאלץ לעבור לתפקיד אחר בסופר. שוני מנסה להוכיח לדליה שהיא לא פחות ידידותית לסביבה ממנה 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o0cwkkdx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'kupa-rashit-s3-ep8',
+                season: 3,
+                ep: 8,
+                name: 'פרק 8 - סלסילות',
+                subtitle: 'עובדי הסופר נאלצים להתמודד עם עובדת חדשה בסופר, שהיא במקרה גם אשתו של אביחי. ראמזי מנסה לשדך ללקוחות את הירקות הפחות יפים בירקניה 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_78f0wfds/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'kupa-rashit-s3-ep9',
+                season: 3,
+                ep: 9,
+                name: 'פרק 9 - עוד שישי בסופר',
+                subtitle: '"פרנקו שוב מסתבך עם הקניות ביום שישי. אמנון נלחם על זכותו לקבל את המבצע של "עיתון בשקל 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0u7ww7ra/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'kupa-rashit-s3-ep10',
+                season: 3,
+                ep: 10,
+                name: 'פרק 10 - סרגיי פלאץ׳',
+                subtitle: 'פרט מפתיע בביוגרפיה של אנטולי משנה ברגע את החוקים בקצביה. שירה מכריזה על תחרות העובד המצטיין וגורמת לראמזי לאבד את זה 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kgjp9o69/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'kupa-rashit-s3-ep11',
+                season: 3,
+                ep: 11,
+                name: 'פרק 11 - אמא של טיטינסקי',
+                subtitle: 'אנטולי "נדבק" בחיידק האופניים. אמנון מחפש מחליף שיקח את אמא שלו לסופר במקומו. שירה שוכחת לקנות מתנה ליומולדת של אביחי 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_18dxu1pv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'kupa-rashit-s3-ep12',
+                season: 3,
+                ep: 12,
+                name: 'פרק 12 - אבא של טיטינסקי',
+                subtitle: 'אמנון מנסה להתמודד עם בן הזוג החדש של אמא שלו. ראמזי נלחם בצו הגירוש שנשלח אל עוזרו הנאמן דייזי 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_36oxutp8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'kupa-rashit-s3-ep13',
+                season: 3,
+                ep: 13,
+                name: 'פרק 13 - דקלה',
+                subtitle: 'קומדיה. פרק 13 - דקלה. שירה צועקת על הלקוחה הלא נכונה, ועושה הכל כדיי להתחמק מעונש. ניסים ואנטולי מביאים לראשונה נתח ואגיו יוקרתי לקצביה, מה שגורם למשבר עמוק ביחסים שלהם 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkacurp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'kupa-rashit-s3-ep14',
+                season: 3,
+                ep: 14,
+                name: 'פרק 14 - ראמזי טהור לעד',
+                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 14. ראמזי טהור לעד: ראמזי עושה הכל בשביל להתחבר עם עובד חדש בסופר וכוכבה מארגנת \'קליפ חתונה\' לכבוד החתונה של הבן שלה 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u2xsbwcl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'kupa-rashit-s3-ep15',
+                season: 3,
+                ep: 15,
+                name: 'פרק 15 - עקיצות',
+                subtitle: 'עונה חדשה לקומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 15. עקיצות - מכת יתושים תוקפת את הסופר, ניסים וכוכבה מוצאים פתרון מקורי לבעיה. ראמזי יוצא שוב למשימה בלשית 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mbsfbd14/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'kupa-rashit-s3-ep16',
+                season: 3,
+                ep: 16,
+                name: 'פרק 16 - קקפונים',
+                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 16 - קקפונים: שירה מנסה להיפטר מקולגה אובססיבית שמנסה להתחבר איתה. הקופאיות מתמודדות עם מכת הקקפונים - לקוחות שמדברים בטלפון בקופה 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_doz50dac/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'kupa-rashit-s3-ep17',
+                season: 3,
+                ep: 17,
+                name: 'פרק 17 - שוד ושבר',
+                subtitle: 'כוכבה וניסים נלחמים בכוונתה של שירה לפטר את צ\'יבוטרו. שוני ומוש תקועים בחניון בגלל רכב שחסם אותם. אמנון מסתבך עם נגן רחוב בכניסה לסופר 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0uqk5wrq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'kupa-rashit-s3-ep18',
+                season: 3,
+                ep: 18,
+                name: 'פרק 18 - מאשה חודש תשע',
+                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 18. מאשה חודש תשע - אנטולי בלחץ לקראת הלידה של מאשה. ראמזי נקלע לסכסוך עם המעדניה הסמוכה. ניסים וכוכבה פוצחים במלחמת מתיחות 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_39qpmixn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'kupa-rashit-s3-ep19',
+                season: 3,
+                ep: 19,
+                name: 'פרק 19 - חנוכה',
+                subtitle: 'שוני נלחמת בדוכן תפילין שנפתח לרגל החג מחוץ לסניף. אביחי נתקע בלי סידור לילדה בחופשת החנוכה, וניסים מנסה למכור את הרכב הישן של אשתו 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwn2iij7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'kupa-rashit-s3-ep20',
+                season: 3,
+                ep: 20,
+                name: 'פרק 20 - חופה ראשית',
+                subtitle: 'חופה ראשית - פרק סיום העונה. החתונה של גון ואוצר מתקרבת. שינוי של הרגע האחרון מוביל לחתונה שאף אחד לא ציפה לה. 19.10.2020',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwye398c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s3-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'kupa-rashit-s4-ep1',
+                season: 4,
+                ep: 1,
+                name: 'פרק 1 - ריקוד מושחת',
+                subtitle: 'בפרק פתיחת העונה אנטולי מגלה כשרון יוצא דופן וניסים רושם אותו לתחרות כשרונות. כוכבה באובססיה להוכיח שהיא שוקלת פחות משירה, ואמנון מאבד שנקל 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n43jd6mv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s4-ep2',
+                season: 4,
+                ep: 2,
+                name: 'פרק 2 - הג\'ל של ראמזי',
+                subtitle: 'עונה רביעית לסדרה הכי ישראלית שיש, זוכת פרס האקדמיה. פרק 2- הג\'ל של ראמזי. יום העצמאות בפתח ואביחי מועמד לתואר יקיר העיר יבנה. שודד הסופרים מטיל אימה על הסופרים באיזור. ראמזי מתמודד עם מחסור בג\'ל הקבוע שלו. 26.04.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w947m7ob/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s4-ep3',
+                season: 4,
+                ep: 3,
+                name: 'פרק 3 - טיטינסקים לא קונים בעונה',
+                subtitle: 'החורף הגיע ולאמנון בדיוק נשברת המטרייה. עובדי הסופר במאבק עם לקוחה שמתעקשת להגיע תמיד דקה לפני הסגירה 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pcevjog2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s4-ep4',
+                season: 4,
+                ep: 4,
+                name: 'פרק 4 - בר מצווה לאנטולי',
+                subtitle: 'ניסים מציע ללמד את אנטולי לבר מצווה מאוחרת. אסתי יוצאת למלחמה באוייב הכי גדול שלה- הווליום של כוכבה 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ibw56c1a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'kupa-rashit-s4-ep5',
+                season: 4,
+                ep: 5,
+                name: 'פרק 5 - האקדמיה ללשון',
+                subtitle: 'לעובדי הסופר נמאס ששירה מתקנת אותם בעברית, בעוד עבריינים מגיעים לסופר ודורשים את הבקבוקים למחזור 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q3gq4xv8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'kupa-rashit-s4-ep6',
+                season: 4,
+                ep: 6,
+                name: 'פרק 6 - אבא של נעמי',
+                subtitle: 'אבא של נעמי מגיע לביקור פתע בעוד ניסים עולה על שיטה חדשה להתבטל. פרנקו מנסה להשיג פיצויים מהסופר 27.05.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vnfoyflo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'kupa-rashit-s4-ep7',
+                season: 4,
+                ep: 7,
+                name: 'פרק 7 - קופה אדומה',
+                subtitle: 'לניסים ואנטולי נמאס שרק השליחים מקבלים טיפים. לשוני נמאס שמוש הפראייר קונה כל דבר שמנסים למכור לו, ומלמדת אותו להגיד גם לא 31.05.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_13b9cvbn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'kupa-rashit-s4-ep8',
+                season: 4,
+                ep: 8,
+                name: 'פרק 8 - מרד בר כוכבה',
+                subtitle: 'כוכבה מגלה לתדהמתה ששנקין מרוויח יפה, ודורשת מעכשיו כסף על השתתפותה בתוכנית. אנטולי מגיע לעבודה בלוק חדש 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w6dy5g0u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'kupa-rashit-s4-ep9',
+                season: 4,
+                ep: 9,
+                name: 'פרק 9 - כי הלקוח הוא גם חבר',
+                subtitle: 'סוף, הבן של שוני, נתקע בעגלה רגע לפני אודישן חשוב; כוכבה שבוייה בהמתנה לשירות לקוחות בטלפון; פרנקו נכנס לעימות בדוכן עיתונים 14.06.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1l6hnkxl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'kupa-rashit-s4-ep10',
+                season: 4,
+                ep: 10,
+                name: 'פרק 10 - לוויה ראשית - חלק א',
+                subtitle: 'המלחמה של אביחי וגדי לייפר על תפקיד סמנכ"ל הרשת מגיעה לשיאה; כוכבה מחפשת א"א, כלומר אלמן אמיד; עובדי הסופר מתבשרים על מותה המפתיע של דמות מפתח 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jl3sasxn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'kupa-rashit-s4-ep11',
+                season: 4,
+                ep: 11,
+                name: 'פרק 11 - לוויה ראשית - חלק ב\'',
+                subtitle: 'יום ההלוויה של לאה שקדי: אביחי מנצל אותו למטרות פוליטיות וכוכבה למטרות רומנטיות. אמנון קונה מתנה לאמא שלו 31.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_024nre1r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'kupa-rashit-s4-ep12',
+                season: 4,
+                ep: 12,
+                name: 'פרק 12 - העורבים',
+                subtitle: 'כוכבה מוצאת שותפים מפתיעים לנקמה בשירה, ראמזי יוצא מגדרו בשביל שגברת ז\'וז\' לא תעזוב, וניסים סובל מסיוטים על העבודה 11.07.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlmogo8p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'kupa-rashit-s4-ep13',
+                season: 4,
+                ep: 13,
+                name: 'פרק 13 - המשקיע',
+                subtitle: 'יששכר מבקש מאביחי ללוות משקיע קנדי שמגיע לארץ. אמנון עושה הכל בשביל להחזיר "כנפי רעל" שרכש בסופר 18.07.2022',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rgn48t8i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'kupa-rashit-s4-ep14',
+                season: 4,
+                ep: 14,
+                name: 'פרק 14 - יום האהבה',
+                subtitle: 'ספיישל ט"ו באב! כוכבה ממורמרת שאין לה דייט. פרנקו מגלה ברגע האחרון ששכח לקנות מתנה לשירלי, ושירה מטריפה את כולם עם יכולות השידוך שלה 02.08.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t3zyukcc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'kupa-rashit-s4-ep15',
+                season: 4,
+                ep: 15,
+                name: 'פרק 15 - אתגר המיקרו',
+                subtitle: 'הסופר יוצא במבצע "מצא זול יותר וקבל כספך חזרה", ואמנון לוקח את זה קצת רחוק מדי. ניסים עושה הכל בשביל שכוכבה תחזיר לו מאה שקל. פרנקו מבריז מהאזכרה של אמא של שירלי ומסתבך 09.08.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r54njmqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'kupa-rashit-s4-ep16',
+                season: 4,
+                ep: 16,
+                name: 'פרק 16- המחליפה',
+                subtitle: 'שירה יוצאת להשתלמות ומביאה במקומה מנהלת מחליפה בעוד מוש מגלה למה תמיד עוקפים אותו בתור 15.08.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh3ibb1e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'kupa-rashit-s4-ep17',
+                season: 4,
+                ep: 17,
+                name: 'פרק 17 - הטוסט של גריאני',
+                subtitle: 'ניסים, כוכבה ואנטולי חושפים סוף-סוף את המקום האהוב עליהם בעולם - "הטוסט של גריאני". שירה במצוקה חמורה של כוח אדם. אמנון יוצא לשנת שבתון ומטריף את עובדי הסופר יותר מהרגיל 22.08.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_224zhzz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'kupa-rashit-s4-ep18',
+                season: 4,
+                ep: 18,
+                name: 'פרק 18 - אמנון עובד בסופר',
+                subtitle: 'אמנון מתחיל לעבוד בסופר בשביל הופעה של חיים משה לעובדים בלבד. פרנקו נקלע לריב עם תייר, ונאלץ לריב באנגלית 29.08.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s5m9en7h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'kupa-rashit-s4-ep19',
+                season: 4,
+                ep: 19,
+                name: 'פרק 19 - הצתה מאוחרת',
+                subtitle: 'התרגשות בסניף. שירה צריכה לבחור שני עובדים שישתתפו בפרסומת לרשת עם נועה קירל. אנטולי מפסיד לצ\'יבוטרו בהתערבות בעוד ראמזי לוקח החלטה גורלית שמשאירה את כולם פעורי פה 06.09.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6fpnrrj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'kupa-rashit-s4-ep20',
+                season: 4,
+                ep: 20,
+                name: 'פרק 20 - ראמזי חזור הביתה',
+                subtitle: 'פרק סיום העונה - ראמזי חזור הביתה. שירה מחפשת מחליף לראמזי, שמאז עזיבתו אבדו עקבותיו. עובדי הסופר נוסעים לג\'אסר לחפש אותו ומתחילים להשלים עם העובדה שאולי הוא לא יחזור לעולם... 12.09.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_258n00fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'kupa-rashit-s4-ep21',
+                season: 4,
+                ep: 21,
+                name: 'פרק 21 - עושים קופה 2023',
+                subtitle: 'מאחורי הקלעים של העונה הרביעית של קופה ראשית. כל הסודות נחשפים! 12.09.2023',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jbskw8uo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'kupa-rashit-s4-ep22',
+                season: 4,
+                ep: 22,
+                name: 'עונה 4 פרק 22',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yy028kkx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'kupa-rashit-s4-ep23',
+                season: 4,
+                ep: 23,
+                name: 'עונה 4 פרק 23',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3jt6823a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 4,
+                imageURL: 'images/kanbox/kupa-rashit/s4-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'kupa-rashit-s5-ep1',
+                season: 5,
+                ep: 1,
+                name: 'פרק 1 - כפרות',
+                subtitle: 'פרק פתיחת העונה! שנה חדשה נפתחת בסופר. שירה מבקשת מניסים לקחת לאנטולי את המתנה שלו לחג אבל העניינים מסתבכים. כוכבה במירוץ נגד הזמן לכפר על חטאיה לפני כיפור, ואמנון נהנה מהתקופה הזאת בשנה שבה כולם נחמדים 12.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_csokhtwe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s5-ep2',
+                season: 5,
+                ep: 2,
+                name: 'פרק 2 - הסטארט-אפ של כוכבה',
+                subtitle: 'אביחי בלחץ שיא לקראת השקת הקמע החדש של הרשת. שירה מנפנפת לכולם בחבר החדש שלה, וכוכבה מגלה את עולם ההייטק 19.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ygac97dd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s5-ep3',
+                season: 5,
+                ep: 3,
+                name: 'פרק 3 - שברת שילמת',
+                subtitle: 'אביחי מקנא במאמן הכושר החדש של עופרה, ומחליט לפצוח בדיאטת כסאח בעצמו. אמנון שובר ספל בסופר ומתבקש לשלם עליו 26.11.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y8emnwxk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s5-ep4',
+                season: 5,
+                ep: 4,
+                name: 'פרק 4 - דניס קמחי',
+                subtitle: 'שירה מספרת לעובדים על החבר החדש שלה, אבל כוכבה בטוחה שהיא משקרת. אביחי מתרגל לחיים כסמנכ"ל, ומנצל את התפקיד החדש בשביל להתעמר ביריבו הוותיק, גדי לייפר 03.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wy8yk2x8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'kupa-rashit-s5-ep5',
+                season: 5,
+                ep: 5,
+                name: 'פרק 5 - טלפונובלה',
+                subtitle: 'הטלנובלה האהובה על כוכבה מסתיימת והיא מחפשת תחליף. שירה נלחמת בתופעת ה\'נוגעים\' במאפים. מוש מסתבך עם מני \'רבותיי\' 10.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6hu0lscj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'kupa-rashit-s5-ep6',
+                season: 5,
+                ep: 6,
+                name: 'פרק 6 - גזענות קירחים',
+                subtitle: 'חברת ילדות של שירה מתחילה לעבוד בסופר ופראנקו סובל מגזענות קירחים 17.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s0q279mn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'kupa-rashit-s5-ep7',
+                season: 5,
+                ep: 7,
+                name: 'פרק 7 - אבא של כוכבה',
+                subtitle: 'שירה ממשיכה להתבסס בכת של טוהר. כוכבה פוגשת את אבא שלה לראשונה אחרי 45 שנה. אסתי מתעצבנת על היחס של פראנקו לאשתו 24.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5p7jjjrp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'kupa-rashit-s5-ep8',
+                season: 5,
+                ep: 8,
+                name: 'פרק 8 - התרומה',
+                subtitle: 'ראמזי חושב ששירה נקלעה לבעיה כלכלית ויוצא מגדרו בשביל לעזור לה. ניסים ואנטולי בהתרגשות שיא, הזמר האהוב עליהם, חנן בן ארי, מגיע ליבנה 31.12.2024',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ngslrzw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'kupa-rashit-s5-ep9',
+                season: 5,
+                ep: 9,
+                name: 'פרק 9 - לדפוק חתונה',
+                subtitle: 'שוני נלחמת בהדרת נשים בסופר. כוכבה, ניסים ואנטולי מתקשים להחליט כמה שמים לחתונה של חברה לעבודה 07.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jqv5sitx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'kupa-rashit-s5-ep10',
+                season: 5,
+                ep: 10,
+                name: 'פרק 10 - הטיפ של ראמזי',
+                subtitle: 'ראמזי בשום פנים ואופן לא מוכן לקבל טיפ מלקוחות. ניסים, אנטולי וכוכבה מתחילים במסורת חדשה: \'בוקר טינופים\' 14.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_obykbxe5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'kupa-rashit-s5-ep11',
+                season: 5,
+                ep: 11,
+                name: 'פרק 11 - הקללה של שירה',
+                subtitle: 'שירה מקליטה לאביחי הודעה קולית שעלולה לגרום לפיטוריה. שוני מסרבת לתת לדליה את המנקה שלה 21.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zxfko38u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'kupa-rashit-s5-ep12',
+                season: 5,
+                ep: 12,
+                name: 'פרק 12 - אחות של כוכבה',
+                subtitle: 'כוכבה מגלה שיש לה אחות קטנה מאבא שלה ולא מקבלת את זה כל כך יפה. ראמזי מגשים את חלומו לעבוד בתפקיד היחיד בסופר שעוד לא עשה - נהג המשלוחים 28.01.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tlmlvinr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'kupa-rashit-s5-ep13',
+                season: 5,
+                ep: 13,
+                name: 'פרק 13 - הו הא מי זה בא?',
+                subtitle: 'לעובדים נמאס מנציגת הוועד הותיקה, כוכבה, והם עורכים בחירות מחדש. שוני מחפשת נזקק לשלם עליו בשביל שתוכל לצלם ולהעלות לרשת 04.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7nsefeax/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'kupa-rashit-s5-ep14',
+                season: 5,
+                ep: 14,
+                name: 'פרק 14 - המזל של ניסים',
+                subtitle: 'ניסים מתוסכל שאשתו מלי מבקרת אותו כל יום. אביחי לחוץ מביקורת מס, וראמזי נכנס לאובססיה בגלל מפתח 11.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vi0ry1k9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'kupa-rashit-s5-ep15',
+                season: 5,
+                ep: 15,
+                name: 'פרק 15 - מסיבת סילבסטר',
+                subtitle: 'החבורה חוגגת מסיבת סילבסטר רוויית אלכוהול בסופר, מה שגורם לעניינים להסתבך 18.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qpghua73/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'kupa-rashit-s5-ep16',
+                season: 5,
+                ep: 16,
+                name: 'פרק 16 - נכנסת חסכת',
+                subtitle: 'ראמזי נלחם במגיפה מדבקת, צ\'יבוטרו מתמודד עם לקוחות מעצבנים, ושירה מוטרדת מזהות האבא של התינוק 25.02.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3689jjet/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'kupa-rashit-s5-ep17',
+                season: 5,
+                ep: 17,
+                name: 'פרק 17 - אמנון והאונליין',
+                subtitle: 'אמנון מגלה את הקניות באינטרנט. ניסים, אנטולי וכוכבה מתמודדים עם ספק שלא מפסיק להעליב אותם 04.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h1ep540j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'kupa-rashit-s5-ep18',
+                season: 5,
+                ep: 18,
+                name: 'פרק 18 - ריקוד האהבה',
+                subtitle: 'כוכבה חושבת שמצאה דרך להיפטר מאמנון לתמיד. פראנקו מתמודד עם התפקיד הכי חשוב של כל גבר - לבחור אבטיח 11.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_53p36y85/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'kupa-rashit-s5-ep19',
+                season: 5,
+                ep: 19,
+                name: 'פרק 19 - אמנון ומאריסה',
+                subtitle: 'האהבה של אמנון ומאריסה פורחת. ניסים מגלה כמה אנטולי מרוויח 18.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dv1lnase/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'kupa-rashit-s5-ep20',
+                season: 5,
+                ep: 20,
+                name: 'פרק 20 - שירה חודש תשע',
+                subtitle: 'פרק סיום העונה. שירה מתמודדת עם החודש התשיעי להיריון, כוכבה מוצאת שיטה להיפטר מאמנון אחת ולתמיד 25.03.2025',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yjw40b1s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'kupa-rashit-s5-ep21',
+                season: 5,
+                ep: 21,
+                name: 'עונה 5 פרק 21',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ifaiz30q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'kupa-rashit-s5-ep22',
+                season: 5,
+                ep: 22,
+                name: 'עונה 5 פרק 22',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2192004/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'kupa-rashit-s5-ep23',
+                season: 5,
+                ep: 23,
+                name: 'עונה 5 פרק 23',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246376/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 5,
+                imageURL: 'images/kanbox/kupa-rashit/s5-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'kupa-rashit-s6-ep1',
+                season: 6,
+                ep: 1,
+                name: 'עונה 6 פרק 1',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246979/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/kupa-rashit/s6-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'kupa-rashit-s6-ep2',
+                season: 6,
+                ep: 2,
+                name: 'עונה 6 פרק 2',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2248982/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/kupa-rashit/s6-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'kupa-rashit-s6-ep3',
+                season: 6,
+                ep: 3,
+                name: 'עונה 6 פרק 3',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2244718/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/kupa-rashit/s6-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'kupa-rashit-s6-ep4',
+                season: 6,
+                ep: 4,
+                name: 'עונה 6 פרק 4',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2244719/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 6,
+                imageURL: 'images/kanbox/kupa-rashit/s6-ep4.jpg',
+                placeholder: '4'
+            }
+        ]
+    },
+    
+    {
+        id: 'life-is-difficult',
+        name: 'החיים הם תקופה קשה',
+        placeholder: 'החיים הם תקופה קשה',
+        imageURL: 'images/kanbox/life-is-difficult/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'life-is-difficult-s1-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - כיתת כוננות ביישוב',
+                subtitle: 'האם כיתת הכוננות של היישוב מוכנה לחנוך דאום?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'life-is-difficult-s1-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2 - חנוך מקבל את השבת',
+                subtitle: 'חנוך דאום מתכונן לקבל את השבת, אבל יש משחק כדורגל שהוא חייב לצפות בו, מופע שהוא צריך להגיע אליו ומזגן שהוא רוצה להדליק. חנוך מקבל את השבת בדרך שלו',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'life-is-difficult-s1-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3 - חנוך מתגייס לצה"ל',
+                subtitle: 'חנוך מתגייס לעזור לצה"ל ועוזר בהכנת אוכל בדרך שלו',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'life-is-difficult-s1-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4 - ההתנחלות החדשה',
+                subtitle: 'החברים של חנוך מקימים התנחלות חדשה אבל חנוך מסתבך. חכו ותראו איך הוא יצא מזה. הפרק עם ההתנחלות החדשה',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'life-is-difficult-s1-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פרק 5 - מה לי ולפוליטיקה',
+                subtitle: 'הבת של חנוך מסתבכת בבית הספר ומשעים אותה לשבועיים. איזה עוד הפתעות מחכות לו?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'life-is-difficult-s1-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פרק 6 - הסיבוך עם האמריקאים',
+                subtitle: 'בדרך לאמריקה עוצרים בשגרירות, אבל חנוך מגיע עם תיק שמסבך אותו עם האמריקאים. איך הוא יצא מזה?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'life-is-difficult-s1-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7 - הטיול',
+                subtitle: 'פרק סיום כפול. חנוך ואפרת שולחים את הילד לטיול שנתי, אבל לא ממש מצליחים לשחרר ועוקבים אחריו',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'life-is-difficult-s1-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פרק 8 - בחזרה לישיבה',
+                subtitle: 'חנוך ומשפחתו שוברים את כל החוקים ומסתבכים. איך הם יצאו מזה?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'life-is-difficult-s2-ep1',
+                season: 2,
+                ep: 1,
+                name: 'פרק 1 - ביקור פצועים',
+                subtitle: '"החיים הם תקופה קשה" פותחת עונה עם המשפחה הישראלית שהולכת הכי רחוק שאפשר. תתכוננו לפרק פתיחה שאף אחד לא העז לעשות עד חנוך. כשתראו תבינו הכול...',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_01_020926_VOD_arc432/Hachaim_Hem_Tkufa_Kasha2_01_020926_VOD_arc432_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'life-is-difficult-s2-ep2',
+                season: 2,
+                ep: 2,
+                name: 'פרק 2 - הגוזל עוזב את הבית',
+                subtitle: 'הרגע שכל הורה חושש ממנו הגיע...הגוזל רוצה לעזוב את הבית',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_02_080926_VOD_lkd456/Hachaim_Hem_Tkufa_Kasha2_02_080926_VOD_lkd456_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'life-is-difficult-s2-ep3',
+                season: 2,
+                ep: 3,
+                name: 'פרק 3 - חנוך מגיע לגבעות',
+                subtitle: 'חנוך הולך לפגוש את נוער הגבעות. מה כבר יכול להשתבש?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_03_150926_VOD_lpo099/Hachaim_Hem_Tkufa_Kasha2_03_150926_VOD_lpo099_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'life-is-difficult-s2-ep4',
+                season: 2,
+                ep: 4,
+                name: 'פרק 4 - המדריך למשבר חיים',
+                subtitle: 'גיל 50 נפל עליך? המדריך שרק חנוך יכול להציג למשבר אמצע החיים',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_04_220926_VOD_frt378/Hachaim_Hem_Tkufa_Kasha2_04_220926_VOD_frt378_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'life-is-difficult-s2-ep5',
+                season: 2,
+                ep: 5,
+                name: 'פרק 5 - חנוך מסתבך',
+                subtitle: 'כולם שואלים את חנוך "למה?", אבל זה היה חזק ממנו והוא הסתבך עם האנשים הלא נכונים...והאם אפרת תצליח להוציא לבן שלה פטור מתור?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_05_300926_VOD_uej395/Hachaim_Hem_Tkufa_Kasha2_05_300926_VOD_uej395_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'life-is-difficult-s2-ep6',
+                season: 2,
+                ep: 6,
+                name: 'פרק 6 - טליה מביאה חבר',
+                subtitle: 'הילדה מביאה את החבר הראשון הביתה – חנוך ואפרת גאים להציג את כל הדרכים שיובילו את החבר הראשון לישון בסלון',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_06_021026_VOD_aer365/Hachaim_Hem_Tkufa_Kasha2_06_021026_VOD_aer365_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'life-is-difficult-s2-ep7',
+                season: 2,
+                ep: 7,
+                name: 'פרק 7 - פנסיה מוקדמת',
+                subtitle: 'יש מקום אחד בעולם שהוא פשוט מושלם בשבילו. חנוך עובר לדיור מוגן',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_07_081026_VOD_cnr745/Hachaim_Hem_Tkufa_Kasha2_07_081026_VOD_cnr745_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'life-is-difficult-s2-ep8',
+                season: 2,
+                ep: 8,
+                name: 'פרק 8 - החתונה שהשתבשה',
+                subtitle: 'משפחת דאום מצלמת דוקו-ריאליטי משפחתי. עד כמה רחוק הם ילכו בשביל הכסף והפרסום?',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S02/EP/Hachaim_Hem_Tkufa_Kasha2_08_081026_VOD_rdb839/Hachaim_Hem_Tkufa_Kasha2_08_081026_VOD_rdb839_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/life-is-difficult/s2-ep8.jpg',
+                placeholder: '8'
             }
         ]
     },
@@ -4282,88 +7902,7 @@ window.ISRTV_KANBOX = [
             }
         ]
     },
-    {
-        id: 'life-is-difficult',
-        name: 'החיים הם תקופה קשה',
-        placeholder: 'החיים הם תקופה קשה',
-        imageURL: 'images/kanbox/life-is-difficult/series.jpg',
-        source: 'mako',
-        episodes: [
-            {
-                id: 'life-is-difficult-ep1',
-                season: 1,
-                ep: 1,
-                name: 'עונה 1 פרק 1 - כיתת כוננות ביישוב',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6/Hachaim_Hem_Tkufa_Kasha_01_230924_vod_arc6h6_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'life-is-difficult-ep2',
-                season: 1,
-                ep: 2,
-                name: 'עונה 1 פרק 2 - חנוך מקבל את השבת',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212/Hachaim_Hem_Tkufa_Kasha_02_300924_VOD_arc1212_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'life-is-difficult-ep3',
-                season: 1,
-                ep: 3,
-                name: 'עונה 1 פרק 3 - חנוך מתגייס לצה"ל',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753/Hachaim_Hem_Tkufa_Kasha_03_051024_VOD_arc6753_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'life-is-difficult-ep4',
-                season: 1,
-                ep: 4,
-                name: 'עונה 1 פרק 4 - ההתנחלות החדשה',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215/Hachaim_Hem_Tkufa_Kasha_04_211024_VOD_arc3215_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'life-is-difficult-ep5',
-                season: 1,
-                ep: 5,
-                name: 'עונה 1 פרק 5 - מה לי ולפוליטיקה',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653/Hachaim_Hem_Tkufa_Kasha_05_281024_VOD_arc653_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'life-is-difficult-ep6',
-                season: 1,
-                ep: 6,
-                name: 'עונה 1 פרק 6 - הסיבוך עם האמריקאים',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3/Hachaim_Hem_Tkufa_Kasha_06_041124_VOD_fds52d3_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'life-is-difficult-ep7',
-                season: 1,
-                ep: 7,
-                name: 'עונה 1 פרק 7 - הטיול',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11/Hachaim_Hem_Tkufa_Kasha_07_181124_VOD_nu4yt11_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'life-is-difficult-ep8',
-                season: 1,
-                ep: 8,
-                name: 'עונה 1 פרק 8 - בחזרה לישיבה',
-                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Hachaim_Hem_Tkufa_Kasha/S01/EP/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432/Hachaim_Hem_Tkufa_Kasha_08_181124_VOD_arc432_,550,850,1400,2200,.mp4.csmil/master.m3u8',
-                imageURL: 'images/kanbox/life-is-difficult/s1-ep8.jpg',
-                placeholder: '8'
-            }
-        ]
-    },
-    {
+        {
         id: 'hanoch-daum-standup',
         name: 'חנוך דאום - ההופעה',
         placeholder: 'חנוך דאום - ההופעה',
@@ -4410,8 +7949,8 @@ window.ISRTV_KANBOX = [
     },
     {
         id: 'ori-hizkiah',
-        name: 'אורי חזקיה – הופה לא קרה כלום',
-        placeholder: 'אורי חזקיה – הופה לא קרה כלום',
+        name: 'אורי חזקיה - הופה לא קרה כלום',
+        placeholder: 'אורי חזקיה - הופה לא קרה כלום',
         imageURL: 'images/kanbox/ori-hizkiah/series.jpg',
         source: 'mako',
         episodes: [
@@ -4786,12 +8325,444 @@ window.ISRTV_KANBOX = [
             }
         ]
     },
-{
+    {
+        id: 'chosen-people',
+        name: 'עם סגולה',
+        placeholder: 'עם סגולה',
+        imageURL: 'images/kanbox/chosen-people/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'chosen-people-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_01_090411_VOD_te3r62d/Am_Sgula_01_090411_VOD_te3r62d_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'chosen-people-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_02_160411_VOD_kah843/Am_Sgula_02_160411_VOD_kah843_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'chosen-people-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_03_230411_VOD_yas97t2/Am_Sgula_03_230411_VOD_yas97t2_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'chosen-people-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_04_300411_VOD_h3gm65/Am_Sgula_04_300411_VOD_h3gm65_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'chosen-people-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פרק 5',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_05_260511_VOD_jsb6h72/Am_Sgula_05_260511_VOD_jsb6h72_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'chosen-people-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פרק 6',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_06_010611_VOD_k2sb57/Am_Sgula_06_010611_VOD_k2sb57_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'chosen-people-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_07_080611_VOD_snb52y4/Am_Sgula_07_080611_VOD_snb52y4_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'chosen-people-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פרק 8',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_08_150611_VOD_smn653/Am_Sgula_08_150611_VOD_smn653_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'chosen-people-ep9',
+                season: 1,
+                ep: 9,
+                name: 'פרק 9',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_09_220611_VOD_nsb545/Am_Sgula_09_220611_VOD_nsb545_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'chosen-people-ep10',
+                season: 1,
+                ep: 10,
+                name: 'פרק 10',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_10_290611_VOD_b2dh57/Am_Sgula_10_290611_VOD_b2dh57_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'chosen-people-ep11',
+                season: 1,
+                ep: 11,
+                name: 'פרק 11',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_11_060711_VOD_fsd465/Am_Sgula_11_060711_VOD_fsd465_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/chosen-people/s1-ep11.jpg',
+                placeholder: '11'
+            }
+        ]
+    },
+    {
+        id: 'this-is-sodom',
+        name: 'זוהי סדום',
+        placeholder: 'זוהי סדום',
+        imageURL: 'images/kanbox/this-is-sodom/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'this-is-sodom-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - זוהי סדום',
+                subtitle: 'הסרט המלא',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/Zohi_Sdom/Zoei_Sdom_051810_VOD_frt653/Zoei_Sdom_051810_VOD_frt653_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/this-is-sodom/ep1.jpg',
+                placeholder: '1'
+            }
+        ]
+    },
+    {
+        id: 'sky-army',
+        name: 'צבא שמיים',
+        placeholder: 'צבא שמיים',
+        imageURL: 'images/kanbox/sky-army/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'sky-army-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - הישיבה החרדית הסגורה בישראל',
+                streamURL: 'https://mako-vod.akamaized.net/i/SHORT/TV/Programs/hadashot_keshet/mahadura_merkazit_300624_herdim/mahadura_merkazit_300624_herdim_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/sky-army/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'sky-army-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2 - לא הולכים לישיבה וגם לצבא',
+                streamURL: 'https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shalmor_vtr2_n20240701_v1/20shalmor_vtr2_n20240701_v1_,850,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/sky-army/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'sky-army-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3 - "נמות ולא נתגייס"',
+                streamURL: 'https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shamaim_vtr2_n20240702_v1/20shamaim_vtr2_n20240702_v1_,850,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/sky-army/s1-ep3.jpg',
+                placeholder: '3'
+            }
+        ]
+    },
+    {
+        id: 'bublilim',
+        name: 'הבובלילים',
+        placeholder: 'הבובלילים',
+        imageURL: 'images/kanbox/bublilim/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'bublilim-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1',
+                subtitle: 'פרק 1 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_1/Bublilim_1_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'bublilim-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פרק 2',
+                subtitle: 'פרק 2 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_2/Bublilim_2_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'bublilim-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3',
+                subtitle: 'פרק 3 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_3/Bublilim_3_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'bublilim-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4',
+                subtitle: 'פרק 4 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_4/Bublilim_4_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'bublilim-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פרק 5',
+                subtitle: 'פרק 5 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_5/Bublilim_5_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'bublilim-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פרק 6',
+                subtitle: 'פרק 6 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_6/Bublilim_6_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'bublilim-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7',
+                subtitle: 'פרק 7 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_7/Bublilim_7_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'bublilim-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פרק 8',
+                subtitle: 'פרק 8 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_8/Bublilim_8_,500,850,1200,2000,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/bublilim/ep8.jpg',
+                placeholder: '8'
+            }
+        ]
+    },
+    {
+        id: 'tortels',
+        name: 'הטורטלים',
+        placeholder: 'הטורטלים',
+        imageURL: 'images/kanbox/tortels/series.jpg',
+        source: 'mako',
+        episodes: [
+            {
+                id: 'tortels-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פרק 1 - הכירו את הטורטלים',
+                subtitle: 'יש להם יש להם טאנז של כסף והם ממש לא מתביישים בזה. תכירו את משפחת טורטל וחבריהם הטובים, בארץ, בחו"ל וביאכטה',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_hakiru/tortelim_061021_hakiru_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'tortels-ep2',
+                season: 1,
+                ep: 2,
+                name: 'עונה 1 פרק 2 - בוקר טיל',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_boker_til/tortelim_061021_boker_til_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'tortels-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פרק 3 - יום הולדת 40',
+                subtitle: 'כשיום ההולדת של ספיר נופל בדיוק על הסילבסטר המסיבה כפולה',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_40/tortelim_061021_40_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'tortels-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פרק 4 - להציל את לונה',
+                subtitle: 'כשמשטרת ההגירה דופקת באמצע הלילה בדלת, הטורטלים טובעים בבלגן',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_luna/tortelim_061021_luna_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'tortels-ep5',
+                season: 1,
+                ep: 5,
+                name: 'עונה 1 פרק 5 - המורה הפרטי',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_moreh/tortelim_061021_moreh_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'tortels-ep6',
+                season: 1,
+                ep: 6,
+                name: 'עונה 1 פרק 6 - עוברים לדובאי',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_dubai/tortelim_061021_dubai_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'tortels-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פרק 7 - משחק הזוגות',
+                subtitle: 'מחממים את העניינים - הטורטלים בחילופי זוגות',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_zugot/tortelim_061021_zugot_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'tortels-ep8',
+                season: 1,
+                ep: 8,
+                name: 'עונה 1 פרק 8 - שבט וויפיי',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_wifi/tortelim_061021_wifi_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'tortels-ep9',
+                season: 1,
+                ep: 9,
+                name: 'פרק 9 - אהבה בנוסח כלב',
+                subtitle: 'חי מתגייס למשמר השכונתי',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_kelev/tortelim_061021_kelev_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'tortels-ep10',
+                season: 1,
+                ep: 10,
+                name: 'פרק 10 - פורים עצוב שמח',
+                subtitle: 'כשחי מחזיר את אבא של ספיר לחיים',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_purim_sad/tortelim_061021_purim_sad_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'tortels-ep11',
+                season: 1,
+                ep: 11,
+                name: 'עונה 1 פרק 11 - הצילו',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_help/tortelim_061021_help_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'tortels-ep12',
+                season: 1,
+                ep: 12,
+                name: 'עונה 1 פרק 12 - חופשה ביוון',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_greace/tortelim_061021_greace_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'tortels-ep13',
+                season: 1,
+                ep: 13,
+                name: 'פרק 13 - יאכטה שקטה',
+                subtitle: 'הטורטלים והחברים בסיבוב שיוצא משליטה על היאכטה הכי מפוארת בישראל',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_yachta/tortelim_061021_yachta_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'tortels-ep14',
+                season: 1,
+                ep: 14,
+                name: 'עונה 1 פרק 14 - ריאליטי',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_reality/tortelim_061021_reality_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'tortels-ep15',
+                season: 1,
+                ep: 15,
+                name: 'עונה 1 פרק 15 - נלחמים בקורונה',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_corona/tortelim_061021_corona_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'tortels-ep16',
+                season: 1,
+                ep: 16,
+                name: 'פרק 16 - יום בנות',
+                subtitle: 'מהיקב לטיפול קוסמטי - מה באמת קרה ביום הכיף של הבנות',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_banot/tortelim_061021_banot_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'tortels-ep17',
+                season: 1,
+                ep: 17,
+                name: 'פרק 17 - יקבי טורטל',
+                subtitle: 'חי פותח יקב ומזמין את כולם להשקה',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_yekev_tortelim/tortelim_061021_yekev_tortelim_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'tortels-ep18',
+                season: 1,
+                ep: 18,
+                name: 'פרק 18 - בית הנשיא',
+                subtitle: 'מיוחד ליום העצמאות - כשחי וספיר פגשו את רובי ונחמה, הביקור של הטורטלים בבית הנשיא',
+                streamURL: 'https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_bait_hanasi/tortelim_061021_bait_hanasi_,550,850,1400,2200,.mp4.csmil/master.m3u8',
+                imageURL: 'images/kanbox/tortels/s1-ep18.jpg',
+                placeholder: '18'
+            }
+        ]
+    },
+                {
         id: 'bou-leechol-iti',
         name: 'בואו לאכול איתי',
         placeholder: 'בואו לאכול איתי',
         imageURL: 'images/kanbox/bou-leechol-iti/series.jpg',
-        source: 'kan',
         seasonTitles: {
             11: 'הכירו את משתתפי עונת העשור',
             810: 'ספיישל פסח'
@@ -7647,6 +11618,126 @@ window.ISRTV_KANBOX = [
                 placeholder: '13'
             },
             {
+                id: 'bou-leechol-iti-s10-ep14',
+                season: 10,
+                ep: 14,
+                name: 'פרק 14 - שבוע צפון, יום ד\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226086/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep15',
+                season: 10,
+                ep: 15,
+                name: 'פרק 15 - שבוע צפון, יום ה\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226087/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep16',
+                season: 10,
+                ep: 16,
+                name: 'פרק 16 - שבוע אילת, יום א\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226088/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep17',
+                season: 10,
+                ep: 17,
+                name: 'פרק 17 - שבוע אילת, יום ב\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226089/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep18',
+                season: 10,
+                ep: 18,
+                name: 'פרק 18 - שבוע אילת, יום ג\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226090/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep19',
+                season: 10,
+                ep: 19,
+                name: 'פרק 19 - שבוע אילת, יום ד\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226091/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep20',
+                season: 10,
+                ep: 20,
+                name: 'פרק 20 - שבוע אילת, יום ה\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226092/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep21',
+                season: 10,
+                ep: 21,
+                name: 'פרק 21 - שבוע מרכז, יום א\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226093/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep22',
+                season: 10,
+                ep: 22,
+                name: 'פרק 22 - שבוע מרכז, יום ב\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226094/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep23',
+                season: 10,
+                ep: 23,
+                name: 'פרק 23 - שבוע מרכז, יום ג\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226095/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep24',
+                season: 10,
+                ep: 24,
+                name: 'פרק 24 - שבוע מרכז, יום ד\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226096/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep24.jpg',
+                placeholder: '24'
+            },
+            {
+                id: 'bou-leechol-iti-s10-ep25',
+                season: 10,
+                ep: 25,
+                name: 'פרק 25 - שבוע מרכז, יום ה\'',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226097/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 12,
+                imageURL: 'images/kanbox/bou-leechol-iti/s10-ep25.jpg',
+                placeholder: '25'
+            },
+            {
                 id: 'bou-leechol-iti-s11-ep1',
                 season: 11,
                 ep: 1,
@@ -7812,6 +11903,106 @@ window.ISRTV_KANBOX = [
                 placeholder: '15'
             },
             {
+                id: 'bou-leechol-iti-s11-ep16',
+                season: 11,
+                ep: 16,
+                name: 'שבוע אילת - יערית',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227577/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep17',
+                season: 11,
+                ep: 17,
+                name: 'שבוע אילת - דרור',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227578/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep18',
+                season: 11,
+                ep: 18,
+                name: 'שבוע אילת - בילי',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227579/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep19',
+                season: 11,
+                ep: 19,
+                name: 'שבוע אילת - שלומי',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227580/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep19.jpg',
+                placeholder: '19'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep20',
+                season: 11,
+                ep: 20,
+                name: 'שבוע אילת - בני',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227581/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep20.jpg',
+                placeholder: '20'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep21',
+                season: 11,
+                ep: 21,
+                name: 'שבוע מרכז - תום',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234387/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep21.jpg',
+                placeholder: '21'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep22',
+                season: 11,
+                ep: 22,
+                name: 'שבוע מרכז - איבאא',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234388/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep22.jpg',
+                placeholder: '22'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep23',
+                season: 11,
+                ep: 23,
+                name: 'שבוע מרכז - אושרית',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234389/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep23.jpg',
+                placeholder: '23'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep24',
+                season: 11,
+                ep: 24,
+                name: 'שבוע מרכז - ליאת',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234390/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep24.jpg',
+                placeholder: '24'
+            },
+            {
+                id: 'bou-leechol-iti-s11-ep25',
+                season: 11,
+                ep: 25,
+                name: 'שבוע מרכז - דימה',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234391/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                pathSeason: 11,
+                imageURL: 'images/kanbox/bou-leechol-iti/s11-ep25.jpg',
+                placeholder: '25'
+            },
+            {
                 id: 'bou-leechol-iti-s810-ep1',
                 season: 810,
                 ep: 1,
@@ -7865,6 +12056,537 @@ window.ISRTV_KANBOX = [
                 pathSeason: 10,
                 imageURL: 'images/kanbox/bou-leechol-iti/s10-ep5.jpg',
                 placeholder: '5'
+            }
+        ]
+    },
+    {
+        id: 'power-couple',
+        name: 'פאוור קאפל',
+        placeholder: 'פאוור קאפל',
+        imageURL: 'images/kanbox/power-couple/series.jpg',
+        source: 'reshet',
+        episodes: [
+            {
+                id: 'power-couple-ep1',
+                season: 1,
+                ep: 1,
+                name: 'פאוור קאפל, עונה 1, פרק 1: פרק הבכורה',
+                subtitle: 'ריאליטי קומי ומרגש, המעמיד למבחן את האתגר האנושי הגדול מכולם - זוגיות. 8 זוגות מפורסמים יעמידו את היחסים שלהם למבחן. מי יהיו הפאוור קאפל של ישראל?',
+                streamURL: '',
+                assetId: '4472911',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'power-couple-ep2',
+                season: 1,
+                ep: 2,
+                name: 'פאוור קאפל, עונה 1, פרק 2: מי מתעסק עם הבוזגלוס?',
+                subtitle: 'הרוחות לוהטות בין הזוגות, ולא תאמינו על מה. וגם: מהו הסוד שחני נחמיאס מסתירה מכולם?',
+                streamURL: '',
+                assetId: '4477200',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'power-couple-ep3',
+                season: 1,
+                ep: 3,
+                name: 'פאוור קאפל, עונה 1, פרק 3: ההדחה שהתהפכה',
+                subtitle: 'הגברים מתלכלכים לפני טקס ההדחה, ומישהו זורק פצצה שמשנה את הכול. וגם: מי יהיה הזוג הראשון שיודח?',
+                streamURL: '',
+                assetId: '4480736',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'power-couple-ep4',
+                season: 1,
+                ep: 4,
+                name: 'פאוור קאפל, עונה 1, פרק 4: בלאגן בארמון',
+                subtitle: 'יש חשמל באוויר, והמתח בין הזוגות עולה מדרגה. מה קרה כשעומרי קנדה יצא נגד שיר ואלעד - ומה הוביל לבלאגן בארמון?',
+                streamURL: '',
+                assetId: '4484175',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'power-couple-ep5',
+                season: 1,
+                ep: 5,
+                name: 'פאוור קאפל, עונה 1, פרק 5: אודיה נגד בנאי',
+                subtitle: 'אודיה פינטו משאירה את כולם ללא מילים, עד שפורץ הריב הגדול. וגם: מה עשה אסי בוזגלו שהפך את שיר ואלעד מאויבים למעריצים?',
+                streamURL: '',
+                assetId: '4488827',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'power-couple-ep6',
+                season: 1,
+                ep: 6,
+                name: 'פאוור קאפל, עונה 1, פרק 6: מה קרה במשימה?',
+                subtitle: 'רגע לפני ההדחה, הגברים יצטרכו להיות חיות במשימה. לא תאמינו באיזו דרמה זה יסתיים',
+                streamURL: '',
+                assetId: '4492342',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'power-couple-ep7',
+                season: 1,
+                ep: 7,
+                name: 'פאוור קאפל, עונה 1, פרק 6 - החלק השני: הלם של הדחה!',
+                subtitle: 'אסי בוזגלו נגד עומרי קנדה: שני הכדורגלנים והחברים הטובים, ראש בראש בהדחה. מוכנים להפתעה הגדולה של העונה?',
+                streamURL: '',
+                assetId: '4493971',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'power-couple-ep8',
+                season: 1,
+                ep: 8,
+                name: 'פאוור קאפל, עונה 1, פרק 7: הפרצופים האמיתיים נחשפים',
+                subtitle: 'הגברים לא מבינים מאיפה זה נחת עליהם - האם הם מכירים את הפרצוף האמיתי של הנשים? וגם: הגיע הזמן לערב הכי סקסי',
+                streamURL: '',
+                assetId: '4501239',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'power-couple-ep9',
+                season: 1,
+                ep: 9,
+                name: 'פאוור קאפל, עונה 1, פרק 8: ההדחה שיצאה משליטה',
+                subtitle: 'הגיע הזמן לשופינג - והמחיר כבד: מי יהיה הזוג שיודח במשימת המכירה הפומבית?',
+                streamURL: '',
+                assetId: '4503806',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'power-couple-ep10',
+                season: 1,
+                ep: 10,
+                name: 'פאוור קאפל, עונה 1, פרק 9: פרק הדחה צרחות',
+                subtitle: 'בדרך להדחה הזאת יהיו לא מעט פיצוצים. וגם: איך קרתה הבגידה הגדולה - ומי הזוג שיודח?',
+                streamURL: '',
+                assetId: '4511620',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'power-couple-ep11',
+                season: 1,
+                ep: 11,
+                name: 'פאוור קאפל, עונה 1, פרק 10: מי חוזר לסגור חשבון?',
+                subtitle: 'איזה זוג יחזור למשחק כדי לסגור חשבון עם שאר הזוגות. וגם: המשימה הבלתי אפשרית של הנשים',
+                streamURL: '',
+                assetId: '4514632',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'power-couple-ep12',
+                season: 1,
+                ep: 12,
+                name: 'פאוור קאפל, עונה 1, פרק 11: הנקמה של שיר ואלעד',
+                subtitle: 'שיר ואלעד חזרו והם רוצים לנקום - האם אסי ועדי בוזגלו ישלמו מחיר? וגם: מי שברה את שיא העולם במשימה?',
+                streamURL: '',
+                assetId: '4520778',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'power-couple-ep13',
+                season: 1,
+                ep: 13,
+                name: 'פאוור קאפל, עונה 1, פרק 12: החתונה שהשתבשה',
+                subtitle: 'עדי ואסי בוזגלו מחדשים נדרים, והפעם בהודית - אז כמה האורחים ישימו בצ\'ק? וגם: האם הנשים באמת יודעות מה הגברים חושבים?',
+                streamURL: '',
+                assetId: '4524317',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'power-couple-ep14',
+                season: 1,
+                ep: 14,
+                name: 'פאוור קאפל, עונה 1, פרק 13: רעידת אדמה בהדחה',
+                subtitle: 'הגמר הגדול מתקרב, והזוגות בוערים לקראת הדחה דרמטית במיוחד. מה יחליטו הזוגות? | "פאוור קאפל", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4530298',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'power-couple-ep15',
+                season: 1,
+                ep: 15,
+                name: 'פאוור קאפל, עונה 1, פרק 14: חצי הגמר',
+                subtitle: 'ארבעה זוגות נותרו במאבק על המקום בגמר, ולקראת ההדחה האחרונה - זה בדיוק הזמן לחשוף את ההקלטות הסודיות ולגלות מה הם באמת חושבים אחד על השני',
+                streamURL: '',
+                assetId: '4531876',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'power-couple-ep16',
+                season: 1,
+                ep: 16,
+                name: 'פאוור קאפל, עונה 1, פרק 15: אודיה נוקמת',
+                subtitle: 'הדחה בהפתעה על הפרק, ודווקא עכשיו אודיה פינטו חוזרת לנקום - מי הזוג שעוגת החתונה שלו תהיה מרירה?',
+                streamURL: '',
+                assetId: '4538362',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'power-couple-ep17',
+                season: 1,
+                ep: 17,
+                name: 'פאוור קאפל, עונה 1, פרק 15 - החלק השני: ההדחה האחרונה',
+                subtitle: 'רגע ההדחה האחרונה הגיע. נגלה, מי תהיה שלישיית הגמר - ממנה ייבחר הפאוור קאפל של ישראל',
+                streamURL: '',
+                assetId: '4541347',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'power-couple-ep18',
+                season: 1,
+                ep: 18,
+                name: 'פאוור קאפל, עונה 1, פרק 16: משימת הגמר!',
+                subtitle: 'רגע לפני שייבחר הפאוור קאפל של ישראל, משימת הגמר הדרמטית יוצאת לדרך',
+                streamURL: '',
+                assetId: '4547227',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep18.jpg',
+                placeholder: '18'
+            },
+            {
+                id: 'power-couple-ep19',
+                season: 1,
+                ep: 19,
+                name: 'פאוור קאפל, עונה 1, פרק 17: הגמר הסוער!',
+                subtitle: 'הזוגות נפגשים לסגירת חשבונות סוערת במיוחד, ורק אתם בבית תחליטו מי יהיה הפאוור קאפל של ישראל? | "פאוור קאפל", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4555894',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/power-couple/s1-ep19.jpg',
+                placeholder: '19'
+            }
+        ]
+    },
+    {
+        id: 'haaretz-hamuvtachat',
+        name: 'הארץ המובטחת',
+        placeholder: 'הארץ המובטחת',
+        imageURL: 'images/kanbox/haaretz-hamuvtachat/series.jpg',
+        source: 'reshet',
+        episodes: [
+            {
+                id: 'haaretz-hamuvtachat-ep1',
+                season: 1,
+                ep: 1,
+                name: 'הארץ המובטחת, עונה 1, פרק 1: וולקאם טו יזראל',
+                subtitle: 'הכירו את אורלי, שנינה, אדם, סמנתה וזאק, צעירים יהודים שחולמים לעלות לישראל ומגיעים לארץ כדי לקבל החלטה. הם יחפשו אהבה ועבודה ויפגשו את הישראלים, שילמדו אותם את כל מה שצריך לדעת על החיים בארץ | הארץ המובטחת, לצפייה ישירה',
+                streamURL: '',
+                assetId: '4595906',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/haaretz-hamuvtachat/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'haaretz-hamuvtachat-ep2',
+                season: 1,
+                ep: 2,
+                name: 'הארץ המובטחת, עונה 1, פרק 2: הלם תרבות',
+                subtitle: 'אדם, אורלי, שנינה, סאם וסמנתה מתעוררים לבוקר ראשון בישראל ומגלים שלהשתלב כאן זה יותר מסובך ממה שחשבו | "הארץ המובטחת", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4597468',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/haaretz-hamuvtachat/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'haaretz-hamuvtachat-ep3',
+                season: 1,
+                ep: 3,
+                name: 'הארץ המובטחת, עונה 1, פרק 3: גרסת המציאות',
+                subtitle: 'אהבה ממבט ראשון: שנינה מתאהבת בילדי שדרות, אדם יוצא לדייט ראשון בישראל, סמנתה וזאק מגלים את בני ברק - ואורלי לומדת מה זה חינה | "הארץ המובטחת", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4599693',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/haaretz-hamuvtachat/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'haaretz-hamuvtachat-ep4',
+                season: 1,
+                ep: 4,
+                name: 'הארץ המובטחת, עונה 1, פרק 4: לטיול יצאנו',
+                subtitle: 'ז\'אק, סמנתה, אדם, אורלי ושנינה יוצאים לטיול בצפון. הם מתארחים בקיבוץ ומגלים את החיים מחוץ לעיר הגדולה | "הארץ המובטחת", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4604527',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/haaretz-hamuvtachat/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'haaretz-hamuvtachat-ep5',
+                season: 1,
+                ep: 5,
+                name: 'הארץ המובטחת, עונה 1, פרק 5: שישי ראשון בארץ',
+                subtitle: 'זאק, סמנתה, אדם, אורלי ושנינה נערכים לארוחת השבת - וההתרגשות גדולה, אבל גם הגעגועים הביתה למשפחה שהשאירו מאחור | "הארץ המובטחת", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4606786',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/haaretz-hamuvtachat/s1-ep5.jpg',
+                placeholder: '5'
+            }
+        ]
+    },
+{
+        id: 'asenheim',
+        name: 'אסנהיים',
+        placeholder: 'אסנהיים',
+        imageURL: 'images/kanbox/asenheim/series.jpg',
+        source: 'reshet',
+        episodes: [
+            {
+                id: 'asenheim-ep1',
+                season: 1,
+                ep: 1,
+                name: 'אסנהיים, עונה 1, פרק 1: נפתלי בנט',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם רה"מ לשעבר נפתלי בנט',
+                streamURL: '',
+                assetId: '4441278',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep1.jpg',
+                placeholder: '1'
+            },
+            {
+                id: 'asenheim-ep2',
+                season: 1,
+                ep: 2,
+                name: 'אסנהיים, עונה 1, פרק 2: איילה חסון',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם העיתונאית איילה חסון',
+                streamURL: '',
+                assetId: '4450328',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep2.jpg',
+                placeholder: '2'
+            },
+            {
+                id: 'asenheim-ep3',
+                season: 1,
+                ep: 3,
+                name: 'אסנהיים, עונה 1, פרק 3: רובי ריבלין',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם הנשיא לשעבר רובי ריבלין',
+                streamURL: '',
+                assetId: '4460369',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep3.jpg',
+                placeholder: '3'
+            },
+            {
+                id: 'asenheim-ep4',
+                season: 1,
+                ep: 4,
+                name: 'אסנהיים, עונה 1, פרק 4: איל וולדמן',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם המיליארדר איל וולדמן',
+                streamURL: '',
+                assetId: '4469656',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep4.jpg',
+                placeholder: '4'
+            },
+            {
+                id: 'asenheim-ep5',
+                season: 1,
+                ep: 5,
+                name: 'אסנהיים, עונה 1, פרק 5: סטטיק',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם סטטיק',
+                streamURL: '',
+                assetId: '4478396',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep5.jpg',
+                placeholder: '5'
+            },
+            {
+                id: 'asenheim-ep6',
+                season: 1,
+                ep: 6,
+                name: 'אסנהיים, עונה 1, פרק 6: מוריה אסרף',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית וריאיון אחד על אחד עם מוריה אסרף',
+                streamURL: '',
+                assetId: '4486615',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep6.jpg',
+                placeholder: '6'
+            },
+            {
+                id: 'asenheim-ep7',
+                season: 1,
+                ep: 7,
+                name: 'אסנהיים, עונה 1, פרק 7: רוני אלשיך',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם רוני אלשיך, חוקר השב"כ הקשוח ומפכ"ל המשטרה לשעבר',
+                streamURL: '',
+                assetId: '4495595',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep7.jpg',
+                placeholder: '7'
+            },
+            {
+                id: 'asenheim-ep8',
+                season: 1,
+                ep: 8,
+                name: 'אסנהיים, עונה 1, פרק 8: יאיר גולן',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם יאיר גולן, הפוליטיקאי שמסעיר את המערכת הפוליטית',
+                streamURL: '',
+                assetId: '4515958',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep8.jpg',
+                placeholder: '8'
+            },
+            {
+                id: 'asenheim-ep9',
+                season: 1,
+                ep: 9,
+                name: 'אסנהיים, עונה 1, פרק 9: יוסי הררי',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם מי שעמד בראש אחד מארגוני הפשע החזקים בישראל',
+                streamURL: '',
+                assetId: '4507149',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep9.jpg',
+                placeholder: '9'
+            },
+            {
+                id: 'asenheim-ep10',
+                season: 1,
+                ep: 10,
+                name: 'אסנהיים, עונה 1, פרק 10: אתי כרייף',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם אתי כרייף, השופטת מפרשת "מין תמורת מינוי"',
+                streamURL: '',
+                assetId: '4525548',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep10.jpg',
+                placeholder: '10'
+            },
+            {
+                id: 'asenheim-ep11',
+                season: 1,
+                ep: 11,
+                name: 'אסנהיים, עונה 1, פרק 11: ציון אמיר',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם עו"ד ציון אמיר, שייצג את העבריינים הכי מפורסמים',
+                streamURL: '',
+                assetId: '4533875',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep11.jpg',
+                placeholder: '11'
+            },
+            {
+                id: 'asenheim-ep12',
+                season: 1,
+                ep: 12,
+                name: 'אסנהיים, עונה 1, פרק 12: ערן זהבי',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם הכוכב הגדול של הכדורגל הישראלי, ערן זהבי',
+                streamURL: '',
+                assetId: '4551066',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep12.jpg',
+                placeholder: '12'
+            },
+            {
+                id: 'asenheim-ep13',
+                season: 1,
+                ep: 13,
+                name: 'אסנהיים, עונה 1, פרק 13: אביגדור ליברמן',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם הפוליטיקאי הכי מסתורי אביגדור ליברמן ורעייתו אלה',
+                streamURL: '',
+                assetId: '4561596',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep13.jpg',
+                placeholder: '13'
+            },
+            {
+                id: 'asenheim-ep14',
+                season: 1,
+                ep: 14,
+                name: 'אסנהיים, עונה 1, פרק 14: רינה מצליח',
+                subtitle: 'עמרי אסנהיים נפגש לארוחה אינטימית עם רינה מצליח. ריאיון חושפני ואמיץ עם האישה שנחשבה למראיינת הכי קשוחה בטלוויזיה | "אסנהיים", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4570005',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep14.jpg',
+                placeholder: '14'
+            },
+            {
+                id: 'asenheim-ep15',
+                season: 1,
+                ep: 15,
+                name: 'אסנהיים, עונה 1, פרק 15: איתמר פליישמן',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם הפאנליסט הבכיר של "הפטריוטים", איתמר פליישמן. למה הוא נגעל מ"הפטריוטים", איזה סוד הוא מסתיר - ומה היה הרגע שהביא אותו אל הקצה? | "אסנהיים", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4579098',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep15.jpg',
+                placeholder: '15'
+            },
+            {
+                id: 'asenheim-ep16',
+                season: 1,
+                ep: 16,
+                name: 'אסנהיים, עונה 1, פרק 16: רמי לוי',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם רמי לוי, איש העסקים שהתחיל במחסן קטן - והפך לאימפריה של מיליארדים | "אסנהיים", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4585790',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep16.jpg',
+                placeholder: '16'
+            },
+            {
+                id: 'asenheim-ep17',
+                season: 1,
+                ep: 17,
+                name: 'אסנהיים, עונה 1, פרק 17: יואב סגלוביץ\'',
+                subtitle: 'עמרי אסנהיים בארוחה אינטימית עם הפוליטיקאי שחצה את הקווים והצטרף למפלגה ערבית, יואב סגלוביץ\'. מה הוביל למהלך שטלטל את המערכת הפוליטית - ועל מה הוא מתחרט? | "אסנהיים", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4594874',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep17.jpg',
+                placeholder: '17'
+            },
+            {
+                id: 'asenheim-ep18',
+                season: 1,
+                ep: 18,
+                name: 'אסנהיים, עונה 1, פרק 18: יקי רייסנר',
+                subtitle: 'הסודות של עולם השידוכים בחברה החרדית נחשפים. עמרי אסנהיים מראיין את יזם הנדל"ן ומלך השידוכים של העולם החרדי | "אסנהיים", לצפייה ישירה',
+                streamURL: '',
+                assetId: '4601839',
+                streamResolve: 'reshet',
+                imageURL: 'images/kanbox/asenheim/s1-ep18.jpg',
+                placeholder: '18'
             }
         ]
     },
@@ -11610,114 +16332,6 @@ window.ISRTV_KANBOX = [
         ]
     },
 {
-        id: 'asenheim',
-        name: 'אסנהיים',
-        placeholder: 'אסנהיים',
-        imageURL: 'images/kanbox/asenheim/series.jpg',
-        source: 'reshet',
-        episodes: [
-            {
-                id: 'asenheim-ep1',
-                season: 1,
-                ep: 1,
-                name: 'אסנהיים, עונה 1, פרק 1: נפתלי בנט',
-                streamURL: '',
-                assetId: '4441278',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'asenheim-ep2',
-                season: 1,
-                ep: 2,
-                name: 'אסנהיים, עונה 1, פרק 2: איילה חסון',
-                streamURL: '',
-                assetId: '4450328',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'asenheim-ep3',
-                season: 1,
-                ep: 3,
-                name: 'אסנהיים, עונה 1, פרק 3: רובי ריבלין',
-                streamURL: '',
-                assetId: '4460369',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'asenheim-ep4',
-                season: 1,
-                ep: 4,
-                name: 'אסנהיים, עונה 1, פרק 4: איל וולדמן',
-                streamURL: '',
-                assetId: '4469656',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'asenheim-ep5',
-                season: 1,
-                ep: 5,
-                name: 'אסנהיים, עונה 1, פרק 5: סטטיק',
-                streamURL: '',
-                assetId: '4478396',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'asenheim-ep6',
-                season: 1,
-                ep: 6,
-                name: 'אסנהיים, עונה 1, פרק 6: מוריה אסרף',
-                streamURL: '',
-                assetId: '4486615',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'asenheim-ep7',
-                season: 1,
-                ep: 7,
-                name: 'אסנהיים, עונה 1, פרק 7: רוני אלשיך',
-                streamURL: '',
-                assetId: '4495595',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'asenheim-ep8',
-                season: 1,
-                ep: 8,
-                name: 'אסנהיים, עונה 1, פרק 8: יוסי הררי',
-                streamURL: '',
-                assetId: '4507149',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'asenheim-ep9',
-                season: 1,
-                ep: 9,
-                name: 'אסנהיים, עונה 1, פרק 8: יאיר גולן',
-                streamURL: '',
-                assetId: '4515958',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/asenheim/s1-ep9.jpg',
-                placeholder: '9'
-            }
-        ]
-    },
-{
         id: 'patrick',
         name: 'פטריק',
         placeholder: 'פטריק',
@@ -12395,7 +17009,7 @@ window.ISRTV_KANBOX = [
                 id: 'nevsu-s1-ep1',
                 season: 1,
                 ep: 1,
-                name: 'עונה 1 פרק 1 - רגע לפני: נבסו – מאחורי הקלעים',
+                name: 'עונה 1 פרק 1 - רגע לפני: נבסו - מאחורי הקלעים',
                 streamURL: '',
                 assetId: '2025568',
                 streamResolve: 'reshet',
@@ -12993,147 +17607,6 @@ window.ISRTV_KANBOX = [
                 streamResolve: 'reshet',
                 imageURL: 'images/kanbox/televizya-mehaatid/s2-ep13.jpg',
                 placeholder: '13'
-            }
-        ]
-    },
-{
-        id: 'power-couple',
-        name: 'פאוור קאפל',
-        placeholder: 'פאוור קאפל',
-        imageURL: 'images/kanbox/power-couple/series.jpg',
-        source: 'reshet',
-        episodes: [
-            {
-                id: 'power-couple-ep1',
-                season: 1,
-                ep: 1,
-                name: 'פאוור קאפל, עונה 1, פרק 1: פרק הבכורה',
-                streamURL: '',
-                assetId: '4472911',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'power-couple-ep2',
-                season: 1,
-                ep: 2,
-                name: 'פאוור קאפל, עונה 1, פרק 2: מי מתעסק עם הבוזגלוס?',
-                streamURL: '',
-                assetId: '4477200',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'power-couple-ep3',
-                season: 1,
-                ep: 3,
-                name: 'פאוור קאפל, עונה 1, פרק 3: ההדחה שהתהפכה',
-                streamURL: '',
-                assetId: '4480736',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'power-couple-ep4',
-                season: 1,
-                ep: 4,
-                name: 'פאוור קאפל, עונה 1, פרק 4: בלאגן בארמון',
-                streamURL: '',
-                assetId: '4484175',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'power-couple-ep5',
-                season: 1,
-                ep: 5,
-                name: 'פאוור קאפל, עונה 1, פרק 5: אודיה נגד בנאי',
-                streamURL: '',
-                assetId: '4488827',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'power-couple-ep6',
-                season: 1,
-                ep: 6,
-                name: 'פאוור קאפל, עונה 1, פרק 6: מה קרה במשימה?',
-                streamURL: '',
-                assetId: '4492342',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'power-couple-ep7',
-                season: 1,
-                ep: 7,
-                name: 'פאוור קאפל, עונה 1, פרק 6 - החלק השני: הלם של הדחה!',
-                streamURL: '',
-                assetId: '4493971',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'power-couple-ep8',
-                season: 1,
-                ep: 8,
-                name: 'פאוור קאפל, עונה 1, פרק 7: הפרצופים האמיתיים נחשפים',
-                streamURL: '',
-                assetId: '4501239',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'power-couple-ep9',
-                season: 1,
-                ep: 9,
-                name: 'פאוור קאפל, עונה 1, פרק 8: ההדחה שיצאה משליטה',
-                streamURL: '',
-                assetId: '4503806',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'power-couple-ep10',
-                season: 1,
-                ep: 10,
-                name: 'פאוור קאפל, עונה 1, פרק 9: פרק הדחה צרחות',
-                streamURL: '',
-                assetId: '4511620',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'power-couple-ep11',
-                season: 1,
-                ep: 11,
-                name: 'פאוור קאפל, עונה 1, פרק 10: מי חוזר לסגור חשבון?',
-                streamURL: '',
-                assetId: '4514632',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'power-couple-ep12',
-                season: 1,
-                ep: 12,
-                name: 'פאוור קאפל, עונה 1, פרק 11: הנקמה של שיר ואלעד',
-                streamURL: '',
-                assetId: '4520778',
-                streamResolve: 'reshet',
-                imageURL: 'images/kanbox/power-couple/s1-ep12.jpg',
-                placeholder: '12'
             }
         ]
     },
@@ -13843,7 +18316,7 @@ window.ISRTV_KANBOX = [
                 id: 'sovietzka-ep4',
                 season: 1,
                 ep: 4,
-                name: 'פרק 4 – דוז פואה',
+                name: 'פרק 4 - דוז פואה',
                 subtitle: 'ענת וסטס נוסעים להורים כדי לצפות בשידור האירוויזיון. סמיון מרוצה מהגעתם, אך אלה לחוצה שהילדים ישימו לב למצב של סבתם. ענת הולכת למסיבת רווקות של החברה הכי טובה שלה מהתיכון 23.08.2023',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ys93oedh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/sovietzka/ep4.jpg',
@@ -13853,7 +18326,7 @@ window.ISRTV_KANBOX = [
                 id: 'sovietzka-ep5',
                 season: 1,
                 ep: 5,
-                name: 'פרק 5 – גם כן, טרקובסקי',
+                name: 'פרק 5 - גם כן, טרקובסקי',
                 subtitle: 'מאשה הסבתא נועלת את עצמה בשירותים ומסרבת ללכת לרופא. ענת נוסעת לבית שאן כדי לעזור להורים לשכנע אותה לצאת, בזמן שסטס עושה הכל כדי לא להתכונן לריאיון לרילוקיישן 27.08.2023',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ofp29a6g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/sovietzka/ep5.jpg',
@@ -13863,7 +18336,7 @@ window.ISRTV_KANBOX = [
                 id: 'sovietzka-ep6',
                 season: 1,
                 ep: 6,
-                name: 'פרק 6 – Soviet Washing',
+                name: 'פרק 6 - Soviet Washing',
                 subtitle: 'ענת מגלה שלא נתנו לאחותו של אלכס להתחתן ברבנות, ומחליטה שסובייצקה צריכה לנקוט עמדה, מה שמוביל אותה עד לטלוויזיה. סטס מקבל את הרילוקיישן ומסתיר זאת מנסטיה 31.08.2023',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlf7u2of/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/sovietzka/ep6.jpg',
@@ -14010,7 +18483,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 1,
                 name: 'פרק 1 - זוהרה',
-                subtitle: 'זוהרה מוצאת את אבישי מת במיטתו. היא מזעיקה את חבריה, כדי להתחיל להניע את סידורי הלוויה – אלא שאז מציע יהודה רעיון: להסתיר את דבר מותו של אבישי למשך חמישה ימים, כדי לאפשר לו לזכות בפרס נובל. לאחר ויכוח הרעיון מתקבל',
+                subtitle: 'זוהרה מוצאת את אבישי מת במיטתו. היא מזעיקה את חבריה, כדי להתחיל להניע את סידורי הלוויה - אלא שאז מציע יהודה רעיון: להסתיר את דבר מותו של אבישי למשך חמישה ימים, כדי לאפשר לו לזכות בפרס נובל. לאחר ויכוח הרעיון מתקבל',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0sygkyt2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/shtokholm/s1-ep1.jpg',
                 placeholder: '1'
@@ -14060,7 +18533,7 @@ window.ISRTV_KANBOX = [
                 season: 2,
                 ep: 2,
                 name: 'פרק 2 - דגים שמנים',
-                subtitle: '"גרשי זומר" - או איך שלא קוראים לו באמת – מזמין את החברים ליאכטה שלו. הארבעה מחליטים ללכת, חמושים בציוד הקלטה, כדי לנסות לרדת לחקר מניעיו ומטרתו האמיתית; ככל הנראה כספו הרב של המנוח',
+                subtitle: '"גרשי זומר" - או איך שלא קוראים לו באמת - מזמין את החברים ליאכטה שלו. הארבעה מחליטים ללכת, חמושים בציוד הקלטה, כדי לנסות לרדת לחקר מניעיו ומטרתו האמיתית; ככל הנראה כספו הרב של המנוח',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_134f8w93/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/shtokholm/s2-ep2.jpg',
                 placeholder: '2'
@@ -14306,7 +18779,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 11,
                 name: 'פרק 11',
-                subtitle: 'פרק 11 -פרק אחרון -דווידסון מנסה לגלות מי כתב את מכתב האהבה להלנה אשתו. יעקב, דן, תומס ואליהו מנסים לשרוד מחוץ למחנה בכל מחיר. בפרק האחרון –הגיבורים מתמודדים עם הטעויות שלהם בסוף מותח וסוחף. 31.12.2017',
+                subtitle: 'פרק 11 -פרק אחרון -דווידסון מנסה לגלות מי כתב את מכתב האהבה להלנה אשתו. יעקב, דן, תומס ואליהו מנסים לשרוד מחוץ למחנה בכל מחיר. בפרק האחרון -הגיבורים מתמודדים עם הטעויות שלהם בסוף מותח וסוחף. 31.12.2017',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_237yl7es/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/carthago/ep11.jpg',
                 placeholder: '11'
@@ -14923,7 +19396,7 @@ window.ISRTV_KANBOX = [
                 id: 'hahamam-ep3',
                 season: 1,
                 ep: 3,
-                name: 'פרק 3 – גבעת האנטנה',
+                name: 'פרק 3 - גבעת האנטנה',
                 subtitle: 'סיפור הגבורה של דודי תופס תאוצה, ושאול מרגיש את הקרקע בורחת. בזמן שדודי נשאב לדרמה של אורי ובטי, שאול נתקל בגילויים מוזרים בגבעת האנטנה ובמיושבת הבדואית - שרק מערערים אותו עוד יותר 07.12.2025',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1936434/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/hahamam/ep3.jpg',
@@ -14943,7 +19416,7 @@ window.ISRTV_KANBOX = [
                 id: 'hahamam-ep5',
                 season: 1,
                 ep: 5,
-                name: 'פרק 5 – איילת חן',
+                name: 'פרק 5 - איילת חן',
                 subtitle: 'המחלקה מנסה להתאושש, ודודי נקלע לעימות מסוכן שמערער אותו מבפנים. במקביל, מיקה חושפת רמזים חדשים והפאזל מתחיל להתחבר: מתברר שהקללה שריחפה מעל שאול לא נעלמה, וממשיכה לאיים על מי שנשאר 15.12.2025',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1936464/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/hahamam/ep5.jpg',
@@ -14953,7 +19426,7 @@ window.ISRTV_KANBOX = [
                 id: 'hahamam-ep6',
                 season: 1,
                 ep: 6,
-                name: 'פרק 6 – יום הדין',
+                name: 'פרק 6 - יום הדין',
                 subtitle: 'יום כיפור מתקרב, הסופה סוגרת על החמאם, ודודי ואורי מתנגשים במסלול מסוכן. מיקה נלחמת להציל את מה שנשאר - האם יקשיבו לה? 17.12.2025',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1936465/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/hahamam/ep6.jpg',
@@ -15958,7 +20431,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 6,
                 name: 'פרק 6 - הודים',
-                subtitle: 'דרמת מתח משטרתית. שנתיים וחצי בעבר. איזי עסוק בתיק הטרדה מינית בו חשוד ניצב שאול כץ – ופותח תיבת פנדורה שמטלטלת את הזוגיות שלו. ברק מעמיק את מעורבותו בארגון הפשע של האחים שמעיה בלי לדעת שמישהו שם עליו עין 17.08.2020',
+                subtitle: 'דרמת מתח משטרתית. שנתיים וחצי בעבר. איזי עסוק בתיק הטרדה מינית בו חשוד ניצב שאול כץ - ופותח תיבת פנדורה שמטלטלת את הזוגיות שלו. ברק מעמיק את מעורבותו בארגון הפשע של האחים שמעיה בלי לדעת שמישהו שם עליו עין 17.08.2020',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ypiaz9m7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/menayek/s1-ep6.jpg',
                 placeholder: '6'
@@ -16028,7 +20501,7 @@ window.ISRTV_KANBOX = [
                 season: 2,
                 ep: 3,
                 name: 'פרק 3 - שיבוש',
-                subtitle: 'ברק מבין שהוא נמצא שוב בסכנה ומתחיל לפעול בהתאם. בינתיים צוות הבדיקה של מח"ש מתחיל לעבוד – אבל עם המון מקלות בגלגלים 02.03.2021',
+                subtitle: 'ברק מבין שהוא נמצא שוב בסכנה ומתחיל לפעול בהתאם. בינתיים צוות הבדיקה של מח"ש מתחיל לעבוד - אבל עם המון מקלות בגלגלים 02.03.2021',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0bfzlxl0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/menayek/s2-ep3.jpg',
                 placeholder: '3'
@@ -16068,7 +20541,7 @@ window.ISRTV_KANBOX = [
                 season: 2,
                 ep: 7,
                 name: 'פרק 7 - חופש',
-                subtitle: 'עונה שנייה לדרמה המשטרתית זוכת פרס האקדמיה. פרק 7. חופש: בעוד ברק נופש בחו"ל (ולא רק נופש) אנשי מח"ש מפתיעים את שוטרי ראשון ואת צמרת המשטרה – ועוברים לשלב הגלוי בחקירה 02.03.2021',
+                subtitle: 'עונה שנייה לדרמה המשטרתית זוכת פרס האקדמיה. פרק 7. חופש: בעוד ברק נופש בחו"ל (ולא רק נופש) אנשי מח"ש מפתיעים את שוטרי ראשון ואת צמרת המשטרה - ועוברים לשלב הגלוי בחקירה 02.03.2021',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qkr07pqs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/menayek/s2-ep7.jpg',
                 placeholder: '7'
@@ -16198,7 +20671,7 @@ window.ISRTV_KANBOX = [
                 season: 3,
                 ep: 10,
                 name: 'פרק 10 (אחרון) - תקווה',
-                subtitle: 'פרק 10 עצורים ממלאים את חדרי החקירות בקומת הצח"מ, שם שלל בחורינו הטובים מנסים להוציא מהם את מה שהם רוצים על רוה"מ, בטכניקות שחלקן גבוליות למדי. ברק וילדיו מוחזקים על ידי הרשות להגנת עדים, כלואים במלון – בשעה שהוא נאלץ להתמודד עם התפתחות בלתי צפויה וגרועה מאוד מבחינתו: איזי הולך ל',
+                subtitle: 'פרק 10 עצורים ממלאים את חדרי החקירות בקומת הצח"מ, שם שלל בחורינו הטובים מנסים להוציא מהם את מה שהם רוצים על רוה"מ, בטכניקות שחלקן גבוליות למדי. ברק וילדיו מוחזקים על ידי הרשות להגנת עדים, כלואים במלון - בשעה שהוא נאלץ להתמודד עם התפתחות בלתי צפויה וגרועה מאוד מבחינתו: איזי הולך ל',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_52mtat4f/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/menayek/s3-ep10.jpg',
                 placeholder: '10'
@@ -16255,7 +20728,7 @@ window.ISRTV_KANBOX = [
                 id: 'malach-mashchit-ep5',
                 season: 1,
                 ep: 5,
-                name: 'פרק 5 – אור מלפני 1300 שנה',
+                name: 'פרק 5 - אור מלפני 1300 שנה',
                 subtitle: 'בעבר, דב-בער וידידה הצעירים בורחים ממאה שערים ומתחילים חיים משותפים בעולם החילוני. ובהווה, באר ממשיך בחיפושים אחר ידידה, בניסיון לפענח את הקשר בינה לבין האירועים המצמררים שפוקדים את מאה שערים. 29.09.2021',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891556/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/malach-mashchit/ep5.jpg',
@@ -18122,1025 +22595,7 @@ window.ISRTV_KANBOX = [
             }
         ]
     },
-{
-        id: 'kupa-rashit',
-        name: 'קופה ראשית',
-        placeholder: 'קופה ראשית',
-        imageURL: 'images/kanbox/kupa-rashit/series.jpg',
-        source: 'kan',
-        episodes: [
-            {
-                id: 'kupa-rashit-s1-ep1',
-                season: 1,
-                ep: 1,
-                name: 'פרק 1 - שלי מהבית',
-                subtitle: 'הפרק הראשון בסדרה: אמנון עושה הכול בשביל לא לשלם על חטיף שלטענתו הביא מהבית. שירה נאלצת לחלוק את המשרד שלה עם ניסים ואנטולי, שהקימו שם בית כנסת לעובדים 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb26cqkv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'kupa-rashit-s1-ep2',
-                season: 1,
-                ep: 2,
-                name: 'פרק 2 - נס בקצבייה',
-                subtitle: 'ניסים משוכנע שרב חשוב התגלה לו בסטייק, ומתקשה להתרכז בעבודה. שירה מחליטה אחת ולתמיד לפתור את בעיית השקיות הלא נפתחות בירקנייה. כוכבה לא מוכנה לשרת את אמנון שמוצא פתרון מקורי בשביל להעביר את הלבן שלו 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9fqvzvk6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'kupa-rashit-s1-ep3',
-                season: 1,
-                ep: 3,
-                name: 'פרק 3 - בוקר של פיגוע',
-                subtitle: 'פיגוע שאירע סמוך לסופר גורם לכל העובדים והלקוחות להתייחס בצורה שונה לראמזי. כוכבה מארחת את הבן שלה בסופר ונכנסת ללחץ כשהוא ואסתי מתחילים לפלרטט. אמנון אורז הביתה דגימה מכל זית, אבל מתעקש לא לשלם עליהם בטענה שהם "טעימות" 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1xlv7uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'kupa-rashit-s1-ep4',
-                season: 1,
-                ep: 4,
-                name: 'פרק 4 - סלב בסופר',
-                subtitle: 'השף ישראל אהרוני נכנס לסניף וגורם להתרגשות רבה בקרב העובדים והלקוחות שמעולם לא ראו "סלב" במציאות. ניסים ואנטולי מוצאים דרך מקורית למרוח את הזמן בקצביה 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iy0id2fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'kupa-rashit-s1-ep5',
-                season: 1,
-                ep: 5,
-                name: 'פרק 5 - כוכבה חוזרת מחו"ל',
-                subtitle: 'סרטון שבו כוכבה מתפרעת במטוס הופך ללהיט ברשת. אביחי מפחד שהכתם ידבק גם בסניף, ומורה לשירה לפטר את כוכבה לאלתר. אמנון משגע את אנטולי בקצביה ומתעקש לא לשלם על העור של העוף 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3o3uz0b8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'kupa-rashit-s1-ep6',
-                season: 1,
-                ep: 6,
-                name: 'פרק 6 - תחתונים',
-                subtitle: 'אמנון מגיע לסניף כדי להחזיר להחזיר תחתונים שקנה, אבל כוכבה מסרבת בכל תוקף לקבל בחזרה תחתונים משומשים. כתם סלק עקשן מטריד את ראמזי. ניסים וכוכבה מארגנים מתיחה מרושעת לאנטולי 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yg6g7s55/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'kupa-rashit-s1-ep7',
-                season: 1,
-                ep: 7,
-                name: 'פרק 7 - ראמזי הבלש',
-                subtitle: 'העובדים מאשימים את העובד החדש בהיעלמות מכשירי הסלולר שלהם, ראמזי מסרב להאמין ופוצח בחקירה מאומצת למציאת הגנב האמיתי. אמנון מסרב לקבל את העובדה שמבצע העגבניות הוא רק עד 3 קילו לקנייה, ועושה הכל בשביל לנצח את השיטה 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sy72fxz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'kupa-rashit-s1-ep8',
-                season: 1,
-                ep: 8,
-                name: 'פרק 8 - החולדה',
-                subtitle: 'שירה אוסרת על עובדי הסופר להרוג חולדה שהתגלתה במחסן, ומבטיחה לטפל בה בעצמה בדרכים הומניות. כוכבה מחליטה שגם לקופאיות מגיעים טיפים 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zfr1x8uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'kupa-rashit-s1-ep9',
-                season: 1,
-                ep: 9,
-                name: 'פרק 9 - ראמזי יוצא לחופש',
-                subtitle: 'ראמזי נאלץ לקחת יום חופש ראשון בקריירה, אנטולי מסבך את ניסים עם המאפיה הבלארוסית, ופרנקו עושה לשירה טובה קטנה שהופכת לסיוט גדול 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9g6hxdyc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'kupa-rashit-s1-ep10',
-                season: 1,
-                ep: 10,
-                name: 'פרק 10 - כוכבה מפסיקה לעשן',
-                subtitle: 'חזי מספר לכוכבה שהוא הפסיק לעשן. כוכבה מנסה גם להיגמל וכל הסופר סובל מזה. שירה וראמזי נלחמים במכת \'המנשנשים\' בסופר ומצליחים לפענח את תיק פרנקו 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_atp9dczt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'kupa-rashit-s1-ep11',
-                season: 1,
-                ep: 11,
-                name: 'פרק 11 - כרעיים יפים',
-                subtitle: 'ראמזי מנסה להסתיר משירה שהוא חולה, כי הוא חושש שהיא תשלח אותו הביתה באמצע המשמרת ומתייעץ עם כוכבה על דרכים להבריא. פרנקו עושה קניות לפני משחק כדורגל ונותן לאשתו לדבר עם אבטיחים בטלפון. שוני מבקשת מאנטולי כרעיים יפים ומתאכזבת מהבחירה שלו 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m6ts083a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'kupa-rashit-s1-ep12',
-                season: 1,
-                ep: 12,
-                name: 'פרק 12 - פפרני בשדות זרים',
-                subtitle: 'הבת של פרנקו מבקשת ממנו לקנות מעכשיו רק ביצי חופש. ראמזי חושד שגברת פפרני, הלקוחה האהובה עליו, בוגדת בו עם סופרמרקט אחר. העובדים מעודדים את חזי להוריד סוף סוף וואטסאפ 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9vny92qe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep12.jpg',
-                placeholder: '12'
-            },
-            {
-                id: 'kupa-rashit-s1-ep13',
-                season: 1,
-                ep: 13,
-                name: 'פרק 13 - מהפכה בסופר (חלק א\')',
-                subtitle: 'תקנה חדשה של שירה מחייבת את העובדים ללבוש כובעים במהלך המשמרת. כוכבה מחליטה להמריד את העובדים נגד ה"גזירה" וגורמת לרעידת אדמה של ממש 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xykp9qau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep13.jpg',
-                placeholder: '13'
-            },
-            {
-                id: 'kupa-rashit-s1-ep14',
-                season: 1,
-                ep: 14,
-                name: 'פרק 14 - מהפכה בסופר (חלק ב\')',
-                subtitle: 'בעקבות פיטורי שירה ממנה אביחי מנהלת חדשה לסופר. העובדים מנסים להתרגל לשיטת הניהול החדשה, ומתחילים לחשוש שאולי שירה לא הייתה גרועה כל כך 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mgove66l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep14.jpg',
-                placeholder: '14'
-            },
-            {
-                id: 'kupa-rashit-s1-ep15',
-                season: 1,
-                ep: 15,
-                name: 'פרק 15 - תירוצים תירוצים',
-                subtitle: 'ניסים ואנטולי מתייעצים עם כוכבה על תירוץ שימנע מהם להשתתף בערב הניקיונות בסופר. שוני הלקוחה חושפת את הנשק היעיל ביותר נגד עובדי הסופר - שיימינג 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r8vnmkcs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep15.jpg',
-                placeholder: '15'
-            },
-            {
-                id: 'kupa-rashit-s1-ep16',
-                season: 1,
-                ep: 16,
-                name: 'פרק 16 - יום שישי בסופר',
-                subtitle: 'יום שישי - הסיוט הגדול ביותר של כל עובדי הסופר ולקוחותיו. פראנקו במירוץ נגד השעון לסיים את הקניות לפי שאישתו חוזרת הביתה. שירה מנסה להלחם בתופעת המריבות בתור באמצעות שיטות מבית סטיב ג\'ובס 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qsppx5cn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep16.jpg',
-                placeholder: '16'
-            },
-            {
-                id: 'kupa-rashit-s1-ep17',
-                season: 1,
-                ep: 17,
-                name: 'פרק 17 - ראמזי מאוהב',
-                subtitle: 'ראמזי מתאהב באסתי הקופאית, אבל לא יודע איך להביע את אהבתו. ניסים ואנטולי מחליטים לקחת אותו תחת חסותם ומלמדים אותו כל מה שהם יודעים על אהבה 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tsz6366y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep17.jpg',
-                placeholder: '17'
-            },
-            {
-                id: 'kupa-rashit-s1-ep18',
-                season: 1,
-                ep: 18,
-                name: 'פרק 18 - בני דודים',
-                subtitle: 'אמנון מגלה שיש לו קשר משפחתי לחזי הירקן, ומנסה לנצל את זה לטובת הנחות. אישתו של אנטולי מסלקת אותו מהבית והוא נאלץ לעבור לגור בסופר 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mkb6ofzb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep18.jpg',
-                placeholder: '18'
-            },
-            {
-                id: 'kupa-rashit-s1-ep19',
-                season: 1,
-                ep: 19,
-                name: 'פרק 19 - סופר חכם (חלק א\')',
-                subtitle: 'שירה מביאה לסופר קופה אוטומטית. העובדים חוששים שזהו תחילתו של הסוף עבורם. גברת ביסמנובסקי, שלא עבדה מעולם, מתחילה לעבוד בסופר בהדרכת ראמזי 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_caqiupm2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep19.jpg',
-                placeholder: '19'
-            },
-            {
-                id: 'kupa-rashit-s1-ep20',
-                season: 1,
-                ep: 20,
-                name: 'פרק 20 - סופר חכם (חלק ב\')',
-                subtitle: 'האם זהו סוף הסיפור עבור עובדי \'שפע יששכר\'? העובדים יוצאים למלחמת \'להיות או לחדול\' נגד המכונות האוטומטיות, שמאיימות להחליף אותם לתמיד 23.07.2018',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dsolgd88/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s1-ep20.jpg',
-                placeholder: '20'
-            },
-            {
-                id: 'kupa-rashit-s2-ep1',
-                season: 2,
-                ep: 1,
-                name: 'פרק 1 - שירותי הנהלה',
-                subtitle: 'הסניף עובר למתחם חדש ובו תא שירותים אחד לעובדים ותא שירותים אחד להנהלה. שירה מאפשרת גם ללקוחות להשתמש בשירותי העובדים והעובדים יוצאים למלחמה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zmdljg8g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'kupa-rashit-s2-ep2',
-                season: 2,
-                ep: 2,
-                name: 'פרק 2 - אחות של ראמזי',
-                subtitle: 'אחות של ראמזי מתחילה לעבוד בסופר וראמזי לא יודע נפשו מרוב התרגשות. כוכבה כמעט נחנקת מגרעין של זית ורואה בזה סימן מלמעלה להפוך לאדם טוב 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kxavyw9n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'kupa-rashit-s2-ep3',
-                season: 2,
-                ep: 3,
-                name: 'פרק 3 - מה עובר על שירה',
-                subtitle: 'העובדים מנסים להבין מה פשר השינוי לטובה בהתנהגות של שירה. כשהם מגלים את הסיבה, הם מתקשים להאמין. הילד של שוני מעכב את התור בקופה, מה שמביא לעימות בלתי נמנע עם פרנקו 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_juj9uaa7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'kupa-rashit-s2-ep4',
-                season: 2,
-                ep: 4,
-                name: 'פרק 4 - סופר פוד',
-                subtitle: 'דוכן טעימות חינם של מוצרי \'סופר פוד\' עוזר לאמנון להבריא. כשהמוצרים הופכים להיות בתשלום, אמנון נקלע לדילמת חייו: הבריאות או הכסף? אביחי מטיל על שירה משימה: לעשות סרטון פרסומת לסופר שישבור את הרשת 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_28ruvlzc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'kupa-rashit-s2-ep5',
-                season: 2,
-                ep: 5,
-                name: 'פרק 5 - הדרבי הגדול',
-                subtitle: 'עובדי הסופר נרשמים לליגה למקומות עבודה בכדורגל ומתכוננים למשחק העונה מול הסופר המתחרה - "אושר לוי". כוכבה ואסתי בקרב קופאיות: מי תמכור יותר יין במבצע? 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fhen1fb5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'kupa-rashit-s2-ep6',
-                season: 2,
-                ep: 6,
-                name: 'פרק 6 - גזר',
-                subtitle: 'שירה מצליחה לשכנע את אביחי לגייס שליח לסופר לפי שיטת הגיוס של סטיב ג\'ובס. כל העובדים רוכשים יחד כורסת מסאז\' לחדר העובדים. כולם, מלבד כוכבה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izy77qyx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'kupa-rashit-s2-ep7',
-                season: 2,
-                ep: 7,
-                name: 'פרק 7 - סיפורי סבתא',
-                subtitle: 'ניסים רוצה לנמנם במשמרת וממציא לאנטולי סיפורי אגדות כדי שיאפשר לו להמשיך לישון. התחלופה המהירה של עובדי הנקיון מעציבה את ראמזי, שמתקשה להיפרד מכל מנקה שעוזב 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qrz6imlk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'kupa-rashit-s2-ep8',
-                season: 2,
-                ep: 8,
-                name: 'פרק 8 - בטיפול',
-                subtitle: 'קומדיה מוקומנטרית. פרק 8. שירה פותחת מהצד עסק של טיפולי \'מנטורינג\'. כאשר ראמזי מגלה שאין ביקוש לטיפולים, הוא מחליט לקחת את העניינים לידיים. אמנון פוגש בסופר את אהבת נעוריו ורגשות ישנים מתעוררים 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n0i1khx6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'kupa-rashit-s2-ep9',
-                season: 2,
-                ep: 9,
-                name: 'פרק 9 - המרצדס',
-                subtitle: 'אירוע מסתורי שאירע בסופר שולח את ראמזי לחקירה בלשית מסועפת. אמנון מזהה הזדמנות לעקוץ את הסופר, ולוקח אותה בשתי ידיים 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lupa6vd7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'kupa-rashit-s2-ep10',
-                season: 2,
-                ep: 10,
-                name: 'פרק 10 - פורים',
-                subtitle: 'חג פורים בשפע יששכר! כוכבה מוטרדת מבחירת התחפושת של ביתה הקטנה סיטל. טעות בזיהוי גורמת למבוכה גדולה בקצבייה. מבצע משלוחי המנות מחזיר את אמנון לטראומת ילדות 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm478vjs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'kupa-rashit-s2-ep11',
-                season: 2,
-                ep: 11,
-                name: 'פרק 11 - אנטולי מתערב',
-                subtitle: 'ניסים מנסה לגמול את אנטולי מההרגל המגונה של "להתערב" לאנשים בכל דבר. אמנון מנסה לעשות קניות עם \'גיפט קארד\' לא מזוהה, וגורם למהומה בסופר 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g197oqsp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'kupa-rashit-s2-ep12',
-                season: 2,
-                ep: 12,
-                name: 'פרק 12 - אביחי חי ת\'חלום',
-                subtitle: 'אביחי מחליט לעזוב את אשתו בעקבות עצה שהוא חשב ששירה נתנה לו, וכל הסניף נאלץ להתמודד עם ההשלכות. כוכבה פוגשת את המורה שלה מהתיכון וסוגרת אתה חשבון של 35 שנה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3g1tzc7j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep12.jpg',
-                placeholder: '12'
-            },
-            {
-                id: 'kupa-rashit-s2-ep13',
-                season: 2,
-                ep: 13,
-                name: 'פרק 13 - הקרב על המזגן',
-                subtitle: 'הקיץ הגיע ואיתו הריב הנצחי על הטמפרטורה שבה יפעל המזגן. אמנון מקבל את המשימה השנואה עליו בעולם, לשמור ללקוח אחר את התור בקופה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kvtuphm6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep13.jpg',
-                placeholder: '13'
-            },
-            {
-                id: 'kupa-rashit-s2-ep14',
-                season: 2,
-                ep: 14,
-                name: 'פרק 14 - פסח בא',
-                subtitle: 'קומדיה מוקומנטרית. ערב פסח והסופר מלא בלקוחות. פרנקו מנסה לחמוק מהקניות עם אשתו, שוני מנסה להצטייד בחמץ רגע לפני החג, וכוכבה ממציאה שיטה חדשה כיצד לעשות קניות בלי לקום מהכיסא 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x2g9r4th/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep14.jpg',
-                placeholder: '14'
-            },
-            {
-                id: 'kupa-rashit-s2-ep15',
-                season: 2,
-                ep: 15,
-                name: 'פרק 15 - אמנון לא מתנצל',
-                subtitle: 'אמנון מורחק מהירקניה בעקבות התנהגות בלתי הולמת ונאלץ להתמודד עם הגזירה. ניסים ואנטולי ממשיכים במסורת המתיחות שלהם על שאר העובדים 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e3w7edqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep15.jpg',
-                placeholder: '15'
-            },
-            {
-                id: 'kupa-rashit-s2-ep16',
-                season: 2,
-                ep: 16,
-                name: 'פרק 16 - שירה לא אחראית',
-                subtitle: 'לשירה נמאס להרגיש כמו גננת בסופר. היא מחליטה להעביר לעובדים את כל הסמכויות על מנת להפוך אותם לעצמאיים יותר. החלטה שהיא עשויה להתחרט עליה... 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbbascsx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep16.jpg',
-                placeholder: '16'
-            },
-            {
-                id: 'kupa-rashit-s2-ep17',
-                season: 2,
-                ep: 17,
-                name: 'פרק 17 - ראמזי ושודדי העגלות',
-                subtitle: 'לקראת ל"ג בעומר ראמזי יוצא למלחמה בגנבי העגלות. פרנקו עושה הכל בשביל לקבל החזר על מוצר שקילקל בעצמו 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_by2ib41h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep17.jpg',
-                placeholder: '17'
-            },
-            {
-                id: 'kupa-rashit-s2-ep18',
-                season: 2,
-                ep: 18,
-                name: 'פרק 18 - חמישים מיליון',
-                subtitle: 'עובדי הסופר מחליטים לשלוח ביחד טופס לוטו. אמנון מוצא על ספסל חליפה ישנה, שמשנה את חייו מן הקצה אל הקצה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0casqzkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep18.jpg',
-                placeholder: '18'
-            },
-            {
-                id: 'kupa-rashit-s2-ep19',
-                season: 2,
-                ep: 19,
-                name: 'פרק 19 - מה עושים עם כוכבה',
-                subtitle: 'לשירה נמאס סופית מכוכבה. היא יוזמת מהלך ומצליחה לשכנע את מנהל הסופר המתחרה להציע לכוכבה לעבור אליו. האם כוכבה תסכים ותחצה את הקווים? 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0w4m9wy9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep19.jpg',
-                placeholder: '19'
-            },
-            {
-                id: 'kupa-rashit-s2-ep20',
-                season: 2,
-                ep: 20,
-                name: 'פרק 20 - מה עושים בלי כוכבה',
-                subtitle: 'אמנון מגלה שכוכבה עזבה את הסניף ומתחיל לעשות ככל העולה על רוחו בסופר. לשירה עולים ספקות לגבי העזיבה של כוכבה. ראמזי מנהל קרב עקוב מדם עם האויבת מספר אחת של הסופר - הנמלה 26.05.2019',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cyi4po0y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s2-ep20.jpg',
-                placeholder: '20'
-            },
-            {
-                id: 'kupa-rashit-s3-ep1',
-                season: 3,
-                ep: 1,
-                name: 'פרק 1 - בקבוק בלי פקק',
-                subtitle: 'שירה מעבירה את העובדות שלה קורס מקוצר בהגנה עצמית, אמנון מגיע לסופר עם בקשה חריגה, ניסים ואנטולי מחפשים תשובה לשאלה: מי משניהם יותר חתיך? 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_82w8k0c5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'kupa-rashit-s3-ep2',
-                season: 3,
-                ep: 2,
-                name: 'פרק 2 - קוקו וקוקו',
-                subtitle: 'שירה מנסה לקדם את עובדי הסופר האתיופים ולמרות מאמציה גורמת לתקרית גזענית. ראמזי מתכונן לראיון חשוב אצל מנהל כוח האדם של הרשת 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ki7470h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'kupa-rashit-s3-ep3',
-                season: 3,
-                ep: 3,
-                name: 'פרק 3 - 15 דקות',
-                subtitle: 'אמנון נלחם בחוק החדש שמחייב תשלום על חניה בסופר. פרנקו שוכח מה שירלי ביקשה ממנו לקנות ויוצא לחקירה בעידודו של ראמזי 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g8cyt11h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'kupa-rashit-s3-ep4',
-                season: 3,
-                ep: 4,
-                name: 'פרק 4 - יומולדת בסופר',
-                subtitle: 'שירה מחליטה על יוזמה חדשה לחגיגות ימי ההולדת של העובדים ונאלצת להתמודד עם ההשלכות של החלטתה. שוני מנסה לשכנע את בנה לא לקנות ממתקים בסופר ומסבכת בכך את ניסים ואנטולי 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cxas4zeg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'kupa-rashit-s3-ep5',
-                season: 3,
-                ep: 5,
-                name: 'פרק 5 - כוכבה היפה',
-                subtitle: 'אביחי מנסה לקבל כתבה במקומון ודורש משירה למצוא לו לקוח שזקוק לתרומה. עובדת חדשה בסופר (יובל שרף בהופעת אורח) גורמת לכוכבה בעיות זהות וביטחון עצמי 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x3ws6gqf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'kupa-rashit-s3-ep6',
-                season: 3,
-                ep: 6,
-                name: 'פרק 6 - יולנדה',
-                subtitle: 'קומדיה המתרחשת בסופר "שפע יששכר". פרק 6. יולנדה: כוכבה מתערבת לבנה הבכור במערכות היחסים וגורמת לו למהפכים בחיים. ראמזי נלחם על מכונת השטיפה הישנה של הסופר 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izrc96f1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'kupa-rashit-s3-ep7',
-                season: 3,
-                ep: 7,
-                name: 'פרק 7 - הפצוע המולדבי',
-                subtitle: 'במהלך העבודה אנטולי נפצע ברגלו ונאלץ לעבור לתפקיד אחר בסופר. שוני מנסה להוכיח לדליה שהיא לא פחות ידידותית לסביבה ממנה 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o0cwkkdx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'kupa-rashit-s3-ep8',
-                season: 3,
-                ep: 8,
-                name: 'פרק 8 - סלסילות',
-                subtitle: 'עובדי הסופר נאלצים להתמודד עם עובדת חדשה בסופר, שהיא במקרה גם אשתו של אביחי. ראמזי מנסה לשדך ללקוחות את הירקות הפחות יפים בירקניה 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_78f0wfds/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'kupa-rashit-s3-ep9',
-                season: 3,
-                ep: 9,
-                name: 'פרק 9 - עוד שישי בסופר',
-                subtitle: '"פרנקו שוב מסתבך עם הקניות ביום שישי. אמנון נלחם על זכותו לקבל את המבצע של "עיתון בשקל 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0u7ww7ra/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'kupa-rashit-s3-ep10',
-                season: 3,
-                ep: 10,
-                name: 'פרק 10 - סרגיי פלאץ׳',
-                subtitle: 'פרט מפתיע בביוגרפיה של אנטולי משנה ברגע את החוקים בקצביה. שירה מכריזה על תחרות העובד המצטיין וגורמת לראמזי לאבד את זה 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kgjp9o69/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'kupa-rashit-s3-ep11',
-                season: 3,
-                ep: 11,
-                name: 'פרק 11 - אמא של טיטינסקי',
-                subtitle: 'אנטולי "נדבק" בחיידק האופניים. אמנון מחפש מחליף שיקח את אמא שלו לסופר במקומו. שירה שוכחת לקנות מתנה ליומולדת של אביחי 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_18dxu1pv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'kupa-rashit-s3-ep12',
-                season: 3,
-                ep: 12,
-                name: 'פרק 12 - אבא של טיטינסקי',
-                subtitle: 'אמנון מנסה להתמודד עם בן הזוג החדש של אמא שלו. ראמזי נלחם בצו הגירוש שנשלח אל עוזרו הנאמן דייזי 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_36oxutp8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep12.jpg',
-                placeholder: '12'
-            },
-            {
-                id: 'kupa-rashit-s3-ep13',
-                season: 3,
-                ep: 13,
-                name: 'פרק 13 - דקלה',
-                subtitle: 'קומדיה. פרק 13 - דקלה. שירה צועקת על הלקוחה הלא נכונה, ועושה הכל כדיי להתחמק מעונש. ניסים ואנטולי מביאים לראשונה נתח ואגיו יוקרתי לקצביה, מה שגורם למשבר עמוק ביחסים שלהם 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkacurp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep13.jpg',
-                placeholder: '13'
-            },
-            {
-                id: 'kupa-rashit-s3-ep14',
-                season: 3,
-                ep: 14,
-                name: 'פרק 14 - ראמזי טהור לעד',
-                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 14. ראמזי טהור לעד: ראמזי עושה הכל בשביל להתחבר עם עובד חדש בסופר וכוכבה מארגנת \'קליפ חתונה\' לכבוד החתונה של הבן שלה 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u2xsbwcl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep14.jpg',
-                placeholder: '14'
-            },
-            {
-                id: 'kupa-rashit-s3-ep15',
-                season: 3,
-                ep: 15,
-                name: 'פרק 15 - עקיצות',
-                subtitle: 'עונה חדשה לקומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 15. עקיצות - מכת יתושים תוקפת את הסופר, ניסים וכוכבה מוצאים פתרון מקורי לבעיה. ראמזי יוצא שוב למשימה בלשית 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mbsfbd14/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep15.jpg',
-                placeholder: '15'
-            },
-            {
-                id: 'kupa-rashit-s3-ep16',
-                season: 3,
-                ep: 16,
-                name: 'פרק 16 - קקפונים',
-                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 16 - קקפונים: שירה מנסה להיפטר מקולגה אובססיבית שמנסה להתחבר איתה. הקופאיות מתמודדות עם מכת הקקפונים - לקוחות שמדברים בטלפון בקופה 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_doz50dac/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep16.jpg',
-                placeholder: '16'
-            },
-            {
-                id: 'kupa-rashit-s3-ep17',
-                season: 3,
-                ep: 17,
-                name: 'פרק 17 - שוד ושבר',
-                subtitle: 'כוכבה וניסים נלחמים בכוונתה של שירה לפטר את צ\'יבוטרו. שוני ומוש תקועים בחניון בגלל רכב שחסם אותם. אמנון מסתבך עם נגן רחוב בכניסה לסופר 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0uqk5wrq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep17.jpg',
-                placeholder: '17'
-            },
-            {
-                id: 'kupa-rashit-s3-ep18',
-                season: 3,
-                ep: 18,
-                name: 'פרק 18 - מאשה חודש תשע',
-                subtitle: 'קומדיה המתרחשת בסניף סופר "שפע יששכר". פרק 18. מאשה חודש תשע - אנטולי בלחץ לקראת הלידה של מאשה. ראמזי נקלע לסכסוך עם המעדניה הסמוכה. ניסים וכוכבה פוצחים במלחמת מתיחות 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_39qpmixn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep18.jpg',
-                placeholder: '18'
-            },
-            {
-                id: 'kupa-rashit-s3-ep19',
-                season: 3,
-                ep: 19,
-                name: 'פרק 19 - חנוכה',
-                subtitle: 'שוני נלחמת בדוכן תפילין שנפתח לרגל החג מחוץ לסניף. אביחי נתקע בלי סידור לילדה בחופשת החנוכה, וניסים מנסה למכור את הרכב הישן של אשתו 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwn2iij7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep19.jpg',
-                placeholder: '19'
-            },
-            {
-                id: 'kupa-rashit-s3-ep20',
-                season: 3,
-                ep: 20,
-                name: 'פרק 20 - חופה ראשית',
-                subtitle: 'חופה ראשית - פרק סיום העונה. החתונה של גון ואוצר מתקרבת. שינוי של הרגע האחרון מוביל לחתונה שאף אחד לא ציפה לה. 19.10.2020',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwye398c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s3-ep20.jpg',
-                placeholder: '20'
-            },
-            {
-                id: 'kupa-rashit-s4-ep1',
-                season: 4,
-                ep: 1,
-                name: 'פרק 1 - ריקוד מושחת',
-                subtitle: 'בפרק פתיחת העונה אנטולי מגלה כשרון יוצא דופן וניסים רושם אותו לתחרות כשרונות. כוכבה באובססיה להוכיח שהיא שוקלת פחות משירה, ואמנון מאבד שנקל 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n43jd6mv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'kupa-rashit-s4-ep2',
-                season: 4,
-                ep: 2,
-                name: 'פרק 2 - הג\'ל של ראמזי',
-                subtitle: 'עונה רביעית לסדרה הכי ישראלית שיש, זוכת פרס האקדמיה. פרק 2- הג\'ל של ראמזי. יום העצמאות בפתח ואביחי מועמד לתואר יקיר העיר יבנה. שודד הסופרים מטיל אימה על הסופרים באיזור. ראמזי מתמודד עם מחסור בג\'ל הקבוע שלו. 26.04.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w947m7ob/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'kupa-rashit-s4-ep3',
-                season: 4,
-                ep: 3,
-                name: 'פרק 3 - טיטינסקים לא קונים בעונה',
-                subtitle: 'החורף הגיע ולאמנון בדיוק נשברת המטרייה. עובדי הסופר במאבק עם לקוחה שמתעקשת להגיע תמיד דקה לפני הסגירה 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pcevjog2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'kupa-rashit-s4-ep4',
-                season: 4,
-                ep: 4,
-                name: 'פרק 4 - בר מצווה לאנטולי',
-                subtitle: 'ניסים מציע ללמד את אנטולי לבר מצווה מאוחרת. אסתי יוצאת למלחמה באוייב הכי גדול שלה- הווליום של כוכבה 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ibw56c1a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'kupa-rashit-s4-ep5',
-                season: 4,
-                ep: 5,
-                name: 'פרק 5 - האקדמיה ללשון',
-                subtitle: 'לעובדי הסופר נמאס ששירה מתקנת אותם בעברית, בעוד עבריינים מגיעים לסופר ודורשים את הבקבוקים למחזור 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q3gq4xv8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'kupa-rashit-s4-ep6',
-                season: 4,
-                ep: 6,
-                name: 'פרק 6 - אבא של נעמי',
-                subtitle: 'אבא של נעמי מגיע לביקור פתע בעוד ניסים עולה על שיטה חדשה להתבטל. פרנקו מנסה להשיג פיצויים מהסופר 27.05.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vnfoyflo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'kupa-rashit-s4-ep7',
-                season: 4,
-                ep: 7,
-                name: 'פרק 7 - קופה אדומה',
-                subtitle: 'לניסים ואנטולי נמאס שרק השליחים מקבלים טיפים. לשוני נמאס שמוש הפראייר קונה כל דבר שמנסים למכור לו, ומלמדת אותו להגיד גם לא 31.05.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_13b9cvbn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'kupa-rashit-s4-ep8',
-                season: 4,
-                ep: 8,
-                name: 'פרק 8 - מרד בר כוכבה',
-                subtitle: 'כוכבה מגלה לתדהמתה ששנקין מרוויח יפה, ודורשת מעכשיו כסף על השתתפותה בתוכנית. אנטולי מגיע לעבודה בלוק חדש 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w6dy5g0u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'kupa-rashit-s4-ep9',
-                season: 4,
-                ep: 9,
-                name: 'פרק 9 - כי הלקוח הוא גם חבר',
-                subtitle: 'סוף, הבן של שוני, נתקע בעגלה רגע לפני אודישן חשוב; כוכבה שבוייה בהמתנה לשירות לקוחות בטלפון; פרנקו נכנס לעימות בדוכן עיתונים 14.06.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1l6hnkxl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'kupa-rashit-s4-ep10',
-                season: 4,
-                ep: 10,
-                name: 'פרק 10 - לוויה ראשית - חלק א',
-                subtitle: 'המלחמה של אביחי וגדי לייפר על תפקיד סמנכ"ל הרשת מגיעה לשיאה; כוכבה מחפשת א"א, כלומר אלמן אמיד; עובדי הסופר מתבשרים על מותה המפתיע של דמות מפתח 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jl3sasxn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'kupa-rashit-s4-ep11',
-                season: 4,
-                ep: 11,
-                name: 'פרק 11 - לוויה ראשית - חלק ב\'',
-                subtitle: 'יום ההלוויה של לאה שקדי: אביחי מנצל אותו למטרות פוליטיות וכוכבה למטרות רומנטיות. אמנון קונה מתנה לאמא שלו 31.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_024nre1r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'kupa-rashit-s4-ep12',
-                season: 4,
-                ep: 12,
-                name: 'פרק 12 - העורבים',
-                subtitle: 'כוכבה מוצאת שותפים מפתיעים לנקמה בשירה, ראמזי יוצא מגדרו בשביל שגברת ז\'וז\' לא תעזוב, וניסים סובל מסיוטים על העבודה 11.07.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlmogo8p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep12.jpg',
-                placeholder: '12'
-            },
-            {
-                id: 'kupa-rashit-s4-ep13',
-                season: 4,
-                ep: 13,
-                name: 'פרק 13 - המשקיע',
-                subtitle: 'יששכר מבקש מאביחי ללוות משקיע קנדי שמגיע לארץ. אמנון עושה הכל בשביל להחזיר "כנפי רעל" שרכש בסופר 18.07.2022',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rgn48t8i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep13.jpg',
-                placeholder: '13'
-            },
-            {
-                id: 'kupa-rashit-s4-ep14',
-                season: 4,
-                ep: 14,
-                name: 'פרק 14 - יום האהבה',
-                subtitle: 'ספיישל ט"ו באב! כוכבה ממורמרת שאין לה דייט. פרנקו מגלה ברגע האחרון ששכח לקנות מתנה לשירלי, ושירה מטריפה את כולם עם יכולות השידוך שלה 02.08.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t3zyukcc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep14.jpg',
-                placeholder: '14'
-            },
-            {
-                id: 'kupa-rashit-s4-ep15',
-                season: 4,
-                ep: 15,
-                name: 'פרק 15 - אתגר המיקרו',
-                subtitle: 'הסופר יוצא במבצע "מצא זול יותר וקבל כספך חזרה", ואמנון לוקח את זה קצת רחוק מדי. ניסים עושה הכל בשביל שכוכבה תחזיר לו מאה שקל. פרנקו מבריז מהאזכרה של אמא של שירלי ומסתבך 09.08.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r54njmqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep15.jpg',
-                placeholder: '15'
-            },
-            {
-                id: 'kupa-rashit-s4-ep16',
-                season: 4,
-                ep: 16,
-                name: 'פרק 16- המחליפה',
-                subtitle: 'שירה יוצאת להשתלמות ומביאה במקומה מנהלת מחליפה בעוד מוש מגלה למה תמיד עוקפים אותו בתור 15.08.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh3ibb1e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep16.jpg',
-                placeholder: '16'
-            },
-            {
-                id: 'kupa-rashit-s4-ep17',
-                season: 4,
-                ep: 17,
-                name: 'פרק 17 - הטוסט של גריאני',
-                subtitle: 'ניסים, כוכבה ואנטולי חושפים סוף-סוף את המקום האהוב עליהם בעולם - "הטוסט של גריאני". שירה במצוקה חמורה של כוח אדם. אמנון יוצא לשנת שבתון ומטריף את עובדי הסופר יותר מהרגיל 22.08.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_224zhzz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep17.jpg',
-                placeholder: '17'
-            },
-            {
-                id: 'kupa-rashit-s4-ep18',
-                season: 4,
-                ep: 18,
-                name: 'פרק 18 - אמנון עובד בסופר',
-                subtitle: 'אמנון מתחיל לעבוד בסופר בשביל הופעה של חיים משה לעובדים בלבד. פרנקו נקלע לריב עם תייר, ונאלץ לריב באנגלית 29.08.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s5m9en7h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep18.jpg',
-                placeholder: '18'
-            },
-            {
-                id: 'kupa-rashit-s4-ep19',
-                season: 4,
-                ep: 19,
-                name: 'פרק 19 - הצתה מאוחרת',
-                subtitle: 'התרגשות בסניף. שירה צריכה לבחור שני עובדים שישתתפו בפרסומת לרשת עם נועה קירל. אנטולי מפסיד לצ\'יבוטרו בהתערבות בעוד ראמזי לוקח החלטה גורלית שמשאירה את כולם פעורי פה 06.09.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6fpnrrj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep19.jpg',
-                placeholder: '19'
-            },
-            {
-                id: 'kupa-rashit-s4-ep20',
-                season: 4,
-                ep: 20,
-                name: 'פרק 20 - ראמזי חזור הביתה',
-                subtitle: 'פרק סיום העונה - ראמזי חזור הביתה. שירה מחפשת מחליף לראמזי, שמאז עזיבתו אבדו עקבותיו. עובדי הסופר נוסעים לג\'אסר לחפש אותו ומתחילים להשלים עם העובדה שאולי הוא לא יחזור לעולם... 12.09.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_258n00fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep20.jpg',
-                placeholder: '20'
-            },
-            {
-                id: 'kupa-rashit-s4-ep21',
-                season: 4,
-                ep: 21,
-                name: 'פרק 21 - עושים קופה 2023',
-                subtitle: 'מאחורי הקלעים של העונה הרביעית של קופה ראשית. כל הסודות נחשפים! 12.09.2023',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jbskw8uo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s4-ep21.jpg',
-                placeholder: '21'
-            },
-            {
-                id: 'kupa-rashit-s5-ep1',
-                season: 5,
-                ep: 1,
-                name: 'פרק 1 - כפרות',
-                subtitle: 'פרק פתיחת העונה! שנה חדשה נפתחת בסופר. שירה מבקשת מניסים לקחת לאנטולי את המתנה שלו לחג אבל העניינים מסתבכים. כוכבה במירוץ נגד הזמן לכפר על חטאיה לפני כיפור, ואמנון נהנה מהתקופה הזאת בשנה שבה כולם נחמדים 12.11.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_csokhtwe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep1.jpg',
-                placeholder: '1'
-            },
-            {
-                id: 'kupa-rashit-s5-ep2',
-                season: 5,
-                ep: 2,
-                name: 'פרק 2 - הסטארט-אפ של כוכבה',
-                subtitle: 'אביחי בלחץ שיא לקראת השקת הקמע החדש של הרשת. שירה מנפנפת לכולם בחבר החדש שלה, וכוכבה מגלה את עולם ההייטק 19.11.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ygac97dd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep2.jpg',
-                placeholder: '2'
-            },
-            {
-                id: 'kupa-rashit-s5-ep3',
-                season: 5,
-                ep: 3,
-                name: 'פרק 3 - שברת שילמת',
-                subtitle: 'אביחי מקנא במאמן הכושר החדש של עופרה, ומחליט לפצוח בדיאטת כסאח בעצמו. אמנון שובר ספל בסופר ומתבקש לשלם עליו 26.11.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y8emnwxk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep3.jpg',
-                placeholder: '3'
-            },
-            {
-                id: 'kupa-rashit-s5-ep4',
-                season: 5,
-                ep: 4,
-                name: 'פרק 4 - דניס קמחי',
-                subtitle: 'שירה מספרת לעובדים על החבר החדש שלה, אבל כוכבה בטוחה שהיא משקרת. אביחי מתרגל לחיים כסמנכ"ל, ומנצל את התפקיד החדש בשביל להתעמר ביריבו הוותיק, גדי לייפר 03.12.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wy8yk2x8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep4.jpg',
-                placeholder: '4'
-            },
-            {
-                id: 'kupa-rashit-s5-ep5',
-                season: 5,
-                ep: 5,
-                name: 'פרק 5 - טלפונובלה',
-                subtitle: 'הטלנובלה האהובה על כוכבה מסתיימת והיא מחפשת תחליף. שירה נלחמת בתופעת ה\'נוגעים\' במאפים. מוש מסתבך עם מני \'רבותיי\' 10.12.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6hu0lscj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep5.jpg',
-                placeholder: '5'
-            },
-            {
-                id: 'kupa-rashit-s5-ep6',
-                season: 5,
-                ep: 6,
-                name: 'פרק 6 - גזענות קירחים',
-                subtitle: 'חברת ילדות של שירה מתחילה לעבוד בסופר ופראנקו סובל מגזענות קירחים 17.12.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s0q279mn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep6.jpg',
-                placeholder: '6'
-            },
-            {
-                id: 'kupa-rashit-s5-ep7',
-                season: 5,
-                ep: 7,
-                name: 'פרק 7 - אבא של כוכבה',
-                subtitle: 'שירה ממשיכה להתבסס בכת של טוהר. כוכבה פוגשת את אבא שלה לראשונה אחרי 45 שנה. אסתי מתעצבנת על היחס של פראנקו לאשתו 24.12.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5p7jjjrp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep7.jpg',
-                placeholder: '7'
-            },
-            {
-                id: 'kupa-rashit-s5-ep8',
-                season: 5,
-                ep: 8,
-                name: 'פרק 8 - התרומה',
-                subtitle: 'ראמזי חושב ששירה נקלעה לבעיה כלכלית ויוצא מגדרו בשביל לעזור לה. ניסים ואנטולי בהתרגשות שיא, הזמר האהוב עליהם, חנן בן ארי, מגיע ליבנה 31.12.2024',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ngslrzw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep8.jpg',
-                placeholder: '8'
-            },
-            {
-                id: 'kupa-rashit-s5-ep9',
-                season: 5,
-                ep: 9,
-                name: 'פרק 9 - לדפוק חתונה',
-                subtitle: 'שוני נלחמת בהדרת נשים בסופר. כוכבה, ניסים ואנטולי מתקשים להחליט כמה שמים לחתונה של חברה לעבודה 07.01.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jqv5sitx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep9.jpg',
-                placeholder: '9'
-            },
-            {
-                id: 'kupa-rashit-s5-ep10',
-                season: 5,
-                ep: 10,
-                name: 'פרק 10 - הטיפ של ראמזי',
-                subtitle: 'ראמזי בשום פנים ואופן לא מוכן לקבל טיפ מלקוחות. ניסים, אנטולי וכוכבה מתחילים במסורת חדשה: \'בוקר טינופים\' 14.01.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_obykbxe5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep10.jpg',
-                placeholder: '10'
-            },
-            {
-                id: 'kupa-rashit-s5-ep11',
-                season: 5,
-                ep: 11,
-                name: 'פרק 11 - הקללה של שירה',
-                subtitle: 'שירה מקליטה לאביחי הודעה קולית שעלולה לגרום לפיטוריה. שוני מסרבת לתת לדליה את המנקה שלה 21.01.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zxfko38u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep11.jpg',
-                placeholder: '11'
-            },
-            {
-                id: 'kupa-rashit-s5-ep12',
-                season: 5,
-                ep: 12,
-                name: 'פרק 12 - אחות של כוכבה',
-                subtitle: 'כוכבה מגלה שיש לה אחות קטנה מאבא שלה ולא מקבלת את זה כל כך יפה. ראמזי מגשים את חלומו לעבוד בתפקיד היחיד בסופר שעוד לא עשה - נהג המשלוחים 28.01.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tlmlvinr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep12.jpg',
-                placeholder: '12'
-            },
-            {
-                id: 'kupa-rashit-s5-ep13',
-                season: 5,
-                ep: 13,
-                name: 'פרק 13 - הו הא מי זה בא?',
-                subtitle: 'לעובדים נמאס מנציגת הוועד הותיקה, כוכבה, והם עורכים בחירות מחדש. שוני מחפשת נזקק לשלם עליו בשביל שתוכל לצלם ולהעלות לרשת 04.02.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7nsefeax/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep13.jpg',
-                placeholder: '13'
-            },
-            {
-                id: 'kupa-rashit-s5-ep14',
-                season: 5,
-                ep: 14,
-                name: 'פרק 14 - המזל של ניסים',
-                subtitle: 'ניסים מתוסכל שאשתו מלי מבקרת אותו כל יום. אביחי לחוץ מביקורת מס, וראמזי נכנס לאובססיה בגלל מפתח 11.02.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vi0ry1k9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep14.jpg',
-                placeholder: '14'
-            },
-            {
-                id: 'kupa-rashit-s5-ep15',
-                season: 5,
-                ep: 15,
-                name: 'פרק 15 - מסיבת סילבסטר',
-                subtitle: 'החבורה חוגגת מסיבת סילבסטר רוויית אלכוהול בסופר, מה שגורם לעניינים להסתבך 18.02.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qpghua73/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep15.jpg',
-                placeholder: '15'
-            },
-            {
-                id: 'kupa-rashit-s5-ep16',
-                season: 5,
-                ep: 16,
-                name: 'פרק 16 - נכנסת חסכת',
-                subtitle: 'ראמזי נלחם במגיפה מדבקת, צ\'יבוטרו מתמודד עם לקוחות מעצבנים, ושירה מוטרדת מזהות האבא של התינוק 25.02.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3689jjet/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep16.jpg',
-                placeholder: '16'
-            },
-            {
-                id: 'kupa-rashit-s5-ep17',
-                season: 5,
-                ep: 17,
-                name: 'פרק 17 - אמנון והאונליין',
-                subtitle: 'אמנון מגלה את הקניות באינטרנט. ניסים, אנטולי וכוכבה מתמודדים עם ספק שלא מפסיק להעליב אותם 04.03.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h1ep540j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep17.jpg',
-                placeholder: '17'
-            },
-            {
-                id: 'kupa-rashit-s5-ep18',
-                season: 5,
-                ep: 18,
-                name: 'פרק 18 - ריקוד האהבה',
-                subtitle: 'כוכבה חושבת שמצאה דרך להיפטר מאמנון לתמיד. פראנקו מתמודד עם התפקיד הכי חשוב של כל גבר - לבחור אבטיח 11.03.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_53p36y85/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep18.jpg',
-                placeholder: '18'
-            },
-            {
-                id: 'kupa-rashit-s5-ep19',
-                season: 5,
-                ep: 19,
-                name: 'פרק 19 - אמנון ומאריסה',
-                subtitle: 'האהבה של אמנון ומאריסה פורחת. ניסים מגלה כמה אנטולי מרוויח 18.03.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dv1lnase/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep19.jpg',
-                placeholder: '19'
-            },
-            {
-                id: 'kupa-rashit-s5-ep20',
-                season: 5,
-                ep: 20,
-                name: 'פרק 20 - שירה חודש תשע',
-                subtitle: 'פרק סיום העונה. שירה מתמודדת עם החודש התשיעי להיריון, כוכבה מוצאת שיטה להיפטר מאמנון אחת ולתמיד 25.03.2025',
-                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yjw40b1s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
-                imageURL: 'images/kanbox/kupa-rashit/s5-ep20.jpg',
-                placeholder: '20'
-            }
-        ]
-    },
+    
 {
         id: 'savta-bishla',
         name: 'סבתא בישלה עם תום יער',
@@ -19183,7 +22638,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 4,
                 name: 'פרק 4 - יש מאין',
-                subtitle: 'הפעם תום לומדת מסבתא מרים העיראקית ומסבא קין הסיני איך מכינים ארוחה מפוארת מ(כמעט) כלום: היא תתפלל להצלחת הקובה ותגיע למקום בו היא מרגישה הכי בבית – מסעדה סינית 18.10.2020',
+                subtitle: 'הפעם תום לומדת מסבתא מרים העיראקית ומסבא קין הסיני איך מכינים ארוחה מפוארת מ(כמעט) כלום: היא תתפלל להצלחת הקובה ותגיע למקום בו היא מרגישה הכי בבית - מסעדה סינית 18.10.2020',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tfmerrfk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/savta-bishla/s1-ep4.jpg',
                 placeholder: '4'
@@ -19283,7 +22738,7 @@ window.ISRTV_KANBOX = [
                 season: 2,
                 ep: 2,
                 name: 'פרק 2 - עסק משפחתי',
-                subtitle: 'עסק משפחתי. תום יוצאת לפגוש משפחות שבוחרות לעבוד יחד – היא תלמד את המתכונים של סבתא פרחיה העיראקית ותנסה להסביר לה שהיא לא מפונקת, וגם תבלה עם סבתא סופי היווניה, ששוברת צלחות בטברנה הביתית שלה. יאסו! 18.12.2021',
+                subtitle: 'עסק משפחתי. תום יוצאת לפגוש משפחות שבוחרות לעבוד יחד - היא תלמד את המתכונים של סבתא פרחיה העיראקית ותנסה להסביר לה שהיא לא מפונקת, וגם תבלה עם סבתא סופי היווניה, ששוברת צלחות בטברנה הביתית שלה. יאסו! 18.12.2021',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jo2x213p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/savta-bishla/s2-ep2.jpg',
                 placeholder: '2'
@@ -19600,7 +23055,7 @@ window.ISRTV_KANBOX = [
                 id: 'od-nipagesh-s3-ep5',
                 season: 3,
                 ep: 5,
-                name: 'פרק 5 – מסר ממעמקים',
+                name: 'פרק 5 - מסר ממעמקים',
                 subtitle: 'הגיבורים מחפשים את הכוחות להמשיך במסע. השליחים נפגשים עם צד שלישי בסיפור, כדי למצוא זוויות נוספות. כשסיגל מגלה שאבא שלה מוכן להיפגש עם שירי, היא נשברת. האם היא מוכנה לחידוש הקשר אחרי כל כך הרבה שנים? 21.05.2024',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bizeex5x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/od-nipagesh/s3-ep5.jpg',
@@ -19610,7 +23065,7 @@ window.ISRTV_KANBOX = [
                 id: 'od-nipagesh-s3-ep6',
                 season: 3,
                 ep: 6,
-                name: 'פרק 6 – עין בעין יד ביד',
+                name: 'פרק 6 - עין בעין יד ביד',
                 subtitle: 'בעוד הגיבורים קמים לבוקר מתוח, שבו השליחים יפגשו לראשונה את המנותקים, שרה מגלה שהסיכוי שהיא תפגוש את הבן שלה במהלך התוכנית קלוש, והיא נשברת. אפרת, ענבל ושירי מעדכנות את הילדים במפגשים שהיו והפחדים צפים מחדש 28.05.2024',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7lcrdn94/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/od-nipagesh/s3-ep6.jpg',
@@ -19620,7 +23075,7 @@ window.ISRTV_KANBOX = [
                 id: 'od-nipagesh-s3-ep7',
                 season: 3,
                 ep: 7,
-                name: 'פרק 7 – כוחות נפש',
+                name: 'פרק 7 - כוחות נפש',
                 subtitle: '24 שעות לפני המפגשים המיוחלים. הילדים מקבלים הצצה אחרונה לעבר של השליחים, כדי לקבל כוח להמשיך ליעד המיוחל. לצד התקווה עולה חשש אם יצליחו לפתוח את הלב. יעל מגיעה לפגישה עם בתה נועה שמתקדמת שונה מהמצופה 10.06.2024',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h717jk97/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/od-nipagesh/s3-ep7.jpg',
@@ -19630,7 +23085,7 @@ window.ISRTV_KANBOX = [
                 id: 'od-nipagesh-s3-ep8',
                 season: 3,
                 ep: 8,
-                name: 'פרק 8 – סוף הסיפור?',
+                name: 'פרק 8 - סוף הסיפור?',
                 subtitle: 'היום הגדול הגיע. אור איתמר וסיגל יוצאים לנסות ולהיפגש עם ההורה המנותק שלהם. האם יעל ובתה נועה יצליחו לגשר על הפערים? ואיך שרה תסיים את המסע? האם זוהי תחילתה של תקופה חדשה לכולם? 10.06.2024',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pheolohe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/od-nipagesh/s3-ep8.jpg',
@@ -20737,7 +24192,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 2,
                 name: 'פרק 2 - יאסר ערפאת',
-                subtitle: 'יאסר ערפאת – האיש בעל אלף הנשמות. המנהיג שהוביל את עמו אל דרך הטרור, ניסיונות חיסולו ע"י ישראל, והמו״מ לשלום שכשל 15.06.2020',
+                subtitle: 'יאסר ערפאת - האיש בעל אלף הנשמות. המנהיג שהוביל את עמו אל דרך הטרור, ניסיונות חיסולו ע"י ישראל, והמו״מ לשלום שכשל 15.06.2020',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891605/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/oyvim/s1-ep2.jpg',
                 placeholder: '2'
@@ -20994,7 +24449,7 @@ window.ISRTV_KANBOX = [
             }
         ]
     },
-{
+    {
         id: 'slicha-al-hasheela',
         name: 'סליחה על השאלה',
         placeholder: 'סליחה על השאלה',
@@ -21426,7 +24881,7 @@ window.ISRTV_KANBOX = [
                 season: 4,
                 ep: 1,
                 name: 'פרק 1 - משפחות החטופים',
-                subtitle: 'שמונה מבני משפחות החטופים בעזה מדברים באומץ וכנות – על עצמם. מה מפחיד אותם? איך הם נרדמים בלילה ומה מאפשר להם להמשיך לקום בבוקר? איך נראים החלומות שלהם? ואיך הם מרגישים עם החיבוק הקולקטיבי שהם מקבלים? במציאות לא הגיונית הם מנסים לנסח לעצמם ולנו את האמת על החיים החדשים שנכפו עליהם',
+                subtitle: 'שמונה מבני משפחות החטופים בעזה מדברים באומץ וכנות - על עצמם. מה מפחיד אותם? איך הם נרדמים בלילה ומה מאפשר להם להמשיך לקום בבוקר? איך נראים החלומות שלהם? ואיך הם מרגישים עם החיבוק הקולקטיבי שהם מקבלים? במציאות לא הגיונית הם מנסים לנסח לעצמם ולנו את האמת על החיים החדשים שנכפו עליהם',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dzvuzvlj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/slicha-al-hasheela/s4-ep1.jpg',
                 placeholder: '1'
@@ -21550,6 +25005,16 @@ window.ISRTV_KANBOX = [
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ud1e7ca1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/slicha-al-hasheela/s4-ep13.jpg',
                 placeholder: '13'
+            },
+            {
+                id: 'slicha-al-hasheela-s4-ep14',
+                season: 4,
+                ep: 14,
+                name: 'פרק 14 - אנשים שעזבו את הארץ',
+                subtitle: 'אנשים שעזבו את הארץ עונים בכנות ובאומץ על שאלות שלא תמיד נעים לשאול',
+                streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2252327/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
+                imageURL: 'images/kanbox/slicha-al-hasheela/s4-ep14.jpg',
+                placeholder: '14'
             }
         ]
     },
@@ -21702,7 +25167,7 @@ window.ISRTV_KANBOX = [
                 season: 1,
                 ep: 4,
                 name: 'פרק 4 - מחיר הבגידה',
-                subtitle: 'בישראל ישנה אווירת נכאים מהחשש לניתוק היחסים עם בת הברית,אמריקה, ודווקא אז – מתבצעת כל טעות אפשרית. פולארד ישלם על כך ב-35 שנות סבל בכלא האמריקאי 23.02.2022',
+                subtitle: 'בישראל ישנה אווירת נכאים מהחשש לניתוק היחסים עם בת הברית,אמריקה, ודווקא אז - מתבצעת כל טעות אפשרית. פולארד ישלם על כך ב-35 שנות סבל בכלא האמריקאי 23.02.2022',
                 streamURL: 'https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iwou5n5q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4',
                 imageURL: 'images/kanbox/pollard/ep4.jpg',
                 placeholder: '4'

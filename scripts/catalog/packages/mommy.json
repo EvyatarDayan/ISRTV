@@ -1,0 +1,293 @@
+{
+  "slug": "mommy",
+  "title": "אמא'לה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1",
+  "version": "4e9260d0181f",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 28,
+  "localPoster": "images/kanbox/mommy/series.jpg",
+  "catalogPoster": "scripts/catalog/media/mommy/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "שני פסים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-afacad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_01_211205_VOD_v14sd1/Imale_01_211205_VOD_v14sd1_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אמא כן או לא",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-9efcad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_02_281205_VOD_v158gs/Imale_02_281205_VOD_v158gs_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "אוי ואבוי מה עשיתי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-120ead7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_03_040106_VOD_mns9265/Imale_03_040106_VOD_mns9265_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אני יולדת!",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-0acead7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_04_180106_VOD_cmnlkj43/Imale_04_180106_VOD_cmnlkj43_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "השיבה הביתה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-8f0fad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_05_250106_VOD_vciw658/Imale_05_250106_VOD_vciw658_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "טוב לי או רע לי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-bea0ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_06_010206_VOD_xcrtoij56/Imale_06_010206_VOD_xcrtoij56_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "בחזרה לחיים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-c602ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_07_080206_VOD_vckjn436/Imale_07_080206_VOD_vckjn436_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "כל הטובים הם הומואים...",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-c172ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_08_150206_VOD_fdgkj43/Imale_08_150206_VOD_fdgkj43_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "משפחתי וחיות אחרות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-2333ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_09_010306_VOD_vkje6875/Imale_09_010306_VOD_vkje6875_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "סיום העונה: מי האבא?",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1/VOD-e463ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S01/Imale_10_080306_VOD_ruc297/Imale_10_080306_VOD_ruc297_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s1-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "בדיקת אבהות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-6555ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_01_140307_VOD_1sv32f/Imale2_01_140307_VOD_1sv32f_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "תפקיד האב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-35a5ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_02_210307_VOD_v15w6d/Imale2_02_210307_VOD_v15w6d_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "הפעם הראשונה עם יואב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-8216ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_03_280307_VOD_1dg3c2/Imale2_03_280307_VOD_1dg3c2_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "היום הראשון בגן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-9466ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_04_110407_VOD_1bs5f6/Imale2_04_110407_VOD_1bs5f6_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "הכירו את דורון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-c387ad7c9c52a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_05_180407_VOD_v1d13d/Imale2_05_180407_VOD_v1d13d_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "לילה עם יואב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-2128a3b6b462a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_06_250407_VOD_4n56gf/Imale2_06_250407_VOD_4n56gf_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "הסוד של פרנקו",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-3a48c7d4e462a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_07_020507_VOD_1vs56f/Imale2_07_020507_VOD_1vs56f_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "צימר רומנטי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-cda8c7d4e462a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_08_090507_VOD_g156ds/Imale2_08_090507_VOD_g156ds_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פרק סיום העונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-b129cee9a303a11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/EP/Imale2_09_230507_VOD_bd121c/Imale2_09_230507_VOD_bd121c_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "הבלוג של אמא'לה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s2/VOD-da6af254c217c11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S02/Specials/Imale2_Blog_Efrat_VOD_yzx7c6/Imale2_Blog_Efrat_VOD_yzx7c6_,500,850,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s2-ep10.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "חיים חדשים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-07cf36254918d11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_01_VOD_091108_tew6532/Imale3_01_VOD_091108_tew6532_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "האיחוד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-29485e39f368d11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_02_VOD_101108_ew287/Imale3_02_VOD_101108_ew287_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "חיים שכאלה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-efe3b75443bad11006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_03_VOD_171108_ety4598/Imale3_03_VOD_171108_ety4598_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "תאילנד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-c1504930ad9cd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_04_VOD_241108_eyt27/Imale3_04_VOD_241108_eyt27_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "יום הולדת ליואב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-114d653afeded11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_05_VOD_011208_fdjh438/Imale3_05_VOD_011208_fdjh438_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "היריון שני",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-181d8b34a371e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_06_VOD_081208_ytiu43/Imale3_06_VOD_081208_ytiu43_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "האולטימטום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-3774a41e42b3e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_07_VOD_151208_dfj47/Imale3_07_VOD_151208_dfj47_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "החתונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s3/VOD-9f1a799077c5e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Imale/S03/Imale3_08_VOD_211208_gdsh65/Imale3_08_VOD_211208_gdsh65_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mommy/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/mommy/s3-ep8.jpg"
+    }
+  ]
+}

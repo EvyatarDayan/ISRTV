@@ -1,0 +1,43 @@
+{
+  "slug": "likudnikim",
+  "title": "הליכודניקים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1",
+  "version": "4609cfa836a4",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 3,
+  "localPoster": "images/kanbox/likudnikim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/likudnikim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המטרה: שלטון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-96417126b00ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_01_VOD_5jl14/uvda2019_halikudnikim_01_VOD_5jl14_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/likudnikim/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/likudnikim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "מזימות בצמרת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-d10cf013210ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_02_VOD_rjl241/uvda2019_halikudnikim_02_VOD_rjl241_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/likudnikim/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/likudnikim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "תאוות השלטון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1/VOD-a3b2fc01055ad61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/uvda/Halikudnikim/uvda2019_halikudnikim_03_VOD_kjh958/uvda2019_halikudnikim_03_VOD_kjh958_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/likudnikim/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/likudnikim/s1-ep3.jpg"
+    }
+  ]
+}

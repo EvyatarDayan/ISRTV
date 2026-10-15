@@ -40,6 +40,7 @@ SERIES = [
     ("nevsu", 262, "נבסו"),
     ("televizya-mehaatid", 90, "טלוויזיה מהעתיד"),
     ("power-couple", 728, "פאוור קאפל"),
+    ("haaretz-hamuvtachat", 737, "הארץ המובטחת"),
     ("leehov-et-ana", 443, "לאהוב את אנה"),
 ]
 
@@ -247,6 +248,7 @@ def scrape_one(ks: str, slug: str, series_id: int, title_fb: str) -> dict:
                 "ep": epn,
                 "season": season,
                 "name": name,
+                "subtitle": (o.get("description") or "").strip(),
                 "pageURL": f"https://13tv.co.il/allshows/series/{series_id}/season/{season}/{o.get('id')}/",
                 "assetId": o.get("id"),
                 "entryId": o.get("entryId"),
@@ -279,7 +281,7 @@ def scrape_one(ks: str, slug: str, series_id: int, title_fb: str) -> dict:
             key = (e["season"], e["ep"])
         seen.add(key)
         deduped.append(e)
-    episodes = deduped
+    episodes = sorted(deduped, key=lambda e: (e["season"], e["ep"]))
 
     poster = f"images/kanbox/{slug}/series.jpg"
     poster_remote = img_url(

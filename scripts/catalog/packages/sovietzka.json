@@ -1,0 +1,93 @@
+{
+  "slug": "sovietzka",
+  "title": "סובייצקה",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/",
+  "version": "36ea740c3078",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/sovietzka/series.jpg",
+  "catalogPoster": "scripts/catalog/media/sovietzka/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - המילה האחרונה",
+      "subtitle": "משפחת גולדנברג מתאספת לכבוד ברית המילה של הנכד הראשון. סטס, האבא, מתקשה עם הפרוצדורה אותה עבר בעצמו בגיל מאוחר. ואילו אחותו הקטנה, ענת, מנסה לעזור לאביהם לקבל את הפיצויים שמגיעים לו, אך העניין מסתבך 13.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/485102/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j3m0510k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/kuqhottu/%D7%A4%D7%A8%D7%A7-1-%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.37557735028847533,0.4261928664785104&width=490&height=272&v=1dad90bef0068a0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - מפרש בודד מלבין באופק",
+      "subtitle": "לאחר הפיטורים של אביה, ענת מחפשת עבודה במרץ, בזמן שהתהילה של הסרטון בביטוח לאומי רודפת אותה. סטס מפלרטט עם הרעיון לצאת לחופשת לידה, ואלה מתחילה להבין שחלה הדרדרות בבריאות אימה 17.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/485128/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4k7b3o5c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/zeujtcwx/%D7%9C%D7%90%D7%AA%D7%A8-%D7%A4%D7%A8%D7%A7-2.jpg?rxy=0.426181574929734,0.3069088049258863&width=490&height=272&v=1dad90beb12dac0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - מלחמת עולם שלישית",
+      "subtitle": "אחד המרצים באוניברסיטה מחקה מבטא רוסי. ענת מתעדת אותו ומסבכת אותו עם ההנהלה. סטס מתחיל להתמודד על תקן לרילקושיין בעבודה, ואלה מתחילה ללמד תלמידה חדשה שלא יודעת רוסית 20.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/494674/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2m52trp4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/q1iid0yr/s0435079_100_14_22_14still001.jpg?width=490&height=272&v=1dad92870225b70",
+      "catalogImage": ""
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 – דוז פואה",
+      "subtitle": "ענת וסטס נוסעים להורים כדי לצפות בשידור האירוויזיון. סמיון מרוצה מהגעתם, אך אלה לחוצה שהילדים ישימו לב למצב של סבתם. ענת הולכת למסיבת רווקות של החברה הכי טובה שלה מהתיכון 23.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/500820/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ys93oedh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/v2gjjbnc/%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dad926840621f0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 – גם כן, טרקובסקי",
+      "subtitle": "מאשה הסבתא נועלת את עצמה בשירותים ומסרבת ללכת לרופא. ענת נוסעת לבית שאן כדי לעזור להורים לשכנע אותה לצאת, בזמן שסטס עושה הכל כדי לא להתכונן לריאיון לרילוקיישן 27.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/505519/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ofp29a6g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/pj1kc3us/otlichno-%D7%A1%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%A7%D7%94-%D7%A4%D7%A8%D7%A7-5-%D7%90%D7%AA%D7%A8-%D7%95%D7%91%D7%95%D7%A7%D7%A1-flippitydoo.jpg?rxy=0.41207794162302686,0.40051770594586406&width=490&height=272&v=1dad925b63dc610",
+      "catalogImage": ""
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 – Soviet Washing",
+      "subtitle": "ענת מגלה שלא נתנו לאחותו של אלכס להתחתן ברבנות, ומחליטה שסובייצקה צריכה לנקוט עמדה, מה שמוביל אותה עד לטלוויזיה. סטס מקבל את הרילוקיישן ומסתיר זאת מנסטיה 31.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/510325/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlf7u2of/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/b4obyegs/artboard-1.jpg?width=490&height=272&v=1dad913d0ae2290",
+      "catalogImage": ""
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - סערה בכוס תה",
+      "subtitle": "המשפחה מגיעה לצפות בענת באולימפיאדה למתמטיקה. ענת רוצה לזכות רק כדי לרצות את אמה. סטס, שעדיין מתאושש מהתקף החרדה שהוביל אותו למיון, מאבד את סבתא שלהם, וענת נאלצת למצוא דרך גם לעזור לו וגם להתחרות 03.09.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/515235/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h9hw28j5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/zatbxknt/pic-%D7%98%D7%95%D7%91-%D7%9C%D7%90%D7%AA%D7%A8.jpg?rxy=0.501707423651459,0.556272208928169&width=490&height=272&v=1dad91269515eb0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - צ'כובה הבאה",
+      "subtitle": "יום השימוע של סמיון מגיע. ענת רוצה לעזור אך הוריה מתקשים לקבל את עזרתה. סטס מתמודד עם הפחדים שלו וענת צריכה להחליט האם 'סובייצקה' היא חלק בלתי נפרד ממנה או רק שלב בקבלת הזהות שלה 07.09.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/s1/521047/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_afkd332r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/2gvjgkhw/%D7%A1%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%A7%D7%94-%D7%90%D7%AA%D7%A8.jpg?rxy=0.7186097502879708,0.49291195172976554&width=490&height=272&v=1dad929b4b617d0",
+      "catalogImage": ""
+    }
+  ]
+}

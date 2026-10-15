@@ -1,0 +1,43 @@
+{
+  "slug": "tapuchim-midbar",
+  "title": "תפוחים מן המדבר",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13875/",
+  "version": "84706833f10b",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 3,
+  "localPoster": "images/kanbox/tapuchim-midbar/series.jpg",
+  "catalogPoster": "scripts/catalog/media/tapuchim-midbar/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "רבקה, צעירה מבית חרדי מואסת במציאות חייה ופוגשת קיבוצניק חילוני שמציע לה חיים אחרים 28.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81379/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_twen8deu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tapuchim-midbar/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/tapuchim-midbar/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "ראובן נועל את רבקה בחדרה עד שתתרצה ותסכים לפגוש את החתן המיועד בארוחת שישי 28.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81381/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ru4diuns/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tapuchim-midbar/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/tapuchim-midbar/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "רבקה ודובי חוזרים למעגל החיים בקיבוץ והקשר מתחזק. הם מנסים לתלות מזוזה בחדר התרבות שמהווה בית כנסת בקיבוץ, ונוצר משבר גדול בקרב חברי הקיבוץ 28.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13875/s1/81383/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_txr3tnvs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tapuchim-midbar/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/tapuchim-midbar/s1-ep3.jpg"
+    }
+  ]
+}

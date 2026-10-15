@@ -1,0 +1,725 @@
+{
+  "updatedAt": "2026-10-13T19:04:38Z",
+  "series": [
+    {
+      "slug": "a-body-that-works",
+      "title": "גוף שלישי",
+      "source": "mako",
+      "version": "65e2f6b1feb7",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "alumim",
+      "title": "עלומים",
+      "source": "kan",
+      "version": "f1208e33df62",
+      "episodeCount": 9,
+      "updatedAt": "2026-10-05T12:27:58Z"
+    },
+    {
+      "slug": "anashim-shepagashti",
+      "title": "אנשים שפגשתי",
+      "source": "kan",
+      "version": "0937bfaa3ae3",
+      "episodeCount": 4,
+      "updatedAt": "2026-10-13T18:58:52Z"
+    },
+    {
+      "slug": "arabic-work",
+      "title": "עבודה ערבית",
+      "source": "mako",
+      "version": "a712448d28ff",
+      "episodeCount": 44,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "avi-bitter",
+      "title": "אבי ביטר חי בסרט",
+      "source": "mako",
+      "version": "e0fb3daa7757",
+      "episodeCount": 16,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "avi-nussbaum-standup",
+      "title": "אבי נוסבאום - סטנדאפ",
+      "source": "mako",
+      "version": "53d635045f15",
+      "episodeCount": 2,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "aviram-katz",
+      "title": "אבירם כץ",
+      "source": "kan",
+      "version": "0fd44136c811",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:58Z"
+    },
+    {
+      "slug": "bahastora",
+      "title": "בהסתורה",
+      "source": "kan",
+      "version": "19db1fdf6b37",
+      "episodeCount": 9,
+      "updatedAt": "2026-10-05T12:27:58Z"
+    },
+    {
+      "slug": "bou-leechol-iti",
+      "title": "בואו לאכול איתי",
+      "source": "kan",
+      "version": "df0311cdcd62",
+      "episodeCount": 301,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "bou-leechol-iti-aravit",
+      "title": "בואו לאכול איתי - ערבית",
+      "source": "kan",
+      "version": "db8577832914",
+      "episodeCount": 40,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "bublilim",
+      "title": "הבובלילים",
+      "source": "mako",
+      "version": "37fa45d1f312",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "bufor",
+      "title": "בופור",
+      "source": "mako",
+      "version": "a7cb5e00e1d0",
+      "episodeCount": 4,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "carthago",
+      "title": "קרתגו",
+      "source": "kan",
+      "version": "f77449145d1a",
+      "episodeCount": 11,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "chosen-people",
+      "title": "עם סגולה",
+      "source": "mako",
+      "version": "4e05dde16b47",
+      "episodeCount": 11,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "dor-echad-vachetsi",
+      "title": "דור אחד וחצי",
+      "source": "kan",
+      "version": "5cbc56e9fd9e",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "dudu-topaz-case",
+      "title": "תיק דודו טופז",
+      "source": "mako",
+      "version": "03007143549f",
+      "episodeCount": 2,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "east-side",
+      "title": "איסט סייד",
+      "source": "kan",
+      "version": "439cd11f63b7",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "echad-al-echad",
+      "title": "אחד על אחד",
+      "source": "kan",
+      "version": "65657c0e1bb9",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "etti-alon",
+      "title": "אתי אלון",
+      "source": "mako",
+      "version": "7e2dcce5480d",
+      "episodeCount": 2,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hadavar-hagadol",
+      "title": "הדבר הגדול המיוחד",
+      "source": "kan",
+      "version": "e3d4b12b1eb7",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "haemet",
+      "title": "האמת",
+      "source": "kan",
+      "version": "48cc12b36da2",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hahamam",
+      "title": "החמאם",
+      "source": "kan",
+      "version": "fdf644f89b91",
+      "episodeCount": 6,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "haish-shemenaa",
+      "title": "האיש שניסה למנוע מלחמה",
+      "source": "kan",
+      "version": "9cb30cec483a",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "haish-sheratza",
+      "title": "האיש שרצה לדעת הכול",
+      "source": "kan",
+      "version": "597a4a92a803",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "haklatot-hanatzim",
+      "title": "הקלטות הנאצים",
+      "source": "kan",
+      "version": "1796cb50bbd1",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "halayla-haaroch",
+      "title": "הלילה הארוך ביותר",
+      "source": "kan",
+      "version": "d43a0a4f4d4d",
+      "episodeCount": 2,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hamazah",
+      "title": "המזח",
+      "source": "kan",
+      "version": "6748b34abdd5",
+      "episodeCount": 5,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hamifkadet",
+      "title": "המפקדת",
+      "source": "kan",
+      "version": "2bc04a0a7d00",
+      "episodeCount": 30,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hanoch-daum-standup",
+      "title": "חנוך דאום - ההופעה",
+      "source": "mako",
+      "version": "43cac9dac880",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hapartisan-haachron",
+      "title": "הפרטיזן האחרון",
+      "source": "kan",
+      "version": "6c3675a24616",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hatasritai",
+      "title": "התסריטאי",
+      "source": "kan",
+      "version": "0a09c92acb7e",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hayehudim-baim",
+      "title": "היהודים באים",
+      "source": "kan",
+      "version": "87306fba54f5",
+      "episodeCount": 84,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hazarot",
+      "title": "חזרות",
+      "source": "kan",
+      "version": "edbe5d9791b5",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hazvi",
+      "title": "הצבי",
+      "source": "kan",
+      "version": "dfa1fa643a18",
+      "episodeCount": 6,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hed-kolech",
+      "title": "הד קולך",
+      "source": "kan",
+      "version": "326de6411fb5",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hidat-meshulam",
+      "title": "חידת משולם",
+      "source": "kan",
+      "version": "623f22338489",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hitnatkut",
+      "title": "התנתקות",
+      "source": "kan",
+      "version": "f3f18221ef47",
+      "episodeCount": 5,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "huliganim",
+      "title": "חוליגנים",
+      "source": "kan",
+      "version": "02d686914264",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "hundred-percent-ashkenazi",
+      "title": "עדי אשכנזי - מאה אחוז סטנדאפ",
+      "source": "mako",
+      "version": "b0a524c8ee7b",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "ismach-chatani",
+      "title": "ישמח חתני",
+      "source": "mako",
+      "version": "d0471807d2ce",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "kol-haimahot",
+      "title": "כל האימהות משקרות",
+      "source": "kan",
+      "version": "fd52a242f764",
+      "episodeCount": 9,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "kupa-rashit",
+      "title": "קופה ראשית",
+      "source": "kan",
+      "version": "eb7d43ea2604",
+      "episodeCount": 111,
+      "updatedAt": "2026-10-13T19:04:38Z"
+    },
+    {
+      "slug": "life-is-difficult",
+      "title": "החיים הם תקופה קשה",
+      "source": "mako",
+      "version": "201df1a52562",
+      "episodeCount": 16,
+      "updatedAt": "2026-10-09T12:40:06Z"
+    },
+    {
+      "slug": "likudnikim",
+      "title": "הליכודניקים",
+      "source": "mako",
+      "version": "4609cfa836a4",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "lo-lariv",
+      "title": "לא לריב",
+      "source": "kan",
+      "version": "143f06150dbb",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "makom-sameach",
+      "title": "מקום שמח",
+      "source": "kan",
+      "version": "3c3cf1c88fe3",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "malach-mashchit",
+      "title": "מלאך משחית",
+      "source": "kan",
+      "version": "5f4d3a6592e1",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "mashiah",
+      "title": "משיח",
+      "source": "mako",
+      "version": "aeac5468e5ad",
+      "episodeCount": 27,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "matir-agunot",
+      "title": "מתיר עגונות",
+      "source": "kan",
+      "version": "6156572931c1",
+      "episodeCount": 12,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "menayek",
+      "title": "מנאייכ",
+      "source": "kan",
+      "version": "3e5d2c715473",
+      "episodeCount": 30,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "migras-harusim",
+      "title": "מגרש הרוסים",
+      "source": "kan",
+      "version": "3a295e483841",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "mommy",
+      "title": "אמא'לה",
+      "source": "mako",
+      "version": "4e9260d0181f",
+      "episodeCount": 28,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "mona",
+      "title": "מונא",
+      "source": "kan",
+      "version": "5ad35e18e665",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "motek-bol",
+      "title": "מותק בול באמצע",
+      "source": "kan",
+      "version": "f68c963e23fc",
+      "episodeCount": 23,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "nicol-raidman",
+      "title": "החיים החדשים של ניקול ראידמן",
+      "source": "mako",
+      "version": "0781130c7231",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "nutuk-drama",
+      "title": "נוטוק",
+      "source": "mako",
+      "version": "4fdef335567a",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "od-nipagesh",
+      "title": "עוד ניפגש",
+      "source": "kan",
+      "version": "de830c4d4b2b",
+      "episodeCount": 26,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "ori-hizkiah",
+      "title": "אורי חזקיה - הופה לא קרה כלום",
+      "source": "mako",
+      "version": "b5f3c47649df",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "oyvim",
+      "title": "אויבים: מנהיגי ערב נחשפים",
+      "source": "kan",
+      "version": "e5799511c2ee",
+      "episodeCount": 27,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "pamta",
+      "title": "פמת\"א",
+      "source": "kan",
+      "version": "87413c7517c4",
+      "episodeCount": 21,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "peduyim",
+      "title": "פדויים",
+      "source": "kan",
+      "version": "9c87e5de3899",
+      "episodeCount": 2,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "pollard",
+      "title": "פולארד",
+      "source": "kan",
+      "version": "b1bf0061e886",
+      "episodeCount": 4,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "reset",
+      "title": "ריסט",
+      "source": "mako",
+      "version": "823b9785596c",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "sapir-movie",
+      "title": "ספיר",
+      "source": "mako",
+      "version": "5c093bf4f7e5",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "savta-bishla",
+      "title": "סבתא בישלה עם תום יער",
+      "source": "kan",
+      "version": "8901c2fd5172",
+      "episodeCount": 18,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "shaat-efes",
+      "title": "שעת אפס",
+      "source": "kan",
+      "version": "60b463611f34",
+      "episodeCount": 6,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "shaat-neila",
+      "title": "שעת נעילה",
+      "source": "kan",
+      "version": "c4e46959dbf1",
+      "episodeCount": 6,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "shabas",
+      "title": "שב\"ס",
+      "source": "kan",
+      "version": "3ab1ea4d5da5",
+      "episodeCount": 20,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "she-is-with-me",
+      "title": "להיות איתה",
+      "source": "mako",
+      "version": "4e612ae26f27",
+      "episodeCount": 24,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "shisha-afasim",
+      "title": "שישה אפסים",
+      "source": "kan",
+      "version": "1eafc9cd28d9",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "shtokholm",
+      "title": "שטוקהולם",
+      "source": "kan",
+      "version": "5141f6c4560e",
+      "episodeCount": 12,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "sky-army",
+      "title": "צבא שמיים",
+      "source": "mako",
+      "version": "b363e110fc0f",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "slicha-al-hasheela",
+      "title": "סליחה על השאלה",
+      "source": "kan",
+      "version": "23d9fdf233a5",
+      "episodeCount": 56,
+      "updatedAt": "2026-10-09T09:55:24Z"
+    },
+    {
+      "slug": "sovietzka",
+      "title": "סובייצקה",
+      "source": "kan",
+      "version": "36ea740c3078",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "taboo-daum",
+      "title": "טאבו עם חנוך דאום",
+      "source": "kan",
+      "version": "bcab9f02c5eb",
+      "episodeCount": 18,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "tapuchim-midbar",
+      "title": "תפוחים מן המדבר",
+      "source": "kan",
+      "version": "84706833f10b",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "tehran",
+      "title": "טהרן",
+      "source": "kan",
+      "version": "8dd20ce341b4",
+      "episodeCount": 24,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "the-boys",
+      "title": "הנערים",
+      "source": "mako",
+      "version": "7789e49574f2",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "the-comedians",
+      "title": "הסטנדאפיסטים",
+      "source": "mako",
+      "version": "a8ca29ac15fd",
+      "episodeCount": 18,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "the-cops",
+      "title": "השוטרים",
+      "source": "mako",
+      "version": "e531e9c559d8",
+      "episodeCount": 16,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "the-head",
+      "title": "הראש",
+      "source": "mako",
+      "version": "c2dc8fc5cc63",
+      "episodeCount": 9,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "the-new-rich",
+      "title": "העשירים החדשים",
+      "source": "mako",
+      "version": "6c0f8dbf8a29",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "the-property",
+      "title": "הנחלה",
+      "source": "mako",
+      "version": "b6564327d1ed",
+      "episodeCount": 19,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "this-is-sodom",
+      "title": "זוהי סדום",
+      "source": "mako",
+      "version": "d670c0625cdb",
+      "episodeCount": 1,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "tik-512",
+      "title": "תיק 512",
+      "source": "kan",
+      "version": "bdc5c4faf76b",
+      "episodeCount": 3,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "tik-needar",
+      "title": "תיק נעדר",
+      "source": "kan",
+      "version": "46e16db0a512",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    },
+    {
+      "slug": "tortels",
+      "title": "הטורטלים",
+      "source": "mako",
+      "version": "23fadbe4326a",
+      "episodeCount": 18,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "waking-bears",
+      "title": "להעיר את הדב",
+      "source": "mako",
+      "version": "c52f192d5d9b",
+      "episodeCount": 10,
+      "updatedAt": "2026-10-05T12:28:00Z"
+    },
+    {
+      "slug": "wedding-at-first-sight",
+      "title": "חתונה ממבט ראשון",
+      "source": "mako",
+      "version": "8ee388e5af82",
+      "episodeCount": 69,
+      "updatedAt": "2026-10-08T20:45:11Z"
+    },
+    {
+      "slug": "yafa",
+      "title": "יאפא",
+      "source": "kan",
+      "version": "f673a9a0f8f2",
+      "episodeCount": 8,
+      "updatedAt": "2026-10-05T12:27:59Z"
+    }
+  ]
+}

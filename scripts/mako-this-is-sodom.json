@@ -1,0 +1,22 @@
+{
+  "slug": "this-is-sodom",
+  "title": "זוהי סדום",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/this_is_sodom",
+  "localPoster": "images/kanbox/this-is-sodom/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "זוהי סדום",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/this_is_sodom-s1/VOD-db018a6b2827a91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Zohi_Sdom/Zoei_Sdom_051810_VOD_frt653/Zoei_Sdom_051810_VOD_frt653_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "db018a6b2827a910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "0f905cf41687a910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2025/11/12/zohi_sdom_x5_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/this-is-sodom/ep1.jpg",
+      "subtitle": "הסרט המלא"
+    }
+  ]
+}

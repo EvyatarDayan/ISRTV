@@ -1,0 +1,33 @@
+{
+  "slug": "peduyim",
+  "title": "פדויים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13015/",
+  "version": "9c87e5de3899",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 2,
+  "localPoster": "images/kanbox/peduyim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/peduyim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - חלק א - הלם השיבה",
+      "subtitle": "סיפורם של השבויים: הנפילה בשבי והחזרה לארץ, עם הגילוי כי גם בישראל הם חשודים 13.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13015/134999/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vf3kemwq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/peduyim/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/peduyim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - חלק ב - קווים אדומים",
+      "subtitle": "השבויים נחקרים בשיטת זריקת הפנטוטאל, חומר כימי שמחזיר אותם לשדה הקרב ולשבי, כדי שיספרו את האמת 14.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13015/135001/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb7ntvkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/peduyim/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/peduyim/s1-ep2.jpg"
+    }
+  ]
+}

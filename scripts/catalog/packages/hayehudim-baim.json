@@ -1,0 +1,853 @@
+{
+  "slug": "hayehudim-baim",
+  "title": "היהודים באים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/",
+  "version": "87306fba54f5",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 84,
+  "localPoster": "images/kanbox/hayehudim-baim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/hayehudim-baim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77532/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lxdm9l6x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77538/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9uqy3c91/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77541/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ugr5ia37/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77544/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0jubt9h1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77547/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ncm66jxb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77550/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7jsxb0y1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77553/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_inhj4b37/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eubejkcu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77559/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8aij0a4q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hs7exusx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i0sk86an/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "פרק 12",
+      "subtitle": "סדרת מערכונים סאטירית הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו 31.12.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s1/77568/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ujfrgzgc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s1-ep12.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77571/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_aba88chk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77574/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jql71ei8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77577/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_prbfyns1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77580/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kadx6msz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77583/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4plp6fy1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77586/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dyvcw1u7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77589/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9vf91vwd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f41yomus/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פרק 9",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77595/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ya67ok21/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "פרק 10",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77598/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yf7drpf4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "name": "פרק 11",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77601/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eflcrf6p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "name": "פרק 12",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77604/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vchg4mt9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "name": "פרק 13",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77607/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c614f33n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 2,
+      "name": "פרק 14",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77610/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tctmvlyl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 2,
+      "name": "פרק 15",
+      "subtitle": "עונתה השניה של סדרת המערכונים שחוזרת לרגעים הגדולים (והקטנים) של העם היהודי, ומעירה לחיים את הדמויות ההיסטוריות החשובות (והפחות חשובות) 09.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/81571/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fdtg8un8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 2,
+      "name": "פרק 16 - היהודים באים לחגוג עצמאות",
+      "subtitle": "כאן שמחים להציג את חגיגות יום העצמאות ה-70 של המדינה החשמונאית בפרק מיוחד של \"היהודים באים\" 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s2/77507/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r3z1gpzg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s2-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s2-ep16.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "פרק 1",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81564/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y63nudqx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "פרק 2",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81574/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_069gsgby/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "פרק 3",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81582/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_brdqnmbg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "פרק 4",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81585/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlg5dqvj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "פרק 5",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81588/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zgmr3kml/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "פרק 6",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81591/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zd18sct9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "פרק 7",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81594/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cr3dulrz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "פרק 8",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81597/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_87jh9nz8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 3,
+      "name": "פרק 9",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81600/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2mrnlhtf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 3,
+      "name": "פרק 10",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81603/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f763zh4o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 3,
+      "name": "פרק 11",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81606/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_45oqaas6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 3,
+      "name": "פרק 12",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81609/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_erfers1p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 3,
+      "name": "פרק 13",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81612/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d02ivkef/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 3,
+      "name": "פרק 14",
+      "subtitle": "היהודים באים היא סדרת טלוויזיה ישראלית סאטירית, זוכת פרס האקדמיה, הכוללת מערכונים אודות ההיסטוריה של העם היהודי 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/81615/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0yscs2wl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 3,
+      "name": "פרק 15 - המיטב",
+      "subtitle": "עונה 3 | המיטב - ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי ויניב ביטון 19.11.2016",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s3/84085/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_afgneflz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s3-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s3-ep15.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 4,
+      "name": "פרק 1",
+      "subtitle": "עונה רביעית לסדרת הסאטירה, זוכת פרס האקדמיה לטלוויזיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו, מזווית קצת אחרת. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ermsegyf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 4,
+      "name": "פרק 2",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113884/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3658z3rw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 4,
+      "name": "פרק 3",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113887/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bxk9ib3l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 4,
+      "name": "פרק 4",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113889/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bgan9ut2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 4,
+      "name": "פרק 5",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113892/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_70zt6s2m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 4,
+      "name": "פרק 6",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113895/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9nc7bhxs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 4,
+      "name": "פרק 7",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113897/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ofrumhc3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 4,
+      "name": "פרק 8",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113899/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pou5x9y1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 4,
+      "name": "פרק 9",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113901/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_axznvp5q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 4,
+      "name": "פרק 10",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113903/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mxwhbayk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 4,
+      "name": "פרק 11",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113905/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wuxmjnbj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 4,
+      "name": "פרק 12",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113907/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ggozlxhi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 4,
+      "name": "פרק 13",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113909/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g52ozb6t/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 4,
+      "name": "פרק 14",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113912/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v5bdlfqa/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 4,
+      "name": "פרק 15",
+      "subtitle": "סאטירה. סדרה הבוחנת את ההיסטוריה של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור ויניב ביטון. הסיפורים שכולנו מכירים מזווית חדשה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s4/113914/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tkh0r5au/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s4-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s4-ep15.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 5,
+      "name": "פרק 1",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138294/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kj3cfpkb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 5,
+      "name": "פרק 2",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום. 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138297/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lu424a96/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 5,
+      "name": "פרק 3",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138300/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5bzv29t8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 5,
+      "name": "פרק 4",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138303/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o5r96g8e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 5,
+      "name": "פרק 5",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138306/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x73y6glz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 5,
+      "name": "פרק 6",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138309/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rsvz4xlt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 5,
+      "name": "פרק 7",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138312/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk4bxm50/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 5,
+      "name": "פרק 8",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום. 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138315/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kkhll854/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 5,
+      "name": "פרק 9",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138318/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6y0jgrkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 5,
+      "name": "פרק 10",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138321/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk5aq35r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 5,
+      "name": "פרק 11",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138324/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f87o59xd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 5,
+      "name": "פרק 12",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138327/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5la3ylk4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 5,
+      "name": "פרק 13",
+      "subtitle": "עונה חמישית לסדרת הסאטירה זוכת פרס האקדמיה. ההיסטוריה והסיפורים של העם היהודי מתקופת התנ\"ך ועד ימינו. בכיכובם של מוני מושונוב, יוסי מרשק, יעל שרוני, עידו מוסרי, שירה נאור, יניב ביטון ומעיין בלום 07.04.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s5/138330/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t3sc4l57/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s5-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s5-ep13.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 6,
+      "name": "פרק 1 - ספיישל עצמאות",
+      "subtitle": "פרק מיוחד המתמקד באירועים סביב הכרזת העצמאות. התקווה הגדולה והחרדה הגדולה אפילו יותר, וההחלטה של איש אחד, בן גוריון, שלמרות האיומים מסביב, חוסר הגיבוי של העולם והקונפליקטים במועצת העם, הלך על כל הקופה והכריז על מדינה 14.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748629/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88c72fv6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 6,
+      "name": "פרק 2",
+      "subtitle": "שמשון מופקר בדרום, הורדוס גוסס, משה פונה לעם ישראל ורפול מבקר בכלא צבאי. עונה חדשה לסדרת הסאטירה 18.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748630/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1x4kxgp7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 6,
+      "name": "פרק 3",
+      "subtitle": "אנשי המוסד מורידים את מבחוח, נתן אשל מצלם תחתונים, לוי ושמעון נוקמים והקנאים שורפים את כל האסמים בירושלים 25.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/748698/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_470kg86z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 6,
+      "name": "פרק 4",
+      "subtitle": "מימונה אצל דוד לוי, הבת שהצליחה להרוג את סיסרא והקינה המלאכותית החדשה 01.06.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/751088/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1eubipqy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 6,
+      "name": "פרק 5",
+      "subtitle": "שלומית אלוני מפוטרת, אמא של שפינוזה מגנה עליו מחרם והעם שוב יוצא להפגין נגד הרפורמה של הכוהנים 29.06.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/757726/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oljq8q9b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 6,
+      "name": "פרק 6",
+      "subtitle": "יעקב מאשים מלאך שרב איתו מכות, המכבים מתרשמים מנס, בן גוריון מנסה לגייס חרדים ואיך היו מדווחים היום על רצח רבין? 01.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/765598/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q55r111g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 6,
+      "name": "פרק 7",
+      "subtitle": "הכוהנות, רצח ארלוזורוב, מונדיאל 82 וארבעה בנים יושבים בבר: היהודים באים, פרק חדש 06.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/762454/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u8iyng4c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 6,
+      "name": "פרק 8",
+      "subtitle": "בן גוריון מבקש זלוטי מההורים בשביל מדינה יהודית, עם ישראל מעדיף מלך סופר מגניב, איך נלחמים כשלא מבדילים בין ש' לס', וכשהמקובלים בכיתה הם מקובלים 13.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/763623/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hbkw9ani/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 6,
+      "name": "פרק 9",
+      "subtitle": "תחקיר אסון מירון (הראשון), הגזרות של פרעה, משפט ההומואים בצה\"ל ובתיה עוזיאל כוכבת רשת 20.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/765592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nvgi2cco/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 6,
+      "name": "פרק 10",
+      "subtitle": "העימות בין פרס ושמיר, ויצמן והחיילים הבודדים, הגאון מוילנה ומבזק חדשות מיוחד על אירוע בלתי נסלח 03.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769755/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_632hzt0d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 6,
+      "name": "פרק 11",
+      "subtitle": "שרון ושמיר עונים על שאלונים, רפול מעוניין בבוץ, והאמן המפתיע שסחף מדינה שלמה 10.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769764/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v2cusxmn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 6,
+      "name": "פרק 12",
+      "subtitle": "כללי התנהגות לנשים, הפעם ההיא שהשחקן חיים טופול גויס למוסד, והנשק הסודי של מדינת ישראל 10.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769765/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j3571fl5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 6,
+      "name": "פרק 13",
+      "subtitle": "יוסף ולאה בשיחה כנה, חלוקת הארץ, חיים טופול סוכן מוסד ושיר הפרידה של הדמויות האהובות. \"היהודים באים\" סוגרת עונה 24.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/s6/769766/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1qr41r8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hayehudim-baim/s6-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/hayehudim-baim/s6-ep13.jpg"
+    }
+  ]
+}

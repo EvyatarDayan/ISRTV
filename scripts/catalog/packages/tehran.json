@@ -1,0 +1,253 @@
+{
+  "slug": "tehran",
+  "title": "טהרן",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/",
+  "version": "8dd20ce341b4",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 24,
+  "localPoster": "images/kanbox/tehran/series.jpg",
+  "catalogPoster": "scripts/catalog/media/tehran/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "עונה 1 פרק 1 - נחיתת אונס בטהרן",
+      "subtitle": "תמר רביניאן, האקרית מחוננת וסוכנת מוסד, מסתננת ללב טהרן על-מנת לנטרל את מערכת המכ\"ם של צבא איראן, מה שיאפשר למטוסי חיל האוויר להפציץ את הכור הגרעיני האיראני",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113735/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m6svtndt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "עונה 1 פרק 2 - דם על הידיים",
+      "subtitle": "שידור נוסף לקראת העונה החדשה של זוכת האמי הבינ\"ל. בעקבות הרצח, עובדי חברת החשמל ותמר ביניהם מעוכבים לחקירה. טבריזי, סוכן מוסד מקומי, מנסה לחלץ אותה, כשבמקביל פראז, איש משמרות המהפכה, עולה על עקבותיה.",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113737/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_soyoxje0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "עונה 1 פרק 3 - הילדה של ג'סמין",
+      "subtitle": "תמר יורדת למחתרת ומסתתרת אצל ארזו דודתה, שנותרה באיראן והתאסלמה. היא פועלת כדי להימלט באופן עצמאי מאיראן, כאשר פראז וטבריזי מנהלים במקביל מצוד נרחב אחריה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113739/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_67hnsb2y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "עונה 1 פרק 4 - שאקירה וסיקבוי",
+      "subtitle": "תמר מוצאת מקלט בקומונה של מתנגדי משטר צעירים. היחסים בינה לבין מילאד מתחממים בזמן שהוא עוזר לה עם תוכנית המילוט. פראז עוצר וחוקר את טבריזי, כאשר במוסד מתכננים תוכנית חילוץ",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113741/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1p36pt9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "עונה 1 פרק 5 - איראן האחרת",
+      "subtitle": "תמר נוסעת עם מילאד וחברי הקומונה ל\"רייב\" מחתרתי. תמר נדרשת להוכיח את נאמנותה לתנועת ההתנגדות. הקרב בין פראז לטבריזי מגיע לנקודת רתיחה והם נאלצים לקבל החלטות אישיות שיחרצו את גורלם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113743/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w8a5og3l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "עונה 1 פרק 6 - המהנדס",
+      "subtitle": "תמר ומילאד חוזרים לטהרן וסוחטים את איש הקשר. קדוש מנסה לאשר את התוכנית של תמר לניטרול המכ\"ם. פראז משלם את המחיר על חיסול טבריזי וממשיך להילחם למען אשתו",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113745/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qkp5yixn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "עונה 1 פרק 7 - אבא של תמר",
+      "subtitle": "תמר מרוסקת אחרי התקרית בקומונה וחוששת לגורלו של מילאד. קדוש מנסה לעזור לה להתאושש כדי שיוכלו לצאת לפעולה בתחנת החשמל. באיסטנבול חייו של אביה מרדכי תלויים על בלימה כשהמו\"מ בין פראז למוסד משתבש",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113748/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0ep7d26r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - חמש שעות להפצצה",
+      "subtitle": "בזמן שמטוסי F35 ישראלים מתקרבים לעבר הכור, תמר יוצאת עם מילאד וקדוש לפעולה בלב מטה הנ.מ. בטהרן, בנסיון לנטרל את המכ\"ם ולהבטיח את שלום הטייסים. פראז שמצליח לעלות על עקבותיהם מאיים על הצלחת המבצע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s1/113751/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ww9ui9n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s1-ep8.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - 13,000",
+      "subtitle": "תמר רביניאן ניתקה קשר עם המוסד וחיה במחתרת בטהרן יחד עם בן זוגה מילאד כהאני. בעוד הם מתכננים לברוח אל הגבול מאיראן, המוסד שוב יוצר אתה קשר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144504/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fanlu3fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - שינוי בתוכנית",
+      "subtitle": "תמר נשארת בטהרן כדי לבצע משימה חדשה. ראשת המוסד יוליה מגן מורה לסוכנת המוסד המקומית מרג'אן מונתזמי (גלן קלוז) לסייע לתמר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144507/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88ds59jp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3- PTSD",
+      "subtitle": "פראז ויד ימינו עלי עורכים מצוד אחר תמר ומילאד. מרג'אן חודרת לביתו של פראז בכדי לנטרלו, במסווה של פסיכולוגית המטפלת באשתו הסובלת מאגורפוביה. תמר יוצרת קשר עם פיימאן, בנו של מוחמדי. מילאד לא עומד בלחץ",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/144879/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8ff00dg3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - בני עשירים",
+      "subtitle": "שידור נוסף לקראת עליית העונה החדשה. פרק 4: בני עשירים- מרג'אן מפרה פקודה ולא מנטרלת את פראז, כדי שיהיה מקור מודיעיני על מוחמדי. תמר מוזמנת למסיבה של בני העשירים, ומתכננת לשתול סלולרי ממולכד אצל פיימאן.",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/145326/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2219499/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - טעות כפולה",
+      "subtitle": "שידור נוסף לקראת עליית העונה החדשה. פרק 5:טעות כפולה- מילאד נעצר ע\"י משטרת טהרן בחשד למכירת סמים לריצ' קידס מטהרן. פראז ממהר לחקור אותו ותמר שחוששת המוסד ינסה להורגו לפני שישבר בחקירה, מנסה לחלצו.",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/145647/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8jc56xle/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - הבחירה של פראז",
+      "subtitle": "פראז נחשף לרעל שיועד למוחמדי ומצבו מדרדר. בעזרת תרופת הנגד, מרג'אן סוחטת ממנו שיתוף פעולה. כשתמר ופיימאן מתקרבים, מילאד מפקפק באהבתה אליו. עלי חושד שפראז מסתיר ממנו מידע. פראז נאלץ לקבל החלטה קיצונית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146070/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_urlv5qt6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - בטי",
+      "subtitle": "תמר לומדת מפיימאן על מרוץ מכוניות שאביו עומד לערוך מולו. למילאד יש רעיון כיצד לגרום בעזרת תמר למותו של מוחמדי במהלך המרוץ, אלא שרגעים לפני שהמרוץ יוצא לדרך, יש שינוי בתוכניות שמאיים על הצלחת המבצע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146337/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g0l5fodi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - פרק אחרון: הלוויית הדמים",
+      "subtitle": "פרק אחרון לעונה. תמר מאשימה את מילאד בגרימת מותו של פיימאן מתוך קנאה. פראז מתעקש שחייבים לחסל את מוחמדי לפני שיגלה שהמוסד הרג את בנו. מרג'אן מצליחה להכניס את תמר לביתו במהלך ההלווייה כדי שתהרוג אותו",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s2/146577/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nxsiduq9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s2-ep8.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "פרק 1 - עולם רדיואקטיבי",
+      "subtitle": "לאחר שמילאד נרצח בידי המוסד הישראלי וחייה ניצלו בנס, תמר חומקת במקביל מאנשי המוסד וממשמרות המהפכה. תגלית שהיא חושפת משנה את התמונה. במקביל, פראז ונאהיד נלחמים על הישרדותם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/833707/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5kuznpwi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "פרק 2 - פרק 2 - אגרוף בפרצוף",
+      "subtitle": "פרק 2: אגרוף בפרצוף - תמר נלכדת באופן מפתיע, מעונה ומוכה כשהיא חסרת אונים. פראז חש את אצבעות אויביו סוגרות על צוארו. אריק פיטרסון, המפקח מטעם המערב על כך שלאיראן לא תהיה פצצת אטום, מסתבך במהלך ביקורת.",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/836534/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xov7asuv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "פרק 3 - בגוב האריות",
+      "subtitle": "פראז הנואש מאלץ את תמר להגיע למקום המסוכן לה ביותר בטהרן. נאהיד מנסה לשנות את חייה וכורתת ברית. פיטרסון מתגלה במקום בו לא היה אמור להיות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/839205/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_am337lsk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "פרק 4 - אל תוך האש",
+      "subtitle": "מצבו של פיטרסון הולך ומסתבך, נאהיד הופכת לנואשת ותמר חייבת לקחת סיכון ולהתקרב אל ראמין - המבריח הכול יכול בטהרן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/841808/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7g2761vp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "פרק 5 - עסק לא גמור",
+      "subtitle": "פראז מציע הצעה מפתיעה שקשה להאמין לה, תמר וניסן מהמרים על גורלם ופיטרסון חושף את פניו האמיתיות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/844227/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh4gnroy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "פרק 6 - אין מוצא",
+      "subtitle": "תמר וניסן חייבים להיחלץ ממצב בלתי אפשרי. פראז מוכיח את עצמו, אבל נאהיד מרגישה את לפיתתו סוגרת עליה. פיטרסון מחליט לפעול",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/846647/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l4f97mga/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "פרק 7 - רגע האמת של ניסן",
+      "subtitle": "תמר מגייסת משתף פעולה לא צפוי. פיטרסון מתקרב להגשים את משימת חייו. נאהיד מקבלת את ההחלטה הקשה ביותר. ניסן נאלץ להתמודד עם עברו המדמם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852555/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215001/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "פרק 8 - על סף תהום",
+      "subtitle": "פרק אחרון לעונה. פיטרסון משלים את משימתו, ומגלה את כוונתו המדהימה והקטלנית. נאהיד ותמר סוגרות חשבון. תמר ופראז מתעמתים, וניצבים מול בחירות קשות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/s3/852556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vszyia2l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/tehran/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/tehran/s3-ep8.jpg"
+    }
+  ]
+}

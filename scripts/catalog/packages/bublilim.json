@@ -1,0 +1,93 @@
+{
+  "slug": "bublilim",
+  "title": "הבובלילים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim",
+  "version": "37fa45d1f312",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/bublilim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/bublilim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "פרק 1 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-94b019a583d4121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_1/Bublilim_1_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "פרק 2 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-0eea325a6686121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_2/Bublilim_2_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "פרק 3 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-a2df49e01178121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_3/Bublilim_3_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "פרק 4 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-6c5192f078ba121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_4/Bublilim_4_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "פרק 5 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-32a09a9e29fc121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_5/Bublilim_5_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "פרק 6 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-f7d5165fd83f121004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_6/Bublilim_6_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "פרק 7 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-b549be6f7881221006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_7/Bublilim_7_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "subtitle": "פרק 8 מסדרת הדוקו-דרמה העוקבת אחר עינב בובליל ויוסי בובליל, מתמודדי האח הגדול. הבובלילים עכשיו ב-VOD בצפייה מיידית ובחינם",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim-s1/VOD-f1c205f74ab3221006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/bublilim/S01/Bublilim_8/Bublilim_8_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/bublilim/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bublilim/s1-ep8.jpg"
+    }
+  ]
+}

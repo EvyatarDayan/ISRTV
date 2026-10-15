@@ -1,0 +1,93 @@
+{
+  "slug": "makom-sameach",
+  "title": "מקום שמח",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/",
+  "version": "3c3cf1c88fe3",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/makom-sameach/series.jpg",
+  "catalogPoster": "scripts/catalog/media/makom-sameach/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - נא לגעת",
+      "subtitle": "אחרי בדיקה רפואית, ורד מגלה שלאמא שלה עומדים לכרות שתי אצבעות ברגל. בנוסף, דבורה שלוש הפרטזנית משתפת את ורד שאמא שלה ביקשה ממנה שתהרוג אותה 02.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962230/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890934/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/3ouahgan/%D7%97%D7%93%D7%A9-%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc4c1db9510710",
+      "catalogImage": ""
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - שמחה בחלקך",
+      "subtitle": "אחרי בדיקה רפואית, ורד מגלה שלאמא שלה עומדים לכרות שתי אצבעות ברגל. נעמי לא מוכנה לשאת את רוע הגזירה ומבקשת מורד שתהרוג אותה 05.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962235/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890935/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/h3uae1nq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc42997f661be0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - בובות על חוטים",
+      "subtitle": "ורד לוקחת את נעמי לסדנה רוחנית בהדרכת יותם ונעמי נדלקת על יותם אחרי שהוא מבטיח לה שלא תאלץ לכרות את האצבעות. ורד מנסה להעיר ניצוץ בנישואים הרדומים של עם בן 09.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962236/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890937/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/o5rjv02e/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc4299b539dd10",
+      "catalogImage": ""
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - הנקניקייה שלי",
+      "subtitle": "ורד ובן מתחילים טיפול זוגי והפערים ביניהם מתחילים להיחשף. ורד מצטרפת לסשן רוחני של יותם ונעמי על חוף הים, בין יותם לורד מתחיל להתגלות מתח מיני 12.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/962239/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1890938/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/0gqbd3as/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc429a0333de80",
+      "catalogImage": ""
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - כשהייתי יפה, לא ידעתי",
+      "subtitle": "נעמי מתבשרת שעליה לכרות חצי מכף הרגל. ורד מזעיקה את יותם לעזור, וממשיכה איתו אל תוך לילה מבלבל ורומנטי 16.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966637/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913610/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/jbcfsup1/%D7%9C%D7%90%D7%AA%D7%A8-%D7%9E%D7%A2%D7%95%D7%93%D7%9B%D7%9F.jpg?width=490&height=272&v=1dc571a1e8d1180",
+      "catalogImage": ""
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - סודות חבויים",
+      "subtitle": "נעמי נפגשת עם דבורה שלוש וסוגרת איתה חשבונות. הרומן בין ורד ויותם עולה שלב. איך בן יגיב? 19.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966639/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913611/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/42idsanh/%D7%A9%D7%9E%D7%97.jpg?rxy=0.21385353551872352,0.4321790790194169&width=490&height=272&v=1dc5992395d10d0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - תיירות יהודית",
+      "subtitle": "ורד, נדב ונעמי בטיול שורשים משפחתי בווילנה בירת ליטא. סודות כמוסים של שלושתם מתגלים בטיול שהופך לסיוט 23.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966641/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1946467/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/li5hkwoq/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc5481e65448f0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - רחוק ולבד",
+      "subtitle": "בעקבות הרחקתה של ורד ממקום עבודתה היא מתחננת לבן שייקח אותה רחוק ולבד, בתקווה למצוא את הדרך חזרה לליבו 26.11.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/s1/966640/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1913647/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/pdbhzgep/%D7%9C%D7%90%D7%AA%D7%A8.jpg?width=490&height=272&v=1dc5efa10c73d40",
+      "catalogImage": ""
+    }
+  ]
+}

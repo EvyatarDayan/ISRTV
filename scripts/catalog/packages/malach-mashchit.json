@@ -1,0 +1,93 @@
+{
+  "slug": "malach-mashchit",
+  "title": "מלאך משחית",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/",
+  "version": "5f4d3a6592e1",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/malach-mashchit/series.jpg",
+  "catalogPoster": "scripts/catalog/media/malach-mashchit/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - אוקסן אוקסן",
+      "subtitle": "סדרת מתח ואימה חדשה שבמרכזה שד רצחני שעובר מאישה לאישה בקהילה חסידית במאה שערים וזורע הרס וחורבן. פרופסור לפיזיקה, חילוני מושבע ופסיכולוגית חרדית חוברים יחד כדי לחקור את מקורותיו. באר מוזמן לחקירת משטרה בעקבות רצח מחריד במאה שערים. ומלכי נפרדת מרשי, המטופלת האהובה שלה, למרות שהיא",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159765/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891552/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - דב-בער מברודי",
+      "subtitle": "באר נקשר לעוד מקרה מוות במאה שערים ומבקש את עזרתו של ישי, חבר מהעבר הרחוק. מלכי מוזעקת אל בית חסידי במאה שערים שבו ילדה בשם רוח׳לאה עוברת מה שנראה כמו התעללות בידי רב מקובל. 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159771/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891554/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - אשת זנונים",
+      "subtitle": "למרות אזהרותיה של איטה, מלכי מביאה את רוח׳לאה אל המוסד במטרה לטפל בה. ההתנהגות המוזרה של רוח׳לאה מובילה את מלכי ובאר אל אשה ערירית בשם ידידה שץ, שנעלמה מביתה לאחרונה. 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159777/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891555/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - ידידה",
+      "subtitle": "שמואל משה קלמן מנסה לנחם את מלכי, אבל מעורר אצלה אי נחת. רוח׳לאה נעלמת מהמוסד ומופיעה במרפאה של נמי, וכשבאר ומלכי מגיעים לאסוף אותה, הם חווים עוד התפרצות מפחידה של הילדה. 23.04.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159783/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891557/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 – אור מלפני 1300 שנה",
+      "subtitle": "בעבר, דב-בער וידידה הצעירים בורחים ממאה שערים ומתחילים חיים משותפים בעולם החילוני. ובהווה, באר ממשיך בחיפושים אחר ידידה, בניסיון לפענח את הקשר בינה לבין האירועים המצמררים שפוקדים את מאה שערים. 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159789/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891556/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - אשמדאי",
+      "subtitle": "החיפוש אחר ידידה מוביל את מלכי ובאר לצפת, ולביתו של שושני, שמגלה להם פרטים מטרידים על ידידה שץ שקשורים גם לבאר. 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159792/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891560/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - נחמי",
+      "subtitle": "שמואל משה קלמן מטריד את מלכי ומאיים על המשך חייה בקהילה. נחמי בתו של ישי מתחילה להתנהג מוזר, ובאר נחלץ לעזרתה. היא מעוררת אצל באר זיכרונות מהעבר הטרגי שלו עם ידידה, ולבסוף מובילה אותו אל ידידה עצמה 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159795/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891562/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - צא טמא",
+      "subtitle": "באר, מלכי וג׳ובאני מארגנים טקס גירוש בניסיון נואש להציל את נחמי מאחיזתה של השדה הרצחנית. 29.09.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/s1/159798/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891558/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/malach-mashchit/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/malach-mashchit/s1-ep8.jpg"
+    }
+  ]
+}

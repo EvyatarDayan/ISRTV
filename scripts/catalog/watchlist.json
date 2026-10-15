@@ -1,0 +1,578 @@
+{
+  "updatedAt": "2026-10-08T20:34:58.135Z",
+  "series": [
+    {
+      "slug": "alumim",
+      "title": "עלומים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12845/"
+    },
+    {
+      "slug": "anashim-shepagashti",
+      "title": "אנשים שפגשתי",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/"
+    },
+    {
+      "slug": "aviram-katz",
+      "title": "אבירם כץ",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/"
+    },
+    {
+      "slug": "bahastora",
+      "title": "בהסתורה",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-983439/"
+    },
+    {
+      "slug": "bou-leechol-iti",
+      "title": "בואו לאכול איתי",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/"
+    },
+    {
+      "slug": "bou-leechol-iti-aravit",
+      "title": "בואו לאכול איתי - ערבית",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-928522/"
+    },
+    {
+      "slug": "carthago",
+      "title": "קרתגו",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/"
+    },
+    {
+      "slug": "dor-echad-vachetsi",
+      "title": "דור אחד וחצי",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12527/"
+    },
+    {
+      "slug": "east-side",
+      "title": "איסט סייד",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/"
+    },
+    {
+      "slug": "echad-al-echad",
+      "title": "אחד על אחד",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13237/"
+    },
+    {
+      "slug": "hadavar-hagadol",
+      "title": "הדבר הגדול המיוחד",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/"
+    },
+    {
+      "slug": "haemet",
+      "title": "האמת",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/"
+    },
+    {
+      "slug": "hahamam",
+      "title": "החמאם",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-371806/"
+    },
+    {
+      "slug": "haish-shemenaa",
+      "title": "האיש שניסה למנוע מלחמה",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13879/"
+    },
+    {
+      "slug": "haish-sheratza",
+      "title": "האיש שרצה לדעת הכול",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/"
+    },
+    {
+      "slug": "haklatot-hanatzim",
+      "title": "הקלטות הנאצים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-881019/"
+    },
+    {
+      "slug": "halayla-haaroch",
+      "title": "הלילה הארוך ביותר",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13157/"
+    },
+    {
+      "slug": "hamazah",
+      "title": "המזח",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-538817/"
+    },
+    {
+      "slug": "hamifkadet",
+      "title": "המפקדת",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11766/"
+    },
+    {
+      "slug": "hapartisan-haachron",
+      "title": "הפרטיזן האחרון",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13205/"
+    },
+    {
+      "slug": "hatasritai",
+      "title": "התסריטאי",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13835/"
+    },
+    {
+      "slug": "hayehudim-baim",
+      "title": "היהודים באים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12614/"
+    },
+    {
+      "slug": "hazarot",
+      "title": "חזרות",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/"
+    },
+    {
+      "slug": "hazvi",
+      "title": "הצבי",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-710233/"
+    },
+    {
+      "slug": "hed-kolech",
+      "title": "הד קולך",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12967/"
+    },
+    {
+      "slug": "hidat-meshulam",
+      "title": "חידת משולם",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12487/"
+    },
+    {
+      "slug": "hitnatkut",
+      "title": "התנתקות",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-936955/"
+    },
+    {
+      "slug": "huliganim",
+      "title": "חוליגנים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-841973/"
+    },
+    {
+      "slug": "kol-haimahot",
+      "title": "כל האימהות משקרות",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-984859/"
+    },
+    {
+      "slug": "kupa-rashit",
+      "title": "קופה ראשית",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/"
+    },
+    {
+      "slug": "lo-lariv",
+      "title": "לא לריב",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/"
+    },
+    {
+      "slug": "makom-sameach",
+      "title": "מקום שמח",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-962212/"
+    },
+    {
+      "slug": "malach-mashchit",
+      "title": "מלאך משחית",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11247/"
+    },
+    {
+      "slug": "matir-agunot",
+      "title": "מתיר עגונות",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13688/"
+    },
+    {
+      "slug": "menayek",
+      "title": "מנאייכ",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12394/"
+    },
+    {
+      "slug": "migras-harusim",
+      "title": "מגרש הרוסים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-829567/"
+    },
+    {
+      "slug": "mona",
+      "title": "מונא",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13827/"
+    },
+    {
+      "slug": "motek-bol",
+      "title": "מותק בול באמצע",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/"
+    },
+    {
+      "slug": "od-nipagesh",
+      "title": "עוד ניפגש",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12582/"
+    },
+    {
+      "slug": "oyvim",
+      "title": "אויבים: מנהיגי ערב נחשפים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/"
+    },
+    {
+      "slug": "pamta",
+      "title": "פמת\"א",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/"
+    },
+    {
+      "slug": "peduyim",
+      "title": "פדויים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13015/"
+    },
+    {
+      "slug": "pollard",
+      "title": "פולארד",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12798/"
+    },
+    {
+      "slug": "savta-bishla",
+      "title": "סבתא בישלה עם תום יער",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12169/"
+    },
+    {
+      "slug": "shaat-efes",
+      "title": "שעת אפס",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/"
+    },
+    {
+      "slug": "shaat-neila",
+      "title": "שעת נעילה",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13173/"
+    },
+    {
+      "slug": "shabas",
+      "title": "שב\"ס",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13283/"
+    },
+    {
+      "slug": "shisha-afasim",
+      "title": "שישה אפסים",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-389355/"
+    },
+    {
+      "slug": "shtokholm",
+      "title": "שטוקהולם",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/"
+    },
+    {
+      "slug": "slicha-al-hasheela",
+      "title": "סליחה על השאלה",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12781/"
+    },
+    {
+      "slug": "sovietzka",
+      "title": "סובייצקה",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-485095/"
+    },
+    {
+      "slug": "taboo-daum",
+      "title": "טאבו עם חנוך דאום",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12154/"
+    },
+    {
+      "slug": "tapuchim-midbar",
+      "title": "תפוחים מן המדבר",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13875/"
+    },
+    {
+      "slug": "tehran",
+      "title": "טהרן",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12317/"
+    },
+    {
+      "slug": "tik-512",
+      "title": "תיק 512",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12274/"
+    },
+    {
+      "slug": "tik-needar",
+      "title": "תיק נעדר",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13815/"
+    },
+    {
+      "slug": "yafa",
+      "title": "יאפא",
+      "source": "kan",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/"
+    },
+    {
+      "slug": "a-body-that-works",
+      "title": "גוף שלישי",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works",
+      "family": "a_body_that_works"
+    },
+    {
+      "slug": "arabic-work",
+      "title": "עבודה ערבית",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/Arabic-work-s1",
+      "family": "Arabic"
+    },
+    {
+      "slug": "avi-bitter",
+      "title": "אבי ביטר חי בסרט",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1",
+      "family": "avi_bitter"
+    },
+    {
+      "slug": "avi-nussbaum-standup",
+      "title": "אבי נוסבאום - סטנדאפ",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/avi_nussbaum_standup-s1",
+      "family": "avi_nussbaum_standup"
+    },
+    {
+      "slug": "bublilim",
+      "title": "הבובלילים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/bublilim",
+      "family": "bublilim"
+    },
+    {
+      "slug": "bufor",
+      "title": "בופור",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/bufor-s1",
+      "family": "bufor"
+    },
+    {
+      "slug": "chosen-people",
+      "title": "עם סגולה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple",
+      "family": "chosen"
+    },
+    {
+      "slug": "dudu-topaz-case",
+      "title": "תיק דודו טופז",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/dudu_topaz_case-s1",
+      "family": "dudu_topaz_case"
+    },
+    {
+      "slug": "etti-alon",
+      "title": "אתי אלון",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/etti_alon-s1",
+      "family": "etti_alon"
+    },
+    {
+      "slug": "hanoch-daum-standup",
+      "title": "חנוך דאום - ההופעה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/hanoch_daum_standup",
+      "family": "hanoch_daum_standup"
+    },
+    {
+      "slug": "hundred-percent-ashkenazi",
+      "title": "עדי אשכנזי - מאה אחוז סטנדאפ",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/hundred_percent_ashkenazi",
+      "family": "hundred_percent_ashkenazi"
+    },
+    {
+      "slug": "ismach-chatani",
+      "title": "ישמח חתני",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ismach_chatani",
+      "family": "ismach_chatani"
+    },
+    {
+      "slug": "life-is-difficult",
+      "title": "החיים הם תקופה קשה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/life_is_difficult",
+      "family": "life_is_difficult"
+    },
+    {
+      "slug": "likudnikim",
+      "title": "הליכודניקים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/likudnikim-s1",
+      "family": "likudnikim"
+    },
+    {
+      "slug": "mashiah",
+      "title": "משיח",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah",
+      "family": "mashiah"
+    },
+    {
+      "slug": "mommy",
+      "title": "אמא'לה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mommy-s1",
+      "family": "mommy"
+    },
+    {
+      "slug": "nicol-raidman",
+      "title": "החיים החדשים של ניקול ראידמן",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/nicol_raidman_new_life",
+      "family": "nicol_raidman_new_life"
+    },
+    {
+      "slug": "nutuk-drama",
+      "title": "נוטוק",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/nutuk_drama",
+      "family": "nutuk_drama"
+    },
+    {
+      "slug": "ori-hizkiah",
+      "title": "אורי חזקיה - הופה לא קרה כלום",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ori_hizkiah_nothing_happened-s1",
+      "family": "ori_hizkiah_nothing_happened"
+    },
+    {
+      "slug": "reset",
+      "title": "ריסט",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset",
+      "family": "reset"
+    },
+    {
+      "slug": "sapir-movie",
+      "title": "ספיר",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sapir_movie",
+      "family": "sapir_movie"
+    },
+    {
+      "slug": "she-is-with-me",
+      "title": "להיות איתה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/she-is-with-me-s1",
+      "family": "she"
+    },
+    {
+      "slug": "sky-army",
+      "title": "צבא שמיים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army",
+      "family": "sky_army"
+    },
+    {
+      "slug": "the-boys",
+      "title": "הנערים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_boys",
+      "family": "the_boys"
+    },
+    {
+      "slug": "the-comedians",
+      "title": "הסטנדאפיסטים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the-comedians-s1",
+      "family": "the"
+    },
+    {
+      "slug": "the-cops",
+      "title": "השוטרים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1",
+      "family": "the_cops"
+    },
+    {
+      "slug": "the-head",
+      "title": "הראש",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_head",
+      "family": "the_head"
+    },
+    {
+      "slug": "the-new-rich",
+      "title": "העשירים החדשים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_new_rich-s1",
+      "family": "the_new_rich"
+    },
+    {
+      "slug": "the-property",
+      "title": "הנחלה",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property",
+      "family": "the_property"
+    },
+    {
+      "slug": "this-is-sodom",
+      "title": "זוהי סדום",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/this_is_sodom",
+      "family": "this_is_sodom"
+    },
+    {
+      "slug": "tortels",
+      "title": "הטורטלים",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels",
+      "family": "tortels"
+    },
+    {
+      "slug": "waking-bears",
+      "title": "להעיר את הדב",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1",
+      "family": "waking"
+    },
+    {
+      "slug": "wedding-at-first-sight",
+      "title": "חתונה ממבט ראשון",
+      "source": "mako",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/wedding-at-first-sight-s8",
+      "family": "wedding-at-first-sight"
+    }
+  ]
+}

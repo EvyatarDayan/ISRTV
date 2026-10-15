@@ -1,0 +1,283 @@
+{
+  "slug": "oyvim",
+  "title": "אויבים: מנהיגי ערב נחשפים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/",
+  "version": "e5799511c2ee",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 27,
+  "localPoster": "images/kanbox/oyvim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/oyvim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - סדאם חוסיין",
+      "subtitle": "האיש שרצה לשלוט בעולם: על המנהיג העיראקי שהיה הנחוש להשמיד את ישראל, ומאמציה של ישראל למנוע ממנו נשק גרעיני 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/125578/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o7vcjvf4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - יאסר ערפאת",
+      "subtitle": "יאסר ערפאת – האיש בעל אלף הנשמות. המנהיג שהוביל את עמו אל דרך הטרור, ניסיונות חיסולו ע\"י ישראל, והמו״מ לשלום שכשל 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/125850/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1891605/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - גמאל עבד אל נאצר",
+      "subtitle": "המנהיג מטיל האימה. על הנשיא המצרי שגייס מדענים גרמנים לפתח טילים קטלניים, ופעולות הנגד של המוסד 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/126355/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9b1g4qbr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - חאפז אל אסד",
+      "subtitle": "המאפיונר מדמשק: השתלטותו על סוריה, פנייתו לדרך הטרור ומה באמת גרם למותו? 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/126366/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gg0wt99u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - אנואר סאדאת",
+      "subtitle": "גיבור המלחמה והשלום. מי שנחשב יורשו הזמני של נאצר, התגלה כמנהיג אמיץ ונחוש שהצליח להפתיע את ישראל 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/127221/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hps8i9eg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - רוחאללה ח'ומייני",
+      "subtitle": "המהפכן ששינה את המזה\"ת. מנהיג הדת שהשתלט על איראן והפך אותה לאיום הקיומי הגדול ביותר על ישראל 15.06.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s1/127703/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sakp3csd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s1-ep6.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - המופתי",
+      "subtitle": "סדרת התעודה אויבים, המביאה את סיפורם של מנהיגי ערב, חוזרת בעונה חדשה וחושפת מי היה המופתי, חאג' אמין אל חוסייני. האיש שהפך את הסכסוך לדתי, תבע את המונח \"אל אקצה בסכנה\" ושיתף פעולה עם השלטון הנאצי 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147162/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4qnsqsxb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - המטורף מטריפולי",
+      "subtitle": "דמותו האכזרית והצבעונית של מנהיג לוב, מועמר אל-קדאפי, שמימן, אימן וחימש מחבלים וסייע לפעולות טרור בהן הטבח במינכן. בפרק נחשפות פעילויות מוסד וראיון בלעדי עם הטרוריסט הבינ\"ל קרלוס התן 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147393/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yakgsgdz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - המלך חוסיין",
+      "subtitle": "המלך חוסיין הירדני הוא המלך ששרד את הכל. הוא חמק פעמים רבות מחיסול ונאלץ לתמרן בין מלחמה בישראל לשיתוף פעולה חשאי עמה. אנשים שלקחו חלק בשיחות החשאיות מספרים על דמותו המרתקת 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147219/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88tipyzc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - אבו בכר אל בגדאדי",
+      "subtitle": "האיש שרצה לשלוט באסלאם: פרק על דמותו של מנהיג דאע\"ש שהילך אימים על האזור באכזריות בלתי נתפסת, וכיצד הדאיג את המודיעין הישראלי שפעל לסכל פעולותיו בארץ ובעולם 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147294/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6cx5mb0b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - השייח אחמד יאסין",
+      "subtitle": "סדרת תעודה. אחמד יאסין - רוצח בכיסא גלגלים. פרק החושף את דמותו וסיפור חייו של מייסד חמאס וכיצד תכנן את הפיכתו לארגון טרור עוד בראשית שנות ה-70. מי היה האיש הכריזמטי ששנא את ישראל וידע להניע המונים. 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147402/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zhcgreui/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - המלך חסן",
+      "subtitle": "סדרת דוקו. המלך חסן השני - חבר חשאי: חסן מלך מרוקו החליט לקיים מגעים מודיעיניים חשאיים עם ישראל, למרות שכלפי חוץ נאלץ לגלות עוינות. הפרק חושף את דמותו המרתקת וכיצד פעל שיתוף הפעולה בינו לבין המוסד 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/147204/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ac62j0zy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - יום כיפור מסמך מיוחד",
+      "subtitle": "איך תכננו סאדאת ואסד את מלחמת יום כיפור? 49 שנים אחרי, מנסה הסרט לפצח את השאלה מתי וכיצד התכוננו הצבאות ללחימה? גנרלים מצרים ודיפלומטים סורים מספרים על ההכנות וההונאה המכוונת. 18.05.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s2/150386/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8tny9ra6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s2-ep7.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "פרק 1 - עלי חמינאי",
+      "subtitle": "עונה חדשה לסדרת התעודה המביאה את סיפורם של מנהיגי ערב והאויבים הכי גדולים של ישראל. בפרק הפתיחה נחשפת דמותו של עלי חמינאי - התמנון מטהרן. מה מניע אותו? מה מספרים אנשים שהכירו אותו על אישיותו? וכיצד המודיעין הישראלי פעל נגד כוונותיו? 07.11.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/640793/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_efmpd4ss/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "פרק 2 - חסן נסראללה",
+      "subtitle": "בפרק השני לעונה מוצגת דמותו של חסן נסראללה - השליח האיראני. מנהיג חיזבאללה שהפך לאיום הישיר הכי משמעותי על ישראל. הפרק חושף את קשריו האינטימיים עם הנהגת איראן ואת הסודות שהמודיעין הישראלי יודע עליו ועל כוונותיו 20.12.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/657413/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qn0oqoij/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "פרק 3 - פתחי שקאקי: הג'יהאד האיסלמי",
+      "subtitle": "סיפורו של מייסד הג'יהאד האיסלאמי שהקדים את חמאס בפיגועים הרצחניים ובקשריו עם איראן. הפרק חושף מבצעי מודיעין נגד שקאקי ואת סיכול העברת המיליונים לג'יהאד 27.12.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/640837/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g8pldu5s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "פרק 4 - בשאר אסד",
+      "subtitle": "מדוע ישראל והמערב חשבו שנשיא סוריה יהיה מתון ולא צפו שיהפוך לרוצח ההמונים מהגדולים בהיסטוריה? הפרק גם חושף את המבצע של המודיעין הישראלי שהביא הוכחה כי אסד השתמש בנשק כימי 02.01.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/640856/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gl2de8oo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "פרק 5 - ג'ורג' חבש",
+      "subtitle": "סיפורו של מייסד החזית העממית שהגה את רעיון פיגועי חטיפות המטוסים, במטרה לעורר את דעת הקהל העולמית לבעיה הפלסטינית. הפרק חושף עדות מדהימה של בכיר החזית שישראל ניסתה לחסלו 10.01.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/654965/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ztrtw4hp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "פרק 6 - מרואן ברגותי",
+      "subtitle": "סיפורו של מרואן ברגותי, המנהיג הפלסטיני שכלוא בישראל, שהפך מתומך נלהב בשלום - למוציא לפועל של פיגועי טרור. האם ברגותי יהפוך למנהיג הבא של הרשות הפלסטינית, ומה תעשה ישראל עם מנהיג בכלא? פרק סיום העונה 17.01.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s3/685314/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r3kmx6h8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s3-ep6.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 4,
+      "name": "פרק 1 - יחיא סינוואר",
+      "subtitle": "עונה חדשה לסדרת התעודה המביאה את סיפורם של מנהיגי ערב. בפרק הפתיחה נחשפת דמותו המורכבת של יחיא סינוואר - האיש שאחראי לאסון הגדול ביותר של ישראל מהקמתה ולחורבן הנורא שהביא על עמו שלו 03.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s4/844253/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3scff9my/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s4-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s4-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 4,
+      "name": "פרק 2 - מוחמד דף",
+      "subtitle": "סיפורו של מוחמד דף, ראש הזרוע הצבאית של חמאס, החל מילדותו בחאן יונס, ועד הפיכתו לגדול המבוקשים של ישראל 10.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s4/844255/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qcrj42o7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s4-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s4-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 4,
+      "name": "פרק 3 - עימאד מורנייה",
+      "subtitle": "סיפורו של עימאד מורנייה, הטרוריסט שהטיל אימה על ישראל והעולם במשך שלושה עשורים. איך הפך מורנייה את הטרור לאמנות, ואת חיזבאלה לצבא של ממש? 17.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s4/844254/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7pjgvbi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s4-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s4-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 4,
+      "name": "פרק 4 - קאסם סולימאני",
+      "subtitle": "סיפורו של קאסם סולימני, מפקד כוח קודס באיראן, מילדותו כבן למשפחה קשת יום ועד שהפך לאיש אמונו הקרוב ביותר של מנהיג איראן ח'מנאי, ומי שלימים יזום ויוביל את רעיון המלחמה הרב זירתית נגד ישראל 23.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s4/844256/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z6tm646u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s4-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s4-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 4,
+      "name": "פרק 5 - אבו מאזן",
+      "subtitle": "הפרק האחרון לעונה ינסה ליישב את הסתירות בדמותו של ראש הרשות הפלסטינית, אבו מאזן - האם הוא פרטנר למו\"מ או אויב נוח? האם הוא פעל וחתר למען שלום ושיתוף פעולה, או מי שנמנע מפשרות והחלטות גורליות עבור עמו? 02.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s4/844257/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_epvetzwb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s4-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s4-ep5.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 5,
+      "name": "פרק 1 - שייח'ה מוזא מקטאר",
+      "subtitle": "בפרק פתיחת העונה נחשפת דמותה של שייח'ה מוזא, האישה החזקה בקטאר, שפועלת בצורה מתוחכמת ומסוכנת נגד ישראל 11.07.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s5/1073626/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2223237/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s5-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s5-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 5,
+      "name": "פרק 2 - עבד אל-מלכ אל חות'י",
+      "subtitle": "מיהו עבד אל-מלכ אל חות'י, האיש ששולט בארגון התימני שמאיים על ישראל והעולם? ואיך הפך מדמות שולית למנהיג מסוכן שרואה עצמו כצאצא של הנביא מוחמד? 18.07.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s5/1073630/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2223238/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s5-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s5-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 5,
+      "name": "פרק 3 - רג'פ טאיפ ארדואן",
+      "subtitle": "סיפורו של רג'פ טאיפ ארדואן, הנשיא הטורקי שרואה בישראל אויב והפך את מדינתו מחברה ליריבה. כיצד הוא פועל להגשים את שאיפתו לבנות שוב אימפריה, ואיך חיסל את הדמוקרטיה הטורקית? 25.07.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12210/s5/1073634/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2223239/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/oyvim/s5-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/oyvim/s5-ep3.jpg"
+    }
+  ]
+}

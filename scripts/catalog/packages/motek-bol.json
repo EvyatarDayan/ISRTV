@@ -1,0 +1,243 @@
+{
+  "slug": "motek-bol",
+  "title": "מותק בול באמצע",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/",
+  "version": "f68c963e23fc",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 23,
+  "localPoster": "images/kanbox/motek-bol/series.jpg",
+  "catalogPoster": "scripts/catalog/media/motek-bol/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "קליפת אגוז - פרק 1",
+      "subtitle": "שליחי הוצאה לפועל מגיעים לעקל את הרכוש של מותק מרדכי, פליטת הריאליטי המפורסמת. בכנסת, ח\"כ מוקי פטיש נעלם והשר אגוז בזלת חושש שהמפלגה מתפרקת 07.03.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128026/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hbqqdhmk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "בארץ פלאות - פרק 2",
+      "subtitle": "הלוביסט אלכס דורש מאגוז ש\"בול באמצע\" תתחיל למלא משימות. מותק מגיעה לכנסת עם המעריצות ונקלעת לארץ האגדות 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128442/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ze2locd5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "שיפוי ופיצוי - פרק 3",
+      "subtitle": "צרויה, מנהלת הסיעה מנסה להשליט משמעת ברזל ומסתכסכת עם כולם. מותק לחוצה מהנאום הראשון שלה בכנסת 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128445/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j8wou84p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "זובור - פרק 4",
+      "subtitle": "מותק בוחרת עוזר פרלמנטרי חתיך במיוחד, מתפרעת בועדת הכספים וסופגת השפלה כואבת. חלמון מוצא קצה חוט בחקירת מותו של מוקי 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128447/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nnhij0ha/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "נערה בסיכון - פרק 5",
+      "subtitle": "אלכס דורש מאגוז למנוע את סימון התמ\"ל. מותק יוצאת למלחמה על הטבק וזיף מוזמן לסמינר מסתורי בקפריסין. חלמון מאתר את הלפטופ של מוקי. 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128449/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dbruynrn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פורום סדום - פרק 6",
+      "subtitle": "מותק מבקרת במפעלי בסט ומקבלת הצעה מפתיעה. זיף נוחת בקפריסין ומקבל הצעה מפתה. קורח יוצר מגע עם הוריה של מותק 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128451/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_chta5vsn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "חלב אם - פרק 7",
+      "subtitle": "חלמון מאתר בשוק את יד ימינו של מוקי. מותק מתעקשת לחגוג יומולדת במהלך מועצת מלחמה. ג'וליאנו מציג לאלכס את תוכניתו לסיכול סימון התמ\"ל. קורח כושל בהפקה חשובה 14.03.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128453/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s7ofznkg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "זיקוקים - פרק 8",
+      "subtitle": "דינור משכנעת את אגוז להילחם בהדלפות וגורמת למרד של חברות הסיעה. חלמון מגיע לפריצת דרך בחקירת התאבדותו של מוקי 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128455/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_05rkysal/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "לטיפות של תמנון - פרק 9",
+      "subtitle": "מותק מחליטה לחוקק וזיף שולף הצעת חוק מושלמת מדי. אלכס תובע לפטר את דינור. ביקור אצל ח\"כית לשעבר מעורר דאגה. חלמון מתקרב לאש 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128457/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_btod6nze/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "גיבושון - פרק 10",
+      "subtitle": "מותק מקדמת באגרסיביות את החוק שלה. ערב הגיבוש שנועד להביא פיוס למפלגה - מתפוצץ. חנה חנינה מגלה מחדש את מותק 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128080/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ksbqa6fo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "השחר העולה - פרק 11",
+      "subtitle": "חלמון וחזי מגלים למה מוקי התאבד. חברות סיעת \"בול באמצע\" מציבות אולטימטום לאגוז. מותק עומדת בפני בחירה גורלית 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9ng9c8jp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "עזרת נשים - פרק 12",
+      "subtitle": "הקרב על סימון התמ”ל מגיע לשיא ואלכס שולח את אגוז לאיים על מותק. ג’וליאנו מפתיע ומוסר מידע חשוב. 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128567/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j13xigcb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "בחורה אש - פרק 13",
+      "subtitle": "פרק אחרון - בחורה אש: ההצבעה על סימון התמ\"ל הגיעה ועל מותק מופעלים לחצים אדירים לסגת. נאמנותו של זיף נבחנת כש-120 ח\"כים מתכנסים במליאה. אלכס מגיע לצפות מקרוב 11.09.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s1/128653/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cv7cf2sg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s1-ep13.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - תלך תבוא",
+      "subtitle": "לאחר שחשפה את פרצופו של טורצ'ין, מותק מקבלת הצעה מחנה חנינה חנן, יו\"רית המפלגה החדשה, להתמנות לשרה 10.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/919202/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zarmqpvs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - טובעים השניים",
+      "subtitle": "למפלגת \"בול באמצע\" מצטרפים שני ח\"כים חדשים שמצליחים לשבש את מהלכי הקואליציה. אלכס טורצ'ין עורך חזרות לקראת מסע הטיהור שלו וחזרתו לזירה 10.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924710/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_583eng33/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - הטיש הגדול",
+      "subtitle": "מותק, מלווה בצוות צילום, מגיעה למסיבת מחזור שאירגן האקס המיתולוגי שלה. בדרך לאהבה המתחדשת היא סוגרת חשבונות עם חבריה מהעבר והודפת את נסיונות הפיוס של זיף 11.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924719/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vlu4kw1e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - עצת אחיתופל",
+      "subtitle": "אחרי שפרצו לביתה, מותק יוזמת חוק שיקל על אזרחים לשאת נשק. היא מתוודעת לראשונה למכון בשם \"אחיתופל\" שמציע לה עזרה בקידום החוק. 12.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924722/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6os4s5p5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - התמנון שלך חזר",
+      "subtitle": "מותק נחשפת לצדדים הבעייתיים של מכון אחיתופל וחוק הנשק. ערב רומנטי של מותק עם טיש במלון, מקבל תפנית עגומה כשהם צופים בכתבה על טורצ'ין 13.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924729/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gafim2ik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - נפגש בשביעיות",
+      "subtitle": "אחרי שחנה מכריזה על פריימריז במפלגת \"בול באמצע\", מותק יוצאת לשטח לגייס מתפקדים. המתיחות בינה לבין מכון אחיתופל גוברת. כחלק מהמסע לטיהור שמו, טורצ'ין \"מנדב\" את מותק למשימה מאתגרת 17.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/924735/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qi9mpcw2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - זרע עמלק",
+      "subtitle": "בעקבות פגישה עם סיגלית, אם יחידנית, מותק יוזמת חוק הזנה חינם לתלמידים וזונחת את חוק הנשק. בתגובה אנשי מכון אחיתופל מסירים את הכפפות. טיש עושה צעד משמעותי לחיזוק היחסים עם מותק 18.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/927057/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jceasoj6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - גז ונעלם",
+      "subtitle": "הפריימריז במפלגת בול באמצע בעיצומם. מותק מבינה שכדי לקדם את חוק ההזנה היא תיאלץ לסייע לקואליציה בנושא הבעייתי של מתווה הגז. אמא של טיש זורקת פצצה שמכניסה את מותק לדילמה בלתי אפשרית 19.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/929049/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rxjreqjp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פרק 9 - פליק פלאק",
+      "subtitle": "מותק מתקשה להכריע בין עתידה הפוליטי לבין יחסיה עם טיש. הגעתו של חלמון לכנסת עם התחקיר המטלטל בנושא מתווה הגז, מחריפה עוד יותר את הדילמה שלה. טורצ'ין פונה למותק עם הצעה מפתיעה 20.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/932141/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dfvjm5r4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "פרק 10 - המותק מכה שנית",
+      "subtitle": "לאחר שנחשפה לתחקיר הגז שנגנז, מותק מכנסת בועדת הכנסת בראשותה את כל המעורבים בניסוח מתווה הגז לדורותיהם. בדיון נוקב ונטול פשרות היא חושפת את ההליכים שהובילו לקביעת המתווה 20.08.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13077/s2/932410/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gwuh5rk5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/motek-bol/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/motek-bol/s2-ep10.jpg"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "avi-bitter",
+  "title": "אבי ביטר חי בסרט",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1",
+  "version": "e0fb3daa7757",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 16,
+  "localPoster": "images/kanbox/avi-bitter/series.jpg",
+  "catalogPoster": "scripts/catalog/media/avi-bitter/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הכל אודות אבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-32ffad7b5bd1e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_01_290411_VOD_c67v6c/Avi_Biter_Hai_Beseret_01_290411_VOD_c67v6c_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "שעת הכוזרים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-f14f866696c3e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_02_060511_VOD_gas76c7/Avi_Biter_Hai_Beseret_02_060511_VOD_gas76c7_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "שחק אותה אבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-a7d170d6e4afd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_03_130511_VOD_ha7sc62/Avi_Biter_Hai_Beseret_03_130511_VOD_ha7sc62_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אבי הולך בשדות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-32450675ca9fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_04_210511_VOD_i9zx7c7/Avi_Biter_Hai_Beseret_04_210511_VOD_i9zx7c7_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "מי הפליל את אבי ביטר?",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-483a70d6e4afd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_05_220711_VOD_98zx5cv/Avi_Biter_Hai_Beseret_05_220711_VOD_98zx5cv_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "מליון דולר, אבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-f3ed70d6e4afd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_06_290711_VOD_8as7ca2/Avi_Biter_Hai_Beseret_06_290711_VOD_8as7ca2_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "אבי גנוב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-51b749b9664fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_07_050811_VOD_9zx7cq2/Avi_Biter_Hai_Beseret_07_050811_VOD_9zx7cq2_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "הכוכבים של אבי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-eb99fcb3a98fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_08_120811_VOD_ka7c8a9/Avi_Biter_Hai_Beseret_08_120811_VOD_ka7c8a9_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "רשימת אבי חלק א'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-a61384f1cb8fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_09_190811_VOD_nz8xc78z/Avi_Biter_Hai_Beseret_09_190811_VOD_nz8xc78z_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "רשימת אבי חלק ב'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-c59a1f61079fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_10_260811_VOD_bz76xc6/Avi_Biter_Hai_Beseret_10_260811_VOD_bz76xc6_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "כשאבי פגש את גילי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-d7761f61079fd11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_11_020911_VOD_iz87xc2/Avi_Biter_Hai_Beseret_11_020911_VOD_iz87xc2_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "אבי מלך ירושלים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-3c2cc8e77881e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_12_090911_VOD_n4zx5ca/Avi_Biter_Hai_Beseret_12_090911_VOD_n4zx5ca_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "הטוב, הרע והביטר חלק א'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-9305c5e12ac3e11004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_13_160911_VOD_as65c7a/Avi_Biter_Hai_Beseret_13_160911_VOD_as65c7a_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "הטוב, הרע והביטר חלק ב'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-1218ac01e48ff21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_14_230911_VOD_k9as7c/Avi_Biter_Hai_Beseret_14_230911_VOD_k9as7c_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "ראיון עם ביטר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-4381ac01e48ff21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_15_300911_VOD_7zc86zx/Avi_Biter_Hai_Beseret_15_300911_VOD_7zc86zx_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "פרק הסיום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-bip/avi_bitter-s1/VOD-4cc2ac01e48ff21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/BIP/Avi_Biter_Hai_Beseret/S01/Avi_Biter_Hai_Beseret_16_141011_VOD_a67sc5a/Avi_Biter_Hai_Beseret_16_141011_VOD_a67sc5a_,500,850,1200,2000,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/avi-bitter/s1-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/avi-bitter/s1-ep16.jpg"
+    }
+  ]
+}

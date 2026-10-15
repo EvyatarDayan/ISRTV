@@ -1,0 +1,45 @@
+{
+  "slug": "sky-army",
+  "title": "צבא שמיים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army",
+  "localPoster": "images/kanbox/sky-army/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - הישיבה החרדית הסגורה בישראל",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-7d416e6acb86091027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/TV/Programs/hadashot_keshet/mahadura_merkazit_300624_herdim/mahadura_merkazit_300624_herdim_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "7d416e6acb860910VgnVCM100000700a10acRCRD",
+      "makoChannelId": "15ee461c82960910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/07/01/mahadura_merkazit_300624_herdim_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/sky-army/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - לא הולכים לישיבה וגם לצבא",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-893a2f2a72d6091026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shalmor_vtr2_n20240701_v1/20shalmor_vtr2_n20240701_v1_,850,.mp4.csmil/master.m3u8",
+      "makoVcmId": "893a2f2a72d60910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "15ee461c82960910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/07/02/hadashot_010724_02_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/sky-army/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - \"נמות ולא נתגייס\"",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sky_army-s1/VOD-450d27af3677091026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/SHORT/CH22_NEWS/2024/07/20shamaim_vtr2_n20240702_v1/20shamaim_vtr2_n20240702_v1_,850,.mp4.csmil/master.m3u8",
+      "makoVcmId": "450d27af36770910VgnVCM200000650a10acRCRD",
+      "makoChannelId": "15ee461c82960910VgnVCM100000700a10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2024/07/02/merkazit_020724_03_yehuda_belvi_autoOrient_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/sky-army/s1-ep3.jpg"
+    }
+  ]
+}

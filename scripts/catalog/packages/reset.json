@@ -1,0 +1,93 @@
+{
+  "slug": "reset",
+  "title": "ריסט",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset",
+  "version": "823b9785596c",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/reset/series.jpg",
+  "catalogPoster": "scripts/catalog/media/reset/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק הבכורה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-75a639e87b72c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_01_100226_VOD_drn007/Reset_01_100226_VOD_drn007_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "כשגידי פגש את נויה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-60bcc1e10124c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_02_170226_VOD_hig89/Reset_02_170226_VOD_hig89_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "החיים החדשים של גידי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-05fa7e49f706c91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_03_230226_VOD_edx582/Reset_03_230226_VOD_edx582_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הקואצ'ר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-071049764848c91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_04_050326_VOD_edc283/Reset_04_050326_VOD_edc283_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "גידי נגד קרני",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-951d4c28309ac91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_05_090326_VOD_jef624/Reset_05_090326_VOD_jef624_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "האקסית המיתולוגית",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-4662cbf5d0dcc91026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_06_160326_VOD_nn82/Reset_06_160326_VOD_nn82_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "עבודת החלומות של גידי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-5168fb07c12dc91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_07_230326_VOD_nnx341/Reset_07_230326_VOD_nnx341_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק הסיום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/reset-s1/VOD-b48bfb07c12dc91027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Reset/S01/EP/Reset_08_300326_VOD_nn27/Reset_08_300326_VOD_nn27_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/reset/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/reset/s1-ep8.jpg"
+    }
+  ]
+}

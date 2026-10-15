@@ -29,6 +29,21 @@
     </div>
   </div>
 
+  <div class="catalog-update" id="catalog-update" hidden>
+    <div class="catalog-update-panel" role="dialog" aria-modal="true" aria-labelledby="catalog-update-title">
+      <p class="catalog-update-title" id="catalog-update-title">מצאתי עדכונים</p>
+      <p class="catalog-update-list" id="catalog-update-list"></p>
+      <p class="catalog-update-status" id="catalog-update-status">מעדכן...</p>
+      <div class="catalog-update-progress" id="catalog-update-progress">
+        <div class="catalog-update-bar" aria-hidden="true">
+          <div class="catalog-update-fill" id="catalog-update-fill"></div>
+        </div>
+        <p class="catalog-update-pct" id="catalog-update-pct">0%</p>
+      </div>
+      <button type="button" class="catalog-update-ok" id="catalog-update-ok" hidden>אישור</button>
+    </div>
+  </div>
+
   <div class="profile-dialog" id="profile-dialog" hidden>
     <div class="profile-dialog-backdrop" data-action="profile-close"></div>
     <div class="profile-dialog-panel" role="dialog" aria-modal="true" aria-labelledby="profile-dialog-title">
@@ -109,6 +124,12 @@
         <div class="home-continue-divider" aria-hidden="true"></div>
         <h2 class="home-continue-title">נצפו לאחרונה</h2>
         <div class="home-continue-row" id="home-continue-row" aria-label="Continue watching"></div>
+      </section>
+
+      <section class="home-continue" id="home-mylist" hidden>
+        <div class="home-continue-divider" aria-hidden="true"></div>
+        <h2 class="home-continue-title">הרשימה שלי</h2>
+        <div class="home-continue-row" id="home-mylist-row" aria-label="My list"></div>
       </section>
     </div>
   </main>
@@ -249,6 +270,16 @@
 
   <div class="player" id="player" hidden>
     <video class="player-video" id="player-video" playsinline></video>
+    <div class="player-subs" id="player-subs" dir="rtl" hidden></div>
+    <iframe
+      class="player-youtube"
+      id="player-youtube"
+      title="YouTube video player"
+      hidden
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
     <div class="player-spinner" id="player-spinner" hidden aria-hidden="true">
       <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
     </div>
@@ -259,6 +290,7 @@
       <div class="vod-pause-info-inner" dir="rtl">
         <p class="vod-pause-series" id="vod-pause-series"></p>
         <p class="vod-pause-episode" id="vod-pause-episode"></p>
+        <p class="vod-pause-desc" id="vod-pause-desc" hidden></p>
       </div>
     </div>
 
@@ -269,6 +301,7 @@
           <button type="button" class="vod-next-btn" id="vod-next-btn" hidden>
             <span class="vod-next-fill" id="vod-next-fill" aria-hidden="true"></span>
             <span class="vod-next-label" id="vod-next-label">לפרק הבא</span>
+            <span class="vod-next-label-onfill" id="vod-next-label-onfill" aria-hidden="true">לפרק הבא</span>
           </button>
         </div>
         <div class="vod-controls-inner">

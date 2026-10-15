@@ -1,0 +1,193 @@
+{
+  "slug": "tortels",
+  "title": "הטורטלים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels",
+  "version": "23fadbe4326a",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 18,
+  "localPoster": "images/kanbox/tortels/series.jpg",
+  "catalogPoster": "scripts/catalog/media/tortels/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הכירו את הטורטלים",
+      "subtitle": "יש להם יש להם טאנז של כסף והם ממש לא מתביישים בזה. תכירו את משפחת טורטל וחבריהם הטובים, בארץ, בחו\"ל וביאכטה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-f722611a9e63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_hakiru/tortelim_061021_hakiru_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "בוקר טיל",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-5a65611a9e63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_boker_til/tortelim_061021_boker_til_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "יום הולדת 40",
+      "subtitle": "כשיום ההולדת של ספיר נופל בדיוק על הסילבסטר המסיבה כפולה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-d0b6611a9e63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_40/tortelim_061021_40_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "להציל את לונה",
+      "subtitle": "כשמשטרת ההגירה דופקת באמצע הלילה בדלת, הטורטלים טובעים בבלגן",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-f6a7611a9e63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_luna/tortelim_061021_luna_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "המורה הפרטי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-4898068c2f63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_moreh/tortelim_061021_moreh_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "עוברים לדובאי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-1e0a068c2f63c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_dubai/tortelim_061021_dubai_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "משחק הזוגות",
+      "subtitle": "מחממים את העניינים – הטורטלים בחילופי זוגות",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-c6a42a42a845c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_zugot/tortelim_061021_zugot_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "שבט וויפיי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-72272a42a845c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_wifi/tortelim_061021_wifi_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "אהבה בנוסח כלב",
+      "subtitle": "חי מתגייס למשמר השכונתי",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-dc88ffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_kelev/tortelim_061021_kelev_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פורים עצוב שמח",
+      "subtitle": "כשחי מחזיר את אבא של ספיר לחיים",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-a3a9ffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_purim_sad/tortelim_061021_purim_sad_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "הצילו",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-5a9affe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_help/tortelim_061021_help_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "חופשה ביוון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-7efbffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_greace/tortelim_061021_greace_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "יאכטה שקטה",
+      "subtitle": "הטורטלים והחברים בסיבוב שיוצא משליטה על היאכטה הכי מפוארת בישראל",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-f50dffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_yachta/tortelim_061021_yachta_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "ריאליטי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-1fedffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_reality/tortelim_061021_reality_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "נלחמים בקורונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-3defffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_corona/tortelim_061021_corona_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "יום בנות",
+      "subtitle": "מהיקב לטיפול קוסמטי - מה באמת קרה ביום הכיף של הבנות",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-ee21ffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_banot/tortelim_061021_banot_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 1,
+      "name": "יקבי טורטל",
+      "subtitle": "חי פותח יקב ומזמין את כולם להשקה",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-b372ffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_yekev_tortelim/tortelim_061021_yekev_tortelim_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 1,
+      "name": "בית הנשיא",
+      "subtitle": "מיוחד ליום העצמאות – כשחי וספיר פגשו את רובי ונחמה, הביקור של הטורטלים בבית הנשיא",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/tortels-s1/VOD-e1f3ffe71945c71026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/eretz_nehederet/Hatortelim/tortelim_061021_bait_hanasi/tortelim_061021_bait_hanasi_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/tortels/s1-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/tortels/s1-ep18.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "anashim-shepagashti",
+  "title": "אנשים שפגשתי",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/",
+  "version": "0937bfaa3ae3",
+  "updatedAt": "2026-10-13T18:58:52Z",
+  "episodeCount": 4,
+  "localPoster": "images/kanbox/anashim-shepagashti/series.jpg",
+  "catalogPoster": "scripts/catalog/media/anashim-shepagashti/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "עונה 1 פרק 1",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/s1/1100782/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226165/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/anashim-shepagashti/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/anashim-shepagashti/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "עונה 1 פרק 2",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/s1/1077536/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226166/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/anashim-shepagashti/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/anashim-shepagashti/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "עונה 1 פרק 3",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/s1/1077539/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226167/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/anashim-shepagashti/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/anashim-shepagashti/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "עונה 1 פרק 4",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-1077526/s1/1077540/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226168/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/anashim-shepagashti/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/anashim-shepagashti/s1-ep4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "ori-hizkiah",
+  "title": "אורי חזקיה - הופה לא קרה כלום",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/ori_hizkiah_nothing_happened-s1",
+  "version": "b5f3c47649df",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 1,
+  "localPoster": "images/kanbox/ori-hizkiah/series.jpg",
+  "catalogPoster": "scripts/catalog/media/ori-hizkiah/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הופה לא קרה כלום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/ori_hizkiah_nothing_happened-s1/VOD-90b45df0c3da381027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Standup_Shows/Ori_Hizkiah/Ori_Hizkiah_Lo_Kara_Klum_101022_VOD_wjcnes27/Ori_Hizkiah_Lo_Kara_Klum_101022_VOD_wjcnes27_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/ori-hizkiah/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/ori-hizkiah/s1-ep1.jpg"
+    }
+  ]
+}

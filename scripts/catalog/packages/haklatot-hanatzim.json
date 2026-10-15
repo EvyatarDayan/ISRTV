@@ -1,0 +1,43 @@
+{
+  "slug": "haklatot-hanatzim",
+  "title": "הקלטות הנאצים",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-881019/",
+  "version": "1796cb50bbd1",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 3,
+  "localPoster": "images/kanbox/haklatot-hanatzim/series.jpg",
+  "catalogPoster": "scripts/catalog/media/haklatot-hanatzim/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "מסמך דוקומנטרי נדיר החושף לראשונה עדויות על השמדת יהודי אירופה מפי הנאצים עצמם, ובזמן אמת. עדויות אלה הוקלטו בחשאי על ידי המודיעין הבריטי באחד ממבצעי המודיעין הסודיים והמורכבים בהיסטוריה 26.04.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kcjtnuuz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/haklatot-hanatzim/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "תהליך השתכללות ההשמדה מפי עדויות של גנרלים נאצים בכירים שנתפסו על ידי הבריטים במהלך המלחמה 03.05.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886628/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_shetz95z/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/haklatot-hanatzim/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "פרק אחרון בסדרה. בחודשי המלחמה האחרונים, כאשר ברור כי גרמניה עומדת בפני תבוסה, וגילוי פשעי המלחמה שביצעה, עסוקים הקצינים הנאצים בניסיון להימלט מאימת הדין 10.05.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-881019/s1/886629/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ots4fcjb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haklatot-hanatzim/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/haklatot-hanatzim/s1-ep3.jpg"
+    }
+  ]
+}

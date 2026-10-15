@@ -1,0 +1,93 @@
+{
+  "slug": "haemet",
+  "title": "האמת",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/",
+  "version": "48cc12b36da2",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/haemet/series.jpg",
+  "catalogPoster": "scripts/catalog/media/haemet/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - ילדה קטנה",
+      "subtitle": "רובי דלויה, רוצח מורשע, טוען לחפותו כבר עשור. רגע לפני פרסום ההכרעה הסופית בנוגע לערעורו, רחלי, חוקרת נוער במשטרת ראש העין, נקראת לזירה אשר שופכת אור חדש על הרצח הישן. ביום בו אמורה להינתן ההכרעה הסופית במשפט הרצח השנוי במחלוקת ביותר בישראל, מתרחש במתנ\"ס שכונתי בראש העין רצח נוסף",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/535920/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mniu8l17/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - משחקת באש",
+      "subtitle": "תנ\"צ פורגס מונחת לניהול החקירה, למורת רוחו של סנ\"צ בדימוס אליהו זבטני, אבא של רחלי ומי שהביא להרשעת רובי דלויה. פורגס מקים צוות חקירה מיוחד ואינו כולל את רחלי, אשר נלחמת על מקומה. בלווית הנרצחת, אחיה מפנה אצבע מאשימה למקום בלתי צפוי 17.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/535930/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u437uzw6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - הדסה שלי",
+      "subtitle": "רחלי קושרת את הממצאים בזירות לארי עוזרי, מי שהיה המורה לספרות של שתי הנרצחות. היא הולכת אליו במטרה לחקור אותו אבל נשבית בקסמיו - בדיוק כמו לפני 10 שנים, כשהייתה, גם היא, תלמידתו 21.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761805/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3yd5xr4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - אנשים לא משתנים",
+      "subtitle": "כאשר מיכאל, בנו של הרוצח המורשע, מותקף באלימות, עולות תהיות חדשות לגבי הקשר בין רובי דלויה לרצח השני, ומעורבותה של אישה מסתורית. מידע ממקור מפתיע מוביל את רחלי לחשוש שעוד נערה נרצחה 28.07.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761808/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_eessqnd3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - ירדן פלאי בלב",
+      "subtitle": "שמועות על רוצח סדרתי מאיימות על תושבי העיר, אך נותנות תקווה שרובי יזוכה. כולם נדמים כחשודים. דווקא כעת, סודות העבר של רחלי מגיעים לאוזניו של פורגס, והיא נזרקת מהצח\"מ 04.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761809/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yc0rd2r9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - שפן לשפן זאב",
+      "subtitle": "חיטוט בקבוצת הוואטסאפ של חברותיה של הנרצחת מעלה דמות של שפן רצחני שמרבה להופיע בהתכתבויות. במי מדובר והאם יש לו קשר לנבלת השפן האמיתי שהמשטרה מוצאת? 07.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761814/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y6gn5pqw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - נחשים חלקלקים",
+      "subtitle": "האם \"השפן הרצחני\", הוא בעצם כינוי גנאי לשירן, נערה שסועת שפה, שסבלה התעללות נפשית וחרם חברתי? שירן נחקרת ומספקת זוית מטרידה על אישיותה של הנרצחת. 11.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761815/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h9uhi6oo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - האמת",
+      "subtitle": "למרות שכל העדויות מצביעות לכיוון של אשם אחד, רחלי עדיין מחפשת תשובות. החיפוש מוביל אותה לכיוון מפתיע אשר שופך אור חדש על פרשיית הרצח 14.08.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-535919/s1/761816/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8cbc27br/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haemet/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/haemet/s1-ep8.jpg"
+    }
+  ]
+}

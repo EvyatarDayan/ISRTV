@@ -1,0 +1,1123 @@
+{
+  "slug": "kupa-rashit",
+  "title": "קופה ראשית",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/",
+  "version": "eb7d43ea2604",
+  "updatedAt": "2026-10-13T19:04:38Z",
+  "episodeCount": 111,
+  "localPoster": "images/kanbox/kupa-rashit/series.jpg",
+  "catalogPoster": "scripts/catalog/media/kupa-rashit/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - שלי מהבית",
+      "subtitle": "הפרק הראשון בסדרה: אמנון עושה הכול בשביל לא לשלם על חטיף שלטענתו הביא מהבית. שירה נאלצת לחלוק את המשרד שלה עם ניסים ואנטולי, שהקימו שם בית כנסת לעובדים 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89248/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fb26cqkv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - נס בקצבייה",
+      "subtitle": "ניסים משוכנע שרב חשוב התגלה לו בסטייק, ומתקשה להתרכז בעבודה. שירה מחליטה אחת ולתמיד לפתור את בעיית השקיות הלא נפתחות בירקנייה. כוכבה לא מוכנה לשרת את אמנון שמוצא פתרון מקורי בשביל להעביר את הלבן שלו 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89251/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9fqvzvk6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - בוקר של פיגוע",
+      "subtitle": "פיגוע שאירע סמוך לסופר גורם לכל העובדים והלקוחות להתייחס בצורה שונה לראמזי. כוכבה מארחת את הבן שלה בסופר ונכנסת ללחץ כשהוא ואסתי מתחילים לפלרטט. אמנון אורז הביתה דגימה מכל זית, אבל מתעקש לא לשלם עליהם בטענה שהם \"טעימות\" 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89254/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1xlv7uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - סלב בסופר",
+      "subtitle": "השף ישראל אהרוני נכנס לסניף וגורם להתרגשות רבה בקרב העובדים והלקוחות שמעולם לא ראו \"סלב\" במציאות. ניסים ואנטולי מוצאים דרך מקורית למרוח את הזמן בקצביה 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89257/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iy0id2fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - כוכבה חוזרת מחו\"ל",
+      "subtitle": "סרטון שבו כוכבה מתפרעת במטוס הופך ללהיט ברשת. אביחי מפחד שהכתם ידבק גם בסניף, ומורה לשירה לפטר את כוכבה לאלתר. אמנון משגע את אנטולי בקצביה ומתעקש לא לשלם על העור של העוף 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89260/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3o3uz0b8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - תחתונים",
+      "subtitle": "אמנון מגיע לסניף כדי להחזיר להחזיר תחתונים שקנה, אבל כוכבה מסרבת בכל תוקף לקבל בחזרה תחתונים משומשים. כתם סלק עקשן מטריד את ראמזי. ניסים וכוכבה מארגנים מתיחה מרושעת לאנטולי 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89263/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yg6g7s55/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - ראמזי הבלש",
+      "subtitle": "העובדים מאשימים את העובד החדש בהיעלמות מכשירי הסלולר שלהם, ראמזי מסרב להאמין ופוצח בחקירה מאומצת למציאת הגנב האמיתי. אמנון מסרב לקבל את העובדה שמבצע העגבניות הוא רק עד 3 קילו לקנייה, ועושה הכל בשביל לנצח את השיטה 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89266/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sy72fxz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - החולדה",
+      "subtitle": "שירה אוסרת על עובדי הסופר להרוג חולדה שהתגלתה במחסן, ומבטיחה לטפל בה בעצמה בדרכים הומניות. כוכבה מחליטה שגם לקופאיות מגיעים טיפים 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89269/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zfr1x8uu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9 - ראמזי יוצא לחופש",
+      "subtitle": "ראמזי נאלץ לקחת יום חופש ראשון בקריירה, אנטולי מסבך את ניסים עם המאפיה הבלארוסית, ופרנקו עושה לשירה טובה קטנה שהופכת לסיוט גדול 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89272/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9g6hxdyc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10 - כוכבה מפסיקה לעשן",
+      "subtitle": "חזי מספר לכוכבה שהוא הפסיק לעשן. כוכבה מנסה גם להיגמל וכל הסופר סובל מזה. שירה וראמזי נלחמים במכת 'המנשנשים' בסופר ומצליחים לפענח את תיק פרנקו 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89275/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_atp9dczt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11 - כרעיים יפים",
+      "subtitle": "ראמזי מנסה להסתיר משירה שהוא חולה, כי הוא חושש שהיא תשלח אותו הביתה באמצע המשמרת ומתייעץ עם כוכבה על דרכים להבריא. פרנקו עושה קניות לפני משחק כדורגל ונותן לאשתו לדבר עם אבטיחים בטלפון. שוני מבקשת מאנטולי כרעיים יפים ומתאכזבת מהבחירה שלו 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89278/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m6ts083a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "פרק 12 - פפרני בשדות זרים",
+      "subtitle": "הבת של פרנקו מבקשת ממנו לקנות מעכשיו רק ביצי חופש. ראמזי חושד שגברת פפרני, הלקוחה האהובה עליו, בוגדת בו עם סופרמרקט אחר. העובדים מעודדים את חזי להוריד סוף סוף וואטסאפ 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89281/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9vny92qe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "פרק 13 - מהפכה בסופר (חלק א')",
+      "subtitle": "תקנה חדשה של שירה מחייבת את העובדים ללבוש כובעים במהלך המשמרת. כוכבה מחליטה להמריד את העובדים נגד ה\"גזירה\" וגורמת לרעידת אדמה של ממש 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89284/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xykp9qau/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "פרק 14 - מהפכה בסופר (חלק ב')",
+      "subtitle": "בעקבות פיטורי שירה ממנה אביחי מנהלת חדשה לסופר. העובדים מנסים להתרגל לשיטת הניהול החדשה, ומתחילים לחשוש שאולי שירה לא הייתה גרועה כל כך 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89286/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mgove66l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "פרק 15 - תירוצים תירוצים",
+      "subtitle": "ניסים ואנטולי מתייעצים עם כוכבה על תירוץ שימנע מהם להשתתף בערב הניקיונות בסופר. שוני הלקוחה חושפת את הנשק היעיל ביותר נגד עובדי הסופר - שיימינג 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89288/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r8vnmkcs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "פרק 16 - יום שישי בסופר",
+      "subtitle": "יום שישי - הסיוט הגדול ביותר של כל עובדי הסופר ולקוחותיו. פראנקו במירוץ נגד השעון לסיים את הקניות לפי שאישתו חוזרת הביתה. שירה מנסה להלחם בתופעת המריבות בתור באמצעות שיטות מבית סטיב ג'ובס 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89290/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qsppx5cn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 1,
+      "name": "פרק 17 - ראמזי מאוהב",
+      "subtitle": "ראמזי מתאהב באסתי הקופאית, אבל לא יודע איך להביע את אהבתו. ניסים ואנטולי מחליטים לקחת אותו תחת חסותם ומלמדים אותו כל מה שהם יודעים על אהבה 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89292/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tsz6366y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 1,
+      "name": "פרק 18 - בני דודים",
+      "subtitle": "אמנון מגלה שיש לו קשר משפחתי לחזי הירקן, ומנסה לנצל את זה לטובת הנחות. אישתו של אנטולי מסלקת אותו מהבית והוא נאלץ לעבור לגור בסופר 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89294/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mkb6ofzb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 1,
+      "name": "פרק 19 - סופר חכם (חלק א')",
+      "subtitle": "שירה מביאה לסופר קופה אוטומטית. העובדים חוששים שזהו תחילתו של הסוף עבורם. גברת ביסמנובסקי, שלא עבדה מעולם, מתחילה לעבוד בסופר בהדרכת ראמזי 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89296/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_caqiupm2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 1,
+      "name": "פרק 20 - סופר חכם (חלק ב')",
+      "subtitle": "האם זהו סוף הסיפור עבור עובדי 'שפע יששכר'? העובדים יוצאים למלחמת 'להיות או לחדול' נגד המכונות האוטומטיות, שמאיימות להחליף אותם לתמיד 23.07.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89298/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dsolgd88/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 1,
+      "name": "עונה 1 פרק 21",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s1/89300/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fo0a77un/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s1-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s1-ep21.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - שירותי הנהלה",
+      "subtitle": "הסניף עובר למתחם חדש ובו תא שירותים אחד לעובדים ותא שירותים אחד להנהלה. שירה מאפשרת גם ללקוחות להשתמש בשירותי העובדים והעובדים יוצאים למלחמה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zmdljg8g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - אחות של ראמזי",
+      "subtitle": "אחות של ראמזי מתחילה לעבוד בסופר וראמזי לא יודע נפשו מרוב התרגשות. כוכבה כמעט נחנקת מגרעין של זית ורואה בזה סימן מלמעלה להפוך לאדם טוב 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108559/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kxavyw9n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - מה עובר על שירה",
+      "subtitle": "העובדים מנסים להבין מה פשר השינוי לטובה בהתנהגות של שירה. כשהם מגלים את הסיבה, הם מתקשים להאמין. הילד של שוני מעכב את התור בקופה, מה שמביא לעימות בלתי נמנע עם פרנקו 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_juj9uaa7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - סופר פוד",
+      "subtitle": "דוכן טעימות חינם של מוצרי 'סופר פוד' עוזר לאמנון להבריא. כשהמוצרים הופכים להיות בתשלום, אמנון נקלע לדילמת חייו: הבריאות או הכסף? אביחי מטיל על שירה משימה: לעשות סרטון פרסומת לסופר שישבור את הרשת 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_28ruvlzc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - הדרבי הגדול",
+      "subtitle": "עובדי הסופר נרשמים לליגה למקומות עבודה בכדורגל ומתכוננים למשחק העונה מול הסופר המתחרה - \"אושר לוי\". כוכבה ואסתי בקרב קופאיות: מי תמכור יותר יין במבצע? 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108568/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fhen1fb5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - גזר",
+      "subtitle": "שירה מצליחה לשכנע את אביחי לגייס שליח לסופר לפי שיטת הגיוס של סטיב ג'ובס. כל העובדים רוכשים יחד כורסת מסאז' לחדר העובדים. כולם, מלבד כוכבה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108571/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izy77qyx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - סיפורי סבתא",
+      "subtitle": "ניסים רוצה לנמנם במשמרת וממציא לאנטולי סיפורי אגדות כדי שיאפשר לו להמשיך לישון. התחלופה המהירה של עובדי הנקיון מעציבה את ראמזי, שמתקשה להיפרד מכל מנקה שעוזב 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108577/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qrz6imlk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - בטיפול",
+      "subtitle": "קומדיה מוקומנטרית. פרק 8. שירה פותחת מהצד עסק של טיפולי 'מנטורינג'. כאשר ראמזי מגלה שאין ביקוש לטיפולים, הוא מחליט לקחת את העניינים לידיים. אמנון פוגש בסופר את אהבת נעוריו ורגשות ישנים מתעוררים 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108574/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n0i1khx6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פרק 9 - המרצדס",
+      "subtitle": "אירוע מסתורי שאירע בסופר שולח את ראמזי לחקירה בלשית מסועפת. אמנון מזהה הזדמנות לעקוץ את הסופר, ולוקח אותה בשתי ידיים 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108580/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lupa6vd7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "פרק 10 - פורים",
+      "subtitle": "חג פורים בשפע יששכר! כוכבה מוטרדת מבחירת התחפושת של ביתה הקטנה סיטל. טעות בזיהוי גורמת למבוכה גדולה בקצבייה. מבצע משלוחי המנות מחזיר את אמנון לטראומת ילדות 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108583/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm478vjs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "name": "פרק 11 - אנטולי מתערב",
+      "subtitle": "ניסים מנסה לגמול את אנטולי מההרגל המגונה של \"להתערב\" לאנשים בכל דבר. אמנון מנסה לעשות קניות עם 'גיפט קארד' לא מזוהה, וגורם למהומה בסופר 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108586/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g197oqsp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "name": "פרק 12 - אביחי חי ת'חלום",
+      "subtitle": "אביחי מחליט לעזוב את אשתו בעקבות עצה שהוא חשב ששירה נתנה לו, וכל הסניף נאלץ להתמודד עם ההשלכות. כוכבה פוגשת את המורה שלה מהתיכון וסוגרת אתה חשבון של 35 שנה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108589/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3g1tzc7j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "name": "פרק 13 - הקרב על המזגן",
+      "subtitle": "הקיץ הגיע ואיתו הריב הנצחי על הטמפרטורה שבה יפעל המזגן. אמנון מקבל את המשימה השנואה עליו בעולם, לשמור ללקוח אחר את התור בקופה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kvtuphm6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 2,
+      "name": "פרק 14 - פסח בא",
+      "subtitle": "קומדיה מוקומנטרית. ערב פסח והסופר מלא בלקוחות. פרנקו מנסה לחמוק מהקניות עם אשתו, שוני מנסה להצטייד בחמץ רגע לפני החג, וכוכבה ממציאה שיטה חדשה כיצד לעשות קניות בלי לקום מהכיסא 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108595/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x2g9r4th/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 2,
+      "name": "פרק 15 - אמנון לא מתנצל",
+      "subtitle": "אמנון מורחק מהירקניה בעקבות התנהגות בלתי הולמת ונאלץ להתמודד עם הגזירה. ניסים ואנטולי ממשיכים במסורת המתיחות שלהם על שאר העובדים 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108598/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e3w7edqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 2,
+      "name": "פרק 16 - שירה לא אחראית",
+      "subtitle": "לשירה נמאס להרגיש כמו גננת בסופר. היא מחליטה להעביר לעובדים את כל הסמכויות על מנת להפוך אותם לעצמאיים יותר. החלטה שהיא עשויה להתחרט עליה... 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108601/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbbascsx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 2,
+      "name": "פרק 17 - ראמזי ושודדי העגלות",
+      "subtitle": "לקראת ל\"ג בעומר ראמזי יוצא למלחמה בגנבי העגלות. פרנקו עושה הכל בשביל לקבל החזר על מוצר שקילקל בעצמו 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108604/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_by2ib41h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 2,
+      "name": "פרק 18 - חמישים מיליון",
+      "subtitle": "עובדי הסופר מחליטים לשלוח ביחד טופס לוטו. אמנון מוצא על ספסל חליפה ישנה, שמשנה את חייו מן הקצה אל הקצה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108607/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0casqzkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 2,
+      "name": "פרק 19 - מה עושים עם כוכבה",
+      "subtitle": "לשירה נמאס סופית מכוכבה. היא יוזמת מהלך ומצליחה לשכנע את מנהל הסופר המתחרה להציע לכוכבה לעבור אליו. האם כוכבה תסכים ותחצה את הקווים? 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108609/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0w4m9wy9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 2,
+      "name": "פרק 20 - מה עושים בלי כוכבה",
+      "subtitle": "אמנון מגלה שכוכבה עזבה את הסניף ומתחיל לעשות ככל העולה על רוחו בסופר. לשירה עולים ספקות לגבי העזיבה של כוכבה. ראמזי מנהל קרב עקוב מדם עם האויבת מספר אחת של הסופר - הנמלה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s2/108612/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cyi4po0y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s2-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s2-ep20.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "פרק 1 - בקבוק בלי פקק",
+      "subtitle": "שירה מעבירה את העובדות שלה קורס מקוצר בהגנה עצמית, אמנון מגיע לסופר עם בקשה חריגה, ניסים ואנטולי מחפשים תשובה לשאלה: מי משניהם יותר חתיך? 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133065/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_82w8k0c5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "פרק 2 - קוקו וקוקו",
+      "subtitle": "שירה מנסה לקדם את עובדי הסופר האתיופים ולמרות מאמציה גורמת לתקרית גזענית. ראמזי מתכונן לראיון חשוב אצל מנהל כוח האדם של הרשת 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133067/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ki7470h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "פרק 3 - 15 דקות",
+      "subtitle": "אמנון נלחם בחוק החדש שמחייב תשלום על חניה בסופר. פרנקו שוכח מה שירלי ביקשה ממנו לקנות ויוצא לחקירה בעידודו של ראמזי 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133069/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_g8cyt11h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "פרק 4 - יומולדת בסופר",
+      "subtitle": "שירה מחליטה על יוזמה חדשה לחגיגות ימי ההולדת של העובדים ונאלצת להתמודד עם ההשלכות של החלטתה. שוני מנסה לשכנע את בנה לא לקנות ממתקים בסופר ומסבכת בכך את ניסים ואנטולי 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133071/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cxas4zeg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "פרק 5 - כוכבה היפה",
+      "subtitle": "אביחי מנסה לקבל כתבה במקומון ודורש משירה למצוא לו לקוח שזקוק לתרומה. עובדת חדשה בסופר (יובל שרף בהופעת אורח) גורמת לכוכבה בעיות זהות וביטחון עצמי 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133073/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x3ws6gqf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "פרק 6 - יולנדה",
+      "subtitle": "קומדיה המתרחשת בסופר \"שפע יששכר\". פרק 6. יולנדה: כוכבה מתערבת לבנה הבכור במערכות היחסים וגורמת לו למהפכים בחיים. ראמזי נלחם על מכונת השטיפה הישנה של הסופר 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133076/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_izrc96f1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "פרק 7 - הפצוע המולדבי",
+      "subtitle": "במהלך העבודה אנטולי נפצע ברגלו ונאלץ לעבור לתפקיד אחר בסופר. שוני מנסה להוכיח לדליה שהיא לא פחות ידידותית לסביבה ממנה 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133078/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o0cwkkdx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "פרק 8 - סלסילות",
+      "subtitle": "עובדי הסופר נאלצים להתמודד עם עובדת חדשה בסופר, שהיא במקרה גם אשתו של אביחי. ראמזי מנסה לשדך ללקוחות את הירקות הפחות יפים בירקניה 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133081/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_78f0wfds/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 3,
+      "name": "פרק 9 - עוד שישי בסופר",
+      "subtitle": "\"פרנקו שוב מסתבך עם הקניות ביום שישי. אמנון נלחם על זכותו לקבל את המבצע של \"עיתון בשקל 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133083/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0u7ww7ra/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 3,
+      "name": "פרק 10 - סרגיי פלאץ׳",
+      "subtitle": "פרט מפתיע בביוגרפיה של אנטולי משנה ברגע את החוקים בקצביה. שירה מכריזה על תחרות העובד המצטיין וגורמת לראמזי לאבד את זה 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133086/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kgjp9o69/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 3,
+      "name": "פרק 11 - אמא של טיטינסקי",
+      "subtitle": "אנטולי \"נדבק\" בחיידק האופניים. אמנון מחפש מחליף שיקח את אמא שלו לסופר במקומו. שירה שוכחת לקנות מתנה ליומולדת של אביחי 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133089/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_18dxu1pv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 3,
+      "name": "פרק 12 - אבא של טיטינסקי",
+      "subtitle": "אמנון מנסה להתמודד עם בן הזוג החדש של אמא שלו. ראמזי נלחם בצו הגירוש שנשלח אל עוזרו הנאמן דייזי 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133092/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_36oxutp8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 3,
+      "name": "פרק 13 - דקלה",
+      "subtitle": "קומדיה. פרק 13 - דקלה. שירה צועקת על הלקוחה הלא נכונה, ועושה הכל כדיי להתחמק מעונש. ניסים ואנטולי מביאים לראשונה נתח ואגיו יוקרתי לקצביה, מה שגורם למשבר עמוק ביחסים שלהם 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133095/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkacurp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 3,
+      "name": "פרק 14 - ראמזי טהור לעד",
+      "subtitle": "קומדיה המתרחשת בסניף סופר \"שפע יששכר\". פרק 14. ראמזי טהור לעד: ראמזי עושה הכל בשביל להתחבר עם עובד חדש בסופר וכוכבה מארגנת 'קליפ חתונה' לכבוד החתונה של הבן שלה 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133098/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u2xsbwcl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 3,
+      "name": "פרק 15 - עקיצות",
+      "subtitle": "עונה חדשה לקומדיה המתרחשת בסניף סופר \"שפע יששכר\". פרק 15. עקיצות - מכת יתושים תוקפת את הסופר, ניסים וכוכבה מוצאים פתרון מקורי לבעיה. ראמזי יוצא שוב למשימה בלשית 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133101/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mbsfbd14/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 3,
+      "name": "פרק 16 - קקפונים",
+      "subtitle": "קומדיה המתרחשת בסניף סופר \"שפע יששכר\". פרק 16 - קקפונים: שירה מנסה להיפטר מקולגה אובססיבית שמנסה להתחבר איתה. הקופאיות מתמודדות עם מכת הקקפונים - לקוחות שמדברים בטלפון בקופה 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133104/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_doz50dac/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 3,
+      "name": "פרק 17 - שוד ושבר",
+      "subtitle": "כוכבה וניסים נלחמים בכוונתה של שירה לפטר את צ'יבוטרו. שוני ומוש תקועים בחניון בגלל רכב שחסם אותם. אמנון מסתבך עם נגן רחוב בכניסה לסופר 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133107/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0uqk5wrq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 3,
+      "name": "פרק 18 - מאשה חודש תשע",
+      "subtitle": "קומדיה המתרחשת בסניף סופר \"שפע יששכר\". פרק 18. מאשה חודש תשע - אנטולי בלחץ לקראת הלידה של מאשה. ראמזי נקלע לסכסוך עם המעדניה הסמוכה. ניסים וכוכבה פוצחים במלחמת מתיחות 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133109/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_39qpmixn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 3,
+      "name": "פרק 19 - חנוכה",
+      "subtitle": "שוני נלחמת בדוכן תפילין שנפתח לרגל החג מחוץ לסניף. אביחי נתקע בלי סידור לילדה בחופשת החנוכה, וניסים מנסה למכור את הרכב הישן של אשתו 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133112/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwn2iij7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 3,
+      "name": "פרק 20 - חופה ראשית",
+      "subtitle": "חופה ראשית - פרק סיום העונה. החתונה של גון ואוצר מתקרבת. שינוי של הרגע האחרון מוביל לחתונה שאף אחד לא ציפה לה. 19.10.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s3/133114/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zwye398c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s3-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s3-ep20.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 4,
+      "name": "פרק 1 - ריקוד מושחת",
+      "subtitle": "בפרק פתיחת העונה אנטולי מגלה כשרון יוצא דופן וניסים רושם אותו לתחרות כשרונות. כוכבה באובססיה להוכיח שהיא שוקלת פחות משירה, ואמנון מאבד שנקל 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/164738/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n43jd6mv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 4,
+      "name": "פרק 2 - הג'ל של ראמזי",
+      "subtitle": "עונה רביעית לסדרה הכי ישראלית שיש, זוכת פרס האקדמיה. פרק 2- הג'ל של ראמזי. יום העצמאות בפתח ואביחי מועמד לתואר יקיר העיר יבנה. שודד הסופרים מטיל אימה על הסופרים באיזור. ראמזי מתמודד עם מחסור בג'ל הקבוע שלו. 26.04.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/164741/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w947m7ob/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 4,
+      "name": "פרק 3 - טיטינסקים לא קונים בעונה",
+      "subtitle": "החורף הגיע ולאמנון בדיוק נשברת המטרייה. עובדי הסופר במאבק עם לקוחה שמתעקשת להגיע תמיד דקה לפני הסגירה 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/361461/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pcevjog2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 4,
+      "name": "פרק 4 - בר מצווה לאנטולי",
+      "subtitle": "ניסים מציע ללמד את אנטולי לבר מצווה מאוחרת. אסתי יוצאת למלחמה באוייב הכי גדול שלה- הווליום של כוכבה 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/362007/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ibw56c1a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 4,
+      "name": "פרק 5 - האקדמיה ללשון",
+      "subtitle": "לעובדי הסופר נמאס ששירה מתקנת אותם בעברית, בעוד עבריינים מגיעים לסופר ודורשים את הבקבוקים למחזור 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/365662/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q3gq4xv8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 4,
+      "name": "פרק 6 - אבא של נעמי",
+      "subtitle": "אבא של נעמי מגיע לביקור פתע בעוד ניסים עולה על שיטה חדשה להתבטל. פרנקו מנסה להשיג פיצויים מהסופר 27.05.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/374279/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vnfoyflo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 4,
+      "name": "פרק 7 - קופה אדומה",
+      "subtitle": "לניסים ואנטולי נמאס שרק השליחים מקבלים טיפים. לשוני נמאס שמוש הפראייר קונה כל דבר שמנסים למכור לו, ומלמדת אותו להגיד גם לא 31.05.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/380757/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_13b9cvbn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 4,
+      "name": "פרק 8 - מרד בר כוכבה",
+      "subtitle": "כוכבה מגלה לתדהמתה ששנקין מרוויח יפה, ודורשת מעכשיו כסף על השתתפותה בתוכנית. אנטולי מגיע לעבודה בלוק חדש 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/389973/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w6dy5g0u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 4,
+      "name": "פרק 9 - כי הלקוח הוא גם חבר",
+      "subtitle": "סוף, הבן של שוני, נתקע בעגלה רגע לפני אודישן חשוב; כוכבה שבוייה בהמתנה לשירות לקוחות בטלפון; פרנקו נכנס לעימות בדוכן עיתונים 14.06.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/393227/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1l6hnkxl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 4,
+      "name": "פרק 10 - לוויה ראשית - חלק א",
+      "subtitle": "המלחמה של אביחי וגדי לייפר על תפקיד סמנכ\"ל הרשת מגיעה לשיאה; כוכבה מחפשת א\"א, כלומר אלמן אמיד; עובדי הסופר מתבשרים על מותה המפתיע של דמות מפתח 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/405107/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jl3sasxn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 4,
+      "name": "פרק 11 - לוויה ראשית - חלק ב'",
+      "subtitle": "יום ההלוויה של לאה שקדי: אביחי מנצל אותו למטרות פוליטיות וכוכבה למטרות רומנטיות. אמנון קונה מתנה לאמא שלו 31.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/419297/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_024nre1r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 4,
+      "name": "פרק 12 - העורבים",
+      "subtitle": "כוכבה מוצאת שותפים מפתיעים לנקמה בשירה, ראמזי יוצא מגדרו בשביל שגברת ז'וז' לא תעזוב, וניסים סובל מסיוטים על העבודה 11.07.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/430267/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mlmogo8p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 4,
+      "name": "פרק 13 - המשקיע",
+      "subtitle": "יששכר מבקש מאביחי ללוות משקיע קנדי שמגיע לארץ. אמנון עושה הכל בשביל להחזיר \"כנפי רעל\" שרכש בסופר 18.07.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/445907/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rgn48t8i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 4,
+      "name": "פרק 14 - יום האהבה",
+      "subtitle": "ספיישל ט\"ו באב! כוכבה ממורמרת שאין לה דייט. פרנקו מגלה ברגע האחרון ששכח לקנות מתנה לשירלי, ושירה מטריפה את כולם עם יכולות השידוך שלה 02.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/463438/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t3zyukcc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 4,
+      "name": "פרק 15 - אתגר המיקרו",
+      "subtitle": "הסופר יוצא במבצע \"מצא זול יותר וקבל כספך חזרה\", ואמנון לוקח את זה קצת רחוק מדי. ניסים עושה הכל בשביל שכוכבה תחזיר לו מאה שקל. פרנקו מבריז מהאזכרה של אמא של שירלי ומסתבך 09.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/458775/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r54njmqc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 4,
+      "name": "פרק 16- המחליפה",
+      "subtitle": "שירה יוצאת להשתלמות ומביאה במקומה מנהלת מחליפה בעוד מוש מגלה למה תמיד עוקפים אותו בתור 15.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/489439/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oh3ibb1e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 4,
+      "name": "פרק 17 - הטוסט של גריאני",
+      "subtitle": "ניסים, כוכבה ואנטולי חושפים סוף-סוף את המקום האהוב עליהם בעולם - \"הטוסט של גריאני\". שירה במצוקה חמורה של כוח אדם. אמנון יוצא לשנת שבתון ומטריף את עובדי הסופר יותר מהרגיל 22.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/499123/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_224zhzz1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 4,
+      "name": "פרק 18 - אמנון עובד בסופר",
+      "subtitle": "אמנון מתחיל לעבוד בסופר בשביל הופעה של חיים משה לעובדים בלבד. פרנקו נקלע לריב עם תייר, ונאלץ לריב באנגלית 29.08.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/509743/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s5m9en7h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 4,
+      "name": "פרק 19 - הצתה מאוחרת",
+      "subtitle": "התרגשות בסניף. שירה צריכה לבחור שני עובדים שישתתפו בפרסומת לרשת עם נועה קירל. אנטולי מפסיד לצ'יבוטרו בהתערבות בעוד ראמזי לוקח החלטה גורלית שמשאירה את כולם פעורי פה 06.09.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/517960/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6fpnrrj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 4,
+      "name": "פרק 20 - ראמזי חזור הביתה",
+      "subtitle": "פרק סיום העונה - ראמזי חזור הביתה. שירה מחפשת מחליף לראמזי, שמאז עזיבתו אבדו עקבותיו. עובדי הסופר נוסעים לג'אסר לחפש אותו ומתחילים להשלים עם העובדה שאולי הוא לא יחזור לעולם... 12.09.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/529627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_258n00fh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 4,
+      "name": "פרק 21 - עושים קופה 2023",
+      "subtitle": "מאחורי הקלעים של העונה הרביעית של קופה ראשית. כל הסודות נחשפים! 12.09.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/529636/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jbskw8uo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 4,
+      "name": "עונה 4 פרק 22",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/666822/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yy028kkx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 4,
+      "name": "עונה 4 פרק 23",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s4/748627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3jt6823a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s4-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s4-ep23.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 5,
+      "name": "פרק 1 - כפרות",
+      "subtitle": "פרק פתיחת העונה! שנה חדשה נפתחת בסופר. שירה מבקשת מניסים לקחת לאנטולי את המתנה שלו לחג אבל העניינים מסתבכים. כוכבה במירוץ נגד הזמן לכפר על חטאיה לפני כיפור, ואמנון נהנה מהתקופה הזאת בשנה שבה כולם נחמדים 12.11.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809113/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_csokhtwe/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 5,
+      "name": "פרק 2 - הסטארט-אפ של כוכבה",
+      "subtitle": "אביחי בלחץ שיא לקראת השקת הקמע החדש של הרשת. שירה מנפנפת לכולם בחבר החדש שלה, וכוכבה מגלה את עולם ההייטק 19.11.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809157/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ygac97dd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 5,
+      "name": "פרק 3 - שברת שילמת",
+      "subtitle": "אביחי מקנא במאמן הכושר החדש של עופרה, ומחליט לפצוח בדיאטת כסאח בעצמו. אמנון שובר ספל בסופר ומתבקש לשלם עליו 26.11.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809161/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y8emnwxk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 5,
+      "name": "פרק 4 - דניס קמחי",
+      "subtitle": "שירה מספרת לעובדים על החבר החדש שלה, אבל כוכבה בטוחה שהיא משקרת. אביחי מתרגל לחיים כסמנכ\"ל, ומנצל את התפקיד החדש בשביל להתעמר ביריבו הוותיק, גדי לייפר 03.12.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809162/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wy8yk2x8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 5,
+      "name": "פרק 5 - טלפונובלה",
+      "subtitle": "הטלנובלה האהובה על כוכבה מסתיימת והיא מחפשת תחליף. שירה נלחמת בתופעת ה'נוגעים' במאפים. מוש מסתבך עם מני 'רבותיי' 10.12.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809165/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6hu0lscj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 5,
+      "name": "פרק 6 - גזענות קירחים",
+      "subtitle": "חברת ילדות של שירה מתחילה לעבוד בסופר ופראנקו סובל מגזענות קירחים 17.12.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809167/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s0q279mn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 5,
+      "name": "פרק 7 - אבא של כוכבה",
+      "subtitle": "שירה ממשיכה להתבסס בכת של טוהר. כוכבה פוגשת את אבא שלה לראשונה אחרי 45 שנה. אסתי מתעצבנת על היחס של פראנקו לאשתו 24.12.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809168/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5p7jjjrp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 5,
+      "name": "פרק 8 - התרומה",
+      "subtitle": "ראמזי חושב ששירה נקלעה לבעיה כלכלית ויוצא מגדרו בשביל לעזור לה. ניסים ואנטולי בהתרגשות שיא, הזמר האהוב עליהם, חנן בן ארי, מגיע ליבנה 31.12.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809169/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5ngslrzw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 5,
+      "name": "פרק 9 - לדפוק חתונה",
+      "subtitle": "שוני נלחמת בהדרת נשים בסופר. כוכבה, ניסים ואנטולי מתקשים להחליט כמה שמים לחתונה של חברה לעבודה 07.01.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809172/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jqv5sitx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 5,
+      "name": "פרק 10 - הטיפ של ראמזי",
+      "subtitle": "ראמזי בשום פנים ואופן לא מוכן לקבל טיפ מלקוחות. ניסים, אנטולי וכוכבה מתחילים במסורת חדשה: 'בוקר טינופים' 14.01.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809173/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_obykbxe5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 5,
+      "name": "פרק 11 - הקללה של שירה",
+      "subtitle": "שירה מקליטה לאביחי הודעה קולית שעלולה לגרום לפיטוריה. שוני מסרבת לתת לדליה את המנקה שלה 21.01.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809175/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zxfko38u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 5,
+      "name": "פרק 12 - אחות של כוכבה",
+      "subtitle": "כוכבה מגלה שיש לה אחות קטנה מאבא שלה ולא מקבלת את זה כל כך יפה. ראמזי מגשים את חלומו לעבוד בתפקיד היחיד בסופר שעוד לא עשה - נהג המשלוחים 28.01.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809179/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tlmlvinr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 5,
+      "name": "פרק 13 - הו הא מי זה בא?",
+      "subtitle": "לעובדים נמאס מנציגת הוועד הותיקה, כוכבה, והם עורכים בחירות מחדש. שוני מחפשת נזקק לשלם עליו בשביל שתוכל לצלם ולהעלות לרשת 04.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809183/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7nsefeax/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 5,
+      "name": "פרק 14 - המזל של ניסים",
+      "subtitle": "ניסים מתוסכל שאשתו מלי מבקרת אותו כל יום. אביחי לחוץ מביקורת מס, וראמזי נכנס לאובססיה בגלל מפתח 11.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809185/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vi0ry1k9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 5,
+      "name": "פרק 15 - מסיבת סילבסטר",
+      "subtitle": "החבורה חוגגת מסיבת סילבסטר רוויית אלכוהול בסופר, מה שגורם לעניינים להסתבך 18.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809188/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qpghua73/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 5,
+      "name": "פרק 16 - נכנסת חסכת",
+      "subtitle": "ראמזי נלחם במגיפה מדבקת, צ'יבוטרו מתמודד עם לקוחות מעצבנים, ושירה מוטרדת מזהות האבא של התינוק 25.02.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809192/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3689jjet/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 5,
+      "name": "פרק 17 - אמנון והאונליין",
+      "subtitle": "אמנון מגלה את הקניות באינטרנט. ניסים, אנטולי וכוכבה מתמודדים עם ספק שלא מפסיק להעליב אותם 04.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809195/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h1ep540j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 5,
+      "name": "פרק 18 - ריקוד האהבה",
+      "subtitle": "כוכבה חושבת שמצאה דרך להיפטר מאמנון לתמיד. פראנקו מתמודד עם התפקיד הכי חשוב של כל גבר - לבחור אבטיח 11.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809200/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_53p36y85/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 5,
+      "name": "פרק 19 - אמנון ומאריסה",
+      "subtitle": "האהבה של אמנון ומאריסה פורחת. ניסים מגלה כמה אנטולי מרוויח 18.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809202/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dv1lnase/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 5,
+      "name": "פרק 20 - שירה חודש תשע",
+      "subtitle": "פרק סיום העונה. שירה מתמודדת עם החודש התשיעי להיריון, כוכבה מוצאת שיטה להיפטר מאמנון אחת ולתמיד 25.03.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/809207/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yjw40b1s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 5,
+      "name": "עונה 5 פרק 21",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/894602/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ifaiz30q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 5,
+      "name": "עונה 5 פרק 22",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/1031383/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2192004/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 5,
+      "name": "עונה 5 פרק 23",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s5/1100110/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246376/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s5-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s5-ep23.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 6,
+      "name": "עונה 6 פרק 1",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s6/1098487/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2246979/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s6-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s6-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 6,
+      "name": "עונה 6 פרק 2",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s6/1102541/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2248982/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s6-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s6-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 6,
+      "name": "עונה 6 פרק 3",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s6/1098490/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2244718/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s6-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s6-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 6,
+      "name": "עונה 6 פרק 4",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12832/s6/1098491/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2244719/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/kupa-rashit/s6-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/kupa-rashit/s6-ep4.jpg"
+    }
+  ]
+}

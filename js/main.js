@@ -5,11 +5,16 @@
     var isFullscreen = false;
     var playerEl = null;
     var playerVideo = null;
+    var playerSubsEl = null;
+    var externalSubtitleCues = null;
+    var externalSubtitleIndex = 0;
+    var playerYoutube = null;
     var playerMessage = null;
     var playerSpinner = null;
     var previewChannel = null;
     var previewHls = null;
     var fullscreenHls = null;
+    var playbackStallTimer = null;
     var fullscreenDash = null;
     var previewTimer = null;
     var playGeneration = 0;
@@ -47,8 +52,11 @@
     var okHoldSawRepeat = false;
     var okHoldDownAt = 0;
     var okSuppressHeartUntil = 0;
+    var okBlockActivateUntil = 0;
     var OK_HOLD_MYLIST_MS = 900;
     var OK_SHORT_FALLBACK_MS = 240;
+    // Longer than the TV key-repeat delay, so a hold is not opened as a tap.
+    var OK_TV_TAP_FALLBACK_MS = 1100;
     var vodImeOpen = false;
     var vodImeLayout = 'he';
     var vodImeFocusBefore = 0;
@@ -63,10 +71,9 @@
     var liveFrameActive = 0;
     var liveFrameGeneration = 0;
     var LIVE_FRAME_CONCURRENCY = 6;
-    var LIVE_TILE_WAIT_MS = 60000;
-    var liveTileWaitStarted = Object.create(null);
     var liveTileWaitTimers = Object.create(null);
     var liveUnavailable = Object.create(null);
+    var liveFrameRetries = Object.create(null);
     // Tizen TV WebKit is much slower than the simulator — keep focus path lean.
     var isTizenTv =
         typeof tizen !== 'undefined' ||
@@ -83,6 +90,7 @@
     var usingAvplayPlayback = false;
     var pendingDrm = null;
     var pendingSubtitleLang = null;
+    var pendingSubtitleUrl = null;
     var pendingPreferHlsJs = false;
     var reshetKsCache = null;
     var reshetKsExpiry = 0;
@@ -107,9 +115,11 @@
     var vodPauseInfo = null;
     var vodPauseSeries = null;
     var vodPauseEpisode = null;
+    var vodPauseDesc = null;
     var vodNextBtn = null;
     var vodNextFill = null;
     var vodNextLabel = null;
+    var vodNextLabelOnfill = null;
     var vodRestartBtn = null;
     var vodSeeking = false;
     var vodDurationMs = 0;
@@ -132,8 +142,8 @@
     var vodSeekHoldLastKeyAt = 0;
     var vodSeekHoldTimer = null;
     var VOD_CONTROLS_HIDE_MS = 3000;
-    var VOD_NEXT_PROMPT_SEC = 10;
-    var VOD_NEXT_AUTOFILL_SEC = 10;
+    var VOD_NEXT_PROMPT_SEC = 5;
+    var VOD_NEXT_AUTOFILL_SEC = 5;
     var VOD_PROGRESS_KEY = 'isrtv_vod_progress';
     var VOD_MYLIST_KEY = 'isrtv_vod_mylist';
     var PROFILES_KEY = 'isrtv_profiles_v1';
@@ -159,6 +169,8 @@
     var HOME_HUB_COUNT = 3;
     var HOME_CONTINUE_MAX = 20;
     var HOME_CONTINUE_DONE = 0.9;
+    var HOME_MYLIST_MAX = 20;
+    var seriesReturnView = null;
     var vodProgressCache = null;
     var vodMyListCache = null;
     var currentVodEpisodeId = null;
@@ -496,6 +508,7 @@
         syncProfileButton();
         if (currentView === 'home') {
             renderHomeContinueWatching();
+            renderHomeMyList();
             bindHomeItems();
             setFocus(Math.min(viewFocus.home || 0, Math.max(0, focusableItems.length - 1)), false);
             return;
@@ -1539,6 +1552,11 @@
         if (vodProviderTab === 'mylist' && !added) {
             removeMyListTile(seriesId);
         }
+        if (currentView === 'home') {
+            renderHomeMyList();
+            bindHomeItems();
+            setFocus(Math.min(viewFocus.home || 0, Math.max(0, focusableItems.length - 1)), false);
+        }
         return added;
     }
 
@@ -1672,6 +1690,8 @@
             okShortTimer = null;
         }
         seriesId = item.getAttribute('data-series');
+        // Swallow the release keyup/click so it cannot open the series or play an episode.
+        okBlockActivateUntil = Date.now() + 700;
         if (seriesId && currentView === 'vod') {
             toggleMyListSeries(seriesId);
             flashMyListHeart(seriesId);
@@ -1690,23 +1710,35 @@
     }
 
     function startOkHoldForMyList(item) {
+        if (okHoldFired) {
+            return;
+        }
         if (okHoldItem === item) {
+            // Another keydown while OK is held. Tizen often omits event.repeat.
+            okHoldSawRepeat = true;
+            if (okShortTimer) {
+                clearTimeout(okShortTimer);
+                okShortTimer = null;
+            }
+            if (okHoldDownAt && Date.now() - okHoldDownAt >= OK_HOLD_MYLIST_MS) {
+                fireOkMyList(item);
+            }
             return;
         }
         clearOkHold();
         okHoldItem = item;
         okHoldDownAt = Date.now();
-        okSuppressHeartUntil = Date.now() + OK_HOLD_MYLIST_MS + 200;
-        // Simulator virtual OK often sends keydown with no keyup. Treat that as short press.
+        okSuppressHeartUntil = Date.now() + OK_HOLD_MYLIST_MS + 400;
+        // A tap with no keyup (browser simulator) still opens the series.
+        // On TV this wait is longer than key repeat, so a hold cancels it first.
         okShortTimer = setTimeout(function () {
             okShortTimer = null;
             if (!okHoldFired && !okHoldSawRepeat && okHoldItem === item) {
                 fireOkOpenSeries(item);
             }
-        }, OK_SHORT_FALLBACK_MS);
+        }, isTizenTv ? OK_TV_TAP_FALLBACK_MS : OK_SHORT_FALLBACK_MS);
         okHoldTimer = setTimeout(function () {
             okHoldTimer = null;
-            // Require key repeat so a tap without keyup cannot become "הרשימה שלי".
             if (!okHoldFired && okHoldSawRepeat && okHoldItem === item) {
                 fireOkMyList(item);
             }
@@ -1727,7 +1759,7 @@
         var item = okHoldItem;
         var fired = okHoldFired;
         clearOkHold();
-        if (fired) {
+        if (fired || Date.now() < okBlockActivateUntil) {
             e.preventDefault();
             return;
         }
@@ -2019,6 +2051,7 @@
     function init() {
         ensureProfilesLoaded();
         syncProfileButton();
+        applyCatalogOverridesFromStorage();
         renderChannels();
         renderKanboxSeries();
         renderRadioStations();
@@ -2026,6 +2059,8 @@
         startHubVodRotation();
         playerEl = document.getElementById('player');
         playerVideo = document.getElementById('player-video');
+        playerSubsEl = document.getElementById('player-subs');
+        playerYoutube = document.getElementById('player-youtube');
         playerMessage = document.getElementById('player-message');
         playerSpinner = document.getElementById('player-spinner');
         radioAudio = document.getElementById('radio-audio');
@@ -2040,9 +2075,11 @@
         vodPauseInfo = document.getElementById('vod-pause-info');
         vodPauseSeries = document.getElementById('vod-pause-series');
         vodPauseEpisode = document.getElementById('vod-pause-episode');
+        vodPauseDesc = document.getElementById('vod-pause-desc');
         vodNextBtn = document.getElementById('vod-next-btn');
         vodNextFill = document.getElementById('vod-next-fill');
         vodNextLabel = document.getElementById('vod-next-label');
+        vodNextLabelOnfill = document.getElementById('vod-next-label-onfill');
         vodRestartBtn = document.getElementById('vod-restart-btn');
         bindVodControls();
         bindVodSearch();
@@ -2252,6 +2289,7 @@
             updateHubImages();
             startHubVodRotation();
             renderHomeContinueWatching();
+            renderHomeMyList();
             bindHomeItems();
             warmLiveSnapshotsInBackground();
         } else if (viewName === 'live') {
@@ -2287,6 +2325,7 @@
                 }
             } catch (eVodEnter) {}
             setFocus(typeof viewFocus.vod === 'number' ? viewFocus.vod : 0, true);
+            checkAndApplyCatalogUpdatesForTab(vodProviderTab);
             return;
         } else if (viewName === 'radio') {
             stopPreview();
@@ -2352,7 +2391,7 @@
                 }
             }
             if (ep && ep.name) {
-                base = String(ep.name).split('—')[0].split('–')[0];
+                base = String(ep.name).split('—')[0].split('–')[0].split(' - ')[0];
                 base = base.replace(/\s*פרק\s*\d+\s*$/, '').trim();
                 if (base) {
                     return base;
@@ -2712,13 +2751,21 @@
 
     function bindHomeItems() {
         var hub = document.getElementById('hub');
-        var row = document.getElementById('home-continue-row');
+        var continueRow = document.getElementById('home-continue-row');
+        var myListRow = document.getElementById('home-mylist-row');
         var items = [];
         if (hub) {
             items = items.concat(Array.prototype.slice.call(hub.querySelectorAll('.channel, .vod-card')));
         }
-        if (row) {
-            items = items.concat(Array.prototype.slice.call(row.querySelectorAll('.channel, .vod-card')));
+        if (continueRow) {
+            items = items.concat(
+                Array.prototype.slice.call(continueRow.querySelectorAll('.channel, .vod-card'))
+            );
+        }
+        if (myListRow) {
+            items = items.concat(
+                Array.prototype.slice.call(myListRow.querySelectorAll('.channel, .vod-card'))
+            );
         }
         focusableItems = items;
         channels = items;
@@ -2742,6 +2789,44 @@
         });
 
         hydrateNearbyVodImages(viewFocus.home || 0);
+    }
+
+    function getHomeRowRanges() {
+        var hubCount = Math.min(HOME_HUB_COUNT, focusableItems.length);
+        var continueSection = document.getElementById('home-continue');
+        var myListSection = document.getElementById('home-mylist');
+        var continueCount = 0;
+        var myListCount = 0;
+        var rows = [{ start: 0, count: hubCount }];
+        if (continueSection && !continueSection.hidden) {
+            continueCount = document.querySelectorAll('#home-continue-row .channel, #home-continue-row .vod-card')
+                .length;
+            if (continueCount > 0) {
+                rows.push({ start: hubCount, count: continueCount });
+            }
+        }
+        if (myListSection && !myListSection.hidden) {
+            myListCount = document.querySelectorAll('#home-mylist-row .channel, #home-mylist-row .vod-card')
+                .length;
+            if (myListCount > 0) {
+                rows.push({
+                    start: hubCount + continueCount,
+                    count: myListCount
+                });
+            }
+        }
+        return rows;
+    }
+
+    function homeRowIndexForFocus(idx) {
+        var rows = getHomeRowRanges();
+        var i;
+        for (i = 0; i < rows.length; i++) {
+            if (idx >= rows[i].start && idx < rows[i].start + rows[i].count) {
+                return i;
+            }
+        }
+        return 0;
     }
 
     function buildEpisodeLookup() {
@@ -2876,6 +2961,75 @@
         }
     }
 
+    function getHomeMyListSeries() {
+        var ids = loadMyListIds();
+        var out = [];
+        var i;
+        var series;
+        for (i = 0; i < ids.length && out.length < HOME_MYLIST_MAX; i++) {
+            series = findSeriesById(ids[i]);
+            if (series) {
+                out.push(series);
+            }
+        }
+        return out;
+    }
+
+    function renderHomeMyList() {
+        var section = document.getElementById('home-mylist');
+        var row = document.getElementById('home-mylist-row');
+        var list;
+        var i;
+        if (!section || !row) {
+            return;
+        }
+
+        list = getHomeMyListSeries();
+        row.innerHTML = '';
+
+        if (!list.length) {
+            section.hidden = true;
+            return;
+        }
+
+        section.hidden = false;
+
+        for (i = 0; i < list.length; i++) {
+            (function (series) {
+                var button = document.createElement('button');
+                var inner;
+                var gradient;
+                var name;
+
+                button.type = 'button';
+                button.className = 'vod-card home-continue-card channel';
+                button.setAttribute('data-action', 'home-series');
+                button.setAttribute('data-series', series.id || '');
+
+                inner = document.createElement('span');
+                inner.className = 'vod-card-inner';
+
+                if (series.imageURL) {
+                    inner.appendChild(makeLazyVodImage(series.imageURL, series.name || ''));
+                }
+
+                gradient = document.createElement('span');
+                gradient.className = 'vod-card-gradient';
+                inner.appendChild(gradient);
+
+                name = document.createElement('span');
+                name.className = 'vod-card-name';
+                name.setAttribute('dir', 'auto');
+                name.textContent = series.name || '';
+                inner.appendChild(name);
+
+                inner.appendChild(makeSeriesProgressBar(series));
+                button.appendChild(inner);
+                row.appendChild(button);
+            })(list[i]);
+        }
+    }
+
     function openContinueEpisode(series, episode) {
         if (!series || !episode) {
             return;
@@ -2901,54 +3055,50 @@
 
     function moveHomeFocus(dx, dy) {
         var items = focusableItems;
-        var hubCount = Math.min(HOME_HUB_COUNT, items.length);
-        var continueCount = Math.max(0, items.length - hubCount);
+        var rows = getHomeRowRanges();
+        var rowIdx = homeRowIndexForFocus(focusedIndex);
+        var row = rows[rowIdx];
         var idx = focusedIndex;
         var next;
+        var local;
+        var ratio;
+        var targetRow;
+        var targetLocal;
 
-        if (!items.length) {
+        if (!items.length || !row) {
             return;
         }
 
-        if (idx < hubCount) {
-            // Hub row
-            if (dy > 0 && continueCount > 0) {
-                // Drop into continue row — map hub col to a nearby card
-                next = hubCount + Math.min(idx, continueCount - 1);
-                setFocus(next, true);
-                return;
-            }
-            if (dy < 0) {
+        if (dy !== 0) {
+            if (rowIdx === 0 && dy < 0) {
                 tryFocusProfileChromeFromTop();
                 return;
             }
-            next = idx + dx;
-            if (next < 0 || next >= hubCount) {
+            targetRow = rows[rowIdx + dy];
+            if (!targetRow || targetRow.count <= 0) {
                 return;
             }
-            setFocus(next, false);
+            local = idx - row.start;
+            ratio = row.count > 1 ? local / (row.count - 1) : 0;
+            targetLocal = Math.round(ratio * Math.max(0, targetRow.count - 1));
+            if (rowIdx === 0) {
+                targetLocal = Math.min(local, targetRow.count - 1);
+            }
+            if (targetRow.start === 0) {
+                targetLocal = Math.min(
+                    targetRow.count - 1,
+                    Math.floor((local / Math.max(1, row.count)) * targetRow.count)
+                );
+            }
+            setFocus(targetRow.start + targetLocal, true);
             return;
         }
 
-        // Continue row
-        if (dy < 0) {
-            // Back up to hub — map position along the row to one of 3 tiles
-            var contIdx = idx - hubCount;
-            var hubTarget = Math.min(
-                hubCount - 1,
-                Math.floor((contIdx / Math.max(1, continueCount)) * hubCount)
-            );
-            setFocus(hubTarget, true);
-            return;
-        }
-        if (dy > 0) {
-            return;
-        }
         next = idx + dx;
-        if (next < hubCount || next >= items.length) {
+        if (next < row.start || next >= row.start + row.count) {
             return;
         }
-        setFocus(next, true);
+        setFocus(next, rowIdx > 0);
     }
 
     function getPageScrollY() {
@@ -2987,15 +3137,29 @@
     var focusFromCode = false;
     var lastFocusedEl = null;
 
+    function raiseVodSeriesTile(el, on) {
+        var tile = el && el.parentNode;
+        if (!tile || !tile.classList || !tile.classList.contains('vod-series-tile')) {
+            return;
+        }
+        if (on) {
+            tile.classList.add('is-raised');
+        } else {
+            tile.classList.remove('is-raised');
+        }
+    }
+
     function applyFocusClass(prevIndex, nextIndex) {
         var items = focusableItems;
         var prev = lastFocusedEl || (items && items[prevIndex]) || null;
         var next = (items && items[nextIndex]) || null;
         if (prev && prev !== next) {
             prev.classList.remove('is-focused');
+            raiseVodSeriesTile(prev, false);
         }
         if (next) {
             next.classList.add('is-focused');
+            raiseVodSeriesTile(next, true);
             lastFocusedEl = next;
         }
     }
@@ -3052,7 +3216,34 @@
         img.src = url;
         img.classList.add('is-revealed', 'is-cached');
         wrap.classList.add('is-revealed', 'is-cached');
+        wrap.classList.remove('is-missing');
         rememberVodImage(url);
+        img.onerror = function () {
+            img.onerror = null;
+            img.classList.remove('is-revealed', 'is-cached');
+            if (wrap && wrap.classList) {
+                wrap.classList.remove('is-revealed', 'is-cached');
+            }
+            applyMissingVodPoster(img);
+        };
+    }
+
+    /** Missing/failed tile: plain dark gray — never a fallback artwork file. */
+    function applyMissingVodPoster(img) {
+        var wrap;
+        if (!img) {
+            return;
+        }
+        wrap = img.parentElement;
+        img.removeAttribute('data-src');
+        img.removeAttribute('src');
+        img.alt = '';
+        img.classList.add('is-revealed', 'is-missing');
+        img.classList.remove('is-cached');
+        if (wrap && wrap.classList && wrap.classList.contains('vod-card-img-wrap')) {
+            wrap.classList.add('is-revealed', 'is-missing');
+            wrap.classList.remove('is-cached');
+        }
     }
 
     function makeLazyVodImage(url, alt) {
@@ -3065,13 +3256,15 @@
         img.className = 'vod-card-img';
         img.alt = alt || '';
         img.decoding = 'async';
-        if (url && isVodImageCached(url)) {
-            applyCachedVodImage(wrap, img, url);
-        } else if (url) {
-            img.setAttribute('data-src', url);
-        }
         wrap.appendChild(line);
         wrap.appendChild(img);
+        if (!url) {
+            applyMissingVodPoster(img);
+        } else if (isVodImageCached(url)) {
+            applyCachedVodImage(wrap, img, url);
+        } else {
+            img.setAttribute('data-src', url);
+        }
         return wrap;
     }
 
@@ -3090,36 +3283,54 @@
         }
         if (img.complete && img.naturalWidth > 0) {
             show();
+        } else if (img.complete && img.src) {
+            applyMissingVodPoster(img);
         } else {
             img.addEventListener('load', show);
-            img.addEventListener('error', show);
+            img.addEventListener('error', function onVodImgError() {
+                img.removeEventListener('error', onVodImgError);
+                applyMissingVodPoster(img);
+            });
         }
     }
 
-    function hydrateNearbyVodImages(centerIndex) {
-        var items = focusableItems;
-        if (!items || !items.length) {
+    var vodHydrateQueue = [];
+    var vodHydrateTimer = null;
+
+    function enqueueVodImage(img) {
+        var src;
+        if (!img || img.getAttribute('data-vod-queued') === '1') {
             return;
         }
-        var start = Math.max(0, (centerIndex || 0) - 6);
-        var end = Math.min(items.length - 1, (centerIndex || 0) + 12);
-        var i;
+        src = img.getAttribute('data-src');
+        if (!src) {
+            return;
+        }
+        img.setAttribute('data-vod-queued', '1');
+        vodHydrateQueue.push(img);
+        if (!vodHydrateTimer) {
+            pumpVodImages();
+        }
+    }
+
+    function pumpVodImages() {
+        var budget = isTizenTv ? 6 : 16;
+        var n = 0;
         var img;
         var src;
         var wrap;
-        for (i = start; i <= end; i++) {
-            if (!items[i] || !items[i].querySelector) {
-                continue;
-            }
-            img = items[i].querySelector('img.vod-card-img[data-src]');
+        while (vodHydrateQueue.length && n < budget) {
+            img = vodHydrateQueue.shift();
+            n += 1;
             if (!img) {
                 continue;
             }
             src = img.getAttribute('data-src');
+            img.removeAttribute('data-src');
+            img.removeAttribute('data-vod-queued');
             if (!src) {
                 continue;
             }
-            img.removeAttribute('data-src');
             wrap = img.parentElement;
             if (isVodImageCached(src)) {
                 applyCachedVodImage(wrap, img, src);
@@ -3134,6 +3345,51 @@
                     })(src)
                 );
                 revealVodImage(img);
+            }
+        }
+        if (vodHydrateQueue.length) {
+            vodHydrateTimer = setTimeout(function () {
+                vodHydrateTimer = null;
+                pumpVodImages();
+            }, isTizenTv ? 70 : 16);
+        } else {
+            vodHydrateTimer = null;
+        }
+    }
+
+    function hydrateNearbyVodImages(centerIndex) {
+        var roots = ['series-list', 'episodes-list', 'home-continue-row', 'home-mylist-row'];
+        var r;
+        var root;
+        var imgs;
+        var i;
+        var items;
+        var start;
+        var end;
+        for (r = 0; r < roots.length; r++) {
+            root = document.getElementById(roots[r]);
+            if (!root) {
+                continue;
+            }
+            imgs = root.querySelectorAll('img.vod-card-img[data-src]');
+            for (i = 0; i < imgs.length; i++) {
+                enqueueVodImage(imgs[i]);
+            }
+        }
+        // Focused card first, in case the queue is long.
+        items = focusableItems;
+        if (!items || !items.length || !items[0] || !items[0].querySelector) {
+            return;
+        }
+        centerIndex = centerIndex || 0;
+        if (centerIndex < 0 || centerIndex >= items.length) {
+            centerIndex = 0;
+        }
+        start = Math.max(0, centerIndex - 4);
+        end = Math.min(items.length - 1, centerIndex + 8);
+        for (i = start; i <= end; i++) {
+            if (items[i] && items[i].querySelector) {
+                enqueueVodImage(items[i].querySelector('img.vod-card-img[data-src]'));
             }
         }
     }
@@ -3243,17 +3499,29 @@
         if (currentView === 'home') {
             if (item.classList && item.classList.contains('home-continue-card')) {
                 try {
-                    item.scrollIntoView({ behavior: isTizenTv ? 'auto' : 'smooth', inline: 'nearest', block: 'nearest' });
+                    item.scrollIntoView({
+                        behavior: isTizenTv ? 'auto' : 'smooth',
+                        inline: 'nearest',
+                        block: 'nearest'
+                    });
                 } catch (e) {
                     try {
                         item.scrollIntoView(false);
                     } catch (e2) {}
                 }
-                // Keep page from drifting too far when focusing the continue row
+                // Keep page from drifting too far when focusing rail rows
                 var vhHome = window.innerHeight || 1080;
                 var rectHome = item.getBoundingClientRect();
                 if (rectHome.bottom > vhHome - 40) {
-                    smoothScrollToY(getPageScrollY() + (rectHome.bottom - (vhHome - 40)), isTizenTv ? 0 : 220);
+                    smoothScrollToY(
+                        getPageScrollY() + (rectHome.bottom - (vhHome - 40)),
+                        isTizenTv ? 0 : 220
+                    );
+                } else if (rectHome.top < 120) {
+                    smoothScrollToY(
+                        getPageScrollY() + (rectHome.top - 120),
+                        isTizenTv ? 0 : 220
+                    );
                 }
             } else {
                 smoothScrollToY(0, isTizenTv ? 0 : 280);
@@ -3454,6 +3722,9 @@
             } else {
                 setFocus(vodTabIndex(tab), false);
             }
+        }
+        if (changed) {
+            checkAndApplyCatalogUpdatesForTab(tab);
         }
     }
 
@@ -3941,7 +4212,7 @@
             };
 
             item.onclick = function (evt) {
-                if (isVodSeriesCard(item) && okHoldFired) {
+                if (isVodSeriesCard(item) && (okHoldFired || Date.now() < okBlockActivateUntil)) {
                     if (evt) {
                         evt.preventDefault();
                         evt.stopPropagation();
@@ -3971,20 +4242,27 @@
         list.forEach(function (station) {
             var button = document.createElement('button');
             button.type = 'button';
-            button.className = 'radio-card channel';
+            button.className = 'radio-card';
             button.setAttribute('data-action', 'radio-play');
             button.setAttribute('data-radio-id', station.id);
             button.setAttribute('data-url', station.streamURL || '');
             button.style.setProperty('--radio-accent', station.accent || '#6bb3ff');
+
+            var inner = document.createElement('span');
+            inner.className = 'radio-card-inner';
 
             if (station.imageURL) {
                 var bg = document.createElement('span');
                 bg.className = 'radio-card-bg';
                 bg.setAttribute('aria-hidden', 'true');
                 bg.style.backgroundImage = 'url("' + station.imageURL + '")';
-                button.appendChild(bg);
+                inner.appendChild(bg);
                 button.classList.add('has-bg');
             }
+
+            var gradient = document.createElement('span');
+            gradient.className = 'radio-card-gradient';
+            inner.appendChild(gradient);
 
             var miniEq = document.createElement('span');
             miniEq.className = 'radio-card-eq';
@@ -3992,13 +4270,15 @@
             for (var i = 0; i < 5; i++) {
                 miniEq.appendChild(document.createElement('i'));
             }
-            button.appendChild(miniEq);
+            inner.appendChild(miniEq);
 
             var name = document.createElement('span');
             name.className = 'radio-card-name';
             name.textContent = station.name;
             name.setAttribute('dir', 'auto');
-            button.appendChild(name);
+            inner.appendChild(name);
+
+            button.appendChild(inner);
 
             if (currentRadioId && currentRadioId === station.id) {
                 button.classList.add('is-playing');
@@ -4311,6 +4591,31 @@
         return episode && episode.subtitle ? String(episode.subtitle).trim() : '';
     }
 
+    /** Pause overlay: "עונה 3 פרק 9" plus the episode title when there is one. */
+    function pauseEpisodeHeading(episode) {
+        var season;
+        var chapter;
+        var name;
+        var title;
+        if (!episode) {
+            return '';
+        }
+        season = episode.season || 1;
+        chapter = episode.ep || episode.chapter || 0;
+        name = episode.name ? String(episode.name).trim() : '';
+        title = name
+            .replace(/^עונה\s+\d+\s+פרק\s+\d+\s*[-–—]\s*/, '')
+            .replace(/^פרק\s+\d+\s*[-–—]\s*/, '')
+            .trim();
+        if (!title || /^עונה\s+\d+\s+פרק\s+\d+$/.test(title) || /^פרק\s+\d+$/.test(title)) {
+            title = '';
+        }
+        if (chapter) {
+            return title ? 'עונה ' + season + ' פרק ' + chapter + ' - ' + title : 'עונה ' + season + ' פרק ' + chapter;
+        }
+        return title || name || ('עונה ' + season);
+    }
+
     function appendEpisodeCaption(inner, episode) {
         var wrap = document.createElement('span');
         var name;
@@ -4345,6 +4650,9 @@
         subs = episode.defaultSubtitles || (series && series.defaultSubtitles) || '';
         if (subs) {
             button.setAttribute('data-subtitles', String(subs));
+        }
+        if (episode.subtitleURL) {
+            button.setAttribute('data-subtitle-url', String(episode.subtitleURL));
         }
     }
 
@@ -4631,6 +4939,25 @@
             return;
         }
 
+        if (action === 'home-series') {
+            var homeSeries = findSeriesById(item.getAttribute('data-series'));
+            if (!homeSeries) {
+                return;
+            }
+            viewFocus.home = focusedIndex;
+            seriesReturnView = 'home';
+            vodReturnSeriesId = homeSeries.id;
+            vodReturnTab = 'mylist';
+            closeVodIme(false);
+            seriesSeasonFilter = 'all';
+            currentSeries = homeSeries;
+            viewFocus.series = 0;
+            renderSeriesEpisodes(homeSeries);
+            viewFocus.series = seriesHeaderFocusCount();
+            showView('series');
+            return;
+        }
+
         if (action === 'vod' || action === 'kanbox') {
             viewFocus.home = focusedIndex;
             // Land on first provider tab (כאן 11)
@@ -4721,6 +5048,7 @@
                 }
             }
             viewFocus.vod = seriesFocusIdx;
+            seriesReturnView = 'vod';
             vodReturnSeriesId = series.id;
             vodReturnTab = vodProviderTab;
             closeVodIme(false);
@@ -4780,6 +5108,12 @@
             return;
         }
         if (currentView === 'series') {
+            if (seriesReturnView === 'home') {
+                seriesReturnView = null;
+                showView('home');
+                return;
+            }
+            seriesReturnView = null;
             vodReturningFromSeries = true;
             showView('vod');
             return;
@@ -4970,7 +5304,8 @@
     function showVodPauseInfo() {
         var info = getCurrentVodEpisodeInfo();
         var seriesName = (currentSeries && currentSeries.name) || '';
-        var episodeName = info && info.episode ? episodeDisplayName(info.episode) : '';
+        var episodeName = info && info.episode ? pauseEpisodeHeading(info.episode) : '';
+        var episodeText = info && info.episode ? episodeSubtitle(info.episode) : '';
         if (!vodPauseInfo || !isVodMode || !isFullscreen) {
             return;
         }
@@ -4979,6 +5314,10 @@
         }
         if (vodPauseEpisode) {
             vodPauseEpisode.textContent = episodeName;
+        }
+        if (vodPauseDesc) {
+            vodPauseDesc.textContent = episodeText;
+            vodPauseDesc.hidden = !episodeText;
         }
         if (!seriesName && !episodeName) {
             hideVodPauseInfo(true);
@@ -5150,6 +5489,9 @@
                 if (name === 'data-subtitles') {
                     return episode.defaultSubtitles || (series && series.defaultSubtitles) || '';
                 }
+                if (name === 'data-subtitle-url') {
+                    return episode.subtitleURL || '';
+                }
                 if (name === 'data-action') {
                     return 'play';
                 }
@@ -5313,6 +5655,9 @@
         if (vodNextFill) {
             vodNextFill.style.transform = 'scaleX(' + p + ')';
         }
+        if (vodNextLabelOnfill) {
+            vodNextLabelOnfill.style.clipPath = 'inset(0 ' + ((1 - p) * 100) + '% 0 0)';
+        }
         if (vodNextBtn) {
             vodNextBtn.setAttribute('data-fill', String(Math.round(p * 100)));
         }
@@ -5323,6 +5668,9 @@
             vodNextLabel.textContent = label;
         } else if (vodNextBtn) {
             vodNextBtn.textContent = label;
+        }
+        if (vodNextLabelOnfill) {
+            vodNextLabelOnfill.textContent = label;
         }
     }
 
@@ -5699,6 +6047,7 @@
         }
         saveCurrentVodProgress(false);
         updateVodNextPrompt();
+        renderExternalSubtitleAt(currentSec);
     }
 
     function onHtmlVodTimeUpdate() {
@@ -6068,7 +6417,6 @@
             clearTimeout(liveTileWaitTimers[channelId]);
             delete liveTileWaitTimers[channelId];
         }
-        delete liveTileWaitStarted[channelId];
     }
 
     function clearLiveUnavailableUi(channel) {
@@ -6086,6 +6434,22 @@
         status = thumb.querySelector('.live-tile-unavailable');
         if (status && status.parentNode) {
             status.parentNode.removeChild(status);
+        }
+    }
+
+    /** On re-enter Live: clear "השידור לא זמין" flags so those tiles can be fetched again. */
+    function resetUnavailableLiveTilesForRetry() {
+        var ids = Object.keys(liveUnavailable);
+        var i;
+        var id;
+        if (!ids.length) {
+            return;
+        }
+        for (i = 0; i < ids.length; i++) {
+            id = ids[i];
+            delete liveUnavailable[id];
+            clearLiveTileWait(id);
+            clearLiveUnavailableUi(findLiveChannelEl(id));
         }
     }
 
@@ -6116,56 +6480,45 @@
         }
     }
 
-    function markLiveChannelUnavailable(channelId) {
-        var channel;
-        if (!channelId || liveUnavailable[channelId]) {
+    function beginLiveTileWait(channel, channelId) {
+        if (!channel || !channelId) {
             return;
         }
-        liveUnavailable[channelId] = true;
-        clearLiveTileWait(channelId);
-        liveFrameQueue = liveFrameQueue.filter(function (job) {
-            return job.id !== channelId;
-        });
-        channel = findLiveChannelEl(channelId);
-        applyUnavailableToChannel(channel);
-        console.warn('Live tile unavailable after wait:', channelId);
+        // A missing still is not a dead stream. Fullscreen plays the HLS URL directly.
+        if (liveUnavailable[channelId]) {
+            delete liveUnavailable[channelId];
+            clearLiveTileWait(channelId);
+            clearLiveUnavailableUi(channel);
+        }
     }
 
-    function beginLiveTileWait(channel, channelId) {
-        var started;
-        var elapsed;
-        var remaining;
-        if (!channelId) {
-            return;
-        }
-        if (isLiveChannelUnavailable(channelId)) {
-            applyUnavailableToChannel(channel);
+    function retryLiveFrameLater(channel, streamUrl, channelId) {
+        var tries;
+        if (!channelId || !streamUrl) {
             return;
         }
         if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url) {
             return;
         }
-        started = liveTileWaitStarted[channelId];
-        if (!started) {
-            liveTileWaitStarted[channelId] = Date.now();
-            started = liveTileWaitStarted[channelId];
-        }
-        elapsed = Date.now() - started;
-        if (elapsed >= LIVE_TILE_WAIT_MS) {
-            markLiveChannelUnavailable(channelId);
+        tries = liveFrameRetries[channelId] || 0;
+        if (tries >= 5) {
             return;
         }
-        if (liveTileWaitTimers[channelId]) {
-            return;
-        }
-        remaining = LIVE_TILE_WAIT_MS - elapsed;
-        liveTileWaitTimers[channelId] = setTimeout(function () {
-            delete liveTileWaitTimers[channelId];
+        liveFrameRetries[channelId] = tries + 1;
+        setTimeout(function () {
+            var el;
+            if (currentView !== 'live' || isFullscreen) {
+                return;
+            }
             if (liveSnapshotCache[channelId] && liveSnapshotCache[channelId].url) {
                 return;
             }
-            markLiveChannelUnavailable(channelId);
-        }, remaining);
+            el = findLiveChannelEl(channelId) || channel;
+            if (!el) {
+                return;
+            }
+            applyRemoteFrameToChannel(el, streamUrl);
+        }, 5000);
     }
 
     function hideLiveTileSpinner(thumb) {
@@ -6185,6 +6538,7 @@
             return;
         }
         liveSnapshotCache[channelId] = { url: url };
+        delete liveFrameRetries[channelId];
         clearLiveTileWait(channelId);
         if (liveUnavailable[channelId]) {
             delete liveUnavailable[channelId];
@@ -6401,6 +6755,7 @@
         xhr.timeout = 15000;
         xhr.onload = function () {
             if (xhr.status < 200 || xhr.status >= 300 || !xhr.response || !xhr.response.size) {
+                retryLiveFrameLater(channel, streamUrl, id);
                 finish();
                 return;
             }
@@ -6444,16 +6799,21 @@
         };
         xhr.onerror = function () {
             console.warn('Live frame failed:', streamUrl);
+            retryLiveFrameLater(channel, streamUrl, id);
             finish();
         };
         xhr.ontimeout = function () {
             console.warn('Live frame timeout:', streamUrl);
+            retryLiveFrameLater(channel, streamUrl, id);
             finish();
         };
         xhr.send();
     }
 
     function startSnapshotRefresh() {
+        // Leave/re-enter Live: retry tiles that showed "השידור לא זמין".
+        // Working tiles keep their cached stills (onlyMissing below).
+        resetUnavailableLiveTilesForRetry();
         // Cache paints instantly in renderChannels; only fetch tiles still missing a still.
         // Queued concurrency avoids XHR timeouts while ffmpeg jobs wait on the Mac.
         refreshAllLiveSnapshots({ onlyMissing: true });
@@ -6806,6 +7166,9 @@
             if (item.defaultSubtitles) {
                 button.setAttribute('data-subtitles', item.defaultSubtitles);
             }
+            if (isYoutubeUrl(item.streamURL)) {
+                button.setAttribute('data-youtube', '1');
+            }
             if (item.imageURL) {
                 button.setAttribute('data-hero', item.imageURL);
             }
@@ -6828,14 +7191,6 @@
             snapLine.className = 'vod-card-img-line';
             snapLine.setAttribute('aria-hidden', 'true');
             snapWrap.appendChild(snapLine);
-
-            var spinner = document.createElement('span');
-            spinner.className = 'live-tile-spinner';
-            spinner.setAttribute('aria-hidden', 'true');
-            for (var si = 0; si < 12; si++) {
-                spinner.appendChild(document.createElement('i'));
-            }
-            snapWrap.appendChild(spinner);
 
             var snapshot = document.createElement('img');
             snapshot.className = 'channel-snapshot vod-card-img';
@@ -7063,6 +7418,14 @@
     }
 
     function onKeyDown(e) {
+        if (catalogUpdateAwaitingOk || (catalogUpdating && document.body.classList.contains('is-catalog-updating'))) {
+            if (catalogUpdateAwaitingOk && (e.keyCode === 13 || e.keyCode === 29443 || e.keyCode === 10009 || e.keyCode === 27)) {
+                dismissCatalogUpdateUi();
+            }
+            e.preventDefault();
+            return;
+        }
+
         if (isFullscreen) {
             if (e.keyCode === 10009 || e.keyCode === 27) {
                 clearVodSeekHold();
@@ -7203,22 +7566,21 @@
                 break;
             case 13:
             case 29443:
-                if (e.repeat) {
-                    if (okHoldItem) {
-                        okHoldSawRepeat = true;
-                        if (okShortTimer) {
-                            clearTimeout(okShortTimer);
-                            okShortTimer = null;
-                        }
-                        if (!okHoldFired && okHoldDownAt && Date.now() - okHoldDownAt >= OK_HOLD_MYLIST_MS) {
-                            fireOkMyList(okHoldItem);
-                        }
-                    }
+                if (okHoldFired || Date.now() < okBlockActivateUntil) {
+                    e.preventDefault();
+                    break;
+                }
+                if (e.repeat && okHoldItem) {
+                    startOkHoldForMyList(okHoldItem);
                     e.preventDefault();
                     break;
                 }
                 if (isVodSeriesCard(focusableItems[focusedIndex])) {
                     startOkHoldForMyList(focusableItems[focusedIndex]);
+                    e.preventDefault();
+                    break;
+                }
+                if (okHoldItem) {
                     e.preventDefault();
                     break;
                 }
@@ -7471,6 +7833,114 @@
         setFocus(nextIndex, true);
     }
 
+    function vodAlignElement(el) {
+        if (el && el.id === 'vod-search-clear') {
+            return document.getElementById('vod-search-input') || el;
+        }
+        return el;
+    }
+
+    function vodCenterX(el) {
+        var rect;
+        el = vodAlignElement(el);
+        if (!el || !el.getBoundingClientRect) {
+            return null;
+        }
+        rect = el.getBoundingClientRect();
+        if (!rect.width && !rect.height) {
+            return null;
+        }
+        return rect.left + (rect.width / 2);
+    }
+
+    function nearestIndexByCenterX(fromEl, items, indexes) {
+        var x = vodCenterX(fromEl);
+        var best = indexes.length ? indexes[0] : -1;
+        var bestDist = Infinity;
+        var i;
+        var cx;
+        var dist;
+        if (x === null) {
+            return -1;
+        }
+        for (i = 0; i < indexes.length; i++) {
+            cx = vodCenterX(items[indexes[i]]);
+            if (cx === null) {
+                continue;
+            }
+            dist = Math.abs(cx - x);
+            if (dist < bestDist) {
+                bestDist = dist;
+                best = indexes[i];
+            }
+        }
+        return best;
+    }
+
+    function vodBarAlignIndexes(mylistIndex, searchIndex, lastProvider) {
+        var list = [];
+        var i;
+        for (i = 0; i <= lastProvider; i++) {
+            if (i !== mylistIndex) {
+                list.push(i);
+            }
+        }
+        if (searchIndex >= 0) {
+            list.push(searchIndex);
+        }
+        return list;
+    }
+
+    function firstRowTileIndexes(header, cardCount, cols) {
+        var list = [];
+        var count = Math.min(cols, cardCount);
+        var i;
+        for (i = 0; i < count; i++) {
+            list.push(header + i);
+        }
+        return list;
+    }
+
+    // Left column sits under כאן 11, middle under רשת 13, right under search.
+    function vodUpIndexForColumn(col, searchIndex) {
+        if (col <= 0) {
+            return vodTabIndex('kan');
+        }
+        if (col === 1) {
+            return vodTabIndex('r13');
+        }
+        return searchIndex;
+    }
+
+    function vodDownColumnForHeader(el, cols) {
+        var tab = el && el.getAttribute ? (el.getAttribute('data-vod-tab') || '') : '';
+        if (!el || el.id === 'vod-search-input' || el.id === 'vod-search-clear') {
+            return Math.max(0, cols - 1);
+        }
+        if (tab === 'r13' || tab === 'sweden') {
+            return Math.min(1, Math.max(0, cols - 1));
+        }
+        return 0;
+    }
+
+    function vodTileBelowHeader(el, items, header, cardCount, cols) {
+        var indexes = firstRowTileIndexes(header, cardCount, cols);
+        var index;
+        var col;
+        if (!indexes.length) {
+            return -1;
+        }
+        index = nearestIndexByCenterX(el, items, indexes);
+        if (index >= 0) {
+            return index;
+        }
+        col = vodDownColumnForHeader(el, cols);
+        if (col >= indexes.length) {
+            col = indexes.length - 1;
+        }
+        return indexes[col];
+    }
+
     function moveVodFocus(dx, dy) {
         var items = focusableItems;
         var tabs = vodTabCount();
@@ -7484,11 +7954,9 @@
         var lastProvider = mylistIndex > 0 ? mylistIndex - 1 : Math.max(0, tabs - 1);
 
         if (focusedIndex === mylistIndex) {
-            // Down → first series tile (same as other tabs), not back onto provider tabs
+            // Down stops on כאן, then another Down reaches the tiles
             if (dy > 0) {
-                if (items.length > header) {
-                    setFocus(header, true);
-                }
+                setFocus(vodTabIndex('kan'), false);
                 return;
             }
             if (dx > 0) {
@@ -7499,8 +7967,9 @@
 
         if (focusedIndex < tabs) {
             if (dy > 0) {
-                if (items.length > header) {
-                    setFocus(header, true);
+                var tabDown = vodTileBelowHeader(items[focusedIndex], items, header, items.length - header, cols);
+                if (tabDown >= 0) {
+                    setFocus(tabDown, true);
                 }
                 return;
             }
@@ -7521,8 +7990,9 @@
 
         if (focusedIndex === searchIndex || focusedIndex === clearIndex) {
             if (dy > 0) {
-                if (items.length > header) {
-                    setFocus(header, true);
+                var searchDown = vodTileBelowHeader(items[searchIndex], items, header, items.length - header, cols);
+                if (searchDown >= 0) {
+                    setFocus(searchDown, true);
                 }
                 return;
             }
@@ -7568,13 +8038,15 @@
             return;
         }
         if (nextRow < 0) {
-            // From My List tiles, Up returns to the provider tabs — not the My List chip
-            if (vodProviderTab === 'mylist') {
-                setFocus(0, true);
-                return;
+            var upIndex = nearestIndexByCenterX(
+                items[focusedIndex],
+                items,
+                vodBarAlignIndexes(mylistIndex, searchIndex, lastProvider)
+            );
+            if (upIndex < 0) {
+                upIndex = vodUpIndexForColumn(col, searchIndex);
             }
-            // Content → חיפוש (then Up again → profile)
-            setFocus(searchIndex, true);
+            setFocus(upIndex, true);
             return;
         }
         if (nextRow > maxRow) {
@@ -7783,6 +8255,7 @@
         showMessage(playLoadingLabel());
         pendingDrm = null;
         pendingSubtitleLang = (item && item.getAttribute('data-subtitles')) || null;
+        pendingSubtitleUrl = (item && item.getAttribute('data-subtitle-url')) || null;
         pendingPreferHlsJs = !!(item && item.getAttribute('data-prefer-hlsjs') === '1');
 
         var resolveKind = item && item.getAttribute('data-stream-resolve');
@@ -7829,7 +8302,7 @@
     var TV4_SEED = {
         u: 'Py0hOHAsNCw+PCA/Hzs3OjE1cDwzNw==',
         p: 'EjQ0ODA7NS4bNTYybg==',
-        r: 'PyISMTwYPzMUMRMYCiYTahYwFywVNAltOh0WahMwKAEIHBUpEjUtLgUfE20RNAw0Bg4wawM0GTYWDxo0ERsVLhUfEG8SJWszFg02NhAOEiIANAU0FDEZaxALCjECIRNncTkjEWg8Bh0wEzE3MD0yCjc4NQ8kPh8TKBE3EDM/aRUoO2xqOjsMCTARNhYgAQAXJD4LYy4AawtqEg0eIBRsETQWDBVoExs7LhUcFGwRNWsyFR4LahANCiAXGRorFA8ZIREbBjYVGxAtFjIMKwIaF2kVMAoiFBo3MQAPFWsSCBYxFQ8IKhEYADIVGm82ETAZMhUJFTYUIQ4xBBsaMxQfDzcFNRMoETQQLD0NDS09GGYsABgRbxc1O2kVMgMXBgQTITk3Hyk9Hw0MFW4RBg4cNyA8FwoyOSIbLDwUFB8VNRwqDgkvIDo0MwgIHiAhDW4ZYxIxLjcGCwgwOQEMLz5objA7GGY3AwMKMRc1LC8/DyEtEx8QMzwODzYTMxFoPTQONRYYEjU7Fx0zFDIcahIIOWsWMwsnETACKxAzMzQ+GBFvEws/bhUMMicQCB8iFjApNj0CFSIQNDA1OxMKaT0XEWwXIWA2OwQINBQ3DG0SGW4wFDMOKT4TATASHBYrPx8yNxA1EDEBMx8lETACaAMdb2gAHzQyEgsONgI1ECoQCDkiFTBubhIwGmoDGQZsFB8SMxMLPzMXGxMrBjEDMhczG2wTHg5tFDQ0JBcxAmBwCDIPdjkQBhM4PwoJABYZOzE+NRE3bxA0CC4RKAUeCD8QaDs5MhghIgEWCyR3KRsoCSwILRcsFRMyLxEiIm43KAktKwwSCDwWEzUvFQQxBR0DPhYvJg0='
+        r: 'PyISMTwYPzMUMRMYCiYTahYwFywVNAltOh0WahMwKAEIHBUpEjUtLgUfE20RNBg1BjABNQA0FisWDw4zBDINLhUcOm8SD2pvFg0fahAOHTIAbAk1FB8NaAcIFjIVIRNncTkjEWg8Bh0wEzE3MD0yCjc4NQ8kPh8TKBE3EDM/aRUoO2xqOjsMCTARNhYgAQAXJD4LYy4AIxMlBQ4OIAAzCiYWDxYwEQgNLhUcGCcQH2szFg0LbxANCmkAChJsAw8NIRALODIWGxAtFjIMKwIaF2kVMAoiFBo3MQAPFWsSCBYxFQ8IKhEYADIVGm82ETAZMhUJFTYUIQ4xBBsaMxQfDzcFNRMoETQYNAYdN2g4CWYpAwwgPwQYGmoCCxBoPTIMKDoaKTYFAg0zEDQwNT4TAWkXNiszAQAxKRY2NSMXHRclEg4eaBQKNG4WGBIpBwcNMxQyHG0QCB9uFiM5JxMOAisQMzMmOSIRbxcyNGo/EBskEDViLQEBCG89GW5oPTQOKQMPEjISMQ5oEjEuNz4yCCsRMzE2EjASaRQaHTYXIR0tEDIFIwILaW4RGw9uFA4bbxEeEiwAbBJuFQ8NaBAICSAWaghrFjUtMjo0FDIVMDQgFyQ0JBUPO20TCzdoPQl3OhURNTIrEg8tMDAICG8RMCUdAXUDOxYLDTZrITYYChMwDms1JxQLbDYhJwg5AhAwOjpmaz8oOm8oL2otMhUuOCcbYzwvajoJbS1oEA40ajRjGgkYDDg='
     };
     var tv4AccessCache = { token: null, expiry: 0 };
 
@@ -7988,9 +8461,31 @@
         }
         refresh = tv4GetStoredRefresh();
         function storeAndReturn(data) {
-            var ttl = parseInt(data.expires_in, 10) || 3600;
+            var jwtExp = 0;
+            var ttl;
+            try {
+                var parts = String(data.access_token || '').split('.');
+                if (parts.length >= 2) {
+                    var b64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+                    while (b64.length % 4) {
+                        b64 += '=';
+                    }
+                    jwtExp = parseInt(JSON.parse(atob(b64)).exp, 10) || 0;
+                }
+            } catch (eJwt) {
+                jwtExp = 0;
+            }
+            // TV4 sometimes returns a huge bogus expires_in; prefer JWT exp.
+            if (jwtExp > now + 60) {
+                tv4AccessCache.expiry = jwtExp;
+            } else {
+                ttl = parseInt(data.expires_in, 10) || 3600;
+                if (ttl > 7200) {
+                    ttl = 3600;
+                }
+                tv4AccessCache.expiry = now + ttl;
+            }
             tv4AccessCache.token = data.access_token;
-            tv4AccessCache.expiry = now + ttl;
             callback(null, data.access_token);
         }
         function afterRefreshFail() {
@@ -8015,11 +8510,48 @@
         afterRefreshFail();
     }
 
-    function resolveTv4Play(assetId, callback) {
-        if (!assetId) {
-            callback('TV4 asset missing', null);
-            return;
-        }
+    function resolveTv4PlayViaProxy(assetId, callback) {
+        checkVodProxy(function (ok) {
+            var xhr;
+            if (!ok) {
+                callback('proxy unavailable', null);
+                return;
+            }
+            try {
+                xhr = new XMLHttpRequest();
+                xhr.open(
+                    'GET',
+                    VOD_PROXY_BASE + '/tv4/play?id=' + encodeURIComponent(String(assetId)),
+                    true
+                );
+                xhr.timeout = 20000;
+                xhr.onload = function () {
+                    var data = null;
+                    try {
+                        data = JSON.parse(xhr.responseText || '{}');
+                    } catch (eParse) {
+                        data = null;
+                    }
+                    if (xhr.status >= 200 && xhr.status < 300 && data && data.ok && data.url) {
+                        callback(null, data.url);
+                        return;
+                    }
+                    callback((data && data.error) || ('TV4 proxy HTTP ' + xhr.status), null);
+                };
+                xhr.onerror = function () {
+                    callback('TV4 proxy network error', null);
+                };
+                xhr.ontimeout = function () {
+                    callback('TV4 proxy timeout', null);
+                };
+                xhr.send();
+            } catch (e) {
+                callback((e && e.message) || 'TV4 proxy failed', null);
+            }
+        });
+    }
+
+    function resolveTv4PlayDirect(assetId, callback) {
         getTv4AccessToken(function (authErr, accessToken) {
             if (authErr || !accessToken) {
                 callback(authErr || 'TV4 auth failed', null);
@@ -8060,6 +8592,27 @@
                     return;
                 }
                 callback(null, playUrl);
+            });
+        });
+    }
+
+    function resolveTv4Play(assetId, callback) {
+        if (!assetId) {
+            callback('TV4 asset missing', null);
+            return;
+        }
+        // Prefer Mac proxy: password login from the TV hits TV4's WAF (HTTP 202).
+        resolveTv4PlayViaProxy(assetId, function (proxyErr, playUrl) {
+            if (!proxyErr && playUrl) {
+                callback(null, playUrl);
+                return;
+            }
+            resolveTv4PlayDirect(assetId, function (directErr, directUrl) {
+                if (!directErr && directUrl) {
+                    callback(null, directUrl);
+                    return;
+                }
+                callback(proxyErr || directErr || 'TV4 resolve failed', null);
             });
         });
     }
@@ -8221,8 +8774,732 @@
     var redgeEdgeIndex = 0;
     var avplayWatchdog = null;
     var AVPLAY_TIMEOUT_MS = 8000;
-    // Mac LAN proxy — required for Kan fMP4 VOD on TV (CDN CORS blocks hls.js; AVPlay can't play CMAF)
-    var VOD_PROXY_BASE = 'http://192.168.1.107:8791';
+    // Mac media proxy — required for Kan fMP4 VOD / live CORS / YouTube embed wrapper.
+    // Prefer localhost in the simulator; keep the home LAN IP for the TV. checkVodProxy may switch.
+    var VOD_PROXY_CANDIDATES = isSimulator()
+        ? ['http://127.0.0.1:8791', 'http://192.168.1.107:8791']
+        : ['http://192.168.1.107:8791', 'http://127.0.0.1:8791'];
+    var VOD_PROXY_BASE = VOD_PROXY_CANDIDATES[0];
+    var vodProxyResolvedAt = 0;
+    var CATALOG_STORE_KEY = 'isrtv.catalog.v1';
+    var catalogUpdating = false;
+    var catalogUpdateAwaitingOk = false;
+    var catalogCheckInFlight = false;
+    var catalogPendingTabChecks = Object.create(null);
+    var catalogLastNotifyEntries = [];
+
+    function catalogFetchJson(path, callback) {
+        try {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', VOD_PROXY_BASE + path, true);
+            xhr.timeout = 20000;
+            xhr.onload = function () {
+                if (xhr.status < 200 || xhr.status >= 300) {
+                    callback(new Error('HTTP ' + xhr.status), null);
+                    return;
+                }
+                try {
+                    callback(null, JSON.parse(xhr.responseText));
+                } catch (e) {
+                    callback(e, null);
+                }
+            };
+            xhr.onerror = function () {
+                callback(new Error('network'), null);
+            };
+            xhr.ontimeout = function () {
+                callback(new Error('timeout'), null);
+            };
+            xhr.send();
+        } catch (e) {
+            callback(e, null);
+        }
+    }
+
+    function loadCatalogStore() {
+        try {
+            var raw = localStorage.getItem(CATALOG_STORE_KEY);
+            if (!raw) {
+                return { versions: {}, series: {}, notified: {} };
+            }
+            var data = JSON.parse(raw);
+            return {
+                versions: data.versions || {},
+                series: data.series || {},
+                notified: data.notified || {}
+            };
+        } catch (e) {
+            return { versions: {}, series: {}, notified: {} };
+        }
+    }
+
+    function saveCatalogStore(store) {
+        try {
+            localStorage.setItem(
+                CATALOG_STORE_KEY,
+                JSON.stringify(
+                    store || {
+                        versions: {},
+                        series: {},
+                        notified: {}
+                    }
+                )
+            );
+        } catch (e) {}
+    }
+
+    function catalogPackageVersion(entry) {
+        var pkg = entry && entry.pkg;
+        var item = entry && entry.update;
+        if (pkg && pkg.version) {
+            return pkg.version;
+        }
+        if (item && item.version) {
+            return item.version;
+        }
+        return '';
+    }
+
+    function wasCatalogUpdateNotified(store, slug, version) {
+        store = store || loadCatalogStore();
+        if (!slug || !version) {
+            return false;
+        }
+        return store.notified && store.notified[slug] === version;
+    }
+
+    function markCatalogUpdatesNotified(store, entries) {
+        var i;
+        var entry;
+        var slug;
+        var ver;
+        store = store || loadCatalogStore();
+        if (!store.notified) {
+            store.notified = {};
+        }
+        for (i = 0; i < (entries || []).length; i++) {
+            entry = entries[i];
+            slug = (entry && entry.pkg && entry.pkg.slug) || (entry && entry.update && entry.update.slug);
+            ver = catalogPackageVersion(entry);
+            if (slug && ver) {
+                store.notified[slug] = ver;
+            }
+        }
+        saveCatalogStore(store);
+    }
+
+    function finishCatalogCheckCycle() {
+        catalogCheckInFlight = false;
+        flushPendingCatalogTabChecks();
+    }
+
+    function flushPendingCatalogTabChecks() {
+        var tab;
+        if (catalogCheckInFlight || catalogUpdating || catalogUpdateAwaitingOk) {
+            return;
+        }
+        for (tab in catalogPendingTabChecks) {
+            if (Object.prototype.hasOwnProperty.call(catalogPendingTabChecks, tab)) {
+                delete catalogPendingTabChecks[tab];
+                checkAndApplyCatalogUpdatesForTab(tab);
+                return;
+            }
+        }
+    }
+
+    function queueCatalogTabCheck(tab) {
+        if (tab && tab !== 'mylist' && tab !== 'sweden') {
+            catalogPendingTabChecks[tab] = true;
+        }
+    }
+
+    function catalogMediaUrl(slug, fileName) {
+        if (!slug || !fileName) {
+            return '';
+        }
+        return VOD_PROXY_BASE + '/catalog/media/' + encodeURIComponent(slug) + '/' + encodeURIComponent(fileName);
+    }
+
+    function formatCatalogEpisodeName(pe) {
+        var season = pe.season || 1;
+        var ep = pe.ep || 1;
+        var title = (pe.name || '').trim();
+        var subtitle = (pe.subtitle || '').trim();
+        if (/^עונה\s+\d+\s+פרק\s+\d+/.test(title) || /^פרק\s+\d+/.test(title)) {
+            return title;
+        }
+        if (subtitle) {
+            return 'פרק ' + ep + ' - ' + title;
+        }
+        return 'עונה ' + season + ' פרק ' + ep + ' - ' + title;
+    }
+
+    function catalogPackagedFileUrl(slug, catalogPath) {
+        var fileName;
+        if (!slug || !catalogPath) {
+            return '';
+        }
+        fileName = String(catalogPath).split('/').pop();
+        if (!fileName || fileName.indexOf('..') !== -1) {
+            return '';
+        }
+        return catalogMediaUrl(slug, fileName);
+    }
+
+    function bundledEpisodeImage(pe, existingEp) {
+        var current = existingEp && existingEp.imageURL ? String(existingEp.imageURL) : '';
+        var local = pe && pe.localImage ? String(pe.localImage) : '';
+        if (current && current.indexOf('/catalog/media/') === -1) {
+            return current;
+        }
+        if (local.indexOf('images/') === 0 || /^https?:\/\//i.test(local)) {
+            return local;
+        }
+        return current;
+    }
+
+    function mergeCatalogPackageIntoKanbox(pkg) {
+        var list = window.ISRTV_KANBOX || [];
+        var slug = pkg && pkg.slug;
+        var i;
+        var series = null;
+        var byKey;
+        var key;
+        var pe;
+        var existingEp;
+        var img;
+        var seasons;
+        if (!slug || !pkg.episodes) {
+            return false;
+        }
+        for (i = 0; i < list.length; i++) {
+            if (list[i].id === slug) {
+                series = list[i];
+                break;
+            }
+        }
+        if (!series) {
+            series = {
+                id: slug,
+                name: pkg.title || slug,
+                placeholder: pkg.title || slug,
+                imageURL: catalogPackagedFileUrl(slug, pkg.catalogPoster) || pkg.localPoster || '',
+                source: pkg.source || 'mako',
+                episodes: []
+            };
+            list.push(series);
+            window.ISRTV_KANBOX = list;
+        } else {
+            series.name = pkg.title || series.name;
+            series.placeholder = series.name;
+            series.imageURL =
+                catalogPackagedFileUrl(slug, pkg.catalogPoster) ||
+                series.imageURL ||
+                pkg.localPoster ||
+                '';
+            if (pkg.source) {
+                series.source = pkg.source;
+            }
+        }
+
+        byKey = Object.create(null);
+        (series.episodes || []).forEach(function (e) {
+            byKey[(e.season || 1) + ':' + (e.ep || 0)] = e;
+        });
+        seasons = Object.create(null);
+        Object.keys(byKey).forEach(function (k) {
+            seasons[byKey[k].season || 1] = true;
+        });
+        pkg.episodes.forEach(function (p) {
+            seasons[p.season || 1] = true;
+        });
+
+        for (i = 0; i < pkg.episodes.length; i++) {
+            pe = pkg.episodes[i];
+            key = (pe.season || 1) + ':' + (pe.ep || 0);
+            existingEp = byKey[key];
+            img = catalogPackagedFileUrl(slug, pe.catalogImage) || bundledEpisodeImage(pe, existingEp);
+            if (existingEp) {
+                if (pe.streamURL) {
+                    existingEp.streamURL = pe.streamURL;
+                }
+                if (pe.name) {
+                    existingEp.name = formatCatalogEpisodeName(pe);
+                }
+                if (pe.subtitle) {
+                    existingEp.subtitle = pe.subtitle;
+                }
+                if (img) {
+                    existingEp.imageURL = img;
+                }
+                existingEp.season = pe.season || existingEp.season || 1;
+                existingEp.ep = pe.ep || existingEp.ep;
+            } else {
+                byKey[key] = {
+                    id: slug + '-s' + (pe.season || 1) + '-ep' + (pe.ep || 1),
+                    season: pe.season || 1,
+                    ep: pe.ep || 1,
+                    name: formatCatalogEpisodeName(pe),
+                    streamURL: pe.streamURL || '',
+                    imageURL: img,
+                    placeholder: String(pe.ep || 1)
+                };
+                if (pe.subtitle) {
+                    byKey[key].subtitle = pe.subtitle;
+                }
+            }
+        }
+
+        series.episodes = Object.keys(byKey)
+            .map(function (k) {
+                return byKey[k];
+            })
+            .sort(function (a, b) {
+                var sa = a.season || 1;
+                var sb = b.season || 1;
+                if (sa !== sb) {
+                    return sa - sb;
+                }
+                return (a.ep || 0) - (b.ep || 0);
+            });
+        return true;
+    }
+
+    function applyCatalogOverridesFromStorage() {
+        var store = loadCatalogStore();
+        var slug;
+        for (slug in store.series) {
+            if (Object.prototype.hasOwnProperty.call(store.series, slug) && store.series[slug]) {
+                mergeCatalogPackageIntoKanbox(store.series[slug]);
+            }
+        }
+    }
+
+    function setCatalogUpdateUi(listText, pct, titleText, statusText, doneMode) {
+        var root = document.getElementById('catalog-update');
+        var titleEl = document.getElementById('catalog-update-title');
+        var listEl = document.getElementById('catalog-update-list');
+        var statusEl = document.getElementById('catalog-update-status');
+        var progressEl = document.getElementById('catalog-update-progress');
+        var fillEl = document.getElementById('catalog-update-fill');
+        var pctEl = document.getElementById('catalog-update-pct');
+        var okBtn = document.getElementById('catalog-update-ok');
+        var n = Math.max(0, Math.min(100, Math.round(pct || 0)));
+        if (!root) {
+            return;
+        }
+        root.hidden = false;
+        document.body.classList.add('is-catalog-updating');
+        if (titleEl && titleText) {
+            titleEl.textContent = titleText;
+        }
+        if (listEl && typeof listText === 'string') {
+            listEl.textContent = listText;
+        }
+        if (statusEl) {
+            statusEl.textContent = statusText || ('מעדכן ' + n + '%...');
+        }
+        if (fillEl) {
+            fillEl.style.width = n + '%';
+        }
+        if (pctEl) {
+            pctEl.textContent = n + '%';
+        }
+        if (progressEl) {
+            progressEl.hidden = !!doneMode;
+        }
+        if (okBtn) {
+            okBtn.hidden = !doneMode;
+            if (doneMode) {
+                okBtn.classList.add('is-focused');
+                try {
+                    okBtn.focus();
+                } catch (eFocus) {}
+            } else {
+                okBtn.classList.remove('is-focused');
+            }
+        }
+    }
+
+    function dismissCatalogUpdateUi() {
+        var store = loadCatalogStore();
+        if (catalogLastNotifyEntries && catalogLastNotifyEntries.length) {
+            markCatalogUpdatesNotified(store, catalogLastNotifyEntries);
+            catalogLastNotifyEntries = [];
+        }
+        hideCatalogUpdateUi();
+        catalogUpdating = false;
+        catalogUpdateAwaitingOk = false;
+        if (currentView === 'vod') {
+            setFocus(typeof viewFocus.vod === 'number' ? viewFocus.vod : vodTabIndex(vodProviderTab), false);
+        }
+        flushPendingCatalogTabChecks();
+    }
+
+    function hideCatalogUpdateUi() {
+        var root = document.getElementById('catalog-update');
+        var okBtn = document.getElementById('catalog-update-ok');
+        var progressEl = document.getElementById('catalog-update-progress');
+        if (root) {
+            root.hidden = true;
+        }
+        if (okBtn) {
+            okBtn.hidden = true;
+            okBtn.classList.remove('is-focused');
+        }
+        if (progressEl) {
+            progressEl.hidden = false;
+        }
+        document.body.classList.remove('is-catalog-updating');
+        catalogUpdateAwaitingOk = false;
+    }
+
+    function bindCatalogUpdateOk() {
+        var okBtn = document.getElementById('catalog-update-ok');
+        if (!okBtn || okBtn.getAttribute('data-bound')) {
+            return;
+        }
+        okBtn.setAttribute('data-bound', '1');
+        okBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (catalogUpdateAwaitingOk) {
+                dismissCatalogUpdateUi();
+            }
+        });
+    }
+
+    function knownCatalogQuery(store) {
+        var parts = [];
+        var slug;
+        store = store || loadCatalogStore();
+        for (slug in store.versions) {
+            if (Object.prototype.hasOwnProperty.call(store.versions, slug)) {
+                parts.push(encodeURIComponent(slug) + ':' + encodeURIComponent(store.versions[slug] || ''));
+            }
+        }
+        return parts.join(',');
+    }
+
+    function catalogUpdateMatchesTab(item, tab) {
+        var source = (item && item.source) || '';
+        if (tab === 'n12') {
+            return source === 'mako' || source === 'n12';
+        }
+        if (tab === 'r13') {
+            return source === 'reshet' || source === 'r13';
+        }
+        if (tab === 'kan') {
+            return source === 'kan' || (source && source !== 'mako' && source !== 'n12' &&
+                source !== 'reshet' && source !== 'r13' && source !== 'sweden' && source !== 'tv4');
+        }
+        return false;
+    }
+
+    function findKanboxSeriesById(id) {
+        var list = window.ISRTV_KANBOX || [];
+        var i;
+        for (i = 0; i < list.length; i++) {
+            if (list[i] && list[i].id === id) {
+                return list[i];
+            }
+        }
+        return null;
+    }
+
+    function collectNewCatalogEpisodes(pkg) {
+        var series = findKanboxSeriesById(pkg && pkg.slug);
+        var existing = Object.create(null);
+        var fresh = [];
+        if (!pkg || !pkg.episodes) {
+            return fresh;
+        }
+        if (series && series.episodes) {
+            series.episodes.forEach(function (e) {
+                existing[(e.season || 1) + ':' + (e.ep || 0)] = true;
+            });
+        }
+        pkg.episodes.forEach(function (pe) {
+            var key = (pe.season || 1) + ':' + (pe.ep || 0);
+            if (!existing[key]) {
+                fresh.push(pe);
+            }
+        });
+        return fresh;
+    }
+
+    function formatEpisodeRangesForSeason(season, eps) {
+        var sorted = eps.slice().sort(function (a, b) { return a - b; });
+        var ranges = [];
+        var start = sorted[0];
+        var prev = sorted[0];
+        var i;
+        var parts = [];
+        for (i = 1; i < sorted.length; i++) {
+            if (sorted[i] === prev + 1) {
+                prev = sorted[i];
+                continue;
+            }
+            ranges.push([start, prev]);
+            start = sorted[i];
+            prev = sorted[i];
+        }
+        ranges.push([start, prev]);
+        ranges.forEach(function (r) {
+            if (r[0] === r[1]) {
+                parts.push('פרק ' + r[0]);
+            } else {
+                parts.push('פרקים ' + r[0] + '-' + r[1]);
+            }
+        });
+        return 'עונה ' + season + ' ' + parts.join(', ');
+    }
+
+    function formatCatalogUpdateLine(title, newEps) {
+        var bySeason = Object.create(null);
+        var seasons = [];
+        var labels = [];
+        var s;
+        (newEps || []).forEach(function (pe) {
+            var season = pe.season || 1;
+            var ep = pe.ep || 0;
+            if (!bySeason[season]) {
+                bySeason[season] = [];
+                seasons.push(season);
+            }
+            bySeason[season].push(ep);
+        });
+        seasons.sort(function (a, b) { return a - b; });
+        for (s = 0; s < seasons.length; s++) {
+            labels.push(formatEpisodeRangesForSeason(seasons[s], bySeason[seasons[s]]));
+        }
+        return (title || '') + ', ' + labels.join(', ');
+    }
+
+    function prefetchCatalogPackages(updates, done) {
+        var results = [];
+        var i = 0;
+        if (!updates || !updates.length) {
+            done(results);
+            return;
+        }
+        function next() {
+            var item;
+            if (i >= updates.length) {
+                done(results);
+                return;
+            }
+            item = updates[i];
+            catalogFetchJson(item.packageURL || '/catalog/packages/' + item.slug + '.json', function (err, pkg) {
+                var newEps = [];
+                if (!err && pkg && pkg.slug) {
+                    newEps = collectNewCatalogEpisodes(pkg);
+                    results.push({
+                        update: item,
+                        pkg: pkg,
+                        newEps: newEps,
+                        line: newEps.length
+                            ? formatCatalogUpdateLine(pkg.title || item.title || item.slug, newEps)
+                            : ''
+                    });
+                } else {
+                    results.push({
+                        update: item,
+                        pkg: null,
+                        newEps: [],
+                        line: ''
+                    });
+                }
+                i += 1;
+                next();
+            });
+        }
+        next();
+    }
+
+    function checkAndApplyCatalogUpdatesForTab(tab) {
+        var store;
+        tab = tab || vodProviderTab;
+        if (catalogUpdateAwaitingOk || catalogUpdating) {
+            queueCatalogTabCheck(tab);
+            return;
+        }
+        if (catalogCheckInFlight) {
+            queueCatalogTabCheck(tab);
+            return;
+        }
+        if (tab === 'mylist' || tab === 'sweden') {
+            return;
+        }
+        catalogCheckInFlight = true;
+        store = loadCatalogStore();
+        checkVodProxy(function (ok) {
+            var known;
+            if (!ok) {
+                finishCatalogCheckCycle();
+                return;
+            }
+            known = knownCatalogQuery(store);
+            catalogFetchJson('/catalog/check?known=' + known, function (err, data) {
+                var updates;
+                if (err || !data || !data.ok) {
+                    finishCatalogCheckCycle();
+                    return;
+                }
+                updates = (data.updates || []).filter(function (u) {
+                    return catalogUpdateMatchesTab(u, tab);
+                });
+                if (!updates.length) {
+                    finishCatalogCheckCycle();
+                    return;
+                }
+                prefetchCatalogPackages(updates, function (items) {
+                    var visible = [];
+                    var quiet = [];
+                    items.forEach(function (entry) {
+                        var slug = (entry.pkg && entry.pkg.slug) || (entry.update && entry.update.slug);
+                        var ver = catalogPackageVersion(entry);
+                        var hasNew = entry.newEps && entry.newEps.length && entry.pkg;
+                        if (hasNew && !wasCatalogUpdateNotified(store, slug, ver)) {
+                            visible.push(entry);
+                        } else {
+                            quiet.push(entry);
+                        }
+                    });
+                    if (!visible.length) {
+                        syncCatalogPackageEntriesQuiet(quiet, store, function () {
+                            finishCatalogCheckCycle();
+                        });
+                        return;
+                    }
+                    syncCatalogPackageEntriesQuiet(quiet, store, function () {
+                        finishCatalogCheckCycle();
+                        applyCatalogUpdateEntries(visible, store);
+                    });
+                });
+            });
+        });
+    }
+
+    function syncCatalogPackageEntriesQuiet(entries, store, done) {
+        var i = 0;
+        store = store || loadCatalogStore();
+        if (!entries || !entries.length) {
+            saveCatalogStore(store);
+            if (typeof done === 'function') {
+                done();
+            }
+            return;
+        }
+        function next() {
+            var entry;
+            var pkg;
+            var item;
+            if (i >= entries.length) {
+                saveCatalogStore(store);
+                if (typeof done === 'function') {
+                    done();
+                }
+                return;
+            }
+            entry = entries[i];
+            pkg = entry.pkg;
+            item = entry.update;
+            if (pkg && pkg.slug) {
+                store.series[pkg.slug] = pkg;
+                store.versions[pkg.slug] = pkg.version || (item && item.version) || '';
+                mergeCatalogPackageIntoKanbox(pkg);
+                i += 1;
+                next();
+                return;
+            }
+            if (!item) {
+                i += 1;
+                next();
+                return;
+            }
+            catalogFetchJson(item.packageURL || '/catalog/packages/' + item.slug + '.json', function (err, fetched) {
+                if (!err && fetched && fetched.slug) {
+                    store.series[fetched.slug] = fetched;
+                    store.versions[fetched.slug] = fetched.version || item.version || '';
+                    mergeCatalogPackageIntoKanbox(fetched);
+                } else {
+                    store.versions[item.slug] = item.version || store.versions[item.slug] || '';
+                }
+                i += 1;
+                next();
+            });
+        }
+        next();
+    }
+
+    function applyCatalogUpdateEntries(entries, store) {
+        var total = entries.length;
+        var done = 0;
+        var i = 0;
+        var listText;
+        var titleText;
+        if (!total) {
+            return;
+        }
+        catalogUpdating = true;
+        store = store || loadCatalogStore();
+        catalogLastNotifyEntries = entries.slice();
+        listText = entries.map(function (e) { return e.line; }).filter(Boolean).join('\n');
+        titleText = total === 1 ? 'מצאתי עדכון אחד' : ('מצאתי ' + total + ' עדכונים');
+
+        function finishAll() {
+            saveCatalogStore(store);
+            applyCatalogOverridesFromStorage();
+            if (currentView === 'vod') {
+                renderKanboxSeries();
+                bindVodItems();
+            }
+            catalogUpdateAwaitingOk = true;
+            bindCatalogUpdateOk();
+            setCatalogUpdateUi(listText, 100, titleText, 'העדכון הושלם', true);
+        }
+
+        function next() {
+            var entry;
+            var pkg;
+            var item;
+            var pct;
+            if (i >= total) {
+                finishAll();
+                return;
+            }
+            entry = entries[i];
+            pkg = entry.pkg;
+            item = entry.update;
+            pct = (i / total) * 100 + 5;
+            setCatalogUpdateUi(listText, pct, titleText, 'מעדכן ' + Math.round(pct) + '%...');
+            function afterApply() {
+                done += 1;
+                i += 1;
+                pct = (done / total) * 100;
+                setCatalogUpdateUi(listText, pct, titleText, 'מעדכן ' + Math.round(pct) + '%...');
+                setTimeout(next, 120);
+            }
+            if (pkg && pkg.slug) {
+                store.series[pkg.slug] = pkg;
+                store.versions[pkg.slug] = pkg.version || (item && item.version) || '';
+                mergeCatalogPackageIntoKanbox(pkg);
+                afterApply();
+                return;
+            }
+            catalogFetchJson(item.packageURL || '/catalog/packages/' + item.slug + '.json', function (err, fetched) {
+                if (!err && fetched && fetched.slug) {
+                    store.series[fetched.slug] = fetched;
+                    store.versions[fetched.slug] = fetched.version || item.version || '';
+                    mergeCatalogPackageIntoKanbox(fetched);
+                }
+                afterApply();
+            });
+        }
+
+        setCatalogUpdateUi(listText, 2, titleText, 'מעדכן 2%...');
+        next();
+    }
 
     function normalizeCdnUrl(url) {
         if (!url) {
@@ -8250,23 +9527,77 @@
     }
 
     function checkVodProxy(callback) {
-        try {
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', VOD_PROXY_BASE + '/health', true);
-            xhr.timeout = 3500;
-            xhr.onload = function () {
-                callback(xhr.status >= 200 && xhr.status < 300);
-            };
-            xhr.onerror = function () {
-                callback(false);
-            };
-            xhr.ontimeout = function () {
-                callback(false);
-            };
-            xhr.send();
-        } catch (e) {
-            callback(false);
+        var now = Date.now();
+        var bases = VOD_PROXY_CANDIDATES.slice();
+        var i = 0;
+
+        // Keep the last known-good base first so playback does not wait on a dead IP.
+        if (VOD_PROXY_BASE && bases.indexOf(VOD_PROXY_BASE) > 0) {
+            bases.splice(bases.indexOf(VOD_PROXY_BASE), 1);
+            bases.unshift(VOD_PROXY_BASE);
         }
+
+        function tryNext() {
+            if (i >= bases.length) {
+                callback(false);
+                return;
+            }
+            var base = bases[i++];
+            try {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', base + '/health', true);
+                xhr.timeout = 1800;
+                xhr.onload = function () {
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        VOD_PROXY_BASE = base;
+                        vodProxyResolvedAt = now;
+                        callback(true);
+                        return;
+                    }
+                    tryNext();
+                };
+                xhr.onerror = function () {
+                    tryNext();
+                };
+                xhr.ontimeout = function () {
+                    tryNext();
+                };
+                xhr.send();
+            } catch (e) {
+                tryNext();
+            }
+        }
+
+        // Reuse a fresh healthy base for a short window.
+        if (vodProxyResolvedAt && now - vodProxyResolvedAt < 15000) {
+            try {
+                var warm = new XMLHttpRequest();
+                warm.open('GET', VOD_PROXY_BASE + '/health', true);
+                warm.timeout = 1200;
+                warm.onload = function () {
+                    if (warm.status >= 200 && warm.status < 300) {
+                        callback(true);
+                        return;
+                    }
+                    vodProxyResolvedAt = 0;
+                    tryNext();
+                };
+                warm.onerror = function () {
+                    vodProxyResolvedAt = 0;
+                    tryNext();
+                };
+                warm.ontimeout = function () {
+                    vodProxyResolvedAt = 0;
+                    tryNext();
+                };
+                warm.send();
+                return;
+            } catch (eWarm) {
+                vodProxyResolvedAt = 0;
+            }
+        }
+
+        tryNext();
     }
 
     // Same engine as live tile preview: hls.js, prefer LAN CORS proxy on TV.
@@ -8417,13 +9748,120 @@
         return isDashUrl(url);
     }
 
+    function isYoutubeUrl(url) {
+        var lower = (url || '').toLowerCase();
+        return lower.indexOf('youtube.com') !== -1 || lower.indexOf('youtu.be') !== -1;
+    }
+
+    function youtubeVideoId(url) {
+        var m;
+        if (!url) {
+            return '';
+        }
+        m = String(url).match(
+            /(?:youtube\.com\/(?:embed|live|shorts)\/|youtube\.com\/watch\?(?:[^#]*&)?v=|youtu\.be\/)([A-Za-z0-9_-]{6,})/i
+        );
+        return m && m[1] ? m[1] : '';
+    }
+
+    function youtubeEmbedSrc(url) {
+        var id = youtubeVideoId(url);
+        if (!id) {
+            return '';
+        }
+        // Load via the LAN/local media proxy so YouTube receives an HTTP Referer
+        // (direct embeds from the Tizen/simulator origin hit Error 153).
+        return VOD_PROXY_BASE + '/youtube?v=' + encodeURIComponent(id);
+    }
+
+    function stopYoutubeEmbed() {
+        if (playerEl) {
+            playerEl.classList.remove('is-youtube');
+        }
+        if (!playerYoutube) {
+            return;
+        }
+        playerYoutube.onload = null;
+        playerYoutube.onerror = null;
+        try {
+            playerYoutube.removeAttribute('src');
+        } catch (eYt) {}
+        playerYoutube.hidden = true;
+    }
+
+    function playWithYoutubeEmbed(url, generation) {
+        if (!playerYoutube) {
+            showMessage(playFailLabel('YouTube embed missing'));
+            return;
+        }
+        if (playerVideo) {
+            playerVideo.style.display = 'none';
+        }
+        usingAvplayPlayback = false;
+        setAvplayOverlay(false);
+        showMessage(playLoadingLabel());
+
+        function attachEmbed() {
+            var embed;
+            if (generation !== playGeneration) {
+                return;
+            }
+            embed = youtubeEmbedSrc(url);
+            if (!embed) {
+                showMessage(playFailLabel('YouTube embed missing'));
+                return;
+            }
+            if (playerEl) {
+                playerEl.classList.add('is-youtube');
+            }
+            playerYoutube.hidden = false;
+            playerYoutube.onload = function () {
+                if (generation !== playGeneration) {
+                    return;
+                }
+                showMessage('');
+                if (playerEl) {
+                    playerEl.classList.add('is-playing');
+                }
+            };
+            playerYoutube.onerror = function () {
+                if (generation !== playGeneration) {
+                    return;
+                }
+                showMessage(playFailLabel('YouTube failed'));
+            };
+            playerYoutube.src = embed;
+            // iframe load is unreliable on some Tizen builds — clear spinner shortly
+            setTimeout(function () {
+                if (generation !== playGeneration || !isFullscreen) {
+                    return;
+                }
+                showMessage('');
+                if (playerEl) {
+                    playerEl.classList.add('is-playing');
+                }
+            }, 1200);
+        }
+
+        checkVodProxy(function (ok) {
+            if (generation !== playGeneration) {
+                return;
+            }
+            if (!ok) {
+                showMessage('YouTube needs the media proxy. Run: node scripts/vod-cors-proxy.js');
+                return;
+            }
+            attachEmbed();
+        });
+    }
+
     function isPlayableUrl(url) {
         if (!url) {
             return false;
         }
         var lower = url.toLowerCase();
-        if (lower.indexOf('youtube.com') !== -1 || lower.indexOf('youtu.be') !== -1) {
-            return false;
+        if (isYoutubeUrl(lower)) {
+            return !!youtubeVideoId(url);
         }
         if (lower.indexOf('blob:') === 0) {
             return false;
@@ -8468,11 +9906,376 @@
         } catch (e) {}
     }
 
+    function clearPlaybackStallWatch() {
+        if (playbackStallTimer) {
+            clearInterval(playbackStallTimer);
+            playbackStallTimer = null;
+        }
+    }
+
+    // If the picture freezes while the episode should be playing, jump a small
+    // gap or pull the next segments. Repeated underruns drop one quality step.
+    function armPlaybackStallWatch(video, hls, generation) {
+        clearPlaybackStallWatch();
+        var lastTime = -1;
+        var stuckTicks = 0;
+        var lastNudgeAt = 0;
+        var underrunNudges = 0;
+        var underrunWindowStart = 0;
+
+        playbackStallTimer = setInterval(function () {
+            var t;
+            var advanced;
+            var now;
+            var level;
+            var bufferedAhead;
+
+            if (generation !== playGeneration || !video || video.paused || video.ended || video.seeking) {
+                stuckTicks = 0;
+                if (video && !video.seeking) {
+                    lastTime = video.currentTime || 0;
+                }
+                return;
+            }
+
+            t = video.currentTime || 0;
+            // Still opening the episode — don't treat the first buffer fill as a stall
+            if (t < 0.25 && video.readyState < 3) {
+                stuckTicks = 0;
+                lastTime = t;
+                return;
+            }
+            if (video.duration && video.duration - t < 1.2) {
+                stuckTicks = 0;
+                lastTime = t;
+                return;
+            }
+
+            advanced = lastTime >= 0 && t > lastTime + 0.08;
+            lastTime = t;
+            if (advanced || video.readyState >= 3) {
+                if (advanced) {
+                    stuckTicks = 0;
+                    return;
+                }
+            }
+
+            stuckTicks += 1;
+            if (stuckTicks < 3) {
+                return;
+            }
+
+            now = Date.now();
+            if (now - lastNudgeAt < 1600) {
+                return;
+            }
+            lastNudgeAt = now;
+            stuckTicks = 0;
+            bufferedAhead = nudgePlaybackToBuffer(video, t);
+
+            if (hls && typeof hls.startLoad === 'function') {
+                try {
+                    hls.startLoad();
+                } catch (eLoad) {}
+            }
+            try {
+                var resume = video.play();
+                if (resume && typeof resume.catch === 'function') {
+                    resume.catch(function () {});
+                }
+            } catch (ePlay) {}
+
+            if (bufferedAhead) {
+                return;
+            }
+
+            if (now - underrunWindowStart > 25000) {
+                underrunNudges = 0;
+                underrunWindowStart = now;
+            }
+            underrunNudges += 1;
+            if (underrunNudges < 2 || !hls) {
+                return;
+            }
+            level = hls.currentLevel >= 0 ? hls.currentLevel : hls.loadLevel;
+            if (typeof level === 'number' && level > 0) {
+                console.warn('Playback underrun, dropping quality to', level - 1);
+                try {
+                    hls.autoLevelCapping = level - 1;
+                    hls.nextLevel = level - 1;
+                } catch (eLevel) {}
+            }
+            underrunNudges = 0;
+        }, 800);
+    }
+
+    function nudgePlaybackToBuffer(video, t) {
+        var i;
+        var start;
+        var end;
+        if (!video || !video.buffered) {
+            return false;
+        }
+        try {
+            for (i = 0; i < video.buffered.length; i++) {
+                start = video.buffered.start(i);
+                end = video.buffered.end(i);
+                if (t >= start - 0.05 && end - t > 0.4) {
+                    video.currentTime = Math.min(end - 0.05, t + 0.2);
+                    return true;
+                }
+                if (t < start && start - t < 3 && end - start > 0.3) {
+                    video.currentTime = Math.min(end - 0.05, start + 0.05);
+                    return true;
+                }
+            }
+        } catch (e) {}
+        return false;
+    }
+
+    function hlsPlaybackConfig(smoothVod) {
+        var cfg = {
+            enableWorker: false,
+            lowLatencyMode: false,
+            // Kan fMP4 playlists often have small timestamp gaps that otherwise freeze the picture
+            maxBufferHole: 0.5,
+            nudgeOffset: 0.15,
+            nudgeMaxRetry: 12,
+            highBufferWatchdogPeriod: 2,
+            startFragPrefetch: true,
+            capLevelToPlayerSize: true,
+            capLevelOnFPSDrop: true,
+            fpsDroppedMonitoringPeriod: 4000,
+            fpsDroppedMonitoringThreshold: 0.2,
+            fragLoadingTimeOut: 25000,
+            fragLoadingMaxRetry: 6,
+            fragLoadingRetryDelay: 500,
+            manifestLoadingTimeOut: 20000,
+            manifestLoadingMaxRetry: 4,
+            levelLoadingTimeOut: 20000,
+            levelLoadingMaxRetry: 4,
+            xhrSetup: function (xhr) {
+                try {
+                    xhr.withCredentials = false;
+                } catch (e) {}
+            }
+        };
+
+        if (smoothVod) {
+            // Hold about a minute ahead so a slow segment does not stop the episode
+            cfg.maxBufferLength = 60;
+            cfg.maxMaxBufferLength = 180;
+            cfg.maxBufferSize = 80 * 1000 * 1000;
+            cfg.backBufferLength = 45;
+            cfg.maxStarvationDelay = 2;
+            cfg.maxLoadingDelay = 2;
+            cfg.abrEwmaDefaultEstimate = 1800000;
+            cfg.abrBandWidthFactor = 0.85;
+            cfg.abrBandWidthUpFactor = 0.65;
+        }
+
+        return cfg;
+    }
+
+    function parseVttTimestamp(ts) {
+        var parts = String(ts || '').split(':');
+        if (parts.length < 3) {
+            return 0;
+        }
+        return (
+            (parseFloat(parts[0]) || 0) * 3600 +
+            (parseFloat(parts[1]) || 0) * 60 +
+            (parseFloat(parts[2]) || 0)
+        );
+    }
+
+    // Fix RTL punctuation that landed at the start of a line (?, !, …)
+    // and force paragraph direction so Latin names don't flip the cue to LTR.
+    function normalizeHebrewSubtitleText(text) {
+        var RLM = '\u200F';
+        var lines = String(text || '').split('\n');
+        var i;
+        var line;
+        var m;
+        for (i = 0; i < lines.length; i++) {
+            line = String(lines[i] || '').replace(/^\u200F+/, '').trim();
+            if (!line) {
+                lines[i] = line;
+                continue;
+            }
+            m = line.match(/^((?:\.{2,}|…|[?!])+)(\s*)([\s\S]+)$/);
+            if (m) {
+                line = m[3].replace(/\s+$/, '') + m[1];
+            }
+            // Keep trailing sentence punct stuck to RTL run
+            line = line.replace(/([^\s?!.…])([?!.…]+)$/, '$1' + RLM + '$2');
+            lines[i] = RLM + line;
+        }
+        return lines.join('\n');
+    }
+
+    function parseVttCues(text) {
+        var cues = [];
+        var body = String(text || '')
+            .replace(/^\uFEFF/, '')
+            .replace(/^WEBVTT[^\n]*\n/, '')
+            .trim();
+        var parts = body ? body.split(/\n\n+/) : [];
+        var i;
+        var lines;
+        var idx;
+        var m;
+        var cueText;
+        for (i = 0; i < parts.length; i++) {
+            lines = parts[i].split('\n').filter(Boolean);
+            if (!lines.length) {
+                continue;
+            }
+            idx = 0;
+            if (lines[0].indexOf('-->') < 0 && lines[1] && lines[1].indexOf('-->') >= 0) {
+                idx = 1;
+            }
+            if (!lines[idx] || lines[idx].indexOf('-->') < 0) {
+                continue;
+            }
+            m = lines[idx].match(
+                /(\d{2}:\d{2}:\d{2}\.\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}\.\d{3})/
+            );
+            if (!m) {
+                continue;
+            }
+            cueText = lines.slice(idx + 1).join('\n').trim();
+            if (!cueText) {
+                continue;
+            }
+            cues.push({
+                start: parseVttTimestamp(m[1]),
+                end: parseVttTimestamp(m[2]),
+                text: cueText
+            });
+        }
+        return cues;
+    }
+
+    function disableAllTextTracks(video) {
+        var i;
+        var track;
+        if (!video || !video.textTracks) {
+            return;
+        }
+        try {
+            for (i = 0; i < video.textTracks.length; i++) {
+                track = video.textTracks[i];
+                if (track) {
+                    track.mode = 'disabled';
+                }
+            }
+        } catch (e) {}
+    }
+
+    function clearExternalSubtitles() {
+        externalSubtitleCues = null;
+        externalSubtitleIndex = 0;
+        if (playerSubsEl) {
+            playerSubsEl.textContent = '';
+            playerSubsEl.hidden = true;
+        }
+    }
+
+    function renderExternalSubtitleAt(sec) {
+        var cues = externalSubtitleCues;
+        var i;
+        var text;
+        if (!playerSubsEl || !cues || !cues.length) {
+            return;
+        }
+        i = externalSubtitleIndex || 0;
+        if (i < 0 || i >= cues.length) {
+            i = 0;
+        }
+        while (i > 0 && sec < cues[i].start) {
+            i--;
+        }
+        while (i < cues.length && cues[i].end <= sec) {
+            i++;
+        }
+        externalSubtitleIndex = i;
+        text = '';
+        if (i < cues.length && sec >= cues[i].start && sec < cues[i].end) {
+            text = cues[i].text;
+        }
+        if (!text) {
+            if (!playerSubsEl.hidden) {
+                playerSubsEl.textContent = '';
+                playerSubsEl.hidden = true;
+            }
+            return;
+        }
+        if (playerSubsEl.textContent !== text) {
+            playerSubsEl.textContent = text;
+        }
+        playerSubsEl.hidden = false;
+    }
+
+    function loadExternalSubtitleTrack(video, subtitleUrl, lang) {
+        if (!subtitleUrl) {
+            return;
+        }
+        try {
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', subtitleUrl, true);
+            xhr.timeout = 20000;
+            xhr.onload = function () {
+                var cues;
+                var i;
+                if (xhr.status < 200 || xhr.status >= 300 || !xhr.responseText) {
+                    console.warn('subtitle fetch failed:', xhr.status, subtitleUrl);
+                    return;
+                }
+                cues = parseVttCues(xhr.responseText);
+                if (!cues.length) {
+                    console.warn('subtitle file empty:', subtitleUrl);
+                    return;
+                }
+                if (video) {
+                    disableAllTextTracks(video);
+                }
+                if (lang === 'he') {
+                    for (i = 0; i < cues.length; i++) {
+                        cues[i].text = normalizeHebrewSubtitleText(cues[i].text);
+                    }
+                }
+                externalSubtitleCues = cues;
+                externalSubtitleIndex = 0;
+                renderExternalSubtitleAt(getVodCurrentSec());
+            };
+            xhr.onerror = function () {
+                console.warn('subtitle network error:', subtitleUrl);
+            };
+            xhr.send();
+        } catch (e) {
+            console.warn('subtitle load failed:', e);
+        }
+    }
+
     function enablePreferredSubtitles(hls, video) {
         var lang = pendingSubtitleLang;
         var i;
         var track;
         var langLower = lang ? String(lang).toLowerCase() : '';
+
+        // Packaged/external VTT (e.g. Hebrew override for TV4 Swedish)
+        if (pendingSubtitleUrl && video) {
+            try {
+                if (hls && typeof hls.subtitleTrack === 'number') {
+                    hls.subtitleDisplay = false;
+                    hls.subtitleTrack = -1;
+                }
+            } catch (eOff) {}
+            disableAllTextTracks(video);
+            loadExternalSubtitleTrack(video, pendingSubtitleUrl, langLower || 'he');
+            return;
+        }
 
         if (hls && typeof hls.subtitleTrack === 'number') {
             try {
@@ -8523,7 +10326,7 @@
         }
     }
 
-    function attachStream(video, url, onError) {
+    function attachStream(video, url, onError, opts) {
         if (!video || !url) {
             return null;
         }
@@ -8533,15 +10336,9 @@
         // Prefer hls.js first. Tizen often reports canPlayType(HLS) but then fails with
         // "no supported source was found" for fMP4 / demuxed Kan VOD playlists.
         if (typeof Hls !== 'undefined' && Hls.isSupported()) {
-            var hls = new Hls({
-                enableWorker: false,
-                lowLatencyMode: false,
-                xhrSetup: function (xhr) {
-                    try {
-                        xhr.withCredentials = false;
-                    } catch (e) {}
-                }
-            });
+            var hls = new Hls(hlsPlaybackConfig(!!(opts && opts.smooth)));
+            var mediaRecoveries = 0;
+            var networkRecoveries = 0;
             hls.loadSource(playUrl);
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function () {
@@ -8558,7 +10355,26 @@
             }
             hls.on(Hls.Events.ERROR, function (event, data) {
                 console.warn('HLS error:', data && data.type, data && data.details, data);
-                if (data && data.fatal && typeof onError === 'function') {
+                if (!data || !data.fatal) {
+                    return;
+                }
+                if (data.type === Hls.ErrorTypes.MEDIA_ERROR && mediaRecoveries < 3) {
+                    mediaRecoveries += 1;
+                    console.warn('HLS media error, recovering', mediaRecoveries);
+                    try {
+                        hls.recoverMediaError();
+                    } catch (eMedia) {}
+                    return;
+                }
+                if (data.type === Hls.ErrorTypes.NETWORK_ERROR && networkRecoveries < 4) {
+                    networkRecoveries += 1;
+                    console.warn('HLS network error, retrying', networkRecoveries);
+                    try {
+                        hls.startLoad();
+                    } catch (eNet) {}
+                    return;
+                }
+                if (typeof onError === 'function') {
                     onError(data);
                 }
             });
@@ -8769,6 +10585,7 @@
 
     function stopFullscreenPlayback() {
         playGeneration += 1;
+        clearPlaybackStallWatch();
         usingAvplayPlayback = false;
         pendingDrm = null;
         setAvplayOverlay(false);
@@ -8785,6 +10602,7 @@
         stopAvplay();
         destroyHls(fullscreenHls);
         fullscreenHls = null;
+        stopYoutubeEmbed();
 
         if (fullscreenDash) {
             try {
@@ -8796,6 +10614,7 @@
             fullscreenDash = null;
         }
 
+        clearExternalSubtitles();
         if (playerVideo) {
             playerVideo.pause();
             playerVideo.removeAttribute('src');
@@ -8892,6 +10711,7 @@
             return;
         }
 
+        stopYoutubeEmbed();
         playerVideo.style.display = 'block';
         showMessage(playLoadingLabel());
 
@@ -8919,9 +10739,13 @@
                 playWithHtmlVideo(url, generation, edgeRetriesLeft - 1);
                 return;
             }
-            showMessage('Stream error: ' + (data && data.type ? data.type : 'playback failed') +
-                (detail ? ' (' + detail + ')' : ''));
-        });
+            showMessage(playFailLabel(
+                (data && data.type ? data.type : 'playback failed') +
+                (detail ? ' (' + detail + ')' : '')
+            ));
+        }, { smooth: isVodMode });
+
+        armPlaybackStallWatch(playerVideo, fullscreenHls, generation);
 
         var playPromise = playerVideo.play();
         if (playPromise && typeof playPromise.then === 'function') {
@@ -8936,7 +10760,7 @@
             }).catch(function (err) {
                 console.warn('HTML play failed:', err);
                 if (generation === playGeneration) {
-                    showMessage('Could not play stream. ' + (err && err.message ? err.message : ''));
+                    showMessage(playFailLabel(err && err.message ? err.message : ''));
                 }
             });
         }
@@ -8960,9 +10784,14 @@
     }
 
     function playFailLabel(detail) {
+        var detailText = detail ? String(detail) : '';
+        // CDN geo / VPN / known-proxy / blocked-manifest failures — keep the TV message user-friendly
+        if (/known proxy|is blocked|ip address|not available in your (country|region)|geo.?block|forbidden.*location|networkError|manifestLoadError|manifestLoadTimeOut/i.test(detailText)) {
+            return 'This content cannot be played in this location, check your VPN and try again';
+        }
         var base = isVodMode ? 'Could not play this episode' : 'Could not play this channel';
-        if (detail) {
-            return base + ' (' + detail + ').';
+        if (detailText) {
+            return base + ' (' + detailText + ').';
         }
         return base + '.';
     }
@@ -9112,6 +10941,12 @@
             try {
                 webapis.avplay.setStreamingProperty('ADAPTIVE_INFO', 'STARTBITRATE=AVERAGE');
             } catch (e) {}
+            if (isVodMode) {
+                try {
+                    webapis.avplay.setBufferingParam('PLAYER_BUFFER_FOR_PLAY', 'PLAYER_BUFFER_SIZE_IN_SECOND', 8);
+                    webapis.avplay.setBufferingParam('PLAYER_BUFFER_FOR_RESUME', 'PLAYER_BUFFER_SIZE_IN_SECOND', 15);
+                } catch (eBuf) {}
+            }
             if (pendingDrm && pendingDrm.widevineLicense) {
                 try {
                     webapis.avplay.setDrm(
@@ -9260,6 +11095,11 @@
         }
         var generation = playGeneration;
 
+        if (isYoutubeUrl(url)) {
+            playWithYoutubeEmbed(url, generation);
+            return;
+        }
+
         // Live HLS: same path as tile preview (hls.js ± proxy). AVPlay often throws
         // DEMUXER_ERROR_DETECTED_HLS on MediaPackage / SCTE / demuxed masters.
         if (isHlsUrl(url) && !isVodMode) {
@@ -9322,7 +11162,7 @@
             action === 'vod-search' || action === 'vod-search-clear' || action === 'series-season' ||
             action === 'series-season-option' || action === 'vod-ime-char' || action === 'vod-ime-space' ||
             action === 'vod-ime-backspace' || action === 'vod-ime-layout' || action === 'vod-ime-done' ||
-            action === 'continue-play' || action === 'mylist-toggle' ||
+            action === 'continue-play' || action === 'home-series' || action === 'mylist-toggle' ||
             action === 'profile-open' || action === 'profile-close' || action === 'profile-add' ||
             action === 'profile-edit' || action === 'profile-select' || action === 'profile-icon' ||
             action === 'profile-name' || action === 'profile-save' || action === 'profile-edit-cancel' ||
@@ -9401,6 +11241,7 @@
         vodResumeTargetSec = 0;
         vodResumeApplied = false;
         pendingSubtitleLang = null;
+        pendingSubtitleUrl = null;
         pendingPreferHlsJs = false;
         resetVodNextUi();
 
@@ -9419,6 +11260,7 @@
         }
         if (currentView === 'home') {
             renderHomeContinueWatching();
+            renderHomeMyList();
             bindHomeItems();
             setFocus(Math.min(viewFocus.home || 0, focusableItems.length - 1), false);
         }

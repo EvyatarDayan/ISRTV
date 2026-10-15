@@ -1,11 +1,20 @@
 #!/usr/bin/env node
 /**
  * Media helper proxy for Samsung Tizen ISRTV:
- *  - /proxy  — CORS proxy for HLS/DASH (Kan VOD)
- *  - /frame  — JPEG still from a live/VOD stream via ffmpeg (live thumbnails)
+ *  - /proxy   — CORS proxy for HLS/DASH (Kan VOD)
+ *  - /frame   — JPEG still from a live/VOD stream via ffmpeg (live thumbnails)
+ *  - /catalog — auto-update packages (manifest + series JSON + images)
+ *  - /youtube — HTTP wrapper page for YouTube embeds (fixes Error 153 / missing Referer)
+ *  - /tv4/play — TV4 Play resolve (Mac-side auth; bypasses TV WAF login)
  *
  * Usage: node scripts/vod-cors-proxy.js
  * Default: http://0.0.0.0:8791
+ *
+ * TV4 session (refresh when login expires):
+ *   node scripts/tv4-login.js
+ *
+ * Build catalog packages:
+ *   python3 scripts/catalog-updater.py
  */
 'use strict';
 
@@ -19,8 +28,15 @@ var childProcess = require('child_process');
 
 var PORT = Number(process.env.VOD_PROXY_PORT || 8791);
 var HOST = process.env.VOD_PROXY_HOST || '0.0.0.0';
+var httpAgent = new http.Agent({ keepAlive: true, maxSockets: 8, keepAliveMsecs: 10000 });
+var httpsAgent = new https.Agent({ keepAlive: true, maxSockets: 8, keepAliveMsecs: 10000 });
 var FFMPEG = process.env.FFMPEG_PATH || 'ffmpeg';
 var FRAME_DIR = path.join(os.tmpdir(), 'isrtv-frames');
+var CATALOG_DIR = path.join(__dirname, 'catalog');
+var TV4_SESSION_PATH = path.join(__dirname, '.tv4-session.json');
+var TV4_AUTH_URL = 'https://auth.tv4.a2d.tv/v2/auth';
+var TV4_CLIENT = 'tv4-web';
+var tv4AccessCache = { token: null, expiry: 0 };
 var activeFrames = 0;
 var MAX_PARALLEL_FRAMES = 6;
 var FRAME_TIMEOUT_MS = 8000;
@@ -86,6 +102,293 @@ function sendCors(res, status, headers, body) {
   }
 }
 
+function readTv4Session() {
+  try {
+    if (!fs.existsSync(TV4_SESSION_PATH)) return null;
+    return JSON.parse(fs.readFileSync(TV4_SESSION_PATH, 'utf8'));
+  } catch (_) {
+    return null;
+  }
+}
+
+function writeTv4Session(session) {
+  fs.writeFileSync(TV4_SESSION_PATH, JSON.stringify(session, null, 2) + '\n');
+}
+
+function tv4HttpsJson(method, targetUrl, body, headers, cb) {
+  var parsed = url.parse(targetUrl);
+  var payload = body ? JSON.stringify(body) : null;
+  var opts = {
+    protocol: parsed.protocol,
+    hostname: parsed.hostname,
+    port: parsed.port || 443,
+    path: parsed.path,
+    method: method,
+    agent: httpsAgent,
+    headers: Object.assign(
+      {
+        Accept: 'application/json',
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        Origin: 'https://www.tv4play.se',
+        Referer: 'https://www.tv4play.se/'
+      },
+      headers || {}
+    )
+  };
+  if (payload) {
+    opts.headers['Content-Type'] = 'application/json';
+    opts.headers['Content-Length'] = Buffer.byteLength(payload);
+  }
+  var req = https.request(opts, function (resp) {
+    var chunks = [];
+    resp.on('data', function (c) {
+      chunks.push(c);
+    });
+    resp.on('end', function () {
+      var text = Buffer.concat(chunks).toString('utf8');
+      var data = null;
+      try {
+        data = JSON.parse(text || '{}');
+      } catch (_) {
+        data = null;
+      }
+      cb(null, resp.statusCode || 0, data, text);
+    });
+  });
+  req.on('error', function (err) {
+    cb(err || new Error('TV4 network error'));
+  });
+  req.setTimeout(20000, function () {
+    req.destroy(new Error('TV4 timeout'));
+  });
+  if (payload) req.write(payload);
+  req.end();
+}
+
+function tv4JwtExp(accessToken) {
+  try {
+    var parts = String(accessToken || '').split('.');
+    if (parts.length < 2) return 0;
+    var b64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+    while (b64.length % 4) b64 += '=';
+    var payload = JSON.parse(Buffer.from(b64, 'base64').toString('utf8'));
+    return parseInt(payload.exp, 10) || 0;
+  } catch (_) {
+    return 0;
+  }
+}
+
+// TV4 sometimes returns a huge/wrong expires_in; prefer JWT exp and cap TTL.
+function tv4AccessExpiry(accessToken, expiresIn, now) {
+  var jwtExp = tv4JwtExp(accessToken);
+  if (jwtExp > now + 60) return jwtExp;
+  var ttl = parseInt(expiresIn, 10) || 3600;
+  if (ttl > 7200) ttl = 3600; // ignore absurd values (we've seen 10800000)
+  return now + ttl;
+}
+
+function invalidateTv4AccessCache(session) {
+  tv4AccessCache.token = null;
+  tv4AccessCache.expiry = 0;
+  if (session) {
+    session.access_token = '';
+    session.accessExpiry = 0;
+    try {
+      writeTv4Session(session);
+    } catch (_) {}
+  }
+}
+
+function getTv4AccessToken(cb, forceRefresh) {
+  var now = Math.floor(Date.now() / 1000);
+  if (!forceRefresh && tv4AccessCache.token && tv4AccessCache.expiry > now + 60) {
+    cb(null, tv4AccessCache.token);
+    return;
+  }
+  var session = readTv4Session();
+  if (!session || !session.refresh_token) {
+    cb(
+      new Error(
+        'TV4 session missing — run: node scripts/tv4-login.js'
+      )
+    );
+    return;
+  }
+  if (!forceRefresh && session.access_token) {
+    var storedExp = tv4AccessExpiry(session.access_token, session.expires_in, now);
+    // Heal bogus accessExpiry written by older proxy builds
+    if (session.accessExpiry !== storedExp) {
+      session.accessExpiry = storedExp;
+      try {
+        writeTv4Session(session);
+      } catch (_) {}
+    }
+    if (storedExp > now + 60) {
+      tv4AccessCache.token = session.access_token;
+      tv4AccessCache.expiry = storedExp;
+      cb(null, session.access_token);
+      return;
+    }
+  }
+  tv4HttpsJson(
+    'POST',
+    TV4_AUTH_URL + '/token',
+    {
+      grant_type: 'refresh_token',
+      refresh_token: session.refresh_token,
+      profile_id: 'default',
+      is_child: false
+    },
+    { 'client-name': TV4_CLIENT },
+    function (err, status, data) {
+      if (err) {
+        cb(err);
+        return;
+      }
+      if (status < 200 || status >= 300 || !data || !data.access_token) {
+        cb(
+          new Error(
+            (data && (data.message || data.code)) ||
+              'TV4 token HTTP ' + status + ' — run: node scripts/tv4-login.js'
+          )
+        );
+        return;
+      }
+      var expiry = tv4AccessExpiry(data.access_token, data.expires_in, now);
+      session.access_token = data.access_token;
+      if (data.refresh_token) session.refresh_token = data.refresh_token;
+      session.expires_in = Math.max(60, expiry - now);
+      session.accessExpiry = expiry;
+      session.updatedAt = new Date().toISOString();
+      try {
+        writeTv4Session(session);
+      } catch (_) {}
+      tv4AccessCache.token = data.access_token;
+      tv4AccessCache.expiry = expiry;
+      cb(null, data.access_token);
+    }
+  );
+}
+
+function handleTv4Play(req, res, parsed) {
+  var assetId =
+    (parsed.query && (parsed.query.id || parsed.query.assetId || parsed.query.asset)) || '';
+  assetId = String(assetId || '').trim();
+  if (!assetId) {
+    sendCors(res, 400, { 'Content-Type': 'application/json' }, JSON.stringify({ ok: false, error: 'Missing id' }));
+    return;
+  }
+
+  function playWithToken(accessToken, didRetry) {
+    var playUrl =
+      'https://playback2.a2d.tv/play/' +
+      encodeURIComponent(assetId) +
+      '?service=tv4&device=browser&protocol=hls&browser=chrome&capabilities=vod-hls';
+    tv4HttpsJson(
+      'GET',
+      playUrl,
+      null,
+      { Authorization: 'Bearer ' + accessToken },
+      function (err, status, data) {
+        var streamUrl;
+        var errMsg;
+        var expired =
+          status === 401 ||
+          status === 403 ||
+          (data &&
+            (data.errorCode === 'LOGIN_REQUIRED' ||
+              data.errorCode === 'token_expired' ||
+              data.error === 'token_expired' ||
+              /token_expired/i.test(String((data && (data.message || data.errorCode || data.error)) || ''))));
+        if (err) {
+          sendCors(
+            res,
+            502,
+            { 'Content-Type': 'application/json' },
+            JSON.stringify({ ok: false, error: err.message || 'TV4 play failed' })
+          );
+          return;
+        }
+        if (expired && !didRetry) {
+          invalidateTv4AccessCache(readTv4Session());
+          getTv4AccessToken(function (authErr2, accessToken2) {
+            if (authErr2 || !accessToken2) {
+              sendCors(
+                res,
+                401,
+                { 'Content-Type': 'application/json' },
+                JSON.stringify({
+                  ok: false,
+                  error:
+                    (authErr2 && authErr2.message) ||
+                    'TV4 login required — run: node scripts/tv4-login.js'
+                })
+              );
+              return;
+            }
+            playWithToken(accessToken2, true);
+          }, true);
+          return;
+        }
+        if (expired) {
+          sendCors(
+            res,
+            401,
+            { 'Content-Type': 'application/json' },
+            JSON.stringify({ ok: false, error: 'TV4 login required — run: node scripts/tv4-login.js' })
+          );
+          return;
+        }
+        if (status < 200 || status >= 300) {
+          errMsg = (data && (data.message || data.errorCode)) || 'TV4 HTTP ' + status;
+          sendCors(
+            res,
+            status || 502,
+            { 'Content-Type': 'application/json' },
+            JSON.stringify({ ok: false, error: errMsg })
+          );
+          return;
+        }
+        streamUrl =
+          data &&
+          ((data.playbackItem && (data.playbackItem.manifestUrl || data.playbackItem.mediaUri)) ||
+            data.manifestUrl ||
+            data.mediaUri ||
+            data.url);
+        if (!streamUrl) {
+          sendCors(
+            res,
+            502,
+            { 'Content-Type': 'application/json' },
+            JSON.stringify({ ok: false, error: 'TV4 stream missing' })
+          );
+          return;
+        }
+        sendCors(
+          res,
+          200,
+          { 'Content-Type': 'application/json; charset=utf-8' },
+          JSON.stringify({ ok: true, url: streamUrl })
+        );
+      }
+    );
+  }
+
+  getTv4AccessToken(function (authErr, accessToken) {
+    if (authErr || !accessToken) {
+      sendCors(
+        res,
+        401,
+        { 'Content-Type': 'application/json' },
+        JSON.stringify({ ok: false, error: (authErr && authErr.message) || 'TV4 auth failed' })
+      );
+      return;
+    }
+    playWithToken(accessToken, false);
+  });
+}
+
 function fetchUrl(targetUrl, redirectCount, cb) {
   if (redirectCount > 8) {
     cb(new Error('Too many redirects'));
@@ -113,7 +416,8 @@ function fetchUrl(targetUrl, redirectCount, cb) {
         Referer: referer,
         Origin: origin
       },
-      timeout: 20000
+      agent: parsed.protocol === 'http:' ? httpAgent : httpsAgent,
+      timeout: 30000
     },
     function (resp) {
       var status = resp.statusCode || 0;
@@ -215,13 +519,161 @@ function rewritePlaylist(text, playlistUrl, req) {
     .join('\n');
 }
 
+var SEGMENT_CACHE_MAX = 16;
+var SEGMENT_CACHE_BYTES = 80 * 1024 * 1024;
+var PREFETCH_AHEAD = 4;
+var PREFETCH_MAX = 2;
+var segmentCache = [];
+var segmentCacheBytes = 0;
+var segmentWaiters = Object.create(null);
+var segmentOrder = [];
+var prefetchQueued = Object.create(null);
+var prefetchActive = 0;
+
+function getCachedSegment(targetUrl) {
+  var i;
+  for (i = 0; i < segmentCache.length; i++) {
+    if (segmentCache[i].url === targetUrl) {
+      return segmentCache[i];
+    }
+  }
+  return null;
+}
+
+function rememberSegment(targetUrl, contentType, body) {
+  var old;
+  if (!targetUrl || !body || !body.length || getCachedSegment(targetUrl)) {
+    return;
+  }
+  segmentCache.push({
+    url: targetUrl,
+    contentType: contentType || 'application/octet-stream',
+    body: body
+  });
+  segmentCacheBytes += body.length;
+  while (segmentCache.length > SEGMENT_CACHE_MAX || segmentCacheBytes > SEGMENT_CACHE_BYTES) {
+    old = segmentCache.shift();
+    if (old && old.body) {
+      segmentCacheBytes -= old.body.length;
+    }
+  }
+}
+
+function listMediaSegments(text, playlistUrl) {
+  var lines;
+  var out;
+  var i;
+  var abs;
+  if (/#EXT-X-STREAM-INF/i.test(text || '')) {
+    return [];
+  }
+  lines = String(text || '').split(/\r?\n/);
+  out = [];
+  for (i = 0; i < lines.length; i++) {
+    abs = absolutePlaylistUrl(playlistUrl, lines[i]);
+    if (abs) {
+      out.push(abs);
+    }
+  }
+  return out;
+}
+
+function pumpPrefetch() {
+  var urls;
+  var i;
+  var next;
+  if (prefetchActive >= PREFETCH_MAX) {
+    return;
+  }
+  urls = Object.keys(prefetchQueued);
+  for (i = 0; i < urls.length && prefetchActive < PREFETCH_MAX; i++) {
+    next = urls[i];
+    delete prefetchQueued[next];
+    if (getCachedSegment(next) || segmentWaiters[next]) {
+      continue;
+    }
+    prefetchActive += 1;
+    fetchShared(next, function () {
+      prefetchActive -= 1;
+      pumpPrefetch();
+    });
+  }
+}
+
+function schedulePrefetch(targetUrl) {
+  if (!targetUrl) {
+    return;
+  }
+  withMakoTicket(targetUrl, function (err, ticketed) {
+    if (err || !ticketed) {
+      return;
+    }
+    if (getCachedSegment(ticketed) || segmentWaiters[ticketed] || prefetchQueued[ticketed]) {
+      return;
+    }
+    prefetchQueued[ticketed] = true;
+    pumpPrefetch();
+  });
+}
+
+function prefetchAheadOf(targetUrl) {
+  var idx = segmentOrder.indexOf(targetUrl);
+  var i;
+  if (idx < 0) {
+    return;
+  }
+  for (i = 1; i <= PREFETCH_AHEAD; i++) {
+    if (segmentOrder[idx + i]) {
+      schedulePrefetch(segmentOrder[idx + i]);
+    }
+  }
+}
+
+function fetchShared(targetUrl, cb) {
+  var hit = getCachedSegment(targetUrl);
+  var waiters;
+  if (hit) {
+    cb(null, {
+      status: 200,
+      headers: { 'content-type': hit.contentType, 'cache-control': 'public, max-age=60' },
+      body: hit.body,
+      finalUrl: targetUrl
+    });
+    return;
+  }
+  if (segmentWaiters[targetUrl]) {
+    segmentWaiters[targetUrl].push(cb);
+    return;
+  }
+  segmentWaiters[targetUrl] = [cb];
+  fetchUrl(targetUrl, 0, function (err, result) {
+    waiters = segmentWaiters[targetUrl] || [];
+    delete segmentWaiters[targetUrl];
+    if (
+      !err &&
+      result &&
+      result.status < 400 &&
+      result.body &&
+      result.body.length &&
+      !isPlaylist(result.headers['content-type'], result.finalUrl || targetUrl, result.body)
+    ) {
+      rememberSegment(targetUrl, result.headers['content-type'] || 'application/octet-stream', result.body);
+    }
+    waiters.forEach(function (fn) {
+      try {
+        fn(err, result);
+      } catch (e) {}
+    });
+  });
+}
+
 function handleProxy(req, res, targetUrl) {
   withMakoTicket(targetUrl, function (ticketErr, ticketedUrl) {
     if (ticketErr) {
       sendCors(res, 502, { 'Content-Type': 'text/plain; charset=utf-8' }, String(ticketErr.message || ticketErr));
       return;
     }
-    fetchUrl(ticketedUrl, 0, function (err, result) {
+    fetchShared(ticketedUrl, function (err, result) {
       if (err) {
         sendCors(res, 502, { 'Content-Type': 'text/plain; charset=utf-8' }, String(err.message || err));
         return;
@@ -239,7 +691,12 @@ function handleProxy(req, res, targetUrl) {
       var contentType = result.headers['content-type'] || 'application/octet-stream';
       if (isPlaylist(contentType, result.finalUrl || ticketedUrl, result.body)) {
         var text = result.body.toString('utf8');
+        var segs = listMediaSegments(text, result.finalUrl || ticketedUrl);
         var rewritten = rewritePlaylist(text, result.finalUrl || ticketedUrl, req);
+        if (segs.length) {
+          segmentOrder = segs;
+          segs.slice(0, PREFETCH_AHEAD).forEach(schedulePrefetch);
+        }
         sendCors(
           res,
           200,
@@ -261,6 +718,10 @@ function handleProxy(req, res, targetUrl) {
         },
         result.body
       );
+      prefetchAheadOf(targetUrl);
+      if (ticketedUrl !== targetUrl) {
+        prefetchAheadOf(ticketedUrl);
+      }
     });
   });
 }
@@ -592,6 +1053,150 @@ function handleFrame(req, res, targetUrl) {
   });
 }
 
+function catalogContentType(filePath) {
+  var ext = path.extname(filePath).toLowerCase();
+  if (ext === '.json') return 'application/json; charset=utf-8';
+  if (ext === '.jpg' || ext === '.jpeg') return 'image/jpeg';
+  if (ext === '.png') return 'image/png';
+  if (ext === '.webp') return 'image/webp';
+  return 'application/octet-stream';
+}
+
+function sendCatalogFile(res, absPath) {
+  if (!absPath || absPath.indexOf(CATALOG_DIR) !== 0) {
+    sendCors(res, 403, { 'Content-Type': 'text/plain' }, 'Forbidden');
+    return;
+  }
+  fs.readFile(absPath, function (err, data) {
+    if (err) {
+      sendCors(res, 404, { 'Content-Type': 'text/plain' }, 'Not found');
+      return;
+    }
+    sendCors(
+      res,
+      200,
+      {
+        'Content-Type': catalogContentType(absPath),
+        'Cache-Control': 'no-cache'
+      },
+      data
+    );
+  });
+}
+
+/** Serve a real http(s) page that embeds YouTube so the player gets a Referer (Error 153). */
+function handleYoutubeEmbed(req, res, parsed) {
+  var videoId = parsed && parsed.query && parsed.query.v;
+  if (!videoId || typeof videoId !== 'string' || !/^[A-Za-z0-9_-]{6,20}$/.test(videoId)) {
+    sendCors(res, 400, { 'Content-Type': 'text/plain; charset=utf-8' }, 'Missing or invalid v');
+    return;
+  }
+  var host = (req.headers && req.headers.host) || '127.0.0.1:' + PORT;
+  var origin = 'http://' + host;
+  var embed =
+    'https://www.youtube.com/embed/' +
+    videoId +
+    '?autoplay=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1&origin=' +
+    encodeURIComponent(origin);
+  var html =
+    '<!DOCTYPE html><html><head><meta charset="utf-8">' +
+    '<meta name="referrer" content="strict-origin-when-cross-origin">' +
+    '<meta name="viewport" content="width=device-width,initial-scale=1">' +
+    '<title>ISRTV YouTube</title>' +
+    '<style>html,body{margin:0;background:#000;width:100%;height:100%;overflow:hidden}' +
+    'iframe{border:0;position:absolute;inset:0;width:100%;height:100%}</style></head><body>' +
+    '<iframe src="' +
+    embed +
+    '" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>' +
+    '</body></html>';
+  sendCors(
+    res,
+    200,
+    {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Cache-Control': 'no-store',
+      'Referrer-Policy': 'strict-origin-when-cross-origin'
+    },
+    html
+  );
+}
+
+function handleCatalog(req, res, pathname) {
+  var rel = pathname.replace(/^\/catalog\/?/, '');
+  if (!rel || rel === '') {
+    sendCatalogFile(res, path.join(CATALOG_DIR, 'manifest.json'));
+    return;
+  }
+  if (rel === 'manifest' || rel === 'manifest.json') {
+    sendCatalogFile(res, path.join(CATALOG_DIR, 'manifest.json'));
+    return;
+  }
+  var mPkg = rel.match(/^packages\/([A-Za-z0-9_-]+)(?:\.json)?$/);
+  if (mPkg) {
+    sendCatalogFile(res, path.join(CATALOG_DIR, 'packages', mPkg[1] + '.json'));
+    return;
+  }
+  var mMedia = rel.match(/^media\/([A-Za-z0-9_-]+)\/([A-Za-z0-9._-]+)$/);
+  if (mMedia) {
+    sendCatalogFile(res, path.join(CATALOG_DIR, 'media', mMedia[1], mMedia[2]));
+    return;
+  }
+  // Compare helper: /catalog/check?known=slug:version,slug:version
+  if (rel === 'check') {
+    var parsed = url.parse(req.url, true);
+    var knownRaw = (parsed.query && parsed.query.known) || '';
+    var known = Object.create(null);
+    String(knownRaw)
+      .split(',')
+      .forEach(function (part) {
+        var bits = part.split(':');
+        if (bits[0]) known[bits[0]] = bits[1] || '';
+      });
+    var manifestPath = path.join(CATALOG_DIR, 'manifest.json');
+    fs.readFile(manifestPath, 'utf8', function (err, text) {
+      if (err) {
+        sendCors(
+          res,
+          200,
+          { 'Content-Type': 'application/json; charset=utf-8' },
+          JSON.stringify({ ok: true, updates: [], message: 'no catalog yet' })
+        );
+        return;
+      }
+      var manifest;
+      try {
+        manifest = JSON.parse(text);
+      } catch (e) {
+        sendCors(res, 500, { 'Content-Type': 'text/plain' }, 'Bad manifest');
+        return;
+      }
+      var updates = [];
+      (manifest.series || []).forEach(function (s) {
+        var localVer = known[s.slug];
+        if (localVer === undefined || localVer !== s.version) {
+          updates.push({
+            slug: s.slug,
+            title: s.title,
+            source: s.source,
+            version: s.version,
+            episodeCount: s.episodeCount,
+            updatedAt: s.updatedAt,
+            packageURL: '/catalog/packages/' + s.slug + '.json'
+          });
+        }
+      });
+      sendCors(
+        res,
+        200,
+        { 'Content-Type': 'application/json; charset=utf-8' },
+        JSON.stringify({ ok: true, updates: updates, updatedAt: manifest.updatedAt })
+      );
+    });
+    return;
+  }
+  sendCors(res, 404, { 'Content-Type': 'text/plain' }, 'Catalog path not found');
+}
+
 var server = http.createServer(function (req, res) {
   if (req.method === 'OPTIONS') {
     sendCors(res, 204);
@@ -608,7 +1213,8 @@ var server = http.createServer(function (req, res) {
         ok: true,
         service: 'isrtv-vod-proxy',
         framesQueued: frameWaiters.length,
-        framesActive: activeFrames
+        framesActive: activeFrames,
+        catalog: fs.existsSync(path.join(CATALOG_DIR, 'manifest.json'))
       })
     );
     return;
@@ -642,14 +1248,35 @@ var server = http.createServer(function (req, res) {
     return;
   }
 
+  if (parsed.pathname === '/catalog' || (parsed.pathname && parsed.pathname.indexOf('/catalog/') === 0)) {
+    handleCatalog(req, res, parsed.pathname);
+    return;
+  }
+
+  if (parsed.pathname === '/youtube') {
+    handleYoutubeEmbed(req, res, parsed);
+    return;
+  }
+
+  if (parsed.pathname === '/tv4/play') {
+    handleTv4Play(req, res, parsed);
+    return;
+  }
+
   sendCors(res, 404, { 'Content-Type': 'text/plain' }, 'Not found');
 });
 
+server.keepAliveTimeout = 10000;
+server.headersTimeout = 20000;
 server.listen(PORT, HOST, function () {
   var ip = lanIPv4();
   console.log('ISRTV media proxy listening on http://' + ip + ':' + PORT);
-  console.log('  health: http://' + ip + ':' + PORT + '/health');
-  console.log('  frame:  http://' + ip + ':' + PORT + '/frame?url=<stream>');
-  console.log('  proxy:  http://' + ip + ':' + PORT + '/proxy?url=<media>');
-  console.log('Keep this running for live thumbnails + KanBox VOD on the TV.');
+  console.log('  health:  http://' + ip + ':' + PORT + '/health');
+  console.log('  frame:   http://' + ip + ':' + PORT + '/frame?url=<stream>');
+  console.log('  proxy:   http://' + ip + ':' + PORT + '/proxy?url=<media>');
+  console.log('  catalog: http://' + ip + ':' + PORT + '/catalog/manifest');
+  console.log('  check:   http://' + ip + ':' + PORT + '/catalog/check?known=slug:version');
+  console.log('  youtube: http://' + ip + ':' + PORT + '/youtube?v=<videoId>');
+  console.log('  tv4:     http://' + ip + ':' + PORT + '/tv4/play?id=<assetId>');
+  console.log('Keep this running for live thumbnails + KanBox VOD + catalog updates.');
 });

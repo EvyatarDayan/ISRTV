@@ -1,0 +1,93 @@
+{
+  "slug": "yafa",
+  "title": "יאפא",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/",
+  "version": "f673a9a0f8f2",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/yafa/series.jpg",
+  "catalogPoster": "scripts/catalog/media/yafa/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - יפו בלילות",
+      "subtitle": "אופנוע מתרסק לאחר ירי מסתורי ושני רוכביו מוטלים לקרקע. שוטר קהילתי שנקלע לזירה מאבד את היורה במרדף, ובשובו מבחין בנערה יהודיה שנפגעה מהירי. הבחור שהיה איתה נעלם עם האופנוע. המשטרה מתגברת כוחות והקהילה ביפו עומדת בפני מערבולת שעשויה להטביע את הדו-קיום השברירי 21.12.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882443/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1996314/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - אופנוע",
+      "subtitle": "אמיר מצורף לחקירה ונשלח עם סשה לחפש את האופנוע שנעלם. סאמר מגלה שהאופנוע שלו שמכיל סמים נשלח לפירוק וחומק מבית אבו טאהר, למרות ההוראה שקיבל 28.12.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882446/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7pfk7g4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - אחים",
+      "subtitle": "אמיר וסשה נשלחים להביא את אדהם מבית אימו לחקירה והוא בורח. אבו טאהר מחפש את סאמר כדי למנוע את הרצח של סלים שיפר את הסולחה ויטביע את יפו בדם 31.12.2025",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882447/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tlsfmrhx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - טוקבק",
+      "subtitle": "הוידאו הפרובוקטיבי של עדי גורר איתו עשרות טוקבקים שמאיימים על חייה. אמיר וסשה נשלחים לבית ארם ואילנה האבלים לברר אם הוידאו הוא הסיבה לרצח ביתם. סמי מגיע לניחום אבלים ופוגש בחזית הבית את איש השב\"כ שדורש ממנו לצאת למשימה ממנה סמי מתחמק 04.01.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882448/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2219514/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - משפחה",
+      "subtitle": "מלי מחליטה להביא את סאמר ואדהם לעדות כנגד סלים שמאושפז מחוסר הכרה. אמל מנסה לברר אצל אבו טאהר היכן הבנים, אבל אבו טאהר לא מוכן לספר לה. אילנה מתחילה לחשוד שארם מסתיר ממנה דברים 07.01.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882449/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lf42j4ai/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - יאפא דאפא",
+      "subtitle": "אמל יוצאת יחד עם אמיר מג'אר להחזיר את סאמר ואדהם מהשטחים ליפו בעוד קפטן יוסי שם עליהם ללא ידיעת אמיר מעקב של שב\"כ. האחים מנהלים שיחה על הילדות ומתקרבים זה לזה ונעמי נפגשת לראשונה עם האבא שהחרים אותה 11.01.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882450/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gwguo4rt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - אשמה",
+      "subtitle": "אבן שנזרקת על חלון ביתו של אמיר מסכנת את העובר של נעמי. אילנה מגלה שגדר ביתה רוססה בגרפיטי, ויוצאת בעקבות הדברים ששמעה בביקור בבית חולים לאתר הבנייה של ארם 14.01.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882451/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215975/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - אזרח סוג מת",
+      "subtitle": "בעקבות טיפ אנונימי האקדח היורה נמצא במוסך של עדנן. אמיר יוצא עם סשה לזירת הרצח, שם הם מבחינים במצלמת רחוב מפוצצת ומחליטים לבדוק. מלי מכנסת מסיבת עיתונאים להודיע שהחשוד ברצח הודה 18.01.2026",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-882422/s1/882719/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w36nxiuw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/yafa/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/yafa/s1-ep8.jpg"
+    }
+  ]
+}

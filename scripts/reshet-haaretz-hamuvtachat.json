@@ -1,0 +1,70 @@
+{
+  "slug": "haaretz-hamuvtachat",
+  "title": "הארץ המובטחת",
+  "source": "reshet",
+  "pageURL": "https://13tv.co.il/allshows/series/737/",
+  "seriesId": 737,
+  "localPoster": "images/kanbox/haaretz-hamuvtachat/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "הארץ המובטחת, עונה 1, פרק 1: וולקאם טו יזראל",
+      "subtitle": "הכירו את אורלי, שנינה, אדם, סמנתה וזאק, צעירים יהודים שחולמים לעלות לישראל ומגיעים לארץ כדי לקבל החלטה. הם יחפשו אהבה ועבודה ויפגשו את הישראלים, שילמדו אותם את כל מה שצריך לדעת על החיים בארץ | הארץ המובטחת, לצפייה ישירה",
+      "pageURL": "https://13tv.co.il/allshows/series/737/season/1/4595906/",
+      "assetId": 4595906,
+      "entryId": "1_sztqv09n",
+      "externalId": "shows-the-promised-land-season-01-episodes-01-full",
+      "localImage": "images/kanbox/haaretz-hamuvtachat/s1-ep1.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/9eb716f293b247548708fdbf0692e17a/version/7/width/640/height/360"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הארץ המובטחת, עונה 1, פרק 2: הלם תרבות",
+      "subtitle": "אדם, אורלי, שנינה, סאם וסמנתה מתעוררים לבוקר ראשון בישראל ומגלים שלהשתלב כאן זה יותר מסובך ממה שחשבו | \"הארץ המובטחת\", לצפייה ישירה",
+      "pageURL": "https://13tv.co.il/allshows/series/737/season/1/4597468/",
+      "assetId": 4597468,
+      "entryId": "1_fnxp9s5j",
+      "externalId": "shows-the-promised-land-season-01-episodes-02-full",
+      "localImage": "images/kanbox/haaretz-hamuvtachat/s1-ep2.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/05b155b34ea447d9bbdef5b731a385ed/version/7/width/640/height/360"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "הארץ המובטחת, עונה 1, פרק 3: גרסת המציאות",
+      "subtitle": "אהבה ממבט ראשון: שנינה מתאהבת בילדי שדרות, אדם יוצא לדייט ראשון בישראל, סמנתה וזאק מגלים את בני ברק - ואורלי לומדת מה זה חינה | \"הארץ המובטחת\", לצפייה ישירה",
+      "pageURL": "https://13tv.co.il/allshows/series/737/season/1/4599693/",
+      "assetId": 4599693,
+      "entryId": "1_7lktws7b",
+      "externalId": "shows-the-promised-land-season-01-episodes-03-full",
+      "localImage": "images/kanbox/haaretz-hamuvtachat/s1-ep3.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/c862c5d8eb7344dfb08200ee7c6b9103/version/6/width/640/height/360"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הארץ המובטחת, עונה 1, פרק 4: לטיול יצאנו",
+      "subtitle": "ז'אק, סמנתה, אדם, אורלי ושנינה יוצאים לטיול בצפון. הם מתארחים בקיבוץ ומגלים את החיים מחוץ לעיר הגדולה | \"הארץ המובטחת\", לצפייה ישירה",
+      "pageURL": "https://13tv.co.il/allshows/series/737/season/1/4604527/",
+      "assetId": 4604527,
+      "entryId": "1_v82a4k7p",
+      "externalId": "shows-the-promised-land-season-01-episodes-04-full-fixed",
+      "localImage": "images/kanbox/haaretz-hamuvtachat/s1-ep4.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/132de08be9af4195b51310018d6b1f6e/version/5/width/640/height/360"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הארץ המובטחת, עונה 1, פרק 5: שישי ראשון בארץ",
+      "subtitle": "זאק, סמנתה, אדם, אורלי ושנינה נערכים לארוחת השבת - וההתרגשות גדולה, אבל גם הגעגועים הביתה למשפחה שהשאירו מאחור | \"הארץ המובטחת\", לצפייה ישירה",
+      "pageURL": "https://13tv.co.il/allshows/series/737/season/1/4606786/",
+      "assetId": 4606786,
+      "entryId": "1_bshf6e02",
+      "externalId": "shows-the-promised-land-season-01-episodes-05-full",
+      "localImage": "images/kanbox/haaretz-hamuvtachat/s1-ep5.jpg",
+      "imageRemote": "https://images.frp1.ott.kaltura.com/Service.svc/GetImage/p/5031/entry_id/dc85acd98f06410cb002480fb8a9fc42/version/2/width/640/height/360"
+    }
+  ]
+}

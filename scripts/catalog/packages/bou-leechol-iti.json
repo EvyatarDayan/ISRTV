@@ -1,0 +1,3023 @@
+{
+  "slug": "bou-leechol-iti",
+  "title": "בואו לאכול איתי",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/",
+  "version": "df0311cdcd62",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 301,
+  "localPoster": "images/kanbox/bou-leechol-iti/series.jpg",
+  "catalogPoster": "scripts/catalog/media/bou-leechol-iti/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "לצפייה בפרק הראשון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88374/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mmctgjv9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "גלי מארחת במגדל יוקרה בת\"א, אך לדברי האורחים היא מגישה \"אוכל של עוני\"",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88377/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ccyr13s3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "הגיע תורה של אלינור, הברמנית היפה, והאורחים דואגים שאין לה הרבה פז\"מ",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88380/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_og4qc40r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "אורלי, בשלנית דה-בסט מבת ים, רוצה \"לפגוש הומואים, לסביות וערבים\" ולנצח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88383/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ji81gky4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "רונן, איש נדל\"ן ושגריר קוניאק, מבשל ארוחת גורמה בערב המכריע של התחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88386/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kr16fb4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "חמישה חובבי בישול זרים זה לזה, מתחרים מי מהם הוא הבשלן האולטימטיבי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88404/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6wtcuks7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "אורן חזן מארח בבית של ההורים שלו באריאל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88407/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_083wjo8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "subtitle": "הגיע תורה של מיכל מרעננה, אשת שיווק ובעברה דוגמנית ודיילת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88410/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_exmvghri/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9",
+      "subtitle": "חמישה חובבי בישול זרים זה לזה, מתחרים מי מהם הוא הבשלן האולטימטיבי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88413/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_632vua1b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10",
+      "subtitle": "יוסי, החי את הפער העדתי, יוצא מהארון כבשלן מרוקאי ומסתבך עם אורן חזן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88416/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cte9w33n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11",
+      "subtitle": "אבינועם מכין לבשלנים תפריט מדוקדק ורשימות עזר לשיחה קולחת סביב השולחן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88419/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3q01tfp3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "פרק 12",
+      "subtitle": "יורם, ספר מטרוסקסואל מפ\"ת, נאלץ לראשונה לבשל ולעשות כלים ללא עזרת אשתו",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88422/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gx8dajj2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "פרק 13",
+      "subtitle": "גיל, הנוזף הקולינרי, מנסה לארח בדירת חדר עם פלטה חשמלית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88425/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l9ajk5xp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "פרק 14",
+      "subtitle": "שרית מלבישה בבגדים הודים מסורתיים וגורמת לאורחים לאכול עם הידיים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88428/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tz22asxs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "פרק 15",
+      "subtitle": "המארחת האחרונה היא נטלי עם השיק של פריז והשוק של נתניה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88431/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yj3791jf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "פרק 16",
+      "subtitle": "תמי, גננת לשעבר וצמחונית, מכינה ארוחה עם כוכבים מגשימי משאלות ובשר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88434/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9trgp95j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 1,
+      "name": "פרק 17",
+      "subtitle": "הבשלנים מנסים לנחש האם מוחמד הוא ערבי מהסוג שמגיש כבש, כנאפה ודרבוקה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88437/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_emjef7c4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 1,
+      "name": "פרק 18",
+      "subtitle": "יואב הכין ערב בקונספט שנות ה-70, תמי בעיקר סקרנית להתארח בבית של הומו",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88440/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uxmar41w/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 1,
+      "name": "פרק 19",
+      "subtitle": "ארז מסתכל על הבישול כמתמטיקה ומשתדל להוות איום אינטלקטואלי וקולינרי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88443/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gcws7zy4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 1,
+      "name": "פרק 20",
+      "subtitle": "הבשלנים פותחים קבוצת תמיכה לנפגעי ארז, בזמן שיעל מגלה מי הזוכה בתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88446/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ooy4jk3s/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 1,
+      "name": "פרק 21",
+      "subtitle": "נפגשים אצל רינה המתקשרת, לארוחה עם פוטנציאל לאהבה בין עורך דין לברמנית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88479/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_56oqmbqo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 1,
+      "name": "פרק 22",
+      "subtitle": "אלי עומל על ארוחה בסגנון \"קודם נשתה קצת משהו\" ובטעם שעושה שואו איטלקי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88482/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zyzbt3uf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 1,
+      "name": "פרק 23",
+      "subtitle": "אדוה הברמנית באה להוכיח שהיא לא ילדה וחוששת מהביקורתיות של רינה המאמא",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88485/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1ronh1b4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 1,
+      "name": "פרק 24",
+      "subtitle": "אפרת השיפוצניקית החובבת מצילה את אדווה ממבוכת החיזורים ומפנקת עם דגים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88488/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_67s8ve2h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 1,
+      "name": "פרק 25",
+      "subtitle": "האחרון לארח הוא איציק, תעשיין ודוקטור קולינרי, שמקבל חיקויים מהאורחים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88491/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_toeadf3n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep25.jpg"
+    },
+    {
+      "ep": 26,
+      "season": 1,
+      "name": "פרק 26",
+      "subtitle": "אולריך מגיע עם עניבת בקר, במיוחד לארוחה עמוסה בבשר שמכין מיקי האורתופד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88493/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p7qudjkk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep26.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep26.jpg"
+    },
+    {
+      "ep": 27,
+      "season": 1,
+      "name": "פרק 27",
+      "subtitle": "ענת, כוכבת הערוץ הקהילתי, דואגת לכרס של החבורה ומחממת עניינים עם איציק",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88496/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lkpv4tw3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep27.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep27.jpg"
+    },
+    {
+      "ep": 28,
+      "season": 1,
+      "name": "פרק 28",
+      "subtitle": "החבורה מגיעה לבית רדוף הרוחות של אורליך הגרמני, עם ארוחה מוזרה במיוחד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88499/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bu0phj87/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep28.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep28.jpg"
+    },
+    {
+      "ep": 29,
+      "season": 1,
+      "name": "פרק 29",
+      "subtitle": "איציק מכין ארוחה מרוקאית ללא חריף, בזמן שענת ממשיכה להישאר רעבה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88502/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s8nrfpro/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep29.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep29.jpg"
+    },
+    {
+      "ep": 30,
+      "season": 1,
+      "name": "פרק 30",
+      "subtitle": "החבורה שולפת ציפורניים, בארוחה האחרונה והחריפה במיוחד אצל מיכל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88505/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5tn286g3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep30.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep30.jpg"
+    },
+    {
+      "ep": 31,
+      "season": 1,
+      "name": "פרק 31",
+      "subtitle": "יעקוב מכפר ראמה מלקט ביער ארוחה צמחונית לכבוד שמירה ולאכזבת כל השאר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88449/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_plll6kv2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep31.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep31.jpg"
+    },
+    {
+      "ep": 32,
+      "season": 1,
+      "name": "פרק 32",
+      "subtitle": "שמירה מביאה את יפן לגליל. נעליים נחלצות, קימונואים נעטים ורק הרעב נשאר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88452/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rq9vlfro/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep32.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep32.jpg"
+    },
+    {
+      "ep": 33,
+      "season": 1,
+      "name": "פרק 33",
+      "subtitle": "עמית הפרובוקטורית מגלה את הצד הרך שלה בזמן שאילן מפנק בבשר גורמה גלילי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88455/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9ozgdwfv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep33.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep33.jpg"
+    },
+    {
+      "ep": 34,
+      "season": 1,
+      "name": "פרק 34",
+      "subtitle": "אחרי שהבשלנים הפגועים התאגדו נגד עמית, היום הגיע תורה לארח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88458/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_092gxgxh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep34.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep34.jpg"
+    },
+    {
+      "ep": 35,
+      "season": 1,
+      "name": "פרק 35",
+      "subtitle": "נורית מכינה אוכל מרוקאי ביתי המחבר את אילן איש העסקים לילדותו הענייה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88461/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tbsr0442/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep35.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep35.jpg"
+    },
+    {
+      "ep": 36,
+      "season": 1,
+      "name": "פרק 36",
+      "subtitle": "הראשון לארח, אמיר העו\"ד, מכין ארוחת דגים מושקעת שכולם אוהבים, חוץ מרחל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88508/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mfvj41si/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep36.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep36.jpg"
+    },
+    {
+      "ep": 37,
+      "season": 1,
+      "name": "פרק 37",
+      "subtitle": "החבורה מגיעה לבית הבובות של רחל מרמת אביב, לארוחה פולנית ללא רגשות אשם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88511/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gy7tl46a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep37.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep37.jpg"
+    },
+    {
+      "ep": 38,
+      "season": 1,
+      "name": "פרק 38",
+      "subtitle": "המארח השלישי הוא מור הצמחוני, שמכין ארוחה בינלאומית ורווייה בקשיים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88514/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ou31bwmu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep38.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep38.jpg"
+    },
+    {
+      "ep": 39,
+      "season": 1,
+      "name": "פרק 39",
+      "subtitle": "ברוך, נהג המונית, מאוכזב שהמתמודדים האחרים לא נתנו לו פייט",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88517/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_be2a7jnf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep39.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep39.jpg"
+    },
+    {
+      "ep": 40,
+      "season": 1,
+      "name": "פרק 40",
+      "subtitle": "פרק סיום העונה - המארחת האחרונה היא העיתונאית גאיה קורן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88520/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dzobvhjm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep40.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep40.jpg"
+    },
+    {
+      "ep": 41,
+      "season": 1,
+      "name": "פרק 41",
+      "subtitle": "לילי, \"המפולצנת\", מכינה ארוחה יפנית שגורמת לרונית לבכות וכמעט להקיא",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88389/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jghrpea8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep41.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep41.jpg"
+    },
+    {
+      "ep": 42,
+      "season": 1,
+      "name": "פרק 42",
+      "subtitle": "קובי, חובב מוזיקה קלאסית ושונא עגבניות אירוטיות, מפנק בהדרכת כוסות יין",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88392/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iw57wmka/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep42.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep42.jpg"
+    },
+    {
+      "ep": 43,
+      "season": 1,
+      "name": "פרק 43",
+      "subtitle": "רונית, חולת ניקיון הנגעלת מאוכל שהכינו אחרים, מפתיעה במנת \"קרני יאריק\"",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88395/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bpoexsq6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep43.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep43.jpg"
+    },
+    {
+      "ep": 44,
+      "season": 1,
+      "name": "פרק 44",
+      "subtitle": "אינה המארחת מרגישה \"תמונה מופשטת של זיקית שיכורה\" ומכינה מנות בוערות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88398/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9e34ege2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep44.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep44.jpg"
+    },
+    {
+      "ep": 45,
+      "season": 1,
+      "name": "פרק 45",
+      "subtitle": "הבשלנים מגיעים לערב אחרון במושב מזור, שם חיים משוויץ בקשר עם בר רפאלי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88401/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2ltg68lo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep45.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep45.jpg"
+    },
+    {
+      "ep": 46,
+      "season": 1,
+      "name": "פרק 46",
+      "subtitle": "עם המוטו \"הכול סבבה יא בבה\", תרצה הרוחנית מאתגרת את האורחים באכילת מוח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88464/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6sjt2qdp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep46.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep46.jpg"
+    },
+    {
+      "ep": 47,
+      "season": 1,
+      "name": "פרק 47",
+      "subtitle": "יואל מגיש כבד קצוץ ומגלה שרינה סובלת מפוביית כבד עקב ילדות קשה כאנמית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88467/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zz5g4wct/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep47.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep47.jpg"
+    },
+    {
+      "ep": 48,
+      "season": 1,
+      "name": "פרק 48",
+      "subtitle": "יעל מכינה ארוחה צרפתית ראש בראש עם יואל, ורינה מגלה שכולם שרוטים באוכל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88470/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_takvrzt1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep48.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep48.jpg"
+    },
+    {
+      "ep": 49,
+      "season": 1,
+      "name": "פרק 49",
+      "subtitle": "אצל רינה מתגבשים לשבט האדם הקדמון, רבים על ההנהגה ואוכלים דגים בידיים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88473/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_343bdijt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep49.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep49.jpg"
+    },
+    {
+      "ep": 50,
+      "season": 1,
+      "name": "פרק 50",
+      "subtitle": "רמי הפקח נשאר תעלומה, קונה חומרי גלם יקרים ומרשה לעצמו להשוויץ בצבטנים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s1/88476/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cmr7aqht/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s1-ep50.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s1-ep50.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - שבוע חיפה והקריות, יום א'",
+      "subtitle": "שבוע חיפה והקריות היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537480/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nl9ktzkq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - שבוע חיפה והקריות, יום ב'",
+      "subtitle": "שבוע חיפה והקריות היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537483/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5wgai0jd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - שבוע חיפה והקריות, יום ג'",
+      "subtitle": "שבוע חיפה והקריות היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537491/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_si6yg6f9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - שבוע חיפה והקריות, יום ד'",
+      "subtitle": "שבוע חיפה והקריות היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537492/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sbc46bi2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - שבוע חיפה והקריות, יום ה'",
+      "subtitle": "שבוע חיפה והקריות היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537520/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8lcguw3i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - מטבחים כשרים, יום א'",
+      "subtitle": "שבוע מטבחים כשרים היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537543/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d1l79dn7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - מטבחים כשרים, יום ב'",
+      "subtitle": "שבוע מטבחים כשרים היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537547/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b9vttv9m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - מטבחים כשרים, יום ג'",
+      "subtitle": "שבוע מטבחים כשרים היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537546/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u06tdcto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "פרק 9 - מטבחים כשרים, יום ד'",
+      "subtitle": "שבוע מטבחים כשרים היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537545/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cdsvn9di/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "פרק 10 - מטבחים כשרים, יום ה'",
+      "subtitle": "שבוע מטבחים כשרים היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537544/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ew1cli1l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "name": "פרק 11 - השפלה, יום א'",
+      "subtitle": "שבוע השפלה היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537548/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7ubbcu5y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "name": "פרק 12 - השפלה, יום ב'",
+      "subtitle": "שבוע השפלה היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537549/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zd9b3efz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "name": "פרק 13 - השפלה, יום ג'",
+      "subtitle": "שבוע השפלה היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537550/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_png09iqh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 2,
+      "name": "פרק 14 - השפלה, יום ד'",
+      "subtitle": "שבוע השפלה היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537551/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lku3p1ff/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 2,
+      "name": "פרק 15 - השפלה, יום ה'",
+      "subtitle": "שבוע השפלה היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537552/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u1d9ikh8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 2,
+      "name": "פרק 16 - המרכז א', יום א'",
+      "subtitle": "שבוע מרכז א' היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537553/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_t0url48p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 2,
+      "name": "פרק 17 - המרכז א', יום ב'",
+      "subtitle": "שבוע מרכז א' היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537554/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8fgqvpdf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 2,
+      "name": "פרק 18 - המרכז א', יום ג'",
+      "subtitle": "שבוע מרכז א' היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537555/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fdnrcnie/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 2,
+      "name": "פרק 19 - המרכז א', יום ד'",
+      "subtitle": "שבוע מרכז א' היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qhyfm4k3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 2,
+      "name": "פרק 20 - המרכז א', יום ה'",
+      "subtitle": "שבוע מרכז א' היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537557/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_spv8vhl9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 2,
+      "name": "פרק 21 - הצפון, יום א'",
+      "subtitle": "שבוע צפון היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537561/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vmwx3zfk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 2,
+      "name": "פרק 22 - הצפון, יום ב'",
+      "subtitle": "שבוע צפון היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537580/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ntnmd8fy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 2,
+      "name": "פרק 23 - הצפון, יום ג'",
+      "subtitle": "שבוע צפון היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537579/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a8dg9g5o/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 2,
+      "name": "פרק 24 - הצפון, יום ד'",
+      "subtitle": "שבוע צפון היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537578/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bb39gclh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 2,
+      "name": "פרק 25 - הצפון, יום ה'",
+      "subtitle": "שבוע צפון היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537577/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ydv27vvf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep25.jpg"
+    },
+    {
+      "ep": 26,
+      "season": 2,
+      "name": "פרק 26 - המרכז ב', יום א'",
+      "subtitle": "שבוע מרכז ב' היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537575/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c3jpugzh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep26.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep26.jpg"
+    },
+    {
+      "ep": 27,
+      "season": 2,
+      "name": "פרק 27 - המרכז ב', יום ב'",
+      "subtitle": "שבוע מרכז ב' היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537576/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_h345rpfi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep27.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep27.jpg"
+    },
+    {
+      "ep": 28,
+      "season": 2,
+      "name": "פרק 28 - המרכז ב', יום ג'",
+      "subtitle": "שבוע מרכז ב' היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537574/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2cjxhieu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep28.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep28.jpg"
+    },
+    {
+      "ep": 29,
+      "season": 2,
+      "name": "פרק 29 - המרכז ב', יום ד'",
+      "subtitle": "שבוע מרכז ב' היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537573/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ubv25fcj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep29.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep29.jpg"
+    },
+    {
+      "ep": 30,
+      "season": 2,
+      "name": "פרק 30 - המרכז ב', יום ה'",
+      "subtitle": "שבוע מרכז ב' היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537572/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vxz33o8h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep30.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep30.jpg"
+    },
+    {
+      "ep": 31,
+      "season": 2,
+      "name": "פרק 31 - ירושלים, יום א'",
+      "subtitle": "שבוע ירושלים היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_sgls6ecv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep31.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep31.jpg"
+    },
+    {
+      "ep": 32,
+      "season": 2,
+      "name": "פרק 32 - ירושלים, יום ב'",
+      "subtitle": "שבוע ירושלים היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537563/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5dabhxj1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep32.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep32.jpg"
+    },
+    {
+      "ep": 33,
+      "season": 2,
+      "name": "פרק 33 - ירושלים, יום ג'",
+      "subtitle": "שבוע ירושלים היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537564/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5lm8rn1k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep33.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep33.jpg"
+    },
+    {
+      "ep": 34,
+      "season": 2,
+      "name": "פרק 34 - ירושלים, יום ד'",
+      "subtitle": "שבוע ירושלים היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z9qo88tx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep34.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep34.jpg"
+    },
+    {
+      "ep": 35,
+      "season": 2,
+      "name": "פרק 35 - ירושלים, יום ה'",
+      "subtitle": "שבוע ירושלים היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537571/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j7zfvdap/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep35.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep35.jpg"
+    },
+    {
+      "ep": 36,
+      "season": 2,
+      "name": "פרק 36 - השרון, יום א'",
+      "subtitle": "שבוע השרון היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537570/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m8l2daov/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep36.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep36.jpg"
+    },
+    {
+      "ep": 37,
+      "season": 2,
+      "name": "פרק 37 - השרון, יום ב'",
+      "subtitle": "שבוע השרון היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537569/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rh7vzsa3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep37.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep37.jpg"
+    },
+    {
+      "ep": 38,
+      "season": 2,
+      "name": "פרק 38 - השרון, יום ג'",
+      "subtitle": "שבוע השרון היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537568/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_arxwainn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep38.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep38.jpg"
+    },
+    {
+      "ep": 39,
+      "season": 2,
+      "name": "פרק 39 - השרון, יום ד'",
+      "subtitle": "שבוע השרון היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537567/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2wfwws4c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep39.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep39.jpg"
+    },
+    {
+      "ep": 40,
+      "season": 2,
+      "name": "פרק 40 - השרון, יום ה'",
+      "subtitle": "שבוע השרון היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537566/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2g7dc5uw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep40.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep40.jpg"
+    },
+    {
+      "ep": 41,
+      "season": 2,
+      "name": "פרק 41 - המרכז ג', יום א'",
+      "subtitle": "שבוע מרכז ג' היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537591/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_um3kbdws/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep41.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep41.jpg"
+    },
+    {
+      "ep": 42,
+      "season": 2,
+      "name": "פרק 42 - המרכז ג', יום ב'",
+      "subtitle": "שבוע מרכז ג' היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537601/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z1bhmzf6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep42.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep42.jpg"
+    },
+    {
+      "ep": 43,
+      "season": 2,
+      "name": "פרק 43 - המרכז ג', יום ג'",
+      "subtitle": "שבוע מרכז ג' היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537600/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cf2vmadk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep43.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep43.jpg"
+    },
+    {
+      "ep": 44,
+      "season": 2,
+      "name": "פרק 44 - המרכז ג', יום ד'",
+      "subtitle": "שבוע מרכז ג' היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537599/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_apmmk32v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep44.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep44.jpg"
+    },
+    {
+      "ep": 45,
+      "season": 2,
+      "name": "פרק 45 - המרכז ג', יום ה'",
+      "subtitle": "שבוע מרכז ג' היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537598/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_552etxtf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep45.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep45.jpg"
+    },
+    {
+      "ep": 46,
+      "season": 2,
+      "name": "פרק 46 - אלוף האלופים, יום א'",
+      "subtitle": "שבוע אלוף האלופים היום הראשון לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537597/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8iafmvyi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep46.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep46.jpg"
+    },
+    {
+      "ep": 47,
+      "season": 2,
+      "name": "פרק 47 - אלוף האלופים, יום ב'",
+      "subtitle": "שבוע אלוף האלופים היום השני לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537596/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_x8znyoj5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep47.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep47.jpg"
+    },
+    {
+      "ep": 48,
+      "season": 2,
+      "name": "פרק 48 - אלוף האלופים, יום ב'",
+      "subtitle": "שבוע אלוף האלופים היום השלישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ojdseyxh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep48.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep48.jpg"
+    },
+    {
+      "ep": 49,
+      "season": 2,
+      "name": "פרק 49 - אלוף האלופים, יום ד'",
+      "subtitle": "שבוע אלוף האלופים היום הרביעי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537595/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ncgwq11m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep49.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep49.jpg"
+    },
+    {
+      "ep": 50,
+      "season": 2,
+      "name": "פרק 50 - אלוף האלופים, יום ה'",
+      "subtitle": "שבוע אלוף האלופים היום החמישי לתחרות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s2/537593/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7ibhrisi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s2-ep50.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s2-ep50.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 3,
+      "name": "פרק 1 - תל אביב, חלק א'",
+      "subtitle": "שלושה זוגות מקצוות שונים של תל אביב נפגשים לארוחת ערב",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88541/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cmt5nln5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 3,
+      "name": "פרק 2 - תל אביב, חלק ב'",
+      "subtitle": "אייל ורונית מכינים ארוחה \"בצבעי תשוקה\", רועי מסתבך מול עבד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88544/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lx1zbpzw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 3,
+      "name": "פרק 3 - חיפה, חלק א'",
+      "subtitle": "חיים ואצילה, זוג \"אושיות חיפאיות\", מארחים את הזוגות בדירתם המפוארת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88547/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m22magtc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 3,
+      "name": "פרק 4 - חיפה, חלק ב'",
+      "subtitle": "ליאת ודרור מגישים מנת חגבים מוקפצים ושמעון המנטליסט מפתיע את האורחים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88550/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w2z2bggb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 3,
+      "name": "פרק 5 - מטבח כשר, חלק א'",
+      "subtitle": "הזוגות נפגשים לערב הראשון ופוגשים את דויד, שרוצה \"להידמות לבורא עולם\"",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88553/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0wu3bh5l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 3,
+      "name": "פרק 6 - מטבח כשר, חלק ב'",
+      "subtitle": "האורחים מתאמנים בתקיעת שופר ומשחקים בזיקוקים (וגם באש)",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wrpao7hi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 3,
+      "name": "פרק 7 - מחוז המרכז, חלק א'",
+      "subtitle": "מה קורה כשזוג פעילי להב\"ה פוגשים זוג יהודי-ערבי לארוחת ערב?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88559/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b0nzmxqi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 3,
+      "name": "פרק 8 - מחוז המרכז, חלק ב'",
+      "subtitle": "הזוגות מנסים לשים את הפוליטיקה בצד ואת האוכל במרכז... ללא הצלחה יתרה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nig386i8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 3,
+      "name": "פרק 9 - גוש דן, חלק א'",
+      "subtitle": "ישראל וימית מארחים בסגנון הבלינג-בלינג",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_11r1jyq2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 3,
+      "name": "פרק 10 - גוש דן, חלק ב'",
+      "subtitle": "ארוחה טבעונית אפלולית אצל ארתור וג'ול, וארוחה מוגזמת אצל ליאל וליאור",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88568/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_omnfugkf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 3,
+      "name": "פרק 11 - ירושלים, חלק א'",
+      "subtitle": "מגיעים לירושלים לערב של קנאה בין בני זוג, צרות עין ושירה בפנטומימה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88571/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4cy9zrez/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 3,
+      "name": "פרק 12 - ירושלים, חלק ב'",
+      "subtitle": "מירי רוצה לקנות מאלעזר ושושנה את הבית והעניינים מתחילים להתלהט",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88574/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6txad8ew/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 3,
+      "name": "פרק 13 - אזור השרון, חלק א'",
+      "subtitle": "שחר ואורית, \"בארבי וקן\", פוגשים ציידי פוקימונים ונשנשי רוקט מכפר מל\"ל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88577/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1nuh1i64/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 3,
+      "name": "פרק 14 - אזור השרון, חלק ב'",
+      "subtitle": "הזוגות מגיעים לכפר מל\"ל כדי לטעום ממטבחם של אורלי וישגב, השף העירום",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88580/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1tkhp39g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 3,
+      "name": "פרק 15 - ספיישל חברים, חלק א'",
+      "subtitle": "חברות ילדות, נשות חברה ומטפלים רוחניקים נפגשים לארוחה. איך זה ייגמר?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88583/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n29bg1cm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 3,
+      "name": "פרק 16 - ספיישל חברים, חלק ב'",
+      "subtitle": "איזה טעם יש לעוגת \"גילה גילה בוצ'ה בודי\"?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88586/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c8hxno23/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 3,
+      "name": "פרק 17 - העמקים והקריות, חלק א'",
+      "subtitle": "מה קורה כשזוג חוזר בתשובה פוגש צמד אתאיסטים ומתקשרת עם יישויות חוצניות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88589/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_evc0zrrs/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 3,
+      "name": "פרק 18 - העמקים והקריות, חלק ב'",
+      "subtitle": "סיגלית מפנקת את סקאי ב\"ניתוח פלסטי\", ושלמה וסיגלית מארחים בסגנון טברנה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4528sucw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 3,
+      "name": "פרק 19 - השרון ומישור החוף, חלק א'",
+      "subtitle": "מי השווה בין נסיכת הנילוס לטונה בקופסה, ומי הואשם ב\"הומופוביה לייט\"?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/88595/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l5kow3mw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 3,
+      "name": "פרק 20 - השרון ומישור החוף, חלק ב'",
+      "subtitle": "רון וירדנה ומשאירים את גיא ואביב פעורי פה מהסיבות הלא נכונות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s3/105628/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1hagrsnk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s3-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s3-ep20.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 4,
+      "name": "פרק 1 - דרום, חלק א'",
+      "subtitle": "שלושה זוגות נפגשים לערב של כיף ודעות קדומות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660671/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nqo3dry4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 4,
+      "name": "פרק 2 - דרום, חלק ב'",
+      "subtitle": "אחרי שהבנו מי יותר לבן מטחינה, הגיע הזמן לכסות את שאר הסטראוטיפים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660674/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fk5ep4od/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 4,
+      "name": "פרק 3 - מישור החוף הצפוני, חלק א",
+      "subtitle": "תחרות האירוח שלנו עולה לצפון עם פוטנציאל לאבד את הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660680/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fzm19ha7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 4,
+      "name": "פרק 4 - מישור החוף הצפוני, חלק ב",
+      "subtitle": "בחלק השני של מישור החוף הצפוני: טיפול בהלם או חוויה טראנס-אטלנטית?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660691/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ercrfdnj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 4,
+      "name": "פרק 5 - שומרון, חלק א'",
+      "subtitle": "כשההורים של אורן חזן פגשו את הזוג מהמיד-ברן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660699/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3cy3yguu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 4,
+      "name": "פרק 6 - שומרון, חלק ב'",
+      "subtitle": "נדמה שכיסינו הכול ואז הזוג חזן מפתיעים בגילויי מרעיש על הזוגיות שלהם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660703/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8pymh1kv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 4,
+      "name": "פרק 7 - אחים ואחיות, חלק א'",
+      "subtitle": "דודי ואחיו יואב, בת לא רשמית עם נטייה לתפוס את הבמה פוגשים את צחי וורד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660705/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wxtqs9o2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 4,
+      "name": "פרק 8 - אחים ואחיות, חלק ב'",
+      "subtitle": "ארוחה כורדית אצל צחי וורד וקווקזית אצל רייצ'ל ומריאז",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660707/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s2vp4q76/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 4,
+      "name": "פרק 9 - מרכז, חלק א'",
+      "subtitle": "נציגי האליטה הקיבוצית פוגשים את נציגי הבועה התל אביבית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660709/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_l2nsvtf6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 4,
+      "name": "פרק 10 - מרכז, חלק ב'",
+      "subtitle": "ארוחות עם ניחוחות של קנאה, תחקירים כלכליים ושאלות נוקבות על זוגיות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660713/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_43kz2sc6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 4,
+      "name": "פרק 11 - ספיישל כשר, חלק א'",
+      "subtitle": "חזק חזק ונתחזק - ספיישל כשר למהדרין",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660723/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hcsq8qr4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 4,
+      "name": "פרק 12 - ספיישל כשר, חלק ב'",
+      "subtitle": "ארוחת \"כמעט שבת שלום\" בבית אל וארוחה עם מלאכים בעכו",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660725/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xh8yxmli/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 4,
+      "name": "פרק 13 - השפלה והמרכז, חלק א'",
+      "subtitle": "כשמפעל הילדים ומפעילות הילדים פגשו את האל-הוריים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660727/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ak31uo7c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 4,
+      "name": "פרק 14 - השפלה והמרכז, חלק ב'",
+      "subtitle": "צפו להפעלות ילדים מוגזמות, שיווק עצמי אגרסיבי וטיפול זוגי כפוי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660730/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v8lgn1sh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 4,
+      "name": "פרק 15 - תל אביב יפו, חלק א'",
+      "subtitle": "דן ומור מאמינים שאהבה זה כואב, על כל המשתמע מכך",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660733/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e37lae4y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 4,
+      "name": "פרק 16 - תל אביב יפו, חלק ב'",
+      "subtitle": "מה זה אומר להיות נורמלי? ולמה זה חשוב?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s4/660736/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fv1yr23a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s4-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s4-ep16.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 5,
+      "name": "פרק 1 - השרון חלק א'",
+      "subtitle": "ערב ראשון בשרון, אייל מארח בדירת המעוצבת ובני ציפר נחשף",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/132999/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ujm3avm0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 5,
+      "name": "פרק 2 - השרון חלק ב'",
+      "subtitle": "ליאת מארחת ומנפצת סטיגמות ובני ואייל ממשיכים ללחוץ אחד לשני על נקודות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133002/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ialxn8dz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 5,
+      "name": "פרק 3 - השרון חלק ג'",
+      "subtitle": "בני ציפר מגיש ארוחה תורכית ומתהדר בסטנדרטים המתאימים לנתניהוז",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133004/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_teet87ik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 5,
+      "name": "פרק 4 - השרון חלק ד'",
+      "subtitle": "גילי מארחת בהקפדה בביתה בקיבוץ, במטרה לכבוש את המקום הראשון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133006/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pq1hxou5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 5,
+      "name": "פרק 5 - השרון חלק ה'",
+      "subtitle": "ירון מארח וחולק עם האורחים את אמונתו במפלצת הפסטה. האם יעזור לו לנצח?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133009/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_n49jttzy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 5,
+      "name": "פרק 6 - תל אביב-יפו חלק א'",
+      "subtitle": "אושרית, פעילה נגד המסתננים בת\"א, מארחת את קייסי, בת למהגרים פיליפינים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133289/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pebg971m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 5,
+      "name": "פרק 7 - תל אביב-יפו חלק ב'",
+      "subtitle": "ירון מארח בפאר בקומה ה-37, אבל לא כולם מוכנים לנסות טעמים חדשים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133292/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5huhrraq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 5,
+      "name": "פרק 8 - תל אביב-יפו חלק ג'",
+      "subtitle": "הדס מנסה לנצח בעזרת קסם אישי, האם האורחים יפלו לרשתה?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133679/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ped8k6t8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 5,
+      "name": "פרק 9 - תל אביב-יפו חלק ד'",
+      "subtitle": "גיא משקיע מכל הלב באירוח, אבל שיחות על החיים יוצאות מכלל שליטה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133682/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_s4ud2fhu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 5,
+      "name": "פרק 10 - תל אביב-יפו חלק ה'",
+      "subtitle": "קייסי מארחת בדירתה והאורחים מופעים מהמיקום ומצדדים באישיותה שנחשפים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/133700/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rhrkhygk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 5,
+      "name": "פרק 11 - צפון חלק א'",
+      "subtitle": "חנה בחצור הגלילית, מכינה חפלה מרוקאית. מי יאכל ומי יאכל את הראש?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134067/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yulzx92m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 5,
+      "name": "פרק 12 - צפון חלק ב'",
+      "subtitle": "עימראן מכפר בועאנה נוג'ידאת מפתיע את האורחים עם ארוחה איטלקית מסורתית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134070/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cv27ad0n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 5,
+      "name": "פרק 13 - צפון חלק ג'",
+      "subtitle": "האם שרין הצעירה הצעירה מעפולה תצליח לנצח את חנה בסעודה מהמטבח המרוקאי?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134162/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_iv9a9uct/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 5,
+      "name": "פרק 14 - צפון חלק ד'",
+      "subtitle": "איך יתמודדו האורחים עם סגנונו נטול היומרה (והמפה) של אריאל מעין יעקב?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134165/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_feza89mb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 5,
+      "name": "פרק 15 - צפון חלק ה'",
+      "subtitle": "הדו קרב בין חנה לינה מגיע לשיאו במגדלי פנורמה, בערב האחרון בשבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134167/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_oiskfjrf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 5,
+      "name": "פרק 16 - דרום חלק א'",
+      "subtitle": "בערב פתיחת שבוע דרום מאחרת קציעה, היועצת מינית, שמגישה מנות וגם טיפים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134169/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xzgmk0wf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 5,
+      "name": "פרק 17 - דרום חלק ב'",
+      "subtitle": "איב התחרותי, מארח את החבורה בדירת הרווקים, שמיצדם מתרכזים בהיותו רווק",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134171/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ihyqiowf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 5,
+      "name": "פרק 18 - דרום חלק ג'",
+      "subtitle": "ארוחה בייתית נינוחה בבית של אביגיל הופכת לשדה קרב, לאחר תקרית מביכה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134173/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qduyvd7b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 5,
+      "name": "פרק 19 - דרום חלק ד'",
+      "subtitle": "האורחים מגיעים מלאי ציפייה לממלכת השיק של תאיר בב\"ש לארוחה בלתי נשכחת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134175/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_973bsr1i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 5,
+      "name": "פרק 20 - דרום חלק ה'",
+      "subtitle": "איגור מארח לערב אחרון מלא אלכוהול. האם תאיר וקציעה ישלימו ומי ינצח?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134177/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8w7yi8fx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 5,
+      "name": "פרק 21 - חיפה והקריות חלק א'",
+      "subtitle": "הארוחה הראשונה בשבוע חיפה והקריות מתגלה כערב רווקים רווקות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134179/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hej6g43c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 5,
+      "name": "פרק 22 - חיפה והקריות חלק ב'",
+      "subtitle": "ענבל מארחת בביתה בכרמל לערב של אלכוהול וסטיגמות על שים, גברים וזוגיות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134181/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r5vyhknf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 5,
+      "name": "פרק 23 - חיפה והקריות חלק ג'",
+      "subtitle": "האורחים מגיעים לאלכס ומופעים שעדיין גר עם ההורים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134183/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yzeyixpr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 5,
+      "name": "פרק 24 - חיפה והקריות חלק ד'",
+      "subtitle": "אורן מארח בדירת החדר שלו לערב של התגוששות מילולית ופיזית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134185/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zl8r4i2k/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 5,
+      "name": "פרק 25 - חיפה והקריות חלק ה'",
+      "subtitle": "בביתה של ספאא בדלית אל כרמל, אלכס מגלה שהוא לא היחיד שגר עם ההורים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s5/134187/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_meiy1rqt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s5-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s5-ep25.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 6,
+      "name": "פרק 1 - צפון, יום א'",
+      "subtitle": "ערב ראשון בצפון. אורפז משקיעה מאוד באורחיה, אך האם הם יעריכו את הטרחה?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148385/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zrnayk92/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 6,
+      "name": "פרק 2 - צפון, יום ב'",
+      "subtitle": "יום שני לתחרות והאורחים מגלים צדדים חדשים שלא הכירו בעודד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148388/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mgt5o2i7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 6,
+      "name": "פרק 3 - צפון, יום ג'",
+      "subtitle": "ממטבח קטן בנהריה, שחר הבלוגר מגיש ארוחה גדולה ועונה לשאלות על זוגיות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148391/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vpcc9x7b/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 6,
+      "name": "פרק 4 - צפון, יום ד'",
+      "subtitle": "שמרי מחליט להכין מנות חדשות בפעם הראשונה ומכיר לאורחים את קערת הקריסטל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148457/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uob2xny5/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 6,
+      "name": "פרק 5 - צפון, יום ה'",
+      "subtitle": "בפרק סיום השבוע בבית הצבעוני של חני, תיקו מפתיע ועניינים אישיים נחשפים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148460/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uzq1fhpn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 6,
+      "name": "פרק 6 - דרום, יום א'",
+      "subtitle": "בדרום, קרין המארחת מנסה להראות שהיא נסיכה ובשלנית. האם האורחים יסכימו?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_migv1q50/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 6,
+      "name": "פרק 7 - דרום, יום ב'",
+      "subtitle": "סופיה מגישה מנות גיאורגיות, בליווי ריקוד מפתיע ודיון על דת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148559/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4cnyd0z6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 6,
+      "name": "פרק 8 - דרום, יום ג'",
+      "subtitle": "עוד ערב גיאורגי, הפעם אצל אילנה. איך תגיב לשיחות הבוטות?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a2ecqd2q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 6,
+      "name": "פרק 9 - דרום, יום ד'",
+      "subtitle": "עודד מארח את החבורה בדירת השותפים בב\"ש, איך יגיב כשתוכניותיו ישתבשו?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148565/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ieov6hbv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 6,
+      "name": "פרק 10 - דרום, יום ה'",
+      "subtitle": "רוני לוקח את אורחיו ל\"טיול\" בפרו ארץ מולדתו. האם הוא ינצח בשבוע הדרום?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148568/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9unc5sho/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 6,
+      "name": "פרק 11 - ירושלים, יום א'",
+      "subtitle": "בפתיחת שבוע ירושלים, פיני הקרניבור מארח חבורה ירושלמית הטרוגנית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148994/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y7vcyz4a/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 6,
+      "name": "פרק 12 - ירושלים, יום ב'",
+      "subtitle": "ברוריה האומנית משלבת באירוח סיפור חיים, קודש וחול",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/148997/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_muvy2t20/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 6,
+      "name": "פרק 13 - ירושלים, יום ג'",
+      "subtitle": "אריק חוגג טבעוני, הפתעה קרובה והיסטוריה ירושלמית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149000/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tprg4jg4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 6,
+      "name": "פרק 14 - ירושלים, יום ד'",
+      "subtitle": "שלם מארח בארמונו לארוחה וסיפור חיים מפתיעים ומרתקים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149012/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u0xqj9zu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 6,
+      "name": "פרק 15 - ירושלים, יום ה'",
+      "subtitle": "יעל סוגרת עם מנה מפתיעה, והמנצח של ירושלים נקבע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149015/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bzfvlnsi/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 6,
+      "name": "פרק 16 - דן ושומרון, יום א'",
+      "subtitle": "בואו לאכול איתי באזור המרכז, שעה מכל פקק. הפעם, מודי מבת ים יארח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149369/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2dit0dto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 6,
+      "name": "פרק 17 - דן ושומרון, יום ב'",
+      "subtitle": "היום תגיע החבורה ברכב משוריין לעמיחי. שם תארח נערת הגבעות רבקה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149372/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o88cxld1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 6,
+      "name": "פרק 18 - דן ושומרון, יום ג'",
+      "subtitle": "האורחים ניהנים בארוחה המקסיקנית של שרון עד ששאלה אחת מבעירה את השולחן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149375/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2lx3p9mc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 6,
+      "name": "פרק 19 - דן ושומרון, יום ד'",
+      "subtitle": "גאלה מארחת בביתה הצבעוני והמיוחד, והאורחים לומדים על טינדר דתי וחילוני",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149378/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8egf2z48/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 6,
+      "name": "פרק 20 - דן ושומרון, יום ה'",
+      "subtitle": "עומר מאלקנה, שהצהיר שבא לנצח, סוגר את השבוע. האם יעמוד באתגר שהציב?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149381/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cp2amlni/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 6,
+      "name": "פרק 21 - מרכז, יום א'",
+      "subtitle": "המתקשרת והיוצרת יהודית מארחת בדירתה המסקרנת את הערב הראשון בשבוע המרכז",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149792/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_glrzojai/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 6,
+      "name": "פרק 22 - מרכז, יום ב'",
+      "subtitle": "אלה תארח בדירת השותפים התל אביבית. האםהבורה תתחבר לאוכל וגם אחד לשני?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149795/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qcr6phdk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 6,
+      "name": "פרק 23 - מרכז, יום ג'",
+      "subtitle": "סיוון מגישה במגדל ארוחה עשירה במיוחד והופעה מפתיעה, אך לא כולם מתרשמים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149798/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_yv7iztxt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 6,
+      "name": "פרק 24 - מרכז, יום ד'",
+      "subtitle": "כוכב הרשת אביעד וחתוליו מארחים את סיוון ויהודית שעסוקות בלסגור חשבון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149801/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w5nmf87l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 6,
+      "name": "פרק 25 - מרכז 5",
+      "subtitle": "ארוחת פארם טו טייבל מושקעת אצל גל עם גילויים עסיסיים ומנצח/ת השבוע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/149804/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gb9gy0j3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep25.jpg"
+    },
+    {
+      "ep": 26,
+      "season": 6,
+      "name": "פרק 26 - כרמל, יום א'",
+      "subtitle": "פגישה ראשונה בבית הלא שגרתי של מורן לארוחה מרוקאית-רומנית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150023/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_24mreiuw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep26.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep26.jpg"
+    },
+    {
+      "ep": 27,
+      "season": 6,
+      "name": "פרק 27 - כרמל, יום ב'",
+      "subtitle": "פאדי איש התקשורת מארח בביתו ומשתף בפרטים שלא כולם שמחים לשמוע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150026/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xm8em9tq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep27.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep27.jpg"
+    },
+    {
+      "ep": 28,
+      "season": 6,
+      "name": "פרק 28 - כרמל, יום ג'",
+      "subtitle": "ארוחה ביתית מרוקאית ואינטימית אצל מעיין החילונית-מסורתית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150029/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dpuvd0y3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep28.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep28.jpg"
+    },
+    {
+      "ep": 29,
+      "season": 6,
+      "name": "פרק 29 - כרמל, יום ד'",
+      "subtitle": "ערב קופצני ואנרגטי אצל דנה בחיפה, עם שאלות מציקות ובידור טלפתי מפתיע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150035/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9gciezsn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep29.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep29.jpg"
+    },
+    {
+      "ep": 30,
+      "season": 6,
+      "name": "פרק 30 - כרמל, יום ה'",
+      "subtitle": "הערב תצפין החבורה לאירוח חגיגי במיוחד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s6/150032/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bx5untes/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s6-ep30.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s6-ep30.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 8,
+      "name": "פרק 1 - שבוע צפון, יום א'",
+      "subtitle": "אז אצל מי באים לאכול? את התחרות פותחת ענבל המורה מחיפה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756427/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bhh22ujv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 8,
+      "name": "פרק 2 - שבוע צפון, יום ב'",
+      "subtitle": "ביום השני לתחרות מארחת מעיין, מסדרת ארונות מקצועית וסטייליסטית מיקנעם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756433/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pkd55cik/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 8,
+      "name": "פרק 3 - שבוע צפון, יום ג'",
+      "subtitle": "את היום השלישי לתחרות מארח אחיה, לוחם חופש מהיישוב האקולוגי רותם",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756436/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4z05eubp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 8,
+      "name": "פרק 4 - שבוע צפון, יום ד'",
+      "subtitle": "ביום הרביעי לתחרות החבורה חוזרת לחיפה ומתארחת הפעם אצל איתמר ההייטקיסט",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756441/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b1jzsc4y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 8,
+      "name": "פרק 5 - שבוע צפון, יום ה'",
+      "subtitle": "בפרק אחרון לשבוע צפון מארחת דנה כהן הלוי, המתקשרת מהמושבה מגדל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/756445/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fcr5wabn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 8,
+      "name": "פרק 6 - שבוע ירושלים, יום א'",
+      "subtitle": "שבוע ירושלים נפתח אצל לבנה שיפמן עם ארוחה טבעונית מפתיעה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755812/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3mbogv69/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 8,
+      "name": "פרק 7 - שבוע ירושלים, יום ב'",
+      "subtitle": "ביום השני לשבוע ירושלים תארח יפה חסידים לארוחה עיראקית באווירה משפחתית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755829/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qwys5j3u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 8,
+      "name": "פרק 8 - שבוע ירושלים, יום ג'",
+      "subtitle": "ביום השלישי לתחרות יארח יוסל'ה, ספר נשים ביום ודראגיסט בלילה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755830/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_96fmr8nq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 8,
+      "name": "פרק 9 - שבוע ירושלים, יום ד'",
+      "subtitle": "ביום הרביעי לשבוע ירושלים תארח קארי - ציונית חרדית ואושיית טיקטוק",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755846/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vsop39ew/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 8,
+      "name": "פרק 10 - שבוע ירושלים, יום ה'",
+      "subtitle": "ביום האחרון לתחרות יארח יהונתן מנטף לארוחה אורגנית. מי יהיה הזוכה?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/755847/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hcnd83q6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 8,
+      "name": "פרק 11 - שבוע דרום, יום א'",
+      "subtitle": "יום ראשון של שבוע חדש בתחרות האוכל והבישול",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773506/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wuu8yb90/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 8,
+      "name": "פרק 12 - שבוע דרום, יום ב'",
+      "subtitle": "הערב תארח חן, עירונית בנשמה עם אוכל אסייתי ושיחה סוערת על סטיגמות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773504/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_u6hpdkm6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 8,
+      "name": "פרק 13 - שבוע דרום, יום ג'",
+      "subtitle": "היום השלישי לתחרות הבישול באזור הדרום עם אירוח של משה, אשקלוני גאה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773350/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d3f6veyf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 8,
+      "name": "פרק 14 - שבוע דרום, יום ד'",
+      "subtitle": "הערב מארח עמרי עם תפריט צמחוני, ומשה מגיע סקרן במיוחד לארוחה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773355/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_be60t2fd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 8,
+      "name": "פרק 15 - שבוע דרום, יום ה'",
+      "subtitle": "זה היום האחרון לתחרות בשבוע הדרום עם אירוח ריטה, עולה משוודיה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/773508/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zekfjmbh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 8,
+      "name": "פרק 16 - שבוע מרכז, יום א'",
+      "subtitle": "שבוע מרכז נפתח בארוחה מרוקאית מסורתית אצל המארחת אילנה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765518/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ziop4g8c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 8,
+      "name": "פרק 17 - שבוע מרכז, יום ב'",
+      "subtitle": "ביום השני לתחרות החבורה תגיע לירון מגבעתיים שיארח לארוחה אירופאית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765535/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q010f67e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 8,
+      "name": "פרק 18 - שבוע מרכז, יום ג'",
+      "subtitle": "ביום השלישי החבורה תגיע לעמנואל, מורה לתנ\"ך וסולן להקה מדרום תל אביב",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765562/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e3vlqkg3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 8,
+      "name": "פרק 19 - שבוע מרכז, יום ד'",
+      "subtitle": "ביום הרביעי לתחרות החבורה מגיעה לנירית מצפון תל אביב לארוחה איטלקית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765570/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_73to2erv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 8,
+      "name": "פרק 20 - שבוע מרכז, יום ה'",
+      "subtitle": "ביום האחרון לשבוע מרכז החבורה מגיעה לערב פויקה בשטח אצל גל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/765579/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_52e8opip/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 8,
+      "name": "פרק 21 - שבוע מישור החוף, יום א'",
+      "subtitle": "שבוע מישור החוף נפתח באירוח המשפחתי של עדן כהן מנתניה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/759162/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tqom13ar/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 8,
+      "name": "פרק 22 - שבוע מישור החוף, יום ב'",
+      "subtitle": "ביום השני לתחרות החבורה תגיע לאירוח חוויתי אצל לואר בת הים מאחיטוב",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760550/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_4x4zrwv7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 8,
+      "name": "פרק 23 - שבוע מישור החוף, יום ג'",
+      "subtitle": "ביום השלישי לתחרות החבורה תתארח בחדרה אצל אייל הגבר שלא רוצה להתבגר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760551/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c9iuhtj3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 8,
+      "name": "פרק 24 - שבוע מישור החוף, יום ד'",
+      "subtitle": "ביום הרביעי לתחרות יארח אדי בן סימון בסגנון קלאס עם מאמץ",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760553/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dn867d51/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 8,
+      "name": "פרק 25 - שבוע מישור החוף, יום ה'",
+      "subtitle": "ביום האחרון לתחרות תארח את החבורה לינוי דסה מפתח תקווה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/760556/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6cmm9uu0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep25.jpg"
+    },
+    {
+      "ep": 26,
+      "season": 8,
+      "name": "חלק א - סמדי (בומבה) וקנין",
+      "subtitle": "ביום הראשון לתחרות תארח סמדי (בומבה) וקנין את שאר המתמודדים בביתה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/879728/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fvifnrf1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep26.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep26.jpg"
+    },
+    {
+      "ep": 27,
+      "season": 8,
+      "name": "חלק ב - ניסן שור",
+      "subtitle": "ביום השני לתחרות יארח מבקר המסעדות \"ביצה עלומה\" הלא הוא ניסן שור",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/880086/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0w1qjtz6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep27.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep27.jpg"
+    },
+    {
+      "ep": 28,
+      "season": 8,
+      "name": "חלק ג - נועה לוי",
+      "subtitle": "ביום השלישי תגיע החבורה אל נועה, שפית מתל אביב, לארוחה חגיגית ותוססת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/880097/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_d3ncauwc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep28.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep28.jpg"
+    },
+    {
+      "ep": 29,
+      "season": 8,
+      "name": "חלק ד - שחף שבתאי",
+      "subtitle": "ביום הרביעי יארח שחף, שף בעל שם בין לאומי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/880100/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5pdxfbyo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep29.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep29.jpg"
+    },
+    {
+      "ep": 30,
+      "season": 8,
+      "name": "פרק 30",
+      "subtitle": "חלק ה - גל זהבי בערב החמישי והאחרון יארח יוצר התוכן גל זהבי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s8/880103/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9s4i0dii/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s8-ep30.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s8-ep30.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 9,
+      "name": "פרק 1 - שבוע דרום, יום א'",
+      "subtitle": "את התחרות בשבוע הראשון באזור הדרום פותחת קמילה, מעצבת פנים מבאר שבע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922427/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_e7xqikb0/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 9,
+      "name": "פרק 2 - שבוע דרום, יום ב'",
+      "subtitle": "הערב תתארח החבורה בטברנה היוונית של יובל. יאסו!",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922430/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zufe4e5l/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 9,
+      "name": "פרק 3 - שבוע דרום, יום ג'",
+      "subtitle": "היום השלישי לתחרות האירוח והבישול בדרום, הערב מארחת ירדן מבאר שבע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922431/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_dsnjx3va/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 9,
+      "name": "פרק 4 - שבוע דרום, יום ד'",
+      "subtitle": "היום הרביעי בתחרות באזור הדרום, והיום תארח שירה מאשקלון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922432/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_1aunwvwb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 9,
+      "name": "פרק 5 - שבוע דרום, יום ה'",
+      "subtitle": "בערב האחרון לשבוע באזור הדרום, החבורה תבלה בירוחם אצל עודד הפירותני",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922433/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q6zzhc1h/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 9,
+      "name": "פרק 6 - שבוע ירושלים, יום א'",
+      "subtitle": "את היום הראשון של התחרות באזור ירושלים, יבלו המשתתפים בישוב מטע",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/927070/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_niw2pf3r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 9,
+      "name": "פרק 7 - שבוע ירושלים, יום ב'",
+      "subtitle": "הערב מארחות כרמית והבינה המלאכותית במודיעין",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922442/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ylm12pcn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 9,
+      "name": "פרק 8 - שבוע ירושלים, יום ג'",
+      "subtitle": "הערב יגיעו האורחים לירושלים לחוויה רוחנית אצל רוני המתקשרת",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929726/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nu5taj4v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 9,
+      "name": "פרק 9 - שבוע ירושלים, יום ד'",
+      "subtitle": "היום הרביעי לתחרות באזור ירושלים, והפעם האורחים בצור הדסה בערב מהאגדות",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929730/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_65l3ursv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 9,
+      "name": "פרק 10 - שבוע ירושלים, יום ה'",
+      "subtitle": "את הערב האחרון לתחרות באזור ירושלים תבלה החבורה במוזיאון של דלילה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/929733/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0wen0y1j/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 9,
+      "name": "פרק 11 - שבוע תל אביב, יום א'",
+      "subtitle": "את היום הראשון של תחרות הבישול והאירוח באזור תל אביב יפתח זהר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922439/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6j7axklg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 9,
+      "name": "פרק 12 - שבוע תל אביב, יום ב'",
+      "subtitle": "היום השני של התחרות באזור תל-אביב והערב מארחת יעל, משפיענית מבני ברק",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/931424/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3kha4cqj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 9,
+      "name": "פרק 13 - שבוע תל אביב, יום ג'",
+      "subtitle": "היום השלישי לתחרות בתל אביב והערב מגיעים כולם לבית של חנצ'ה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922444/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fhtt9cis/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 9,
+      "name": "פרק 14 - שבוע תל אביב, יום ד'",
+      "subtitle": "היום הרביעי לתחרות באזור תל אביב, וכולם מוזמנים לצהרון של אתי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922446/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8vgn5zww/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 9,
+      "name": "פרק 15 - שבוע תל אביב, יום ה'",
+      "subtitle": "הערב האחרון לתחרות באזור תל אביב הוא ערב חגיגי בסגנון מצרי אצל לינור",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/922447/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3nehm7dk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 9,
+      "name": "פרק 16 - שבוע השרון והכרמל, יום א'",
+      "subtitle": "הערב תיפגש החבורה בבית של זוכת מדליית הזהב בתחרות הפאראטריאתלון אילנית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933385/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_zvlfdljb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 9,
+      "name": "פרק 17 - שבוע השרון והכרמל, יום ב'",
+      "subtitle": "זה היום השני לתחרות הבישול והאירוח באזור השרון והכרמל, היום תארח קארין",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/934395/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kdircrx1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 9,
+      "name": "פרק 18 - שבוע השרון והכרמל, יום ג'",
+      "subtitle": "היום השלישי לתחרות והערב יגיעו האורחים לאשרם של אורי בדלית אל כרמל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933389/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8myfweto/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 9,
+      "name": "פרק 19 - שבוע השרון והכרמל, יום ד'",
+      "subtitle": "יום רביעי בתחרות הבישול באזור השרון והכרמל, היום מארחת מאיה בקציר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933745/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o0pvvvwj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 9,
+      "name": "פרק 20 - שבוע השרון והכרמל, יום ה'",
+      "subtitle": "החבורה מבלה אצל אביתר מחדרה בערב האחרון לתחרות באזור השרון והכרמל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/933747/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xhniczdw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 9,
+      "name": "פרק 21 - שבוע חיפה, יום א'",
+      "subtitle": "את השבוע הראשון לתחרות באזור חיפה פותחת אבנית בלוגרית טיולים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937788/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0hu13r1m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 9,
+      "name": "פרק 22 - שבוע חיפה, יום ב'",
+      "subtitle": "אליאס מואדי ניסנאס יארח לארוחת כריסמס חגיגית במיוחד",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937791/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_xdalfbok/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 9,
+      "name": "פרק 23 - שבוע חיפה, יום ג'",
+      "subtitle": "הערב דניאלה תעביר את האורחים מסע רוחני",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/937793/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_3cn5fjhb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 9,
+      "name": "פרק 24 - שבוע חיפה, יום ד'",
+      "subtitle": "יום רביעי בתחרות באזור חיפה ומהמארח היום הוא טל, איש חיי הלילה מנשר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939929/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j9qtgjlo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 9,
+      "name": "פרק 25 - שבוע חיפה, יום ה'",
+      "subtitle": "פרק אחרון באזור חיפה: הפעם תארח עדי, בעלת סטודיו לריקוד מקרית אתא",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s9/939930/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8klffr73/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s9-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s9-ep25.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 10,
+      "name": "פרק 1 - שבוע ירושלים, יום א'",
+      "subtitle": "היום הראשון לתחרות בעיר הבירה: הכירו את רועי, אדם, יגאל, חיה וניקול",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059625/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2214986/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 10,
+      "name": "פרק 2 - שבוע ירושלים, יום ב'",
+      "subtitle": "זה היום השני לתחרות הבישול באזור ירושלים והערב מארח אדם מנווה דניאל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059627/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2214987/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 10,
+      "name": "פרק 3 - שבוע ירושלים, יום ג'",
+      "subtitle": "מה גרם ליגאל להפסיק לספר בדיחות והאם האהבה פורחת?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059652/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215013/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 10,
+      "name": "פרק 4 - שבוע ירושלים, יום ד'",
+      "subtitle": "החבורה מגיעה לארוחה אפריקאית בביתה של חיה. מה כל כך ריגש את אדם?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059629/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2214993/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 10,
+      "name": "פרק 5 - שבוע ירושלים, יום ה'",
+      "subtitle": "יום אחרון לתחרות באזור ירושלים והערב תארח ניקול. מי המנצח של התחרות?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1059645/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215008/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 10,
+      "name": "פרק 6 - שבוע שפלה, יום א'",
+      "subtitle": "ביום הראשון לתחרות באזור השפלה תארח איריס, מעבירה ערבי הפרשות חלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061353/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215941/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 10,
+      "name": "פרק 7 - שבוע שפלה, יום ב'",
+      "subtitle": "ברוכים הבאים למוזיאון של יריב. מה חשבו האורחים על הבית?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061354/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215942/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 10,
+      "name": "פרק 8 - שבוע שפלה, יום ג'",
+      "subtitle": "החבורה מגיעה לארוחה יפנית בבית של ליהי. האם כולם התחברו לטעמים היפנים?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1061355/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2215943/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 10,
+      "name": "פרק 9 - שבוע שפלה, יום ד'",
+      "subtitle": "הפעם האורחים יגיעו לביקור אצל זהר, הערב נגלה - למה ליהי לא רוצה ילדים?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073273/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2223042/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 10,
+      "name": "פרק 10 - שבוע שפלה, יום ה'",
+      "subtitle": "היום האחרון לתחרות באזור השפלה, מה חשבו האורחים על הבית של דניאל?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1073279/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2223043/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 10,
+      "name": "פרק 11 - שבוע צפון, יום א'",
+      "subtitle": "היום הראשון לתחרות באזור הצפון, הפעם תארח - עליזה, ליצנית רפואית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077371/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226083/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 10,
+      "name": "פרק 12 - שבוע צפון, יום ב'",
+      "subtitle": "ביום השני לתחרות מוזמנים האורחים למסיבת יום ההולדת של רוני",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077372/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226084/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 10,
+      "name": "פרק 13 - שבוע צפון, יום ג'",
+      "subtitle": "ביום השלישי לתחרות הגיעו האורחים לביתו של אבינעם בכליל לארוחה טבעונית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077373/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226085/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 10,
+      "name": "פרק 14 - שבוע צפון, יום ד'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077374/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226086/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 10,
+      "name": "פרק 15 - שבוע צפון, יום ה'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077375/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226087/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 10,
+      "name": "פרק 16 - שבוע אילת, יום א'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077378/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226088/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 10,
+      "name": "פרק 17 - שבוע אילת, יום ב'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077379/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226089/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 10,
+      "name": "פרק 18 - שבוע אילת, יום ג'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077380/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226090/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 10,
+      "name": "פרק 19 - שבוע אילת, יום ד'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077381/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226091/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 10,
+      "name": "פרק 20 - שבוע אילת, יום ה'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077382/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226092/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 10,
+      "name": "פרק 21 - שבוע מרכז, יום א'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077384/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226093/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 10,
+      "name": "פרק 22 - שבוע מרכז, יום ב'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077385/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226094/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 10,
+      "name": "פרק 23 - שבוע מרכז, יום ג'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077387/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226095/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 10,
+      "name": "פרק 24 - שבוע מרכז, יום ד'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077389/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226096/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 10,
+      "name": "פרק 25 - שבוע מרכז, יום ה'",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s12/1077390/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2226097/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s10-ep25.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 11,
+      "name": "שבוע ירושלים - רועי",
+      "subtitle": "הכירו את רועי, המארח הראשון בשבוע ירושלים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079191/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227562/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 11,
+      "name": "שבוע ירושלים - אדם",
+      "subtitle": "הכירו את אדם, המארח השני בשבוע ירושלים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079174/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227563/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 11,
+      "name": "שבוע ירושלים - יגאל",
+      "subtitle": "הכירו את יגאל, המארח השלישי בשבוע ירושלים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079175/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227564/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 11,
+      "name": "שבוע ירושלים - חיה",
+      "subtitle": "הכירו את חיה, המארחת הרביעי בשבוע ירושלים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079192/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227565/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 11,
+      "name": "שבוע ירושלים - ניקול",
+      "subtitle": "הכירו את ניקול, המארחת החמישית והאחרונה של שבוע ירושלים",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079177/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227566/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 11,
+      "name": "שבוע השפלה - איריס",
+      "subtitle": "הכירו את איריס, המארחת הראשונה בשבוע השפלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079178/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227567/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 11,
+      "name": "שבוע השפלה - יריב",
+      "subtitle": "הכירו את יריב, המארח השני בשבוע השפלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079179/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227568/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 11,
+      "name": "שבוע השפלה - ליהי",
+      "subtitle": "הכירו את ליהי, המארחת השלישית בשבוע השפלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079180/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227569/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 11,
+      "name": "שבוע השפלה - זוהר",
+      "subtitle": "הכירו את זוהר, המארחת הרביעית בשבוע השפלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079176/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227570/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 11,
+      "name": "שבוע השפלה - דניאל",
+      "subtitle": "הכירו את דניאל, המארח החמישי והאחרון של שבוע השפלה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079193/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227571/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 11,
+      "name": "שבוע צפון - עליזה",
+      "subtitle": "הכירו את עליזה, המארחת הראשונה של שבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079182/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227572/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 11,
+      "name": "שבוע הצפון - מירן",
+      "subtitle": "הכירו את מירן, המארחת השניה של שבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079183/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227573/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 11,
+      "name": "שבוע צפון - רוני",
+      "subtitle": "הכירו את רוני, המארחת השלישית של שבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079185/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227574/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 11,
+      "name": "שבוע צפון - אבינעם",
+      "subtitle": "הכירו את אבינעם, המארח הרביעי של שבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079186/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227575/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 11,
+      "name": "שבוע צפון - אלירן",
+      "subtitle": "הכירו את אלירן, המארח החמישי והאחרון של שבוע הצפון",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079188/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227576/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 11,
+      "name": "שבוע אילת - יערית",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079189/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227577/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 11,
+      "name": "שבוע אילת - דרור",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079190/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227578/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 11,
+      "name": "שבוע אילת - בילי",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079201/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227579/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 11,
+      "name": "שבוע אילת - שלומי",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079202/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227580/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep19.jpg"
+    },
+    {
+      "ep": 20,
+      "season": 11,
+      "name": "שבוע אילת - בני",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1079205/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2227581/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep20.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep20.jpg"
+    },
+    {
+      "ep": 21,
+      "season": 11,
+      "name": "שבוע מרכז - תום",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1087549/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234387/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep21.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep21.jpg"
+    },
+    {
+      "ep": 22,
+      "season": 11,
+      "name": "שבוע מרכז - איבאא",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1087551/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234388/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep22.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep22.jpg"
+    },
+    {
+      "ep": 23,
+      "season": 11,
+      "name": "שבוע מרכז - אושרית",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1087552/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234389/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep23.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep23.jpg"
+    },
+    {
+      "ep": 24,
+      "season": 11,
+      "name": "שבוע מרכז - ליאת",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1087553/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234390/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep24.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep24.jpg"
+    },
+    {
+      "ep": 25,
+      "season": 11,
+      "name": "שבוע מרכז - דימה",
+      "subtitle": "",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s11/1087554/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2234391/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s11-ep25.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s11-ep25.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 810,
+      "name": "חלק א' - טל רשבסקי",
+      "subtitle": "ליל הסדר הראשון, והערב מארח טל רשבסקי, הידוע בכינויו \"הפסטה נאצי\"",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1020198/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184202/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s810-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 810,
+      "name": "חלק ב' - לילי בן שלום",
+      "subtitle": "ליל סדר שני, והפעם חוויה גאורגית מסורתית אצל לילי בן שלום",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021488/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184205/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s810-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 810,
+      "name": "חלק ג' - בנצי ארבל",
+      "subtitle": "יום שלישי לתחרות הבישול והפעם סעודת חג איטלקית אצל בנצי ארבל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021499/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184209/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s810-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 810,
+      "name": "חלק ד' - יוסי שטרית",
+      "subtitle": "ארוחת חג רביעית והפעם שוברים את הפורמט בביתו של יוסי שטרית בעתלית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021533/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184216/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s810-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 810,
+      "name": "חלק ה' - חן קורן",
+      "subtitle": "פרק אחרון ושמח במיוחד - היום יגיעו האורחים לירושלים הבנויה אצל חן קורן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11843/s10/1021648/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2184249/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/bou-leechol-iti/s10-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/bou-leechol-iti/s810-ep5.jpg"
+    }
+  ]
+}

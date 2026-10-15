@@ -1,0 +1,23 @@
+{
+  "slug": "sapir-movie",
+  "title": "ספיר",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/sapir_movie",
+  "version": "5c093bf4f7e5",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 1,
+  "localPoster": "images/kanbox/sapir-movie/series.jpg",
+  "catalogPoster": "scripts/catalog/media/sapir-movie/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "ספיר כמו שלא שמעתם",
+      "subtitle": "בשנת 2021 ספיר ברמן החליטה לעשות משהו שאף אחד לא עשה מעולם, להיות השופטת הטרנסג'נדרית הראשונה בעולם. סרט דוקו שעוקב אחרי ספיר כמו שלא ראיתם",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/sapir_movie-s1/VOD-16d1e8cf5095791027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Doco/2025/Sapir_230725_VOD_kjhoi/Sapir_230725_VOD_kjhoi_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/sapir-movie/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/sapir-movie/s1-ep1.jpg"
+    }
+  ]
+}

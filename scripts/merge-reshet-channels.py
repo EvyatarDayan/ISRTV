@@ -8,6 +8,9 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CHANNELS = os.path.join(ROOT, "js", "channels.js")
 
 ORDER = [
+    "power-couple",
+    "haaretz-hamuvtachat",
+    "asenheim",
     "haramon",
     "ha-maabara",
     "wart",
@@ -24,12 +27,10 @@ ORDER = [
     "lo-lifnei-hayeladim",
     "haerev-etzel-ben",
     "magen-david-darom",
-    "asenheim",
     "patrick",
     "shnot-ha-90",
     "nevsu",
     "televizya-mehaatid",
-    "power-couple",
     "leehov-et-ana",
 ]
 
@@ -65,6 +66,7 @@ def to_entry(data: dict) -> str:
             if multi
             else f"images/kanbox/{slug}/s1-ep{ep}.jpg"
         )
+        subtitle = (e.get("subtitle") or "").strip()
         ep_title = e.get("name") or f"פרק {ep}"
         if re.match(r"^עונה\s+\d+\s+פרק\s+\d+", ep_title):
             name = ep_title
@@ -80,6 +82,7 @@ def to_entry(data: dict) -> str:
             f"                season: {season},",
             f"                ep: {ep},",
             f"                name: '{esc(name)}',",
+            *([f"                subtitle: '{esc(subtitle)}',"] if subtitle else []),
             "                streamURL: '',",
             f"                assetId: '{asset_id}',",
             "                streamResolve: 'reshet',",

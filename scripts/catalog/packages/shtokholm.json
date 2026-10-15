@@ -1,0 +1,133 @@
+{
+  "slug": "shtokholm",
+  "title": "שטוקהולם",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/",
+  "version": "5141f6c4560e",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 12,
+  "localPoster": "images/kanbox/shtokholm/series.jpg",
+  "catalogPoster": "scripts/catalog/media/shtokholm/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - זוהרה",
+      "subtitle": "זוהרה מוצאת את אבישי מת במיטתו. היא מזעיקה את חבריה, כדי להתחיל להניע את סידורי הלוויה – אלא שאז מציע יהודה רעיון: להסתיר את דבר מותו של אבישי למשך חמישה ימים, כדי לאפשר לו לזכות בפרס נובל. לאחר ויכוח הרעיון מתקבל",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87633/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0sygkyt2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - עמוס",
+      "subtitle": "עמוס וזוהרה מצליחים לפרוץ אל הדירה העולה באש ולכבותה. הוא נוסע לאוניברסיטה כדי להחליף את אבישי בפגישה חשובה עם תורמים שאבישי לא הגיע אליה, ובדרך סופג השפלות סביב מעמדו באקדמיה ויכולותיו כחוקר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87636/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_usjmhtkz/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - יהודה",
+      "subtitle": "יהודה נוסע לפגישה בצפון הארץ, עם אינטלקטואל ואיש טלוויזיה מוכר שהסכים לקרוא את ספרו ולהעיר את הערותיו. הוא משאיר את גופתו של חברו הקרוב על הרצפה בביתו, ויוצא מן הבית",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87639/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_kyp57enp/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 ואחרון - נילי",
+      "subtitle": "יוצאים למסע בעקבות הגופה. בתוך כך מגיעות לנקודת רתיחה מערכות היחסים השונות בתוך הרביעייה, ומניעים סמויים ומתחים בלתי מדוברים צפים ועולים על פני השטח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s1/87642/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_23f60iwo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s1-ep4.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - מאדם אתה ואל אדם תשוב",
+      "subtitle": "להלווייתו של אבישי מגיע גבר המציג עצמו כחבר ותיק של אבישי, שחי כבר שנים בארה\"ב. אבל סימני השאלה הולכים ומתרבים: מה מניעיו של הגבר המסתורי, ומי הוא באמת?",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112510/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_j0yj95ph/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - דגים שמנים",
+      "subtitle": "\"גרשי זומר\" - או איך שלא קוראים לו באמת – מזמין את החברים ליאכטה שלו. הארבעה מחליטים ללכת, חמושים בציוד הקלטה, כדי לנסות לרדת לחקר מניעיו ומטרתו האמיתית; ככל הנראה כספו הרב של המנוח",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112513/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_134f8w93/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - אישה עם ציצים",
+      "subtitle": "אישה עם ציצים: צוואתו של אבישי נחשפת וטורפת את כל הקלפים; יהודה מתמודד עם ההשלכות הכלכליות של גירושיו; הבעיה הרפואית של עמוס נחשפת; ואחותו של המנוח מאירה באור חדש ומפתיע את זהותו ומניעיו של גרשי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112516/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_mh0hw6c2/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - כסף וכוח",
+      "subtitle": "כסף וכוח: חוקרי המשטרה עורכים ביקור מטריד בביתה של זוהרה. גרשי זומר לוקח את כל החברים למסע נוסטלגי לטנטורה. נילי מנצלת את הטיול כדי לחזר נמרצות אחרי גרשי, שמצדו מחזר אחרי זוהרה.",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/112522/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gbkrilcx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - אפרסמון לא בשל",
+      "subtitle": "אפרסמון לא בשל: זוהרה עצורה בחשד לרצח אבישי. יהודה - החושד שלפרודתו יש מאהב חדש - מנצל את היעדרה של זוהרה כדי להתנחל בביתו של אבישי ולגור שם; עמוס מגלה שהאוניברסיטה מוציאה אותו לפנסיה כפויה",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113353/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5hq91xlh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - איש קריות",
+      "subtitle": "איש קריות: זוהרה משתחררת ממעצר לאחר שנוקתה מהחשדות בזכות גרשי. היא מנסה להתקרב אליו, אך מגלה שהיחסים בינו ובין נילי התחממו בינתיים. יהודה מרגל אחרי גרושתו, בניסיון לגלות עם מי היא מנהלת רומן",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113531/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8rhb9ozy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - גמל עם עניבה",
+      "subtitle": "רומן לוהט ניצת בין זוהרה לגרשי, והשניים נאלצים להסתיר אותו מנילי המאוהבת. עמוס מתמנה לראשות החוג. במקביל, מתרבים סימני השאלה סביב דמותו של גרשי זומר",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113766/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7nvejit/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - ספירלה של פרדוקסים",
+      "subtitle": "ספירלה של פרדוקסים: נילי מנסה להזהיר את זוהרה מפני גרשי, אך זוהרה לא שועה לאזהרותיה ויוצאת עמו למסע על גבי היאכטה שלו. נילי ויהודה מגלים פרטים חדשים ומטרידים ביחס לנסיבות מותה של אשתו של גרשי",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13291/s2/113945/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cle4pyah/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shtokholm/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/shtokholm/s2-ep8.jpg"
+    }
+  ]
+}

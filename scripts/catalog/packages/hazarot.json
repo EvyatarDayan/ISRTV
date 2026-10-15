@@ -1,0 +1,113 @@
+{
+  "slug": "hazarot",
+  "title": "חזרות",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/",
+  "version": "edbe5d9791b5",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 10,
+  "localPoster": "images/kanbox/hazarot/series.jpg",
+  "catalogPoster": "scripts/catalog/media/hazarot/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "קומדיה (לא) רומנטית על זוג יוצרי תיאטרון (נועה קולר וארז דריגס) שנאלצים לעבוד יחד לאחר משבר זוגי. אליהם מצטרפים צמד כוכבי טלוויזיה אגואיסטים (אגם רודברג ואיתי תורג'מן), שרק מסבכים את העניינים 12.11.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117923/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_817geznm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/2vof1n4p/https-kanstaticazureedgenet-download-pictures-2020-11-12-imgid-41976_aa.jpeg?width=490&height=272&v=1d97af2441a7840",
+      "catalogImage": ""
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "תומר מנסה לשכנע את איריס לעשות את הפרוייקט, למרות הפרידה. מיה ועפר מלוהקים להצגה, אבל מסרבים להשתתף, כל אחד מהסיבות שלו 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117925/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9r4v43jo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/t3ph0wko/https-kanstaticazureedgenet-download-pictures-2020-11-19-imgid-42394_aa.jpeg?width=490&height=272&v=1d97af245a31410",
+      "catalogImage": ""
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "מתחילים חזרות, אבל ברגל שמאל: הפערים בין מיה לאיריס לא ניתנים לגישור, עפר שולח לאיריס תמונה מפתיעה, והיום נגמר בפיצוץ. 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117927/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_a4d23hat/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/sl4jratd/https-kanstaticazureedgenet-download-pictures-2020-11-23-imgid-42549_aa.jpeg?width=490&height=272&v=1d97af246a2f7e0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "איריס לא באה לחזרות. עפר ומיה נכנסים לפסים אישיים מדי, ותומר נאלץ להתמודד עם הבמאי הנערץ עליו, שלקח לו את הספה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117929/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_cae13m03/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/gv3lyiji/https-kanstaticazureedgenet-download-pictures-2020-11-25-imgid-42665_aa.jpeg?width=490&height=272&v=1d97af247bc3010",
+      "catalogImage": ""
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "תומר רוצה לצאת לדייט עם עוזרת-הבמאי האוסטרי, אבל אין לו בית כדי לארח אותה. איריס מצידה מחליטה לבדוק מה קורה בטינדר ונעזרת במומחה - עפר מרציאנו. מיה מחליטה להכניס קצת דרמה לחיים שלה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117931/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pawj9j8q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/gujjgcup/https-kanstaticazureedgenet-download-pictures-2020-12-10-imgid-43487_aa.jpeg?width=490&height=272&v=1d97af248be0fb0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "שרת התרבות (גילה אלמגור) יושבת באולם, רק שאף אחד לא יודע איפה מיה גוטמן וההצגה כבר היתה אמורה להתחיל מזמן 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117933/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_tdhrfqgf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/soycdb3h/https-kanstaticazureedgenet-download-pictures-2020-12-14-imgid-43677_aa.jpeg?width=490&height=272&v=1d97af249bf7a20",
+      "catalogImage": ""
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "ורה מגיעה לראות חזרה של \"אחד פלוס אחת\", ומביאה איתה אורחים חשובים מבלי לעדכן את תומר. איריס ועפר ברומן סוער. כולם בסוף נפגשים ברחבת הריקודים בחתונה של מיה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117935/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8fuuygax/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/hjejqzlo/https-kanstaticazureedgenet-download-pictures-2020-12-21-imgid-44042_aa.jpeg?width=490&height=272&v=1d97af24af1b890",
+      "catalogImage": ""
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "subtitle": "שבוע טכני מתחיל: עליית ההצגה מתקרבת והמתח בין תומר לאיריס מגיע לשיא. עפר מגלה גילוי מפתיע, ומיה מחליטה להתגרות בגורל 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117937/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jcbzlusy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/e0qhaqxt/https-kanstaticazureedgenet-download-pictures-2020-12-28-imgid-44406_aa.jpeg?width=490&height=272&v=1d97af24c1fd850",
+      "catalogImage": ""
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9",
+      "subtitle": "איריס ותומר הולכים לגישור לאחר שהוא מאיים בצו מניעה על עליית ההצגה. בינתיים החזרות עם הבמאי המחליף ממשיכות, כשעפר מגיע לתחתית ומיה רק רוצה להיות שחקנית טובה יותר 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117939/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_88m2sqqg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/j3hf2y2m/https-kanstaticazureedgenet-download-pictures-2021-1-4-imgid-44844_aa.jpeg?width=490&height=272&v=1d97af24d1a8c00",
+      "catalogImage": ""
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק אחרון לעונה",
+      "subtitle": "הגיע יום הפרמיירה - ההצגה עולה. האם תומר יגיע? האם עפר יתמודד עם הלחץ? האם מיה סוף סוף תעשה תפקיד ראשי? כך או אחרת, תיכף המסך עולה 26.05.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13081/s1/117942/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7yuptbxr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/3cljpetk/https-kanstaticazureedgenet-download-pictures-2022-10-16-imgid-83427_aa.jpeg?width=490&height=272&v=1d97af24e184cf0",
+      "catalogImage": ""
+    }
+  ]
+}

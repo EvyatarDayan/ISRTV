@@ -1,0 +1,23 @@
+{
+  "slug": "the-new-rich",
+  "title": "העשירים החדשים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_new_rich-s1",
+  "version": "6c0f8dbf8a29",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 1,
+  "localPoster": "images/kanbox/the-new-rich/series.jpg",
+  "catalogPoster": "scripts/catalog/media/the-new-rich/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "העשירים החדשים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_new_rich-s1/VOD-e600a8300d63081026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Doco_Keshet/2022/April/Doco_keshet_250422_haashirim_VOD_gsk752/Doco_keshet_250422_haashirim_VOD_gsk752_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-new-rich/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/the-new-rich/s1-ep1.jpg"
+    }
+  ]
+}

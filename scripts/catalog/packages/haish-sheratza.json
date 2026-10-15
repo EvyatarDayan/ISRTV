@@ -1,0 +1,93 @@
+{
+  "slug": "haish-sheratza",
+  "title": "האיש שרצה לדעת הכול",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/",
+  "version": "597a4a92a803",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/haish-sheratza/series.jpg",
+  "catalogPoster": "scripts/catalog/media/haish-sheratza/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "דרמה בלשית חדשה המבוססת על ספרו של דרור משעני. מלי יוצאת למלון ליום גיבוש מטעם עבודתה. בלילה קורה אירוע שמטלטל את חייה ואת חיי בעלה. כעבור עשרה חודשים יתרחש מקרה דומה באותה רשת. האם יש קשר בין הפשעים? 19.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/578431/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_6ee94am7/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "חוקר המשטרה אבי אברהם ממונה להיות ראש צוות חקירה מיוחד בדיוק כשחברתו עוזבת אותו. לצוות מצטרפת אורנה דניס, חוקרת מנוסה אבל מעצבנת 19.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/578453/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_59336558/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "החשוד המרכזי, מארגן הכנס במלון בבת ים, מגיע מרצונו למסור עדות. החקירה מסתבכת כשהראיות מצביעות על אדם נוסף 21.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666304/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_b3rs7xhx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "קובי מאבד אמון במשטרה ויוצא לחקירה עצמאית משלו. הוא נחוש למצוא את האנס שהרס את חיי משפחתו. גם במחיר שקר למלי אשתו 26.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/631961/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f8vt085r/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "אבי ואורנה עוצרים חשוד מרכזי חדש. נדמה שהם מצאו את האיש, אבל האם יצליחו להוכיח את אשמתו? 28.05.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666308/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_y8dyyn1u/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "קובי ממשיך בחקירה שלו ומצליח להתחקות אחרי האיש שהמשטרה לא הצליחה להפליל. החוקרים אבי ואורנה מתמודדים עם תוצאות המפגש 02.06.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/631964/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jpvyv06c/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - האיש שרצה לדעת הכל - פרק 7",
+      "subtitle": "אבי ואורנה מוצאים בזירת הרצח טוקמן שלא שייך לישראל גל. דיאנה גולדין מגיעה לתחנת המשטרה ומספקת מידע נוסף בעוד החוקרים מגיעים אל מלי ברכה 04.06.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/666311/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nni6we8d/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - האיש שרצה לדעת הכל - פרק 8",
+      "subtitle": "פרק סיום העונה. אבי ואורנה יוצאים לעצור את קובי ברכה בחשד לרצח. המצב מסתבך דווקא בגלל ניסיונותיהם שלא לסכן את מלי ושתי הילדות שלה 04.06.2024",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-578430/s1/681399/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_bcdksgxy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/haish-sheratza/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/haish-sheratza/s1-ep8.jpg"
+    }
+  ]
+}

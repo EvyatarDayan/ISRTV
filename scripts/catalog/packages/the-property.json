@@ -1,0 +1,203 @@
+{
+  "slug": "the-property",
+  "title": "הנחלה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property",
+  "version": "b6564327d1ed",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 19,
+  "localPoster": "images/kanbox/the-property/series.jpg",
+  "catalogPoster": "scripts/catalog/media/the-property/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "חומוס ארז",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-b5a27fe380bc571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_01_VOD_rt2tn/hanahala_01_VOD_rt2tn_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": " אחד מהחבר'ה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-8862fdbd79fd571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_02_VOD_s8fye/hanahala_02_VOD_s8fye_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "מה רוצה התועלת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-610d85ecedef571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_03_VOD_45hf4ds/hanahala_03_VOD_45hf4ds_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרוטקשן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-6bea97b17eef571026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala1_04_VOD_056ftw/hanahala1_04_VOD_056ftw_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "סיירת מטכ\"ל",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-04e7e8e40691671027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_05_VOD_4443ff/hanahala_05_VOD_4443ff_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "סיפור שנגמר בלוויה של נחש",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-5904d058a691671027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_06_VOD_ejh52/hanahala_06_VOD_ejh52_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "ואז הגיעה תמי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-50faf7d12d74671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_09_VOD_n7ebvfd/hanahala_09_VOD_n7ebvfd_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "דוד גבע",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-6e8ff7d12d74671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_11_VOD_6svz4d/hanahala_11_VOD_6svz4d_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "נחת הולך לאיבוד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-255fecc3b307671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_17_VOD_jrl25/hanahala_17_VOD_jrl25_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "מעלה השלושה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-07c7ecc3b307671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_14_VOD_yi3ar/hanahala_14_VOD_yi3ar_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "אהבה אסורה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-8e7b02407549671027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahla1_11_VOD_483mnr/hanahla1_11_VOD_483mnr_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "הקרב הגדול",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-509502407549671027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahal1_12_VOD_789mrt/hanahal1_12_VOD_789mrt_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "החרם",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-4394872deb3b671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_13_VOD_ekj24/hanahala_13_VOD_ekj24_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 1,
+      "name": "השומר הזקן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-c9cb66f69c3b671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_14_VOD_rmt2n4/hanahala_14_VOD_rmt2n4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep14.jpg"
+    },
+    {
+      "ep": 15,
+      "season": 1,
+      "name": "הרב פיילוט חלק א'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-d3dde23a76cd671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahla1_15_VOD_x6v7ts/hanahla1_15_VOD_x6v7ts_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep15.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep15.jpg"
+    },
+    {
+      "ep": 16,
+      "season": 1,
+      "name": "הרב פיילוט חלק ב'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-9754e23a76cd671026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahla1_16_VOD_yx78yx/hanahla1_16_VOD_yx78yx_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep16.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep16.jpg"
+    },
+    {
+      "ep": 17,
+      "season": 1,
+      "name": "השבעה של אריק",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-ec5cefe99600771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_17_VOD_987tuy/hanahala_17_VOD_987tuy_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep17.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep17.jpg"
+    },
+    {
+      "ep": 18,
+      "season": 1,
+      "name": "בלדה לעוזב המושב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-ea63353c8342771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_18_VOD_asd199/hanahala_18_VOD_asd199_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep18.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep18.jpg"
+    },
+    {
+      "ep": 19,
+      "season": 1,
+      "name": "מגרשים את ויקי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_property-s1/VOD-f8e26985c384771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hanahala/S01/hanahala_19_VOD_f78e/hanahala_19_VOD_f78e_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-property/s1-ep19.jpg",
+      "catalogImage": "scripts/catalog/media/the-property/s1-ep19.jpg"
+    }
+  ]
+}

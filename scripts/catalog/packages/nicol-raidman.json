@@ -1,0 +1,23 @@
+{
+  "slug": "nicol-raidman",
+  "title": "החיים החדשים של ניקול ראידמן",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/nicol_raidman_new_life",
+  "version": "0781130c7231",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 1,
+  "localPoster": "images/kanbox/nicol-raidman/series.jpg",
+  "catalogPoster": "scripts/catalog/media/nicol-raidman/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "חייה החדשים של ניקול ראידמן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/nicol_raidman_new_life-s1/VOD-0b8ec8ca7a09d61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Doco_Keshet/ahaim_ahadashim_shel_nicole_raidman_doco_031019_VOD_183UGS/ahaim_ahadashim_shel_nicole_raidman_doco_031019_VOD_183UGS_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/nicol-raidman/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/nicol-raidman/s1-ep1.jpg"
+    }
+  ]
+}

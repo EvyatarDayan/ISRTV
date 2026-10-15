@@ -1,0 +1,141 @@
+{
+  "slug": "chosen-people",
+  "title": "עם סגולה",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple",
+  "localPoster": "images/kanbox/chosen-people/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-966dcfdb0af2f21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_01_090411_VOD_te3r62d/Am_Sgula_01_090411_VOD_te3r62d_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "966dcfdb0af2f210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/amsgula1_01iphone_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-ad717baeae35f21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_02_160411_VOD_kah843/Am_Sgula_02_160411_VOD_kah843_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "ad717baeae35f210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgola_2_pict_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-e31c74b30536f21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_03_230411_VOD_yas97t2/Am_Sgula_03_230411_VOD_yas97t2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "e31c74b30536f210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/Am_sgola_3_VOD_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-d25d26191c19f21006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_04_300411_VOD_h3gm65/Am_Sgula_04_300411_VOD_h3gm65_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "d25d26191c19f210VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_4_11_pict_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-5fb1b7c452d1031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_05_260511_VOD_jsb6h72/Am_Sgula_05_260511_VOD_jsb6h72_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5fb1b7c452d10310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_5_9yossi_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-be68cf655354031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_06_010611_VOD_k2sb57/Am_Sgula_06_010611_VOD_k2sb57_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "be68cf6553540310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_6_vod_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-5fc514ab1f36031004.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_07_080611_VOD_snb52y4/Am_Sgula_07_080611_VOD_snb52y4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5fc514ab1f360310VgnVCM100000290c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_7_vod_pict_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-5518ff991288031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_08_150611_VOD_smn653/Am_Sgula_08_150611_VOD_smn653_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "5518ff9912880310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_8_30_shniot_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-09a11d85651b031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_09_220611_VOD_nsb545/Am_Sgula_09_220611_VOD_nsb545_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "09a11d85651b0310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_09_vod_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-c9e13ba278fc031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_10_290611_VOD_b2dh57/Am_Sgula_10_290611_VOD_b2dh57_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "c9e13ba278fc0310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_10_vod_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/chosen-poeple-s1/VOD-dd6ee8539f4f031006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Am_Sgula/S01/Am_Sgula_11_060711_VOD_fsd465/Am_Sgula_11_060711_VOD_fsd465_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "makoVcmId": "dd6ee8539f4f0310VgnVCM2000002a0c10acRCRD",
+      "makoChannelId": "c0ce7af65a7fe210VgnVCM2000002a0c10acRCRD",
+      "imageRemote": "https://img.mako.co.il/2021/12/19/am_sgula_11_vod_c_i.jpg",
+      "streamOk": true,
+      "localImage": "images/kanbox/chosen-people/s1-ep11.jpg"
+    }
+  ]
+}

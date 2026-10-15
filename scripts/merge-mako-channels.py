@@ -9,6 +9,7 @@ CHANNELS = os.path.join(ROOT, "js", "channels.js")
 
 # Order for N12 tab (after reset/mashiah if present)
 ORDER = [
+    "life-is-difficult",
     "wedding-at-first-sight",
     "the-boys",
     "sapir-movie",
@@ -37,6 +38,11 @@ ORDER = [
     "hundred-percent-ashkenazi",
     "avi-bitter",
     "the-comedians",
+    "chosen-people",
+    "this-is-sodom",
+    "sky-army",
+    "bublilim",
+    "tortels",
 ]
 
 
@@ -73,7 +79,7 @@ def to_entry(data: dict) -> str:
         )
         ep_title = e.get("name") or f"פרק {ep}"
         subtitle = str(e.get("subtitle") or "").strip()
-        # Avoid duplicating "עונה X פרק Y —" if already present
+        # Avoid duplicating "עונה X פרק Y -" if already present
         if re.match(r"^עונה\s+\d+\s+פרק\s+\d+", ep_title) or re.match(
             r"^פרק\s+\d+", ep_title
         ):
@@ -81,7 +87,7 @@ def to_entry(data: dict) -> str:
         elif subtitle:
             name = f"פרק {ep} - {ep_title}"
         else:
-            name = f"עונה {season} פרק {ep} — {ep_title}"
+            name = f"עונה {season} פרק {ep} - {ep_title}"
         comma = "," if i < len(eps) - 1 else ""
         lines += [
             "            {",

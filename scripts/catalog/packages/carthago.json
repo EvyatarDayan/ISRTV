@@ -1,0 +1,123 @@
+{
+  "slug": "carthago",
+  "title": "קרתגו",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/",
+  "version": "f77449145d1a",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 11,
+  "localPoster": "images/kanbox/carthago/series.jpg",
+  "catalogPoster": "scripts/catalog/media/carthago/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "אליהו לוי, קומיקאי מצליח בפלשתינה של 1942, מגורש ע\"י הבריטים למחנה העצורים \"קרתגו\" שבאפריקה, שם הוא נכלא עם לוחמי מחתרות יהודים ופושעים נאצים 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/155159/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_smjq0z1p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/lxypkzo3/https-kanstaticazureedgenet-download-pictures-2022-12-18-imgid-89078_aa.jpeg?width=490&height=272&v=1d97a098ab19b10",
+      "catalogImage": ""
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "אליהו מנסה להציל את חייו במחנה קתרגו כאשר במקביל תומס אדינבורו המרגל הנאצי מגלה אמיתות מוזרות על מוצאו. באופן מפתיע אליהו ותומס מוצאים את עצמם ביחד נלחמים על חייהם 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/155078/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8tlydi8n/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/fjvnks4z/https-kanstaticazureedgenet-download-pictures-2022-12-16-imgid-88994_aa.jpeg?width=490&height=272&v=1d97a0989efd1b0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "פבריציו נשאר מאחור כאשר אליהו ותומס מגיעים למטוס ומנסים לברוח. הלנה מתקרבת למאהב שלה מהעבר, ותומס מנסה ליצור קשר עם אנשי הרשת שלו 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/155237/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jzuysdwa/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/esiizy3u/2022-12-19-imgid-89222_b.jpeg?width=490&height=272&v=1d975fba23b32d0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "במחנה קרתגו פועלת רשת של הברחת אמפיטמין נאצי בשם פריווטין. יעקב דן מגלה שבעקבות בריחת פבריציו החומר מפסיק להגיע למחנה וזה מעלה חשש שתפרוץ מלחמה גדולה בין כל הקבוצות במחנה. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/155456/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_f9tx1y7p/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/xlsnknyf/https-kanstaticazureedgenet-download-pictures-2022-12-20-imgid-89317_aa.jpeg?width=490&height=272&v=1d97a098bd50c70",
+      "catalogImage": ""
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "הלנה מתמודדת עם הקנאות האובססיבית של דווידסון, ובמקביל מנסה למשוך בחוטים ולחסל את תומס. כשהיא יוצאת לרכיבה על סוס שקיבלה במתנה, היא מסתבכת בדילמה קשה שתכריע את גורלם של הרבה אנשים. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/155999/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ewxwehnx/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/hg3ihtx1/https-kanstaticazureedgenet-download-pictures-2022-12-25-imgid-89739_aa.jpeg?width=490&height=272&v=1d97a098c93c890",
+      "catalogImage": ""
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "פרק 6 - הקרב על תפקיד הגולדן בוי מתחמם. יעקב דן מנסה להביא לבחירתו של טורסו לתפקיד כדי שיוכל לשלוט בהברחת הסמים למחנה. אליהו מנסה לזכות בתפקיד כדי שיוכל לברוח עם הלנה לאסמרה ומשם לצאת לחופשי 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/156342/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8mjozo25/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/xwhjg3bo/https-kanstaticazureedgenet-download-pictures-2023-1-1-imgid-90183_aa.jpeg?width=490&height=272&v=1d97a098d6d86c0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "סשה ניצול השואה שהגיע למחנה מאירופה והשאיר מאחור את בתו מגלה שהחלטתו לתמוך באליהו לתפקיד הגולדן בוי מסבכת אותו עד כדי סכנת מלחמה בין שני בתי היהודים. אליהו מנסה לזכות בכל מחיר בבחירות 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/156481/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_layjrmd6/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/npshgxde/https-cdnbackstage-apicom-key-backstage-cms-production-uploads-1280x720-1653bcb0-f2c7-11ec-87e7-b1d975722ca7-assets-images-7b75770a-09c5-418c-a803-c082cbc50a8f.jpg?width=490&height=272&v=1d97a098e5575c0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - פרק 8",
+      "subtitle": "פרק 8 - תומס אדינבורו מגיע למלון הנילוס. מקדונלד אורב לו שם ומעמיד את חייו של תומס בסכנה לא צפויה. דווידסון מגלה על הלנה סוד, ואליהו מנסה להציל את חייו בהברחת סמים מאסמרה. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/156908/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_v9wvv25x/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/plflp2cp/https-kanstaticazureedgenet-download-pictures-2023-1-8-imgid-90724_aa.jpeg?width=490&height=272&v=1d97a098f1b5dd0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9",
+      "subtitle": "פרק 9- תומס נחקר על ידי דווידסון ומקדונלד עד שהוא נשבר. היהודים מחליטים ללמד את אליהו לקח. הלנה המיואשת מבקשת מאליהו להעביר קופסה לתומס, ומשביעה אותו לא לפתוח אותה. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/157058/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_omn0f4db/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/5slkxn02/2023-1-10-imgid-90881_b.jpeg?width=490&height=272&v=1d9761d39f30fa0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10",
+      "subtitle": "פרק 10 - המשחק הפסיכולוגי בין תומס אדינבורו ודווידסון מגיע לשיאו- האם תומס יישבר בחקירה? בינתיים תומס מגלה את האמת של מותה של האומנת שלו, ומבקש ליצור קשר עם יעקב דן. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/157367/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_fooswayb/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/rbtj1iln/https-kanstaticazureedgenet-download-pictures-2023-1-15-imgid-91189_aa.jpeg?width=490&height=272&v=1d97a099022bbb0",
+      "catalogImage": ""
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11",
+      "subtitle": "פרק 11 -פרק אחרון -דווידסון מנסה לגלות מי כתב את מכתב האהבה להלנה אשתו. יעקב, דן, תומס ואליהו מנסים לשרוד מחוץ למחנה בכל מחיר. בפרק האחרון –הגיבורים מתמודדים עם הטעויות שלהם בסוף מותח וסוחף. 31.12.2017",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11635/s1/157592/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_237yl7es/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "https://www.kan.org.il/media/5cnjpw2j/https-kanstaticazureedgenet-download-pictures-2023-1-17-imgid-91409_aa.jpeg?width=490&height=272&v=1d97a0990f9e1d0",
+      "catalogImage": ""
+    }
+  ]
+}

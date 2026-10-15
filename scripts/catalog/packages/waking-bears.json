@@ -1,0 +1,113 @@
+{
+  "slug": "waking-bears",
+  "title": "להעיר את הדב",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1",
+  "version": "c52f192d5d9b",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 10,
+  "localPoster": "images/kanbox/waking-bears/series.jpg",
+  "catalogPoster": "scripts/catalog/media/waking-bears/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "יומנים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-7066d85f1922161006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_01_120218_VOD_g2kf30f/Leheir_Et_Hadov_01_120218_VOD_g2kf30f_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "אזעקת אמת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-ffb82d4a1c89161006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_02_190218_VOD_s2kd39t/Leheir_Et_Hadov_02_190218_VOD_s2kd39t_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "להעיר דובים משנתם",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-4ca8ed72d32d161006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_03_010318_VOD_8hz64cz/Leheir_Et_Hadov_03_010318_VOD_8hz64cz_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "דומינו",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-380d1b7573bf161006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_04_080318_VOD_s5d7fjk99/Leheir_Et_Hadov_04_080318_VOD_s5d7fjk99_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "עורבים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-83bf3744f3f1261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_05_150318_VOD_fn8y3a2/Leheir_Et_Hadov_05_150318_VOD_fn8y3a2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "גשר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-8dc084264a24261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_06_220318_VOD_b1tv24tr/Leheir_Et_Hadov_06_220318_VOD_b1tv24tr_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פחד מוות או רצון טוב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-d6f153c32e76261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_07_290318_VOD_4k49kmn/Leheir_Et_Hadov_07_290318_VOD_4k49kmn_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "גן חיות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-39e778c9f45a261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_08_090418_VOD_t85bv3g/Leheir_Et_Hadov_08_090418_VOD_t85bv3g_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "שבת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-832f765ef29c261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_09_160418_VOD_6tzx6c7z/Leheir_Et_Hadov_09_160418_VOD_6tzx6c7z_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פגיעות הדף - פרק סיום העונה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/waking-bears-s-1/VOD-d0579c4ef3de261006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Leheir_Et_Hadov/S01/Leheir_Et_Hadov_10_230418_VOD_r3fg96a/Leheir_Et_Hadov_10_230418_VOD_r3fg96a_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/waking-bears/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/waking-bears/s1-ep10.jpg"
+    }
+  ]
+}

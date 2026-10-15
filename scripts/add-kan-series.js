@@ -167,9 +167,6 @@ async function main() {
   const page = await context.newPage();
   let remoteEps;
   try {
-    // Warm CF
-    await page.goto(seriesUrl, { waitUntil: 'domcontentloaded', timeout: 120000 });
-    await page.waitForTimeout(3000);
     remoteEps = await uks.scrapeSeriesCatalog(page, seriesUrl);
   } finally {
     await page.close();
@@ -190,45 +187,113 @@ async function main() {
     remoteEps
       .slice()
       .sort((a, b) => (a.season !== b.season ? a.season - b.season : a.ep - b.ep))
-      .forEach((e) => console.log(`  S${e.season}E${e.ep} ${e.page}`));
+      .forEach((e) => console.log(`  S${e.season}E${e.ep} ${e.text || ''} ${e.page}`));
     await browser.close();
     return;
   }
 
+  await context.close();
+
   const imgDir = path.join(ROOT, 'images', 'kanbox', args.id);
   fs.mkdirSync(imgDir, { recursive: true });
-
-  const episodes = [];
-  for (const ep of remoteEps) {
-    console.log(`  Fetching s${ep.season} ep${ep.ep} …`);
-    const streamURL = await uks.fetchStreamForEpisode(context, ep);
-    const fname = `s${ep.season}-ep${ep.ep}.jpg`;
-    const dest = path.join(imgDir, fname);
-    let localImage = '';
-    const ok = await uks.downloadImageViaBrowser(context, ep.imageURL, ep.page, dest);
-    if (ok) localImage = `images/kanbox/${args.id}/${fname}`;
-
-    episodes.push({
-      id: `${args.id}-s${ep.season}-ep${ep.ep}`,
-      season: ep.season,
-      ep: ep.ep,
-      name: `עונה ${ep.season} פרק ${ep.ep}`,
-      streamURL: streamURL || '',
-      pathSeason: ep.pathSeason != null ? ep.pathSeason : ep.season,
-      imageURL: localImage,
-      placeholder: String(ep.ep)
-    });
-    console.log(`  → ${streamURL ? 'stream OK' : 'NO STREAM'} | ${localImage ? 'img OK' : 'NO IMG'}`);
+  const partialPath = path.join(__dirname, `.partial-${args.id}.json`);
+  let partial = [];
+  if (fs.existsSync(partialPath)) {
+    try {
+      partial = JSON.parse(fs.readFileSync(partialPath, 'utf8'));
+    } catch (_) {}
   }
+  const partialByKey = new Map(partial.map((e) => [`${e.season}:${e.ep}`, e]));
+  let saveChain = Promise.resolve();
+
+  function kanContext() {
+    return browser.newContext({
+      locale: 'he-IL',
+      userAgent:
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+      viewport: { width: 1400, height: 900 }
+    });
+  }
+
+  const episodes = new Array(remoteEps.length);
+  let cursor = 0;
+  const concurrency = 2;
+  async function worker() {
+    while (cursor < remoteEps.length) {
+      const i = cursor++;
+      const ep = remoteEps[i];
+      const key = `${ep.season}:${ep.ep}`;
+      const cached = partialByKey.get(key);
+      if (
+        cached &&
+        cached.streamURL &&
+        cached.imageURL &&
+        fs.existsSync(path.join(ROOT, cached.imageURL))
+      ) {
+        episodes[i] = cached;
+        console.log(`  s${ep.season}e${ep.ep} cached`);
+        continue;
+      }
+      console.log(`  Fetching s${ep.season} ep${ep.ep} (${i + 1}/${remoteEps.length}) …`);
+      const epContext = await kanContext();
+      let streamURL = '';
+      let localImage = '';
+      try {
+        for (let attempt = 0; attempt < 2 && !streamURL; attempt++) {
+          streamURL = await uks.fetchStreamForEpisode(epContext, ep);
+        }
+        const fname = `s${ep.season}-ep${ep.ep}.jpg`;
+        const dest = path.join(imgDir, fname);
+        let ok = await uks.downloadImageViaBrowser(epContext, ep.imageURL, ep.page, dest);
+        if (!ok) ok = await uks.downloadImageViaBrowser(epContext, ep.imageURL, ep.page, dest);
+        if (ok) localImage = `images/kanbox/${args.id}/${fname}`;
+      } finally {
+        await epContext.close();
+      }
+
+      const cardName = String(ep.text || '')
+        .replace(/\s+/g, ' ')
+        .trim();
+      const name = ep.scrapedName || cardName || `עונה ${ep.season} פרק ${ep.ep}`;
+      const row = {
+        id: `${args.id}-s${ep.season}-ep${ep.ep}`,
+        season: ep.season,
+        ep: ep.ep,
+        name,
+        streamURL: streamURL || '',
+        pathSeason: ep.pathSeason != null ? ep.pathSeason : ep.season,
+        imageURL: localImage,
+        placeholder: String(ep.ep)
+      };
+      if (ep.scrapedSubtitle) row.subtitle = ep.scrapedSubtitle;
+      episodes[i] = row;
+      saveChain = saveChain.then(() => {
+        partialByKey.set(key, row);
+        fs.writeFileSync(partialPath, JSON.stringify([...partialByKey.values()]));
+      });
+      console.log(
+        `  s${ep.season}e${ep.ep} ${streamURL ? 'stream OK' : 'NO STREAM'} | ${localImage ? 'img OK' : 'NO IMG'} | ${name}`
+      );
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, remoteEps.length) }, () => worker()));
+  await saveChain;
 
   episodes.sort((a, b) => (a.season !== b.season ? a.season - b.season : a.ep - b.ep));
 
-  // Series poster: first episode image or download og:image
   const seriesJpg = path.join(imgDir, 'series.jpg');
-  if (episodes[0] && episodes[0].imageURL) {
+  const posterContext = await kanContext();
+  const posterPage = await posterContext.newPage();
+  try {
+    await posterPage.goto(seriesUrl, { waitUntil: 'domcontentloaded', timeout: 90000 });
+    const og = await posterPage.evaluate(
+      () => (document.querySelector('meta[property="og:image"]') || {}).content || ''
+    );
+    if (og) await uks.downloadImageViaBrowser(posterContext, og, seriesUrl, seriesJpg);
+  } catch (_) {}
+  await posterContext.close();
+  if (!fs.existsSync(seriesJpg) && episodes[0] && episodes[0].imageURL) {
     fs.copyFileSync(path.join(ROOT, episodes[0].imageURL), seriesJpg);
-  } else {
-    await uks.downloadImageViaBrowser(context, '', seriesUrl, seriesJpg);
   }
 
   const series = {
@@ -253,12 +318,17 @@ async function main() {
         title: args.name,
         seriesUrl,
         episodeCount: episodes.length,
-        episodes: remoteEps.map((e, i) =>
-          Object.assign({}, e, {
-            streamURL: episodes[i] && episodes[i].streamURL,
-            localImage: episodes[i] && episodes[i].imageURL
+        episodes: remoteEps
+          .map((e) => {
+            const saved = episodes.find((x) => x.season === e.season && x.ep === e.ep);
+            return Object.assign({}, e, {
+              name: (saved && saved.name) || e.text || '',
+              subtitle: (saved && saved.subtitle) || e.scrapedSubtitle || '',
+              streamURL: (saved && saved.streamURL) || '',
+              localImage: (saved && saved.imageURL) || ''
+            });
           })
-        )
+          .sort((a, b) => (a.season !== b.season ? a.season - b.season : a.ep - b.ep))
       },
       null,
       2

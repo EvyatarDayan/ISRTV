@@ -1,0 +1,93 @@
+{
+  "slug": "hadavar-hagadol",
+  "title": "הדבר הגדול המיוחד",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/",
+  "version": "e3d4b12b1eb7",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/hadavar-hagadol/series.jpg",
+  "catalogPoster": "scripts/catalog/media/hadavar-hagadol/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - הדבר הגדול המיוחד - פרק 1",
+      "subtitle": "כשדניאלה מגלה שיהודית חברתה הטובה חולה בסרטן, דניאלה מחליטה שהן צריכות להיות אמיצות ולעשות דבר אחד גדול ומיוחד. כשיהודית מגלה מה הדבר שדניאלה מתכננת, היא מסרבת בתוקף 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108483/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_p01v0gzy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - הדבר הגדול המיוחד - פרק 2",
+      "subtitle": "יהודית ודניאלה הן חברות טובות, שרוצות לנצל את הזמן שנותר להן לחיות ולעשות דבר אחד גדול ומיוחד. דניאלה רוצה שחברו של בעלה אלכס, יסדר לו עבודה. היא לוקחת את העניינים לידיים, אבל הולכת רחוק מדי 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108486/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_18jz48km/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - הדבר הגדול המיוחד - פרק 3",
+      "subtitle": "יהודית ודניאלה הן חברות טובות, שרוצות לנצל את הזמן שנותר להן לחיות ולעשות דבר אחד גדול ומיוחד. אמה של יהודית מגלה שבתה עוברת טיפולים ומסתירה זאת ממנה. היא פונה לדניאלה שמתקשה לשמור על הסוד 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108489/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_9y4b7u39/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - הדבר הגדול המיוחד - פרק 4",
+      "subtitle": "דרמה. יהודית ודניאלה הן חברות טובות, שרוצות לנצל את הזמן שנותר להן לחיות ולעשות דבר אחד גדול ומיוחד. הרופאה מודיעה ליהודית שהיא צריכה לעבור ניתוח נוסף. דניאלה מנסה לאתר את מקום המצאה של בתה של יהודית 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108492/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pajul3kq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - הדבר הגדול המיוחד - פרק 5",
+      "subtitle": "אחרי תאונת דרכים שעברה, יהודית נחשדת שניסתה להתאבד, דניאלה חוששת שיגדירו את חברתה כחולת נפש, ונוקטת בצעד קיצוני 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108495/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_z01nc9dn/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - הדבר הגדול המיוחד - פרק 6",
+      "subtitle": "יהודית מספרת לבתה על מחלתה, ועל כך שקיים סיכוי שלא תחלים. דניאלה רוצה להתגרש מאלכס 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108498/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_51yuxggu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - הדבר הגדול המיוחד - פרק 7",
+      "subtitle": "דרמה. אחרי הניתוח הגדול שעברה, יהודית מאבדת עניין בבתה ובחיים בכלל, אבל יהודית הקטנה לא מוותרת עליה. עמוק במחסן התמונות בגלריה שלה, יהודית מגלה ציורים שמחזירים לה את שמחת החיים 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108501/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wgnn0hy1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - הדבר הגדול המיוחד - פרק 8",
+      "subtitle": "דרמה. פרק אחרון לעונה. לאחר שפוטר מעבודתו, אלכס מאבד שליטה. דניאלה נחלצת לעזרתו, ויהודית מסייעת לה ולוקחת גם את ילדיה תחת חסותה. 30.10.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13684/s1/108504/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0luul0jo/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/hadavar-hagadol/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/hadavar-hagadol/s1-ep8.jpg"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "pamta",
+  "title": "פמת\"א",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/",
+  "version": "87413c7517c4",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 21,
+  "localPoster": "images/kanbox/pamta/series.jpg",
+  "catalogPoster": "scripts/catalog/media/pamta/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - הצהרת תובע",
+      "subtitle": "פרק הבכורה | מרסל, חוקרת משטרה שהצליחה להרשיע עבריין בכיר, מתחילה לעבוד כפרקליטה בפמת\"א ומשובצת לתיק הונאת משכנתאות שמסעיר את המדינה. היא נחושה לא להתעלם מתחושות הבטן שלה אך מתקשה להשיג ראיות שיתמכו בהן 15.12.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98217/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ln0gprb4/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - ראייה חסויה",
+      "subtitle": "מרסל ננזפת על המהלך שעשתה וקונה לעצמה את \"התרנגול\" כאויב. חליל המתמחה מוביל את מרסל לאחד ה\"קופים\" ששימשו בהונאה. קובי מקבל איומים על חייו 15.12.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98220/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_o7tbqvmh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - קופים",
+      "subtitle": "הלחץ סביב עוצר המשכנתאות גובר, מרסל מותקפת ומורחקת מהתיק. למרות זאת היא מצליחה להביא עדות חדשה ובלתי צפויה. קובי מוזמן לחקירת מח\"ש 23.12.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98223/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_04swx9mc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - דבר מה נוסף",
+      "subtitle": "בעקבות העדות של ירושלמי, אלישע נוטש בזעם את התיק ומרסל הופכת לפרקליטה הממונה. המתמחים מנסים לבסס את גרסתה של עדת המדינה. מרסל עושה לקמינסקי תרגיל מלוכלך, וזהותו של הנוכל שביצע את הונאת המשכנתאות נחשפת 30.12.2018",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98234/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_rxu6colh/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - בקשת הסגרה",
+      "subtitle": "המצוד אחר החשוד בהונאת המשכנתאות מוביל להתפתחויות מפתיעות בחקירה. יערה המתמחה עובדת עם \"התרנגול\" על הסכמי הסגרה, מה שמביא את השניים לסיטואציה נפיצה 05.01.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98237/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w59praer/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - יחסי מרות",
+      "subtitle": "קמינסקי חוגג את ניצחונו. מרסל מקבלת מידע חדש בנוגע לתיק המשכנתאות אך מתקשה לפתוח אותו מחדש. חליל מגיש תלונה שמסבכת את יערה. קובי נתון במסכת רדיפה ואיומים מצד מורדוך 12.01.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98244/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_10gau56m/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - מעשה עשוי",
+      "subtitle": "החקירה בכינור דוד מביאה את מרסל לשורת גילויים מטרידים המחשידים את צמרת פמת\"א. יערה מאשימה את חליל במצבה. עו\"ד כהן לא מצליח למנוע מקובי להמשיך ולהסתבך 19.01.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98247/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_7lyak9ij/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - ניגוד עניינים",
+      "subtitle": "פרשת \"כינור דוד\" מתפרסמת, הקשר בין נחמיאס לברגמן נחשף ומעורר מהומה בפרקליטות. עו\"ד כהן מצליח לשחרר את קובי למעצר בית בדירתה של מרסל. ירושלמי מסתכנת ויוצרת קשר במטרה לחזור ולהעיד 26.01.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98250/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_i7n3g25q/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9 - מעצר בית",
+      "subtitle": "מרסל מנסה לקשור את ברגמן לרצח ירושלמי, למרות שהראיות מצביעות דווקא על ז'ילבר אטיאס. העיקוב אחר ברגמן לא מניב תוצאות אך ריזלה מצליח לאתר חשוד נוסף. קובי שוהה במעצר בית אצל מרסל והיחסים ביניהם מתחממים 02.02.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98255/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_081s6na3/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10 - ייצוג עצמי",
+      "subtitle": "בעקבות הצתת רכבו במתקן המשטרתי בו הוחזק, מורדוך יוזם הליך משפטי חריג כנגד קובי ומבקש לייצג את עצמו. הדיון מתפתח לכיוונים לא צפויים ובמהלכו נחשף סיפור חקירת מורדוך, שהוביל לפציעתה של מרסל בעבר 09.02.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98258/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_vp32wt6y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "פרק 11 - שותפות סוד",
+      "subtitle": "מאיר כלפון נעצר אך מסרב לשתף פעולה בחקירה בטענה שפעל במסגרת תפקידו. קמינסקי נקלע לניגוד עניינים בייצוג לקוחותיו. מרסל סובלת מהשלכות חשיפת יחסיה עם מורדוך 16.02.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98261/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c5cs9nws/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "פרק 12 - ספק סביר",
+      "subtitle": "גופתו של ז'ילבר אטיאס, החשוד ברצח ירושלמי, מתגלה במלטה. קמינסקי מבין שהסתבך ומחפש דרך להשתחרר מייצוג. המתמחים מגלים פרט קריטי לחקירה. מרסל מנסה להוביל מהלך אך נחסמת במפתיע 24.12.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98264/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wwyulmyk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "פרק 13 - נטל ההוכחה",
+      "subtitle": "פיצוץ מטען החבלה שהונח באופנוע של מרסל גובה מחיר כבד. האם מורדוך אחראי להנחת המטען? או שמי שעומד מאחורי הונאת המשכנתאות אחראי לחיסול? פרק אחרון לעונה 02.03.2019",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s1/98267/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8iaxz5ih/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s1-ep13.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "פרק 1 - חקירת סיבת מוות",
+      "subtitle": "הפרקליטה מרסל בן דוד מנהלת תיק חס\"מ (חקירת סיבת מוות) בעקבות מוות של מטופל בחדר מיון, מתמודדת עם פוסט טראומה ונשאבת לתוך תיק סמים שחליל מנהל. מורדוך, שעוקב אחרי מרסל, חושד שהיא מנהלת רומן חדש 07.06.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132012/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_8jl7bngv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "פרק 2 - הסגת גבול",
+      "subtitle": "מרסל מתרחקת מגיא ומתיק הסמים בעקבות האירוע במסיבה, ממשיכה לחפש את האשמים במותו של רפאל לוי, ובמקביל מתמודדת עם מצבו של אביה. ורד באומהאקר מופתעת מתוצאות המכרז לראשות פמת\"א 14.06.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132015/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_olxxhudk/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "פרק 3 - חלופת מעצר",
+      "subtitle": "ועדת הביקורת בראשות אלישע בר און \"התרנגול\" מעוררת מהומה בפרקליטות. מרסל נעזרת בד\"ר זמיר בעניין אישי, מה שמוביל להתפתחות מפתיעה. חליל וגיא לא מצליחים להאריך את מעצרו של ארזי וההשלכות הרסניות 21.06.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132018/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_nlfhunvf/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "פרק 4 - דַּיּוּת ראיות",
+      "subtitle": "מרסל מנסה לקשור בין החס\"מ לתיק הסמים, מה שמוביל לעימות בינה לחליל ואורלי. ארזי מקבל הצעה שאסור לסרב לה. אלישע מוזמן לחקירה. ד״ר זמיר ומרסל מתקרבים. סנופ נפטרת מהמעבדה אך הצרות רק מתחילות 28.06.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132021/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_wymfqggj/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "פרק 5 - חסיון לתפוס",
+      "subtitle": "מורדוך מספק למרסל ראיה חשובה. סנופ מנסה לעמוד בדרישות של הבוס החדש. אלישע מתעמת עם מרי. כסליו מגבה את חליל. על רקע ההתדרדרות במצב של אבא שלה, מרסל ויואב מתקרבים. אסף מוסר גרסה מפתיעה 05.07.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132024/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_lipuglgt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "פרק 6 - עדות כבושה",
+      "subtitle": "מרסל מגלה מידע מטריד בנוגע לחקירת מותו של רפאל. אסף מספק גרסה חדשה. מרסל משכנעת את כסליו לקבל את הקונספציה שלה על תיק החס\"מ, ופועלת להגיש כתבי אישום בהתאם. אבא של מרסל מטיל עליה משימה מכבידה 12.07.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132027/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ipumyi3e/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "פרק 7 - אקטוס ראוס",
+      "subtitle": "ד\"ר זמיר נחקר במשטרה בזמן שמרסל מבקשת מבית המשפט להורות לחשוף את רישומי הניסוי באליקסיר. תפוצת הנייבה גדלה וזבולוני חושד שמישהו השתלט על רשת ההפצה של ארזי. מרסל מגלה חולייה מקשרת בין החקירות 19.07.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132030/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_uo22i0ev/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "פרק 8 - פרק אחרון",
+      "subtitle": "מרסל נמלטת ממורדוך ומוסרת את ההקלטה המפלילה לידי זבולוני. מפגש בין מרסל לסנופ מניב תוצאות מפתיעות. כסליו מאשרת הגשת כתבי אישום אך חשיפת הקשר בין מרסל לזמיר טורפת את הקלפים 26.07.2021",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-13038/s2/132033/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ehdxhvbl/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/pamta/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/pamta/s2-ep8.jpg"
+    }
+  ]
+}

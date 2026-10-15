@@ -1,0 +1,283 @@
+{
+  "slug": "mashiah",
+  "title": "משיח",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah",
+  "version": "aeac5468e5ad",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 27,
+  "localPoster": "images/kanbox/mashiah/series.jpg",
+  "catalogPoster": "scripts/catalog/media/mashiah/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "ברת המצווה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-36e62c4346fca61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_01_VOD_194psn/mashiah_01_VOD_194psn_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "ריגול תעשייתי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-96c6c7a0954da61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_02_VOD_752tbe/mashiah_02_VOD_752tbe_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "שיר לכל מצב רוח",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-2a60d917fc20b61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_03_VOD_jfghhf5754/mashiah_03_VOD_jfghhf5754_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "הלו אפריקה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-ee6f3a88b305b61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_04_VOD_edr133/mashiah_04_VOD_edr133_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פוליסוד",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-9cdb4eecb947b61026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_05_VOD_segj2/mashiah_05_VOD_segj2_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "יועצת ארגונים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-ca5d50bec789b61026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_06_VOD_eutue85832/mashiah_06_VOD_eutue85832_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הגנה עצמית",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-8e1bd6cc1dcbb61026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_07_VOD_758gbn/mashiah_07_VOD_758gbn_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "ולנטינה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-043e49b1b01eb61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_08_VOD_vcmx8583/mashiah_08_VOD_vcmx8583_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "תשוקה מרירה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-7c62decb6140c61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_09_VOD_vncnx8543/mashiah_09_VOD_vncnx8543_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "אחת באפריל",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-dc0ab2fdf282c61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/masiah_10_VOD_rjkt744/masiah_10_VOD_rjkt744_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 1,
+      "name": "הנדר: חלק א'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-027d46e02bc4c61026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/mashiah_11_VOD_183utg/mashiah_11_VOD_183utg_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 1,
+      "name": "הנדר: חלק ב'",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-77011122c807c61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/masiah_12_VOD_vnnc8532/masiah_12_VOD_vnnc8532_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 1,
+      "name": "מאחורי הקלעים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s1/VOD-5230650c5b07c61027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S01/masiah_13_VOD_turu853/masiah_13_VOD_turu853_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s1-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s1-ep13.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "התיירים באים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-fc7eeeb1b4c6771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_01_VOD_u8s6c1/mashiah2_01_VOD_u8s6c1_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "לימונדה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-58f3c71e01c8771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_02VOD_nyd572/mashiah2_02VOD_nyd572_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "אורחן קומדי קלאב",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-356d180ce4fa771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_03_VOD_vsk436/mashiah2_03_VOD_vsk436_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "חומות של אורחן",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-cf8e31dd073d771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_04_VOD_djo083/mashiah2_04_VOD_djo083_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "אורחן על גלגלים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-81d337c3e77f771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_05_VOD_FIX_d45hee/mashiah2_05_VOD_FIX_d45hee_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "קפה עולה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-7f82a650f4b1871027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_06_VOD_q7z8c12x/mashiah2_06_VOD_q7z8c12x_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "תהילה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-50eb93a66744871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_07_VOD_f3x31z/mashiah2_07_VOD_f3x31z_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "BFF",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-5584a314c046871027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_08_VOD_3a9z6x/mashiah2_08_VOD_3a9z6x_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 2,
+      "name": "משגיח לא בא",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-613ce878d1c9871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_09_VOD_kiid275/mashiah2_09_VOD_kiid275_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep9.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 2,
+      "name": "פגישת מחזור",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-cd24bef5e35c871026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_10_VOD_Faasm21/mashiah2_10_VOD_Faasm21_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep10.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep10.jpg"
+    },
+    {
+      "ep": 11,
+      "season": 2,
+      "name": "משיח לא בר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-7419d431868f871027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_11_VOD_gh477/mashiah2_11_VOD_gh477_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep11.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep11.jpg"
+    },
+    {
+      "ep": 12,
+      "season": 2,
+      "name": "קומבה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-c0c95d99e9c1971027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_12_VOD_kcu1248/mashiah2_12_VOD_kcu1248_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep12.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep12.jpg"
+    },
+    {
+      "ep": 13,
+      "season": 2,
+      "name": "צרות גדולות בדרום העיר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-c76b2b393b88971026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_13_VOD_f6z5z1/mashiah2_13_VOD_f6z5z1_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep13.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep13.jpg"
+    },
+    {
+      "ep": 14,
+      "season": 2,
+      "name": "מאחורי הקלעים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/mashiah-s2/VOD-1f2169a2bbca971027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/mashiah/S02/mashiah2_14_VOD_xcv414/mashiah2_14_VOD_xcv414_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/mashiah/s2-ep14.jpg",
+      "catalogImage": "scripts/catalog/media/mashiah/s2-ep14.jpg"
+    }
+  ]
+}

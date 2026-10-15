@@ -554,6 +554,16 @@
       "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ud1e7ca1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
       "localImage": "images/kanbox/slicha-al-hasheela/s4-ep13.jpg",
       "subtitle": "אנשים שחזרו משבי בעזה עונים בגילוי לב על שאלות שהגיעו מהבית. מה היה הרגע הכי מפחיד שם? איך זה לחזור הביתה ולגלות שאתה סלב? והאם קרה שם משהו שלא סיפרת לאיש? 24.10.2024"
+    },
+    {
+      "season": 4,
+      "ep": 14,
+      "name": "פרק 14 - אנשים שעזבו את הארץ",
+      "subtitle": "אנשים שעזבו את הארץ עונים בכנות ובאומץ על שאלות שלא תמיד נעים לשאול",
+      "page": "https://www.kan.org.il/content/kan/kan-11/p-12781/s4/556414/",
+      "imageURL": "https://www.kan.org.il/media/tymlqohq/image.jpeg?rxy=0.3587477814281938,0.369249655926457&width=490&height=272&v=1dad94d5a498dd0",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/2252327/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/slicha-al-hasheela/s4-ep14.jpg"
     }
   ],
   "localPoster": "images/kanbox/series-12781/series.jpg"

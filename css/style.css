@@ -215,8 +215,9 @@ body {
     min-height: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    /* Room for focus scale(1.06) so left/right tile frames aren't clipped */
-    padding: 16px 32px 120px;
+    overflow-anchor: none;
+    /* Top pad keeps the focused scale inside the scrollport so the first row doesn't shift the grid */
+    padding: 72px 64px 120px;
     align-content: start;
     box-sizing: border-box;
 }
@@ -258,8 +259,15 @@ body {
 
 /* Live channel cards reuse VOD card chrome + keep snapshot/preview layers */
 .live-card.vod-card .vod-card-inner {
-    aspect-ratio: 16 / 9;
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: auto;
     background: #000;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .live-card .live-snap-wrap {
@@ -271,49 +279,10 @@ body {
     background: #000;
 }
 
+/* No loading spinner — waiting tiles are black with a centered channel name */
 .live-card .live-tile-spinner {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 52px;
-    height: 52px;
-    margin: -26px 0 0 -26px;
-    z-index: 2;
-    pointer-events: none;
+    display: none !important;
 }
-
-.live-card .live-tile-spinner[hidden],
-.live-card .channel-thumb.has-snapshot .live-tile-spinner,
-.live-card .channel-thumb.is-live .live-tile-spinner,
-.live-card .channel-thumb.is-frozen .live-tile-spinner,
-.live-card .channel-thumb.is-unavailable .live-tile-spinner {
-    display: none;
-}
-
-.live-card .live-tile-spinner i {
-    position: absolute;
-    left: 24px;
-    top: 2px;
-    width: 4px;
-    height: 12px;
-    border-radius: 2px;
-    background: #fff;
-    transform-origin: 2px 24px;
-    animation: player-spinner-fade 1s linear infinite;
-}
-
-.live-card .live-tile-spinner i:nth-child(1)  { transform: rotate(0deg);   animation-delay: -0.916s; }
-.live-card .live-tile-spinner i:nth-child(2)  { transform: rotate(30deg);  animation-delay: -0.833s; }
-.live-card .live-tile-spinner i:nth-child(3)  { transform: rotate(60deg);  animation-delay: -0.750s; }
-.live-card .live-tile-spinner i:nth-child(4)  { transform: rotate(90deg);  animation-delay: -0.666s; }
-.live-card .live-tile-spinner i:nth-child(5)  { transform: rotate(120deg); animation-delay: -0.583s; }
-.live-card .live-tile-spinner i:nth-child(6)  { transform: rotate(150deg); animation-delay: -0.500s; }
-.live-card .live-tile-spinner i:nth-child(7)  { transform: rotate(180deg); animation-delay: -0.416s; }
-.live-card .live-tile-spinner i:nth-child(8)  { transform: rotate(210deg); animation-delay: -0.333s; }
-.live-card .live-tile-spinner i:nth-child(9)  { transform: rotate(240deg); animation-delay: -0.250s; }
-.live-card .live-tile-spinner i:nth-child(10) { transform: rotate(270deg); animation-delay: -0.166s; }
-.live-card .live-tile-spinner i:nth-child(11) { transform: rotate(300deg); animation-delay: -0.083s; }
-.live-card .live-tile-spinner i:nth-child(12) { transform: rotate(330deg); animation-delay: 0s; }
 
 .live-card .channel-snapshot,
 .live-card .channel-preview,
@@ -333,9 +302,13 @@ body {
     z-index: 0;
 }
 
+/* Keep posters off until a live still arrives (black + centered name while waiting) */
 .live-card .channel-thumb.has-image .channel-poster {
-    display: block;
-    z-index: 0;
+    display: none;
+}
+
+.live-card .channel-thumb.has-snapshot.has-image .channel-poster {
+    display: none;
 }
 
 /* Snapshot stays under the live/frozen video so there is no black gap while buffering */
@@ -372,17 +345,45 @@ body {
     padding: 20px 16px;
 }
 
-/* Keep live cards on VOD focus chrome + same enlarge/smoothness */
+/* Waiting for live still: name centered on black tile */
+.live-card .channel-thumb:not(.has-snapshot):not(.is-live):not(.is-frozen):not(.is-unavailable) .vod-card-gradient {
+    display: none;
+}
+
+.live-card .channel-thumb:not(.has-snapshot):not(.is-live):not(.is-frozen):not(.is-unavailable) .vod-card-name {
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 24px;
+}
+
+.live-card .channel-thumb.is-unavailable .vod-card-name {
+    display: none;
+}
+
+/* Same focus grow as VOD posters: the layout box stays put, the inner layer scales. */
 .live-card.vod-card {
     animation: none;
+    aspect-ratio: 16 / 9;
+    transform: none;
+    transition: none;
 }
 
 .live-card.channel:focus,
-.live-card.channel.is-focused {
+.live-card.channel.is-focused,
+.live-card.vod-card.is-focused {
     border-color: transparent;
     background: transparent;
     box-shadow: none;
-    transform: scale(1.06);
+    transform: none;
+    z-index: 10;
+}
+
+.live-card.vod-card.is-focused .vod-card-inner {
+    transform: scale(1.18);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
 }
 
 .live-card .channel-thumb::after {
@@ -651,78 +652,125 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    align-content: start;
+    overflow-anchor: none;
+    /* Room for the focused scale so the first row doesn't shift the grid */
+    padding: 28px 16px 48px;
 }
 
 .radio-card {
     appearance: none;
-    border: 2px solid rgba(255, 255, 255, 0.12);
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 18px;
-    min-height: 200px;
-    padding: 28px;
+    border: none;
+    background: transparent;
+    border-radius: 14px;
+    padding: 0;
     color: #fff;
-    text-align: center;
     cursor: pointer;
     outline: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    overflow: visible;
+    aspect-ratio: 16 / 9;
+    transform: none;
+    transition: none;
+    animation: none;
+}
+
+.radio-card-inner {
+    position: absolute;
+    inset: 0;
+    display: block;
+    border-radius: 14px;
     overflow: hidden;
+    background: #1a1a1a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     transform: scale(1);
-    transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
+    transform-origin: center center;
+    transition: transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.radio-card.is-focused .radio-card-inner {
+    transform: scale(1.18);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+    z-index: 2;
+}
+
+.radio-card.is-focused {
+    z-index: 10;
 }
 
 .radio-card-bg {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5;
     pointer-events: none;
     z-index: 0;
 }
 
-.radio-card:focus,
-.radio-card.is-focused {
-    transform: scale(1.06);
-    border-color: var(--radio-accent, #6bb3ff);
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
+.radio-card-gradient {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 55%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.4) 50%, transparent 100%);
+    pointer-events: none;
+    z-index: 1;
 }
 
-.radio-card.is-playing {
-    border-color: var(--radio-accent, #6bb3ff);
-    background: rgba(255, 255, 255, 0.1);
+.radio-card-inner::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 96px;
+    height: 96px;
+    background: url("../images/vod/play.png") center / contain no-repeat;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.82);
+    transition:
+        opacity 0.36s ease,
+        transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 5;
+    pointer-events: none;
+}
+
+.radio-card.is-focused:not(.is-playing) .radio-card-inner::before {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .radio-card-eq {
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 6;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    gap: 5px;
-    height: 40px;
-    opacity: 0.35;
-    transition: opacity 0.2s ease;
+    gap: 7px;
+    width: 96px;
+    height: 64px;
+    margin: 0;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
-.radio-card.is-focused .radio-card-eq,
 .radio-card.is-playing .radio-card-eq {
     opacity: 1;
 }
 
+.radio-card.is-playing .radio-card-inner::before {
+    opacity: 0;
+}
+
 .radio-card-eq i {
     display: block;
-    width: 6px;
-    height: 12px;
-    border-radius: 3px;
+    width: 8px;
+    height: 16px;
+    border-radius: 4px;
     background: #fff;
     transform-origin: bottom center;
 }
@@ -731,22 +779,27 @@ body {
     animation: radio-eq-bounce 0.9s ease-in-out infinite;
 }
 
-.radio-card.is-playing .radio-card-eq i:nth-child(1) { animation-delay: 0.1s; height: 14px; }
-.radio-card.is-playing .radio-card-eq i:nth-child(2) { animation-delay: 0.25s; height: 30px; }
-.radio-card.is-playing .radio-card-eq i:nth-child(3) { animation-delay: 0.05s; height: 20px; }
-.radio-card.is-playing .radio-card-eq i:nth-child(4) { animation-delay: 0.2s; height: 36px; }
-.radio-card.is-playing .radio-card-eq i:nth-child(5) { animation-delay: 0.15s; height: 16px; }
+.radio-card.is-playing .radio-card-eq i:nth-child(1) { animation-delay: 0.1s; height: 22px; }
+.radio-card.is-playing .radio-card-eq i:nth-child(2) { animation-delay: 0.25s; height: 48px; }
+.radio-card.is-playing .radio-card-eq i:nth-child(3) { animation-delay: 0.05s; height: 32px; }
+.radio-card.is-playing .radio-card-eq i:nth-child(4) { animation-delay: 0.2s; height: 58px; }
+.radio-card.is-playing .radio-card-eq i:nth-child(5) { animation-delay: 0.15s; height: 26px; }
 
 .radio-card-name {
     position: absolute;
-    right: 14px;
-    bottom: 14px;
-    left: auto;
-    z-index: 1;
-    font-size: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 14px 12px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     line-height: 1.2;
-    text-align: right;
-    max-width: calc(100% - 28px);
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+    max-width: none;
 }
 
 .hub-back {
@@ -959,11 +1012,53 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .player-video {
+    position: relative;
+    z-index: 0;
     width: 100%;
     height: 100%;
     object-fit: contain;
     background: #000;
     display: none;
+}
+
+.player-youtube {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: #000;
+    z-index: 2;
+    display: none;
+    pointer-events: none;
+}
+
+.player.is-youtube .player-youtube {
+    display: block;
+    pointer-events: auto;
+}
+
+.player-youtube[hidden] {
+    display: none !important;
+    pointer-events: none !important;
+}
+
+/* YouTube live tiles have no /frame still — keep the static poster visible */
+.live-card.channel[data-youtube="1"] .channel-thumb.has-image .channel-poster {
+    display: block;
+}
+
+.live-card.channel[data-youtube="1"] .channel-thumb.has-image:not(.has-snapshot):not(.is-live):not(.is-frozen):not(.is-unavailable) .vod-card-gradient {
+    display: block;
+}
+
+.live-card.channel[data-youtube="1"] .channel-thumb.has-image:not(.has-snapshot):not(.is-live):not(.is-frozen):not(.is-unavailable) .vod-card-name {
+    top: auto;
+    bottom: 0;
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+    padding: 20px 16px;
 }
 
 .player-video::cue {
@@ -972,6 +1067,49 @@ body.is-fullscreen .vod-view.is-active {
     font-size: 1.35em;
     line-height: 1.35;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    /* isolate + rtl: punctuation stays at the Hebrew sentence end even when
+       a Latin name (Simone) appears in the same cue */
+    direction: rtl;
+    unicode-bidi: isolate;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+}
+
+/* Halv åtta Hebrew. Drawn in HTML so Tizen cannot paint its caption bar.
+   translate3d keeps the text above the video plane (same trick as the controls). */
+.player-subs {
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    bottom: 88px;
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    background: none;
+    color: #fff;
+    text-align: center;
+    direction: rtl;
+    font-size: 58px;
+    font-weight: normal;
+    line-height: 1.28;
+    letter-spacing: 0;
+    white-space: pre-line;
+    pointer-events: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    text-shadow:
+        -1px -1px 0 rgba(0, 0, 0, 0.9),
+        1px -1px 0 rgba(0, 0, 0, 0.9),
+        -1px 1px 0 rgba(0, 0, 0, 0.9),
+        1px 1px 0 rgba(0, 0, 0, 0.9),
+        0 2px 6px rgba(0, 0, 0, 0.45);
+}
+
+.player-subs[hidden] {
+    display: none !important;
+}
+
+.player:has(.vod-controls:not([hidden]):not(.is-auto-hidden)) .player-subs {
+    bottom: 220px;
 }
 
 .player-message {
@@ -1066,7 +1204,7 @@ body.is-fullscreen .vod-view.is-active {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 64px 200px;
+    padding: 0 200px 160px;
     background: transparent;
     pointer-events: none;
 }
@@ -1097,7 +1235,8 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .vod-pause-series,
-.vod-pause-episode {
+.vod-pause-episode,
+.vod-pause-desc {
     opacity: 0;
     transform: translateX(64px);
     transition:
@@ -1127,8 +1266,30 @@ body.is-fullscreen .vod-view.is-active {
     transition-delay: 0.18s;
 }
 
+.vod-pause-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+    margin: 18px 0 0;
+    max-width: 920px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: clamp(22px, 1.8vw, 28px);
+    font-weight: 500;
+    line-height: 1.35;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+    transition-delay: 0.28s;
+}
+
+.vod-pause-desc[hidden] {
+    display: none;
+}
+
 .vod-pause-info.is-visible .vod-pause-series,
-.vod-pause-info.is-visible .vod-pause-episode {
+.vod-pause-info.is-visible .vod-pause-episode,
+.vod-pause-info.is-visible .vod-pause-desc {
     opacity: 1;
     transform: translateX(0);
 }
@@ -1177,15 +1338,15 @@ body.is-fullscreen .vod-view.is-active {
     background: #fff;
     color: #111;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
-    padding: 14px 28px;
+    padding: 18px 28px;
     border-radius: 10px;
     cursor: pointer;
     direction: rtl;
     white-space: nowrap;
     margin: 0;
-    opacity: 1;
+    opacity: 0.75;
     visibility: visible;
     transform: none;
     transition:
@@ -1201,16 +1362,15 @@ body.is-fullscreen .vod-view.is-active {
 .vod-restart-btn:focus,
 .vod-restart-btn.is-focused {
     outline: none;
-    border-width: 4px;
     border-color: #6bb3ff;
-    background: #fff;
-    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.45);
-    transform: scale(1.04);
+    background: #8ec8ff;
+    box-shadow: none;
+    transform: none;
 }
 
 .vod-restart-btn.is-auto-hidden {
     /* Visibility follows .vod-controls; class kept for focus logic */
-    opacity: 1;
+    opacity: 0.75;
     visibility: visible;
     pointer-events: auto;
     transform: none;
@@ -1259,7 +1419,7 @@ body.is-fullscreen .vod-view.is-active {
     top: 0;
     bottom: 0;
     width: 0%;
-    background: #fff;
+    background: #ff0000;
     border-radius: 999px;
     will-change: width;
 }
@@ -1272,8 +1432,8 @@ body.is-fullscreen .vod-view.is-active {
     height: 28px;
     margin: -14px 0 0 -14px;
     border-radius: 50%;
-    background: #fff;
-    border: 3px solid var(--accent);
+    background: #ff0000;
+    border: none;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
     transform: scale(1);
     transform-origin: center center;
@@ -1285,9 +1445,9 @@ body.is-fullscreen .vod-view.is-active {
 }
 
 .vod-seek-wrap.is-focused .vod-seek-visual-thumb {
-    background: #8ec8ff;
-    border-color: #6bb3ff;
-    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.5), 0 2px 14px rgba(0, 0, 0, 0.45);
+    background: #ff0000;
+    border-color: #ff0000;
+    box-shadow: 0 0 0 4px rgba(255, 0, 0, 0.35), 0 2px 14px rgba(0, 0, 0, 0.45);
     animation: vod-seek-thumb-nudge 0.45s ease-out;
 }
 
@@ -1312,15 +1472,16 @@ body.is-fullscreen .vod-view.is-active {
     background: #fff;
     color: #111;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
-    padding: 14px 28px;
+    padding: 18px 28px;
     border-radius: 10px;
     cursor: pointer;
     margin: 0;
     direction: rtl;
     white-space: nowrap;
-    transition: border-color 0.15s ease, border-width 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    opacity: 0.75;
+    transition: border-color 0.15s ease, border-width 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease, opacity 0.45s ease;
 }
 
 .vod-next-fill {
@@ -1340,6 +1501,22 @@ body.is-fullscreen .vod-view.is-active {
     color: #111;
 }
 
+.vod-next-label-onfill {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 18px 28px;
+    color: #000;
+    pointer-events: none;
+    visibility: hidden;
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path 0.25s linear;
+}
+
 .vod-next-btn[hidden] {
     display: none;
 }
@@ -1347,11 +1524,21 @@ body.is-fullscreen .vod-view.is-active {
 .vod-next-btn:focus,
 .vod-next-btn.is-focused {
     outline: none;
-    border-width: 4px;
     border-color: #6bb3ff;
+    background: #8ec8ff;
+    box-shadow: none;
+    transform: none;
+}
+
+.vod-next-btn:focus .vod-next-fill,
+.vod-next-btn.is-focused .vod-next-fill {
+    background: #5aa3ee;
+}
+
+.vod-next-btn.is-prompt .vod-next-fill,
+.vod-next-btn.is-prompt:focus .vod-next-fill,
+.vod-next-btn.is-prompt.is-focused .vod-next-fill {
     background: #fff;
-    box-shadow: 0 0 0 4px rgba(107, 179, 255, 0.45);
-    transform: scale(1.04);
 }
 
 .vod-next-btn:focus .vod-next-label,
@@ -1359,17 +1546,23 @@ body.is-fullscreen .vod-view.is-active {
     color: #111;
 }
 
-.vod-next-btn.is-prompt {
-    background: #fff;
-}
-
-.vod-next-btn.is-prompt .vod-next-label {
-    color: #111;
-}
-
+.vod-next-btn.is-prompt,
 .vod-next-btn.is-prompt:focus,
 .vod-next-btn.is-prompt.is-focused {
-    background: #fff;
+    background: #000;
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
+.vod-next-btn.is-prompt .vod-next-label,
+.vod-next-btn.is-prompt:focus .vod-next-label,
+.vod-next-btn.is-prompt.is-focused .vod-next-label {
+    color: #fff;
+}
+
+.vod-next-btn.is-prompt .vod-next-label-onfill,
+.vod-next-btn.is-prompt:focus .vod-next-label-onfill,
+.vod-next-btn.is-prompt.is-focused .vod-next-label-onfill {
+    visibility: visible;
 }
 
 .vod-controls-inner {
@@ -1385,14 +1578,14 @@ body.is-fullscreen .vod-view.is-active {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 28px;
+    gap: 48px;
     max-width: 1580px;
     width: 100%;
     margin: 0 auto;
 }
 
 .vod-controls-stack:has(#vod-next-btn[hidden]) {
-    gap: 28px;
+    gap: 48px;
 }
 
 .vod-controls-next-row {
@@ -1456,9 +1649,22 @@ body.is-fullscreen .vod-view.is-active {
     display: none;
 }
 
+.vod-btn.is-paused,
+.vod-btn.is-paused:focus,
+.vod-btn.is-paused:hover {
+    background: transparent;
+}
+
 .vod-btn.is-paused .vod-btn-icon-play {
-    display: block;
-    margin-inline-start: 3px; /* optically center the triangle */
+    display: none;
+}
+
+.vod-btn.is-paused::before {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: url("../images/vod/play.png") center / contain no-repeat;
+    opacity: 0.5;
 }
 
 .vod-time {
@@ -1707,8 +1913,8 @@ body.is-fullscreen .vod-view.is-active {
     min-height: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    /* Room for focus scale(1.06) so left/right tile frames aren't clipped */
-    padding: 16px 32px 120px;
+    /* Room for the focused tile's visual scale so the frame isn't clipped */
+    padding: 36px 64px 120px;
     align-content: start;
     box-sizing: border-box;
 }
@@ -1774,8 +1980,8 @@ body.is-fullscreen .vod-view.is-active {
     min-height: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    /* Extra top pad so focus scale(1.06) + blue frame aren't clipped under the season border */
-    padding: 20px 32px 120px;
+    /* Room for the focused tile's visual scale so the frame isn't clipped */
+    padding: 36px 64px 120px;
     align-content: start;
     box-sizing: border-box;
 }
@@ -2192,10 +2398,19 @@ body.is-profile-dialog-open #vod-tab-mylist {
 .vod-series-tile {
     position: relative;
     min-width: 0;
+    /* Lock the cell to the poster box. The focused scale is visual only. */
+    aspect-ratio: 16 / 9;
+}
+
+.vod-series-tile.is-raised {
+    z-index: 20;
 }
 
 .vod-series-tile .vod-card {
+    position: absolute;
+    inset: 0;
     width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -2328,6 +2543,13 @@ body.is-profile-dialog-open #vod-tab-mylist {
     transition: transform 0.1s ease;
 }
 
+/* VOD posters keep a fixed layout box. Focus grows an inner layer only. */
+.vod-card:not(.live-card):not(.hub-card) {
+    aspect-ratio: 16 / 9;
+    transform: none;
+    transition: none;
+}
+
 .vod-card-inner {
     display: block;
     width: 100%;
@@ -2337,6 +2559,17 @@ body.is-profile-dialog-open #vod-tab-mylist {
     position: relative;
     background: #1a1a1a;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.vod-card:not(.live-card):not(.hub-card) .vod-card-inner {
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: auto;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .vod-card.is-focused .vod-card-inner {
@@ -2352,7 +2585,20 @@ body.is-profile-dialog-open #vod-tab-mylist {
     inset: 0;
     display: block;
     overflow: hidden;
-    background: #1a1a1a;
+    background: #2a2a2a;
+}
+
+.vod-card-img-wrap.is-missing {
+    background: #2a2a2a;
+}
+
+.vod-card-img-wrap.is-missing .vod-card-img-line {
+    display: none;
+}
+
+.vod-card-img.is-missing {
+    opacity: 0 !important;
+    visibility: hidden;
 }
 
 .vod-card-img-line {
@@ -2388,16 +2634,18 @@ body.is-profile-dialog-open #vod-tab-mylist {
     background: #1a1a1a;
 }
 
-/* Reveal only for lazy-loaded tile images (not hub / static posters) */
+/* Tile images stay visible once they have a src.
+   A clip-path wipe used to hide them until the animation ended, and on
+   Samsung that animation never finishes, so every card stayed black. */
 .vod-card-img-wrap .vod-card-img {
     position: absolute;
     inset: 0;
-    clip-path: inset(50% 0 50% 0);
-    opacity: 0;
+    opacity: 1;
+    clip-path: none;
 }
 
 .vod-card-img-wrap .vod-card-img.is-revealed {
-    animation: vod-img-reveal 1.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation: none;
 }
 
 .vod-card-img-wrap.is-cached .vod-card-img,
@@ -2556,14 +2804,49 @@ body.is-profile-dialog-open #vod-tab-mylist {
     direction: rtl;
 }
 
-/* Focus: slight enlargement + blue frame (class only — avoids :focus paint cost on TV) */
+/* Focus ring stays on the card. VOD size change is the inner layer, so neighbors do not move. */
 .vod-card.is-focused {
     transform: scale(1.06);
     z-index: 10;
 }
 
+.vod-card.is-focused:not(.live-card):not(.hub-card) {
+    transform: none;
+    z-index: 10;
+}
+
+.vod-card.is-focused:not(.live-card):not(.hub-card) .vod-card-inner {
+    transform: scale(1.18);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
 .vod-card.is-focused::after {
     content: none;
+}
+
+/* Play icon on episode tiles only, centered at half opacity. */
+#episodes-list .vod-card .vod-card-inner::before,
+.home-continue-card .vod-card-inner::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 112px;
+    height: 112px;
+    background: url("../images/vod/play.png") center / contain no-repeat;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.82);
+    transition:
+        opacity 0.36s ease,
+        transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
+    z-index: 5;
+    pointer-events: none;
+}
+
+#episodes-list .vod-card.is-focused .vod-card-inner::before,
+.home-continue-card.is-focused .vod-card-inner::before {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(1);
 }
 
 /* ── Home hub cards ── */
@@ -2582,9 +2865,10 @@ body.is-profile-dialog-open #vod-tab-mylist {
     justify-content: space-evenly;
     align-content: stretch;
     padding-top: 28px;
-    padding-bottom: 36px;
+    padding-bottom: 72px;
     gap: 16px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     box-sizing: border-box;
 }
 
@@ -2614,13 +2898,22 @@ body.is-profile-dialog-open #vod-tab-mylist {
     min-height: auto;
     align-content: center;
     flex-shrink: 0;
+    /* Room for the focused tile scale so it isn't clipped and neighbors stay put */
+    padding: 32px 28px;
+    box-sizing: border-box;
 }
 
 .home-continue {
-    max-width: 1400px;
+    max-width: 1480px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 24px;
     flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+#home-mylist.home-continue {
+    padding-bottom: 24px;
 }
 
 .home-continue[hidden] {
@@ -2643,7 +2936,7 @@ body.is-profile-dialog-open #vod-tab-mylist {
     margin: 0 0 10px;
     color: #fff;
     font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
     text-align: right;
     direction: rtl;
@@ -2656,25 +2949,25 @@ body.is-profile-dialog-open #vod-tab-mylist {
     gap: 24px;
     overflow-x: auto;
     overflow-y: hidden;
-    /* Room for focus ring + scale(1.06) so first/last cards aren't clipped */
-    padding: 12px 24px 16px;
+    /* Extra side room so the 1.18 focus scale isn't clipped at the edges */
+    padding: 36px 72px 52px;
     scroll-behavior: smooth;
     direction: ltr;
     -webkit-overflow-scrolling: touch;
     box-sizing: border-box;
-    /* Soft fade at scroll edges */
+    /* Soft fade outside the focus-scale zone */
     -webkit-mask-image: linear-gradient(
         to right,
         transparent 0,
-        #000 48px,
-        #000 calc(100% - 48px),
+        #000 64px,
+        #000 calc(100% - 64px),
         transparent 100%
     );
     mask-image: linear-gradient(
         to right,
         transparent 0,
-        #000 48px,
-        #000 calc(100% - 48px),
+        #000 64px,
+        #000 calc(100% - 64px),
         transparent 100%
     );
 }
@@ -2696,7 +2989,7 @@ body.is-profile-dialog-open #vod-tab-mylist {
 }
 
 .home-continue-card.vod-card.is-focused {
-    transform: scale(1.06);
+    transform: none;
 }
 
 .home-continue-card .vod-card-name {
@@ -2718,15 +3011,39 @@ body.is-profile-dialog-open #vod-tab-mylist {
 
 .hub-card.vod-card {
     animation: none;
+    aspect-ratio: 16 / 9;
+    transform: none;
+    transition: none;
+    overflow: visible;
+    border: none;
+    background: transparent;
+    box-shadow: none;
 }
 
 .hub-card.vod-card .vod-card-inner {
-    aspect-ratio: 16 / 9;
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+    aspect-ratio: auto;
     min-height: 0;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform 0.48s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.hub-card.vod-card.is-focused {
-    transform: scale(1.06);
+.hub-card.vod-card.is-focused,
+.hub-card.channel.is-focused {
+    transform: none;
+    z-index: 10;
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.hub-card.vod-card.is-focused .vod-card-inner {
+    transform: scale(1.18);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
 }
 
 .hub-card-label {
@@ -3073,8 +3390,121 @@ body.is-profile-ime-open .profile-action-btn:not([disabled]):not(.is-disabled) {
 
 body.is-fullscreen .profile-menu,
 body.is-vod-ime-open .profile-menu,
-body.is-profile-dialog-open .profile-menu {
+body.is-profile-dialog-open .profile-menu,
+body.is-catalog-updating .profile-menu {
     display: none !important;
+}
+
+.catalog-update {
+    position: fixed;
+    inset: 0;
+    z-index: 140;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    background: rgba(0, 0, 0, 0.78);
+}
+
+.catalog-update[hidden] {
+    display: none !important;
+}
+
+.catalog-update-panel {
+    width: min(860px, 90vw);
+    max-height: 82vh;
+    overflow: auto;
+    padding: 40px 44px 36px;
+    border-radius: 20px;
+    background: linear-gradient(165deg, #1a2030 0%, #12161f 100%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+    text-align: center;
+}
+
+.catalog-update-title {
+    margin: 0 0 18px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.catalog-update-list {
+    margin: 0 0 22px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.9);
+    white-space: pre-line;
+}
+
+.catalog-update-status {
+    margin: 0 0 18px;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.catalog-update-bar {
+    height: 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+    direction: ltr;
+}
+
+.catalog-update-fill {
+    height: 100%;
+    width: 0%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #3d8bfd, #6bb3ff);
+    transition: width 0.25s ease;
+}
+
+.catalog-update-progress {
+    margin: 0;
+}
+
+.catalog-update-progress[hidden] {
+    display: none !important;
+}
+
+.catalog-update-pct {
+    margin: 16px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.92);
+    letter-spacing: 0.04em;
+}
+
+.catalog-update-ok {
+    display: inline-block;
+    margin: 28px auto 0;
+    min-width: 220px;
+    padding: 16px 36px;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 12px;
+    background: rgba(61, 139, 253, 0.2);
+    color: #fff;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.catalog-update-ok[hidden] {
+    display: none !important;
+}
+
+.catalog-update-ok.is-focused,
+.catalog-update-ok:focus {
+    outline: none;
+    border-color: #6bb3ff;
+    background: rgba(61, 139, 253, 0.55);
+    box-shadow: 0 0 0 3px rgba(107, 179, 255, 0.35);
 }
 
 .profile-dialog {

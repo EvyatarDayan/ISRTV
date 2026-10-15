@@ -1,0 +1,791 @@
+0|I "Halv åtta hos mig" bjuder
+fyra go'ingar varandra på middag.
+----
+1|Alla middagar får poäng.
+----
+2|Högst poäng vinner 15 000 kronor.
+Hängde ni med?
+----
+3|Bra, nu börjar "Halv åtta hos mig".
+Välkomna!
+----
+4|Välkomna.
+"Halv åtta hos mig" är på västkusten.
+----
+5|Eftersom vi inleder i sillens
+huvudstad, Kungshamn-
+----
+6|-tänkte jag att sillkungen
+skulle hälsa oss välkomna.
+----
+7|Sillkungen är visst en djuphavsfisk
+som lever på 500 meters djup.
+----
+8|Nu är vi alltså i Kungshamn.
+----
+9|Vem är det som kommer här
+om inte Simone?
+----
+10|Hur känns det att leda
+veckans premiärprogram?
+----
+11|Det är bara underbart.
+----
+12|Jag är så himla glad.
+Det är lite jag.
+----
+13|Att det händer nåt
+utanför den vanliga vardagen.
+----
+14|Det här är nåt helt nytt.
+----
+15|Du kanske ändå kan visa
+hur en vanlig vardag ser ut?
+----
+16|Absolut.
+----
+17|Har ni äntligen kommit hit?
+----
+18|Jag tänkte att vi skulle se på
+den underbara omgivningen här.
+----
+19|-Vad är det för besättning?
+-Vi har min son August.
+----
+20|Och så har vi Jonas,
+min blivande sambo.
+----
+21|-Vad är det bästa med Kungshamn?
+-Naturen är magisk.
+----
+22|Holmarna, klipporna, doften av tång.
+----
+23|-Ah, tång...
+-Ljuset.
+----
+24|Solnedgångarna.
+----
+25|Jag ser på ljudteknikern att vi bör
+lägga till. Han blir lätt sjösjuk.
+----
+26|Hej då!
+----
+27|-Vad gör du mer här?
+-Jag driver en skönhetssalong.
+----
+28|Jag har haft den i 30 år.
+----
+29|Det förklarar
+varför alla är så snygga här.
+----
+30|-Hur ska du göra tjejen nöjd?
+-Hon ska få en lyxmask.
+----
+31|Det är lite som att baka en tårta.
+----
+32|Som att få en gräddtårta i ansiktet.
+----
+33|Det måste vara svårt
+att se med en sån där tårtmask.
+----
+34|God natt brukar jag säga.
+----
+35|Kan hon prata med masken?
+----
+36|-Vi har inte limmat ihop munnen.
+-Vad skönt.
+----
+37|Men om det kommer
+en riktig snacksalig typ.
+----
+38|En rödhårig programledare
+som pladdrar...
+----
+39|Händer det då
+att du limmar ihop munnen?
+----
+40|Ibland händer det.
+Absolut, självklart.
+----
+41|Det blir inte en feel good-stund då,
+men det gör jag.
+----
+42|Jag tror jag står över
+behandlingen idag...
+----
+43|Vi lämnar Little shop of horrors
+och tittat på nåt annat.
+----
+44|-Här bor jag, välkommen in.
+-Tackar.
+----
+45|Vad fint du bor
+och vilka gosiga jyckar.
+----
+46|-Vad heter de?
+-Här har vi Mamagucci.
+----
+47|Och så har vi lilla Wilma,
+hennes dotter.
+----
+48|-Hur får du pälsen så fluffig?
+-De har precis varit på spa.
+----
+49|De har blivit ompysslade där.
+----
+50|Det som skiljer hundspaet från din
+salong är att hundarna inte får mask.
+----
+51|Då bekantar vi oss
+med övriga västkustbor-
+----
+52|-som ska vara med den här veckan.
+----
+53|Imorgon är det Hampus
+som ska fronta.
+----
+54|Han ska visa att en butikschef
+inte är för fin för att fronta.
+----
+55|På fritiden tar han
+stenhårda promenader på klipporna-
+----
+56|-och han avslöjar
+vilka favoritkomikerna är.
+----
+57|De är förbannat roliga.
+----
+58|På onsdag får vi följa med Maria och
+plocka tång till tvåltillverkning.
+----
+59|Hon visar sina stora
+grönsaksodlingar-
+----
+60|-men prästkragen
+plockar hon i garderoben.
+----
+61|Svarta prästrocken,
+högtidsdräkten som kallas för kaftan.
+----
+62|Finalvärd är Lars som har
+en sjuhelsikes utsikt från sin altan.
+----
+63|Det var ingen dålig utsikt här.
+----
+64|Säljaren Lars puttrar runt på sjön
+och snackar med stenar.
+----
+65|Det är Ola. Hej, Ola.
+----
+66|Maria, vad tror du
+det blir för käk ikväll?
+----
+67|Jag förställer mig mat från trakten.
+----
+68|I vilken form
+har jag jättesvårt att spekulera i.
+----
+69|Till förrätt blir det
+gratinerad kungskrabba-
+----
+70|-med citron- och vitlökssmör,
+surdegsbröd och en salsa.
+----
+71|-Lars, hur låter det?
+-Fantastiskt.
+----
+72|-Nåt speciellt som lockar?
+-Allt.
+----
+73|Kungskrabba har jag ätit en gång.
+----
+74|En salsa, det är alltid trevligt
+att dansa efteråt.
+----
+75|-Har du putsat dansskorna?
+-Absolut.
+----
+76|Simone, vad är
+så speciellt med kungskrabba?
+----
+77|Den är inte så vanlig.
+Den är festlig att gratinera.
+----
+78|Jag ska gratinera den på grillen.
+----
+79|-Hampus, gillar du kungskrabba?
+-Jag gillar vanlig krabba.
+----
+80|Det här kan bli en succé.
+----
+81|Maria, gratinerad kungskrabba?
+----
+82|Det låter gott.
+Jag har ätit kungskrabba förut.
+----
+83|Men inte gratinerad, tror jag.
+----
+84|Jag penslar med
+lite olivolja och vitlök.
+----
+85|Sen kommer den varma citronsåsen på
+med brynt smör.
+----
+86|Då var den klar.
+Jag fortsätter när gästerna kommer.
+----
+87|Ska du gå nu?
+Då kollar jag på varmrätten.
+----
+88|Här har vi en tiopoängare.
+----
+89|Inget är så gott som grillad marulk.
+----
+90|Det här kan bli magi.
+----
+91|Fisken får först ett marinadbad.
+----
+92|-Vad gör marinaden för fisken?
+-Den får en karaktär i smaken.
+----
+93|Man kan få fram det man vill ha.
+----
+94|Vi ska inte ta bort den goda
+fisksmaken, utan förhöja den.
+----
+95|-Hur smakar marulk, Lars?
+-Fisk.
+----
+96|En vit fisk, jättegod.
+----
+97|-Beskriv marulkens signalement.
+-Det går inte.
+----
+98|Den ser för jävlig ut.
+Titta på mig, då.
+----
+99|Det är det närmaste vi kan komma.
+----
+100|Gråsprängt hår, glasögonbågar
+och en ormbunksmönstrad skjorta.
+----
+101|Marulken marineras
+i bland annat olivolja-
+----
+102|-soja, persilja,
+vitlök, peppar och salt.
+----
+103|-Nåt mer att förbereda?
+-Hummersåsen.
+----
+104|-Vad tror du om den, Maria?
+-Låter jättegott.
+----
+105|-Hur vill du ha den?
+-Att den fastnar på fisken.
+----
+106|Den får inte smita iväg.
+----
+107|-Man vill få en klick på sin fisk.
+-Inte för simmig hummersås.
+----
+108|Till såsen fräser Simone rotselleri,
+rödlök, tomat och persilja.
+----
+109|-Lite cayenne.
+-Och smaka av...
+----
+110|Nå? Jag tolkar det som ett okej.
+----
+111|I med hummerfond, grädde,
+creme fraiche och tomatpuré.
+----
+112|Då var såsen klar.
+Resten gör vi när gästerna kommer.
+----
+113|Då spanar vi in efterrätten.
+----
+114|-Lars, gillar du tårta?
+-Gott.
+----
+115|-Vad ska det vara för bär?
+-Inte vinbär, det blir bara surt.
+----
+116|-Simone, vad är det för tårta?
+-En krispig sommartårta.
+----
+117|Det är marinerade frukter och bär.
+----
+118|Hallon, blåbär,
+jordgubb och persika.
+----
+119|Maria, det blir
+en massa frukt och bär.
+----
+120|Det låter väl som manna
+från himlen för en präst?
+----
+121|-Jag har faktiskt aldrig ätit frukt.
+-Va?
+----
+122|Jag tycker det är
+lite otäckt med frukt.
+----
+123|Det är nåt som är lite läskigt.
+----
+124|Ja, det kan ju gå fel med frukt.
+Kolla bara på Adam och Eva...
+----
+125|Ska du spotta ut
+bären i blomkrukorna?
+----
+126|-Ja, det ska jag göra.
+-Jag gör en skenmanöver.
+----
+127|Allt för att slippa
+ett nytt syndafall.
+----
+128|Är det bara läskig frukt i tårtan?
+----
+129|Nu ska jag blanda ihop
+själva smeten.
+----
+130|-Hampus, lätta ditt hjärta.
+-Ska jag vara helt ärlig?
+----
+131|Jag är inget jättefan av tårta-
+----
+132|-men den kan vara ganska fräsch.
+Den får inte vara mastig.
+----
+133|-Du har ju ingen tårtbotten?
+-Det blir en tårta.
+----
+134|Om man lägger det i en form
+blir det en hel tårta.
+----
+135|Jag gör portioner i glas.
+Det blir lite festligt.
+----
+136|Det blir alltså en sommartårta utan
+varken tårtform eller tårtbotten.
+----
+137|Lars, nu sätter vi strax
+igång med första middagen.
+----
+138|Jag är jättetaggad.
+----
+139|Och så med inlevelse...
+----
+140|Jädrar, du skrämmer slag på mig.
+Nu tar vi en kort paus.
+----
+141|Vi är strax tillbaka.
+----
+142|Det blir hela havet stormar.
+----
+143|Vi får ett tips
+hur man slipper stekos i köket.
+----
+144|Man flyttar ut köket på sommaren.
+----
+145|Hur klarar Maria av
+den fruktade frukten?
+----
+146|Jag kikade lite försiktigt
+vad som var där under.
+----
+147|Vi är tillbaka i Bohuslän,
+närmare bestämt i Kungshamn.
+----
+148|Simone verkar ha allt under kontroll.
+----
+149|Det går bara runt.
+Jag är helt omtumlad.
+----
+150|På ett roligt sätt, jätteskoj.
+----
+151|Här är första gästen, prästen Maria
+som inte alls gillar frukt.
+----
+152|Hej, välkommen!
+----
+153|-Känner ni varandra?
+-Ja, men inte väldigt nära.
+----
+154|Simone har en gång
+fixat mina fransar.
+----
+155|Jag har också haft en begravning
+i Simones familj.
+----
+156|Begravning och fransvård,
+då känner ni verkligen varandra.
+----
+157|Det här solskenet kallas för Lars.
+----
+158|-Välkommen.
+-Hej, Lars heter jag.
+----
+159|Nu skulle det sitta fint
+med en ung butikschef.
+----
+160|Titta, här kommer han.
+----
+161|-Hej, Hampus!
+-Hej.
+----
+162|-Hampus, hur känner du Simone?
+-Jag är god vän med Simones dotter.
+----
+163|Här i huset har man sprungit.
+----
+164|-Jag behöver inte gå husesyn.
+-Då får du visa hemligheterna.
+----
+165|-Simone, ordet är ditt.
+-Jag vill utbringa en skål för oss.
+----
+166|-Hjärtligt välkomna.
+-Skål.
+----
+167|Nu får du springa in i köket.
+Vi andra tar en husesyn.
+----
+168|Se om det här hänt nåt
+sen jag var här sist.
+----
+169|-Oj, vad är det här?
+-Det är disko.
+----
+170|-Vi får klä ut oss.
+-Vad säger du om diskohörnan, Maria?
+----
+171|En diskohörna brukar det
+inte finnas när jag gör hembesök.
+----
+172|Nej, man gömmer det
+när det är begravning.
+----
+173|Det var skoj, vi hade roligt.
+----
+174|Hampus, hur går det till
+när du gör hembesök?
+----
+175|Lite närgånget kanske.
+Hur blev bilderna?
+----
+176|En stor besvikelse.
+----
+177|-Nej, här ska vi se.
+-Det fanns en baksida.
+----
+178|Häng upp dem så går vi vidare.
+----
+179|Nu är vi i Simones salong.
+----
+180|Simone tar med sig
+jobbet hem alltså.
+----
+181|-Jag kan tänka mig att lägga mig.
+-Lars högg direkt.
+----
+182|-Jag såg en brits.
+-Britsen är ditt naturliga habitat.
+----
+183|Det är modigt av dig
+att ställa upp på behandling i tv.
+----
+184|Det är en skönhetssalong.
+Det kan bara bli bättre.
+----
+185|-Vi lär inte känna igen dig sen.
+-Snyggt, ett skägg av lera.
+----
+186|-Var det obehagligt?
+-Nej, det var rätt skönt.
+----
+187|-Du känner dig trygg i deras händer?
+-Absolut, inga problem.
+----
+188|Blir det fel
+så har jag i alla fall hjälp nära.
+----
+189|-En sista smörjelse.
+-Ja, jag var på väg att säga det.
+----
+190|Vad snyggt det blev. Jag kommer
+tillbaka. Har ni tid imorgon?
+----
+191|Ni kan väl synka era kalendrar?
+----
+192|Jag ska se hur det går för Simone.
+----
+193|Krabban är i fin form, i en fin form.
+----
+194|-Då häller jag på citronsås.
+-Och så riven ost.
+----
+195|Sen ska vi ut till grillen.
+----
+196|Varför grillar du krabban
+istället för att ugnsgratinera den?
+----
+197|Det blir lite mer somrigt.
+----
+198|Man flyttar väl ut köket
+på sommaren om man kan?
+----
+199|Grönska gör sig bättre i tv också.
+----
+200|-Det doftar ljuvligt.
+-Det här blir bra.
+----
+201|Hur går det till rent praktiskt
+när man äter kungskrabba?
+----
+202|Det gäller att vara stark i nyporna
+och det gäller att gräva.
+----
+203|Krabban serveras med smält smör
+smaksatt med vitlök och citron-
+----
+204|-samt bröd och mangosalsa.
+Läs mer på köket.se.
+----
+205|Då ska jag servera.
+----
+206|Gratinerad kungskrabba
+med surdegsbröd och en salsa.
+----
+207|-Varsågod.
+-Tackar, tackar.
+----
+208|Jag ska hämta våtservetter.
+Ni kommer att använda händerna.
+----
+209|Hugg in nu.
+----
+210|-Hur fasiken fick du upp den?
+-Ta bara och bryt.
+----
+211|-Hjälp honom, Lars.
+-Vänd den åt andra hållet.
+----
+212|Hampus, vad säger du
+om kungskrabban?
+----
+213|Krabbklon var svår att öppna.
+----
+214|Man skäms för att säga det
+när man är uppvuxen med skaldjur.
+----
+215|Det var petigt och kletigt,
+men smakerna satt där.
+----
+216|Överlag väldigt bra.
+----
+217|-Gud, vad gott det var.
+-Tack.
+----
+218|-Syran från mangosalsan.
+-Vad roligt.
+----
+219|-Var det en lyckad förrätt, Maria?
+-Ja, goda smaker.
+----
+220|Det var gott med koriander till,
+men sen var det frukt.
+----
+221|Ja, som du fruktar.
+----
+222|Jag fick lägga det åt sidan,
+men gott bröd.
+----
+223|Jag har vigt par som passar
+sämre ihop än de här smakerna.
+----
+224|Lars, du såg
+verkligen fram emot det här.
+----
+225|Kungskrabba har jag aldrig ätit.
+Det var jättegott.
+----
+226|Lite mycket citron och syra,
+men det passade bra.
+----
+227|-Vad säger kocken själv?
+-Det känns som en succé.
+----
+228|Jag tyckte det blev jättegott.
+Jag ger mig själv en nia.
+----
+229|Vi rusar ut på altanen igen.
+----
+230|Då var det dags för lite grill igen.
+----
+231|-Det som åker på nu är marulk.
+-Kolla in dessa.
+----
+232|Jag hoppas att jag
+och gästerna blir lyriska.
+----
+233|Jag hoppas att Arja Sarja
+visar upp sin franska frilla.
+----
+234|Är inte hummersåsen
+värd en liten applåd?
+----
+235|Då var det dags att servera.
+----
+236|Grillad marulk med sommarprimörer,
+färsk potatis och hummersås.
+----
+237|Gud, vad gott det var.
+----
+238|-Maria, hur var marulken?
+-Bra grillad, perfekt konsistens.
+----
+239|Hummersåsen var så god
+och fina tillbehör till.
+----
+240|-Hampus, vad har du att säga?
+-Jag är ett stort fan av marulk.
+----
+241|Min var på gränsen till torr.
+Det drar ner varmrätten något.
+----
+242|Sommarprimörerna,
+hummersåsen, potatisen...
+----
+243|Klassiska smaker som sitter.
+----
+244|Nu måste vi snacka om vilken glow up
+Lars fick efter inpackningen.
+----
+245|-Känner du igen mig?
+-Fantastiskt, vilken lyster.
+----
+246|Skål för din glow.
+----
+247|En behandling till
+och du får visa leg på bolaget.
+----
+248|Marulken var jättegod.
+Hummersåsen också.
+----
+249|-Hur smakade såsen?
+-Den smakade hummer.
+----
+250|Lite cayennepeppar, lite sting.
+Den var jättegod.
+----
+251|Desserten har åkt fram
+och toppas med vispgrädde.
+----
+252|Vad tror du gästerna säger om
+din allt annat än tårtformade tårta?
+----
+253|Jag tror de tycker
+att det känns gott, somrigt, fräscht.
+----
+254|Vi behöver lite sött efter all sälta.
+----
+255|Då var det klart, nu kör vi.
+----
+256|Sommartårta med frukt, bär
+och en touch av fläder.
+----
+257|Jag är livrädd för
+att få den här i knäet.
+----
+258|-Lasse, vad säger du om tårtan?
+-Den var som en glass.
+----
+259|Den var jättegod, krispig
+och med alla möjliga bär i.
+----
+260|-Jättegott.
+-Nektarin...
+----
+261|-Väldigt nära.
+-Persika.
+----
+262|Hur tacklade du frukten, Maria?
+----
+263|Jag kikar lite försiktigt
+vad som är där under.
+----
+264|Jag tittade lite på de andra
+vad de fiskade upp.
+----
+265|-Vågade du äta nåt?
+-Jag åt på kanterna och toppingen.
+----
+266|Vispgrädden och några bär
+slank ner ändå.
+----
+267|Hampus, du är inget fan av tårta,
+men funkade den här?
+----
+268|Jag såg en tårta framför mig.
+----
+269|Den var fryst
+och det var olika lager med frukt.
+----
+270|Sommar på en sked, magiskt god.
+----
+271|Jag vill utbringa en skål för
+Simone och den trevliga middagen.
+----
+272|-Tusen tack.
+-Skål.
+----
+273|Nu är veckans första kväll slut.
+Hur har ni haft det?
+----
+274|-Maria?
+-Ett bra gäng, jag var lite nervös.
+----
+275|Jag trivdes med dem.
+----
+276|Hampus, du får äran
+att ge veckans första poäng.
+----
+277|Desserten var ett perfekt avslut.
+----
+278|Marulken var lite torr.
+----
+279|Därför ger jag Simone en sjua.
+----
+280|-Lars?
+-Jag ger Simone...
+----
+281|-Vad står det på prästens skylt?
+-Jag ger Simone...
+----
+282|21 poäng totalt.
+----
+283|Imorgon ska vi se
+vad Hampus kokar ihop.
+----
+284|Vi ses då.
+----
+285|Hampus spelar
+ett högt spel med sin meny.
+----
+286|Det känns som en chansning.
+----
+287|Det blir bohusmästerskap i kägelbana.
+----
+288|Värden säger till på skarpen.
+----
+289|Ut ur mitt kök.
+----
+290|Man ska göra så här.
+----
+291|-Färga fransarna.
+-Har jag ofärgade fransar?
+----
+292|Text: Petter Lampinen
+Iyuno

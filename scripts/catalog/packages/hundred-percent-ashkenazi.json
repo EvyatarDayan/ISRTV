@@ -1,0 +1,23 @@
+{
+  "slug": "hundred-percent-ashkenazi",
+  "title": "עדי אשכנזי - מאה אחוז סטנדאפ",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/hundred_percent_ashkenazi",
+  "version": "b0a524c8ee7b",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 1,
+  "localPoster": "images/kanbox/hundred-percent-ashkenazi/series.jpg",
+  "catalogPoster": "scripts/catalog/media/hundred-percent-ashkenazi/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "עדי אשכנזי - מאה אחוז סטנדאפ",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/hundred_percent_ashkenazi-s1/VOD-73814855abd6361006.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Standup_Shows/Adi_Ashkenazi/Adi_Ashkenazi_100_Ahuz_Standup_130518_VOD_j76zx9a1/Adi_Ashkenazi_100_Ahuz_Standup_130518_VOD_j76zx9a1_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/hundred-percent-ashkenazi/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/hundred-percent-ashkenazi/s1-ep1.jpg"
+    }
+  ]
+}

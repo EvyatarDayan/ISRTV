@@ -1,0 +1,113 @@
+{
+  "slug": "east-side",
+  "title": "איסט סייד",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/",
+  "version": "439cd11f63b7",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 10,
+  "localPoster": "images/kanbox/east-side/series.jpg",
+  "catalogPoster": "scripts/catalog/media/east-side/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - מומי",
+      "subtitle": "דרמה חדשה על ג'ונגל הנדל\"ן של מזרח ירושלים. סוחר הקרקעות מומי בן דאהן יעשה הכל כדי להבטיח את עתידה של בתו, מאיה, הנמצאת על הרצף האוטיסטי 19.02.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158925/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2bwu4ljw/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - עיסאם",
+      "subtitle": "סוחר הקרקעות מומי בן דאהן יעשה הכל, אבל הכל! לסגור עסקאות נדל\"ן במזרח ירושלים, כדי להבטיח את עתידה של בתו, מאיה, הנמצאת על הרצף האוטיסטי. 21.02.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158931/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_csproann/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - אליס",
+      "subtitle": "סוחר הקרקעות מומי בן דאהן יעשה הכל לסגור עסקאות נדל\"ן במזרח ירושלים, כדי להבטיח את עתידה של בתו, הנמצאת על הרצף האוטיסטי. סודה של אליס, אמו של בוטרוס, \"נער המזבח\" של הפטריארך-מתגלה 26.02.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158934/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_2g2z2pzm/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - אשרף",
+      "subtitle": "אשרף מחפש את קרן שהבריזה לו באמצע הדייט ללא הצלחה. העמותה מסרבת לאשר את עסקת המלון עקב מחירה המופקע אך מומי לא מקבל את רוע הגזירה. הפטריארך טס ליוון לאמו החולה, ובהעדרו סופרוניוס מוביל ליתורגיה בכנסיה. 28.02.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158937/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_0z74cmxu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - תיאודורוס",
+      "subtitle": "בביקורו של הפטריארך היווני אצל אמו בכפר ילדותו ביוון, נפתחת תיבת פנדורה מעברו. 05.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158940/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_r67ltzcd/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - סופרוניוס",
+      "subtitle": "סופרוניוס עובר חוויה מכוננת שמכניסה אותו להתלבטות לגבי המשך דרכו. מומי נקלע למצוקה גדולה בעקבות ביטול מכירת המלון על ידי הפטריארך ופונה לקולגה מעברו בשב\"כ, שיסייע לו. 07.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158943/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_w76du5zr/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7 - אמל",
+      "subtitle": "אמל מקבלת את ההחלטה הקשה בחייה. העסקה של המלון לא מתקדמת כמצופה ומאירה מחליטה לברר מה קורה. מאיה מסרבת לעשות את מבחן המלצרות לצבא. 12.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158946/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jpnary4v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8 - מאירה",
+      "subtitle": "מאירה עושה עם מומי דיל מאחורי גבה של העמותה. אורחת לא צפויה מגיעה לבקר את מאיה. אליס הולכת להתייעץ עם הפטריארך לגבי יחסיה עם סופרוניוס. 14.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158949/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_106mwb84/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep8.jpg"
+    },
+    {
+      "ep": 9,
+      "season": 1,
+      "name": "פרק 9 - אסתי",
+      "subtitle": "אסתי מלווה את מאיה למבחן של הצבא בשווארמה בעוד מומי מקדם את רכישת \"הבית הקדוש\" בתחבולה מצמררת. רגע האמת של סופרוניוס מגיע. 19.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158952/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_m398kqj1/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep9.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep9.jpg"
+    },
+    {
+      "ep": 10,
+      "season": 1,
+      "name": "פרק 10 - פרק 10 - מאיה",
+      "subtitle": "חלומה של מאיה מתגשם אבל שונה מהמצופה. אמל עושה מעשה מרחיק לכת. עסקת המלון מתפוצצת בפרצופו של הפטריארך. מומי לא מודע לכך שהוא בסכנת חיים. 21.03.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11332/%D7%A2%D7%95%D7%A0%D7%94-1/158955/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gr5vy24v/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/east-side/ep10.jpg",
+      "catalogImage": "scripts/catalog/media/east-side/s1-ep10.jpg"
+    }
+  ]
+}

@@ -18,6 +18,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const { execFileSync } = require('child_process');
 const http = require('http');
 
 const ROOT = path.resolve(__dirname, '..');
@@ -166,6 +167,51 @@ function scoreStreamUrl(url) {
   return score;
 }
 
+async function waitForKanContent(page, opts) {
+  const needCards = !!(opts && opts.cards);
+  const timeout = (opts && opts.timeout) || 10000;
+  const started = Date.now();
+  while (Date.now() - started < timeout) {
+    const ok = await page
+      .evaluate((wantCards) => {
+        const text = document.body ? document.body.innerText || '' : '';
+        const challenge =
+          document.title === 'רק רגע...' ||
+          /ביצוע אימות אבטחה|Just a moment/i.test(text);
+        if (challenge) return false;
+        const h1 = ((document.querySelector('h1') || {}).textContent || '')
+          .replace(/\s+/g, ' ')
+          .trim();
+        if (!h1 || h1 === 'www.kan.org.il') return false;
+        if (wantCards) return document.querySelectorAll('a.card-link, a.card').length > 0;
+        return true;
+      }, needCards)
+      .catch(() => false);
+    if (ok) return true;
+    await page.waitForTimeout(400);
+  }
+  return false;
+}
+
+async function clickLoadMore(page) {
+  let prev = -1;
+  for (let i = 0; i < 15; i++) {
+    const count = await page.evaluate(() => document.querySelectorAll('a.card-link').length).catch(() => 0);
+    const btn = await page.$(
+      '#vod-program-show-more, #vod-page-items-show-more button, button:has-text("טען עוד")'
+    );
+    if (!btn) break;
+    if (count === prev) break;
+    prev = count;
+    try {
+      await btn.click({ timeout: 2000 });
+      await page.waitForTimeout(700);
+    } catch (e) {
+      break;
+    }
+  }
+}
+
 async function clickShowMore(page) {
   for (let i = 0; i < 20; i++) {
     const more = await page.$(
@@ -237,6 +283,7 @@ function collectEpisodesEval() {
   return ({ seriesId, pathSeason }) => {
     const out = [];
     Array.from(document.querySelectorAll(`a[href*="/p-${seriesId}/"]`)).forEach((a) => {
+      if (!/card/.test(a.className || '')) return;
       const href = a.href.split('?')[0].split('#')[0];
       const decoded = decodeURIComponent(href);
       const mSeason =
@@ -265,7 +312,7 @@ function collectEpisodesEval() {
         .trim()
         .replace(/^\d{1,2}:\d{2}(?::\d{2})?\s+/, '');
 
-      if (/טריילר|ריקאפ|ריכולים|צריכים תזכורת|קדימון/.test(text)) return;
+      if (/לצפייה בפרק|טריילר|ריקאפ|ריכולים|צריכים תזכורת|קדימון/.test(text)) return;
 
       let epNum = null;
       const mEp = text.match(/פרק\s*(\d+)/);
@@ -335,14 +382,21 @@ function normalizeEpisodeNumbers(list) {
 
 async function scrapeSeriesCatalog(page, seriesUrl) {
   await page.goto(seriesUrl, { waitUntil: 'domcontentloaded', timeout: 90000 });
-  await page.waitForTimeout(3500);
-  await clickShowMore(page);
+  await waitForKanContent(page, { cards: false });
+  await page.waitForTimeout(500);
 
   const seriesMatch = seriesUrl.match(/p-(\d+)/);
   const seriesId = seriesMatch ? seriesMatch[1] : '';
   if (!seriesId) throw new Error('Could not parse series id from URL: ' + seriesUrl);
 
   const targets = await discoverSeasonTargets(page, seriesId, seriesUrl);
+  if (!targets.length) {
+    const snap = await page.evaluate(() => ({
+      title: document.title.slice(0, 60),
+      h1: ((document.querySelector('h1') || {}).textContent || '').replace(/\s+/g, ' ').trim().slice(0, 40)
+    }));
+    console.log('  No season links.', JSON.stringify(snap));
+  }
   console.log(
     '  Season targets:',
     targets
@@ -354,20 +408,39 @@ async function scrapeSeriesCatalog(page, seriesUrl) {
       .join(', ')
   );
 
+  const browser = page.context().browser();
   const batches = [];
   for (const target of targets) {
-    await page.goto(target.href, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    await page.waitForTimeout(2200);
-    await clickShowMore(page);
-
-    const meta = await page.evaluate(() => {
-      const h1 = document.querySelector('h1');
-      const og = document.querySelector('meta[property="og:title"]');
-      return {
-        h1: ((h1 && h1.textContent) || '').replace(/\s+/g, ' ').trim(),
-        og: ((og && og.getAttribute('content')) || '').split('|')[0].trim()
-      };
-    });
+    let meta = { h1: '', og: '' };
+    let eps = [];
+    for (let attempt = 0; attempt < 2 && eps.length === 0; attempt++) {
+      const seasonContext = await browser.newContext({
+        locale: 'he-IL',
+        userAgent:
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+        viewport: { width: 1400, height: 900 }
+      });
+      try {
+        const seasonPage = await seasonContext.newPage();
+        await seasonPage.goto(target.href, { waitUntil: 'domcontentloaded', timeout: 25000 });
+        await waitForKanContent(seasonPage, { cards: true, timeout: 8000 });
+        await clickLoadMore(seasonPage);
+        meta = await seasonPage.evaluate(() => {
+          const h1 = document.querySelector('h1');
+          const og = document.querySelector('meta[property="og:title"]');
+          return {
+            h1: ((h1 && h1.textContent) || '').replace(/\s+/g, ' ').trim(),
+            og: ((og && og.getAttribute('content')) || '').split('|')[0].trim()
+          };
+        });
+        eps = await seasonPage.evaluate(collectEpisodesEval(), {
+          seriesId,
+          pathSeason: target.pathSeason
+        });
+      } finally {
+        await seasonContext.close();
+      }
+    }
 
     // Prefer dropdown "עונה N" / page title "עונה N" over raw /sN/ path.
     // Paths like /s10/ "ספיישל פסח" must NOT steal the UI season number.
@@ -386,11 +459,6 @@ async function scrapeSeriesCatalog(page, seriesUrl) {
       displaySeason = target.pathSeason;
       seasonSource = 'path';
     }
-
-    const eps = await page.evaluate(collectEpisodesEval(), {
-      seriesId,
-      pathSeason: target.pathSeason
-    });
 
     batches.push({ target, displaySeason, seasonSource, meta, eps });
   }
@@ -451,7 +519,35 @@ async function fetchStreamForEpisode(context, episode) {
 
   try {
     await page.goto(episode.page, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    await page.waitForTimeout(1800);
+    await waitForKanContent(page, { timeout: 12000 });
+    const meta = await page.evaluate(() => {
+      const ogTitle = (document.querySelector('meta[property="og:title"]') || {}).content || '';
+      const ogDesc =
+        (document.querySelector('meta[property="og:description"]') || {}).content || '';
+      const h1 = (document.querySelector('h1') || {}).textContent || '';
+      const infoDesc = (document.querySelector('.info-description') || {}).textContent || '';
+      return {
+        ogTitle,
+        h1: String(h1).replace(/\s+/g, ' ').trim(),
+        desc: String(infoDesc || ogDesc)
+          .replace(/\s+/g, ' ')
+          .trim()
+          .slice(0, 280)
+      };
+    });
+    const h1 = meta.h1 || '';
+    let scrapedName = '';
+    if (h1.includes('|')) {
+      const right = h1.split('|').pop().trim();
+      if (/פרק/.test(right)) scrapedName = right;
+    }
+    if (!scrapedName) {
+      const m = h1.match(/פרק\s*\d+\s*[-–—:]\s*.+/);
+      if (m) scrapedName = m[0].trim();
+    }
+    if (!scrapedName && /פרק\s*\d+/.test(h1)) scrapedName = h1;
+    if (scrapedName) episode.scrapedName = scrapedName;
+    if (meta.desc) episode.scrapedSubtitle = meta.desc;
     const playSelectors = [
       'button[aria-label="ניגון"]',
       'button[aria-label*="ניגון"]',
@@ -549,75 +645,56 @@ function isValidImageBuf(buf) {
   return false;
 }
 
-/** Kan images are Cloudflare-gated; use Playwright page navigation. */
-async function downloadImageViaBrowser(context, imageURL, episodePage, dest) {
-  const page = await context.newPage();
-  let buf = null;
-  page.on('response', async (res) => {
-    try {
-      const ct = (res.headers()['content-type'] || '').toLowerCase();
-      if (!ct.includes('image')) return;
-      const body = await res.body();
-      if (!isValidImageBuf(body)) return;
-      if (body[0] === 0xff && body[1] === 0xd8) buf = body;
-      else if (!buf) buf = body;
-    } catch (_) {}
-  });
-  try {
-    if (imageURL) {
-      const r = await page.goto(imageURL, { waitUntil: 'load', timeout: 45000 }).catch(() => null);
-      if (r) {
-        try {
-          const b = await r.body();
-          if (isValidImageBuf(b)) buf = b;
-        } catch (_) {}
-      }
-      await page.waitForTimeout(250);
-    }
-    if (!isValidImageBuf(buf) && episodePage) {
-      await page.goto(episodePage, { waitUntil: 'domcontentloaded', timeout: 90000 });
-      await page.waitForTimeout(1500);
-      const og = await page.evaluate(
-        () => (document.querySelector('meta[property="og:image"]') || {}).content || ''
-      );
-      if (og) {
-        const r = await page.goto(og, { waitUntil: 'load', timeout: 45000 }).catch(() => null);
-        if (r) {
-          try {
-            const b = await r.body();
-            if (isValidImageBuf(b)) buf = b;
-          } catch (_) {}
-        }
-      }
-    }
-    if (!isValidImageBuf(buf)) return false;
-    if (!(buf[0] === 0xff && buf[1] === 0xd8)) {
-      try {
-        const jpeg = await page.evaluate(async (bytes) => {
-          const u8 = new Uint8Array(bytes);
-          const type = u8[0] === 0x89 ? 'image/png' : u8[0] === 0x52 ? 'image/webp' : 'image/jpeg';
-          const blob = new Blob([u8], { type });
-          const url = URL.createObjectURL(blob);
-          const img = new Image();
-          await new Promise((res, rej) => {
-            img.onload = res;
-            img.onerror = rej;
-            img.src = url;
-          });
-          const c = document.createElement('canvas');
-          c.width = img.naturalWidth;
-          c.height = img.naturalHeight;
-          c.getContext('2d').drawImage(img, 0, 0);
-          URL.revokeObjectURL(url);
-          return c.toDataURL('image/jpeg', 0.92);
-        }, [...buf]);
-        if (jpeg && jpeg.startsWith('data:image/jpeg')) {
-          buf = Buffer.from(jpeg.split(',')[1], 'base64');
-        }
-      } catch (_) {}
-    }
+function writeImageAsJpeg(buf, dest) {
+  if (buf[0] === 0xff && buf[1] === 0xd8) {
     fs.writeFileSync(dest, buf);
     return true;
+  }
+  const tmp = dest + '.src';
+  fs.writeFileSync(tmp, buf);
+  try {
+    execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', tmp, '-q:v', '3', dest], {
+      stdio: 'ignore'
+    });
+    return fs.existsSync(dest) && fs.statSync(dest).size > 2000;
+  } catch (_) {
+    return false;
+  } finally {
+    try {
+      fs.unlinkSync(tmp);
+    } catch (_) {}
+  }
+}
+
+/** Kan images are Cloudflare-gated; use Playwright page navigation.
+ *  Keep only the document body of the image URL. Other JPEGs on the page
+ *  (the series poster) used to overwrite the real still. */
+async function downloadImageViaBrowser(context, imageURL, episodePage, dest) {
+  const page = await context.newPage();
+  async function grab(url) {
+    if (!url) return null;
+    const r = await page.goto(url, { waitUntil: 'load', timeout: 45000 }).catch(() => null);
+    if (!r) return null;
+    const b = await r.body().catch(() => null);
+    return isValidImageBuf(b) ? b : null;
+  }
+  try {
+    let buf = await grab(imageURL);
+    if (!buf && imageURL) buf = await grab(imageURL);
+    if (!buf && episodePage) {
+      await page.goto(episodePage, { waitUntil: 'domcontentloaded', timeout: 90000 }).catch(() => null);
+      await page.waitForTimeout(800);
+      const cardSrc = await page.evaluate(() => {
+        const img = document.querySelector(
+          '.info-image img, .player-image img, img.card-img, .episode-image img, meta[property="og:image"]'
+        );
+        if (!img) return '';
+        return img.src || img.content || img.getAttribute('content') || '';
+      });
+      if (cardSrc && cardSrc !== imageURL) buf = await grab(cardSrc);
+    }
+    if (!isValidImageBuf(buf)) return false;
+    return writeImageAsJpeg(buf, dest);
   } catch (_) {
     return false;
   } finally {

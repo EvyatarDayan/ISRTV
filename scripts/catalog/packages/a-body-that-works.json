@@ -1,0 +1,93 @@
+{
+  "slug": "a-body-that-works",
+  "title": "גוף שלישי",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works",
+  "version": "65e2f6b1feb7",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/a-body-that-works/series.jpg",
+  "catalogPoster": "scripts/catalog/media/a-body-that-works/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "המפגש הראשון",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-3dde6e2eef94681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_01_130223_VOD_h2j79nb/Guf_Shlishi_01_130223_VOD_h2j79nb_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "הסיפור רק מתחיל",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-37303cf6abd6681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_02_200323_VOD_nd3sh24b/Guf_Shlishi_02_200323_VOD_nd3sh24b_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "סדקים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-bf6faad98a19681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_03_270223_VOD_n3kr4v5/Guf_Shlishi_03_270223_VOD_n3kr4v5_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אין דרך חזרה?",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-594c2649022b681026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_04_060323_VOD_n31a0bk/Guf_Shlishi_04_060323_VOD_n31a0bk_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הסודות מתגלים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-befafb18ad4d681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_05_130323_VOD_nk51bgf4/Guf_Shlishi_05_130323_VOD_nk51bgf4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "הלילה שבו הכל מתהפך",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-5719cdceca9f681027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_06_200323_VOD_n3piuy78/Guf_Shlishi_06_200323_VOD_n3piuy78_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "הכל מסתחרר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-47c6b8830ac1781027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_07_260323_VOD_n92lcm9/Guf_Shlishi_07_260323_VOD_n92lcm9_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק הסיום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/a_body_that_works-s1/VOD-aafc013a8bc1781027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Guf_Shlishi/S01/EP/Guf_Shlishi_08_280323_VOD_na33dsh7/Guf_Shlishi_08_280323_VOD_na33dsh7_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/a-body-that-works/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/a-body-that-works/s1-ep8.jpg"
+    }
+  ]
+}

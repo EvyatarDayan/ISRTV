@@ -1,0 +1,173 @@
+{
+  "slug": "the-cops",
+  "title": "השוטרים",
+  "source": "mako",
+  "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1",
+  "version": "e531e9c559d8",
+  "updatedAt": "2026-10-05T12:28:00Z",
+  "episodeCount": 16,
+  "localPoster": "images/kanbox/the-cops/series.jpg",
+  "catalogPoster": "scripts/catalog/media/the-cops/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "נהריה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-8568d83e8b33771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_01_250121_vod_had49v/hashotrim_01_250121_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "חוקי המשחק",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-0602734e7bd3771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/Hashotrim_02_260121_VOD_h6a6d49/Hashotrim_02_260121_VOD_h6a6d49_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "אל תוך הלילה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-d38771a529c5771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_03_010221_vod_haew432/hashotrim_03_010221_vod_haew432_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "אש",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-ce1d9d62a708771027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_04_080221_vod_sns374/hashotrim_04_080221_vod_sns374_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "הכי רחוק",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-9aa41e0d2b4a771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_05_150221_vod_had49v/hashotrim_05_150221_vod_had49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "ניקוי אורוות",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-e993b0bf8e8c771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_06_220221_vod_dnu392/hashotrim_06_220221_vod_dnu392_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "חג הקציר",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-6564f80f03de771026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_07_010321_vod_dks382/hashotrim_07_010321_vod_dks382_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "האמת",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s1/VOD-4a31d214ac01871027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S01/EP/hashotrim_08_080321_vod_mdj372/hashotrim_08_080321_vod_mdj372_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s1-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s1-ep8.jpg"
+    },
+    {
+      "ep": 1,
+      "season": 2,
+      "name": "בחזרה לנהריה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-4ac6fdd20bf8881026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_01_130623_vod_ndsh49v/hashotrim2_01_130623_vod_ndsh49v_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep1.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 2,
+      "name": "ההחלטה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-9c3b4a2ecadb881026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_02_200623_vod_n323c/hashotrim2_02_200623_vod_n323c_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep2.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 2,
+      "name": "הבחירה של מיקי",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-ec93dd391d1e881027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_03_270623_vod_hads59n/hashotrim2_03_270623_vod_hads59n_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep3.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 2,
+      "name": "האולטימטום",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-d31376d7a360981027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_04_040723_vod_nfhg45/hashotrim2_04_040723_vod_nfhg45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep4.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 2,
+      "name": "הרומן מסתבך",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-3c55cf294c92981026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_05_110723_vod_21g45/hashotrim2_05_110723_vod_21g45_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep5.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 2,
+      "name": "השוטרים נחשפים",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-1eefda2941e4981027.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_06_180723_vod_nkdfg54/hashotrim2_06_180723_vod_nkdfg54_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep6.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 2,
+      "name": "הפגישה",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-980bd09c9618981026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_07_010823_vod_arc43j4/hashotrim2_07_010823_vod_arc43j4_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep7.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 2,
+      "name": "סוף הסיפור",
+      "subtitle": "",
+      "pageURL": "https://www.mako.co.il/mako-vod-keshet/the_cops-s2/VOD-14a9ac9cebab981026.htm",
+      "streamURL": "https://mako-vod.akamaized.net/i/VOD/KESHET/Hashotrim/S02/EP/hashotrim2_08_070823_vod_sja330/hashotrim2_08_070823_vod_sja330_,550,850,1400,2200,.mp4.csmil/master.m3u8",
+      "localImage": "images/kanbox/the-cops/s2-ep8.jpg",
+      "catalogImage": "scripts/catalog/media/the-cops/s2-ep8.jpg"
+    }
+  ]
+}

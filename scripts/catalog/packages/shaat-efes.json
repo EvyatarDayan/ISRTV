@@ -1,0 +1,73 @@
+{
+  "slug": "shaat-efes",
+  "title": "שעת אפס",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/",
+  "version": "60b463611f34",
+  "updatedAt": "2026-10-05T12:27:59Z",
+  "episodeCount": 6,
+  "localPoster": "images/kanbox/shaat-efes/series.jpg",
+  "catalogPoster": "scripts/catalog/media/shaat-efes/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1 - השיעור",
+      "subtitle": "סדרת דרמה חדשה. ויכוח פוליטי בשיעור אזרחות בין מורה אידיאליסט ותלמידת י\"ב דעתנית, יוצא משליטה והופך הכי אישי שיש. בעוד אמיר מתמודד עם השלכות האירוע - ליאן מכריזה מלחמה ועושה מהלך שישנה את חוקי המשחק 10.01.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138567/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_jki5w0f8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2 - הפוסט",
+      "subtitle": "דרמה. הפוסט מחולל תגובת שרשרת דרמטית שמביאה את ליאן ואמיר לנקודת האל חזור. כוחות גדולים מעורבים עכשיו, וכשעמדות הכוח מתערערות והסיכון עולה, את המחיר משלמים גם הקרובים אליהם. את הרכבת הזו אי אפשר לעצור 17.01.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138570/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_hkv2p7k8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3 - הבחירה",
+      "subtitle": "דרמה. ההדף הציבורי מעמיד את אמיר בפני החלטה שמסיתה אותו ממסלולו, תעלה הילוך במאבק מול ליאן ותוצאותיו יביאו להצעה שלא ניתן לסרב לה. כשכל האמצעים כשרים: נאמנויות ישנות, אהבות חדשות וקשרי דם עומדים במבחן 24.01.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138573/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_pvnnaka9/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4 - הטלוויזיה",
+      "subtitle": "כשהמצלמות נדלקות המרדף אחר הצדק הופך לקיומי. בעימות טעון בין ליאן ואמיר לתקשורת חוקים משלה: מה שנדמה כתבוסה מתברר כהצלחה, הניצחון סופו בכישלון. הדרמה באולפן מחווירה לעומת זו המתחוללת בחייהם הפרטיים 31.01.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138576/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_gpkb34jq/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5 - ההפגנה",
+      "subtitle": "כוח חדש עם אינטרסים אחרים טורף את כל הקלפים. מערך הכוחות מתהפך ודעת הקהל תופסת תאוצה אל תוך מציאות חייהם של אמיר וליאן, את משפחותיהם ואהוביהם. בין בגידה ונאמנות, אהבה ושברונות לב - זה ייגמר בדם 07.02.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138579/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_buadolvt/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6 - השימוע",
+      "subtitle": "פרק אחרון. מה שהחל כוויכוח בכיתה מגיע לשיא כשמילים הופכות למעשים וכוונות מתנפצות במציאות. אמיר וליאן עומדים בפני הכרעות גורליות על עתידם וקיומם - לא לפני שייאלצו להביט בהרס שזרעו, ובתוצאותיו המזעזעות 20.05.2020",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-12657/s1/138582/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_17c19sbc/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/shaat-efes/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/shaat-efes/s1-ep6.jpg"
+    }
+  ]
+}

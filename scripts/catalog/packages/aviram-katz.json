@@ -1,0 +1,93 @@
+{
+  "slug": "aviram-katz",
+  "title": "אבירם כץ",
+  "source": "kan",
+  "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/",
+  "version": "0fd44136c811",
+  "updatedAt": "2026-10-05T12:27:58Z",
+  "episodeCount": 8,
+  "localPoster": "images/kanbox/aviram-katz/series.jpg",
+  "catalogPoster": "scripts/catalog/media/aviram-katz/series.jpg",
+  "episodes": [
+    {
+      "ep": 1,
+      "season": 1,
+      "name": "פרק 1",
+      "subtitle": "דרמה בלשית קומית חדשה מאת דנה מודן, בבימויו של איתן צור, המגוללת את סיפורו של אבירם כץ, סופר מצליח שנמצא במשבר כתיבה, והופך לחשוד בחטיפה ורצח לאחר שגנב סיפור מבלי לדעת במה הוא עומד להסתבך 22.01.2023",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/157799/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_c2frjc2y/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep1.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep1.jpg"
+    },
+    {
+      "ep": 2,
+      "season": 1,
+      "name": "פרק 2",
+      "subtitle": "לאחר שהסתבך, אבירם מציע ללינדה עזרה בפתרון התעלומה 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/157802/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qtit680g/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep2.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep2.jpg"
+    },
+    {
+      "ep": 3,
+      "season": 1,
+      "name": "פרק 3",
+      "subtitle": "סיפורה של אלישבע מתחיל להחשף, אך התעלומה רק מתחילה 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158430/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_q6v06kpy/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep3.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep3.jpg"
+    },
+    {
+      "ep": 4,
+      "season": 1,
+      "name": "פרק 4",
+      "subtitle": "אבירם מבקר את ויקטור גואטה בבית החולים, מתחמק מהמשטרה, ומוצא מפלט בחוג ספרותי בעין כרם. 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158433/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_ua29nyhu/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep4.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep4.jpg"
+    },
+    {
+      "ep": 5,
+      "season": 1,
+      "name": "פרק 5",
+      "subtitle": "אבירם מנסה למנוע את השתלת האברים של גואטה, ומתקדם בחקירתו 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/158958/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_qlt2g02i/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep5.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep5.jpg"
+    },
+    {
+      "ep": 6,
+      "season": 1,
+      "name": "פרק 6",
+      "subtitle": "לינדה מאבדת סבלנות, אביטל כועסת, ואבירם משיג פריצת דרך משמעותית 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159222/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_5dve46d8/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep6.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep6.jpg"
+    },
+    {
+      "ep": 7,
+      "season": 1,
+      "name": "פרק 7",
+      "subtitle": "אלישבע ואבירם יוצאים לחקור את מותו של גואטה. אבירם מוצא את עצמו מואשם ברצח 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159762/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_20p2rwbv/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep7.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep7.jpg"
+    },
+    {
+      "ep": 8,
+      "season": 1,
+      "name": "פרק 8",
+      "subtitle": "בפרק הסיום המשטרה מגיעה לחקר האמת, ואבירם עומד בפני החלטה גורלית 26.04.2022",
+      "pageURL": "https://www.kan.org.il/content/kan/kan-11/p-11568/s1/159936/",
+      "streamURL": "https://r.il.cdn-redge.media/webcache/gorigin/hls/oil/kancdn/vod/1_76sornrg/LIBCODER_SMOOTH_1080_KAN/Manifest.ism/playlist.m3u8?fmp4",
+      "localImage": "images/kanbox/aviram-katz/ep8.jpg",
+      "catalogImage": "scripts/catalog/media/aviram-katz/s1-ep8.jpg"
+    }
+  ]
+}
