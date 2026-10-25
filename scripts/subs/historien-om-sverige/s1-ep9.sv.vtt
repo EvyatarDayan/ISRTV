@@ -1,0 +1,2645 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+0b5c4738-79e8-48d9-ae99-c0989de2d1d9
+00:00:05.720 --> 00:00:10.360 align:left position:22%
+<c.teletext>...fyra, tre, två, ett, noll!</c>
+
+7e13b482-1241-4996-8af3-5c5ba8a0a187
+00:00:42.920 --> 00:00:47.720 align:left position:22%
+<c.teletext>1917 rasar första världskriget
+nere i Europa.</c>
+
+2294eb94-ee68-4872-bc48-b367afcb9672
+00:00:47.880 --> 00:00:52.880 align:left position:22%
+<c.teletext>Sverige har lyckats hålla sig utanför
+kriget, men har drabbats av matbrist.</c>
+
+e303d1cd-aa74-4175-9b94-00f5ac6cc16f
+00:00:53.040 --> 00:00:55.640 align:left position:22%
+<c.teletext>Många går hungriga.</c>
+
+2dfb2df0-a565-45d6-b129-c7b273fc53f4
+00:00:55.800 --> 00:01:01.080 align:left position:22%
+<c.teletext>Här på Södermalm i Stockholm
+kommer snart kravaller att bryta ut.</c>
+
+c73ddc56-2a7c-4d9a-a4be-dc2033dbb6b2
+00:01:03.120 --> 00:01:06.680 align:left position:22%
+<c.teletext>Och alltihop börjar med potatis.</c>
+
+4082acdb-3407-4283-b922-5430130e50b9
+00:01:13.000 --> 00:01:17.000 align:left position:22%
+<c.teletext>Upploppet är ett bland många andra
+det här året.</c>
+
+c4828b60-e247-45b6-a310-f540148b3fc6
+00:01:17.160 --> 00:01:23.000 align:left position:22%
+<c.teletext>Protester bryter ut. Man kräver bröd
+och demokratiska rättigheter.</c>
+
+0475492a-8ab2-40c6-98ea-5ecb2bb7dcdf
+00:01:23.160 --> 00:01:26.000 align:left position:22%
+<c.teletext>Folket höjer sin röst.</c>
+
+c07792b6-0d8c-4047-b514-227c71a3fc71
+00:01:30.840 --> 00:01:33.840 align:left position:22%
+<c.teletext>Men vi börjar 100 år tidigare.</c>
+
+7d309d37-03c0-472b-aab0-e515e899de93
+00:01:34.000 --> 00:01:37.520 align:left position:22%
+<c.teletext>Under 1800-talet
+tar Sverige sina första steg–</c>
+
+e9c6728d-0acb-4f41-9ec3-8fa6f70103cd
+00:01:37.680 --> 00:01:42.280 align:left position:22%
+<c.teletext>–mot ett mer rättvist
+och demokratiskt samhälle.</c>
+
+1e43bafa-00a5-4867-857f-1736d95a7941
+00:01:42.440 --> 00:01:46.760 align:left position:22%
+<c.teletext>Det är en tid
+då den svenska industrin tar fart.</c>
+
+7162bb2e-52b9-466d-a1a6-237aae2164a5
+00:01:47.600 --> 00:01:53.520 align:left position:22%
+<c.teletext>Och då nöden får hundratusentals
+svenskar att utvandra.</c>
+
+04adc0f4-893a-4b5a-bf75-f7cbaaa15188
+00:01:53.680 --> 00:01:59.040 align:left position:22%
+<c.teletext>En tid då folket samlar sig
+i protester och kräver inflytande.</c>
+
+5d87319a-e376-4aab-98cc-9f7c8f1da33b
+00:02:00.280 --> 00:02:04.440 align:left position:22%
+<c.teletext>Det är tiden då folket ska ta makten.</c>
+
+1551a109-24f6-47d6-a327-ec6efb3b364c
+00:02:09.880 --> 00:02:14.480 align:left position:22%
+<c.teletext>Det här är berättelsen om vårt land.</c>
+
+4bb52284-c148-4a3c-acfc-6b79d88ad97c
+00:02:14.640 --> 00:02:18.760 align:left position:22%
+<c.teletext>Om människorna och krafterna
+som har format det–</c>
+
+b13b4fb2-7bee-4692-9069-30ee3e208811
+00:02:18.920 --> 00:02:23.760 align:left position:22%
+<c.teletext>–ända från istiden
+fram till våra dagar.</c>
+
+6bed299b-1623-4a70-9b0d-176a70b9bee2
+00:02:37.480 --> 00:02:41.640 align:left position:22%
+<c.teletext>Det här är historien om Sverige.</c>
+
+757b4e99-1091-435d-b118-a9ad8e7dc2f4
+00:03:00.760 --> 00:03:07.360 align:left position:22%
+<c.teletext>1800-talet börjar inte bra. Sverige
+har mist Finland i krig mot Ryssland.</c>
+
+bbf7dc16-8b92-484a-a238-7d6fc768fdf2
+00:03:07.520 --> 00:03:12.640 align:left position:22%
+<c.teletext>Det här är slutet
+på en lång gemenskap.</c>
+
+143c9146-cb2a-44b5-9f85-ce909c749252
+00:03:12.800 --> 00:03:15.640 align:left position:22%
+<c.teletext>En gemenskap i ungefär 700 år.</c>
+
+36be0a12-c632-4e05-9bd8-a280b634cb48
+00:03:15.800 --> 00:03:21.800 align:left position:22%
+<c.teletext>Det är inte för mycket sagt
+att det var ett nationellt trauma.</c>
+
+092c4eaa-7928-4155-b9a0-3f8013ab710b
+00:03:21.960 --> 00:03:26.120 align:left position:22%
+<c.teletext>Samtidigt hade man också
+krig med Danmark.</c>
+
+e24f00b2-7f0a-4742-81fa-6e385b879618
+00:03:26.280 --> 00:03:31.920 align:left position:22%
+<c.teletext>Riket är utarmat,
+statsfinanserna har gröpts ur–</c>
+
+14570e09-8f41-4228-834f-55d26292cabb
+00:03:32.080 --> 00:03:35.080 align:left position:22%
+<c.teletext>–och valutan är i gungning.</c>
+
+01535dd9-8b41-45cb-a8d9-58f74225f7f2
+00:03:36.200 --> 00:03:39.480 align:left position:22%
+<c.teletext>Dessutom måste Sverige hitta
+en ny tronföljare–</c>
+
+933a8254-5448-4b32-bd17-1f60bd9915e9
+00:03:39.640 --> 00:03:42.920 align:left position:22%
+<c.teletext>–eftersom man avsatt
+den gamla kungen.</c>
+
+19ebe7d6-7c10-4066-a52d-bb74113ea1ff
+00:03:43.080 --> 00:03:48.720 align:left position:22%
+<c.teletext>Eftersom det finns starka röster för
+att återta Finland, östra rikshalvan–</c>
+
+c6728b9f-ed76-4932-9eb4-d94d99ea274f
+00:03:48.880 --> 00:03:53.480 align:left position:22%
+<c.teletext>–väljs den franske marskalken,
+Jean Baptiste Bernadotte.</c>
+
+4a5e7b4a-0f8a-453f-9f9f-40c85bb911b8
+00:03:53.640 --> 00:03:58.760 align:left position:22%
+<c.teletext>Många hoppas att han med sin krigs-
+erfarenhet ska kunna återta Finland.</c>
+
+b7c43cd8-e9e5-4ad1-8539-bb7ec88189de
+00:03:58.920 --> 00:04:03.960 align:left position:22%
+<c.teletext>Bernadotte tackar ja till kronan
+och tar namnet Karl XIV Johan.</c>
+
+36ceec3c-159d-493f-9174-0745064c7406
+00:04:07.120 --> 00:04:12.400 align:left position:22%
+<c.teletext>Men Karl XIV Johan gör nåt oväntat.
+I stället för att återta Finland–</c>
+
+a1e6d740-42c5-4a2f-bdc3-35f3770dfe72
+00:04:12.560 --> 00:04:17.480 align:left position:22%
+<c.teletext>–tvingar han fram en fred med Danmark
+efter flera år av krig.</c>
+
+c2c773df-6b40-4799-8cc8-691573a69957
+00:04:17.640 --> 00:04:22.480 align:left position:22%
+<c.teletext>Resultatet blir att Karl Johan
+också blir kung över Norge.</c>
+
+143d5847-b91f-4c91-8c61-0b3b3ea8de18
+00:04:22.640 --> 00:04:27.800 align:left position:22%
+<c.teletext>Och nu inleds en tid av fred,
+som varar än i dag.</c>
+
+335b2e5b-8911-43da-9a47-85e19cb13123
+00:04:29.120 --> 00:04:35.560 align:left position:22%
+<c.teletext>Karl XIV Johan har blivit något
+av en symbol för det nya Sverige.</c>
+
+6a055b02-886c-4b5c-9a73-8e794856a41a
+00:04:35.720 --> 00:04:41.520 align:left position:22%
+<c.teletext>De enväldiga kungarna försvinner,
+och vi får konstitutionell monarki.</c>
+
+023bd9e4-7132-4a22-84cf-3980271fcadc
+00:04:41.680 --> 00:04:44.480 align:left position:22%
+<c.teletext>Kungamakten är inte vad den varit.</c>
+
+a9df7782-cb01-4ee0-a531-bd1ffadf673b
+00:04:44.640 --> 00:04:49.480 align:left position:22%
+<c.teletext>Karl XIV Johan måste dela makten
+med riksdag och regering.</c>
+
+b8819354-4738-4726-bc0f-f579b7bb584b
+00:04:52.080 --> 00:04:58.120 align:left position:22%
+<c.teletext>Och det är just kampen om vem som ska
+bestämma, som genomsyrar 1800-talet.</c>
+
+d5de3cb6-5009-48b7-983b-d92c13627802
+00:04:58.280 --> 00:05:03.480 align:left position:22%
+<c.teletext>Nya grupper, som inte representeras
+i den gamla ståndsriksdagen, växer–</c>
+
+fa8f6cfc-2117-482a-a2aa-67c89a1207cb
+00:05:03.640 --> 00:05:06.560 align:left position:22%
+<c.teletext>–och tar plats i samhället.</c>
+
+ec9f5c8e-7f64-4498-b1ee-4eeec80a5585
+00:05:06.720 --> 00:05:11.920 align:left position:22%
+<c.teletext>De kommer att kräva inflytande
+och demokratiska reformer.</c>
+
+ef712b96-fb14-4b2a-8a65-3b79d1e2826b
+00:05:22.040 --> 00:05:26.520 align:left position:22%
+<c.teletext>Vid sekelskiftet är Sverige
+ett av Europas fattigaste länder–</c>
+
+f82d6b17-5177-44e5-912a-802061020ffc
+00:05:26.680 --> 00:05:30.840 align:left position:22%
+<c.teletext>–dit industrialiseringen
+inte har nått än.</c>
+
+3b2314c9-8a69-438f-8529-bb1389b04090
+00:05:32.560 --> 00:05:35.800 align:left position:22%
+<c.teletext>Men det ändras under 1800-talet.</c>
+
+33d12d89-2a6b-446e-b6f3-89cbf68c7e8d
+00:05:35.960 --> 00:05:42.200 align:left position:22%
+<c.teletext>Då sker stora förändringar
+som kommer att påverka befolkningen.</c>
+
+7c39a7d0-3eed-41a1-879f-742ac6762912
+00:05:43.240 --> 00:05:46.760 align:left position:22%
+<c.teletext>Världens första vaccin är uppfunnet.</c>
+
+d2d9e2b8-37b0-4d4d-a720-ca26e9f605d3
+00:05:46.920 --> 00:05:52.200 align:left position:22%
+<c.teletext>Det gör ont, men vaccineringen
+kommer att skydda tusentals svenskar–</c>
+
+3dbe7dda-4851-4ef1-9c87-651201e4a64b
+00:05:52.360 --> 00:05:55.760 align:left position:22%
+<c.teletext>–från dödliga smittkoppsepidemier.</c>
+
+29afc6f3-a601-4009-a298-1d359a9b47c8
+00:05:57.440 --> 00:06:00.840 align:left position:22%
+<c.teletext>Samtidigt går jordbruket igenom
+stora förändringar.</c>
+
+6686020f-c163-4815-b9d3-df2d36068622
+00:06:01.000 --> 00:06:05.840 align:left position:22%
+<c.teletext>Man får nya verktyg, grödor
+och nya sätt att odla.</c>
+
+9544a5e5-f89d-4b5f-8b12-338e6b967ca3
+00:06:06.000 --> 00:06:09.600 align:left position:22%
+<c.teletext>Dessutom genomförs
+omfattande jordbruksreformer.</c>
+
+ff0b068c-331a-413f-bb6e-1a22bae5cd33
+00:06:09.760 --> 00:06:14.640 align:left position:22%
+<c.teletext>Fram till 1800-talet var böndernas
+marker uppdelade i smala åkerlappar–</c>
+
+5478040b-7f6c-47ce-9361-30ff7357cb95
+00:06:14.800 --> 00:06:17.720 align:left position:22%
+<c.teletext>–som var utspridda kring byarna.</c>
+
+72493767-5641-4bb3-b4c5-a81618117b73
+00:06:17.880 --> 00:06:23.880 align:left position:22%
+<c.teletext>Med tiden slås åkerlapparna ihop till
+större sammanhängande jordarealer–</c>
+
+5aadc28c-627d-4299-80a8-12018f902e6a
+00:06:24.040 --> 00:06:29.560 align:left position:22%
+<c.teletext>–och det bereder väg för effektivare
+jordbruk som kan föda många fler.</c>
+
+d9a353f7-7ab1-44c3-af38-867d1ca6970c
+00:06:37.280 --> 00:06:42.200 align:left position:22%
+<c.teletext>Det leder till att Sveriges
+befolkning växer snabbt och mycket.</c>
+
+09a0403c-fad9-42ce-85f0-cd0cf19a00ff
+00:06:42.360 --> 00:06:48.720 align:left position:22%
+<c.teletext>Nya samhällsgrupper bildas.
+Vissa får det bättre, andra sämre.</c>
+
+4effbfdc-5712-4588-8a81-ff0413d03eb8
+00:06:55.560 --> 00:07:01.600 align:left position:22%
+<c.teletext>Vid reformen mister många odlingsmark
+och får svårt att försörja sig.</c>
+
+016a633f-9df6-4f6f-bad2-fe1660337159
+00:07:04.760 --> 00:07:10.800 align:left position:22%
+<c.teletext>Sverige var ojämlikt redan innan 1800
+– men det blir ännu mer påtagligt.</c>
+
+06dc2b77-3e7f-4e60-ba4b-ab1e579e8b18
+00:07:14.200 --> 00:07:19.240 align:left position:22%
+<c.teletext>Och fler blir fattiga
+nu när befolkningen ökar.</c>
+
+95e0efec-6c04-4b77-9feb-032426b958c1
+00:07:24.520 --> 00:07:27.800 align:left position:22%
+<c.teletext>Den här flickan heter Lena.</c>
+
+428680f8-ecfc-4b40-953e-5c2d3a816dfe
+00:07:27.960 --> 00:07:33.080 align:left position:22%
+<c.teletext>En dag kommer hon att gifta sig
+och få efternamnet Törnqvist.</c>
+
+8695fcf6-6447-4f39-a38b-38cd91cc8806
+00:07:40.880 --> 00:07:44.960 align:left position:22%
+<c.teletext>Hon blir en
+av alla jordlösa på landsbygden.</c>
+
+9a6c9b3c-f0dc-4592-bfde-af189b72bc38
+00:07:46.080 --> 00:07:52.000 align:left position:22%
+<c.teletext>Och hennes liv kommer att färgas
+av 1800-talets stora förändringar.</c>
+
+8fcc6300-2d4b-4594-bdfb-04abe412bc7b
+00:07:53.960 --> 00:07:58.360 align:left position:22%
+<c.teletext>Lena föds i ett fattigt soldathem
+med elva syskon.</c>
+
+4fb153a7-4d54-4d5d-ac71-c72f06ebcb57
+00:08:01.560 --> 00:08:07.000 align:left position:22%
+<c.teletext>Det är svårt att försörja sig, och
+många måste sälja det lilla de har.</c>
+
+ebb0b908-38d4-413b-ae34-1a0af824cfd3
+00:08:16.920 --> 00:08:23.160 align:left position:22%
+<c.teletext>Fuktiga, dragiga, trångbodda hem ökar
+risken att få livshotande sjukdomar.</c>
+
+81bb3deb-e17c-463a-9467-7494ee3ab3a4
+00:08:27.840 --> 00:08:33.200 align:left position:22%
+<c.teletext>Om en vuxen familjemedlem blir sjuk
+kan det slå hårt mot hela familjen.</c>
+
+4be8ed4d-652f-4b58-bce1-393df6c84038
+00:08:35.680 --> 00:08:40.480 align:left position:22%
+<c.teletext>Och för att undvika svält
+tvingas många barn att arbeta.</c>
+
+cbe8c2d9-127c-42c3-903c-5be82fe07a37
+00:08:52.200 --> 00:08:56.880 align:left position:22%
+<c.teletext>Unga jordlösa människor
+som inte har någon försörjning–</c>
+
+047d2529-b879-436b-83d3-752b8d46f0d7
+00:08:57.040 --> 00:09:00.520 align:left position:22%
+<c.teletext>–får ta tjänst som dräng eller piga.</c>
+
+f9878f52-3f71-4f52-a540-ff90cb471898
+00:09:00.680 --> 00:09:05.480 align:left position:22%
+<c.teletext>Det var tjänstetvång: laga försvar.
+Man måste alltså ha en tjänst.</c>
+
+3f07c181-8ccb-4a98-a364-acb8371c73db
+00:09:05.640 --> 00:09:10.960 align:left position:22%
+<c.teletext>Det handlade inte bara om försörjning
+– det var även ett led i en kontroll.</c>
+
+d7a60c21-4576-40c5-aa63-e0f1bbbbb1b0
+00:09:11.120 --> 00:09:16.400 align:left position:22%
+<c.teletext>Var och en måste tillhöra
+och vara underordnad ett hushåll.</c>
+
+53fc87aa-2b9f-4333-9a10-2083942b4b5e
+00:09:29.840 --> 00:09:32.680 align:left position:22%
+<c.teletext>Arbetstiden är i princip obegränsad.</c>
+
+95167a23-8a88-4986-9ff0-404488ab11d2
+00:09:32.840 --> 00:09:39.160 align:left position:22%
+<c.teletext>Husbondfolket, jordbruksarbetets rytm
+och årstiden bestämmer.</c>
+
+2cf09bd4-994d-4ff7-8d21-f91aacfd8314
+00:09:47.760 --> 00:09:52.880 align:left position:22%
+<c.teletext>Pigor och drängar arbetar främst för
+sitt uppehälle, för kost och logi.</c>
+
+45460a6a-50ad-410d-8b3b-3d9db5022f05
+00:09:53.040 --> 00:09:59.960 align:left position:22%
+<c.teletext>Drängar får oftast kläder. Pigor får
+material till kläder att sy själva.</c>
+
+1796b9d6-2510-48a1-989e-e465dd166c99
+00:10:04.760 --> 00:10:11.600 align:left position:22%
+<c.teletext>Tjänstefolket får även kontantlön, en
+liten del av den totala avlöningen–</c>
+
+0d30337d-2922-48b2-bd13-f080e9e583e5
+00:10:11.760 --> 00:10:16.720 align:left position:22%
+<c.teletext>–som betalas ut
+först efter arbetsårets slut.</c>
+
+0c5f2f5c-4190-4c59-a4fd-5ccc284409b0
+00:10:22.280 --> 00:10:28.560 align:left position:22%
+<c.teletext>Hierarkier var viktiga i samhället
+och inom familjen i hushållet.</c>
+
+b6be1511-5646-479e-8941-1225b9675525
+00:10:28.720 --> 00:10:33.120 align:left position:22%
+<c.teletext>I Luthers Lilla katekes, i hustavlan,
+fick alla lära sig–</c>
+
+15148353-5adc-42f1-aa30-f9ec9311ca6e
+00:10:33.280 --> 00:10:38.880 align:left position:22%
+<c.teletext>–att husbonden – mannen i familjen –
+är den som står överst i hierarkin.</c>
+
+56d43711-9a6c-444d-9160-e53ca3ecbaeb
+00:10:40.440 --> 00:10:45.520 align:left position:22%
+<c.teletext>Han har ansvar för hustrun,
+för barnen och för tjänstefolket.</c>
+
+878fe82b-84c2-40c8-814d-322e9bd0efb1
+00:10:50.320 --> 00:10:54.120 align:left position:22%
+<c.teletext>Längst ner i hierarkin finns pigorna.</c>
+
+a4487e3a-47b3-43b2-ad51-bd0b686bccba
+00:10:57.160 --> 00:11:03.200 align:left position:22%
+<c.teletext>Kyrkan är en viktig del av människors
+liv, och styrande för vardagslivet.</c>
+
+48dd5c07-5940-4d8e-93b2-be255ca02441
+00:11:03.360 --> 00:11:09.040 align:left position:22%
+<c.teletext>Kristna kunskaper är nödvändiga. Vill
+man flytta, måste man ha intyg på–</c>
+
+3f3154fc-83d7-45c8-9d84-e8950f987bb0
+00:11:09.200 --> 00:11:14.840 align:left position:22%
+<c.teletext>–att man kan sin kristendom. Vill man
+gifta sig, måste man visa intyget.</c>
+
+c0461dbc-412f-4efa-aa86-e9df55718119
+00:11:20.480 --> 00:11:26.240 align:left position:22%
+<c.teletext>De som kontrollerar att alla kan
+sin kristna tro är prästerna.</c>
+
+42fda668-bc31-4028-a97c-422042910a6d
+00:11:28.200 --> 00:11:32.800 align:left position:22%
+<c.teletext>De besöker gårdarna
+och ordnar husförhör i hemmen.</c>
+
+28b6af57-c9aa-4ec5-b3e3-e450ba11d1a1
+00:11:32.960 --> 00:11:36.040 align:left position:22%
+<c.teletext>Alla måste delta.</c>
+
+bad7b5a8-3ff9-49fd-8fe4-76bbd9185648
+00:11:45.320 --> 00:11:49.040 align:left position:22%
+<c.teletext>På grund av, eller tack vare
+kyrkans kontroller–</c>
+
+0f213a3f-c5f8-4c75-9b6d-c5f213744b5a
+00:11:49.200 --> 00:11:52.880 align:left position:22%
+<c.teletext>–får Sverige en läskunnig befolkning.</c>
+
+cae471fe-d78d-44a6-9573-f25ff67eeb02
+00:11:53.040 --> 00:11:58.120 align:left position:22%
+<c.teletext>Det här är den gängse utbildning som
+de flesta svenskar får vid den tiden.</c>
+
+f0d28576-0dce-4355-a5c4-cacdb2bbba13
+00:11:58.280 --> 00:12:02.920 align:left position:22%
+<c.teletext>Kyrkans lärdomar var
+den bildning man fick.</c>
+
+31e6e73f-cd51-4386-a1b5-e1a83de2e27f
+00:12:06.080 --> 00:12:11.160 align:left position:22%
+<c.teletext>I Sverige har vi ovanligt hög
+läskunnighet och även skrivkunnighet–</c>
+
+d929ca2d-f76e-4f1f-881b-087db47b36d6
+00:12:11.320 --> 00:12:14.320 align:left position:22%
+<c.teletext>–jämfört med övriga Europa.</c>
+
+9f13c3c8-055b-4b27-bba6-625b8af867e5
+00:12:14.480 --> 00:12:18.080 align:left position:22%
+<c.teletext>Folk skulle läsa Bibeln
+och psalmboken–</c>
+
+6377e62a-1501-4bd0-bba0-f0e6861818b6
+00:12:18.240 --> 00:12:22.800 align:left position:22%
+<c.teletext>–men har man väl knäckt det,
+kan man ju läsa annat också.</c>
+
+850dbb92-e851-4677-afd6-8498e71e8ac6
+00:12:29.240 --> 00:12:32.960 align:left position:22%
+<c.teletext>Kyrkans makt över människornas liv
+är stor.</c>
+
+7b4922c6-8752-46d7-bbc1-f386c17b5a3a
+00:12:33.120 --> 00:12:38.840 align:left position:22%
+<c.teletext>Men nya tankar når Sverige, och folk
+vill själva bestämma över sina liv.</c>
+
+2b16c1a4-6a1c-4a0a-b1e9-561adc828d5f
+00:12:39.000 --> 00:12:42.160 align:left position:22%
+<c.teletext>När ett frikyrkodop hålls
+i Vallersvik–</c>
+
+998191cb-a823-4ece-98c1-9ed4382ea664
+00:12:42.320 --> 00:12:46.440 align:left position:22%
+<c.teletext>–är det inte bara ett startskott
+för frikyrkorörelsen.</c>
+
+2b73d801-b326-4568-90de-d03d298b19cc
+00:12:46.600 --> 00:12:50.680 align:left position:22%
+<c.teletext>Det är också ett uttryck
+för den demokratiska rättigheten–</c>
+
+37a58589-7cc7-4144-b468-41d7065a124e
+00:12:50.840 --> 00:12:53.960 align:left position:22%
+<c.teletext>–att tro på vad man själv vill.</c>
+
+3f74079e-bab3-4911-b4b0-f34b90b25824
+00:12:55.240 --> 00:12:59.840 align:left position:22%
+<c.teletext>Men eftersom religiösa sammankomster
+utanför kyrkan är förbjudna–</c>
+
+876ac274-84dc-411a-b14b-8eead03e1026
+00:13:00.000 --> 00:13:03.000 align:left position:22%
+<c.teletext>–så måste de göra det i hemlighet.</c>
+
+b2cb17f4-7a40-4871-a3e1-2d882e986fe7
+00:13:14.800 --> 00:13:18.280 align:left position:22%
+<c.teletext>Att själv hålla gudstjänst
+var ett allvarligt brott.</c>
+
+1dd98da0-fd2f-422f-92aa-275788ae6ff5
+00:13:18.440 --> 00:13:24.440 align:left position:22%
+<c.teletext>Det kunde resultera i höga böter
+och förlust av anseende och arbete.</c>
+
+e4872bc9-8d09-491f-b62c-d0b5b6a46c8c
+00:13:24.600 --> 00:13:30.720 align:left position:22%
+<c.teletext>Den som vågar trotsa den statliga
+kyrkan och svensk lag är denne man:</c>
+
+3e7acbc3-61fc-4889-a7b4-e9bb21db79cc
+00:13:30.880 --> 00:13:33.640 align:left position:22%
+<c.teletext>Fredrik Olaus Nilsson.</c>
+
+dbf9c0c7-a825-4049-808d-60953ba1f1c3
+00:13:33.800 --> 00:13:38.400 align:left position:22%
+<c.teletext>En sjöman som mötte väckelserörelsen
+på sina resor utomlands.</c>
+
+7a279d08-c316-4bc6-9ac7-9db45b920421
+00:13:38.560 --> 00:13:42.720 align:left position:22%
+<c.teletext>Nu vill han starta en frikyrka
+hemma i Sverige.</c>
+
+f43326b0-cc3d-422a-972c-1ff514ab8430
+00:13:42.880 --> 00:13:49.400 align:left position:22%
+<c.teletext>Väckelsen betonar att religiös tro
+ska vara individens eget val.</c>
+
+f51d7b3a-40b0-467c-8066-799322f0421c
+00:13:49.560 --> 00:13:54.200 align:left position:22%
+<c.teletext>Det ska inte vara en pålaga uppifrån,
+från statskyrkan eller staten.</c>
+
+88ab82cd-3534-48de-95b8-7e112f755d5f
+00:13:54.360 --> 00:13:59.560 align:left position:22%
+<c.teletext>Här kommer en individualism in
+i det svenska samhället.</c>
+
+96cded43-1568-4c1e-aaf6-5492ac68f209
+00:14:07.720 --> 00:14:12.480 align:left position:22%
+<c.teletext>Man ställer sig utanför samhällets
+normer och det som anses normalt–</c>
+
+679f492b-a979-4347-91c4-e26ede85f5d3
+00:14:12.640 --> 00:14:17.120 align:left position:22%
+<c.teletext>–och det möts med stor ilska
+och misstänksamhet.</c>
+
+0bc83519-728d-4cc3-8fea-f1ba4501a465
+00:14:25.720 --> 00:14:30.120 align:left position:22%
+<c.teletext>Nilsson startar
+Sveriges första baptistförsamling.</c>
+
+53cada04-42d7-4a44-8508-4e31a25d3891
+00:14:30.280 --> 00:14:37.520 align:left position:22%
+<c.teletext>Församlingen växer och håller möten
+där alla medlemmar är jämlikar.</c>
+
+146eb949-3670-4abc-b727-23f2802a969b
+00:14:39.400 --> 00:14:44.480 align:left position:22%
+<c.teletext>Den är, vad vi vet, Sveriges första
+demokratiska förening.</c>
+
+0c4de376-bfd1-479a-b454-3e278a049be8
+00:14:44.640 --> 00:14:49.880 align:left position:22%
+<c.teletext>Föreningarna är demokratiskt organi-
+serade. Alla medlemmar har en röst.</c>
+
+6eb41c74-c82d-4749-b041-d3bd1716984a
+00:14:50.040 --> 00:14:54.800 align:left position:22%
+<c.teletext>Man, kvinna, rik, fattig, gammal
+eller ung – alla har lika rösträtt.</c>
+
+1c8f1ed8-ed62-42cb-9e0d-86ac5971e8fb
+00:14:54.960 --> 00:14:59.880 align:left position:22%
+<c.teletext>Saker avgörs på demokratiska möten
+där man diskuterar och röstar.</c>
+
+7da77af5-6b22-4340-a912-94373dd3f2a7
+00:15:00.040 --> 00:15:04.160 align:left position:22%
+<c.teletext>Det växer fram en demokrati
+underifrån.</c>
+
+1d212a75-f06f-4a30-a1b7-64fe1ac91830
+00:15:06.680 --> 00:15:11.200 align:left position:22%
+<c.teletext>Men folket i trakten är misstänksamma
+och förföljer församlingen–</c>
+
+018827d9-9f6b-4d93-9e3e-a12f508a3276
+00:15:11.360 --> 00:15:14.360 align:left position:22%
+<c.teletext>–och dess lokaler stormas.</c>
+
+74004dc6-e35d-4b88-94f3-fda73785c303
+00:15:15.680 --> 00:15:21.240 align:left position:22%
+<c.teletext>1,5 år efter att församlingen bildas
+döms Nilsson till landsförvisning–</c>
+
+441ceed4-a348-48ab-9690-db88b1f7b401
+00:15:21.400 --> 00:15:25.400 align:left position:22%
+<c.teletext>–för att ha spridit
+villfarande läror.</c>
+
+09fb7e2f-dc2d-4848-9b23-b49e6e0028f6
+00:15:27.400 --> 00:15:32.840 align:left position:22%
+<c.teletext>Men andra ska följa. Väckelserörelsen
+kommer att slå rot i Sverige.</c>
+
+a551642a-d33e-4274-abaf-aaf21548e720
+00:15:33.000 --> 00:15:37.600 align:left position:22%
+<c.teletext>Tillsammans med andra folkrörelser,
+som t.ex. nykterhetsrörelsen–</c>
+
+dd9c71d2-2b04-41a9-923d-4216afb07139
+00:15:37.760 --> 00:15:43.240 align:left position:22%
+<c.teletext>–så kommer tanken om demokratiska
+rättigheter för alla att sprida sig.</c>
+
+d5baba9c-f75a-435f-840c-1ba66762d2ae
+00:15:43.400 --> 00:15:48.200 align:left position:22%
+<c.teletext>De blir också en skola för folket
+i hur man organiserar sig.</c>
+
+392060a7-80a7-4f95-aae2-3b6aaa133602
+00:15:58.480 --> 00:16:04.120 align:left position:22%
+<c.teletext>I mitten av 1800-talet tar
+industrialiseringen fart i Sverige.</c>
+
+3f41d78a-4765-46e4-a4c6-d6f9c7ee711a
+00:16:05.160 --> 00:16:10.360 align:left position:22%
+<c.teletext>Med den kommer järnvägen, som byggs
+ut under senare hälften av seklet.</c>
+
+5a3092dd-5fbb-4dd8-8c82-8b837d5c10b5
+00:16:11.480 --> 00:16:14.680 align:left position:22%
+<c.teletext>Tåget användes för industrin,
+och transporter.</c>
+
+ae5e5d2a-4ae7-482d-86ee-eed825c301f0
+00:16:14.840 --> 00:16:19.640 align:left position:22%
+<c.teletext>Med järnvägen börjar fler städer
+och centralorter växa fram–</c>
+
+b55bf58a-6dbf-4b96-9065-db576f275616
+00:16:19.800 --> 00:16:22.800 align:left position:22%
+<c.teletext>–och det erbjuder arbetstillfällen.</c>
+
+d7eb5b1f-dc5f-4d17-8335-7ba509c06efc
+00:16:28.360 --> 00:16:31.280 align:left position:22%
+<c.teletext>Tillhör man de obesuttna–</c>
+
+dfe7587d-934c-4537-81f4-2cb9056e564c
+00:16:31.440 --> 00:16:35.480 align:left position:22%
+<c.teletext>–som torpare, statare,
+tjänstefolk och backstugusittare–</c>
+
+002e439d-609c-40a2-8e73-d43832d26a70
+00:16:35.640 --> 00:16:39.640 align:left position:22%
+<c.teletext>–så är framtidsutsikterna
+inte särskilt gynnsamma.</c>
+
+280cf125-5efc-48ef-abb5-cb0f81a4aaeb
+00:16:39.800 --> 00:16:42.720 align:left position:22%
+<c.teletext>Det är svårt att försörja sig.</c>
+
+bdcf6bbd-ebde-4408-b07d-e11b335a133a
+00:16:46.960 --> 00:16:50.800 align:left position:22%
+<c.teletext>Därför lämnar nu många
+fattigdomen på landsbygden–</c>
+
+248a7fb3-2a5c-4dd2-aeb7-050e3bc8c3bc
+00:16:50.960 --> 00:16:55.680 align:left position:22%
+<c.teletext>–i hopp om ett jobb
+och kanske ett bättre liv i städerna.</c>
+
+43408cc0-c736-4b2e-8a2d-a02b19c171b1
+00:17:19.320 --> 00:17:24.960 align:left position:22%
+<c.teletext>I ett samhälle där man åkt häst och
+vagn var detta en enorm omställning–</c>
+
+30a7eb1f-ea42-42af-a706-a61456344e9e
+00:17:25.120 --> 00:17:30.320 align:left position:22%
+<c.teletext>–och en enorm upplevelse, vare sig
+man satt i tåget eller stod utanför.</c>
+
+2d2bd706-7209-4bd5-8341-27d74e75d31a
+00:17:33.120 --> 00:17:36.120 align:left position:22%
+<c.teletext>Med tåget införs
+centraltid i Sverige.</c>
+
+0bd4de25-e39a-45dc-b408-bb48709f8744
+00:17:36.280 --> 00:17:39.280 align:left position:22%
+<c.teletext>Tidigare förlitade man sig på solen–</c>
+
+64acc2b5-406b-43ab-b1c1-fdf023122a8f
+00:17:39.440 --> 00:17:44.600 align:left position:22%
+<c.teletext>–men ska man åka tåg mellan orter,
+måste man enas om vad klockan är.</c>
+
+782d12d5-2a19-4d4f-85ca-5b6398ee2d38
+00:17:44.760 --> 00:17:50.880 align:left position:22%
+<c.teletext>I början införs Göteborgstid, men det
+anses inte acceptabelt i Stockholm–</c>
+
+88c54e49-de30-4882-9df7-4f8cafae75e7
+00:17:51.040 --> 00:17:56.440 align:left position:22%
+<c.teletext>–så det slutar med en kompromiss:
+den tid som gäller i Örebrotrakten.</c>
+
+cce1d7d0-581a-4ff1-9583-16e83aee4d3f
+00:17:58.480 --> 00:18:02.480 align:left position:22%
+<c.teletext>De som flyttar in i städerna
+möter en helt ny värld.</c>
+
+16ae387c-3fa3-49fd-a763-619c571a9e97
+00:18:02.640 --> 00:18:06.680 align:left position:22%
+<c.teletext>De är många, och tillsammans
+förändrar de samhället.</c>
+
+47f426a6-d8d3-43d4-9c57-3683334b275b
+00:18:06.840 --> 00:18:12.320 align:left position:22%
+<c.teletext>Sverige utvecklas från ett jordbruks-
+samhälle till ett industrisamhälle–</c>
+
+095cfe73-321b-4147-bb92-56a792218e49
+00:18:12.480 --> 00:18:16.480 align:left position:22%
+<c.teletext>–med en växande arbetarklass
+och borgarklass.</c>
+
+7ccf6eec-88fb-4b81-8844-6e60776214d6
+00:18:16.640 --> 00:18:22.560 align:left position:22%
+<c.teletext>Det är två grupper som med tiden
+ska kräva mer inflytande i samhället.</c>
+
+696d5b8e-8480-4e4f-9b4d-0b44ac060583
+00:18:32.360 --> 00:18:36.760 align:left position:22%
+<c.teletext>Städer har alltid varit
+en plats för handel och produktion–</c>
+
+d311965d-4485-462f-a1c3-941ac5f15b6f
+00:18:36.920 --> 00:18:40.920 align:left position:22%
+<c.teletext>–men det har varit hårt reglerat
+vem som får göra vad.</c>
+
+50d63aa4-036a-40be-bff1-4cecbb05dc5e
+00:18:41.080 --> 00:18:48.320 align:left position:22%
+<c.teletext>Nu införs näringsfrihet. Alla som har
+råd kan fritt starta egna företag.</c>
+
+ac85c20a-7801-4af2-b457-3c3e3404ad3e
+00:18:48.480 --> 00:18:51.680 align:left position:22%
+<c.teletext>Och det är många som tar klivet.</c>
+
+919756bf-326b-4c28-86e4-91758953075a
+00:18:52.880 --> 00:18:57.640 align:left position:22%
+<c.teletext>De nya företagarna förevigar gärna
+sitt nya och friare liv–</c>
+
+de93b0f1-a235-491e-b1db-4a80adc70ee4
+00:18:57.800 --> 00:19:01.800 align:left position:22%
+<c.teletext>–med tekniken som precis kommit:
+fotografiet.</c>
+
+0b6eba42-f471-4bc0-9396-f46b6c58ab8f
+00:19:01.960 --> 00:19:05.320 align:left position:22%
+<c.teletext>I städerna
+växer en ny medelklass fram:</c>
+
+62449835-d0d0-4968-896b-ee51d3665e16
+00:19:05.480 --> 00:19:11.120 align:left position:22%
+<c.teletext>Advokater, läkare och journalister,
+som också ska spela en stor roll–</c>
+
+6f0e8adc-d897-4811-abf8-3bbeb32ad3a4
+00:19:11.280 --> 00:19:16.240 align:left position:22%
+<c.teletext>–i kraven på demokratisering
+av det svenska samhället.</c>
+
+cee5611c-b8a0-46a8-8639-daff34f2e469
+00:19:24.320 --> 00:19:27.960 align:left position:22%
+<c.teletext>Också i Norrlands skogar
+sker en stor förändring.</c>
+
+52a539c1-0dda-41ed-bc55-31eea31c9869
+00:19:28.120 --> 00:19:32.320 align:left position:22%
+<c.teletext>Länge var skogarna här
+en outnyttjad resurs för industrin.</c>
+
+1c76b542-0bdd-4d6d-925a-c2d5bb9ebf0b
+00:19:32.480 --> 00:19:36.040 align:left position:22%
+<c.teletext>Men med ångkraften, järnvägen
+och näringsfriheten–</c>
+
+2f5b1ae0-b421-4f72-b645-88796dba495b
+00:19:36.200 --> 00:19:39.200 align:left position:22%
+<c.teletext>–sker nu en explosionsartad
+exploatering.</c>
+
+85aa7b9b-f8f9-438b-b300-54c21ae8c8a7
+00:19:39.360 --> 00:19:43.360 align:left position:22%
+<c.teletext>Det är här industrialiseringen
+tar fart på riktigt.</c>
+
+f2ffc39a-b595-4f10-9f5e-cc1bd7a097e6
+00:19:43.520 --> 00:19:50.200 align:left position:22%
+<c.teletext>Nya sågverk byggs längs Norrlands-
+kusten, och många flyttar nu norrut.</c>
+
+f55b03ed-7bbe-4350-994c-b4768af5829f
+00:19:50.360 --> 00:19:54.800 align:left position:22%
+<c.teletext>Det kan liknas vid guldruschen
+– fast med trä.</c>
+
+528fd221-38a0-4307-ad5d-a3706469d443
+00:19:54.960 --> 00:19:57.760 align:left position:22%
+<c.teletext>Redan på 1850-talet gick den om...</c>
+
+8f932d80-2bd2-42e2-be8d-fdbb693b4cc7
+00:19:57.920 --> 00:20:02.800 align:left position:22%
+<c.teletext>Som exportnäring gick
+sågverksindustrin om järnexporten–</c>
+
+82804710-8988-4009-bff5-bd32aa5c11be
+00:20:02.960 --> 00:20:07.960 align:left position:22%
+<c.teletext>–som var Sveriges mest betydelsefulla
+exportindustri sedan många, många år.</c>
+
+5af660a7-5f5b-4c10-8edd-0e9f0b1afdd1
+00:20:08.120 --> 00:20:11.600 align:left position:22%
+<c.teletext>Handelsmän med kapital,
+som vågar satsa–</c>
+
+5f482241-d372-4dd8-abdf-395461e3796f
+00:20:11.760 --> 00:20:16.040 align:left position:22%
+<c.teletext>–kan nu bli väldigt rika
+på den svenska skogen.</c>
+
+7ad13217-b25d-4504-868d-f3047625b3be
+00:20:16.200 --> 00:20:22.520 align:left position:22%
+<c.teletext>Den ekonomiska friheten är en effekt
+av att de liberala idéerna får fäste.</c>
+
+6c765c3f-2fb3-487d-b821-0d2d7f9dffd0
+00:20:22.680 --> 00:20:27.120 align:left position:22%
+<c.teletext>Liberalerna vill att marknadskrafter
+och valfrihet ska styra.</c>
+
+351a9380-0eed-4af5-b02c-50d0c4b6fcfc
+00:20:27.280 --> 00:20:30.280 align:left position:22%
+<c.teletext>De ställs mot konservativa krafter–</c>
+
+f171fdb6-9650-4ebf-946b-1ca59d2a192d
+00:20:30.440 --> 00:20:34.840 align:left position:22%
+<c.teletext>–som vill bevara
+gamla värden och traditioner.</c>
+
+641c1c70-5c02-4118-b863-5821c4dc7233
+00:20:35.000 --> 00:20:39.520 align:left position:22%
+<c.teletext>I riksdagen finns
+både liberala och konservativa män.</c>
+
+c12b8118-2fc8-45ce-af57-f74a8c4d645b
+00:20:39.680 --> 00:20:46.320 align:left position:22%
+<c.teletext>Även om de resonerar på olika sätt,
+kan de ändå enas om vissa reformer.</c>
+
+b8bb8a5d-1868-43f3-b066-2f0797fbe20b
+00:20:55.320 --> 00:21:01.560 align:left position:22%
+<c.teletext>Ett exempel är beslutet om allmän
+folkskola för barn ur alla klasser–</c>
+
+87447261-2ee9-49b6-a75c-9fcab6cace6a
+00:21:01.720 --> 00:21:05.480 align:left position:22%
+<c.teletext>–nåt som skedde redan 1842.</c>
+
+64c1cedc-2288-4476-92d5-34a3547337d4
+00:21:05.640 --> 00:21:09.640 align:left position:22%
+<c.teletext>Liberalerna ville ge barnen
+rätt till utbildning.</c>
+
+2c7bf9ce-1cc9-441c-a58b-7287aee64d1c
+00:21:09.800 --> 00:21:15.600 align:left position:22%
+<c.teletext>Riksdagens konservativa majoritet
+ville införa folkskola av andra skäl.</c>
+
+f78fc509-039b-4f0f-8a19-4acc09ec8964
+00:21:15.760 --> 00:21:19.280 align:left position:22%
+<c.teletext>Första tidens folkskola var ett sätt–</c>
+
+a73b10e2-4adb-45cf-a5df-72f9fa0688b4
+00:21:19.440 --> 00:21:23.920 align:left position:22%
+<c.teletext>–att ha kontroll över fattigas barn,
+bibehålla lugn–</c>
+
+92db4aed-34dc-4480-8502-730b72560f89
+00:21:24.080 --> 00:21:27.280 align:left position:22%
+<c.teletext>–och undvika oroligheter,
+kanske t.o.m. uppror.</c>
+
+52675b15-c215-467c-87fd-d9b184ef2585
+00:21:27.440 --> 00:21:31.600 align:left position:22%
+<c.teletext>Det handlade inte om
+att man ville utbilda självständiga–</c>
+
+6a04d7fc-e264-4d6d-b933-22511f2ffe29
+00:21:31.760 --> 00:21:37.160 align:left position:22%
+<c.teletext>–och fritänkande medborgare
+på något sätt. Inte alls, inte än.</c>
+
+0a5b8bf6-3dd1-4381-85d4-53bc4cc6a510
+00:21:41.040 --> 00:21:46.440 align:left position:22%
+<c.teletext>Men med tiden kommer folkskole-
+reformen att spela en viktig roll.</c>
+
+42711460-b0aa-4b37-a463-9034808e8ada
+00:21:47.600 --> 00:21:52.600 align:left position:22%
+<c.teletext>Folkskolestadgan betyder att
+det kommer en helt ny syn på kunskap–</c>
+
+e4fe1333-ccf2-4a9f-ba0a-4635872a7e38
+00:21:52.760 --> 00:21:58.240 align:left position:22%
+<c.teletext>–och utbildning i Sverige. Det gamla
+kyrkliga monopolet på bildning bryts.</c>
+
+e1ded25b-57db-40a7-be8f-0ab447342b4d
+00:21:58.400 --> 00:22:02.120 align:left position:22%
+<c.teletext>Prästerna som hållit husförhör
+ersätts av lärare–</c>
+
+73f7b42c-648b-4c1c-9ad8-410baec9552b
+00:22:02.280 --> 00:22:08.000 align:left position:22%
+<c.teletext>–som aktivt arbetar med unga för att
+de ska tillägna sig vissa kunskaper.</c>
+
+c3a4e553-a43a-4169-a8d1-38a9f986958c
+00:22:13.600 --> 00:22:18.960 align:left position:22%
+<c.teletext>Reformen innehåller skolplikt,
+och det möter hårt motstånd.</c>
+
+49bad2d1-f6d4-48d3-af1f-399f8a61e68a
+00:22:19.120 --> 00:22:23.720 align:left position:22%
+<c.teletext>Många ifrågasätter varför deras barn
+ska slösa bort sin tid i skolan–</c>
+
+4e69701b-846a-49e6-83c7-b9f836b5d945
+00:22:23.880 --> 00:22:27.880 align:left position:22%
+<c.teletext>–när de behövs
+som arbetskraft i hemmet.</c>
+
+6f500f78-e223-49a9-831b-5745b0105c35
+00:22:34.360 --> 00:22:38.600 align:left position:22%
+<c.teletext>Här i Tornedalen
+talar många av barnen meänkieli...</c>
+
+4486de19-f525-4060-a3b0-80e3065cd19e
+00:22:41.560 --> 00:22:46.040 align:left position:22%
+<c.teletext>...ett språk som har ålderdomligare
+inslag än dagens finska.</c>
+
+ab4c501e-c386-453e-8fc4-6a2de8d99dea
+00:22:46.200 --> 00:22:51.800 align:left position:22%
+<c.teletext>Det har historiska influenser från
+finska dialekter, och från svenskan.</c>
+
+d6a49207-d691-4a1e-ad3b-a96aed0bbbea
+00:22:58.400 --> 00:23:04.000 align:left position:22%
+<c.teletext>Men i den allmänna folkskolan
+tillåts bara ett språk: svenska.</c>
+
+9d07acef-a8ee-4513-99ba-ee6cc1cbfa78
+00:23:06.520 --> 00:23:11.360 align:left position:22%
+<c.teletext>De första folkskolorna i Tornedalen
+öppnande på 1850-talet.</c>
+
+a63dae73-7c4a-498c-b128-b077b07304c3
+00:23:11.520 --> 00:23:14.720 align:left position:22%
+<c.teletext>Då var undervisningsspråket
+meänkieli.</c>
+
+b6e2d6e1-77ca-4ef5-8fbc-18e9dce8ca79
+00:23:14.880 --> 00:23:20.400 align:left position:22%
+<c.teletext>Men successivt under 1800-talet
+blev undervisningsspråket svenska.</c>
+
+d45cf9a0-fc6f-4a9d-9eb5-04fb4bdf1170
+00:23:20.560 --> 00:23:26.560 align:left position:22%
+<c.teletext>Det berodde på den ökade rasismen,
+den ökade nationalismen–</c>
+
+39780899-2292-4bcf-98ce-403dba36c53c
+00:23:26.720 --> 00:23:31.720 align:left position:22%
+<c.teletext>–och att försvenskningspolitiken
+blev normerande.</c>
+
+7e0951c9-bcaf-45f9-9e03-0073b616b85d
+00:23:38.840 --> 00:23:44.520 align:left position:22%
+<c.teletext>Inte bara de som pratar meänkieli
+utsätts för diskriminering.</c>
+
+b6bbc452-1aaa-44f7-82d4-820e1399705b
+00:23:44.680 --> 00:23:49.160 align:left position:22%
+<c.teletext>Samiska barn får inte heller
+tala sitt modersmål i skolan.</c>
+
+deaf61af-36f5-4e8d-a55c-44a2bf5e479f
+00:24:03.600 --> 00:24:08.320 align:left position:22%
+<c.teletext>Vårvintern 1867
+är det återigen svält i Sverige.</c>
+
+4641069e-24f9-48de-bc29-ca6ccccdd589
+00:24:09.280 --> 00:24:11.880 align:left position:22%
+<c.teletext>Värst drabbat är Västerbotten.</c>
+
+7e993284-3e59-4c11-939e-79dcd1b4cc19
+00:24:15.520 --> 00:24:21.480 align:left position:22%
+<c.teletext>Det är den kallaste vi uppmätt under
+300 år av meteorologiska mätningar.</c>
+
+cd8f720f-6419-48a7-ab3e-58e6b8a4bfed
+00:24:21.640 --> 00:24:24.280 align:left position:22%
+<c.teletext>Det leder till omfattande missväxt.</c>
+
+54568936-0e60-4c5f-b812-1f6f0a684416
+00:24:24.440 --> 00:24:29.640 align:left position:22%
+<c.teletext>Det är svårt att förstå graden
+av desperation som det här skapade.</c>
+
+c4b88b26-0425-43b9-8cc1-03378eb09ccd
+00:24:29.800 --> 00:24:35.360 align:left position:22%
+<c.teletext>Hungersnöden är stor i riket.
+Människor och barn svälter.</c>
+
+b582c014-46cb-4de2-8e08-e3d95e8e42c0
+00:24:39.240 --> 00:24:45.080 align:left position:22%
+<c.teletext>Det berättas att man i desperation
+kokade skor för att få i sig protein.</c>
+
+1c76c753-5c93-4563-bf9f-c401c26384f7
+00:24:46.240 --> 00:24:50.240 align:left position:22%
+<c.teletext>Man tar till
+alla sätt och metoder som finns.</c>
+
+72450a94-ad7a-4337-b2a1-c45ebc8b008c
+00:24:50.400 --> 00:24:53.640 align:left position:22%
+<c.teletext>Man maler bark och halm
+och blandar ut i bröd.</c>
+
+28bcc795-d64a-4717-9dd7-9a04d10eae4c
+00:24:53.800 --> 00:24:56.800 align:left position:22%
+<c.teletext>Man kokar soppa på gräs och mossor.</c>
+
+8da72f26-b681-410a-8437-391c6b03e6ea
+00:24:56.960 --> 00:25:02.160 align:left position:22%
+<c.teletext>Man skrapar djurhudar för att få loss
+håret som kan innehålla näring.</c>
+
+b4aacda9-5b6c-4ef6-8ffe-e9f76f4031c3
+00:25:02.320 --> 00:25:05.040 align:left position:22%
+<c.teletext>Hungersnöden är stor.</c>
+
+1af0fd0a-ebb3-444a-aeff-d42138d36af6
+00:25:12.200 --> 00:25:17.720 align:left position:22%
+<c.teletext>I Västerbotten är folk i desperat
+behov av hjälp, men hjälpen dröjer.</c>
+
+d8b355b9-fcff-4006-b79e-bc9c04f419fe
+00:25:17.880 --> 00:25:20.800 align:left position:22%
+<c.teletext>Det är svårt att få ut nödhjälpen.</c>
+
+36c4e1c1-4225-4483-84a1-7f2d961d6d92
+00:25:20.960 --> 00:25:25.400 align:left position:22%
+<c.teletext>Järnvägsnätet är inte utbyggt,
+stambanan går bara till Uppsala.</c>
+
+637fdf89-1960-4e82-a616-ae3fd9356eb6
+00:25:25.560 --> 00:25:30.760 align:left position:22%
+<c.teletext>Det är kallt, vattnet är fruset. Det
+går inte att ta sig dit med skepp.</c>
+
+c57c2714-18a8-4136-bcd5-bf87836cb0ec
+00:25:30.920 --> 00:25:34.800 align:left position:22%
+<c.teletext>Norrland är isolerat
+vid den här tiden.</c>
+
+2fb6d34a-3bdc-4cc5-8cb2-523ae5b1ad20
+00:25:36.480 --> 00:25:39.480 align:left position:22%
+<c.teletext>Hjälpen dröjer också
+av politiska skäl.</c>
+
+6a1bc35d-0253-4fb4-bdba-fdd81ee517ab
+00:25:39.640 --> 00:25:44.600 align:left position:22%
+<c.teletext>Riksdagen har svårt att komma överens
+om formerna för nödhjälpen.</c>
+
+9a6d2ee1-6f2c-452c-949b-863a74ae4ca9
+00:25:44.760 --> 00:25:50.880 align:left position:22%
+<c.teletext>Den nödhjälp som klubbas igenom
+går inte som bidrag till svältande–</c>
+
+5d880a2c-e251-4d88-af25-04aaf059be12
+00:25:51.040 --> 00:25:56.880 align:left position:22%
+<c.teletext>–utan som ett slags nödlån
+till dem som kan betala tillbaka.</c>
+
+a1f8ff6e-6c97-49ff-a618-007c34c3e75a
+00:25:57.040 --> 00:26:01.240 align:left position:22%
+<c.teletext>Inte till de allra fattigaste,
+som behöver det mest–</c>
+
+f23d49c8-eb51-4fc9-b91e-15da3b8b5662
+00:26:01.400 --> 00:26:06.280 align:left position:22%
+<c.teletext>–utan till dem som kan tänkas
+betala tillbaka inom en rimlig tid.</c>
+
+7012d85e-08b5-439c-bb30-19afc2dd3b9b
+00:26:06.440 --> 00:26:12.440 align:left position:22%
+<c.teletext>Året efter svälten i Norrland drabbas
+också södra Sverige av missväxt.</c>
+
+e9cf37a1-7df8-4100-afff-3934335d6b05
+00:26:12.600 --> 00:26:15.480 align:left position:22%
+<c.teletext>När nödåren är slut, efter två år–</c>
+
+80dcecb9-56ea-4ed9-a828-c49ce0dffad0
+00:26:15.640 --> 00:26:21.360 align:left position:22%
+<c.teletext>–har tusentals svenskar dött
+av undernäring och sjukdomar.</c>
+
+12103892-d205-4e6f-a66d-57da9da4a19d
+00:26:27.720 --> 00:26:33.840 align:left position:22%
+<c.teletext>Hungersnöden och fattigdomen gör att
+många inte ser nån framtid i Sverige.</c>
+
+dd53ea89-b8bb-4dd0-b4f7-b9c778cafac6
+00:26:34.000 --> 00:26:39.040 align:left position:22%
+<c.teletext>De bestämmer sig för att söka lyckan
+och ett bättre liv i Amerika.</c>
+
+cba9c5b6-3126-4e0d-a81c-672c0e008850
+00:26:39.200 --> 00:26:43.640 align:left position:22%
+<c.teletext>Om man ska emigrera,
+tar man sig först till Sillgatan–</c>
+
+c4c51fb5-2a5b-4c61-8fe9-026479bf9970
+00:26:43.800 --> 00:26:46.560 align:left position:22%
+<c.teletext>–nuvarande Postgatan i Göteborg.</c>
+
+3c07c32c-742f-4183-aad0-2648bebf1af9
+00:26:56.440 --> 00:26:59.560 align:left position:22%
+<c.teletext>Det är väldigt många som reser.</c>
+
+076e6c1f-2d3e-43cc-9223-0b592d525b04
+00:26:59.720 --> 00:27:05.560 align:left position:22%
+<c.teletext>Majoriteten, ungefär 80 procent,
+reser från Göteborg.</c>
+
+22769bb6-9fe5-4558-9ad3-8411249ce184
+00:27:06.920 --> 00:27:13.600 align:left position:22%
+<c.teletext>På 1800-talet är det här alla de
+stora transatlantiska bolagen ligger.</c>
+
+ea7e44cb-5a32-478a-b135-cbcae65b4f6c
+00:27:13.760 --> 00:27:17.760 align:left position:22%
+<c.teletext>Gatorna runt Sillgatan
+var fyllda av köpmän–</c>
+
+f0c01ae5-60e4-4107-98b2-399a55c4d228
+00:27:17.920 --> 00:27:23.520 align:left position:22%
+<c.teletext>–som sålde alla möjliga varor man
+kunde behöva till och efter resan.</c>
+
+a30c0b3d-53bb-4617-a716-db1166e45532
+00:27:26.480 --> 00:27:32.280 align:left position:22%
+<c.teletext>Det var musikanter på gatorna och
+uppträdanden, och barerna höll öppet.</c>
+
+9564669c-0907-4ae6-85f6-ea22a3282de4
+00:27:34.800 --> 00:27:38.240 align:left position:22%
+<c.teletext>Utvandringen från Sverige tar fart.</c>
+
+5767219e-e57b-4843-9732-918e500ec051
+00:27:38.400 --> 00:27:43.800 align:left position:22%
+<c.teletext>Under det här året reser tiotusentals
+svenskar över havet till Amerika.</c>
+
+d87d7ddd-f387-4f1c-9ba4-a52e1757124c
+00:27:43.960 --> 00:27:47.960 align:left position:22%
+<c.teletext>Det finns många anledningar
+till varför man emigrerade.</c>
+
+e6ca72de-9f9a-4237-9828-4e9844c013a4
+00:27:48.120 --> 00:27:51.560 align:left position:22%
+<c.teletext>Den främsta är
+möjligheten till försörjning.</c>
+
+67342cd1-c890-420e-b698-c1cc5e1b7e2a
+00:28:00.640 --> 00:28:04.920 align:left position:22%
+<c.teletext>Många reser med drömmen
+om ett bättre liv i sikte.</c>
+
+c84844a7-ae5b-42dd-ade5-3145f2f95e49
+00:28:05.080 --> 00:28:08.120 align:left position:22%
+<c.teletext>Många hamnar i städerna,
+i industriarbete–</c>
+
+fb78c9da-48f9-4e14-9316-4a012409ad7e
+00:28:08.280 --> 00:28:12.360 align:left position:22%
+<c.teletext>–eller som tjänstefolk
+i stadshushåll–</c>
+
+9e48460d-d756-4493-9b56-f4cdec69e7a5
+00:28:12.520 --> 00:28:15.640 align:left position:22%
+<c.teletext>–med bättre villkor än i Sverige.</c>
+
+79e09be0-0f82-4177-9bdb-51f5b0d51f6c
+00:28:15.800 --> 00:28:20.520 align:left position:22%
+<c.teletext>I USA fanns möjligheten
+att få en bit land gratis–</c>
+
+cae8116c-7ca3-4f4d-b49d-c803343dbcbd
+00:28:20.680 --> 00:28:25.240 align:left position:22%
+<c.teletext>–och det lockade väldigt många
+att emigrera.</c>
+
+24c022c5-83c1-4f7c-b03e-101e2beba7dc
+00:28:27.360 --> 00:28:31.360 align:left position:22%
+<c.teletext>Det är dyrt med biljetter
+– omkring 130 riksdaler.</c>
+
+1f34979b-a7e4-448d-a607-75be7c239e9d
+00:28:31.520 --> 00:28:36.840 align:left position:22%
+<c.teletext>Därför är det många mindre bemedlade
+som får förbetalda biljetter–</c>
+
+c261f97e-08cd-4d7d-9f58-f895f1d150d7
+00:28:37.000 --> 00:28:41.880 align:left position:22%
+<c.teletext>–skickade till sig från USA,
+av släkt och vänner som åkt i förväg–</c>
+
+4edfbcdb-1f61-4252-8f01-6bdfb431f110
+00:28:42.040 --> 00:28:45.440 align:left position:22%
+<c.teletext>–och sparat ihop till en biljett.</c>
+
+c1ee479f-ff5c-4af3-8bfb-44a0e8f72148
+00:28:46.840 --> 00:28:51.320 align:left position:22%
+<c.teletext>När emigrationsvågen är över
+i början på 1900-talet–</c>
+
+b7c39b78-d658-4de8-8914-9b2366dd8e13
+00:28:51.480 --> 00:28:58.040 align:left position:22%
+<c.teletext>–så har 1 200 000 svenskar emigrerat.
+En femtedel av Sveriges befolkning.</c>
+
+a366cc12-ee51-4c35-82d7-4635445c2d07
+00:29:13.360 --> 00:29:18.360 align:left position:22%
+<c.teletext>Men de flesta stannar ändå i Sverige.
+Många flyttar till städerna–</c>
+
+796b4716-d3da-4cf9-bc9d-3ca1d87e873f
+00:29:18.520 --> 00:29:23.920 align:left position:22%
+<c.teletext>–och får jobb i industrier
+och fabriker som byggs i rekordfart.</c>
+
+f2b15ae9-701d-4665-9843-32112c04e51e
+00:29:24.080 --> 00:29:29.960 align:left position:22%
+<c.teletext>Lena heter nu Törnqvist i efternamn,
+och hon är en av alla dessa arbetare.</c>
+
+04c1bdc8-a0e3-48c7-81c5-9cd629064454
+00:29:30.120 --> 00:29:33.960 align:left position:22%
+<c.teletext>Livet i staden blev nog inte
+så bra som hon hoppats.</c>
+
+a456fbee-a5bf-4c3f-ac34-8e0df229c61b
+00:29:34.120 --> 00:29:38.120 align:left position:22%
+<c.teletext>Hon blir änka tidigt
+när hennes man dör i kolera.</c>
+
+e9c9007e-ff08-4c69-b830-4c5d11ec5bb6
+00:29:41.880 --> 00:29:48.200 align:left position:22%
+<c.teletext>Ensam med fyra barn tar hon jobb
+på en tändsticksfabrik i Jönköping.</c>
+
+a4bef6ac-0e17-42cb-aef1-71bddbbeca7e
+00:29:52.880 --> 00:29:56.880 align:left position:22%
+<c.teletext>Det var väldigt hårda
+arbetsförhållanden.</c>
+
+139f39b8-fd80-41c3-ac46-ebd99719c555
+00:29:57.040 --> 00:30:03.680 align:left position:22%
+<c.teletext>Man jobbade långa arbetsdagar.
+11–12 timmar, sex dagar i veckan.</c>
+
+50a4d6cf-881c-43d8-ab88-f4440013de0f
+00:30:03.840 --> 00:30:08.080 align:left position:22%
+<c.teletext>Man satte ihop tändstickor,
+buntade ihop dem–</c>
+
+f2b3015b-d1fb-4e69-ab17-185e0919cb47
+00:30:08.240 --> 00:30:12.160 align:left position:22%
+<c.teletext>–doppade dem i fosformassa
+och paketerade dem.</c>
+
+e6775a19-130e-471a-b3ed-c05b598080fd
+00:30:12.320 --> 00:30:15.600 align:left position:22%
+<c.teletext>Det var dåligt betalt,
+ett låglönearbete.</c>
+
+78175594-261e-4db6-8780-2d3e2eea532c
+00:30:15.760 --> 00:30:20.760 align:left position:22%
+<c.teletext>Ofta var man beroende av
+att även barnen jobbade.</c>
+
+c3de2e4a-4876-4a83-bf47-22ef69747f20
+00:30:22.400 --> 00:30:28.880 align:left position:22%
+<c.teletext>Barnarbete var vanligt. Hälften av
+arbetsstyrkan brukade bestå av barn.</c>
+
+81c84d5b-3f55-41a0-96c3-8c1075968d4b
+00:30:29.040 --> 00:30:35.520 align:left position:22%
+<c.teletext>Barnen hade små, flinka händer
+och de var billig arbetskraft.</c>
+
+83ba43bc-8c13-41b5-a575-724b0c174554
+00:30:37.800 --> 00:30:42.480 align:left position:22%
+<c.teletext>Enligt svensk lag skulle man vara
+10–14 år när man jobbade–</c>
+
+5a7e42a9-cf01-4b07-8530-49f37e76e3cb
+00:30:42.640 --> 00:30:47.640 align:left position:22%
+<c.teletext>–men vi vet att några var så unga som
+7–8 år när de började på fabriken.</c>
+
+6c77a425-11f7-4446-b8b0-8fdfb3e05f92
+00:30:50.320 --> 00:30:55.560 align:left position:22%
+<c.teletext>Många arbetare i tändsticksfabriken
+blir sjuka. I början misstänker man–</c>
+
+03cfe65a-7150-4931-846e-040bac2f7e39
+00:30:55.720 --> 00:31:00.520 align:left position:22%
+<c.teletext>–att det är kalla vindar från Vättern
+som ligger bakom sjukdomarna.</c>
+
+3ff233eb-a613-436a-833a-fea8633f56a9
+00:31:00.680 --> 00:31:05.880 align:left position:22%
+<c.teletext>Men när allt fler drabbas, förstår
+man att läget är allvarligare än så.</c>
+
+979e8407-de2f-440a-957e-5b8512c14c90
+00:31:07.520 --> 00:31:10.440 align:left position:22%
+<c.teletext>Och att det har att göra med fosforn.</c>
+
+95f6743f-7ab9-4d6d-893f-8f878acbd839
+00:31:12.200 --> 00:31:17.640 align:left position:22%
+<c.teletext>Sjukdomen kallas fosfornekros,
+eller käkbrand hos arbetarna.</c>
+
+8a278bf3-ae34-4d52-91fb-b2a82fafd521
+00:31:17.800 --> 00:31:22.760 align:left position:22%
+<c.teletext>Den angriper tandköttet. Du tappar
+tänder, det går ner i käkbenet–</c>
+
+ed7bf1cc-5450-44d5-812c-12d37f9c27cc
+00:31:22.920 --> 00:31:28.480 align:left position:22%
+<c.teletext>–och skelettet börjar vittra sönder.
+Det blir som en mjuk svamp i munnen.</c>
+
+dc6c536b-c51f-4a57-b132-02880acdf402
+00:31:29.440 --> 00:31:35.600 align:left position:22%
+<c.teletext>Senare blir Lena fotograferad. Då
+har även hon drabbats av sjukdomen.</c>
+
+29813295-72aa-457f-9278-370afaeec1b6
+00:31:35.760 --> 00:31:42.160 align:left position:22%
+<c.teletext>På bilden har Lena knutit sin sjalett
+högt upp, nästan under underläppen.</c>
+
+67dfd315-8a36-4dbb-8f02-1f3f5e918c47
+00:31:42.320 --> 00:31:47.320 align:left position:22%
+<c.teletext>Det är för att dölja
+det deformerade käkbenet som hon har.</c>
+
+95113db0-2d2a-4f80-8f2a-d3bfc78c563f
+00:31:47.480 --> 00:31:51.680 align:left position:22%
+<c.teletext>Lena tillhör
+den växande klassen av arbetare.</c>
+
+7881631a-fb4c-46ed-a0ba-ae7ee7f27a84
+00:31:54.320 --> 00:31:59.120 align:left position:22%
+<c.teletext>En grupp som kommer att kräva
+inflytande och medbestämmande.</c>
+
+f8063ba4-2bf5-4b6f-a19b-ad35294e46f6
+00:31:59.280 --> 00:32:03.080 align:left position:22%
+<c.teletext>Det är den hårda arbetsmiljön
+och de usla villkoren–</c>
+
+622504cb-89ca-41e2-988b-196612e804da
+00:32:03.240 --> 00:32:08.760 align:left position:22%
+<c.teletext>–i kombination med nya socialistiska
+idéer om rättvisa och jämlikhet–</c>
+
+735362f7-4e5d-4653-a041-73e840afcb0e
+00:32:08.920 --> 00:32:13.160 align:left position:22%
+<c.teletext>–som gör att arbetarna
+börjar organisera sig.</c>
+
+62909f81-71fe-42f8-b44c-db7fdc1a7ae9
+00:32:15.800 --> 00:32:22.480 align:left position:22%
+<c.teletext>Ett första test på den framväxande
+arbetarrörelsens förmåga–</c>
+
+0061884c-6fc6-425e-bfb4-254b1eb7f6a7
+00:32:22.640 --> 00:32:26.720 align:left position:22%
+<c.teletext>–var Sundsvallsstrejken 1879.</c>
+
+f2461120-0b64-497a-9bfb-54723c3243bd
+00:32:26.880 --> 00:32:32.760 align:left position:22%
+<c.teletext>Arbetsgivarna ville sänka lönerna för
+dem som redan levde på svältgränsen.</c>
+
+bc794861-5fa0-452a-8944-c8c6386a7851
+00:32:32.920 --> 00:32:37.760 align:left position:22%
+<c.teletext>Omkring 5 000 man gick ut i strejk
+i hela Sundsvallsdistriktet–</c>
+
+0a0a41da-9550-4330-b687-3570cfcf958e
+00:32:37.920 --> 00:32:43.720 align:left position:22%
+<c.teletext>–utan att ha organiserats i nån fack-
+förening. Det var en spontan strejk.</c>
+
+f732cea5-d285-46c0-a4d1-917b8c65b77c
+00:32:48.280 --> 00:32:53.880 align:left position:22%
+<c.teletext>Strejken tar slut efter åtta dagar,
+när myndigheten kallat in militär.</c>
+
+a0599b03-c06b-417b-b791-c226649cfc0f
+00:32:54.040 --> 00:32:59.040 align:left position:22%
+<c.teletext>Arbetsgivarna ställer ultimatum: "Om
+ni inte går tillbaka till arbetet"–</c>
+
+01da79f9-9e33-4ef3-9bf3-c3d828bab6b0
+00:32:59.200 --> 00:33:04.720 align:left position:22%
+<c.teletext>–"så vräks ni från era bostäder. Vi
+ser till att ni hamnar i fängelse."</c>
+
+943b9b73-4323-4f65-90c0-ed18ec69c2e2
+00:33:04.880 --> 00:33:11.400 align:left position:22%
+<c.teletext>Det blev ett nederlag för arbetarna,
+som under hot återgick till arbetet.</c>
+
+f0bf159e-7d8e-44f5-a2c7-79c5c9268976
+00:33:13.320 --> 00:33:18.840 align:left position:22%
+<c.teletext>Men en gnista är tänd. Nu börjar
+många fackföreningar bildas.</c>
+
+3d9388fd-a3e0-46e0-a818-ce5f99996c8e
+00:33:24.760 --> 00:33:29.760 align:left position:22%
+<c.teletext>August Palm har återvänt till Sverige
+efter att ha utvisats från Tyskland–</c>
+
+9b91f8b7-9dfd-4adf-bc9a-1f557a6b3f0a
+00:33:29.920 --> 00:33:35.840 align:left position:22%
+<c.teletext>–eftersom han brutit mot lagen där,
+när han agiterat för socialism.</c>
+
+d84236a1-f7dc-4331-ab9e-0ffadbeebc58
+00:33:37.040 --> 00:33:40.040 align:left position:22%
+<c.teletext>Han blir en framstående företrädare–</c>
+
+bccca848-2741-48d6-b415-2346d9d993e4
+00:33:40.200 --> 00:33:44.280 align:left position:22%
+<c.teletext>–för den framväxande
+arbetarrörelsen i Sverige.</c>
+
+b850f100-bfd5-40e2-9750-02a466de918c
+00:33:44.440 --> 00:33:49.560 align:left position:22%
+<c.teletext>August Palm är med och grundar
+bl.a. tidningen Social-Demokraten.</c>
+
+349a4928-f978-47e4-96dd-59a19bf26c68
+00:33:49.720 --> 00:33:54.720 align:left position:22%
+<c.teletext>I den för han fram idéerna om att
+arbetarklassen ska organisera sig–</c>
+
+c2df9b9b-9696-4e6a-baf3-d33e3d500538
+00:33:54.880 --> 00:33:58.280 align:left position:22%
+<c.teletext>–för att få rösträtt
+och bättre villkor.</c>
+
+08adfa17-9014-4505-a764-ff74ed5d310c
+00:33:58.440 --> 00:34:01.600 align:left position:22%
+<c.teletext>Rätt man på rätt plats i rätt tid.</c>
+
+f6205011-1e93-4d7e-b5d2-25d06f4af9cf
+00:34:01.760 --> 00:34:05.560 align:left position:22%
+<c.teletext>Samtidigt börjar de första
+fackföreningarna växa fram–</c>
+
+941bea91-1ce5-495b-9ff4-a1b0a274aa5e
+00:34:05.720 --> 00:34:09.880 align:left position:22%
+<c.teletext>–och det finns en begynnande
+organisering bland svenska arbetare.</c>
+
+d50af456-33b8-4260-b426-11da135b7efe
+00:34:10.040 --> 00:34:15.960 align:left position:22%
+<c.teletext>Tidningspressen och olika pamfletter
+cirkulerar allt oftare, allt vidare.</c>
+
+c36bfa99-2163-4a68-a666-86af06c95947
+00:34:16.120 --> 00:34:21.400 align:left position:22%
+<c.teletext>De kan spridas med järnvägen.
+Nya idéer når ut till landet–</c>
+
+ffd10a40-9c1c-4b05-b7f0-ce2d0be1b63a
+00:34:21.560 --> 00:34:25.720 align:left position:22%
+<c.teletext>–på ett helt annat sätt
+än bara några årtionden tidigare.</c>
+
+ff4c8f7d-b8c2-47b9-8de1-32197c25ea9f
+00:34:39.720 --> 00:34:42.520 align:left position:22%
+<c.teletext>August Palm är mycket aktiv.</c>
+
+8f905bf3-ef6b-4286-a693-674aa1d6919b
+00:34:42.680 --> 00:34:47.440 align:left position:22%
+<c.teletext>Han reser runt överallt
+och agiterar varhelst han kommer åt.</c>
+
+665595f0-1be2-48f5-a7a7-612d49853d95
+00:34:50.440 --> 00:34:54.640 align:left position:22%
+<c.teletext>Han agiterar på arbetsplatser,
+i parker och på gårdsplaner.</c>
+
+b436eaf6-b0c5-4888-83dd-8dd4d134f211
+00:34:54.800 --> 00:34:59.120 align:left position:22%
+<c.teletext>Han är också väldigt rolig
+och det lockar mycket folk.</c>
+
+481e56ff-b445-45f1-adf7-b0aa4fa4fc60
+00:34:59.280 --> 00:35:06.000 align:left position:22%
+<c.teletext>De som deltar vid de här mötena
+utsätter sig själva för en risk.</c>
+
+805a0679-203a-47ed-8fb3-4216507f82b9
+00:35:06.160 --> 00:35:11.840 align:left position:22%
+<c.teletext>De kan få böter om de applåderar, och
+de som agiterar riskerar fängelse.</c>
+
+52277aa8-f256-4419-9fa5-46e771b11c88
+00:35:12.000 --> 00:35:18.480 align:left position:22%
+<c.teletext>De ses som ett hot, inte bara mot
+överheten, utan mot rikets säkerhet.</c>
+
+ac70e1c4-0f29-490f-8f7e-627fa7127818
+00:35:18.640 --> 00:35:22.080 align:left position:22%
+<c.teletext>Och de blir förföljda.</c>
+
+1ace2231-9b10-4bbf-9c3a-a927f0a1c4ea
+00:35:27.120 --> 00:35:35.040 align:left position:22%
+<c.teletext>Arbetarrörelsens möten övervakades
+regelbundet av detektiva avdelningen–</c>
+
+691426eb-874b-4d80-935f-b766ceb29f04
+00:35:35.200 --> 00:35:40.880 align:left position:22%
+<c.teletext>–som var civilklädda konstaplar
+och föregångare till dagens Säpo.</c>
+
+07d8d5f0-bf42-4339-9726-1eafb419099e
+00:35:46.640 --> 00:35:52.040 align:left position:22%
+<c.teletext>Man ordnar stenografikurser för
+konstaplarna som övervakar mötena.</c>
+
+f2dc7aaa-f201-4297-9d93-a57ce539ba57
+00:35:52.200 --> 00:35:55.280 align:left position:22%
+<c.teletext>De kan återge vad som sägs ordagrant–</c>
+
+27c2763b-43e9-4896-a0d4-f40e71b14ade
+00:35:55.440 --> 00:36:00.760 align:left position:22%
+<c.teletext>–och det kan sen ligga till grund för
+ingripanden, åtal och fängelsedomar.</c>
+
+06b1978f-457a-48c0-a91e-09f149e51ae9
+00:36:04.920 --> 00:36:11.080 align:left position:22%
+<c.teletext>August Palm döms flera gånger
+till fängelse. Men han är inte ensam.</c>
+
+51bf55b6-41de-45bd-b16c-1157a0e65b52
+00:36:11.240 --> 00:36:15.840 align:left position:22%
+<c.teletext>Många välkända personer i
+arbetarrörelsens ledning, agitatorer–</c>
+
+69a2b6ea-173b-4503-8e1c-8000b1b20b76
+00:36:16.000 --> 00:36:18.600 align:left position:22%
+<c.teletext>–hamnar i fängelse en tid:</c>
+
+30c88f39-c9cf-4efd-8710-6d65baaeb2d2
+00:36:18.760 --> 00:36:23.560 align:left position:22%
+<c.teletext>Hjalmar Branting och flera som vi
+i dag känner som förgrundsgestalter.</c>
+
+edff4306-1405-4980-967e-fb3964e46a63
+00:36:23.720 --> 00:36:29.200 align:left position:22%
+<c.teletext>Deras brott är att ha smädat
+riksdag, regering och kungamakt.</c>
+
+3c3c5ccb-faf6-4384-8119-fd190684d378
+00:36:29.360 --> 00:36:32.480 align:left position:22%
+<c.teletext>De döms också för tryckfrihetsbrott.</c>
+
+b68288fd-3220-40a6-8ae1-eb2967263578
+00:36:32.640 --> 00:36:35.640 align:left position:22%
+<c.teletext>Arbetarrörelsen fortsätter att växa.</c>
+
+c5f902cb-c4f4-451f-a892-a7a708a825cb
+00:36:35.800 --> 00:36:39.800 align:left position:22%
+<c.teletext>1889 bildas
+det socialdemokratiska partiet–</c>
+
+6ed6f670-8041-48e4-a28a-492ff9f83519
+00:36:39.960 --> 00:36:43.960 align:left position:22%
+<c.teletext>–med siktet inställt på
+att förändra samhället.</c>
+
+641110fe-dc29-408b-9401-8dda153d49f0
+00:36:50.600 --> 00:36:55.400 align:left position:22%
+<c.teletext>Vid den här tiden har Sverige tagit
+ett litet steg mot ökad demokrati–</c>
+
+581af8fb-14f5-4197-ab2b-e3d03b643b56
+00:36:55.560 --> 00:37:01.080 align:left position:22%
+<c.teletext>–när man reformerade riksdagen
+23 år tidigare, 1866.</c>
+
+cb399766-84ac-43a0-bd52-a027b2378da3
+00:37:06.600 --> 00:37:11.760 align:left position:22%
+<c.teletext>Liberala krafter pressade fram
+avskaffandet av ståndsriksdagen.</c>
+
+09527e7c-ee76-4869-94eb-aa2119a5aec7
+00:37:11.920 --> 00:37:15.960 align:left position:22%
+<c.teletext>Numera kan vissa välbärgade
+medborgare välja representanter–</c>
+
+3ac72aa5-0a12-4386-96a8-1ce3528a8448
+00:37:16.120 --> 00:37:20.800 align:left position:22%
+<c.teletext>–till en del av riksdagen.
+Men det är väldigt få som får rösta.</c>
+
+885e0472-94d2-4d82-8af3-960c7bd843d9
+00:37:20.960 --> 00:37:24.000 align:left position:22%
+<c.teletext>Bara män har rösträtt, men inte alla–</c>
+
+edb89e48-8af0-40f4-a9ba-e1fbfff44929
+00:37:24.160 --> 00:37:30.040 align:left position:22%
+<c.teletext>–utan bara de som har tillräckligt
+stor inkomst eller förmögenhet.</c>
+
+ec1bf12c-8e19-4511-bcd3-32a4a43ae9e3
+00:37:30.200 --> 00:37:34.600 align:left position:22%
+<c.teletext>För kvinnor spelar inte pengar
+eller förmögenhet nån roll.</c>
+
+9c1ddab7-ca95-433c-8bd3-94689ea9186e
+00:37:34.760 --> 00:37:38.560 align:left position:22%
+<c.teletext>De får oavsett
+inte rösta i riksdagsvalen.</c>
+
+77752679-574b-4145-9c47-d737f262250c
+00:37:38.720 --> 00:37:44.520 align:left position:22%
+<c.teletext>Ett vanligt argument var att män
+betraktade kvinnor som känslostyrda–</c>
+
+cadeff46-45ee-4a76-b789-9fc8878e1ca8
+00:37:44.680 --> 00:37:48.240 align:left position:22%
+<c.teletext>–och att de tänkte mer med hjärtat
+än med hjärnan.</c>
+
+dc4d29fb-917a-47b8-843f-6b09b9f1b86d
+00:37:50.880 --> 00:37:57.080 align:left position:22%
+<c.teletext>Men vid 1800-talets slut höjs röster
+för kvinnans politiska rättigheter.</c>
+
+090f3da5-459b-4c97-ac2d-f1acd8964872
+00:37:58.600 --> 00:38:04.000 align:left position:22%
+<c.teletext>Och de tankarna sprids effektivt
+till många genom litteraturen.</c>
+
+f4ab8e61-b10e-47d5-b1a4-664cefd01265
+00:38:13.120 --> 00:38:17.120 align:left position:22%
+<c.teletext>Fredrika Bremers roman Hertha
+kom 1856–</c>
+
+737b18c2-2226-4911-80ba-c0fad68a0fff
+00:38:17.280 --> 00:38:21.800 align:left position:22%
+<c.teletext>–och blev jätteviktig
+i debatten om kvinnans myndighet.</c>
+
+6b23a1bc-95a0-4fe9-9cad-db52af56db15
+00:38:21.960 --> 00:38:26.640 align:left position:22%
+<c.teletext>Men kan se boken
+som ett feministiskt manifest.</c>
+
+ba60db86-7f85-4311-a8fb-d78aa7cdc16f
+00:38:26.800 --> 00:38:33.360 align:left position:22%
+<c.teletext>Fredrika Bremer var en jättekänd
+författare i Sverige och utomlands.</c>
+
+f4d188a5-39d2-47ec-bf60-27d8fdc250b0
+00:38:33.520 --> 00:38:40.320 align:left position:22%
+<c.teletext>Hon kom från en högreståndsmiljö, och
+pappan var väldigt kontrollerande.</c>
+
+7bc2c71b-0b16-40f4-aafe-28564b413ea2
+00:38:40.480 --> 00:38:43.160 align:left position:22%
+<c.teletext>Bremer fick uppleva skillnaderna–</c>
+
+306f30cd-e0a1-4357-a62d-50426fce8eb8
+00:38:43.320 --> 00:38:47.600 align:left position:22%
+<c.teletext>–mellan mannens möjligheter
+och kvinnans begränsningar.</c>
+
+2aa7cd45-551e-4e16-9161-a4c98765c20e
+00:38:53.680 --> 00:38:56.960 align:left position:22%
+<c.teletext>Kvinnor på 1800-talet var omyndiga.</c>
+
+091baa60-8636-4442-861d-bc412d9d8ab0
+00:38:57.120 --> 00:39:02.480 align:left position:22%
+<c.teletext>Man kom bara ur det om man blev änka.
+Annars var man som ett barn.</c>
+
+f9c946cf-0dcd-4b63-95d9-c2d0fb14c3d1
+00:39:02.640 --> 00:39:07.400 align:left position:22%
+<c.teletext>Man kunde inte fatta egna beslut,
+utan det gjorde ens make–</c>
+
+65f1f919-f794-4b44-a97d-d8884cf2e495
+00:39:07.560 --> 00:39:11.720 align:left position:22%
+<c.teletext>–och innan man blev gift,
+ens pappa eller ens bror.</c>
+
+ec97cc6b-9234-4460-9bb9-2b2b72708a01
+00:39:13.000 --> 00:39:17.000 align:left position:22%
+<c.teletext>Men nu sker förändringar.
+Åren efter att Hertha kommer ut–</c>
+
+dcf0aca0-d0e3-4654-83d4-22a30774016f
+00:39:17.160 --> 00:39:21.360 align:left position:22%
+<c.teletext>–blir i alla fall ogifta kvinnor
+myndiga vid 25 års ålder.</c>
+
+162d2782-b696-4eae-b4e7-8a6f6de12e1d
+00:39:21.520 --> 00:39:25.520 align:left position:22%
+<c.teletext>Men gifta kvinnor
+är fortfarande inte myndiga.</c>
+
+0ec473bc-c7d6-484d-8999-bdad4293db80
+00:39:26.560 --> 00:39:31.360 align:left position:22%
+<c.teletext>Och de få som är myndiga får ändå
+inte ha beslutsfattande positioner.</c>
+
+31c5173f-7874-48e3-befc-9510fc993ea1
+00:39:31.520 --> 00:39:35.120 align:left position:22%
+<c.teletext>De kan inte heller engagera sig
+i politiska partier.</c>
+
+f5b3951a-9f3f-4347-98c1-55afa40bbbb5
+00:39:35.280 --> 00:39:39.720 align:left position:22%
+<c.teletext>Detta diskuteras
+i de kvinnoföreningar som nu bildas.</c>
+
+195b9d2c-bb30-45dd-ab10-4de6e49c10cf
+00:39:39.880 --> 00:39:45.440 align:left position:22%
+<c.teletext>I flera vill man inkludera alla
+kvinnor, oavsett klasstillhörighet.</c>
+
+125b15bb-0004-482e-af22-35ffef4188a6
+00:39:45.600 --> 00:39:48.600 align:left position:22%
+<c.teletext>På mötena fick arbetarkvinnorna höra–</c>
+
+7d899331-7246-48c9-91a2-530071967eb2
+00:39:48.760 --> 00:39:54.440 align:left position:22%
+<c.teletext>–om allt från arkitekturen i Rom
+till rösträttsrörelsen.</c>
+
+fc022f93-cb25-4b4b-abb9-3b66486fb691
+00:39:54.600 --> 00:40:01.200 align:left position:22%
+<c.teletext>De fick höra musik och uppläsningar
+av dåtidens stora författare.</c>
+
+5f0bd142-a103-4f5b-a12c-4d4ec1fe6ea0
+00:40:01.360 --> 00:40:04.240 align:left position:22%
+<c.teletext>En av dem var H.C. Andersen.</c>
+
+a06b2085-84a1-485a-8b5f-c320a7d70146
+00:40:04.400 --> 00:40:10.040 align:left position:22%
+<c.teletext>De kulturradikala kvinnor som bjöd in
+till mötena såg den sortens bildning–</c>
+
+21e9d84e-cbdd-4a7a-b245-ae28638d9a66
+00:40:10.200 --> 00:40:14.200 align:left position:22%
+<c.teletext>–som ett sätt att komma vidare
+och skapa förändring.</c>
+
+aa0832bc-fdc4-4816-9c04-f1a3aa0d7cf6
+00:40:14.360 --> 00:40:18.360 align:left position:22%
+<c.teletext>Man tänkte att den typen av kunskap
+också skulle göra–</c>
+
+57c6cc89-886c-49a9-a4c2-dfe2d064f262
+00:40:18.520 --> 00:40:23.320 align:left position:22%
+<c.teletext>–att arbetarkvinnorna kunde få
+en annan ställning i samhället.</c>
+
+b4404de7-657f-4aeb-ac46-de835f87be3d
+00:40:23.480 --> 00:40:29.080 align:left position:22%
+<c.teletext>Man fick där lära sig om demokratins
+former och praktiska grunder.</c>
+
+28443df2-3880-441d-ae16-4feb7a549636
+00:40:30.400 --> 00:40:35.320 align:left position:22%
+<c.teletext>Kvinnoföreningar ska vid 1900-talets
+början koordinera sitt arbete–</c>
+
+f049e2d8-e61e-4014-ab30-378f6cf09812
+00:40:35.480 --> 00:40:39.120 align:left position:22%
+<c.teletext>–under en landsomfattande
+organisation, LKPR:</c>
+
+85e89db5-185d-4566-b828-dfd21ef14b25
+00:40:39.280 --> 00:40:42.800 align:left position:22%
+<c.teletext>Landsföreningen
+för kvinnans politiska rösträtt.</c>
+
+8ba33a58-6f45-43e2-95b5-824124f39dc8
+00:40:42.960 --> 00:40:47.960 align:left position:22%
+<c.teletext>Föreningen består av medlemmar som är
+politiskt engagerade i hela landet.</c>
+
+22defd1c-c8e4-40bd-93e0-c486769f8330
+00:40:48.120 --> 00:40:52.120 align:left position:22%
+<c.teletext>Det är konservativa, det är liberaler
+och det är socialdemokrater.</c>
+
+2ee9d63c-fb7c-4e2a-bd3e-bd2f3cd004d2
+00:40:52.280 --> 00:40:55.960 align:left position:22%
+<c.teletext>Det är kvinnor i städerna
+och kvinnor på landsbygden.</c>
+
+f2c6b22b-4621-4718-9a6a-56f628e0cf82
+00:40:56.120 --> 00:41:02.120 align:left position:22%
+<c.teletext>Ett slags enhetsfront med
+ett gemensamt mål: kvinnans rösträtt.</c>
+
+fb948ffa-be4d-43ee-ba63-de71e1282ad2
+00:41:06.680 --> 00:41:12.080 align:left position:22%
+<c.teletext>Man skrev pamfletter, artiklar,
+anordnade namninsamlingar.</c>
+
+426dbb51-107b-4fd0-9866-f82e3639cadd
+00:41:12.240 --> 00:41:16.840 align:left position:22%
+<c.teletext>Det var föreläsningsturnéer
+runtom i hela landet.</c>
+
+23ee349b-9125-464a-8c17-20f434ee668f
+00:41:18.000 --> 00:41:22.640 align:left position:22%
+<c.teletext>Rösträtten blev en symbol
+för ett fullvärdigt medborgarskap.</c>
+
+d3ddd8d1-dac5-47a7-a1d1-b4fe033728d5
+00:41:22.800 --> 00:41:28.280 align:left position:22%
+<c.teletext>Man var en medborgare på lika villkor
+och fick vara med att bestämma.</c>
+
+e2d61c1f-6c45-44f9-831c-6cf6c36b8716
+00:41:34.920 --> 00:41:39.520 align:left position:22%
+<c.teletext>När vi kommer in i 1900-talet
+blir det vanligare att dokumentera–</c>
+
+42f584f6-cc6e-46c3-9351-84581aa53987
+00:41:39.680 --> 00:41:44.440 align:left position:22%
+<c.teletext>–minnesvärda händelser
+och vardagslivet med en filmkamera.</c>
+
+1627f7d4-2c1d-4bc5-9e67-774e6582ad0c
+00:41:56.960 --> 00:42:01.560 align:left position:22%
+<c.teletext>Även kampen för rösträtt
+kan nu fångas upp på rörlig bild.</c>
+
+0c98166e-050d-4dd7-a070-c45224367c7a
+00:42:01.720 --> 00:42:04.720 align:left position:22%
+<c.teletext>Många trycker på för allmän rösträtt–</c>
+
+e39af9ad-6740-4dfb-9c6c-f7c7c8693e91
+00:42:04.880 --> 00:42:09.440 align:left position:22%
+<c.teletext>–för de män som inte tjänar
+tillräckligt, och för alla kvinnor.</c>
+
+4bb9eddc-e56b-405d-95b0-8c7a40c36df4
+00:42:10.760 --> 00:42:15.360 align:left position:22%
+<c.teletext>Och kampen har redan gett resultat,
+i alla fall delvis.</c>
+
+f636a962-b883-432b-a771-a00feff502a7
+00:42:15.520 --> 00:42:20.480 align:left position:22%
+<c.teletext>För 1909 får alla friska män
+med inkomst, och som är över 24 år–</c>
+
+1fc84bb5-ae0b-414d-b1fc-659c41ea9805
+00:42:20.640 --> 00:42:24.280 align:left position:22%
+<c.teletext>–rösträtt till en del av riksdagen.</c>
+
+43bcf6f6-27a3-48ec-ba8a-64c83a5f4b44
+00:42:25.000 --> 00:42:30.440 align:left position:22%
+<c.teletext>Men fortfarande utesluts
+hälften av befolkningen: kvinnorna.</c>
+
+b7637c2e-cd35-4749-ab5c-6425779640d5
+00:42:30.600 --> 00:42:35.640 align:left position:22%
+<c.teletext>Det ska dröja ett tag till innan
+Sverige blir en modern demokrati.</c>
+
+71a3e709-e950-4493-aff3-ad4966d38218
+00:42:39.360 --> 00:42:42.960 align:left position:22%
+<c.teletext>Vid den här tiden
+är nationalismen utbredd i Sverige.</c>
+
+1468ef15-83cc-49f9-8266-6b836a43bd0a
+00:42:43.120 --> 00:42:46.520 align:left position:22%
+<c.teletext>De konservativa högerkrafterna
+har mycket makt.</c>
+
+0b7fef0a-2bf3-44d7-99da-89e441265a17
+00:42:46.680 --> 00:42:51.040 align:left position:22%
+<c.teletext>De motsätter sig förändringar
+av det traditionella samhället.</c>
+
+66ca0532-f9d5-4232-940f-8bf7b0114544
+00:42:51.200 --> 00:42:57.880 align:left position:22%
+<c.teletext>På den svenska tronen sitter Gustav V
+– de konservativas galjonsfigur.</c>
+
+33180596-1135-4bc2-827a-48d08641edf2
+00:42:58.040 --> 00:43:02.040 align:left position:22%
+<c.teletext>Gustavs personliga inflytande
+över politiken är begränsat–</c>
+
+a116d271-95bd-4c1c-80cf-16a9dfd6aca1
+00:43:02.200 --> 00:43:06.360 align:left position:22%
+<c.teletext>–men han har
+ett mycket starkt symbolvärde.</c>
+
+9bf5da46-c6b7-4cea-a7bb-5f5d60fb2a42
+00:43:06.520 --> 00:43:11.280 align:left position:22%
+<c.teletext>När kung Gustav V talar,
+så lyssnar traditionalisterna.</c>
+
+7f752e21-9cb5-45fa-97a4-5bf68438a91d
+00:43:11.440 --> 00:43:18.080 align:left position:22%
+<c.teletext>Och det ska få stora konsekvenser
+för det som händer vintern 1914.</c>
+
+228c2633-6cf3-472f-b7c6-0e612591d588
+00:43:18.240 --> 00:43:23.920 align:left position:22%
+<c.teletext>Nu börjar läget utrikespolitiskt
+och inrikespolitiskt i Sverige–</c>
+
+15b91223-51fa-4463-9580-20364ffec022
+00:43:24.080 --> 00:43:26.480 align:left position:22%
+<c.teletext>–att spetsa till sig.</c>
+
+c8676a03-d9c3-4685-b581-73447c51cce3
+00:43:26.640 --> 00:43:32.560 align:left position:22%
+<c.teletext>Motsättningar som legat latenta
+blir nu tydligare i samhället–</c>
+
+565ccb64-f9c6-4c6a-a107-85ed68b6d44c
+00:43:32.720 --> 00:43:38.120 align:left position:22%
+<c.teletext>–och man ser en tydlig klyfta
+mellan höger och vänster.</c>
+
+a7ee287c-3db9-4500-a55f-1f0ea88ae8b0
+00:43:54.560 --> 00:44:01.000 align:left position:22%
+<c.teletext>År 1914 är läget spänt i Europa.
+Ett storkrig hänger i luften.</c>
+
+653c4ee6-6eed-4f39-9213-1c993d2d0187
+00:44:04.240 --> 00:44:09.480 align:left position:22%
+<c.teletext>Det här är modellen av HMS Sverige,
+ett pansarskepp.</c>
+
+3e722061-4e18-42af-972d-56bafab44046
+00:44:09.640 --> 00:44:15.600 align:left position:22%
+<c.teletext>Och det är när skeppet ska byggas
+som allt ställs på sin spets.</c>
+
+a1baf147-8d94-4478-ab45-8a626366f57d
+00:44:20.640 --> 00:44:25.360 align:left position:22%
+<c.teletext>Högern vill stärka försvaret,
+medan arbetare och liberaler–</c>
+
+993b8f52-302f-44ad-a1c8-593e308c972b
+00:44:25.520 --> 00:44:29.920 align:left position:22%
+<c.teletext>–vill ha sociala och politiska
+reformer för större rättvisa.</c>
+
+f6e6cc1e-e377-46a0-95fe-dae75bc93091
+00:44:35.120 --> 00:44:40.120 align:left position:22%
+<c.teletext>Karl Staaff, liberal statsminister,
+beslutar att skjuta upp skeppsbygget–</c>
+
+573f5a2b-3640-4a7d-94bc-c0e17dfe07f7
+00:44:40.280 --> 00:44:44.880 align:left position:22%
+<c.teletext>–för att satsa på sociala reformer.
+Då brakar det loss.</c>
+
+d38de480-4d49-4d94-a40d-4047e00cc6fb
+00:44:45.040 --> 00:44:48.960 align:left position:22%
+<c.teletext>Högerpolitiker och militären rasar.</c>
+
+778a3d1c-a9cc-42e7-96b9-746f86de2245
+00:44:49.120 --> 00:44:53.720 align:left position:22%
+<c.teletext>Men även de många välbärgade bönderna
+– en mycket konservativ grupp–</c>
+
+9f7b6e32-126b-4d91-83cf-82addd0683db
+00:44:53.880 --> 00:44:58.920 align:left position:22%
+<c.teletext>–samlar sig för att protestera
+mot den liberala regeringen.</c>
+
+7d697ba1-957a-4ee2-b9f4-7527806a4a7c
+00:44:59.080 --> 00:45:04.480 align:left position:22%
+<c.teletext>Man samlar alltså flera tusen
+i Stockholm för att protestera–</c>
+
+5f27c28b-654e-4929-95b1-c89c3a416f91
+00:45:04.640 --> 00:45:09.120 align:left position:22%
+<c.teletext>–mot regeringen Staaffs beslut
+att inte bygga pansarbåten.</c>
+
+4560daa8-4a5f-48ba-a614-f50844c74d94
+00:45:16.880 --> 00:45:22.720 align:left position:22%
+<c.teletext>Det är en blåsig och mulen dag
+den 6 februari 1914–</c>
+
+c500d284-f30f-4404-b880-e894534fe6f2
+00:45:22.880 --> 00:45:28.880 align:left position:22%
+<c.teletext>–när 30 000 bönder marscherar
+över bron, upp hit till slottet.</c>
+
+e948c023-90d3-4265-88ad-8be4bcaa0253
+00:45:33.000 --> 00:45:38.680 align:left position:22%
+<c.teletext>Böndernas protest handlar inte bara
+om Sveriges försvar och en pansarbåt.</c>
+
+f0c60443-24b2-4b21-a7c1-b3629ee06e52
+00:45:38.840 --> 00:45:44.560 align:left position:22%
+<c.teletext>Konservativa högerkrafter vill stärka
+den numera svaga kungamakten–</c>
+
+382ede32-196b-46c2-8848-86f31deea41c
+00:45:44.720 --> 00:45:49.800 align:left position:22%
+<c.teletext>–och hindra den pågående
+utvecklingen mot demokrati.</c>
+
+13495b31-86bf-4a6c-8c0c-ce4c4006d787
+00:45:54.000 --> 00:45:58.600 align:left position:22%
+<c.teletext>Kung Gustav V och drottning Victoria
+får hjälp med att skriva ett tal–</c>
+
+e9d462a4-4842-45a5-8107-2f9dc5e3c62a
+00:45:58.760 --> 00:46:01.760 align:left position:22%
+<c.teletext>–till de samlade bönderna.</c>
+
+d5e0e763-aee7-41d9-8685-4359c39a6c75
+00:46:01.920 --> 00:46:07.080 align:left position:22%
+<c.teletext>Men talet innehåller också sånt som
+kommer att leda till regeringskris.</c>
+
+fea1f62d-3b75-42dc-a300-39388f6a5ae6
+00:46:07.240 --> 00:46:10.360 align:left position:22%
+<c.teletext>Det är ett högt spel.</c>
+
+798eed20-4f0a-42bd-9e6f-fee4f7e48139
+00:46:20.560 --> 00:46:25.720 align:left position:22%
+<c.teletext>På borggården har bönderna samlats
+för att höra kungen tala.</c>
+
+4126760a-772f-4641-9cdf-8734f6da9f1f
+00:46:34.360 --> 00:46:39.960 align:left position:22%
+<c.teletext>I stället för moderna tongångar
+om demokrati och parlamentarism–</c>
+
+651f7a42-909c-4d1a-9b2d-41d9dc21b199
+00:46:40.120 --> 00:46:44.760 align:left position:22%
+<c.teletext>–pratar Gustav V
+om sin personliga kungamakt.</c>
+
+a476a42d-dcfb-4b9d-beb8-1d99776fd5b8
+00:46:44.920 --> 00:46:47.920 align:left position:22%
+<c.teletext>Med stöd från drottning Victoria–</c>
+
+d1306b1d-3d2c-4b75-9144-cdc7943e15f8
+00:46:48.080 --> 00:46:52.000 align:left position:22%
+<c.teletext>–talar kungen om
+"min flotta" och "min armé".</c>
+
+e111c40d-44a3-4857-8715-82cb172a0ffc
+00:46:52.160 --> 00:46:57.040 align:left position:22%
+<c.teletext>Hans vilja att själv styra
+försvarspolitiken går helt tvärtemot–</c>
+
+62533421-5aac-4377-8567-9caa16e9fc21
+00:46:57.200 --> 00:47:00.440 align:left position:22%
+<c.teletext>–vad Karl Staaff
+och regeringen tycker.</c>
+
+febf26aa-8162-4fe8-819d-da0d0d3d7e1c
+00:47:02.800 --> 00:47:05.800 align:left position:22%
+<c.teletext>De församlade bönderna jublar.</c>
+
+d401fc10-0195-48e1-8f54-1712cbb6a260
+00:47:05.960 --> 00:47:10.840 align:left position:22%
+<c.teletext>Kungen och konservativa nationalister
+utmanar regeringen om makten–</c>
+
+fb22dcea-b1bf-446a-9fa5-1ad9025990cf
+00:47:11.000 --> 00:47:14.640 align:left position:22%
+<c.teletext>–och krisen är ett faktum.</c>
+
+b5f1e585-7f1e-49cc-bb64-6716cb6789e2
+00:47:18.080 --> 00:47:23.080 align:left position:22%
+<c.teletext>Det är ett av de sista utbrotten,
+får man säga, av personlig kungamakt–</c>
+
+4fe6dff4-19cc-4d92-892d-15ee2c067e4f
+00:47:23.240 --> 00:47:28.440 align:left position:22%
+<c.teletext>–som vi ser i Sverige. En klar attack
+på parlamentarismen som idé.</c>
+
+cd1385b7-18cd-4ca4-b06a-09728d42a78d
+00:47:30.960 --> 00:47:35.560 align:left position:22%
+<c.teletext>Karl Staaff, som är statsminister,
+blir djupt upprörd förstås–</c>
+
+01163a58-6396-4d87-af7a-7702682825a3
+00:47:35.720 --> 00:47:39.960 align:left position:22%
+<c.teletext>–över att i princip
+bli avfärdad av kungen.</c>
+
+198b9c1c-4bf8-43ea-ac73-c93206054afe
+00:47:41.960 --> 00:47:46.480 align:left position:22%
+<c.teletext>Konflikten eskalerar
+när 50 000 demonstranter sluter upp–</c>
+
+33f72b77-00aa-4b03-a26d-adb07dc166e8
+00:47:46.640 --> 00:47:51.000 align:left position:22%
+<c.teletext>–för att visa regeringen Staaff
+sitt stöd.</c>
+
+c3138a62-5e36-4aca-bb37-e73b6d148328
+00:47:51.160 --> 00:47:54.040 align:left position:22%
+<c.teletext>Nu står två sidor mot varandra.</c>
+
+dfa18ed8-dd6f-4338-8692-df2ac3fe5045
+00:47:54.200 --> 00:47:59.200 align:left position:22%
+<c.teletext>Han går upp till kungen och kräver
+att kungen i fortsättningen ska lova–</c>
+
+fcdc2c66-c858-4f90-bedb-f3650bd673bc
+00:47:59.360 --> 00:48:04.720 align:left position:22%
+<c.teletext>–att aldrig uttala sig om politiska
+frågor utan regeringens förankring.</c>
+
+bb554398-9347-4435-b9f8-e43fbcd407bb
+00:48:04.880 --> 00:48:09.600 align:left position:22%
+<c.teletext>Kungen menar att han har all rätt
+att utrycka sig fritt med sitt folk–</c>
+
+86446757-4e83-487e-8ed5-c29608673f94
+00:48:09.760 --> 00:48:13.040 align:left position:22%
+<c.teletext>–utan att regeringen ska lägga sig i.</c>
+
+8f458437-798b-409b-9078-8057a9cabbf2
+00:48:14.600 --> 00:48:19.720 align:left position:22%
+<c.teletext>Därmed är positionerna mellan kungen
+och hans statsminister låsta.</c>
+
+6510aca3-8273-418e-b9b4-b863176bab70
+00:48:19.880 --> 00:48:23.480 align:left position:22%
+<c.teletext>Ett av de få maktmedel
+kungen har kvar–</c>
+
+2c063890-aa03-4763-a11f-6e2bd2029986
+00:48:23.640 --> 00:48:26.880 align:left position:22%
+<c.teletext>–är att han tillsätter regeringen.</c>
+
+363c969c-d852-448e-acf5-b967df8e9ffa
+00:48:27.040 --> 00:48:32.280 align:left position:22%
+<c.teletext>Med sitt tal visar han att han inte
+har förtroende för Staaffs regering.</c>
+
+0e4de8ec-2ee1-441e-ab03-c4286212158e
+00:48:34.760 --> 00:48:40.120 align:left position:22%
+<c.teletext>Konsekvensen blir att statsministern,
+och därmed regeringen, tvingas avgå.</c>
+
+036f9907-f081-4ffe-9536-a00b3b6c687a
+00:48:42.640 --> 00:48:49.120 align:left position:22%
+<c.teletext>Efter den s.k. borggårdskrisen
+drar Gustav V det längsta strået.</c>
+
+12d266aa-c276-45a0-8d48-5e278b08dc27
+00:48:49.280 --> 00:48:55.040 align:left position:22%
+<c.teletext>Pansarskeppet byggs med insamlade
+pengar, och sjösätts kommande år.</c>
+
+393d0968-5c6b-46c3-a3fe-efe40eb992f7
+00:48:55.200 --> 00:48:59.760 align:left position:22%
+<c.teletext>Gustav V och de konservativa
+vinner just den här striden–</c>
+
+f859f4de-1a0a-4655-85ed-1b2ecc612607
+00:48:59.920 --> 00:49:04.800 align:left position:22%
+<c.teletext>–men det visar sig att motståndet mot
+sociala och demokratiska reformer–</c>
+
+258a9378-d908-4394-bc96-190bed4ba4ec
+00:49:04.960 --> 00:49:07.800 align:left position:22%
+<c.teletext>–lever på lånad tid.</c>
+
+9e52c26f-9392-4794-a565-1c26ef27ebb7
+00:49:13.520 --> 00:49:16.400 align:left position:22%
+<c.teletext>Ett världskrig bryter ut.</c>
+
+9c5d0019-e8dc-45f2-8cbd-b22b0dabf093
+00:49:16.560 --> 00:49:22.320 align:left position:22%
+<c.teletext>Och trots att Sverige inte deltar
+i kriget, så påverkas svenskarna.</c>
+
+573af35f-a7c4-42aa-9713-9b96d2e34a17
+00:49:26.560 --> 00:49:32.880 align:left position:22%
+<c.teletext>Det uppstår brist på livsmedel
+då import och export avbryts.</c>
+
+ac9d98d1-d861-410c-8458-1183a56868a8
+00:49:33.040 --> 00:49:36.040 align:left position:22%
+<c.teletext>Livsmedel ransoneras.</c>
+
+54455136-fd14-4185-89fe-df4a3a2f5e9b
+00:49:37.120 --> 00:49:40.760 align:left position:22%
+<c.teletext>Det är ren hunger
+på en del ställen i Sverige.</c>
+
+480433d3-b842-4761-9101-89b4d2805650
+00:49:45.720 --> 00:49:50.720 align:left position:22%
+<c.teletext>Folk är desperata,
+och man börjar odla mat i parker.</c>
+
+4f461974-14ce-4381-8ee1-5b6615946ee4
+00:49:52.240 --> 00:49:57.840 align:left position:22%
+<c.teletext>Våren 1917 är ovanligt kall,
+så potatisskörden blir sen.</c>
+
+6578f0f9-b1c6-485d-8ea6-7947873f3e9c
+00:50:07.920 --> 00:50:11.920 align:left position:22%
+<c.teletext>I juni samma år
+har ett rykte börjat spridas.</c>
+
+1a48c349-d0d2-40e0-9ca0-9af61ffc1699
+00:50:13.880 --> 00:50:18.680 align:left position:22%
+<c.teletext>En handlare på Södermannagatan
+i Stockholm har fått in potatis.</c>
+
+c2c138d1-0cf2-4287-b3fd-d5b9fc587bd6
+00:50:20.600 --> 00:50:25.280 align:left position:22%
+<c.teletext>Men han säljer bara
+till dem som kan betala överpris.</c>
+
+c9635b2f-eb05-436f-ad22-bcdd25c2e1a2
+00:50:25.440 --> 00:50:28.760 align:left position:22%
+<c.teletext>Det sticker i ögonen
+på dem som inte har råd.</c>
+
+56ee9a14-39b3-49f3-b175-9da52483a2e4
+00:50:37.360 --> 00:50:43.400 align:left position:22%
+<c.teletext>Det var en enorm känsla av maktlöshet
+och många hade gått hungriga länge.</c>
+
+ac266109-5229-4e5e-9359-182c4bfe308f
+00:50:45.320 --> 00:50:50.200 align:left position:22%
+<c.teletext>Det visar sig, precis som ryktet
+säger, att handlaren har potatis.</c>
+
+25d6af46-ff83-4506-a43f-ccca09a13888
+00:50:50.360 --> 00:50:54.760 align:left position:22%
+<c.teletext>Och det är nu som protesterna
+mot handlaren urartar.</c>
+
+ba072b05-4dc1-436d-a5fd-ae08c495689c
+00:51:01.560 --> 00:51:07.840 align:left position:22%
+<c.teletext>Det blir våldsamma sammandrabbningar
+mellan polis och vanliga människor.</c>
+
+7a96a284-6e27-4df1-bb3e-862904669ebc
+00:51:08.000 --> 00:51:14.680 align:left position:22%
+<c.teletext>Många blir skadade och polisen
+arresterar både män och kvinnor.</c>
+
+406c15be-5d71-4bc0-ad99-f128a8caccfa
+00:51:14.840 --> 00:51:19.000 align:left position:22%
+<c.teletext>Flera kvinnor blir faktiskt dömda
+till höga böter.</c>
+
+cac1af35-fd27-4c73-8f85-739d00e350cc
+00:51:22.400 --> 00:51:28.640 align:left position:22%
+<c.teletext>Det här utspelade sig på Södermalm,
+Stockholms då fattigaste stadsdel.</c>
+
+8c558dae-61c4-471e-8b9f-06d69c7f6f9e
+00:51:28.800 --> 00:51:33.040 align:left position:22%
+<c.teletext>Men känslan av maktlöshet
+var utbredd i hela landet.</c>
+
+3a3a8b50-b745-4b63-8de6-ef1784efc1c1
+00:51:38.080 --> 00:51:43.800 align:left position:22%
+<c.teletext>Händelsen på Södermalm är bara en
+av alla protester som blossar upp.</c>
+
+2f0f44a5-47ce-4328-ac42-3db2e5602be2
+00:51:43.960 --> 00:51:47.400 align:left position:22%
+<c.teletext>Det kokar av missnöje i hela landet.</c>
+
+932cfd71-e805-425c-a647-b08953ade3e9
+00:51:51.560 --> 00:51:57.000 align:left position:22%
+<c.teletext>Mer än en kvarts miljon demonstrerar
+på över 100 platser runtom i Sverige.</c>
+
+b49ef559-4725-4679-a4ba-0e2bb856b6ee
+00:51:57.160 --> 00:52:01.360 align:left position:22%
+<c.teletext>De protesterar mot kriget
+och kräver bröd och rösträtt.</c>
+
+7d7568ea-af4e-4d4d-9b52-751316321c3d
+00:52:02.520 --> 00:52:06.720 align:left position:22%
+<c.teletext>Bröd och rättvisa går
+väldigt starkt hand i hand.</c>
+
+06714ac7-8b06-4031-a043-acd763ef70d0
+00:52:06.880 --> 00:52:12.200 align:left position:22%
+<c.teletext>Det är missnöje med livsmedels-
+försörjning och brist på rättvisa.</c>
+
+cb72cc66-34b1-4b77-993b-d4a13afa9fc2
+00:52:12.360 --> 00:52:17.200 align:left position:22%
+<c.teletext>Det är krav på demokrati
+och ökat folkligt inflytande.</c>
+
+3b94bd31-5ca5-4633-8980-9c89bf51acee
+00:52:20.920 --> 00:52:26.120 align:left position:22%
+<c.teletext>Det uppstår konfrontationer mellan
+polis, militär och demonstranter.</c>
+
+56577952-3321-422c-af10-ecd39eee89a9
+00:52:26.280 --> 00:52:29.280 align:left position:22%
+<c.teletext>Sverige är delat.</c>
+
+cf4c33bc-ec19-4a5c-bfe8-9ccd39913def
+00:52:33.240 --> 00:52:37.840 align:left position:22%
+<c.teletext>På ena sidan: den konservativa högern
+och nationalistiska krafter–</c>
+
+bb1f55fc-b9b0-4194-9fa7-cec5eb95d265
+00:52:38.000 --> 00:52:44.760 align:left position:22%
+<c.teletext>–som vill bromsa utvecklingen
+mot demokrati. Bland dem även kungen.</c>
+
+676f8b76-a557-4916-9bdd-6d6f9697841d
+00:52:44.920 --> 00:52:47.920 align:left position:22%
+<c.teletext>På den andra sidan är de många fler.</c>
+
+0f02641d-94a5-4c07-af63-918de3962356
+00:52:48.080 --> 00:52:52.680 align:left position:22%
+<c.teletext>De vill genomdriva demokratiska
+förändringar och sociala reformer.</c>
+
+b11978db-a9d7-4c60-9f1b-7c6a62cc646f
+00:52:52.840 --> 00:52:57.840 align:left position:22%
+<c.teletext>Här finns arbetarrörelsen,
+kvinnorättsrörelsen och liberalerna.</c>
+
+cddeafec-1a27-4e04-a3db-25a615c1366d
+00:52:58.000 --> 00:53:02.320 align:left position:22%
+<c.teletext>Men här finns också de som önskar
+ännu större förändringar.</c>
+
+030811e1-b507-46ad-b7d9-3a9a76115d48
+00:53:02.480 --> 00:53:08.920 align:left position:22%
+<c.teletext>Där höjs röster för att man ska
+avsätta kungen och införa republik.</c>
+
+52220547-f3e3-42e4-8e1a-f8e0b8e4e7fd
+00:53:12.120 --> 00:53:19.520 align:left position:22%
+<c.teletext>Det är en orolig tid. Protesterna och
+kraven på rösträtt fortsätter 1918.</c>
+
+7c7aa15d-eb5d-4fc7-96a7-5bc9a9d531a7
+00:53:20.640 --> 00:53:24.640 align:left position:22%
+<c.teletext>På hösten börjar Gustav V
+bli orolig för revolutionsförsök–</c>
+
+86b08fc3-4e8d-4918-87b7-397007c3e0f7
+00:53:24.800 --> 00:53:27.800 align:left position:22%
+<c.teletext>–och för att råka illa ut.</c>
+
+c802513a-fd4c-4169-a625-c9d62af930c4
+00:53:33.160 --> 00:53:37.360 align:left position:22%
+<c.teletext>Vi vet inte exakt vad som händer
+på slottet, men det påstås–</c>
+
+f00e2fa0-f029-4a6d-83d0-9a2c4541bf30
+00:53:37.520 --> 00:53:42.000 align:left position:22%
+<c.teletext>–att kungen börjat få hjälp med
+att packa sina väskor.</c>
+
+cac65b8b-e0e9-4940-b863-bd28a639caa3
+00:53:45.280 --> 00:53:50.200 align:left position:22%
+<c.teletext>Han har sett hur det gått för hans
+kollegor på andra ställen i Europa–</c>
+
+4c7edb6d-b08a-4170-bea3-a8cbb5330c62
+00:53:50.360 --> 00:53:55.360 align:left position:22%
+<c.teletext>–inte minst för den ryske tsaren. Nu
+är han rädd att drabbas av samma öde:</c>
+
+f01a172b-5308-45e9-9ac7-de225e5efd1a
+00:53:55.520 --> 00:54:00.560 align:left position:22%
+<c.teletext>Att revolutionen ska bryta ut
+och svepa undan kungamakten–</c>
+
+640e059d-c5f9-40d9-893c-059eb03a1f0b
+00:54:00.720 --> 00:54:03.520 align:left position:22%
+<c.teletext>–och honom personligen.</c>
+
+bc40c367-5f94-46bd-8c3a-8efdd1f52ab2
+00:54:04.600 --> 00:54:09.600 align:left position:22%
+<c.teletext>Men om man tittar på vad som faktiskt
+sker när det blir demonstrationer–</c>
+
+a1093e58-e69a-416f-a6b6-527b892fc088
+00:54:09.760 --> 00:54:15.320 align:left position:22%
+<c.teletext>–och blodvitet hänger i luften, så
+finns det också inslag av besinning–</c>
+
+bcadb0e3-2040-47ce-b49d-d2b7386d08db
+00:54:15.480 --> 00:54:19.120 align:left position:22%
+<c.teletext>–både från arbetarledare
+och borgerliga politiker.</c>
+
+782a4a3e-0996-45ca-b642-4abd5920f8fe
+00:54:19.280 --> 00:54:22.520 align:left position:22%
+<c.teletext>Vad det beror på är svårt att säga–</c>
+
+ab1b7c89-825b-40ca-9dcd-e5c711da7b74
+00:54:22.680 --> 00:54:27.600 align:left position:22%
+<c.teletext>–men jag tror att man väntar
+på det demokratiska genombrottet.</c>
+
+8e8bc564-6071-4065-ab47-c3266ae37e48
+00:54:27.760 --> 00:54:30.800 align:left position:22%
+<c.teletext>När demokratin kommer
+ska problemen lösas.</c>
+
+09a0d849-ffea-40ff-af3d-ed172806e93f
+00:54:37.440 --> 00:54:43.400 align:left position:22%
+<c.teletext>Till slut ger sig Gustav V. Oron för
+revolutionsförsök, och påtryckningar–</c>
+
+de4d75a9-e881-4473-8b93-cdb00e5f2141
+00:54:43.560 --> 00:54:49.280 align:left position:22%
+<c.teletext>–från bl.a. liberalen Nils Edén och
+socialdemokraten Hjalmar Branting–</c>
+
+5b478e13-9877-4726-baf0-d4e4ac68bb93
+00:54:49.440 --> 00:54:52.120 align:left position:22%
+<c.teletext>–får kungen att ändra sig.</c>
+
+d1087418-6a7c-4943-9152-a988a0bbee2a
+00:54:52.280 --> 00:54:55.880 align:left position:22%
+<c.teletext>För att uppnå lugn
+och få slut på protesterna–</c>
+
+5f562a30-aac9-461f-8abc-4ba20d632679
+00:54:56.040 --> 00:54:59.640 align:left position:22%
+<c.teletext>–accepterar kungen
+att inte motsätta sig reformerna.</c>
+
+3f5a0d87-86b1-4f4b-a5d4-80ae806437a0
+00:54:59.800 --> 00:55:04.120 align:left position:22%
+<c.teletext>Han bidrar nu till
+att högern släpper igenom förslaget–</c>
+
+a3849b2a-3e8e-4173-b2c2-087336870dc7
+00:55:04.280 --> 00:55:08.760 align:left position:22%
+<c.teletext>–om allmän och lika rösträtt,
+i december 1918.</c>
+
+deccfddf-7c7d-4dc0-9eb8-3539932f5ea4
+00:55:14.960 --> 00:55:19.320 align:left position:22%
+<c.teletext>För kungens del
+blir det en besk kompromiss.</c>
+
+c26fa2f3-e2d2-4f94-902a-6f49209900a1
+00:55:19.480 --> 00:55:25.800 align:left position:22%
+<c.teletext>Kungen får lova
+att inte lägga sig i politiken.</c>
+
+416f8c66-db36-48af-a018-d045c84d8663
+00:55:25.960 --> 00:55:30.480 align:left position:22%
+<c.teletext>Han förlorar i princip
+all sin tidigare makt–</c>
+
+99a2a2ad-5417-46d0-8b11-830ec7c60e3a
+00:55:30.640 --> 00:55:34.080 align:left position:22%
+<c.teletext>–men får sitta kvar
+som en galjonsfigur.</c>
+
+bcde7423-c3c9-4782-9990-8c98d01eabe6
+00:55:49.680 --> 00:55:54.720 align:left position:22%
+<c.teletext>De demokratiska krafterna
+gick inte att stoppa.</c>
+
+9b453db3-de6d-4561-b313-ba93fc082df9
+00:55:58.360 --> 00:56:01.440 align:left position:22%
+<c.teletext>1921 är ett historiskt år.</c>
+
+b724261d-35b8-4dea-a124-785baadded70
+00:56:04.440 --> 00:56:09.240 align:left position:22%
+<c.teletext>Då hålls det första demokratiska
+riksdagsvalet i Sverige.</c>
+
+903b011d-2abb-423d-9a8a-8b954d713e0f
+00:56:12.640 --> 00:56:18.000 align:left position:22%
+<c.teletext>Nu får både män och kvinnor
+delta i valet på samma villkor.</c>
+
+a91eb512-024b-4628-b94d-fe64bcf89999
+00:56:19.560 --> 00:56:23.960 align:left position:22%
+<c.teletext>I 15 år hade man fört kampen
+för kvinnlig rösträtt.</c>
+
+81c042a0-78dc-4674-b0bf-81b26228eecf
+00:56:24.120 --> 00:56:28.120 align:left position:22%
+<c.teletext>Men 1921 fick äntligen kvinnor rösta–</c>
+
+b1bec7f0-f931-4a62-be3d-6484b0397793
+00:56:28.280 --> 00:56:34.040 align:left position:22%
+<c.teletext>–och 1922 kom också de första
+fem kvinnorna in i riksdagen.</c>
+
+1333b224-0f41-423f-9925-f3c711ecdfea
+00:56:38.480 --> 00:56:43.040 align:left position:22%
+<c.teletext>Med rösträtten läggs grunden
+till ett nytt Sverige.</c>
+
+093a0eec-f118-4f8a-8dc7-35a05b3848b5
+00:56:43.200 --> 00:56:46.200 align:left position:22%
+<c.teletext>Ett land där demokratin vinner mark–</c>
+
+1e9b966a-8ee3-485e-b27b-3edde799180f
+00:56:46.360 --> 00:56:51.320 align:left position:22%
+<c.teletext>–och där de första stegen tas
+mot det land vi känner i dag.</c>
+
+c1becb4a-6aa8-4353-92de-b5359ec8260c
+00:56:51.480 --> 00:56:57.640 align:left position:22%
+<c.teletext>Sverige blir rikare än någonsin
+tidigare, och folkhemmet byggs.</c>
+
+fbde5467-a907-4505-83b1-2684e8054ee6
+00:56:57.800 --> 00:57:01.800 align:left position:22%
+<c.teletext>Men det är ett hem
+där inte alla ska få plats.</c>
+
+1bafc024-1c4e-444b-8677-ac943d98a955
+00:57:33.280 --> 00:57:37.760 align:center position:50%
+<c.teletext>Textning: Ulrika Jansson Båving
+Svensk Medietext för SVT</c>
+

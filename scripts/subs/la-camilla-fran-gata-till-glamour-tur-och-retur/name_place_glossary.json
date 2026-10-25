@@ -1,0 +1,36 @@
+{
+  "_comment": "Latin → Hebrew for La Camilla documentary. Keep La Camilla / Army of Lovers Latin.",
+  "people": {
+    "Camilla Henemark": "קמילה הנמארק",
+    "Camilla": "קמילה",
+    "Henemark": "הנמארק",
+    "Gerd Henemark": "גרד הנמארק",
+    "Gerd": "גרד",
+    "Johan Renck": "יוהאן רנק",
+    "Johan": "יוהאן",
+    "Renck": "רנק",
+    "Amelia Adamo": "אמליה אדמו",
+    "Amelia": "אמליה",
+    "Adamo": "אדמו",
+    "Göran Persson": "יוראן פרסון",
+    "Goran Persson": "יוראן פרסון",
+    "Persson": "פרסון",
+    "Marie Nyreröd": "מארי ניררוד",
+    "Nyreröd": "ניררוד",
+    "Alexander Bard": "אלכסנדר בארד",
+    "Bard": "בארד",
+    "Jean-Pierre Barda": "ז'אן-פייר בארדה",
+    "Barda": "בארדה"
+  },
+  "places": {
+    "Stockholm": "סטוקהולם",
+    "Sverige": "שוודיה",
+    "Sveriges": "שוודיה"
+  },
+  "keep_latin": [
+    "La Camilla",
+    "Army of Lovers",
+    "K special",
+    "SVT"
+  ]
+}

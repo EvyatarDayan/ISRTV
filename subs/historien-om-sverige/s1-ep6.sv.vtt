@@ -1,0 +1,2494 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+18a28fc3-4069-43fc-b177-4bedc920a0fc
+00:01:25.280 --> 00:01:27.680 align:left position:22%
+<c.teletext>Ett första kärleksmöte.</c>
+
+366b2d67-8e63-4a71-baf5-4ed898b5e83e
+00:01:27.840 --> 00:01:30.760 align:left position:22%
+<c.teletext>De kommer att få gifta sig–</c>
+
+5856bda4-f3cd-4040-a2c0-76c8835d22f6
+00:01:30.920 --> 00:01:35.880 align:left position:22%
+<c.teletext>–men framtiden
+blir inte så ljus som de drömmer om.</c>
+
+55f64ae8-3f9f-4bf0-a30d-e7ffd662ed70
+00:01:36.040 --> 00:01:39.000 align:left position:22%
+<c.teletext>Vi är på väg in i stormaktstiden.</c>
+
+a221f892-9ebe-4d1d-a2f5-e5b02ac6f974
+00:01:42.880 --> 00:01:47.520 align:left position:22%
+<c.teletext>Snart ska det lilla Sverige
+bli ett mäktigt land i Europa.</c>
+
+17dc7f58-201c-4df3-a22e-1afcf4970241
+00:01:50.240 --> 00:01:55.480 align:left position:22%
+<c.teletext>Långt från storpolitiken stretar
+människor på i sina vanliga liv.</c>
+
+0fc10e65-a8ac-464e-9102-ec60500c0ea9
+00:01:55.640 --> 00:02:01.640 align:left position:22%
+<c.teletext>Det är de som kommer att betala för
+kungarnas framgångar på slagfälten.</c>
+
+8100aeae-765c-4726-87f6-93ec0320cc01
+00:02:03.280 --> 00:02:06.000 align:left position:22%
+<c.teletext>Och priset kommer att bli högt.</c>
+
+459019d6-6056-4095-b852-2a6e90d15b94
+00:02:11.360 --> 00:02:15.320 align:left position:22%
+<c.teletext>Det här är berättelsen om vårt land.</c>
+
+4be1e33f-42d0-44c5-ac7d-6552c13c25a8
+00:02:16.360 --> 00:02:20.240 align:left position:22%
+<c.teletext>Om människorna och krafterna
+som format det–</c>
+
+d6f9239d-80a3-4068-a288-5fb68048f1c0
+00:02:20.400 --> 00:02:24.320 align:left position:22%
+<c.teletext>–ända från istiden
+fram till våra dagar.</c>
+
+46a88056-9947-46c0-b1ab-490f1d3d7281
+00:02:39.240 --> 00:02:43.200 align:left position:22%
+<c.teletext>Det här är historien om Sverige.</c>
+
+902d9201-5114-4a05-8c8b-122eba04426b
+00:03:03.240 --> 00:03:06.160 align:left position:22%
+<c.teletext>Gustav Vasa är död.</c>
+
+6cb19faa-18d5-4cfe-917a-8b4dba34cd12
+00:03:06.320 --> 00:03:10.040 align:left position:22%
+<c.teletext>Hans äldste son Erik ska ärva kronan.</c>
+
+a94e74f9-04f6-47f7-8a30-b608b3501671
+00:03:11.680 --> 00:03:18.080 align:left position:22%
+<c.teletext>Det är ett rike i ordning Erik tar
+över. Gustav Vasas styre var stabilt.</c>
+
+bad19b4a-dcb0-4f79-b99c-9e5fb78f3464
+00:03:19.640 --> 00:03:25.120 align:left position:22%
+<c.teletext>Skåne tillhör då Danmark, medan
+stora delar av Finland är svenskt.</c>
+
+e014bd5f-be0a-4f1c-ba4b-cf759c7920f2
+00:03:25.280 --> 00:03:30.880 align:left position:22%
+<c.teletext>Städerna är ganska små. Vi skulle
+nog uppfatta dem som lantliga.</c>
+
+b682b86a-df51-4fe2-8742-432b432da6d9
+00:03:32.600 --> 00:03:37.200 align:left position:22%
+<c.teletext>Men Erik vill mäta sig och sitt rike
+med kungahusen i Europa.</c>
+
+7081c447-3af4-40b1-bf0a-e1b028de64d5
+00:03:39.120 --> 00:03:45.040 align:left position:22%
+<c.teletext>Där har kungarna regentnummer,
+och det vill Erik också ha.</c>
+
+e5f2bb40-8363-4ca8-aa32-8186b2107afa
+00:03:45.200 --> 00:03:48.840 align:left position:22%
+<c.teletext>Han vänder sig till
+sin tids historieskrivning.</c>
+
+8a6842c1-159f-4f58-ad48-39f3f5ca4397
+00:03:49.000 --> 00:03:52.720 align:left position:22%
+<c.teletext>Erik har XIV som sitt regentnummer.</c>
+
+db9c8eef-deee-407c-8a8c-bc3b4c5d5816
+00:03:52.880 --> 00:03:57.120 align:left position:22%
+<c.teletext>Han har blivit inspirerad
+till detta höga nummer–</c>
+
+85f43a9e-d16e-43eb-8327-d8ed37486432
+00:03:57.280 --> 00:04:03.320 align:left position:22%
+<c.teletext>–av Johannes Magnus historiska verk
+om konungarna i Svea och Göta land.</c>
+
+120105fd-21b8-4dde-83f9-a8b26d5f1048
+00:04:03.480 --> 00:04:06.520 align:left position:22%
+<c.teletext>Med ett högt nummer
+vill Erik visa att hans rike–</c>
+
+2bbccad5-06d5-4eee-b5a9-878ca39956e2
+00:04:06.680 --> 00:04:11.600 align:left position:22%
+<c.teletext>–har en längre
+och ärorikare historia än det har.</c>
+
+c43abbe0-7e26-4df5-9b58-f4b4562fc35a
+00:04:11.760 --> 00:04:17.720 align:left position:22%
+<c.teletext>Visserligen har flera svenska kungar
+hetat Erik före Erik XIV–</c>
+
+f3472529-dce3-42ad-9e98-c49a1841753d
+00:04:17.880 --> 00:04:20.760 align:left position:22%
+<c.teletext>–men inte så många.</c>
+
+fce5acb4-e7b7-45ba-a789-b21bc6f35fc2
+00:04:24.200 --> 00:04:29.280 align:left position:22%
+<c.teletext>Till kröningen vill inte Erik XIV
+ha sin pappas gamla kungakrona.</c>
+
+020d9f0b-03d3-428e-bd12-47028f654276
+00:04:29.440 --> 00:04:33.760 align:left position:22%
+<c.teletext>Han låter tillverka
+en ny, exklusiv krona.</c>
+
+bbe66017-adea-4238-aa9e-fc9f88190619
+00:04:33.920 --> 00:04:38.760 align:left position:22%
+<c.teletext>Kronan var en så kallad sluten krona
+som gick ihop i mitten.</c>
+
+cf8d1213-980d-46f7-891d-7c9cf242af25
+00:04:38.920 --> 00:04:44.080 align:left position:22%
+<c.teletext>En kejserlig krona, och något
+helt nytt i både Sverige och Norden.</c>
+
+5e915163-0d98-4629-9fc3-8129d9ac3828
+00:04:51.120 --> 00:04:55.560 align:left position:22%
+<c.teletext>Till sin kröning
+låter Erik också tillverka en spira.</c>
+
+525ff528-bcac-45db-8763-d360ec7be415
+00:04:57.240 --> 00:04:59.480 align:left position:22%
+<c.teletext>Ett äpple.</c>
+
+94b69db1-e1c1-4d09-86f6-360810d20d40
+00:04:59.640 --> 00:05:02.360 align:left position:22%
+<c.teletext>Och en riksnyckel.</c>
+
+db2625a1-6b7b-461f-ac90-30fac5eac1df
+00:05:02.520 --> 00:05:08.080 align:left position:22%
+<c.teletext>Riksregalierna har förblivit våra
+riksregalier ända fram till vår tid.</c>
+
+cfee5a48-d124-4742-abb5-a93cfb1fd128
+00:05:16.120 --> 00:05:20.760 align:left position:22%
+<c.teletext>Det här var egentligen lite före
+den verkliga stormaktstiden.</c>
+
+28de009b-c702-4af5-a9a5-2b24808a6ac9
+00:05:20.920 --> 00:05:24.200 align:left position:22%
+<c.teletext>Det visar ändå Sverige
+som en ny typ av rike–</c>
+
+b67a9211-ea00-46cc-a343-f37bb0f5a993
+00:05:24.360 --> 00:05:28.560 align:left position:22%
+<c.teletext>–som kan jämföra sig
+med andra länder ute i Europa.</c>
+
+7c7f75ea-4504-47a5-a94c-2df9bf6b83ee
+00:05:33.520 --> 00:05:38.120 align:left position:22%
+<c.teletext>Ännu anar nog ingen att Sverige
+kommer att bli en stormakt i Europa.</c>
+
+860e37ad-d207-4556-8b49-7b358c7c8e4a
+00:05:38.280 --> 00:05:43.200 align:left position:22%
+<c.teletext>Men Erik XIV tar det första steget
+i den riktningen.</c>
+
+4107acdd-6504-4e8f-80c3-080641e470b4
+00:05:43.360 --> 00:05:48.240 align:left position:22%
+<c.teletext>Under sitt första år som kung
+skickar Erik trupper till Reval–</c>
+
+11faa3b2-eb97-4fa7-a77a-b52dbcf75bb8
+00:05:48.400 --> 00:05:51.640 align:left position:22%
+<c.teletext>–det som i dag är Tallinn.</c>
+
+2e154a30-2f55-4461-a9cb-0cd5551b114d
+00:05:51.800 --> 00:05:55.400 align:left position:22%
+<c.teletext>Reval blir då svenskt.</c>
+
+d95c42fd-53e6-4337-a447-7856a61df460
+00:05:56.520 --> 00:06:02.800 align:left position:22%
+<c.teletext>Det är en oblodig affär. Reval
+ber Sverige om hjälp mot Ryssland.</c>
+
+8f034a90-33bc-4dd4-8338-d6c7016dca69
+00:06:02.960 --> 00:06:08.200 align:left position:22%
+<c.teletext>Erik accepterar
+att bli deras beskyddare.</c>
+
+f3feb843-2109-4110-adb9-be5b08a82cd3
+00:06:08.360 --> 00:06:14.560 align:left position:22%
+<c.teletext>Det är upptakten
+till stormaktstidens expansion–</c>
+
+9797166f-6ce6-4fa8-9826-adff29e8d8e2
+00:06:14.720 --> 00:06:18.840 align:left position:22%
+<c.teletext>–även om det dröjde
+innan den kom igång på allvar.</c>
+
+d287a21e-4170-44a2-b30c-2c1d9d92cc80
+00:06:20.600 --> 00:06:23.240 align:left position:22%
+<c.teletext>Eriks tid vid makten blir besvärlig.</c>
+
+b06983ab-2009-488c-9ab1-8b936272dd95
+00:06:23.400 --> 00:06:28.000 align:left position:22%
+<c.teletext>Han har ärvt kronan,
+men hans bröder är inte nöjda.</c>
+
+356d792c-870c-459d-8d84-56d5cf1c3845
+00:06:28.160 --> 00:06:33.800 align:left position:22%
+<c.teletext>En maktkamp mellan Vasa-sönerna
+Erik, Johan och Karl börjar.</c>
+
+f7118dea-aec8-4849-8452-0fcd52c4707f
+00:06:39.320 --> 00:06:42.600 align:left position:22%
+<c.teletext>När Erik har varit kung i sju år–</c>
+
+3bf76026-5cbf-48e5-99fc-f4f5e95ef1f9
+00:06:42.760 --> 00:06:46.920 align:left position:22%
+<c.teletext>–gör hans bröder Johan och Karl
+en statskupp. Han kastas i fängelse.</c>
+
+b59db392-15e4-4a9c-8373-c4f94d7290f1
+00:06:47.080 --> 00:06:51.040 align:left position:22%
+<c.teletext>Så småningom dör han
+i sin fångenskap.</c>
+
+18e6ff1d-c765-4129-a4a2-3aa19d09cf00
+00:06:53.040 --> 00:06:58.600 align:left position:22%
+<c.teletext>Johan tar över tronen efter Erik,
+och kallar sig Johan III.</c>
+
+88e2b620-9117-4c3f-bfec-c62656f581fc
+00:06:58.760 --> 00:07:04.640 align:left position:22%
+<c.teletext>Han är gift med Katarina Jagellonica,
+en polsk prinsessa, nu drottning.</c>
+
+dc668b5c-832c-4a0f-b032-8b5466b6d4b5
+00:07:06.920 --> 00:07:10.960 align:left position:22%
+<c.teletext>Under Johans tid som kung
+erövrar han Ingermanland.</c>
+
+cdd7c74a-cf8b-42db-938c-386f35962c2c
+00:07:11.120 --> 00:07:14.360 align:left position:22%
+<c.teletext>Det kommer att göra Sverige
+ännu lite större.</c>
+
+df499666-ccae-4435-93a5-0021dc07aaea
+00:07:19.880 --> 00:07:25.840 align:left position:22%
+<c.teletext>En annan av Gustav Vasas söner
+ser till att Sverige växer inomlands.</c>
+
+62b47018-edc1-44cb-854c-aa6a00c937fc
+00:07:26.000 --> 00:07:33.520 align:left position:22%
+<c.teletext>Hertig Karl har fått mer eller mindre
+fria händer inom sitt hertigdöme.</c>
+
+99c2f731-5781-47ba-b81e-f6fee17cf4d8
+00:07:34.960 --> 00:07:41.920 align:left position:22%
+<c.teletext>Karl utnyttjar det här, och bygger
+upp och gör hertigdömet starkt.</c>
+
+99acf019-24be-4178-a88f-9015376a6ba0
+00:07:42.080 --> 00:07:45.240 align:left position:22%
+<c.teletext>Han bygger en stat i staten.</c>
+
+2b89a7aa-66b2-426d-a62c-3a5ef1592dc4
+00:07:45.400 --> 00:07:50.800 align:left position:22%
+<c.teletext>Hertigdömet når från Södermanland,
+till Närke, in i Värmland.</c>
+
+f1598d4a-8ce8-4fd5-b56f-7d4b54ba7475
+00:07:53.080 --> 00:07:57.160 align:left position:22%
+<c.teletext>Karl tänker att skatteintäkter
+är grundläggande.</c>
+
+259bac88-4643-4671-9fb3-628d118177bb
+00:07:57.320 --> 00:08:00.680 align:left position:22%
+<c.teletext>Han vill få in mer folk
+till hertigdömet.</c>
+
+f77e5302-81d4-4b50-91f9-3613dc123895
+00:08:00.840 --> 00:08:07.000 align:left position:22%
+<c.teletext>Han får in folk från Finland,
+där det varit ganska svåra tider.</c>
+
+6be02220-664b-437e-943e-bef9f60afbb4
+00:08:07.160 --> 00:08:12.280 align:left position:22%
+<c.teletext>De får bra jordbruksmark
+och möjligheter i hertigdömet.</c>
+
+4b3dda3d-b6a3-45c4-b6db-6af6e37d9178
+00:08:42.800 --> 00:08:49.240 align:left position:22%
+<c.teletext>De kallas skogsfinnar. De bryter mark
+och befolkar skogarna i Sverige.</c>
+
+0213b725-6330-4769-aae4-90af1e87eb2e
+00:08:49.400 --> 00:08:55.120 align:left position:22%
+<c.teletext>De är från Savolax i östra Finland
+och är experter på svedjebruk.</c>
+
+b39e7354-f762-43b8-bf67-9821e57291b2
+00:08:55.280 --> 00:08:59.560 align:left position:22%
+<c.teletext>Askan blir näringsrik
+och perfekt att odla i.</c>
+
+3b153b15-ae08-4653-978d-9b79d2355fdb
+00:08:59.720 --> 00:09:06.840 align:left position:22%
+<c.teletext>Svedjandet kräver mycket skog, så
+de befolkar stora vildmarksområden.</c>
+
+6b53a233-91b5-4aca-96be-087cab8f0f6d
+00:09:07.000 --> 00:09:13.120 align:left position:22%
+<c.teletext>Man kan säga att Sverige nu växer
+innanför landets gränser.</c>
+
+6fa54abd-bc0c-4968-93d0-155f2e73f9cf
+00:09:13.280 --> 00:09:18.800 align:left position:22%
+<c.teletext>Från 1570-talet börjar en period
+av förflyttningar och kolonisation–</c>
+
+121b3673-9687-4bc4-9dcf-65c10991211e
+00:09:18.960 --> 00:09:22.320 align:left position:22%
+<c.teletext>–inom dåvarande svenska riket.</c>
+
+d4aa47ac-fdc9-4def-9bc2-d2003192b812
+00:09:22.480 --> 00:09:27.440 align:left position:22%
+<c.teletext>Det är skogsfinnar som flyttar
+över till svenska sidan av riket–</c>
+
+01929020-3c5c-4054-bd92-155fd97f15ea
+00:09:27.600 --> 00:09:33.400 align:left position:22%
+<c.teletext>–till det som sen kom att kallas
+finnmarker och finnskogar.</c>
+
+fc112231-bb68-4be7-8fbb-a6c5e08f09b9
+00:09:33.560 --> 00:09:37.520 align:left position:22%
+<c.teletext>Efter att man huggit ner träden
+och eldat upp riset–</c>
+
+0c1bc811-06e6-4de6-9261-aacaaf3429f4
+00:09:37.680 --> 00:09:41.640 align:left position:22%
+<c.teletext>–sår man svedjerågen glest
+i den varma askan.</c>
+
+1345addf-c0a2-4a22-9517-8b3bf90e7525
+00:09:41.800 --> 00:09:46.320 align:left position:22%
+<c.teletext>Flera år hinner gå innan skörden
+kommer med svedjebruket.</c>
+
+88021dcc-5130-462f-8f7c-d24a6f858526
+00:09:50.360 --> 00:09:53.440 align:left position:22%
+<c.teletext>Men när den kommer är det med besked.</c>
+
+1660503c-4bdf-4be0-99c5-508c175a6294
+00:09:53.600 --> 00:09:57.960 align:left position:22%
+<c.teletext>Varje korn man sår,
+kan ge hundra nya korn tillbaka.</c>
+
+b31109c9-fa9f-4df6-a62d-5cd2785a9abf
+00:09:58.120 --> 00:10:03.240 align:left position:22%
+<c.teletext>Svedjerågen har också högre
+näringsinnehåll än vanlig råg.</c>
+
+18fff482-0ec3-4ddd-bd70-2ec96a678111
+00:10:04.440 --> 00:10:09.960 align:left position:22%
+<c.teletext>Gröten de äter är en skogsfinsk gröt
+som kallas motti.</c>
+
+443ca967-96cd-4a67-a047-91af2aed316f
+00:10:10.120 --> 00:10:15.640 align:left position:22%
+<c.teletext>Det är en mattradition
+som har levt kvar än i dag.</c>
+
+1bfda19c-30c0-40c9-89f6-c22ad02c087b
+00:10:17.240 --> 00:10:22.880 align:left position:22%
+<c.teletext>Skogsfinnarna kommer i vågor,
+fram till mitten av 1600-talet.</c>
+
+6ea9dfeb-0d85-438d-a2f9-ceb1e48e90ba
+00:10:23.040 --> 00:10:26.480 align:left position:22%
+<c.teletext>De befolkar stora delar
+av de svenska skogarna–</c>
+
+97148cae-c044-4db8-830a-59c79425adf3
+00:10:26.640 --> 00:10:30.560 align:left position:22%
+<c.teletext>–och ger namn till många platser
+som fortfarande finns kvar.</c>
+
+9de269f6-0b5e-429e-9ada-d3b6f09e4152
+00:10:37.240 --> 00:10:43.400 align:left position:22%
+<c.teletext>Karl är framgångsrik och en mycket
+mäktig man i slutet på 1500-talet.</c>
+
+d305afad-2da4-4b7a-a86a-8ea94d4f38bf
+00:10:44.920 --> 00:10:51.640 align:left position:22%
+<c.teletext>Han är också en övertygad protestant
+och vill få bort alla katolska seder.</c>
+
+5df907ba-e619-462f-9a32-c52ba41c02a2
+00:10:53.160 --> 00:10:57.240 align:left position:22%
+<c.teletext>Nån som hjälper honom med det
+är den nya ärkebiskopen:</c>
+
+2e6210be-e48e-40ef-99fd-3b67a6bdb77e
+00:10:57.400 --> 00:11:03.280 align:left position:22%
+<c.teletext>Den mycket stränga ångermanlänningen
+Abraham Angermannus.</c>
+
+f0a1ed71-7c68-471d-b2e8-c8989ba81491
+00:11:05.880 --> 00:11:11.400 align:left position:22%
+<c.teletext>De båda tror att de svåra tiderna
+med skördar som slår fel–</c>
+
+f7f7f9b4-71ac-4ba3-9c03-90727c6a6aec
+00:11:11.560 --> 00:11:17.920 align:left position:22%
+<c.teletext>–beror på folkets synder, och på att
+svenskarna inte är goda protestanter.</c>
+
+fc500387-61c3-4ad6-95c8-9d691bafe5d6
+00:11:19.240 --> 00:11:24.120 align:left position:22%
+<c.teletext>Så Angermannus får i uppdrag
+att undersöka hur folket sköter sig.</c>
+
+cc84b3cb-ff84-4cb2-a7f2-559235d56f06
+00:11:29.000 --> 00:11:34.880 align:left position:22%
+<c.teletext>Hertig Karl ger Angermannus fullmakt
+att visitera folk ute i socknarna–</c>
+
+d4597778-5df7-4fef-8962-101a359fea81
+00:11:35.040 --> 00:11:41.040 align:left position:22%
+<c.teletext>–så de blir bättre kristna undersåtar
+av den protestantiska läran.</c>
+
+bbe023e2-f345-444f-8d19-16b56957ad9f
+00:11:41.200 --> 00:11:47.480 align:left position:22%
+<c.teletext>Man vill få bort de gamla katolska
+sederna, som ännu lever i byarna.</c>
+
+d1e11e29-572b-4694-918c-5ededdb1d966
+00:11:47.640 --> 00:11:53.160 align:left position:22%
+<c.teletext>Ärkebiskopen är hård, och utfärdar
+stränga straff för syndare han möter.</c>
+
+88b707c8-3540-4e59-a1f5-42399390a82e
+00:11:53.320 --> 00:11:57.240 align:left position:22%
+<c.teletext>Ofta handlar det om osedlighet.</c>
+
+f2675edb-084c-4b91-893d-844fe2837db2
+00:11:57.400 --> 00:12:00.560 align:left position:22%
+<c.teletext>Problemet är hur folket lever.</c>
+
+63540d63-62ca-49aa-821a-1d90dc033907
+00:12:00.720 --> 00:12:05.040 align:left position:22%
+<c.teletext>Det är en fruktansvärd omoral
+att de går till sängs som ogifta.</c>
+
+5bd6e6c7-2b54-4a4f-a57f-d13fd6796d71
+00:12:05.200 --> 00:12:08.720 align:left position:22%
+<c.teletext>Det tillhör gammal katolsk tradition:</c>
+
+615708f3-63fb-4508-98f5-fa27d691dbd0
+00:12:08.880 --> 00:12:11.880 align:left position:22%
+<c.teletext>Att man som förlovad
+kunde gå till sängs.</c>
+
+1cc0381f-2d65-4c94-8646-c13940371f03
+00:12:12.040 --> 00:12:18.640 align:left position:22%
+<c.teletext>Det ville protestanterna få bort.
+Det var fel, syndigt, och retade Gud.</c>
+
+be2a561f-ba59-4ef5-a65c-991fddfc730d
+00:12:21.240 --> 00:12:27.640 align:left position:22%
+<c.teletext>En av dem som döms är drängen Lasse
+i Örtomta, Östergötland.</c>
+
+7eea38f3-d489-44b6-95e0-92d884b30afb
+00:12:27.800 --> 00:12:32.120 align:left position:22%
+<c.teletext>Han har gjort tre kvinnor gravida
+och lovat alla tre giftermål.</c>
+
+d105499d-b821-4320-826d-d696177a8f8b
+00:12:33.960 --> 00:12:38.800 align:left position:22%
+<c.teletext>Angermannus straff blir hårt.
+Lasse döms för hor.</c>
+
+9499432f-ac5f-4b8e-bed0-f9ffdb7258c4
+00:12:42.800 --> 00:12:46.600 align:left position:22%
+<c.teletext>Straffet blir 39 slag med riset.</c>
+
+5c3edc5f-38f3-48ab-be5c-a77da9e7a5b6
+00:12:50.480 --> 00:12:57.120 align:left position:22%
+<c.teletext>Lasse i Örtomta är bara ett exempel.
+Många döms på det här sättet.</c>
+
+66d3737b-9049-491d-a73c-d306d67d3ac4
+00:12:59.280 --> 00:13:04.600 align:left position:22%
+<c.teletext>Angermannus ville alltså straffa hårt
+inför Gud–</c>
+
+b22bbd77-0961-4cda-be26-6983218cdb7d
+00:13:04.760 --> 00:13:09.160 align:left position:22%
+<c.teletext>–de här människorna
+som då hade begått brott mot lagen.</c>
+
+cd4a0554-07be-4e45-8c32-908d7bcb064d
+00:13:20.240 --> 00:13:25.520 align:left position:22%
+<c.teletext>Lasses straff var antagligen
+ohyggligt svårt att genomlida.</c>
+
+b40eb146-bcb6-4c85-97b5-d28ce53907a3
+00:13:28.560 --> 00:13:34.240 align:left position:22%
+<c.teletext>Det var inga dödsstraff. Det skulle
+sarga, plåga, skicka en signal.</c>
+
+8dc71cda-8a77-4950-b333-542bee514cb9
+00:13:34.400 --> 00:13:36.600 align:left position:22%
+<c.teletext>De skulle inte dö.</c>
+
+6b7fdcc0-dad9-419c-895a-b9d0443ffdd1
+00:13:43.240 --> 00:13:48.440 align:left position:22%
+<c.teletext>Efter bestraffningen tvingar
+Angermannus syndaren att gifta sig.</c>
+
+db106d7e-c4fc-44a5-8ce4-08fef0e51c9e
+00:13:49.600 --> 00:13:54.280 align:left position:22%
+<c.teletext>Drängen Lasse döms att gifta sig med
+den första kvinna han gjorde gravid.</c>
+
+9b368072-86e4-4b02-9422-bf569ddef96c
+00:13:54.440 --> 00:13:56.840 align:left position:22%
+<c.teletext>De infogas i äktenskapet.</c>
+
+ea4f28cd-bece-4dbb-9baf-06d5dd3408f4
+00:13:57.000 --> 00:14:00.880 align:left position:22%
+<c.teletext>Det är vad Angermannus vill
+– värna äktenskapet.</c>
+
+bd088b6d-5fa9-4187-8dd4-1646f3a7eada
+00:14:01.040 --> 00:14:05.240 align:left position:22%
+<c.teletext>Har de begått de här synderna,
+så ska det rättas till.</c>
+
+c5f705aa-d725-4180-b9f4-2332ca564801
+00:14:05.400 --> 00:14:08.600 align:left position:22%
+<c.teletext>Men Angermannus
+får inte hålla på så länge.</c>
+
+7a876685-68bf-49cd-8ba3-7df585f91627
+00:14:08.760 --> 00:14:11.880 align:left position:22%
+<c.teletext>Hans inspektioner
+väcker folkets ilska.</c>
+
+9a99097a-7d06-4f96-b297-02d38a3c6b45
+00:14:12.040 --> 00:14:16.360 align:left position:22%
+<c.teletext>Hertig Karl
+blir tvungen att stoppa honom.</c>
+
+040f996b-1ead-4dee-a61d-fd8f1caeec5f
+00:14:32.240 --> 00:14:38.600 align:left position:22%
+<c.teletext>Med tiden blir Karl så mäktig
+att han tar makten över Sverige.</c>
+
+57fe79c2-fb80-432a-8241-e2f29a1db2e0
+00:14:40.760 --> 00:14:47.880 align:left position:22%
+<c.teletext>Han tar kungakronan med våld
+från sin katolske brorson Sigismund–</c>
+
+b79f09a6-5924-4378-907e-a380d8ae8038
+00:14:48.040 --> 00:14:52.760 align:left position:22%
+<c.teletext>–han säkrar makten med terror,
+och blir kung Karl IX.</c>
+
+d5569379-2b3c-4a8b-90e5-aadaefe40b1e
+00:14:56.240 --> 00:15:01.200 align:left position:22%
+<c.teletext>Han är kung i sju år, innan han dör
+och efterlämnar kronan och tre krig–</c>
+
+a0158e2a-046f-4bf9-a5ff-ff1373a14d3f
+00:15:01.360 --> 00:15:04.360 align:left position:22%
+<c.teletext>–till sin son Gustav II Adolf.</c>
+
+9627cd6c-7e9b-4fb7-9cfd-bf868b155eaf
+00:15:12.960 --> 00:15:18.360 align:left position:22%
+<c.teletext>Men Gustav Adolf är tonåring
+och behöver hjälp att styra Sverige.</c>
+
+a854e5da-2c59-4bfa-8ab3-81e0fc49740d
+00:15:18.520 --> 00:15:22.800 align:left position:22%
+<c.teletext>Och hjälp får han
+– av Axel Oxenstierna.</c>
+
+680190d9-7832-46d9-a996-1409b1c3e9f5
+00:15:24.440 --> 00:15:27.600 align:left position:22%
+<c.teletext>Axel Oxenstierna
+är nog den ämbetsman–</c>
+
+ec667969-cb10-447a-bfd1-aebfc0b6c06e
+00:15:27.760 --> 00:15:33.120 align:left position:22%
+<c.teletext>–som haft mest makt under längst tid
+i Sveriges historia.</c>
+
+204864f1-c4a5-43b7-bc92-b84ca74fb5ae
+00:15:33.280 --> 00:15:37.120 align:left position:22%
+<c.teletext>Han satt som rikskansler i 42 år.</c>
+
+eff79238-1704-452d-8e25-792c96037645
+00:15:37.280 --> 00:15:41.360 align:left position:22%
+<c.teletext>Ända tills han avgår med döden.</c>
+
+8d15ec1f-eebd-4acb-bb20-cb52e830f3c3
+00:15:41.520 --> 00:15:47.160 align:left position:22%
+<c.teletext>Många har kallat Axel Oxenstierna
+för Sveriges främsta statsman.</c>
+
+1c6b809a-76e1-472d-8009-e01c692699d4
+00:15:47.320 --> 00:15:50.680 align:left position:22%
+<c.teletext>Han är bildad,
+med en stark känsla för organisation.</c>
+
+2bff0e45-fa20-46fa-b763-e5bbd367e565
+00:15:50.840 --> 00:15:56.480 align:left position:22%
+<c.teletext>Han leder Sverige mot att bli
+en modern stat. Ingen lätt uppgift.</c>
+
+2a498caf-c118-49f7-899e-a077dbf6606a
+00:15:58.400 --> 00:16:04.440 align:left position:22%
+<c.teletext>När Gustav II Adolf och Oxenstierna
+kommer till makten är pengarna slut.</c>
+
+4b5813c4-9b96-4316-972a-cad5ce48b1dd
+00:16:04.600 --> 00:16:10.240 align:left position:22%
+<c.teletext>Statsfinanserna är urusla
+och Sverige är i krig.</c>
+
+c98741f0-6f88-420c-a727-1d34b51b7650
+00:16:10.400 --> 00:16:13.000 align:left position:22%
+<c.teletext>En riktig kristid för svenskarna.</c>
+
+c9e61713-d894-4c9a-950d-10a4d6b94447
+00:16:13.160 --> 00:16:18.240 align:left position:22%
+<c.teletext>Men kriserna för något med sig som
+ändrar förutsättningarna för Sverige.</c>
+
+18a62291-0b11-4ceb-a522-0fba9546ceaf
+00:16:18.400 --> 00:16:23.240 align:left position:22%
+<c.teletext>För att betala skulder till Danmark
+upprättar man nya skattelängder.</c>
+
+4a99b31e-09de-4a15-a79f-0fe8007607ca
+00:16:23.400 --> 00:16:26.640 align:left position:22%
+<c.teletext>Det blir som
+landsomfattande folkräkningar.</c>
+
+ab97e65a-b205-41e5-bf53-6c2374ffe170
+00:16:26.800 --> 00:16:29.720 align:left position:22%
+<c.teletext>Alla ska vara med och betala.</c>
+
+83fdc61f-3055-409a-96f4-fc1b12b478f4
+00:16:29.880 --> 00:16:34.480 align:left position:22%
+<c.teletext>När Gustav II Adolf och Oxenstierna
+nu vet hur många som bor i landet–</c>
+
+2e0fd72f-419e-42cd-b28a-6dd24f9f82ab
+00:16:34.640 --> 00:16:38.920 align:left position:22%
+<c.teletext>–blir det lättare att få in
+ett jämnt och väl avvägt skatteflöde.</c>
+
+4c4261f6-5fd5-4a4e-a760-ac7da3edd56d
+00:16:39.080 --> 00:16:43.560 align:left position:22%
+<c.teletext>Och pengarna används naturligtvis
+till arméerna.</c>
+
+be97e488-40a8-449e-8dd1-7f093c822b2a
+00:16:43.720 --> 00:16:48.880 align:left position:22%
+<c.teletext>Den unge kungen och Axel Oxenstierna
+blir en dynamisk duo–</c>
+
+dc5cf661-1080-4e5a-853e-cf1cd72526df
+00:16:49.040 --> 00:16:53.040 align:left position:22%
+<c.teletext>–som kommer att göra Sverige
+till en militär stormakt.</c>
+
+022c39c5-4893-4011-9396-a3705a901a13
+00:16:54.760 --> 00:17:00.800 align:left position:22%
+<c.teletext>Arméerna skickas i krig mot Ryssland,
+försvagat av inre politiska strider.</c>
+
+ae3fbf32-ee89-4525-a6c1-fa35057bef26
+00:17:00.960 --> 00:17:05.280 align:left position:22%
+<c.teletext>Och det går bra.
+Svenskarna vinner kriget.</c>
+
+8f23511b-d977-4281-8d19-106917a15672
+00:17:05.440 --> 00:17:12.240 align:left position:22%
+<c.teletext>I fredsavtalet från 1617 dras gränsen
+Sverige–Ryssland längre österut.</c>
+
+90ed4131-b36b-4b44-ba25-eb22c3ced819
+00:17:12.400 --> 00:17:16.800 align:left position:22%
+<c.teletext>Ryssland
+blir utestängt från Östersjön.</c>
+
+7d1b3d8f-ed0d-464d-8803-6a69ed5608de
+00:17:18.200 --> 00:17:23.800 align:left position:22%
+<c.teletext>Det är Rysslands temporära svaghet
+som i hög grad förklarar–</c>
+
+fd8da7b8-06aa-43aa-a6d5-65bf3f9b28fc
+00:17:23.960 --> 00:17:30.000 align:left position:22%
+<c.teletext>–varför Sverige kunde växa
+och bli en stormakt runt Östersjön.</c>
+
+a8c9d418-2a5f-423d-9d81-d6b652bfee78
+00:17:43.240 --> 00:17:50.680 align:left position:22%
+<c.teletext>Även om det är svåra tider med krig
+som kostar mycket, pågår vardagen.</c>
+
+f5c4dd22-e1ac-46db-964b-766d5f1b222c
+00:17:50.840 --> 00:17:55.240 align:left position:22%
+<c.teletext>Människor drömmer om framtiden
+och de söker kärleken.</c>
+
+1e592b01-c03e-4036-8efb-a98e1ca8eb2b
+00:17:57.560 --> 00:18:00.120 align:left position:22%
+<c.teletext>Ungdomarna hade sina sätt att mötas.</c>
+
+8d837aed-9943-4ad8-a057-081eca683e73
+00:18:00.280 --> 00:18:06.440 align:left position:22%
+<c.teletext>En sed som verkar ha praktiserats
+på 1600-talet var nattfrieriet.</c>
+
+c930d4ad-b8d9-4ecd-89a9-61dbd2313bf4
+00:18:08.000 --> 00:18:13.360 align:left position:22%
+<c.teletext>Nattfrieriet är ett slags dejtande,
+främst i norra Sverige–</c>
+
+8dc45a90-a402-4026-92e7-c6badce999ba
+00:18:13.520 --> 00:18:17.920 align:left position:22%
+<c.teletext>–där unga kvinnor och män
+får prova att sova bredvid varandra.</c>
+
+517860a3-76a6-4a90-b352-ec82d37cdf9f
+00:18:21.520 --> 00:18:26.560 align:left position:22%
+<c.teletext>Det är killar i giftasmogen ålder
+– 17, 18, 19 år.</c>
+
+9b56d87f-df25-4e19-bd51-0588e18d71c6
+00:18:26.720 --> 00:18:32.280 align:left position:22%
+<c.teletext>De går runt i skock i bygderna
+och uppvaktar flickor i samma ålder.</c>
+
+27e07f83-b37e-4ae9-a215-a643feff5fec
+00:18:34.880 --> 00:18:40.880 align:left position:22%
+<c.teletext>Tonårsdöttrarna hade sina sovplatser
+i uthusen, på loften, i ladorna.</c>
+
+35aa2ff0-d802-484e-9692-dbfc95dbd24f
+00:18:41.040 --> 00:18:43.400 align:left position:22%
+<c.teletext>Där tog de emot de unga killarna.</c>
+
+c9bc8033-98b9-4504-b930-0367d23d3ae9
+00:18:44.920 --> 00:18:51.160 align:left position:22%
+<c.teletext>Killarna, de knackade på,
+och så kanske de sjöng en sång–</c>
+
+a5c5b8ae-73dc-4752-992c-e45f4f3624f3
+00:18:51.320 --> 00:18:56.280 align:left position:22%
+<c.teletext>–och uppmärksammade kvinnan på att de
+ville dela hennes bädd under natten.</c>
+
+412fe87c-650d-405b-b9bd-41cf8963155e
+00:19:00.400 --> 00:19:03.880 align:left position:22%
+<c.teletext>Det finns fasta ramar
+runt nattfrieriet.</c>
+
+2a79ac55-5adf-470a-9eb5-59cbb80f3f98
+00:19:04.040 --> 00:19:09.600 align:left position:22%
+<c.teletext>Paren ska vara fullt påklädda
+och de får inte röra varandra.</c>
+
+8d31a911-d070-4f89-a3fe-e41ef6f85d2f
+00:19:09.760 --> 00:19:15.920 align:left position:22%
+<c.teletext>Vi vet ju att kvinnor blev gravida.
+Man har blivit förälskade–</c>
+
+126243b4-4f16-4361-ab9f-e8a4df9624bb
+00:19:16.080 --> 00:19:21.120 align:left position:22%
+<c.teletext>–och inte kunnat stå emot varandra,
+och det har hänt saker.</c>
+
+350d843c-20a8-4051-aa47-4bb42e751f3b
+00:19:21.280 --> 00:19:28.760 align:left position:22%
+<c.teletext>För det mesta höll man på reglerna.
+En anledning till att det fortlevt.</c>
+
+da2a2ef6-a072-495a-a222-00f4e7f662a6
+00:19:40.440 --> 00:19:45.160 align:left position:22%
+<c.teletext>Efter nattfrieriet kan de unga fråga
+föräldrarna om de får gifta sig.</c>
+
+ff2f631e-8814-4c4c-bcee-e213df2a114d
+00:19:48.200 --> 00:19:51.880 align:left position:22%
+<c.teletext>Föräldrarna var med på det här.</c>
+
+83d6218e-32bf-4e1d-916d-f99f60db0fce
+00:19:52.760 --> 00:19:58.280 align:left position:22%
+<c.teletext>Ungdomarna i dessa trakter kan alltså
+i viss mån själva välja sin partner.</c>
+
+a74de8af-2daa-4d71-a287-2fbbba48ff7c
+00:20:06.240 --> 00:20:12.640 align:left position:22%
+<c.teletext>Sverige är djupt kristet vid den här
+tiden. Bröllop är en stor händelse.</c>
+
+d3978bda-1f9a-4a72-9653-1b5e22eb6450
+00:20:25.120 --> 00:20:29.920 align:left position:22%
+<c.teletext>Innan giftermålet tillhörde man
+ungdomslaget som piga eller dräng.</c>
+
+02e0e832-fd48-455b-83c7-17335d7f03a2
+00:20:30.080 --> 00:20:34.480 align:left position:22%
+<c.teletext>När man upptogs i äktenskapet
+blev man hustru eller husbonde–</c>
+
+1f30b5b3-cd0e-4ddd-918a-9903c271aa83
+00:20:34.640 --> 00:20:39.480 align:left position:22%
+<c.teletext>–och man fick en helt annan
+social position i lokalsamhället.</c>
+
+94bad4f1-432a-49e1-a464-0b89fffc700d
+00:20:44.760 --> 00:20:50.200 align:left position:22%
+<c.teletext>Äktenskapet har tidigare ofta byggt
+på överenskommelser mellan familjer.</c>
+
+f40b57b2-5123-45e8-ac6c-cb00857a916e
+00:20:50.360 --> 00:20:55.200 align:left position:22%
+<c.teletext>Sex före äktenskapet är ganska okej,
+bara det finns ett löfte som infrias.</c>
+
+9cdbbef1-bd37-4abe-bb09-f816fd96582f
+00:20:55.360 --> 00:20:57.800 align:left position:22%
+<c.teletext>Kyrkan vill ha bort det.</c>
+
+ce988d4a-021a-4543-af04-d5af51709091
+00:20:57.960 --> 00:21:03.480 align:left position:22%
+<c.teletext>Äktenskapet ska vara en kyrklig
+angelägenhet, och sex får vänta.</c>
+
+07767eaa-deb3-4862-8778-bd2653c22ffb
+00:21:17.920 --> 00:21:23.760 align:left position:22%
+<c.teletext>För att inskärpa reglerna om att
+inte gå till sängs innan äktenskapet–</c>
+
+08491855-156b-41f0-b94e-f7e504f5651b
+00:21:23.920 --> 00:21:30.800 align:left position:22%
+<c.teletext>–fick bara den kvinna som var oskuld
+vid vigseln bära socknens brudkrona.</c>
+
+6cbfb4b1-2262-4525-9945-bf1c5db2dcb0
+00:21:32.000 --> 00:21:35.120 align:left position:22%
+<c.teletext>Som en symbol på hennes ärbarhet.</c>
+
+88bb0bcf-dc54-4914-8a7e-99ff1c72b081
+00:21:41.760 --> 00:21:47.960 align:left position:22%
+<c.teletext>Brudkronorna kunde se olika ut
+– pärlor, stenar, förgyllt silver.</c>
+
+1f68bb14-acd1-4ac7-863a-4872c0b98415
+00:21:48.120 --> 00:21:52.840 align:left position:22%
+<c.teletext>Den var stor och fin och dyrbar,
+och den ägdes av församlingen.</c>
+
+2e65f7e0-a453-43bd-92f5-934d58eabe66
+00:21:55.840 --> 00:22:01.240 align:left position:22%
+<c.teletext>Om en kvinna däremot inte är oskuld,
+får hon inte bära brudkronan.</c>
+
+f1b65af7-81a2-4403-b1b5-ede5806b9a50
+00:22:01.400 --> 00:22:07.120 align:left position:22%
+<c.teletext>Budskapet är tydligt: Människorna i
+Sverige ska styras av kyrka och stat–</c>
+
+82e72705-036c-4006-b8e5-a1182305190a
+00:22:07.280 --> 00:22:10.080 align:left position:22%
+<c.teletext>–och inte av lustar.</c>
+
+725c7095-a305-483d-82b6-04df971daab4
+00:22:35.360 --> 00:22:41.200 align:left position:22%
+<c.teletext>I Stockholm bygger Axel Oxenstierna
+upp en ny ordning för Sverige.</c>
+
+2bdb1f85-1e42-4bb9-a100-a4d19f5ffae2
+00:22:43.080 --> 00:22:46.120 align:left position:22%
+<c.teletext>Under de första 10–15 åren–</c>
+
+cb48099f-a5f3-4a4d-8f8f-fa728dab9b6b
+00:22:46.280 --> 00:22:51.560 align:left position:22%
+<c.teletext>–är Gustav Adolf långa tider
+ute i krig utanför landet–</c>
+
+d33ea718-7bae-4bae-967c-c305a8cb7207
+00:22:51.720 --> 00:22:56.160 align:left position:22%
+<c.teletext>–medan Oxenstierna
+för det mesta är hemma–</c>
+
+7b31f2a7-3cdb-4507-bfbd-8bd081d3d1f3
+00:22:56.320 --> 00:23:01.280 align:left position:22%
+<c.teletext>–och arbetar med att bygga upp
+den förvaltning och det skattesystem–</c>
+
+9e0a7b14-d08a-4466-94b0-1e0cf7efd143
+00:23:01.440 --> 00:23:07.000 align:left position:22%
+<c.teletext>–som krävs för att Sverige
+ska kunna delta i kriget–</c>
+
+4739452f-b4e6-4c62-b429-f5e404af78c3
+00:23:07.160 --> 00:23:11.120 align:left position:22%
+<c.teletext>–och skicka ut 100 000 knektar–</c>
+
+b812ab7d-af54-4eef-829b-91527b655267
+00:23:11.280 --> 00:23:14.880 align:left position:22%
+<c.teletext>–av en befolkning
+på lite drygt en miljon människor–</c>
+
+b5a9db24-d4fe-4760-a3c5-a5abb6685bea
+00:23:15.040 --> 00:23:20.640 align:left position:22%
+<c.teletext>–under de 40 år
+som Oxenstierna är rikskansler.</c>
+
+3e1f8b7a-ca11-42a8-a42f-26c2d945b888
+00:23:20.800 --> 00:23:26.440 align:left position:22%
+<c.teletext>En av de saker Axel Oxenstierna
+vill få ordning på är rättsväsendet.</c>
+
+fc24231a-bb22-40c1-b977-d123d6b8901d
+00:23:26.600 --> 00:23:32.200 align:left position:22%
+<c.teletext>Där var problemet
+att ganska mycket var laglöst land.</c>
+
+bd99d420-bd35-4665-96fb-c6d14fd05d77
+00:23:32.360 --> 00:23:36.560 align:left position:22%
+<c.teletext>Man visste inte riktigt vilka domar
+och lagar som gällde.</c>
+
+22e72d4e-bfac-4805-96c8-37e919c6dd8c
+00:23:36.720 --> 00:23:41.080 align:left position:22%
+<c.teletext>Landslagen
+var från mitten av 1300-talet.</c>
+
+d81e483b-26e0-400a-923e-976556e7238c
+00:23:41.240 --> 00:23:45.240 align:left position:22%
+<c.teletext>Flera kungar
+hade försökt modernisera den–</c>
+
+c9b77f6a-446c-43f7-87e7-709f52a4dc35
+00:23:45.400 --> 00:23:49.400 align:left position:22%
+<c.teletext>–men gått in i väggen
+med sina försök.</c>
+
+d93c72e3-c95c-4abb-b4db-9abf398a9008
+00:23:49.560 --> 00:23:52.720 align:left position:22%
+<c.teletext>Då gör Oxenstierna det vackra–</c>
+
+a549cfbb-415d-4ce4-9505-13a2b294bb14
+00:23:52.880 --> 00:23:58.240 align:left position:22%
+<c.teletext>–att han i stället
+gör om domstolsväsendet.</c>
+
+0a69e206-5d29-4e3b-ab86-1705ff275ae3
+00:24:01.120 --> 00:24:05.720 align:left position:22%
+<c.teletext>I stället för att ändra lagarna,
+så inför han Svea hovrätt–</c>
+
+a7b9a1ab-b4fe-4cd6-a113-e7cd08d9fded
+00:24:05.880 --> 00:24:11.320 align:left position:22%
+<c.teletext>–som kan ändra domar, och tvinga
+domstolarna att göra om rättegångar.</c>
+
+1d619364-21c6-489b-b236-771ff3140de8
+00:24:11.480 --> 00:24:17.160 align:left position:22%
+<c.teletext>På så vis
+stramar man upp rättsskipningen.</c>
+
+47610e6d-fb3a-4edf-9ece-1667591113d2
+00:24:17.320 --> 00:24:21.840 align:left position:22%
+<c.teletext>Oxenstiernas reformer
+lägger grunden till dagens hovrätter–</c>
+
+01c360aa-e87e-4a82-9066-a137ae94b501
+00:24:22.000 --> 00:24:25.440 align:left position:22%
+<c.teletext>–som nu finns runt om i hela landet.</c>
+
+5646e55f-6b3d-4add-95b9-8e34fed00482
+00:24:32.960 --> 00:24:38.240 align:left position:22%
+<c.teletext>Axel Oxenstierna är en av Sveriges
+viktigaste statsmän genom tiderna.</c>
+
+7f7a18c1-a97c-46ee-9da1-6a845f19859b
+00:24:38.400 --> 00:24:45.040 align:left position:22%
+<c.teletext>Innan han dör låter han bygga det här
+palatset, nära slottet i Stockholm.</c>
+
+0619f361-adcd-4dbb-bbbc-46677dbebf6e
+00:24:46.480 --> 00:24:53.000 align:left position:22%
+<c.teletext>Han gör Stockholm till huvudstad
+genom att ändra statsförvaltningen.</c>
+
+49d31b61-c1bc-46c9-8c0f-7fdd4ad332e4
+00:24:53.160 --> 00:24:57.280 align:left position:22%
+<c.teletext>Tidigare har alla som arbetat
+åt kungen följt honom överallt.</c>
+
+2ed40339-a45d-467d-8fb6-90e5f647aa02
+00:24:57.440 --> 00:25:01.600 align:left position:22%
+<c.teletext>Oxenstierna beslutar att
+förvaltningen stannar i Stockholm–</c>
+
+0e491cfa-4cc0-45ba-be89-e0446ac5dab2
+00:25:01.760 --> 00:25:04.360 align:left position:22%
+<c.teletext>–oavsett var kungen är.</c>
+
+de6fd796-8f0c-4b0f-aadf-37ea81f7de7b
+00:25:06.240 --> 00:25:11.960 align:left position:22%
+<c.teletext>Gustav II Adolf och Axel Oxenstierna
+ville ha en svensk huvudstad–</c>
+
+cc45a192-0eb0-45fd-a353-b20caf18cc86
+00:25:12.120 --> 00:25:16.120 align:left position:22%
+<c.teletext>–som kunde mäta sig
+med andra europeiska länders.</c>
+
+2fe80ce2-1fed-46d8-8ad4-249fc48cd1e1
+00:25:16.280 --> 00:25:23.360 align:left position:22%
+<c.teletext>Stockholm gjordes till centralort
+och omformades till modern storstad.</c>
+
+3fe8dc4e-4407-4a24-a37f-33fa5f18584f
+00:25:29.960 --> 00:25:35.880 align:left position:22%
+<c.teletext>Men nästan alla svenskar lever på
+landsbygden i början av 1600-talet.</c>
+
+3570df30-ead8-4379-afb6-029380cbc78b
+00:25:38.440 --> 00:25:42.840 align:left position:22%
+<c.teletext>Sveriges befolkning växer
+och närmar sig nu en miljon.</c>
+
+03744729-7af7-46a1-8418-47ede0f1bbed
+00:25:46.880 --> 00:25:50.880 align:left position:22%
+<c.teletext>Men även om många barn föds
+så är det inte riskfritt.</c>
+
+ae1b2d08-7177-4ae6-accc-64eda3f49867
+00:25:54.120 --> 00:25:56.960 align:left position:22%
+<c.teletext>/PLÅGADE LJUD/</c>
+
+b72ce4ac-a8c5-45f9-8f4b-834627d2d660
+00:25:58.080 --> 00:26:05.080 align:left position:22%
+<c.teletext>Förlossningar var ett av de mest
+riskfyllda momenten i en kvinnas liv.</c>
+
+1e501b1f-eccc-42a1-9ae5-846e78af62fc
+00:26:05.240 --> 00:26:12.040 align:left position:22%
+<c.teletext>För många kvinnor blev också
+barnafödandet det sista de gjorde.</c>
+
+bdbb0ccf-4c25-43f9-ad27-6761dde95231
+00:26:16.160 --> 00:26:18.800 align:left position:22%
+<c.teletext>/BARNSKRIK/</c>
+
+70a6a484-919a-4344-8ca6-63f48d6dd3fc
+00:26:21.800 --> 00:26:26.920 align:left position:22%
+<c.teletext>Generellt fanns inga män närvarande
+i samband med förlossningar.</c>
+
+ff2bcbe2-ca87-4b4b-8fc0-caff40dba9e5
+00:26:29.280 --> 00:26:36.600 align:left position:22%
+<c.teletext>De kvinnor som bistod vid födslarna,
+som hjälpkvinnor eller jordemödrar–</c>
+
+5a086cf6-2d1e-45b2-9ca1-a639278bf07a
+00:26:36.760 --> 00:26:40.920 align:left position:22%
+<c.teletext>–hade förvärvat sina kunskaper
+genom praktisk erfarenhet.</c>
+
+28322821-eff8-4ef9-ba7c-9f6cc55ab9d9
+00:26:41.080 --> 00:26:44.320 align:left position:22%
+<c.teletext>Antingen att de själva
+hade fött barn–</c>
+
+5843e001-9ca9-437a-85f2-904d024809c4
+00:26:44.480 --> 00:26:48.080 align:left position:22%
+<c.teletext>–eller att de hade bistått
+vid andra födslar.</c>
+
+9d5b83a6-2e01-4103-afc0-17e6dae98e54
+00:26:52.720 --> 00:26:57.360 align:left position:22%
+<c.teletext>Att föda barn innebar inte bara
+en oro för mammans liv.</c>
+
+87d6e94b-ce14-4cde-bf61-f842af98120e
+00:26:57.520 --> 00:27:02.720 align:left position:22%
+<c.teletext>Vart femte barn vid den här tiden
+överlever inte sitt första år.</c>
+
+69771ab6-0789-41c9-8d04-ea0d786a5739
+00:27:15.200 --> 00:27:19.920 align:left position:22%
+<c.teletext>Överallt i Sverige, i minsta
+lilla socken, finns en kyrka.</c>
+
+a8cef63e-f595-49ee-aa41-951b099badd9
+00:27:20.080 --> 00:27:24.360 align:left position:22%
+<c.teletext>Kyrkan spelar en mycket viktig roll
+i svenskarnas liv.</c>
+
+8c2f7f75-13fb-4efc-99df-deef014c2fc6
+00:27:26.040 --> 00:27:31.480 align:left position:22%
+<c.teletext>Kyrkan är central vid den här tiden
+och prästerskapet har stor makt.</c>
+
+1916be34-a468-4739-94fe-ccc6c176558f
+00:27:31.640 --> 00:27:35.480 align:left position:22%
+<c.teletext>Det är en plikt att gå i kyrkan
+på söndagarna–</c>
+
+61c21541-ac5a-4daa-9e00-991c4d3486d8
+00:27:35.640 --> 00:27:39.720 align:left position:22%
+<c.teletext>–men det är också så att
+de flesta människor vill gå i kyrkan.</c>
+
+e2416815-49aa-4a15-a346-dbec2af5d572
+00:27:41.120 --> 00:27:47.400 align:left position:22%
+<c.teletext>I kyrkorna möter man inte bara Gud.
+Där får man också veta allt viktigt.</c>
+
+2270c4ff-ed40-4bf0-a21b-ae7e8c95d397
+00:27:47.560 --> 00:27:50.920 align:left position:22%
+<c.teletext>I kyrkan kan man efterlysa allt–</c>
+
+b39c76ff-4eb3-495c-a12d-3d4dd27aee6c
+00:27:51.080 --> 00:27:54.840 align:left position:22%
+<c.teletext>–från borttappade kor
+till deserterade soldater.</c>
+
+8d299609-1c89-4382-ac42-d1b1be787f4c
+00:28:03.080 --> 00:28:05.800 align:left position:22%
+<c.teletext>Prästen predikar inte bara.</c>
+
+bed7ed72-c83b-4375-a4e1-47847f85660c
+00:28:05.960 --> 00:28:09.760 align:left position:22%
+<c.teletext>Han ska också föra bok
+över socknens befolkning.</c>
+
+cbee012e-5112-4638-9249-b15649d957f2
+00:28:09.920 --> 00:28:15.680 align:left position:22%
+<c.teletext>Och han måste hjälpa till när man
+väljer de män som kan bli soldater.</c>
+
+ee95a9ae-af10-4537-b2b3-fea47efd90b3
+00:28:15.840 --> 00:28:21.400 align:left position:22%
+<c.teletext>För att få soldater till krigen
+börjar man skriva ut knektar.</c>
+
+a3c34556-86ca-4c87-bc2b-fad84193d103
+00:28:23.200 --> 00:28:29.200 align:left position:22%
+<c.teletext>Riksdagen fattar besluten – kanske
+att var tionde man ska bli soldat.</c>
+
+9bd6580a-978d-41c8-b450-14f6648c201b
+00:28:29.360 --> 00:28:32.800 align:left position:22%
+<c.teletext>Prästen ser till att upprätta
+längder över vilka som finns.</c>
+
+7b37973b-0596-4f1e-b7e1-64fb0b26f092
+00:28:32.960 --> 00:28:39.240 align:left position:22%
+<c.teletext>Så tar man helt enkelt var tionde
+man, och det är inte frivilligt.</c>
+
+a5e0c108-0661-45ac-b0e8-b23d8ad668c3
+00:28:44.880 --> 00:28:49.080 align:left position:22%
+<c.teletext>Några kanske ser armén som
+ett alternativ till ett fattigt liv–</c>
+
+4ccac0bd-14b3-41ce-8cd2-340e41eac8f5
+00:28:49.240 --> 00:28:52.760 align:left position:22%
+<c.teletext>–eller rentav som en ärofylld plikt.</c>
+
+2911c9b3-0dbf-4a61-85d1-e9dca9b6b946
+00:28:52.920 --> 00:28:56.560 align:left position:22%
+<c.teletext>Men de allra flesta
+ser det nog som en dödsdom.</c>
+
+c671fb58-b3da-409d-9b06-749e24b84cd5
+00:28:58.240 --> 00:29:02.560 align:left position:22%
+<c.teletext>I början av kriget väljer man ut
+såna man kan avvara.</c>
+
+5bbdd04f-db6e-44ca-b1aa-11d9ad360942
+00:29:02.720 --> 00:29:07.440 align:left position:22%
+<c.teletext>De fattiga, de som inte får något arv
+eller som är allmänt besvärliga.</c>
+
+71dfc806-5da4-445f-a4f9-9ca742a9fffe
+00:29:09.000 --> 00:29:13.560 align:left position:22%
+<c.teletext>Man valde hellre den som hade
+ett litet hemman, än ett stort.</c>
+
+7403d67c-bc41-4a13-89fc-9644c8b28eb5
+00:29:13.720 --> 00:29:18.320 align:left position:22%
+<c.teletext>Man ville hålla skatteinkomsterna
+så höga som möjligt.</c>
+
+a18d48ed-0fcd-4dfb-b507-8f9b7a50cc6c
+00:29:23.360 --> 00:29:29.360 align:left position:22%
+<c.teletext>Man försökte se till att den som bara
+hade en son eller dräng blev skonad.</c>
+
+1cb36e63-61ec-4bb6-855d-bfced2494ec9
+00:29:29.520 --> 00:29:33.840 align:left position:22%
+<c.teletext>Man tog hellre familjer
+med många söner eller drängar.</c>
+
+53e69ff0-9e2c-4e9d-a9a3-32441a1d8cdc
+00:29:35.320 --> 00:29:38.880 align:left position:22%
+<c.teletext>Men ju längre krigen pågick,
+och ju fler soldater som dog–</c>
+
+75a5f201-7c54-4114-96e7-6cb69d4cd121
+00:29:39.040 --> 00:29:42.720 align:left position:22%
+<c.teletext>–desto svårare var det
+att hålla på de här principerna.</c>
+
+73a8a993-5ddb-4fe8-8673-73eb5c16b1f8
+00:29:46.440 --> 00:29:51.840 align:left position:22%
+<c.teletext>Snart skrev man ut även husbönder,
+de som bara hade en dräng eller son.</c>
+
+4a7bf214-3076-4209-bf32-6190a2b39d25
+00:29:52.000 --> 00:29:54.840 align:left position:22%
+<c.teletext>Allt fler män försvann till kriget.</c>
+
+4e5b3692-7198-4fd7-9def-aede39ef3da9
+00:30:36.720 --> 00:30:40.880 align:left position:22%
+<c.teletext>Utsikten för dem som blev utskrivna
+var väldigt dåliga.</c>
+
+b600741e-b912-46f4-b221-3c2fac152e78
+00:30:43.960 --> 00:30:48.480 align:left position:22%
+<c.teletext>Många förs ut i kriget,
+och väldigt få återvänder.</c>
+
+94c59474-97cf-4a40-8adc-e04796e997f5
+00:30:56.040 --> 00:31:02.680 align:left position:22%
+<c.teletext>Ungefär 85 % av dem som skrevs ut
+i kriget kom aldrig hem igen.</c>
+
+6c960d28-5e21-461e-bb4a-5599fe388213
+00:31:02.840 --> 00:31:05.720 align:left position:22%
+<c.teletext>Och det visste ju folk om.</c>
+
+0f434dbe-036f-43eb-90aa-2e2c65354f1f
+00:31:21.680 --> 00:31:26.760 align:left position:22%
+<c.teletext>Det finns de som försöker
+slippa undan utskrivningarna.</c>
+
+36822912-e489-42d9-94dd-aa43f086c0e6
+00:31:26.920 --> 00:31:32.360 align:left position:22%
+<c.teletext>Man kunde rymma, men man kunde också,
+om man hade den möjligheten–</c>
+
+e08c54c3-1572-48a1-a67f-f43479539886
+00:31:32.520 --> 00:31:37.320 align:left position:22%
+<c.teletext>–skaffa fram en stor summa pengar
+för att köpa sig en ersättare.</c>
+
+5675383a-de3f-4826-91b3-abc0a9e38374
+00:31:48.320 --> 00:31:51.000 align:left position:22%
+<c.teletext>Andra skadar sig själva...</c>
+
+4b0da420-8ef7-4ed4-a648-e902bfb87dea
+00:31:53.560 --> 00:31:55.800 align:left position:22%
+<c.teletext>...för att slippa utskrivningen.</c>
+
+49cde23a-8d3a-49f1-a4ea-69701f469350
+00:31:57.160 --> 00:32:00.920 align:left position:22%
+<c.teletext>Men de flesta slipper inte undan.</c>
+
+a7f8fa92-1fc3-4556-a3d7-1d152a121e79
+00:32:01.080 --> 00:32:04.680 align:left position:22%
+<c.teletext>De skickas till armén eller flottan.</c>
+
+2442c938-4782-44a6-b1af-a25b0cdeaf27
+00:32:06.480 --> 00:32:09.800 align:left position:22%
+<c.teletext>Många hamnar på något
+av rikets alla skepp.</c>
+
+67253450-68a4-4b58-b2f8-21560f6d4325
+00:32:09.960 --> 00:32:13.640 align:left position:22%
+<c.teletext>Även om Sverige vid denna tid
+är en avkrok i norr–</c>
+
+402d46cb-e744-417a-8b8b-88014bfd5aa1
+00:32:13.800 --> 00:32:18.120 align:left position:22%
+<c.teletext>–har Oxenstierna och Gustav II Adolf
+helt andra ambitioner för landet.</c>
+
+c20bb8b9-0c87-437e-ac1d-0ba8ca3a32a5
+00:32:22.320 --> 00:32:26.200 align:left position:22%
+<c.teletext>Gustav II Adolf
+bygger upp en stark flotta.</c>
+
+d265054a-3ab1-4742-a41c-959f399f8ae1
+00:32:26.360 --> 00:32:31.160 align:left position:22%
+<c.teletext>Ett av skeppen är
+ett riktigt skrytbygge – Vasa.</c>
+
+c4c6dd2b-7712-489b-85fd-127a44b3d471
+00:32:31.320 --> 00:32:34.720 align:left position:22%
+<c.teletext>Vasaskeppet
+är ett flytande utställningsföremål–</c>
+
+b5a5d795-e3e4-4f5a-ba2d-c58cb07d16ff
+00:32:34.880 --> 00:32:39.560 align:left position:22%
+<c.teletext>–för hur Sverige vill framstå
+– mäktigt, krigiskt och farligt.</c>
+
+5c68dc36-9ca2-468c-bdb0-9e47eeaf4c53
+00:32:46.400 --> 00:32:50.440 align:left position:22%
+<c.teletext>Högst upp på Vasas akterspegel
+är Gustav Adolf själv avbildad.</c>
+
+fcbe9a68-9f1b-4c34-8237-9f2d36a16d71
+00:32:50.600 --> 00:32:55.240 align:left position:22%
+<c.teletext>Han håller ut sina armar, både
+håller dem över och stödjer sig på–</c>
+
+569d9bf1-916d-4418-9fad-a14f41ad2cea
+00:32:55.400 --> 00:32:59.160 align:left position:22%
+<c.teletext>–elva små figurer
+som symboliserar svenska folket.</c>
+
+b0cb5254-d4d2-4558-9367-0807967a31ff
+00:32:59.320 --> 00:33:01.960 align:left position:22%
+<c.teletext>Budskapet är tydligt:</c>
+
+885fc1ad-d38c-4958-a32b-2860f87dba7b
+00:33:02.120 --> 00:33:06.960 align:left position:22%
+<c.teletext>Gustav Adolf är Sveriges rättmätige
+härskare, och har folket på sin sida.</c>
+
+7bd53004-f8c2-4463-84f0-7f52b5c16c63
+00:33:11.080 --> 00:33:14.280 align:left position:22%
+<c.teletext>Nu är det tomt på övre batteridäck.</c>
+
+110b0191-6209-43ff-81a3-81171a127cbd
+00:33:14.440 --> 00:33:18.960 align:left position:22%
+<c.teletext>10 augusti 1628
+är det full aktivitet ombord.</c>
+
+cd77e3a1-5aa5-48e4-a41e-9ae94489aa97
+00:33:19.120 --> 00:33:23.840 align:left position:22%
+<c.teletext>Besättningen har dagen till ära
+fått ta med fruar och barn.</c>
+
+49097848-44a7-4deb-8d80-c7e6edc7868f
+00:33:24.000 --> 00:33:30.400 align:left position:22%
+<c.teletext>Det är lätt att föreställa sig
+spänningen, entusiasmen, stoltheten.</c>
+
+dc758036-9aa8-4a5f-b31b-d614bb65520d
+00:33:44.840 --> 00:33:49.840 align:left position:22%
+<c.teletext>Runt skeppet är folk ute i småbåtar
+för att följa jungfrufärden.</c>
+
+015e0c5b-7129-4e90-8427-5bea6bf19027
+00:33:50.000 --> 00:33:57.400 align:left position:22%
+<c.teletext>Men det de får se är hur kastvindar
+får skeppet att kränga, mer och mer.</c>
+
+181d529f-e998-48c1-b622-e1a5d2ad48e2
+00:33:57.560 --> 00:34:02.280 align:left position:22%
+<c.teletext>När vatten börjar forsa in,
+går katastrofen inte att hejda.</c>
+
+484fdb59-eb11-49d6-8cc9-c943a74c197d
+00:34:03.200 --> 00:34:09.440 align:left position:22%
+<c.teletext>Vasa sjunker efter en färd på 1 300 m
+och omkring 30 personer dör.</c>
+
+1dd4a326-51e9-4a98-825c-92cc0b000865
+00:34:10.640 --> 00:34:15.200 align:left position:22%
+<c.teletext>Skeppet Vasa vilar sedan på botten
+i nästan 333 år–</c>
+
+e505080c-b4f3-4d31-8be6-460b2948b9f8
+00:34:15.360 --> 00:34:20.120 align:left position:22%
+<c.teletext>–innan det återupptäcks
+som en orörd skattkista.</c>
+
+be18ad09-e1f1-4ae0-9e41-447688799001
+00:34:20.280 --> 00:34:24.280 align:left position:22%
+<c.teletext>Vasa är världens
+bäst bevarade 1600-talsskepp.</c>
+
+5beefcb6-e06b-47f7-8070-71cd9a37190d
+00:34:24.440 --> 00:34:26.800 align:left position:22%
+<c.teletext>Det är ett väldigt påkostat skepp.</c>
+
+237fbef4-9f6e-4357-a192-1a3b33c6373c
+00:34:26.960 --> 00:34:30.920 align:left position:22%
+<c.teletext>Men man ska komma ihåg att Vasa
+inte bara byggs för att strida.</c>
+
+44cbe59c-cfde-4ec3-a319-82cc29f7ac58
+00:34:31.080 --> 00:34:34.200 align:left position:22%
+<c.teletext>Skeppet är en reklampelare–</c>
+
+f266ca06-bc60-4e23-a26b-9ab81dd9a796
+00:34:34.360 --> 00:34:40.280 align:left position:22%
+<c.teletext>–som ska visa att Gustav Adolf
+är mäktig, och att Sverige är rikt.</c>
+
+43795996-a75f-4f6d-bad6-04361eda339b
+00:34:43.440 --> 00:34:46.440 align:left position:22%
+<c.teletext>Men Vasas förlisning
+bromsar inte krigsplanerna.</c>
+
+6599f27f-8c20-4739-840c-086f61858ab8
+00:34:46.600 --> 00:34:49.600 align:left position:22%
+<c.teletext>Nya skepp byggs,
+fler soldater skrivs ut.</c>
+
+25ab1cbc-3b75-480b-bfa3-45593aa28f34
+00:34:49.760 --> 00:34:55.120 align:left position:22%
+<c.teletext>Bara två år senare landstiger kungen
+i Tyskland och blandar sig i kriget.</c>
+
+086b8ef0-fa3a-437a-9047-09c440670e0c
+00:34:55.280 --> 00:34:59.240 align:left position:22%
+<c.teletext>Nu ska Sverige ta plats
+på den europeiska arenan.</c>
+
+64b33bd8-05c1-4481-9677-c34dd936bf63
+00:35:02.720 --> 00:35:08.280 align:left position:22%
+<c.teletext>Gustav II Adolf favoriserade militära
+lösningar på politiska problem.</c>
+
+1462a8b7-9995-4509-a9da-44185cf73368
+00:35:08.440 --> 00:35:14.200 align:left position:22%
+<c.teletext>Han menade att Sverige ska vara
+aktivt, inte låta fienden komma in.</c>
+
+6d0172a4-cbbe-4ecc-97eb-693cb4aa1f94
+00:35:14.360 --> 00:35:19.960 align:left position:22%
+<c.teletext>Man ska föra krig på fiendens område.</c>
+
+e3d5ead7-56f7-4d56-8b4e-b3a484ad0e72
+00:35:21.960 --> 00:35:25.240 align:left position:22%
+<c.teletext>Vid det här laget
+har Sverige blivit ännu större.</c>
+
+507f12f0-4a14-4664-b4c0-385f7d00c513
+00:35:25.400 --> 00:35:28.200 align:left position:22%
+<c.teletext>Livland har erövrats
+från Polen-Litauen.</c>
+
+578574ce-dd08-43f0-ba01-9a3692d54c4c
+00:35:28.360 --> 00:35:33.280 align:left position:22%
+<c.teletext>Under några år blir också
+en kustremsa i Preussen svensk mark.</c>
+
+f385925f-c672-48d5-812d-4f26f570dbf1
+00:35:33.440 --> 00:35:39.400 align:left position:22%
+<c.teletext>Men nu är det 30-åriga kriget som
+gäller, 1600-talets stora konflikt.</c>
+
+6eb34ade-f223-4782-a177-f7b389bf5c3f
+00:35:39.560 --> 00:35:42.160 align:left position:22%
+<c.teletext>Många europeiska makter stred.</c>
+
+6f9254d4-dfcf-4df8-9cfc-591ed65d9f51
+00:35:42.320 --> 00:35:48.200 align:left position:22%
+<c.teletext>Konflikten handlade om religion och
+politik, och utspelades på tysk mark.</c>
+
+f2e28cab-042e-4910-ba47-9253c8a1b0f5
+00:35:53.480 --> 00:35:56.360 align:left position:22%
+<c.teletext>Innan Gustav II Adolf lämnar Sverige–</c>
+
+8492278a-a85e-41dd-9504-c0c04c1b48fc
+00:35:56.520 --> 00:36:01.280 align:left position:22%
+<c.teletext>–tar han farväl av sitt enda barn
+– prinsessan Kristina.</c>
+
+bdf99ccc-6bd5-44dc-a7b8-9b7309ac3b4d
+00:36:19.000 --> 00:36:25.440 align:left position:22%
+<c.teletext>Som så många andra barn på denna tid
+får Kristina aldrig återse sin pappa.</c>
+
+d32502f5-3075-4724-8e0f-11cc0c8575c5
+00:36:34.320 --> 00:36:39.920 align:left position:22%
+<c.teletext>Över 10 000 soldater följer med
+Gustav II Adolf till Tyskland.</c>
+
+cd13e565-bd37-4c63-9933-9cbac4a9a20b
+00:37:28.880 --> 00:37:34.840 align:left position:22%
+<c.teletext>Det är under 1600-talet
+som Sverige blir soldatänkornas land.</c>
+
+4b15e5a3-7455-4099-b27c-77686fef36bd
+00:37:35.000 --> 00:37:41.040 align:left position:22%
+<c.teletext>Innan Sverige ens gått in i 30-åriga
+kriget har 50 000 soldater dött–</c>
+
+779854bc-a624-4228-b265-a0428dfbc4ee
+00:37:41.200 --> 00:37:44.200 align:left position:22%
+<c.teletext>–av en befolkning
+på knappt en miljon.</c>
+
+752fddc5-27ae-45d1-a8a0-b2bcbe7243b0
+00:37:46.960 --> 00:37:50.440 align:left position:22%
+<c.teletext>Men de flesta dör inte i strid.</c>
+
+e58e2fd4-eda2-4005-9a57-ebf8bb8f6d4f
+00:37:52.000 --> 00:37:56.240 align:left position:22%
+<c.teletext>Många av de nyutskrivna
+hamnar i vaktstyrkor och garnisoner.</c>
+
+c5f790cd-9fd0-4fb3-858c-028f92759319
+00:37:56.400 --> 00:38:00.920 align:left position:22%
+<c.teletext>Där stöter de på sjukdomar,
+virus, bakterier, som de aldrig mött.</c>
+
+7c5309f5-0a6b-44ad-ba0f-97aaa7145fa9
+00:38:01.080 --> 00:38:04.840 align:left position:22%
+<c.teletext>Det är usla hygieniska förhållanden
+och dåligt med mat.</c>
+
+cef01750-8089-4c81-b4b9-32bf214b0aea
+00:38:05.000 --> 00:38:11.120 align:left position:22%
+<c.teletext>Det är vanligare att dö i kriget
+av sjukdomar än att dö i strid.</c>
+
+a9ff74db-65ba-4aea-ad88-bfcd69133837
+00:38:15.760 --> 00:38:19.480 align:left position:22%
+<c.teletext>Men inte bara soldater dör.</c>
+
+e8755691-1430-4f6d-99a6-de183a1f1a97
+00:38:19.640 --> 00:38:22.440 align:left position:22%
+<c.teletext>Det gör också kungar.</c>
+
+99bf7e6d-0cc4-4979-8569-c79bc949143f
+00:38:22.600 --> 00:38:27.280 align:left position:22%
+<c.teletext>/SKOTTLOSSNING OCH AVLÄGSNA ROP/</c>
+
+385241bc-7526-4ab9-b38a-a2c6c03f91b6
+00:38:41.800 --> 00:38:48.320 align:left position:22%
+<c.teletext>Slaget vid Lützen 1632 är kanske
+svensk historias mest kända slag.</c>
+
+7ce4928b-0f11-44a7-8afd-3be5cf5e8ea7
+00:38:48.480 --> 00:38:51.760 align:left position:22%
+<c.teletext>/LJUD AV STRIDER/</c>
+
+fae4e3e3-a3f3-4191-9ecc-eddfa90bb4bd
+00:38:51.920 --> 00:38:56.200 align:left position:22%
+<c.teletext>Gustav II Adolf
+kallades för "lejonet från Norden".</c>
+
+565078d9-1bf5-44e3-9d9a-39cb334ae419
+00:38:56.360 --> 00:39:00.680 align:left position:22%
+<c.teletext>Tyska föräldrar skrämde sina barn
+med berättelser om honom.</c>
+
+098c3f00-2345-4eca-8a2d-9d810e842ff6
+00:39:00.840 --> 00:39:04.920 align:left position:22%
+<c.teletext>Men den svenska kungens bana
+kom att sluta här.</c>
+
+3f00b951-024b-4af7-8a55-0d8015b7d135
+00:39:05.080 --> 00:39:07.680 align:left position:22%
+<c.teletext>/EN HÄST FRUSTAR/</c>
+
+87ab0bcb-dc9c-4787-ac23-ba566aa73d70
+00:39:08.800 --> 00:39:14.080 align:left position:22%
+<c.teletext>Slaget har pågått nån timme
+när det svenska anfallet stannar av.</c>
+
+7c914878-1c11-4a60-b6b1-e388ea4d4105
+00:39:15.080 --> 00:39:19.240 align:left position:22%
+<c.teletext>Det som sker på slagfältet är att
+den svenska sidan pressas tillbaka.</c>
+
+785f6b18-4da8-4477-95d2-749df46c871e
+00:39:25.880 --> 00:39:30.000 align:left position:22%
+<c.teletext>I det pressade läget bestämmer sig
+kungen för att göra något drastiskt.</c>
+
+68fe5959-f156-47cd-8329-89c556789be2
+00:39:30.160 --> 00:39:33.360 align:left position:22%
+<c.teletext>Han går till motangrepp...</c>
+
+80a442ba-5569-479e-9a02-e10bb5e170e4
+00:39:35.280 --> 00:39:39.480 align:left position:22%
+<c.teletext>...men blir isolerad
+med en mindre styrka.</c>
+
+084b8af7-1bf2-42f5-91dc-8021f3ca3693
+00:39:41.880 --> 00:39:47.040 align:left position:22%
+<c.teletext>Så kvar, mitt ute i krutröken
+och dimman, befinner sig kungen–</c>
+
+7562d2f1-c949-42d8-bd6b-10834f859b40
+00:39:47.200 --> 00:39:51.120 align:left position:22%
+<c.teletext>–i spetsen för Smålands ryttare,
+utan en backup.</c>
+
+b28516b7-afbc-46d9-bbe0-dabe0b1fdc9b
+00:39:51.280 --> 00:39:54.440 align:left position:22%
+<c.teletext>Och fienden finns överallt.</c>
+
+cfe5fe34-c9dd-4ace-9dd6-09b3a98e7d37
+00:39:57.480 --> 00:39:59.880 align:left position:22%
+<c.teletext>/ETT SKOTT/</c>
+
+48cca2f1-445d-49f5-9f03-616744e60077
+00:40:00.040 --> 00:40:05.520 align:left position:22%
+<c.teletext>Efter två år av framgångar i Tyskland
+tar segertåget slut här.</c>
+
+0c5bd145-bc0e-49c3-bb9b-0ad40126bf38
+00:40:05.680 --> 00:40:08.880 align:left position:22%
+<c.teletext>På slagfältet vid Lützen.</c>
+
+b1ea4f77-e0c9-4155-912b-52105281b910
+00:40:10.160 --> 00:40:13.480 align:left position:22%
+<c.teletext>Lejonet från Norden är död–</c>
+
+5016c9b9-4bbe-4292-807b-6702aec5572d
+00:40:13.640 --> 00:40:19.280 align:left position:22%
+<c.teletext>–och återvänder till Sverige
+från det 30-åriga kriget i en kista.</c>
+
+e77315c8-8c38-4e41-80e7-12ff4881f9fc
+00:40:25.440 --> 00:40:31.040 align:left position:22%
+<c.teletext>Nu blir Gustav II Adolfs enda barn
+Kristina drottning i Sverige.</c>
+
+53c823c7-3558-46d6-afdc-a63b49ad0ecb
+00:40:31.200 --> 00:40:36.360 align:left position:22%
+<c.teletext>Men hon är bara sex år gammal,
+så Axel Oxenstierna tar rodret.</c>
+
+4c5786cb-63b0-4a87-a1cc-208901840082
+00:40:37.560 --> 00:40:41.880 align:left position:22%
+<c.teletext>Sverige styrs av en förmyndarregering
+med Axel Oxenstierna i spetsen.</c>
+
+0c03158e-0942-4e11-af52-858b7d6aa445
+00:40:42.040 --> 00:40:46.680 align:left position:22%
+<c.teletext>Han lär både Kristina och kusinen
+Karl Gustaf hur man regerar landet.</c>
+
+b4ee5907-89f3-4184-a06a-477c8ae11cf1
+00:40:46.840 --> 00:40:51.320 align:left position:22%
+<c.teletext>Något de båda kommer att ha
+stor nytta av i framtiden.</c>
+
+08a6e7c0-6149-4b7b-8cb3-c74b13672a2e
+00:40:54.160 --> 00:40:59.160 align:left position:22%
+<c.teletext>Krigen tar inte slut
+för att kungen är död, tvärtom.</c>
+
+3dc757bf-e77c-4914-8ab8-354d02f67915
+00:40:59.320 --> 00:41:05.880 align:left position:22%
+<c.teletext>Sverige är i krig nästan hela
+1600-talet. Det kostar enorma summor.</c>
+
+ad2e84b4-8074-4d52-abd6-cc244c7c919b
+00:41:06.040 --> 00:41:11.120 align:left position:22%
+<c.teletext>Statskassan är otroligt ansträngd
+nästan hela tiden.</c>
+
+3556f8da-18c8-4d5a-b1f5-733d3c3a6cbe
+00:41:11.280 --> 00:41:16.320 align:left position:22%
+<c.teletext>Man ser sig om efter möjligheter
+att hitta resurser.</c>
+
+66802faf-da87-4517-bdad-04918eddae72
+00:41:16.480 --> 00:41:20.760 align:left position:22%
+<c.teletext>Oxenstierna börjar bland annat
+kontrollera handeln i norra Sverige.</c>
+
+df1ac7df-2b17-4bad-8e95-3829257004b7
+00:41:20.920 --> 00:41:25.840 align:left position:22%
+<c.teletext>Man grundar flera nya städer
+för att kunna ta ut fler tullar.</c>
+
+993bf2ae-05b5-476f-9fea-06f82df7d4a9
+00:41:26.000 --> 00:41:29.720 align:left position:22%
+<c.teletext>Man gör allt
+för att utnyttja resurserna i landet.</c>
+
+6979bcee-cebe-49a6-a469-14ffbf677076
+00:41:29.880 --> 00:41:33.240 align:left position:22%
+<c.teletext>I Falun finns en viktig inkomstkälla.</c>
+
+97bca40f-80b2-4078-b3fb-a13e42c9ce64
+00:41:35.600 --> 00:41:42.280 align:left position:22%
+<c.teletext>Koppargruvan i Falun var en väldigt
+stor inkomstkälla för statskassan.</c>
+
+a5fbd0cf-6537-4b23-854c-910d415dfaa5
+00:41:42.440 --> 00:41:47.880 align:left position:22%
+<c.teletext>Inkomsterna från koppartillverkningen
+låg till grund för–</c>
+
+04034408-02b8-4871-8a81-430e5f8fd986
+00:41:48.040 --> 00:41:52.200 align:left position:22%
+<c.teletext>–att den svenska statskassan
+kunde bekosta den militära apparaten–</c>
+
+03015a49-d4e4-4e66-9799-22aae6f120b1
+00:41:52.360 --> 00:41:57.680 align:left position:22%
+<c.teletext>–som krävdes för erövringarna
+under stormaktstiden.</c>
+
+5ce276ad-4236-4164-b195-58a6aa0756d6
+00:41:57.840 --> 00:42:02.520 align:left position:22%
+<c.teletext>Koppargruvan är Sveriges
+största arbetsplats på 1600-talet.</c>
+
+7eaa3360-67b7-4d0b-b45e-dad474451546
+00:42:02.680 --> 00:42:08.680 align:left position:22%
+<c.teletext>Under vissa perioder kommer 60 % av
+världens kopparproduktion från Falun.</c>
+
+ae5e30a0-47f5-421b-9066-956f9bdf5de3
+00:42:10.080 --> 00:42:13.600 align:left position:22%
+<c.teletext>Den svenska järntillverkningen
+är också viktig.</c>
+
+61b51f8a-d2ba-45f1-969b-141f3f4f70e8
+00:42:13.760 --> 00:42:19.960 align:left position:22%
+<c.teletext>Valloner invandrar från södra Belgien
+för att arbeta med svenskt järn.</c>
+
+f3980196-b1fe-4444-bace-5150f81f1b2c
+00:42:20.120 --> 00:42:26.520 align:left position:22%
+<c.teletext>De var inte särskilt många.
+Man räknar med ungefär 400 familjer.</c>
+
+62c35468-6b3d-4c7a-a2fa-73ee8bd837fe
+00:42:26.680 --> 00:42:29.840 align:left position:22%
+<c.teletext>Den mest kända vallonen
+är Louis de Geer.</c>
+
+66afd167-bf33-43e9-956a-630c6ce024d0
+00:42:30.000 --> 00:42:35.080 align:left position:22%
+<c.teletext>Han blir den svenska stormaktstidens
+mest framgångsrika industriman.</c>
+
+db285ab3-ac0a-41d9-ba0c-2574cf41c2b9
+00:42:35.240 --> 00:42:39.720 align:left position:22%
+<c.teletext>Han kommer att spela en roll
+i Sveriges koloniala historia.</c>
+
+229a8aee-963f-435f-b029-2fea882de727
+00:42:39.880 --> 00:42:45.200 align:left position:22%
+<c.teletext>Nu vill man öka Sveriges statskassa
+genom att etablera kolonier.</c>
+
+686e65a4-6429-480c-8221-20a9deb8e0e6
+00:42:45.360 --> 00:42:50.520 align:left position:22%
+<c.teletext>Först försöker man, utan framgång,
+att skapa en koloni i Nordamerika.</c>
+
+d6cc6887-29d2-4c0a-a49d-7e36642e56ce
+00:42:50.680 --> 00:42:54.720 align:left position:22%
+<c.teletext>Louis de Geer riktar i stället
+uppmärksamheten mot Afrika–</c>
+
+614aabde-2d29-469d-8f95-6f1652e8ac27
+00:42:54.880 --> 00:42:59.040 align:left position:22%
+<c.teletext>–och handeln
+med guld, socker och slavar.</c>
+
+4e52438b-6200-4f43-a546-8ddd4f0325eb
+00:43:00.320 --> 00:43:07.280 align:left position:22%
+<c.teletext>Först testar man med en pilotstudie,
+undersöker potentialen i Västafrika.</c>
+
+496bd4da-cd92-40f3-9a2c-994e3242a50c
+00:43:07.440 --> 00:43:15.000 align:left position:22%
+<c.teletext>Det för man vidare till Västindien
+där man säljer slavar med god avans.</c>
+
+d7f80bd3-79da-4940-8eca-5e84f87b77fe
+00:43:15.160 --> 00:43:18.160 align:left position:22%
+<c.teletext>Detta leder till
+att man får kungligt intresse.</c>
+
+40003dff-73d3-4037-8634-48349c1f307f
+00:43:18.320 --> 00:43:23.960 align:left position:22%
+<c.teletext>Drottning Kristina godkänner att
+man bildar ett svenskt Afrikakompani.</c>
+
+b2bc4c74-8e96-4907-8c7b-4aa3e0aa4b8b
+00:43:24.120 --> 00:43:27.800 align:left position:22%
+<c.teletext>Svenska Afrikakompaniet
+blir en viktig ekonomisk aktör.</c>
+
+4f55ecd6-8e17-47c5-83f0-6b64bfb36b1c
+00:43:41.440 --> 00:43:47.040 align:left position:22%
+<c.teletext>Här, på guldkusten i Ghana,
+öppnar man en svensk handelskoloni.</c>
+
+0e51608d-94e8-4742-9dcc-00fbd5d3b85b
+00:43:47.200 --> 00:43:50.400 align:left position:22%
+<c.teletext>Från början byggdes fortet–</c>
+
+7f6dddfe-471f-4b1d-bdd9-4f1b7043a37a
+00:43:50.560 --> 00:43:55.440 align:left position:22%
+<c.teletext>–för handel med guld,
+textilier och elfenben.</c>
+
+9f42bfb1-028a-4cce-9083-94b1e100dfa7
+00:43:55.600 --> 00:44:00.080 align:left position:22%
+<c.teletext>Men med tiden började det användas
+för att fängsla slavar–</c>
+
+845891f7-2733-4771-8433-5d6dfb5fe321
+00:44:00.240 --> 00:44:03.880 align:left position:22%
+<c.teletext>–innan de skeppades vidare
+över Atlanten.</c>
+
+7810b283-c546-4106-aa6f-921fa68af96b
+00:44:16.760 --> 00:44:21.200 align:left position:22%
+<c.teletext>I Sverige är slaveri
+och slavhandel förbjudet sen länge.</c>
+
+14cf6030-2402-4353-8156-4322def6636d
+00:44:21.360 --> 00:44:25.040 align:left position:22%
+<c.teletext>Men det gäller inte här.</c>
+
+179fe4b5-4180-464a-805e-6a0ec51fd39f
+00:44:25.200 --> 00:44:30.320 align:left position:22%
+<c.teletext>I förlängningen kommer Västafrika
+och hela Afrika att påverkas djupt–</c>
+
+3599f90f-b324-4296-a68e-84cb2c7aa7a2
+00:44:30.480 --> 00:44:36.160 align:left position:22%
+<c.teletext>–av de handelsnätverk
+som européer bildar under 1600-talet.</c>
+
+a5cf9588-d033-48f6-8bcb-f4b4dfb8323f
+00:44:36.320 --> 00:44:42.440 align:left position:22%
+<c.teletext>Det slår sönder lokal ekonomi, och
+nästan hela Afrikas sociala system.</c>
+
+64238526-ccdd-44a2-aaaa-5137e198d3b2
+00:44:42.600 --> 00:44:46.880 align:left position:22%
+<c.teletext>Hur många slavar Svenska Afrika-
+kompaniet handlar med är osäkert.</c>
+
+a95acaba-6997-417e-9310-644acac9845d
+00:44:47.040 --> 00:44:50.080 align:left position:22%
+<c.teletext>Man brukar säga att det rör sig
+om ungefär tusen slavar.</c>
+
+b563fea0-bf7f-4a23-9263-69490f2a626a
+00:44:50.240 --> 00:44:54.200 align:left position:22%
+<c.teletext>Borträknat dem man har
+på sina fort i Västafrika.</c>
+
+9c5d8d77-2041-4527-bffb-8c082bfb795e
+00:44:54.360 --> 00:44:59.280 align:left position:22%
+<c.teletext>Internationellt är Sverige en liten
+aktör, men trots allt en aktör.</c>
+
+16c8940d-7ae5-4423-a2d8-ebe70332ac35
+00:45:00.920 --> 00:45:05.080 align:left position:22%
+<c.teletext>En av de största betydelserna
+som Svenska Afrikakompaniet har–</c>
+
+bd571248-c75c-4ccc-9c0d-fcec533e6b8e
+00:45:05.240 --> 00:45:09.520 align:left position:22%
+<c.teletext>–är att man är med och lägger grunden
+för den transatlantiska slavhandeln–</c>
+
+3cddf727-f309-4e29-b65c-0c6feb21b000
+00:45:09.680 --> 00:45:12.920 align:left position:22%
+<c.teletext>–som tar fart ordentligt
+under 1700-talet.</c>
+
+e03388db-24c5-412f-97d2-105b4c1f6ec5
+00:45:14.160 --> 00:45:17.160 align:left position:22%
+<c.teletext>Svenskarna blir inte långvariga här.</c>
+
+51c9d5e0-6766-4e55-ad06-e4a0f2fd6a24
+00:45:17.320 --> 00:45:23.040 align:left position:22%
+<c.teletext>Efter bara 13 år förlorar Sverige
+kolonin i ett krig mot Danmark.</c>
+
+a0a27945-85c7-4587-afb5-54c3cab9bd4b
+00:45:30.600 --> 00:45:36.960 align:left position:22%
+<c.teletext>Det här fortet fortsätter användas
+i 150 år efter att svenskarna lämnat.</c>
+
+d122fa81-6166-4f1c-9182-a2022b13247d
+00:45:37.120 --> 00:45:43.440 align:left position:22%
+<c.teletext>Det byggs om i flera omgångar,
+men delar av det finns kvar än i dag.</c>
+
+2e5eb55b-361b-4175-86b7-3141a5e9efec
+00:45:45.440 --> 00:45:51.200 align:left position:22%
+<c.teletext>När den transatlantiska slavhandeln
+tar fart och expanderar–</c>
+
+e2b50377-75a3-4e6c-812e-5f8acbb5ce52
+00:45:51.360 --> 00:45:55.280 align:left position:22%
+<c.teletext>–då fördjupas vedervärdigheterna
+inom slavhandeln.</c>
+
+c3577f3c-39a3-4553-8178-516d0d5c8b4f
+00:45:55.440 --> 00:45:59.440 align:left position:22%
+<c.teletext>Man utstår mängder
+av övergrepp, svält, sjukdomar–</c>
+
+ec8f7a84-e851-428d-9077-2a87a5f56197
+00:45:59.600 --> 00:46:02.960 align:left position:22%
+<c.teletext>–för att sedan transporteras
+över Atlanten.</c>
+
+b138835e-e269-4418-9055-e857e7622019
+00:46:04.200 --> 00:46:09.560 align:left position:22%
+<c.teletext>En stor andel har avlidit,
+många är märkta för livet–</c>
+
+67932d35-de80-4c3a-a599-7c3b602cfdb7
+00:46:09.720 --> 00:46:14.280 align:left position:22%
+<c.teletext>–och har inträtt i ett tillstånd
+av social död.</c>
+
+203cce5e-cc10-4f8a-9529-c58a45402546
+00:46:14.440 --> 00:46:17.440 align:left position:22%
+<c.teletext>Man är en egendom i någon annans ägo.</c>
+
+688260de-a03b-4e7e-a8b4-b052829636fa
+00:46:24.960 --> 00:46:29.600 align:left position:22%
+<c.teletext>Här inne hölls
+upp till 200 män i taget instängda.</c>
+
+8c9b9a7b-265a-48c8-8ad8-b5cfa17ce669
+00:46:37.120 --> 00:46:42.760 align:left position:22%
+<c.teletext>Det är svårt att förmedla i bild hur
+trångt det är med 200 personer här.</c>
+
+2c657386-4725-4673-a3ea-a8b5a1fc8af4
+00:46:42.920 --> 00:46:47.760 align:left position:22%
+<c.teletext>Men det betyder 100 personer
+i den här delen av rummet.</c>
+
+a711074e-a9c4-4920-9c68-4e4dafd9bd2f
+00:46:47.920 --> 00:46:51.240 align:left position:22%
+<c.teletext>Det betyder 50 personer här.</c>
+
+b6ec7733-8f88-424c-a78f-513b10a1a4e9
+00:46:54.080 --> 00:46:57.160 align:left position:22%
+<c.teletext>Det betyder 25 personer här.</c>
+
+8b3a08b0-eaff-49ba-a39c-decac79291e5
+00:46:58.880 --> 00:47:03.760 align:left position:22%
+<c.teletext>Det betyder att tio personer
+behöver få plats på den här ytan.</c>
+
+e56c81ca-65dc-4d62-867d-1f3cdc1a9872
+00:47:22.000 --> 00:47:29.360 align:left position:22%
+<c.teletext>Många som fängslades här dog redan
+innan de hann ombord på skeppen.</c>
+
+ea031e89-6750-4fc8-b803-5ab716272c07
+00:47:31.080 --> 00:47:34.600 align:left position:22%
+<c.teletext>Det var fruktansvärda scener
+som utspelade sig.</c>
+
+3a646c3e-8212-4b70-97ff-2120f095adff
+00:47:34.760 --> 00:47:38.320 align:left position:22%
+<c.teletext>Och Sverige var med och la grunden
+till det hela.</c>
+
+58d11c49-088a-4e69-90ef-33a0ced180cf
+00:47:56.680 --> 00:48:01.200 align:left position:22%
+<c.teletext>Att Sverige sträcker sig ut i världen
+för att bli ekonomiskt starkare–</c>
+
+abf7f794-8248-4dc8-b1e9-adb924f1fa47
+00:48:01.360 --> 00:48:04.520 align:left position:22%
+<c.teletext>–är inget vanliga svenskar
+märker något av.</c>
+
+e4568f6c-d357-424b-b059-2ecfdf64a437
+00:48:08.880 --> 00:48:12.240 align:left position:22%
+<c.teletext>Tvärtom är livet hårt.</c>
+
+5843388f-c045-4cea-9104-7bfc5566a88d
+00:48:12.400 --> 00:48:16.120 align:left position:22%
+<c.teletext>Flera års missväxt
+göra att många dör.</c>
+
+cbed02b3-74df-4967-ab7e-b38ce33a33d6
+00:48:40.880 --> 00:48:46.680 align:left position:22%
+<c.teletext>Samtidigt som hungersnöd
+råder i landet, ska Kristina krönas.</c>
+
+e6dfc9cd-ad03-465d-bdb7-78330f044dbc
+00:48:46.840 --> 00:48:53.040 align:left position:22%
+<c.teletext>Tronen hon sitter på när det sker
+är den här – silvertronen.</c>
+
+366aded7-0745-4cf9-abe3-a962f44469be
+00:48:53.960 --> 00:48:59.840 align:left position:22%
+<c.teletext>Kröningen ägde rum i Stockholm,
+och inte i Uppsala som traditionellt.</c>
+
+e41d292d-5da4-479a-8b4f-b48a8e212169
+00:49:00.000 --> 00:49:05.640 align:left position:22%
+<c.teletext>Kristina ville kunna bjuda in
+många utländska dignitärer–</c>
+
+3a1b9040-81b0-474a-8f43-c3215afa32d4
+00:49:05.800 --> 00:49:13.320 align:left position:22%
+<c.teletext>–så att de spred ordet om denna unga
+drottning som kommit till makten.</c>
+
+7fa37a5a-8e5c-4390-af79-4e3bab636af5
+00:49:16.000 --> 00:49:20.200 align:left position:22%
+<c.teletext>När Kristina blivit regent
+avslutas kriget–</c>
+
+bd4c1c2d-9519-4fb5-b846-bba28a7fde92
+00:49:20.360 --> 00:49:25.440 align:left position:22%
+<c.teletext>–mellan Sverige och Danmark-Norge
+genom freden vid Brömsebro.</c>
+
+b6b7c208-3924-4122-bf2c-83845431558c
+00:49:25.600 --> 00:49:29.560 align:left position:22%
+<c.teletext>Kort därpå
+får 30-åriga kriget sitt slut.</c>
+
+41523f81-efb3-4c65-9cc8-ea1c420fea67
+00:49:29.720 --> 00:49:32.720 align:left position:22%
+<c.teletext>Det innebär att Sverige blir större.</c>
+
+643a1170-e234-450c-a290-51d82fe75b8f
+00:49:32.880 --> 00:49:39.120 align:left position:22%
+<c.teletext>Jämtland, Härjedalen, Gotland
+och Ösel erövras från Danmark-Norge–</c>
+
+2c232b1b-bee1-4516-b75b-caa4a4f54e59
+00:49:39.280 --> 00:49:43.080 align:left position:22%
+<c.teletext>–och Halland
+blir svenskt under en tid.</c>
+
+10dfdf8d-6e03-483a-83de-689d80b447aa
+00:49:44.320 --> 00:49:50.080 align:left position:22%
+<c.teletext>Efter det 30-åriga kriget vinner
+Sverige flera landområden i Tyskland.</c>
+
+a6f4a91b-d077-4c26-ad54-55f87ecf41b2
+00:49:52.160 --> 00:49:57.240 align:left position:22%
+<c.teletext>Men Sverige växer inte bara
+territoriellt under Kristinas tid.</c>
+
+e38af15b-9945-433f-869a-2736cbbfe1f1
+00:49:57.400 --> 00:50:03.480 align:left position:22%
+<c.teletext>Hon kommer att betyda mycket för att
+kulturen växer och får större plats.</c>
+
+23b40507-c992-4893-ad92-76eb7716b803
+00:50:04.920 --> 00:50:10.000 align:left position:22%
+<c.teletext>Den kulturella expansionen som
+påbörjats under Gustav II Adolfs tid–</c>
+
+e4b89799-eeae-4a37-af44-d6cfef5f94bd
+00:50:10.160 --> 00:50:13.400 align:left position:22%
+<c.teletext>–intensifieras under Kristinas tid.</c>
+
+f3b21e7e-cf39-42e1-8f2e-14130a15382a
+00:50:13.560 --> 00:50:21.200 align:left position:22%
+<c.teletext>Med detta sätter hon Sverige
+på den kulturella kartan i Europa.</c>
+
+2217a43b-b984-48ec-9035-336d483807a1
+00:50:26.080 --> 00:50:29.040 align:left position:22%
+<c.teletext>Kristina är en tränad dansare.</c>
+
+f3200cb5-a01f-417b-9233-0aa1750c5ef8
+00:50:29.200 --> 00:50:35.360 align:left position:22%
+<c.teletext>Hon utövar gärna den tidens hovbalett
+i stycken där hon är stjärnan.</c>
+
+5e9f674f-addd-4d2c-859b-8b0d225a14a6
+00:50:38.240 --> 00:50:42.440 align:left position:22%
+<c.teletext>Hovbaletterna var så gott
+som offentliga handlingar.</c>
+
+98ca3a56-90ff-48f1-9d78-0ed69997606d
+00:50:42.600 --> 00:50:47.200 align:left position:22%
+<c.teletext>Vid ett tillfälle
+dansar Kristina i rollen som Diana–</c>
+
+fb250a93-f774-422d-923a-ef099778dce2
+00:50:47.360 --> 00:50:51.320 align:left position:22%
+<c.teletext>–kyskhetens gudinna
+i romersk mytologi.</c>
+
+f2e565d3-3288-4006-913c-f3d4a77d1456
+00:50:51.480 --> 00:50:55.240 align:left position:22%
+<c.teletext>Detta för att representera
+sitt beslut att inte gifta sig.</c>
+
+be7c7f92-8ecb-451a-be09-f23937045aec
+00:50:55.400 --> 00:51:00.200 align:left position:22%
+<c.teletext>I dag är det vanligt
+med en pressträff.</c>
+
+64ee8612-55e8-4547-be2e-7bf3a072b758
+00:51:00.360 --> 00:51:06.240 align:left position:22%
+<c.teletext>Men på den tiden väljer Kristina
+att dansa sitt beslut.</c>
+
+d9b75598-88af-45f9-89f3-10aa333954b9
+00:51:11.960 --> 00:51:18.880 align:left position:22%
+<c.teletext>Riksrådet hade tjatat på drottning
+Kristina att hon borde gifta sig.</c>
+
+2d942c8a-83a5-42f3-bf54-786ba6455c1b
+00:51:19.040 --> 00:51:21.320 align:left position:22%
+<c.teletext>Men det ville inte hon.</c>
+
+fb26d18e-520e-45ba-9e2b-44df3b0f46f4
+00:51:21.480 --> 00:51:28.640 align:left position:22%
+<c.teletext>I stället lyckas hon manövrera fram
+så att hennes kusin Karl Gustav–</c>
+
+f876c027-613d-4e13-b387-ef9429981570
+00:51:28.800 --> 00:51:32.000 align:left position:22%
+<c.teletext>–utses till tronföljare.</c>
+
+54be5b09-0120-4dec-85b1-8844c195eaae
+00:51:35.280 --> 00:51:39.000 align:left position:22%
+<c.teletext>En av dem som dansar med Kristina
+är just Karl Gustav.</c>
+
+7923ddc9-4e68-4d9e-a59e-aed80b4ce999
+00:51:39.160 --> 00:51:44.120 align:left position:22%
+<c.teletext>Han blir Sveriges kung
+när Kristina plötsligt meddelar–</c>
+
+67840a15-9aaf-499d-8f04-1febdbc40e9c
+00:51:44.280 --> 00:51:50.520 align:left position:22%
+<c.teletext>–att hon abdikerar och avsäger sig
+kronan, bara fyra år efter kröningen.</c>
+
+eb5760bd-bc7a-4f3d-a587-72c80f5e0e18
+00:52:15.920 --> 00:52:19.720 align:left position:22%
+<c.teletext>Att Kristina abdikerar
+är en stor skandal.</c>
+
+30cb0db5-4b7f-4e6c-800a-ebed66d80c51
+00:52:19.880 --> 00:52:25.240 align:left position:22%
+<c.teletext>På den här tiden ser man kungligheter
+som upphöjda, utvalda av Gud.</c>
+
+bc579e9d-1f84-4f80-bdde-936ebde884b5
+00:52:25.400 --> 00:52:29.720 align:left position:22%
+<c.teletext>Hon går alltså emot det öde
+som Gud har utstakat åt henne.</c>
+
+8d4b936c-43c4-40a4-bed3-6b0ae28eaefc
+00:52:29.880 --> 00:52:37.000 align:left position:22%
+<c.teletext>Ännu värre är att hon, dotter
+till protestanternas store härförare–</c>
+
+7900698e-e1da-4604-9577-40500ec7c4d9
+00:52:37.160 --> 00:52:42.720 align:left position:22%
+<c.teletext>–väljer att konvertera
+till katolicismen – dödsfienden.</c>
+
+a301a24d-8600-41e6-a0ef-fe187c40fe83
+00:52:44.000 --> 00:52:49.920 align:left position:22%
+<c.teletext>Kristina chockar svenskarna.
+Många upplever det som ett svek.</c>
+
+55fef8b5-a257-41a8-90fc-b0c76bcf15df
+00:52:50.080 --> 00:52:57.240 align:left position:22%
+<c.teletext>Axel Oxenstierna hjälper Kristina,
+men kommer inte till ceremonin.</c>
+
+d128a843-2791-4738-9a62-9f2cf8043d7b
+00:52:57.400 --> 00:53:02.200 align:left position:22%
+<c.teletext>En kort tid efteråt dör han,
+71 år gammal.</c>
+
+0e6a560b-84ec-4954-9529-ce4626b3b541
+00:53:06.640 --> 00:53:11.720 align:left position:22%
+<c.teletext>Nu är det kusinen Karl Gustavs tur
+att sätta sig på den svenska tronen.</c>
+
+e785b385-a764-4c6a-8eb3-5806dcbf0565
+00:53:11.880 --> 00:53:15.720 align:left position:22%
+<c.teletext>Med honom börjar
+en ny period av krig.</c>
+
+62cfecb0-8ac1-4360-9859-dc461e96c092
+00:53:15.880 --> 00:53:21.880 align:left position:22%
+<c.teletext>Krig som ritar om Sveriges karta på
+ett sätt som delvis gäller än i dag.</c>
+
+184218b0-7b04-4a7e-808d-727c6582da52
+00:53:24.040 --> 00:53:31.640 align:left position:22%
+<c.teletext>Direkt när Karl X Gustav kommer
+till makten börjar han planera krig.</c>
+
+198b4058-7432-48e7-8222-b98aaa85a31f
+00:53:31.800 --> 00:53:36.640 align:left position:22%
+<c.teletext>Oxenstierna hade försökt driva
+en måttfull utrikespolitik–</c>
+
+9f0f8173-7f29-4760-a3b6-36f15d139f49
+00:53:36.800 --> 00:53:42.520 align:left position:22%
+<c.teletext>–där Sverige skulle vara lagom stort,
+utan att provocera stormakterna.</c>
+
+dff57458-c12e-4712-9475-3e089818b2e1
+00:53:42.680 --> 00:53:49.640 align:left position:22%
+<c.teletext>När han dör, slår Karl X Gustav in
+på en djärvare utrikespolitik–</c>
+
+abe5b634-7e00-4161-8957-76928f32bb73
+00:53:49.800 --> 00:53:55.200 align:left position:22%
+<c.teletext>–där han inte nöjer sig
+med den polska kusten mot Östersjön–</c>
+
+cab8d917-2f32-421a-b744-540652ee4934
+00:53:55.360 --> 00:54:00.280 align:left position:22%
+<c.teletext>–utan går in
+och försöker erövra hela Polen.</c>
+
+22dd6439-5225-4ad5-a34a-0ddf48f925c1
+00:54:00.440 --> 00:54:05.600 align:left position:22%
+<c.teletext>Men mitt under pågående krig
+förklarar Danmark krig mot Sverige.</c>
+
+7ba5ffbc-dd2b-4ca3-829d-779f16a4dfc0
+00:54:07.240 --> 00:54:11.160 align:left position:22%
+<c.teletext>Karl X Gustav beslutar sig för
+en drastisk manöver–</c>
+
+c527bb92-24c6-4efb-8b19-71338917262f
+00:54:11.320 --> 00:54:16.520 align:left position:22%
+<c.teletext>–som går till historien och förändrar
+framtiden för Danmark och Sverige.</c>
+
+61b2a866-b28c-45a9-9eff-bbd1cfb78fcd
+00:54:17.920 --> 00:54:20.640 align:left position:22%
+<c.teletext>Han anfaller Danmark söderifrån.</c>
+
+dff5fcbd-fb96-4df4-9eb6-62551e593de7
+00:54:20.800 --> 00:54:26.360 align:left position:22%
+<c.teletext>Under vintern 1658 marscherar han
+med sin armé in i landet.</c>
+
+238c97dd-fac1-408f-912e-2cb3424bcf66
+00:54:27.680 --> 00:54:34.440 align:left position:22%
+<c.teletext>Men för att lyckas måste armén
+ta sig över de frusna danska sunden.</c>
+
+c30c44e6-d73d-44d9-a7df-a9224c8b6941
+00:54:34.600 --> 00:54:40.280 align:left position:22%
+<c.teletext>Tågen över Stora och Lilla Bält
+var oerhört riskfyllda företag.</c>
+
+b47dbfe3-361f-476a-8224-aabe038a0cb0
+00:54:40.440 --> 00:54:44.480 align:left position:22%
+<c.teletext>Om isen skulle hålla,
+skulle det vara en enorm framgång.</c>
+
+98dfaf3d-7de5-4e25-a3e9-af148c72b756
+00:54:44.640 --> 00:54:49.560 align:left position:22%
+<c.teletext>Men om den skulle brista,
+då skulle svenskarna vara illa ute.</c>
+
+da945466-760b-443e-b6ad-200418e39468
+00:54:51.120 --> 00:54:58.000 align:left position:22%
+<c.teletext>Inte ens under det kalla 1600-talet
+kunde man säkert marschera över.</c>
+
+5da5a4d5-2e80-4c6b-b7db-04c82ad42b5f
+00:54:58.160 --> 00:55:01.320 align:left position:22%
+<c.teletext>Det hände kanske vart tionde
+eller femtonde år.</c>
+
+bacf1984-6acf-4577-974c-224546de564d
+00:55:01.480 --> 00:55:05.760 align:left position:22%
+<c.teletext>På morgonen,
+lördagen den 30 januari 1658–</c>
+
+a4e32606-c575-42e2-9ae4-dab0df57796a
+00:55:05.920 --> 00:55:10.480 align:left position:22%
+<c.teletext>–rider Karl X Gustav ut med sin armé
+över isarna.</c>
+
+a329cbaa-cf53-41a0-a180-b7784f99bab3
+00:55:12.320 --> 00:55:16.240 align:left position:22%
+<c.teletext>Den riskfyllda taktiken lyckas.</c>
+
+07c88753-78f7-4df5-923d-32c25370ddb8
+00:55:16.400 --> 00:55:19.880 align:left position:22%
+<c.teletext>Den svenska armén
+marscherar in i Själland.</c>
+
+db200eec-195d-48ec-8ae2-4b629ee6f43d
+00:55:20.040 --> 00:55:24.000 align:left position:22%
+<c.teletext>När den närmar sig Köpenhamn
+ger den danske kungen upp–</c>
+
+2ebe4172-551a-4d96-baec-13fe4e31ad6a
+00:55:24.160 --> 00:55:27.200 align:left position:22%
+<c.teletext>–och sluter fred i Roskilde.</c>
+
+474c55e1-e5a5-4576-b8de-9e4142cfe5a5
+00:55:27.360 --> 00:55:30.200 align:left position:22%
+<c.teletext>Sverige har vunnit.</c>
+
+94c220b8-1c85-4f50-996e-cf936f2f05cf
+00:55:31.280 --> 00:55:37.680 align:left position:22%
+<c.teletext>Sverige får Skåne, Blekinge, Halland,
+Bohuslän, Trondheim och Bornholm.</c>
+
+437e13d7-6ef5-4dae-b27b-c12612233c78
+00:55:37.840 --> 00:55:43.960 align:left position:22%
+<c.teletext>Och man har besegrat Danmark. Danmark
+har nu inte överhanden i Östersjön.</c>
+
+6e3718d1-3457-48f0-8af3-ca07cd820d9b
+00:55:44.120 --> 00:55:48.800 align:left position:22%
+<c.teletext>Danmark har förlorat
+en tredjedel av sitt territorium–</c>
+
+41a2873a-2b3e-4bb5-945d-84f8026d246e
+00:55:48.960 --> 00:55:51.960 align:left position:22%
+<c.teletext>–och mycket bördig jordbruksmark.</c>
+
+e4d8bb09-b266-4c62-8f60-2dee8336fdb1
+00:55:52.120 --> 00:55:56.880 align:left position:22%
+<c.teletext>Så det är en katastrof för Danmark,
+och succé för svensk del.</c>
+
+42d1a18d-5050-48b8-9f1c-3e61e4ab4815
+00:55:59.320 --> 00:56:05.480 align:left position:22%
+<c.teletext>Efter freden i Roskilde har Sverige
+territorier runt hela Östersjön.</c>
+
+9150bad8-aaf9-4150-88ad-fcf430fe8210
+00:56:07.120 --> 00:56:11.800 align:left position:22%
+<c.teletext>Det lilla rike
+som Erik XIV tog över år 1560–</c>
+
+f5b921d2-d514-44b2-9f70-3b0986eb223d
+00:56:11.960 --> 00:56:15.120 align:left position:22%
+<c.teletext>–har blivit en europeisk stormakt.</c>
+
+f19a6928-c17d-4741-b07f-564b1815b30d
+00:56:15.280 --> 00:56:21.240 align:left position:22%
+<c.teletext>Expansionen har skett både inom
+landets gränser och genom erövringar.</c>
+
+70e9b3af-a214-4e05-a466-6d320f164461
+00:56:21.400 --> 00:56:25.880 align:left position:22%
+<c.teletext>Det gick eftersom man lyckats skapa
+en effektiv statsapparat–</c>
+
+0543ce42-8ace-44f8-a6ac-1f73d83073b4
+00:56:26.040 --> 00:56:30.680 align:left position:22%
+<c.teletext>–som kan utnyttja landets resurser
+till krigsmaktens behov.</c>
+
+b4ed836b-3610-47da-a8e8-0d6071a9721d
+00:56:32.120 --> 00:56:36.360 align:left position:22%
+<c.teletext>Men det politiska läget i Europa
+spelar också in.</c>
+
+4c27df93-e088-44b9-9dd0-d4b2f7a7d74b
+00:56:36.520 --> 00:56:39.280 align:left position:22%
+<c.teletext>Att Sverige blev en stormakt–</c>
+
+6a2f3e44-639b-4bd3-a5bb-03db06d4c8aa
+00:56:39.440 --> 00:56:45.400 align:left position:22%
+<c.teletext>–berodde på att de andra
+större länderna var så försvagade–</c>
+
+e828850c-7340-48aa-a6a6-0b65c3d200bc
+00:56:45.560 --> 00:56:51.400 align:left position:22%
+<c.teletext>–så det fanns ett vakuum som Sverige
+kunde gå in i och fylla ut.</c>
+
+342aa48d-753c-48bd-bd3d-a1b4fe574fbd
+00:56:54.800 --> 00:56:57.280 align:left position:22%
+<c.teletext>Men det kommer att förändras.</c>
+
+708f470f-2eea-4284-a452-31bb7351a841
+00:56:57.440 --> 00:57:02.040 align:left position:22%
+<c.teletext>Grannarna kommer att bli starka igen
+och fler krig är på väg.</c>
+
+c72499ae-3b63-446e-a5dc-b56d900a7922
+00:57:03.360 --> 00:57:07.280 align:left position:22%
+<c.teletext>Krig som behöver nya soldater.</c>
+
+a9847c6f-dd8b-420f-aff7-10645f0f11bc
+00:57:59.080 --> 00:58:02.840 align:left position:22%
+<c.teletext>Innan Sveriges tid
+som stormakt är slut–</c>
+
+bac76ea8-8842-4106-beba-d672eb8127c7
+00:58:03.000 --> 00:58:07.520 align:left position:22%
+<c.teletext>–går landet igenom några av de
+värsta tider svenskarna varit med om–</c>
+
+574ae6ef-0cb6-42fd-920b-f2cef673a50c
+00:58:07.680 --> 00:58:10.680 align:left position:22%
+<c.teletext>–med häxjakter, svält och pest.</c>
+
+c5f1b2b3-75b1-46b6-94e8-d3164d34f7fc
+00:58:10.840 --> 00:58:14.280 align:left position:22%
+<c.teletext>Och ännu fler krig,
+som aldrig tycks ta slut.</c>
+
+90aa2c4a-1789-4b70-b09d-b837369bedf2
+00:58:14.440 --> 00:58:18.280 align:left position:22%
+<c.teletext>Det kommer att bli värre
+innan det blir bättre.</c>
+
+fdf4d1cc-d23a-4ea9-80e8-971ceb8dba82
+00:58:28.360 --> 00:58:31.360 align:center position:50%
+<c.teletext>Textning: Karina Berg Johansson
+Svensk Medietext för SVT</c>
+

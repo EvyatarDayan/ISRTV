@@ -16,9 +16,9 @@
     --font-display: Arial, "Arial Hebrew", Helvetica, sans-serif;
     --font-ui: Arial, "Arial Hebrew", Helvetica, sans-serif;
     --app-bg:
-        radial-gradient(ellipse 80% 55% at 15% 0%, rgba(107, 179, 255, 0.22), transparent 55%),
-        radial-gradient(ellipse 60% 45% at 90% 20%, rgba(247, 37, 133, 0.12), transparent 50%),
-        linear-gradient(160deg, #12151c 0%, #1a1f2b 45%, #101318 100%);
+        radial-gradient(ellipse 80% 55% at 15% 0%, rgba(150, 200, 255, 0.38), transparent 55%),
+        radial-gradient(ellipse 60% 45% at 90% 20%, rgba(247, 130, 175, 0.2), transparent 50%),
+        linear-gradient(160deg, #3e485c 0%, #515c72 48%, #383f50 100%);
 }
 
 *,
@@ -1598,8 +1598,55 @@ body.is-fullscreen .vod-view.is-active {
     margin-right: -65px;
 }
 
-.vod-controls-next-row .vod-restart-btn {
+.vod-controls-next-row .vod-restart-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
     margin-right: auto;
+}
+
+.vod-sub-toggle {
+    appearance: none;
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+    align-self: stretch;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    background: #fff;
+    color: #111;
+    font-family: Arial, "Arial Hebrew", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 52px;
+    padding: 18px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    direction: ltr;
+    white-space: nowrap;
+    margin: 0;
+    opacity: 0.75;
+    visibility: visible;
+    transform: none;
+    transition:
+        border-color 0.15s ease,
+        background 0.15s ease,
+        opacity 0.45s ease,
+        visibility 0s linear 0s;
+}
+
+.vod-sub-toggle:focus,
+.vod-sub-toggle.is-focused {
+    outline: none;
+    border-color: #6bb3ff;
+    background: #8ec8ff;
+    box-shadow: none;
+}
+
+.vod-sub-toggle[hidden] {
+    display: none;
 }
 
 .vod-controls-stack:has(#vod-next-btn[hidden]):has(#vod-restart-btn[hidden]) .vod-controls-next-row {

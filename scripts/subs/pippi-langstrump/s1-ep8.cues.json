@@ -1,0 +1,908 @@
+[
+  {
+    "i": 0,
+    "start": "00:00:32.000",
+    "end": "00:00:36.360",
+    "text": "Lilla Annika!\nGod dag, mina små vänner."
+  },
+  {
+    "i": 1,
+    "start": "00:00:36.520",
+    "end": "00:00:42.400",
+    "text": "Ni går här och väntar på jultomten.\nHar ni varit riktigt snälla?"
+  },
+  {
+    "i": 2,
+    "start": "00:00:42.560",
+    "end": "00:00:47.760",
+    "text": "Ja, så snälla SÅ.\nDet är bara jag som är vanartig."
+  },
+  {
+    "i": 3,
+    "start": "00:00:58.320",
+    "end": "00:01:05.080",
+    "text": "Det här blir en utmärkt present\ntill barnhemmet. Var så god."
+  },
+  {
+    "i": 4,
+    "start": "00:01:07.280",
+    "end": "00:01:14.120",
+    "text": "–Nå, hur ska du ha det i jul, då?\n–Jag ska ha det så bra SÅ."
+  },
+  {
+    "i": 5,
+    "start": "00:01:14.280",
+    "end": "00:01:19.080",
+    "text": "Lite magknip\npå annandan...men det går ju över."
+  },
+  {
+    "i": 6,
+    "start": "00:01:19.240",
+    "end": "00:01:26.400",
+    "text": "Pippi lilla, jag står inte ut med att\nveta att du varken har mor eller far."
+  },
+  {
+    "i": 7,
+    "start": "00:01:26.560",
+    "end": "00:01:31.480",
+    "text": "–Du är ensam i Villa Villekulla.\n–Tänk inte på det."
+  },
+  {
+    "i": 8,
+    "start": "00:01:31.640",
+    "end": "00:01:38.320",
+    "text": "Jo, jag tänker på det. Kan du inte\nvara på barnhemmet över julen?"
+  },
+  {
+    "i": 9,
+    "start": "00:01:38.480",
+    "end": "00:01:44.600",
+    "text": "Det är underbart där.\nOch julklappar får de, allihop."
+  },
+  {
+    "i": 10,
+    "start": "00:01:44.760",
+    "end": "00:01:49.800",
+    "text": "Jag kan inte komma.\nJag måste vara hemma hos mina djur."
+  },
+  {
+    "i": 11,
+    "start": "00:01:53.600",
+    "end": "00:01:57.520",
+    "text": "Kling! Konstapel Persson!"
+  },
+  {
+    "i": 12,
+    "start": "00:01:57.680",
+    "end": "00:02:00.760",
+    "text": "Vill ni ha de här?"
+  },
+  {
+    "i": 13,
+    "start": "00:02:00.920",
+    "end": "00:02:07.800",
+    "text": "Jag vill ha henne på hemmet i jul.\nAnnars får jag själv ingen julfrid."
+  },
+  {
+    "i": 14,
+    "start": "00:02:15.480",
+    "end": "00:02:18.440",
+    "text": "Kom då!"
+  },
+  {
+    "i": 15,
+    "start": "00:02:18.600",
+    "end": "00:02:24.920",
+    "text": "Vi ska ordna lite julfrid åt fröken\nPrysselius. – Pippi Långstrump!"
+  },
+  {
+    "i": 16,
+    "start": "00:02:25.080",
+    "end": "00:02:28.920",
+    "text": "Vi vill prata med dig om barnhemmet."
+  },
+  {
+    "i": 17,
+    "start": "00:02:44.320",
+    "end": "00:02:46.120",
+    "text": "Oh!"
+  },
+  {
+    "i": 18,
+    "start": "00:02:46.280",
+    "end": "00:02:49.920",
+    "text": "Hör du, Pippi Låååång..."
+  },
+  {
+    "i": 19,
+    "start": "00:03:07.040",
+    "end": "00:03:10.360",
+    "text": "TUUUT TUT"
+  },
+  {
+    "i": 20,
+    "start": "00:03:27.720",
+    "end": "00:03:31.560",
+    "text": "Hej, hej – och god jul!"
+  },
+  {
+    "i": 21,
+    "start": "00:03:34.320",
+    "end": "00:03:37.920",
+    "text": "Pippi, stanna! Hallå!"
+  },
+  {
+    "i": 22,
+    "start": "00:03:54.000",
+    "end": "00:03:57.160",
+    "text": "La la lalala..."
+  },
+  {
+    "i": 23,
+    "start": "00:04:08.480",
+    "end": "00:04:14.320",
+    "text": "Se nu hur Pippi på golvet bakar,\nhon bakar kakor så att det knakar"
+  },
+  {
+    "i": 24,
+    "start": "00:04:14.480",
+    "end": "00:04:18.080",
+    "text": "Hon bakar stora, hon bakar små"
+  },
+  {
+    "i": 25,
+    "start": "00:04:19.920",
+    "end": "00:04:23.640",
+    "text": "Hon bakar några med Herr Nilsson på"
+  },
+  {
+    "i": 26,
+    "start": "00:04:23.800",
+    "end": "00:04:26.640",
+    "text": "Kliv inte i degen!"
+  },
+  {
+    "i": 27,
+    "start": "00:04:26.800",
+    "end": "00:04:32.160",
+    "text": "Se nu hur Pippi på golvet bakar,\nhon bakar kakor så att det knakar"
+  },
+  {
+    "i": 28,
+    "start": "00:04:32.320",
+    "end": "00:04:38.840",
+    "text": "Hon bakar stora, hon bakar små,\nhon bakar utan Herr Nilsson på..."
+  },
+  {
+    "i": 29,
+    "start": "00:05:13.480",
+    "end": "00:05:15.440",
+    "text": "Oj!"
+  },
+  {
+    "i": 30,
+    "start": "00:05:19.240",
+    "end": "00:05:25.200",
+    "text": "–Så mycket kakor du har bakat!\n–Ja. Kom får ni se..."
+  },
+  {
+    "i": 31,
+    "start": "00:05:35.960",
+    "end": "00:05:37.960",
+    "text": "Så fin!"
+  },
+  {
+    "i": 32,
+    "start": "00:05:38.120",
+    "end": "00:05:44.360",
+    "text": "Det var Hoppetossa, båten som Pippi\nhade seglat med på de sju haven."
+  },
+  {
+    "i": 33,
+    "start": "00:05:44.520",
+    "end": "00:05:49.640",
+    "text": "–Vilka roliga pepparkakor!\n–En liten råtta!"
+  },
+  {
+    "i": 34,
+    "start": "00:05:51.760",
+    "end": "00:05:55.000",
+    "text": "Här är Pippis sko..."
+  },
+  {
+    "i": 35,
+    "start": "00:05:56.800",
+    "end": "00:06:02.400",
+    "text": "...och lilla gubben.\nSå söt han är, Pippi!"
+  },
+  {
+    "i": 36,
+    "start": "00:06:02.560",
+    "end": "00:06:05.720",
+    "text": "Titta – Herr Nilsson!"
+  },
+  {
+    "i": 37,
+    "start": "00:06:05.880",
+    "end": "00:06:11.200",
+    "text": "–Ska du smaka?\n–Han är väl ingen kannibal heller!"
+  },
+  {
+    "i": 38,
+    "start": "00:06:14.960",
+    "end": "00:06:17.800",
+    "text": "Här, lilla gubben..."
+  },
+  {
+    "i": 39,
+    "start": "00:06:17.960",
+    "end": "00:06:23.280",
+    "text": "–Pippi, ska vi åka skridskor?\n–KAN du åka skridskor?"
+  },
+  {
+    "i": 40,
+    "start": "00:06:23.440",
+    "end": "00:06:29.440",
+    "text": "Jag har aldrig försökt. Att åka\nskridskor utan skridskor är svårt."
+  },
+  {
+    "i": 41,
+    "start": "00:06:29.600",
+    "end": "00:06:35.760",
+    "text": "–Har du inga skridskor?\n–Nej, men jag kan göra ett par."
+  },
+  {
+    "i": 42,
+    "start": "00:07:54.680",
+    "end": "00:07:59.560",
+    "text": "Yo-hoooh!\nI morgon rider vi ut i skogen."
+  },
+  {
+    "i": 43,
+    "start": "00:07:59.720",
+    "end": "00:08:04.880",
+    "text": "Men Pippi...det är julafton.\nDå måste vi stanna hemma."
+  },
+  {
+    "i": 44,
+    "start": "00:08:05.040",
+    "end": "00:08:10.800",
+    "text": "–Visst ja, det hade jag glömt.\n–Du kan väl vara hos oss?"
+  },
+  {
+    "i": 45,
+    "start": "00:08:10.960",
+    "end": "00:08:16.360",
+    "text": "–Jag ska fråga mamma om du får.\n–Alla mina djur, då?"
+  },
+  {
+    "i": 46,
+    "start": "00:08:18.360",
+    "end": "00:08:22.200",
+    "text": "Ska du sitta ensam på julafton, då?"
+  },
+  {
+    "i": 47,
+    "start": "00:08:22.360",
+    "end": "00:08:26.680",
+    "text": "Du låter som Prussiluskan.\nSluta med det!"
+  },
+  {
+    "i": 48,
+    "start": "00:08:26.840",
+    "end": "00:08:31.440",
+    "text": "–Vad önskar du dig i julklapp?\n–Jag vet inte."
+  },
+  {
+    "i": 49,
+    "start": "00:08:31.600",
+    "end": "00:08:34.760",
+    "text": "Önska dig något!"
+  },
+  {
+    "i": 50,
+    "start": "00:08:34.920",
+    "end": "00:08:39.400",
+    "text": "Jag tror...jag skulle vilja ha\nen trumpet."
+  },
+  {
+    "i": 51,
+    "start": "00:08:39.560",
+    "end": "00:08:42.800",
+    "text": "TUT TUT TUT"
+  },
+  {
+    "i": 52,
+    "start": "00:08:47.520",
+    "end": "00:08:50.840",
+    "text": "Pippi, du kan väl inte blåsa trumpet?"
+  },
+  {
+    "i": 53,
+    "start": "00:08:51.000",
+    "end": "00:08:58.320",
+    "text": "Har inte försökt. Blåsa trumpet utan\ntrumpet är det inte många som kan."
+  },
+  {
+    "i": 54,
+    "start": "00:09:05.920",
+    "end": "00:09:09.080",
+    "text": "Titta på Tommy!"
+  },
+  {
+    "i": 55,
+    "start": "00:09:11.840",
+    "end": "00:09:17.720",
+    "text": "–Jaha...nu börjar den se fin ut.\n–Vi måste ha mer tomtebloss."
+  },
+  {
+    "i": 56,
+    "start": "00:09:17.880",
+    "end": "00:09:21.720",
+    "text": "Ta hit tomteblossen, Tommy."
+  },
+  {
+    "i": 57,
+    "start": "00:09:21.880",
+    "end": "00:09:26.320",
+    "text": "–Ska jag tända?\n–Nej, inte än!"
+  },
+  {
+    "i": 58,
+    "start": "00:09:43.480",
+    "end": "00:09:45.800",
+    "text": "Titta, mamma!"
+  },
+  {
+    "i": 59,
+    "start": "00:09:47.880",
+    "end": "00:09:51.360",
+    "text": "EN KLOCKA SLÅR"
+  },
+  {
+    "i": 60,
+    "start": "00:09:49.760",
+    "end": "00:09:54.520",
+    "text": "Oj! Nu måste vi ge oss av, Annika."
+  },
+  {
+    "i": 61,
+    "start": "00:09:54.680",
+    "end": "00:10:00.520",
+    "text": "–Va? Ska ni ge er av?\n–Vi har nånting vi måste ordna."
+  },
+  {
+    "i": 62,
+    "start": "00:10:04.400",
+    "end": "00:10:08.880",
+    "text": "–Det är hemligt.\n–Jaha!"
+  },
+  {
+    "i": 63,
+    "start": "00:11:58.600",
+    "end": "00:12:03.800",
+    "text": "Vad är det, lilla gubben?\nOj, julmiddagen!"
+  },
+  {
+    "i": 64,
+    "start": "00:12:07.520",
+    "end": "00:12:11.360",
+    "text": "Vilken tur att du väckte mig!"
+  },
+  {
+    "i": 65,
+    "start": "00:12:15.680",
+    "end": "00:12:18.000",
+    "text": "Jättegott!"
+  },
+  {
+    "i": 66,
+    "start": "00:12:33.640",
+    "end": "00:12:35.720",
+    "text": "Mmm, godis!"
+  },
+  {
+    "i": 67,
+    "start": "00:12:47.280",
+    "end": "00:12:54.600",
+    "text": "Här ska vi se... \"Den här har jag\nvirkat så fint jag kunde på alla vis\""
+  },
+  {
+    "i": 68,
+    "start": "00:12:54.760",
+    "end": "00:12:59.240",
+    "text": "\"Den ska du ha\nnär du står vid din spis.\""
+  },
+  {
+    "i": 69,
+    "start": "00:12:59.400",
+    "end": "00:13:02.680",
+    "text": "\"God jul, mamma, från Annika.\""
+  },
+  {
+    "i": 70,
+    "start": "00:13:02.840",
+    "end": "00:13:10.400",
+    "text": "Får jag ännu mer? Så spännande! Vad\nkan det vara? Något du gjort själv?"
+  },
+  {
+    "i": 71,
+    "start": "00:13:10.560",
+    "end": "00:13:16.640",
+    "text": "–Ja, jag har gjort den i skolan.\n–Näää...så fin!"
+  },
+  {
+    "i": 72,
+    "start": "00:13:24.200",
+    "end": "00:13:28.400",
+    "text": "–Till dig.\n–\"Ha den här om halsen\"..."
+  },
+  {
+    "i": 73,
+    "start": "00:13:28.560",
+    "end": "00:13:33.080",
+    "text": "–...\"så blir du aldrig kallsen\"?\n–\"Kall sen.\""
+  },
+  {
+    "i": 74,
+    "start": "00:13:33.240",
+    "end": "00:13:36.000",
+    "text": "Tack, lilla..."
+  },
+  {
+    "i": 75,
+    "start": "00:13:36.160",
+    "end": "00:13:40.320",
+    "text": "Den...den var...fin."
+  },
+  {
+    "i": 76,
+    "start": "00:13:43.120",
+    "end": "00:13:49.880",
+    "text": "\"Till Tommy från mor och far: nåt som\npyser, snurrar och drar.\" God jul!"
+  },
+  {
+    "i": 77,
+    "start": "00:13:50.040",
+    "end": "00:13:56.440",
+    "text": "–En ångmaskin?\n–Nej, det har vi inte råd med."
+  },
+  {
+    "i": 78,
+    "start": "00:13:56.600",
+    "end": "00:14:03.440",
+    "text": "\"Röd och grön och gul och blå\n– det här ska Annika få.\" God jul!"
+  },
+  {
+    "i": 79,
+    "start": "00:14:06.000",
+    "end": "00:14:09.400",
+    "text": "Det VAR en ångmaskin."
+  },
+  {
+    "i": 80,
+    "start": "00:14:25.360",
+    "end": "00:14:32.440",
+    "text": "Nu är det jul igen och nu är det jul\nigen och julen varar jämt till påska"
+  },
+  {
+    "i": 81,
+    "start": "00:14:36.040",
+    "end": "00:14:39.320",
+    "text": "Det var inte sant, det var..."
+  },
+  {
+    "i": 82,
+    "start": "00:14:39.480",
+    "end": "00:14:42.720",
+    "text": "God jul, lilla gubben!"
+  },
+  {
+    "i": 83,
+    "start": "00:14:56.480",
+    "end": "00:15:01.640",
+    "text": "Blev den SÅ lång?\nJag tänkte nog på en giraff..."
+  },
+  {
+    "i": 84,
+    "start": "00:15:04.920",
+    "end": "00:15:10.440",
+    "text": "Nu är det jul igen,\nnu är det jul igen, Herr Nilsson!"
+  },
+  {
+    "i": 85,
+    "start": "00:15:10.600",
+    "end": "00:15:14.880",
+    "text": "Nu är det jul igen\noch nu är det jul igen..."
+  },
+  {
+    "i": 86,
+    "start": "00:15:17.840",
+    "end": "00:15:21.960",
+    "text": "God jul, Herr Nilsson!\nHar du sett så mycket bananer?"
+  },
+  {
+    "i": 87,
+    "start": "00:15:22.120",
+    "end": "00:15:27.000",
+    "text": "Nu är det jul igen, Herr Nilsson!"
+  },
+  {
+    "i": 88,
+    "start": "00:15:27.160",
+    "end": "00:15:32.480",
+    "text": "Uuu-huuuuu...var han sitter\noch var han står..."
+  },
+  {
+    "i": 89,
+    "start": "00:15:32.640",
+    "end": "00:15:36.840",
+    "text": "Får vi lov, får vi lov\natt sjunga Grin-Olles visa?"
+  },
+  {
+    "i": 90,
+    "start": "00:15:37.000",
+    "end": "00:15:41.120",
+    "text": "Räven raskar över isen"
+  },
+  {
+    "i": 91,
+    "start": "00:15:41.280",
+    "end": "00:15:46.680",
+    "text": "–Får vi lov att sjunga...\n–...Pippis visa!"
+  },
+  {
+    "i": 92,
+    "start": "00:15:46.840",
+    "end": "00:15:52.320",
+    "text": "Så här gör Pippi var hon står,\nvar hon sitter och var hon går"
+  },
+  {
+    "i": 93,
+    "start": "00:15:52.480",
+    "end": "00:15:58.320",
+    "text": "Får vi lov, får vi lov\natt sjunga Pippis visa?"
+  },
+  {
+    "i": 94,
+    "start": "00:15:58.480",
+    "end": "00:16:03.440",
+    "text": "Nu är det jul igen och nu är det jul\nigen och julen varar jämt till påska"
+  },
+  {
+    "i": 95,
+    "start": "00:16:03.600",
+    "end": "00:16:11.040",
+    "text": "Det var inte sant, det var inte sant\nför däremellan kommer fasta..."
+  },
+  {
+    "i": 96,
+    "start": "00:16:11.200",
+    "end": "00:16:16.040",
+    "text": "–Nej, nu orkar jag inte mer!\n–Inte jag heller."
+  },
+  {
+    "i": 97,
+    "start": "00:16:20.000",
+    "end": "00:16:24.920",
+    "text": "–Ska jag spela lite julsånger?\n–Ja, gör det."
+  },
+  {
+    "i": 98,
+    "start": "00:16:25.080",
+    "end": "00:16:31.680",
+    "text": "Vi får se vad vi kan hitta på.\nDet var ju ett helt år sen."
+  },
+  {
+    "i": 99,
+    "start": "00:16:31.840",
+    "end": "00:16:37.240",
+    "text": "–Varför bjöd ni inte hit Pippi?\n–Vi försökte, men hon ville inte."
+  },
+  {
+    "i": 100,
+    "start": "00:16:37.400",
+    "end": "00:16:41.160",
+    "text": "Tror hon att vi är farliga?"
+  },
+  {
+    "i": 101,
+    "start": "00:16:41.320",
+    "end": "00:16:44.360",
+    "text": "Hon måste vara hos sina djur."
+  },
+  {
+    "i": 102,
+    "start": "00:16:44.520",
+    "end": "00:16:50.760",
+    "text": "Hon trodde inte ni skulle gilla\natt dansa med en häst runt granen."
+  },
+  {
+    "i": 103,
+    "start": "00:16:59.840",
+    "end": "00:17:02.520",
+    "text": "PIP PIP"
+  },
+  {
+    "i": 104,
+    "start": "00:17:05.040",
+    "end": "00:17:10.040",
+    "text": "Visst ja!\nDu ska också ha din julklapp."
+  },
+  {
+    "i": 105,
+    "start": "00:17:17.720",
+    "end": "00:17:21.080",
+    "text": "God jul, lilla råtta!"
+  },
+  {
+    "i": 106,
+    "start": "00:17:23.720",
+    "end": "00:17:29.160",
+    "text": "Det är de godaste\njulostar man kan få tag i."
+  },
+  {
+    "i": 107,
+    "start": "00:17:29.320",
+    "end": "00:17:34.680",
+    "text": "Nätterna blir långa,kölden sätter in\nmamma Mus samlar barnaskaran sin"
+  },
+  {
+    "i": 108,
+    "start": "00:17:34.840",
+    "end": "00:17:40.120",
+    "text": "Visar sen på fällan: Akta er för den\nså får vi allesammans fira jul igen!"
+  },
+  {
+    "i": 109,
+    "start": "00:17:40.280",
+    "end": "00:17:45.440",
+    "text": "Hejsan, hoppsan, fallerallera!\nPå julen ska varenda unge vara glad"
+  },
+  {
+    "i": 110,
+    "start": "00:17:45.600",
+    "end": "00:17:50.960",
+    "text": "Hejsan, hoppsan, fallerallera!\nPå julen ska varenda unge vara glad"
+  },
+  {
+    "i": 111,
+    "start": "00:17:51.120",
+    "end": "00:17:56.320",
+    "text": "De hoppar, dansar, trallar en stund\nPappa Mus säger: Vi tar oss en blund"
+  },
+  {
+    "i": 112,
+    "start": "00:17:56.480",
+    "end": "00:18:01.760",
+    "text": "Barnen går i säng, pappa håller vakt\nSnart snarkar allihop i schottistakt"
+  },
+  {
+    "i": 113,
+    "start": "00:18:01.920",
+    "end": "00:18:07.160",
+    "text": "Hejsan, hoppsan, fallerallera!\nPå julen ska varenda unge vara glad"
+  },
+  {
+    "i": 114,
+    "start": "00:18:07.320",
+    "end": "00:18:13.160",
+    "text": "Hejsan, hoppsan, fallerallera!\nPå julen ska varenda unge vara glad"
+  },
+  {
+    "i": 115,
+    "start": "00:18:17.560",
+    "end": "00:18:21.400",
+    "text": "Då ska varenda unge vara glad..."
+  },
+  {
+    "i": 116,
+    "start": "00:19:20.000",
+    "end": "00:19:29.760",
+    "text": "Nu tändas tusen juleljus\npå jordens mörka rund"
+  },
+  {
+    "i": 117,
+    "start": "00:19:29.920",
+    "end": "00:19:35.240",
+    "text": "Och tusen, tusen stråla ock"
+  },
+  {
+    "i": 118,
+    "start": "00:19:35.400",
+    "end": "00:19:40.400",
+    "text": "på himlens djupblå grund"
+  },
+  {
+    "i": 119,
+    "start": "00:19:40.560",
+    "end": "00:19:46.080",
+    "text": "Och över stad och land i kväll"
+  },
+  {
+    "i": 120,
+    "start": "00:19:46.240",
+    "end": "00:19:49.680",
+    "text": "går julens glada bud"
+  },
+  {
+    "i": 121,
+    "start": "00:19:49.840",
+    "end": "00:19:54.720",
+    "text": "att född är Herren Jesus Krist"
+  },
+  {
+    "i": 122,
+    "start": "00:19:54.880",
+    "end": "00:19:59.840",
+    "text": "vår Frälsare och Gud..."
+  },
+  {
+    "i": 123,
+    "start": "00:20:07.440",
+    "end": "00:20:12.440",
+    "text": "Undrar hur Pippi har det,\nensam på julafton..."
+  },
+  {
+    "i": 124,
+    "start": "00:20:12.600",
+    "end": "00:20:18.520",
+    "text": "...och inte en enda present.\nStackars hon!"
+  },
+  {
+    "i": 125,
+    "start": "00:20:18.680",
+    "end": "00:20:22.200",
+    "text": "Men man vet aldrig med Pippi..."
+  },
+  {
+    "i": 126,
+    "start": "00:20:23.000",
+    "end": "00:20:28.960",
+    "text": "Stackars Pippi!\nAlldeles ensam i Villa Villekulla..."
+  },
+  {
+    "i": 127,
+    "start": "00:20:29.120",
+    "end": "00:20:36.960",
+    "text": "Hon är nog jätteledsen. Men man\nvet aldrig med henne, förstås."
+  },
+  {
+    "i": 128,
+    "start": "00:21:05.320",
+    "end": "00:21:10.760",
+    "text": "Du förstår, Herr Nilsson,\nvad jag tycker är ledsamt..."
+  },
+  {
+    "i": 129,
+    "start": "00:21:10.920",
+    "end": "00:21:15.400",
+    "text": "...det är alla julklapparna\nute i trädet..."
+  },
+  {
+    "i": 130,
+    "start": "00:21:15.560",
+    "end": "00:21:19.400",
+    "text": "...och ingen att ge dem åt."
+  },
+  {
+    "i": 131,
+    "start": "00:21:49.800",
+    "end": "00:21:53.960",
+    "text": "God jul, Tommy och Annika!"
+  },
+  {
+    "i": 132,
+    "start": "00:21:54.120",
+    "end": "00:21:57.120",
+    "text": "God jul, Pippi."
+  },
+  {
+    "i": 133,
+    "start": "00:21:59.720",
+    "end": "00:22:05.680",
+    "text": "God jul, pappa,\nlångt borta i Söderhavet!"
+  },
+  {
+    "i": 134,
+    "start": "00:22:05.840",
+    "end": "00:22:11.520",
+    "text": "God jul, mamma! - Vad sa du?"
+  },
+  {
+    "i": 135,
+    "start": "00:22:11.680",
+    "end": "00:22:16.160",
+    "text": "Om jag känner mig ensam? Nej då!"
+  },
+  {
+    "i": 136,
+    "start": "00:22:36.480",
+    "end": "00:22:43.360",
+    "text": "Om jag har fått många julklappar,\nsa du? Ja då, massvis!"
+  },
+  {
+    "i": 137,
+    "start": "00:22:45.360",
+    "end": "00:22:49.120",
+    "text": "Det där sista var ljug, förstås."
+  },
+  {
+    "i": 138,
+    "start": "00:22:49.280",
+    "end": "00:22:54.320",
+    "text": "Jag vill inte\ngöra henne ledsen och orolig."
+  },
+  {
+    "i": 139,
+    "start": "00:23:44.960",
+    "end": "00:23:49.720",
+    "text": "–Hej, Pippi. God jul!\n–GOD JUL!"
+  },
+  {
+    "i": 140,
+    "start": "00:23:49.880",
+    "end": "00:23:54.880",
+    "text": "Här får du en julklapp\nsom vi samlat till."
+  },
+  {
+    "i": 141,
+    "start": "00:23:55.040",
+    "end": "00:23:57.760",
+    "text": "Till MIG?"
+  },
+  {
+    "i": 142,
+    "start": "00:23:59.680",
+    "end": "00:24:03.760",
+    "text": "Fy fabian, vad jag blir glad!"
+  },
+  {
+    "i": 143,
+    "start": "00:24:31.040",
+    "end": "00:24:35.080",
+    "text": "Nämen... Å, vad ni är snälla!"
+  },
+  {
+    "i": 144,
+    "start": "00:24:46.880",
+    "end": "00:24:49.840",
+    "text": "KAN du spela trumpet?"
+  },
+  {
+    "i": 145,
+    "start": "00:24:50.000",
+    "end": "00:24:57.000",
+    "text": "Jag vet inte – men det går nog\nlättare nu när jag har en trumpet."
+  },
+  {
+    "i": 146,
+    "start": "00:24:58.000",
+    "end": "00:25:05.560",
+    "text": "Där borta har jag julklappar åt er.\nKlättra upp och hämta dem själva."
+  },
+  {
+    "i": 147,
+    "start": "00:25:17.880",
+    "end": "00:25:24.320",
+    "text": "–Titta, vilket stort paket!\n–Å, en docka... Så stor!"
+  },
+  {
+    "i": 148,
+    "start": "00:25:24.480",
+    "end": "00:25:28.320",
+    "text": "Jag fick strumpor. Härligt!"
+  },
+  {
+    "i": 149,
+    "start": "00:25:34.720",
+    "end": "00:25:39.560",
+    "text": "\"HÄR KOMMER PIPPI LÅNGSTRUMP\""
+  },
+  {
+    "i": 150,
+    "start": "00:26:33.480",
+    "end": "00:26:36.720",
+    "text": "Svensktextning: Inger Sjöstrand\n(c) Sveriges Television AB 2010"
+  }
+]

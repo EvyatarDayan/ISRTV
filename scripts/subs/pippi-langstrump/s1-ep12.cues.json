@@ -1,0 +1,908 @@
+[
+  {
+    "i": 0,
+    "start": "00:00:25.040",
+    "end": "00:00:28.080",
+    "text": "Pappa, vad du har vuxit!"
+  },
+  {
+    "i": 1,
+    "start": "00:00:28.240",
+    "end": "00:00:34.680",
+    "text": "Pippilotta Viktualia Rullgardina\nKrusmynta Efraimsdotter..."
+  },
+  {
+    "i": 2,
+    "start": "00:00:34.840",
+    "end": "00:00:40.080",
+    "text": "...mitt älskade barn,\njag tänkte säga att DU har vuxit."
+  },
+  {
+    "i": 3,
+    "start": "00:00:40.240",
+    "end": "00:00:46.560",
+    "text": "–Jag förstod det. Därför sa jag så.\n–Är du lika stark som förr?"
+  },
+  {
+    "i": 4,
+    "start": "00:00:46.720",
+    "end": "00:00:51.480",
+    "text": "–Starkare. Ska vi bryta arm?\n–Kör i vind!"
+  },
+  {
+    "i": 5,
+    "start": "00:00:55.600",
+    "end": "00:01:01.240",
+    "text": "–Ta i, då!\n–Jag gör ju det."
+  },
+  {
+    "i": 6,
+    "start": "00:01:01.400",
+    "end": "00:01:05.320",
+    "text": "Nå, Viktualia Pippilotta?"
+  },
+  {
+    "i": 7,
+    "start": "00:01:10.480",
+    "end": "00:01:16.360",
+    "text": "Jag har ju alltid varit starkast...\nförut."
+  },
+  {
+    "i": 8,
+    "start": "00:01:19.760",
+    "end": "00:01:23.600",
+    "text": "Nu, Krusmynta, ska du få se!"
+  },
+  {
+    "i": 9,
+    "start": "00:01:27.000",
+    "end": "00:01:29.560",
+    "text": "Vi är lika starka."
+  },
+  {
+    "i": 10,
+    "start": "00:01:29.720",
+    "end": "00:01:33.720",
+    "text": "När jag blir 10 bryter jag ner dig!"
+  },
+  {
+    "i": 11,
+    "start": "00:01:39.280",
+    "end": "00:01:46.840",
+    "text": "Kära hjärtanes, jag har ju glömt\natt presentera Tommy och Annika."
+  },
+  {
+    "i": 12,
+    "start": "00:01:47.000",
+    "end": "00:01:51.800",
+    "text": "Det här är min far,\nhans majestät Efraim Långstrump."
+  },
+  {
+    "i": 13,
+    "start": "00:01:51.960",
+    "end": "00:01:57.000",
+    "text": "–God dag.\n–Du ÄR väl kung på en söderhavsö?"
+  },
+  {
+    "i": 14,
+    "start": "00:01:57.160",
+    "end": "00:02:02.600",
+    "text": "Visst! Jag är kung över kurredutterna\npå Kurrekurreduttön."
+  },
+  {
+    "i": 15,
+    "start": "00:02:02.760",
+    "end": "00:02:07.760",
+    "text": "När jag blåste i sjön,\nflöt jag i land på Kurrekurreduttön."
+  },
+  {
+    "i": 16,
+    "start": "00:02:07.920",
+    "end": "00:02:11.920",
+    "text": "Jag VISSTE\natt du inte hade drunknat."
+  },
+  {
+    "i": 17,
+    "start": "00:02:12.080",
+    "end": "00:02:18.040",
+    "text": "Det är omöjligt. Jag kan inte sjunka\n– jag flyter på fläsket här."
+  },
+  {
+    "i": 18,
+    "start": "00:02:18.200",
+    "end": "00:02:24.280",
+    "text": "Kom till mig! Inte drunknar jag\nfrån dig. Det vet du väl?"
+  },
+  {
+    "i": 19,
+    "start": "00:02:31.720",
+    "end": "00:02:34.160",
+    "text": "Ussamkura kussomkara"
+  },
+  {
+    "i": 20,
+    "start": "00:02:34.320",
+    "end": "00:02:42.080",
+    "text": "Ussamkura kussomkara!\nMalinshi alla nora tora melilla"
+  },
+  {
+    "i": 21,
+    "start": "00:02:42.240",
+    "end": "00:02:45.320",
+    "text": "Ussamkura kussomkara!"
+  },
+  {
+    "i": 22,
+    "start": "00:02:53.440",
+    "end": "00:02:57.240",
+    "text": "Ussamkura kussomkara"
+  },
+  {
+    "i": 23,
+    "start": "00:02:57.400",
+    "end": "00:03:01.040",
+    "text": "Malinka nina lora tora melilla"
+  },
+  {
+    "i": 24,
+    "start": "00:03:06.040",
+    "end": "00:03:09.680",
+    "text": "Ussamkura kussomkara!"
+  },
+  {
+    "i": 25,
+    "start": "00:03:17.560",
+    "end": "00:03:21.200",
+    "text": "Vad betyder \"ussa kussa\"?"
+  },
+  {
+    "i": 26,
+    "start": "00:03:21.360",
+    "end": "00:03:27.040",
+    "text": "Ussa kussa?\nDet heter \"ussamkura kussomkara\"."
+  },
+  {
+    "i": 27,
+    "start": "00:03:27.200",
+    "end": "00:03:32.920",
+    "text": "–Det var kurredutternas avskedssång.\n–Vad betyder det?"
+  },
+  {
+    "i": 28,
+    "start": "00:03:33.080",
+    "end": "00:03:38.960",
+    "text": "\"Välkommen tillbaka,\ntjocka vita hövding.\""
+  },
+  {
+    "i": 29,
+    "start": "00:03:40.920",
+    "end": "00:03:46.600",
+    "text": "Ussamkura...kussomkara...\nUssamkura kussomkara!"
+  },
+  {
+    "i": 30,
+    "start": "00:03:56.440",
+    "end": "00:03:59.480",
+    "text": "Jag ska vara med och dansa."
+  },
+  {
+    "i": 31,
+    "start": "00:04:14.560",
+    "end": "00:04:21.440",
+    "text": "–Se upp så inte golvet rämnar!\n–Nu ska du bli kurredutt-prinsessa!"
+  },
+  {
+    "i": 32,
+    "start": "00:04:34.200",
+    "end": "00:04:37.920",
+    "text": "Nu du, kapten Långstrump!"
+  },
+  {
+    "i": 33,
+    "start": "00:04:50.000",
+    "end": "00:04:55.080",
+    "text": "Ha ha ha...ho ho ho..."
+  },
+  {
+    "i": 34,
+    "start": "00:04:56.560",
+    "end": "00:05:03.000",
+    "text": "Så roligt har jag inte haft sen vi\nrensade sjömanskrogen i Singapore!"
+  },
+  {
+    "i": 35,
+    "start": "00:05:03.160",
+    "end": "00:05:07.400",
+    "text": "GRÅT"
+  },
+  {
+    "i": 36,
+    "start": "00:05:11.640",
+    "end": "00:05:14.960",
+    "text": "Vad är det, Annika?"
+  },
+  {
+    "i": 37,
+    "start": "00:05:16.760",
+    "end": "00:05:19.520",
+    "text": "Annika..."
+  },
+  {
+    "i": 38,
+    "start": "00:05:21.080",
+    "end": "00:05:28.240",
+    "text": "Förstår du inte? Pippi kommer att\nåka med sin pappa, begriper du väl!"
+  },
+  {
+    "i": 39,
+    "start": "00:06:15.000",
+    "end": "00:06:21.480",
+    "text": "Vakna, pappa – frukosten är klar!\nDen står på köksbordet."
+  },
+  {
+    "i": 40,
+    "start": "00:06:31.080",
+    "end": "00:06:34.160",
+    "text": "Ahahaaa!"
+  },
+  {
+    "i": 41,
+    "start": "00:06:42.240",
+    "end": "00:06:45.360",
+    "text": "–Hej, Pippi.\n–Hej!"
+  },
+  {
+    "i": 42,
+    "start": "00:06:45.520",
+    "end": "00:06:52.080",
+    "text": "Har ni sett en kurredutt-prinsessa\ngöra morgongymnastik?"
+  },
+  {
+    "i": 43,
+    "start": "00:06:52.240",
+    "end": "00:06:57.920",
+    "text": "Tänk vad nosringen ska skramla\nnär jag dansar runt lägerelden!"
+  },
+  {
+    "i": 44,
+    "start": "00:06:58.080",
+    "end": "00:07:04.520",
+    "text": "Prinsessan Pippilotta med ringar i\nalla öron! Vilket liv, vilken fest!"
+  },
+  {
+    "i": 45,
+    "start": "00:07:04.680",
+    "end": "00:07:10.040",
+    "text": "–När reser du?\n–Snart. Hoppetossa ligger i hamnen."
+  },
+  {
+    "i": 46,
+    "start": "00:07:10.200",
+    "end": "00:07:17.960",
+    "text": "–Ska du ALDRIG vara i villan mer?\n–Jo då...när vi blir pensionerade."
+  },
+  {
+    "i": 47,
+    "start": "00:07:18.120",
+    "end": "00:07:24.640",
+    "text": "Om så där 5O–6O år...\nDå ska vi leka och ha kul!"
+  },
+  {
+    "i": 48,
+    "start": "00:07:24.800",
+    "end": "00:07:31.000",
+    "text": "–Pippi, ljuger du något nuförtiden?\n–Ja, när jag har tid."
+  },
+  {
+    "i": 49,
+    "start": "00:07:31.160",
+    "end": "00:07:34.160",
+    "text": "Och du själv?"
+  },
+  {
+    "i": 50,
+    "start": "00:07:34.320",
+    "end": "00:07:40.000",
+    "text": "Jo, vid lägerelden brukar jag\nsmälla ihop en hel del."
+  },
+  {
+    "i": 51,
+    "start": "00:07:41.040",
+    "end": "00:07:46.720",
+    "text": "När jag ljuger som värst, slår\nkurredutterna på trumma så det dånar."
+  },
+  {
+    "i": 52,
+    "start": "00:07:46.880",
+    "end": "00:07:53.640",
+    "text": "Jag har minsann ingen som trummar!\nHäromkvällen ljög jag om en kalv–"
+  },
+  {
+    "i": 53,
+    "start": "00:07:53.800",
+    "end": "00:08:00.720",
+    "text": "–som kunde knyppla och klättra\ni träd. Och jag trodde vartenda ord!"
+  },
+  {
+    "i": 54,
+    "start": "00:08:00.880",
+    "end": "00:08:06.160",
+    "text": "Bra ljuget, va?\nMen ingen slog på trumma för det!"
+  },
+  {
+    "i": 55,
+    "start": "00:08:19.960",
+    "end": "00:08:22.520",
+    "text": "Oj, hjälp!"
+  },
+  {
+    "i": 56,
+    "start": "00:08:29.360",
+    "end": "00:08:32.000",
+    "text": "Pippi!"
+  },
+  {
+    "i": 57,
+    "start": "00:08:32.160",
+    "end": "00:08:37.640",
+    "text": "–Pippi blev jätterädd!\n–Hennes pappa var inte gift."
+  },
+  {
+    "i": 58,
+    "start": "00:08:37.800",
+    "end": "00:08:39.560",
+    "text": "Pippi!"
+  },
+  {
+    "i": 59,
+    "start": "00:08:39.720",
+    "end": "00:08:46.120",
+    "text": "Och Prussiluskan var alldeles...\n– Vad heter det, Annika?"
+  },
+  {
+    "i": 60,
+    "start": "00:08:46.280",
+    "end": "00:08:50.240",
+    "text": "Alldeles karltokig. Det sa alla."
+  },
+  {
+    "i": 61,
+    "start": "00:08:57.840",
+    "end": "00:09:02.560",
+    "text": "Pippi...nu måste jag\ntala allvar med dig!"
+  },
+  {
+    "i": 62,
+    "start": "00:09:02.720",
+    "end": "00:09:09.400",
+    "text": "Du måste till barnhemmet innan du\ntar livet av Tommy och Annika–"
+  },
+  {
+    "i": 63,
+    "start": "00:09:09.560",
+    "end": "00:09:16.480",
+    "text": "–med ballongfärder och såna dumheter.\nDet är ett fint hem för föräldralösa."
+  },
+  {
+    "i": 64,
+    "start": "00:09:16.640",
+    "end": "00:09:21.560",
+    "text": "–JAG är inte föräldralös.\n–Ljug inte!"
+  },
+  {
+    "i": 65,
+    "start": "00:09:21.720",
+    "end": "00:09:28.640",
+    "text": "Du går omkring och berättar\natt din pappa bor på en söderhavsö."
+  },
+  {
+    "i": 66,
+    "start": "00:09:28.800",
+    "end": "00:09:33.560",
+    "text": "–Du vet att det är lögn.\n–Ja, det är lögn."
+  },
+  {
+    "i": 67,
+    "start": "00:09:33.720",
+    "end": "00:09:39.000",
+    "text": "–Alltså har du ingen pappa.\n–Jag har visst en pappa!"
+  },
+  {
+    "i": 68,
+    "start": "00:09:39.160",
+    "end": "00:09:43.280",
+    "text": "Du erkände ju att det var lögn."
+  },
+  {
+    "i": 69,
+    "start": "00:09:43.440",
+    "end": "00:09:49.080",
+    "text": "Ja, det där med Söderhavet – men\nhan kan ju vara någon annanstans."
+  },
+  {
+    "i": 70,
+    "start": "00:09:49.240",
+    "end": "00:09:54.000",
+    "text": "–Var är han, då?\n–Här i vedlåren."
+  },
+  {
+    "i": 71,
+    "start": "00:09:54.160",
+    "end": "00:09:59.400",
+    "text": "–Du är rolig...\n–Tror du inte han är här?"
+  },
+  {
+    "i": 72,
+    "start": "00:09:59.560",
+    "end": "00:10:04.760",
+    "text": "–TROR du mig inte?\n–Nej, du har ingen pappa i vedlåren."
+  },
+  {
+    "i": 73,
+    "start": "00:10:04.920",
+    "end": "00:10:07.320",
+    "text": "Inte det?"
+  },
+  {
+    "i": 74,
+    "start": "00:10:10.760",
+    "end": "00:10:14.240",
+    "text": "Vad är det här, då?"
+  },
+  {
+    "i": 75,
+    "start": "00:10:25.760",
+    "end": "00:10:28.400",
+    "text": "Är DET din pappa?"
+  },
+  {
+    "i": 76,
+    "start": "00:10:28.560",
+    "end": "00:10:33.120",
+    "text": "Något barnhem ska ni inte tänka på."
+  },
+  {
+    "i": 77,
+    "start": "00:10:33.280",
+    "end": "00:10:39.080",
+    "text": "Naturligtvis inte!\nNu har hon ju sin pappa."
+  },
+  {
+    "i": 78,
+    "start": "00:10:47.080",
+    "end": "00:10:49.400",
+    "text": "Lilla råtta!"
+  },
+  {
+    "i": 79,
+    "start": "00:10:49.560",
+    "end": "00:10:57.520",
+    "text": "Synd att kapten försvinner med\nflickan. Vore det inte trevligt..."
+  },
+  {
+    "i": 80,
+    "start": "00:10:58.520",
+    "end": "00:11:03.280",
+    "text": "...att stanna här hos oss\ni vår lilla stad?"
+  },
+  {
+    "i": 81,
+    "start": "00:11:03.440",
+    "end": "00:11:05.920",
+    "text": "Skynda dig!"
+  },
+  {
+    "i": 82,
+    "start": "00:11:06.080",
+    "end": "00:11:09.640",
+    "text": "En gammal sjöman passar inte här."
+  },
+  {
+    "i": 83,
+    "start": "00:11:09.800",
+    "end": "00:11:12.840",
+    "text": "\"Gammal sjöman\"... Det är ni inte."
+  },
+  {
+    "i": 84,
+    "start": "00:11:13.000",
+    "end": "00:11:16.200",
+    "text": "–Titta på golvet!\n–Hjälp...möss!"
+  },
+  {
+    "i": 85,
+    "start": "00:11:16.360",
+    "end": "00:11:19.720",
+    "text": "Det finns 314 till – här inne!"
+  },
+  {
+    "i": 86,
+    "start": "00:11:19.880",
+    "end": "00:11:23.720",
+    "text": "Nej! Hjälp!"
+  },
+  {
+    "i": 87,
+    "start": "00:11:31.160",
+    "end": "00:11:34.120",
+    "text": "Hör du, Pippi..."
+  },
+  {
+    "i": 88,
+    "start": "00:11:36.120",
+    "end": "00:11:39.800",
+    "text": "Den där lilla... Bra!"
+  },
+  {
+    "i": 89,
+    "start": "00:12:08.800",
+    "end": "00:12:12.840",
+    "text": "–Hej, Pippi!\n–Hej, allihopa!"
+  },
+  {
+    "i": 90,
+    "start": "00:12:13.000",
+    "end": "00:12:17.560",
+    "text": "–Kul att se dig!\n–Välkommen, Pippi!"
+  },
+  {
+    "i": 91,
+    "start": "00:12:22.320",
+    "end": "00:12:25.200",
+    "text": "Hej, hej!"
+  },
+  {
+    "i": 92,
+    "start": "00:12:25.360",
+    "end": "00:12:31.800",
+    "text": "–Välkommen ombord på Hoppetossa.\n–Nu är det min tur, kapten!"
+  },
+  {
+    "i": 93,
+    "start": "00:12:31.960",
+    "end": "00:12:37.120",
+    "text": "–Släng hit henne!\n–Det var längesen, Fridolf."
+  },
+  {
+    "i": 94,
+    "start": "00:12:37.280",
+    "end": "00:12:43.600",
+    "text": "–Tänk att jag fick se dig igen!\n–Hej, Pippi. Kul att se dig."
+  },
+  {
+    "i": 95,
+    "start": "00:12:47.600",
+    "end": "00:12:51.040",
+    "text": "En gång för länge sen\njag stred i ocean"
+  },
+  {
+    "i": 96,
+    "start": "00:12:51.200",
+    "end": "00:12:54.680",
+    "text": "Jag stred med en gammal haj\nsom luktade banan"
+  },
+  {
+    "i": 97,
+    "start": "00:12:54.840",
+    "end": "00:12:58.240",
+    "text": "Vi simma' hit, vi simma' dit\n– jag slog mig gul och blå"
+  },
+  {
+    "i": 98,
+    "start": "00:12:58.400",
+    "end": "00:13:02.080",
+    "text": "men jag tog ett stadigt tag\noch dränkte honom så"
+  },
+  {
+    "i": 99,
+    "start": "00:13:02.240",
+    "end": "00:13:05.720",
+    "text": "Jag lärde då mig något\nen sjöman bör förstå:"
+  },
+  {
+    "i": 100,
+    "start": "00:13:05.880",
+    "end": "00:13:09.920",
+    "text": "fiskarna är gjorda för\nett liv i böljan blå!"
+  },
+  {
+    "i": 101,
+    "start": "00:13:14.280",
+    "end": "00:13:17.840",
+    "text": "Jag simma' upp till ytan\noch andades ett tag"
+  },
+  {
+    "i": 102,
+    "start": "00:13:18.000",
+    "end": "00:13:21.480",
+    "text": "Sen började vi brottas\nmed grepp av alla slag"
+  },
+  {
+    "i": 103,
+    "start": "00:13:21.640",
+    "end": "00:13:24.960",
+    "text": "Jag slängde hajen upp på land\noch ropade: \"Vet hut!\""
+  },
+  {
+    "i": 104,
+    "start": "00:13:25.120",
+    "end": "00:13:28.640",
+    "text": "Men då, minsann, den trivdes ej\noch slank i havet ut"
+  },
+  {
+    "i": 105,
+    "start": "00:13:28.800",
+    "end": "00:13:32.400",
+    "text": "Den hade lärt sig något\nen haj bör förstå:"
+  },
+  {
+    "i": 106,
+    "start": "00:13:32.560",
+    "end": "00:13:37.040",
+    "text": "fiskarna är gjorda för\nett liv i böljan blå!"
+  },
+  {
+    "i": 107,
+    "start": "00:13:42.640",
+    "end": "00:13:49.040",
+    "text": "Avskedskalas i Villa Villekulla\ni eftermiddag! Välkomna allihop!"
+  },
+  {
+    "i": 108,
+    "start": "00:13:49.200",
+    "end": "00:13:56.360",
+    "text": "Då avgörs det vem som är starkast\ni världen: Pippi eller jag."
+  },
+  {
+    "i": 109,
+    "start": "00:13:56.520",
+    "end": "00:14:02.480",
+    "text": "Pippi är starkast!\nKapten har inte en chans."
+  },
+  {
+    "i": 110,
+    "start": "00:14:13.400",
+    "end": "00:14:18.640",
+    "text": "Välkomna på avskedskalas i dag\ni Villa Villekulla!"
+  },
+  {
+    "i": 111,
+    "start": "00:14:18.800",
+    "end": "00:14:25.040",
+    "text": "–Min bror också? Kerstin och Lena?\n–Ja då!"
+  },
+  {
+    "i": 112,
+    "start": "00:14:25.200",
+    "end": "00:14:32.120",
+    "text": "Sjömansblodet kokar i mig. Härligt\natt komma till sjöss ett tag!"
+  },
+  {
+    "i": 113,
+    "start": "00:14:32.280",
+    "end": "00:14:36.600",
+    "text": "Vad ska ni leka på Kurrekurreduttön?"
+  },
+  {
+    "i": 114,
+    "start": "00:14:36.760",
+    "end": "00:14:46.200",
+    "text": "Tja...vi ska bygga kojor...dyka\nefter pärlor...och tämja hajar!"
+  },
+  {
+    "i": 115,
+    "start": "00:14:46.360",
+    "end": "00:14:53.160",
+    "text": "Hej, Kajsa. Jag har avskedskalas\ni dag. Ta med dig alla du känner!"
+  },
+  {
+    "i": 116,
+    "start": "00:14:56.160",
+    "end": "00:14:59.800",
+    "text": "Allan! ALLAN!"
+  },
+  {
+    "i": 117,
+    "start": "00:15:01.200",
+    "end": "00:15:07.160",
+    "text": "Avskedskalas i Villa Villekulla\ni dag. Välkommen!"
+  },
+  {
+    "i": 118,
+    "start": "00:15:08.920",
+    "end": "00:15:16.480",
+    "text": "Vi ska leta sjörövarskatter, bygga\nflottar och segla mellan öarna."
+  },
+  {
+    "i": 119,
+    "start": "00:15:16.640",
+    "end": "00:15:22.640",
+    "text": "Under regntiden springer vi\nutan kläder och rullar i geggamojan."
+  },
+  {
+    "i": 120,
+    "start": "00:15:22.800",
+    "end": "00:15:29.280",
+    "text": "–Vi ska ha jätte-jättekul!\n–VI kommer inte att få det så kul."
+  },
+  {
+    "i": 121,
+    "start": "00:17:08.760",
+    "end": "00:17:13.480",
+    "text": "–Å, vilken tårta!\n–En jättetårta..."
+  },
+  {
+    "i": 122,
+    "start": "00:17:21.400",
+    "end": "00:17:25.640",
+    "text": "FANFAR"
+  },
+  {
+    "i": 123,
+    "start": "00:17:25.800",
+    "end": "00:17:28.560",
+    "text": "Välkomna!"
+  },
+  {
+    "i": 124,
+    "start": "00:17:31.720",
+    "end": "00:17:35.120",
+    "text": "På era platser..."
+  },
+  {
+    "i": 125,
+    "start": "00:17:39.640",
+    "end": "00:17:42.640",
+    "text": "...färdiga...gå!"
+  },
+  {
+    "i": 126,
+    "start": "00:20:14.440",
+    "end": "00:20:17.240",
+    "text": "Kapten Långstrump!"
+  },
+  {
+    "i": 127,
+    "start": "00:20:28.360",
+    "end": "00:20:30.560",
+    "text": "Heja, Kurre!"
+  },
+  {
+    "i": 128,
+    "start": "00:20:41.280",
+    "end": "00:20:44.080",
+    "text": "Ner med honom!"
+  },
+  {
+    "i": 129,
+    "start": "00:21:15.120",
+    "end": "00:21:18.360",
+    "text": "Heja, Pippi!"
+  },
+  {
+    "i": 130,
+    "start": "00:21:31.520",
+    "end": "00:21:34.520",
+    "text": "Pippi, ta honom!"
+  },
+  {
+    "i": 131,
+    "start": "00:21:59.440",
+    "end": "00:22:06.680",
+    "text": "Du verkar vara starkare än far din.\nMen vi tar väl ett prov till, va?"
+  },
+  {
+    "i": 132,
+    "start": "00:22:07.200",
+    "end": "00:22:10.680",
+    "text": "Pippi är starkast i världen!"
+  },
+  {
+    "i": 133,
+    "start": "00:22:21.880",
+    "end": "00:22:25.760",
+    "text": "Fem matroser till verandan!"
+  },
+  {
+    "i": 134,
+    "start": "00:22:38.320",
+    "end": "00:22:40.680",
+    "text": "OOOJ!"
+  },
+  {
+    "i": 135,
+    "start": "00:22:57.520",
+    "end": "00:23:05.240",
+    "text": "Nu är det min tur. – Tommy och\nAnnika, upp på lilla gubben!"
+  },
+  {
+    "i": 136,
+    "start": "00:23:08.760",
+    "end": "00:23:11.440",
+    "text": "Heja, Pippi!"
+  },
+  {
+    "i": 137,
+    "start": "00:23:17.000",
+    "end": "00:23:20.200",
+    "text": "Heja, Pippi!"
+  },
+  {
+    "i": 138,
+    "start": "00:23:44.600",
+    "end": "00:23:47.960",
+    "text": "Pippi, du ÄR starkast i världen!"
+  },
+  {
+    "i": 139,
+    "start": "00:23:48.880",
+    "end": "00:23:54.720",
+    "text": "Ussamakura kussomakara"
+  },
+  {
+    "i": 140,
+    "start": "00:23:54.880",
+    "end": "00:23:58.000",
+    "text": "Ussamakura"
+  },
+  {
+    "i": 141,
+    "start": "00:23:58.160",
+    "end": "00:24:02.800",
+    "text": "kussoma, kussoma, kussaaaa"
+  },
+  {
+    "i": 142,
+    "start": "00:25:40.760",
+    "end": "00:25:46.000",
+    "text": "Pippi...måste du verkligen\nresa ifrån oss?"
+  },
+  {
+    "i": 143,
+    "start": "00:25:46.160",
+    "end": "00:25:52.640",
+    "text": "–Det blir hemskt när du ger dig av.\n–Det tänkte jag inte på."
+  },
+  {
+    "i": 144,
+    "start": "00:25:54.640",
+    "end": "00:25:59.960",
+    "text": "Jo, lite tänkte jag på det, men..."
+  },
+  {
+    "i": 145,
+    "start": "00:26:00.120",
+    "end": "00:26:04.200",
+    "text": "...jag VILLE inte tänka på det."
+  },
+  {
+    "i": 146,
+    "start": "00:26:11.200",
+    "end": "00:26:14.040",
+    "text": "Snälla Pippi!"
+  },
+  {
+    "i": 147,
+    "start": "00:26:16.360",
+    "end": "00:26:23.880",
+    "text": "Men pappa, då? Ni förstår ju att\njag MÅSTE vara hos min pappa."
+  },
+  {
+    "i": 148,
+    "start": "00:26:33.200",
+    "end": "00:26:40.040",
+    "text": "–Hur dags ger du dig i väg?\n–Klockan 10. Hoppetossa seglar då."
+  },
+  {
+    "i": 149,
+    "start": "00:26:44.600",
+    "end": "00:26:50.320",
+    "text": "Undrar om man kan bli så ledsen\natt man dör av det..."
+  },
+  {
+    "i": 150,
+    "start": "00:27:14.280",
+    "end": "00:27:17.520",
+    "text": "Svensktextning: Inger Sjöstrand\n(c) Sveriges Television AB 2010"
+  }
+]

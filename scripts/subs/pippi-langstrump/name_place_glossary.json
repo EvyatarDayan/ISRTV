@@ -1,0 +1,34 @@
+{
+  "_comment": "Latin → Hebrew for Pippi Långstrump. Show title Pippi Långstrump stays Latin.",
+  "people": {
+    "Pippi Långstrump": "פיפי לנגסטרומפ",
+    "Pippi": "פיפי",
+    "Tommy": "תומי",
+    "Annika": "אניקה",
+    "Herr Nilsson": "מר נילסון",
+    "Nilsson": "נילסון",
+    "Lilla Gubben": "הסוסיק",
+    "Dunder-Karlsson": "דונדר-קרלסון",
+    "Dunder Karlsson": "דונדר-קרלסון",
+    "Blom": "בלום",
+    "Kling": "קלינג",
+    "Klang": "קלנג",
+    "Prusseluskan": "פרוסילוסקן",
+    "Prussiluskan": "פרוסילוסקן",
+    "Kapten Långstrump": "קפטן לנגסטרומפ",
+    "Långstrump": "לנגסטרומפ",
+    "Olle Hellbom": "אולה הלבום",
+    "Inger Nilsson": "אינגר נילסון",
+    "Maria Persson": "מריה פרסון",
+    "Pär Sundberg": "פר סונדברג",
+    "Astrid Lindgren": "אסטריד לינדגרן"
+  },
+  "places": {
+    "Villa Villekulla": "וילה וילהקולה",
+    "Villekulla": "וילהקולה"
+  },
+  "keep_latin": [
+    "Pippi Långstrump",
+    "Hoppetossa"
+  ]
+}

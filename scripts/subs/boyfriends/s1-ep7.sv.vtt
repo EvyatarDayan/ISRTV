@@ -1,0 +1,2186 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+8459cf0a-76fa-4ef0-a4ec-f0774525a644
+00:00:16.800 --> 00:00:18.800 align:left position:22%
+<c.teletext>Jag har inte hittat ett bra tillfälle</c>
+
+e46fcffb-876d-431c-921b-ca2fe02f20d2
+00:00:18.960 --> 00:00:21.520 align:left position:22%
+<c.teletext>att fråga Edvin
+om allt är okej mellan oss.</c>
+
+46d4802c-b679-4936-90d3-626b74ddc50f
+00:00:21.680 --> 00:00:26.320 align:left position:22%
+<c.teletext>Det är så svårt för vi har inte hängt
+så mycket på sistone. Jag saknar dem.</c>
+
+b71da433-0f93-4594-8ce6-c35f41819245
+00:00:26.480 --> 00:00:30.520 align:left position:22%
+<c.teletext>Så nu har jag hyrt en stuga.
+Eller stuga... Det är väl ett hus.</c>
+
+c5499b86-887a-415b-b0b8-a54f1b2e8c40
+00:00:30.680 --> 00:00:35.000 align:left position:22%
+<c.teletext>Edvin kommer tycka att det är
+en stuga. Sebastian kommer vara så...</c>
+
+0ad896f6-0a80-400a-a2f9-ff33796d061a
+00:00:37.200 --> 00:00:39.720 align:left position:22%
+<c.teletext>Det är bra om vi får umgås vi tre.</c>
+
+8c3d9b3a-1178-4d27-8ef7-aaea09bdf64f
+00:00:39.880 --> 00:00:43.520 align:left position:22%
+<c.teletext>Då kanske jag får tillfälle
+att prata ostört med Edvin också.</c>
+
+4325a2cc-deeb-4983-a520-b89d12c2dab0
+00:00:51.280 --> 00:00:56.320 align:left position:22%
+<c.teletext>Han står ju på scen och läser brevet
+och får säga allt det han vill.</c>
+
+e2a1bf49-1285-45c8-8088-2ba78306382a
+00:00:56.480 --> 00:01:00.840 align:left position:22%
+<c.teletext>Jag blev kär i en kille.</c>
+
+ca63115f-9e92-4044-81e9-9cb23433ca1e
+00:01:03.880 --> 00:01:06.320 align:left position:22%
+<c.teletext>Jag har inte fått min chans riktigt.</c>
+
+bf3401d8-e0db-450c-b995-4d458c5061c1
+00:01:06.480 --> 00:01:11.560 align:left position:22%
+<c.teletext>Jag har väl varit sur på honom, typ.
+Och det är ju bara på mig.</c>
+
+6c49fc66-3e19-46d1-9b4e-63ec577f2a82
+00:01:11.720 --> 00:01:17.480 align:left position:22%
+<c.teletext>Och har väl kanske helt ärligt inte
+varit så sugen på att umgås med honom</c>
+
+ceb14638-1d56-44f4-b35f-41a89f165ff0
+00:01:17.640 --> 00:01:21.360 align:left position:22%
+<c.teletext>för min egen komma-över-process.</c>
+
+ea9f69c1-5ba5-46c3-a061-75ea952f4300
+00:01:21.520 --> 00:01:25.320 align:left position:22%
+<c.teletext>Det har varit en turbulent vår
+för oss alla.</c>
+
+74126c6a-bd29-4b51-9354-329ba82589bd
+00:01:25.480 --> 00:01:31.000 align:left position:22%
+<c.teletext>Vi har glidit ifrån varandra lite.
+Oscar försöker nu samla gruppen.</c>
+
+9174bfca-e74f-4d68-8962-1fbd13c87f59
+00:01:32.480 --> 00:01:38.280 align:left position:22%
+<c.teletext>Det vore skönt att...
+Clean slate. Start hanging out again.</c>
+
+4a668d8a-eb38-4c13-b8cb-4ddc4136c66d
+00:01:39.720 --> 00:01:42.560 align:left position:22%
+<c.teletext>Helt ärligt
+känner jag mig lite utanför.</c>
+
+215cef7e-e77e-48b9-9114-8e9965580de5
+00:01:44.000 --> 00:01:46.840 align:left position:22%
+<c.teletext>Varför hänger vi inte?
+Vad är det de gör?</c>
+
+564363f2-8338-4397-84cb-6c568d5f560f
+00:01:49.000 --> 00:01:50.120 align:left position:22%
+<c.teletext>Jag får panik.</c>
+
+a1cc6569-3524-49bc-b0f9-488c5096f5a1
+00:01:50.280 --> 00:01:52.360 align:left position:22%
+<c.teletext>Du satt här innan
+och sa att du var nervös.</c>
+
+a0267574-665f-4349-ae5e-17565fff5416
+00:01:52.520 --> 00:01:55.360 align:left position:22%
+<c.teletext>Jag är alltid nervös
+vid biljettsläpp. Det ska man vara.</c>
+
+dcb4902d-0842-4ccb-8db7-de8b25c963ec
+00:01:55.520 --> 00:01:59.000 align:left position:22%
+<c.teletext>Jag och min bästa tjejkompis
+Jessica har en podcast ihop,</c>
+
+e66bf07a-a57b-483f-b300-a6d29ba51bcf
+00:01:59.160 --> 00:02:01.120 align:left position:22%
+<c.teletext>och vi ska ha en livepodd.</c>
+
+0e08b352-ab53-417e-b3ed-5ebc5c6844eb
+00:02:01.280 --> 00:02:05.040 align:left position:22%
+<c.teletext>Nu släpper vi biljetterna
+om en halvtimme. Jag är livrädd.</c>
+
+8eec24e6-5b99-43a2-a177-411cdb2502f9
+00:02:05.200 --> 00:02:07.800 align:left position:22%
+<c.teletext>Jag har fått nycklarna
+till min nya lägenhet.</c>
+
+b7862ef6-118e-4c3a-a76b-5c669220b1a5
+00:02:07.960 --> 00:02:10.800 align:left position:22%
+<c.teletext>Tyvärr är det trappa sista biten.</c>
+
+18b971c5-f008-4f02-a2e5-9631a803b7ef
+00:02:10.960 --> 00:02:13.800 align:left position:22%
+<c.teletext>Jag har väntat på lägenheten
+i snart ett år.</c>
+
+d0182734-1cee-497a-89c8-62134a3b4d28
+00:02:13.960 --> 00:02:15.640 align:left position:22%
+<c.teletext>Är du beredd?</c>
+
+6b2c2c42-99cf-49cd-b313-0a4f4e0f1eac
+00:02:32.160 --> 00:02:36.280 align:left position:22%
+<c.teletext>Men hur har responsen varit på reelen
+som ni la ut nu vid sju?</c>
+
+5af5f3c9-0c70-47f1-9d83-2ef9f8f2ad3b
+00:02:36.440 --> 00:02:38.640 align:left position:22%
+<c.teletext>93 likes.</c>
+
+3e7e2ad2-8d4d-48e2-93fa-45a7e7f632d1
+00:02:38.800 --> 00:02:40.480 align:left position:22%
+<c.teletext>Av 15 000!</c>
+
+e6984f18-7bd6-43bb-b4b1-c027ea56aae6
+00:02:40.640 --> 00:02:42.200 align:left position:22%
+<c.teletext>Är det normalt
+att man släpper biljetter</c>
+
+a0c45656-7b7a-425e-8c76-134ea7c3a291
+00:02:42.360 --> 00:02:44.200 align:left position:22%
+<c.teletext>till nånting man inte
+har nån aning om vad det ska vara?</c>
+
+c9e2efb8-8bdc-4000-b01b-273b91549b49
+00:02:44.360 --> 00:02:46.840 align:left position:22%
+<c.teletext>–Jag har gjort det några gånger.
+–Vilka har du gjort det med?</c>
+
+ebc943b6-1c9d-49c6-8272-ca7eadafdcb0
+00:02:47.000 --> 00:02:49.920 align:left position:22%
+<c.teletext>–Filip och Fredrik.
+–Du ser...</c>
+
+e555b55c-8af8-4dba-89db-fdcd80b33fbd
+00:02:50.080 --> 00:02:53.440 align:left position:22%
+<c.teletext>Kommer ni sparka oss
+om inte vi säljer slut det här?</c>
+
+70d90ec8-a099-4cc8-9a09-17b1d696c30e
+00:02:53.600 --> 00:02:56.320 align:left position:22%
+<c.teletext>–Nej.
+–Det där var inte ett säkert nej.</c>
+
+48b538e6-6779-4285-8196-824a96148c17
+00:02:56.480 --> 00:02:59.360 align:left position:22%
+<c.teletext>Nu blev jag faktiskt nervös
+på riktigt.</c>
+
+042bb02d-dc0e-4165-9a40-ac4ab2fb534a
+00:02:59.520 --> 00:03:00.800 align:left position:22%
+<c.teletext>Jag är absolut livrädd.</c>
+
+86cbb06e-e09d-4535-ab43-e9a01f9918e6
+00:03:00.960 --> 00:03:05.560 align:left position:22%
+<c.teletext>Precis som allt annat i år gör jag
+saker jag aldrig gjort. Toppen.</c>
+
+95057710-3ef6-42ad-92df-2cc9125d3ea8
+00:03:06.920 --> 00:03:09.800 align:left position:22%
+<c.teletext>Alltså, vem fan ska köpa biljetter?</c>
+
+e2d18c2f-5907-4e3a-9cb4-8844494bcb34
+00:03:20.360 --> 00:03:22.920 align:left position:22%
+<c.teletext>Lika länge
+som Johanna Nordström var gravid</c>
+
+8a7881c5-6175-4932-912d-a41a0e9323c5
+00:03:23.080 --> 00:03:26.680 align:left position:22%
+<c.teletext>har jag väntat på lägenheten.
+Och det är länge.</c>
+
+67dab9ae-9d7a-4ff7-a41a-c6e9ae66aac0
+00:03:26.840 --> 00:03:29.120 align:left position:22%
+<c.teletext>Du är en av de första
+som ser lägenheten.</c>
+
+f3b0ed4f-3d4d-40e3-9d52-f7bb68f34d26
+00:03:29.280 --> 00:03:31.680 align:left position:22%
+<c.teletext>Åh, herregud! Vad stort!</c>
+
+82cbeaa5-592e-4b21-97e9-fb6887c0954a
+00:03:32.840 --> 00:03:37.000 align:left position:22%
+<c.teletext>–Men får jag fråga, den här foto...
+–Jag ska ha en hel spegelvägg.</c>
+
+b30f7f71-20d3-4bce-817e-d96837818049
+00:03:37.160 --> 00:03:40.720 align:left position:22%
+<c.teletext>Det är kul att visa lägenheten
+innan renoveringen drar i gång.</c>
+
+1127bec3-ba95-4f14-ab1f-7c9c1937e34c
+00:03:40.880 --> 00:03:43.240 align:left position:22%
+<c.teletext>Det kanske dröjer lite
+innan man kan komma förbi.</c>
+
+e034e009-961f-4da6-864e-987d52fe0d83
+00:03:43.400 --> 00:03:46.880 align:left position:22%
+<c.teletext>–Är det dålig feng shui?
+–Alltså, så här...</c>
+
+228ce27f-7320-4852-a851-797ed8a06ba8
+00:03:47.040 --> 00:03:49.520 align:left position:22%
+<c.teletext>Jag har varit här i några sekunder.
+Vi tittar vidare.</c>
+
+63fcdc4f-b019-40c9-b4d4-705af17f9322
+00:03:49.680 --> 00:03:52.880 align:left position:22%
+<c.teletext>Här blir det då matbord.
+Runt matbord. Sten.</c>
+
+ba929aa0-bbc0-468d-86b9-6dd6032f616d
+00:03:53.040 --> 00:03:54.400 align:left position:22%
+<c.teletext>Det är bra feng shui.</c>
+
+bec10863-efbd-4799-b074-ace1afc5756b
+00:03:54.560 --> 00:03:58.640 align:left position:22%
+<c.teletext>Två grekiska bröder som hittade
+grekisk marmor på sin gård.</c>
+
+d76dd5ed-001d-46df-853b-e23902130951
+00:03:58.800 --> 00:04:03.960 align:left position:22%
+<c.teletext>Visionen är att den ska kännas varm
+och inbjudande, trygg,</c>
+
+b01e2375-57f6-4e98-8280-358639302df2
+00:04:04.120 --> 00:04:10.280 align:left position:22%
+<c.teletext>välkomnande, mogen, vuxen och så.</c>
+
+aa479425-7b4f-4313-9ae5-56f710eb7292
+00:04:10.440 --> 00:04:12.360 align:left position:22%
+<c.teletext>–Dijon.
+–Dijon!</c>
+
+36862fd4-0106-46e0-9cc9-5fc81e2dbc66
+00:04:12.520 --> 00:04:14.920 align:left position:22%
+<c.teletext>Här ska det då platsbyggas en soffa.</c>
+
+a37720f1-5fa2-42a1-9526-9368433169f9
+00:04:15.080 --> 00:04:18.320 align:left position:22%
+<c.teletext>Härifrån bort hit, i zebratyg.</c>
+
+912839d9-5cb1-4d2c-91a1-e94e3bf81930
+00:04:18.480 --> 00:04:19.840 align:left position:22%
+<c.teletext>Här är toalett.</c>
+
+b518e84c-d7cc-4f04-bb25-78614eee17ad
+00:04:20.000 --> 00:04:23.280 align:left position:22%
+<c.teletext>Toan ser väldigt liten ut. Förlåt...</c>
+
+2fa234f5-7241-4cc7-9dd2-cecf0b9db667
+00:04:23.440 --> 00:04:27.680 align:left position:22%
+<c.teletext>Här ska jag sitta
+och ha såna brutala IBS-anfall.</c>
+
+7dde022c-262b-4174-80b9-5ab66164c0b5
+00:04:28.320 --> 00:04:30.280 align:left position:22%
+<c.teletext>Här är ju glam room.</c>
+
+9c975405-4d6e-4e17-bce8-8dc6c85febac
+00:04:30.440 --> 00:04:33.680 align:left position:22%
+<c.teletext>–Sovrum. Säng så.
+–Centimeter?</c>
+
+55cca27f-0a33-488d-b093-f9f8ba71b2f7
+00:04:33.840 --> 00:04:36.880 align:left position:22%
+<c.teletext>160. Och då pratar jag inte
+om sängen.</c>
+
+4abc48c9-2613-40fc-bd86-3d2ebc9e66cd
+00:04:37.040 --> 00:04:40.040 align:left position:22%
+<c.teletext>En grej jag måste fråga dig om
+eller fråga en man om...</c>
+
+59d92e0c-89cb-47cb-877f-47aab28a7948
+00:04:40.200 --> 00:04:43.360 align:left position:22%
+<c.teletext>Det är så mycket såna här internet...</c>
+
+7a1df190-a51e-4b4e-aac8-c3f846f3992c
+00:04:43.520 --> 00:04:47.080 align:left position:22%
+<c.teletext>–Ether... Heter det det?
+–Internet.</c>
+
+eafe7478-f459-4a70-97c1-be437ed53305
+00:04:47.240 --> 00:04:49.920 align:left position:22%
+<c.teletext>Balkong. Här kan vi sitta
+och dricka rosé, Margrét.</c>
+
+251efc6a-92f3-480d-bab6-3d642488b8f9
+00:04:50.080 --> 00:04:51.160 align:left position:22%
+<c.teletext>Ska du ha grill?</c>
+
+33ef2242-633b-4e39-9fda-8edd8071d5dd
+00:04:51.320 --> 00:04:54.960 align:left position:22%
+<c.teletext>Jag vill, men jag kan ju inte grilla.
+Därför behöver jag ha en man.</c>
+
+dbc0bed6-dc30-4e6a-bba5-4d48c83ec945
+00:04:55.120 --> 00:04:59.080 align:left position:22%
+<c.teletext>El! Såna här riktigt bra...</c>
+
+d180e96b-e256-4471-bbd9-1eaaf7399749
+00:04:59.240 --> 00:05:03.840 align:left position:22%
+<c.teletext>Men du hör. Det är inflygningen
+till Bromma flygplats.</c>
+
+fe1bbf0b-583c-4828-a64e-c8509f084fff
+00:05:04.000 --> 00:05:05.240 align:left position:22%
+<c.teletext>Det är en mardröm.</c>
+
+2390bb61-a2d9-41ca-80af-06fc4d5999ee
+00:05:05.400 --> 00:05:07.600 align:left position:22%
+<c.teletext>Det starkaste flygplansljud jag hört.</c>
+
+66bb8368-fe3c-4f98-a49c-2d372ca414b6
+00:05:07.760 --> 00:05:12.240 align:left position:22%
+<c.teletext>Och när jag var här i morse
+var det sån gatufest här.</c>
+
+a27cf6fa-bb2b-4513-88a2-0f5ce7bcf77f
+00:05:12.400 --> 00:05:18.160 align:left position:22%
+<c.teletext>Det var också stora kokplattor,
+det är kol som kokas på eldar...</c>
+
+aeab6805-599e-46b3-9a91-4c981e88cb7b
+00:05:18.320 --> 00:05:21.600 align:left position:22%
+<c.teletext>Får jag bara säga en sak nu?
+Det här är ju...</c>
+
+bed49521-adc6-4b2d-a7de-cecd166c4cc5
+00:05:21.760 --> 00:05:24.320 align:left position:22%
+<c.teletext>–Vi är på Söder.
+–Ja, ni som vill bo på Söder.</c>
+
+ab45e8d7-0107-4830-9b3c-578f97b572aa
+00:05:24.480 --> 00:05:29.120 align:left position:22%
+<c.teletext>Det är ju, alltså, restauranger,
+etablissemang, kommers överallt.</c>
+
+f8dceb67-003c-4f28-86db-331df6567f3c
+00:05:29.280 --> 00:05:31.760 align:left position:22%
+<c.teletext>Folkfest, demonstrationer, Bajentåg.</c>
+
+65058018-39a4-4df6-86e9-b32ea926c44e
+00:05:31.920 --> 00:05:35.880 align:left position:22%
+<c.teletext>Du vill inte till Östermalm,
+du vill inte ha en villa ute i...?</c>
+
+5810ef23-4e25-48f4-8c2a-d0ab68389c79
+00:05:36.040 --> 00:05:37.520 align:left position:22%
+<c.teletext>Jo, jag tror att det kommer.</c>
+
+e15c1360-86fd-46b6-b4f3-ad80846bd0f2
+00:05:37.680 --> 00:05:40.920 align:left position:22%
+<c.teletext>Du ser, nu är det en rullstolsburen
+som åker runt där nere.</c>
+
+932700d1-3af9-4b43-9d1e-dac61517fcbb
+00:05:41.080 --> 00:05:44.800 align:left position:22%
+<c.teletext>–Tack så jättemycket. Den var så fin.
+–Puss, puss, puss.</c>
+
+0cf97326-bde4-436d-a78a-e9ea27e62c80
+00:05:44.960 --> 00:05:46.840 align:left position:22%
+<c.teletext>Jag ska släppa ut dig.</c>
+
+ac2dfb1c-3e5e-4e17-a79d-82193988cb41
+00:05:56.480 --> 00:05:58.680 align:left position:22%
+<c.teletext>Ja, herregud...</c>
+
+b1a39bb9-720f-4200-b219-9d3882d55acd
+00:05:59.920 --> 00:06:01.680 align:left position:22%
+<c.teletext>En minut kvar.</c>
+
+5315c68b-7681-4fb5-80be-227aaf25c9ed
+00:06:01.840 --> 00:06:06.280 align:left position:22%
+<c.teletext>Jag ger er go när länken funkar,
+köplänken.</c>
+
+b5cb0dca-1d72-4c00-bc9c-118785bc6eba
+00:06:06.440 --> 00:06:08.920 align:left position:22%
+<c.teletext>Nu kommer ångesten.</c>
+
+6bbe91ea-092d-4af5-a335-8a499a205043
+00:06:09.080 --> 00:06:12.560 align:left position:22%
+<c.teletext>Det är inte så att 450 sittplatser
+är särskilt mycket.</c>
+
+cbcd4e97-c74e-4677-a795-bd245171ee31
+00:06:12.720 --> 00:06:14.280 align:left position:22%
+<c.teletext>Det är ju ganska litet.</c>
+
+fe848398-4723-432a-9a6b-f5e613536bd6
+00:06:14.440 --> 00:06:18.480 align:left position:22%
+<c.teletext>–Andas i stjärna.
+–Varför utsätter vi oss för det här?</c>
+
+4f569858-5d4d-4672-b810-0cd20b932151
+00:06:18.640 --> 00:06:21.240 align:left position:22%
+<c.teletext>Det är way too much
+för att vi ska sälja slut ändå.</c>
+
+e53d2824-8e7b-46cb-aae6-5df9c8e5e68e
+00:06:21.400 --> 00:06:26.320 align:left position:22%
+<c.teletext>Vem vill komma
+och kolla på när vi pratar?</c>
+
+68a8d376-a983-4c97-aa92-02f4936ad51d
+00:06:26.480 --> 00:06:29.240 align:left position:22%
+<c.teletext>Då kör vi. Så nu är vi live.</c>
+
+02260acb-79a2-408a-a0c0-9286eded0f7e
+00:06:30.520 --> 00:06:31.800 align:left position:22%
+<c.teletext>Ah!</c>
+
+c392b54f-45cf-4733-b336-20432df08b66
+00:06:33.040 --> 00:06:34.520 align:left position:22%
+<c.teletext>Ah!</c>
+
+94044567-24d1-4074-ab6a-de5d40fa87b1
+00:06:34.680 --> 00:06:38.040 align:left position:22%
+<c.teletext>–Vad händer?
+–Sebastian, det är typ hälften.</c>
+
+b87512af-e088-4f25-a3a1-c821d5f16404
+00:06:38.200 --> 00:06:42.400 align:left position:22%
+<c.teletext>–Nämen!
+–Sebastian! Sebastian!</c>
+
+ba0fce86-fc8b-4636-b2b3-42cf64b66593
+00:06:45.800 --> 00:06:50.960 align:left position:22%
+<c.teletext>–Två! Två minuter!
+–Två minuter! Alltså, jag dör!</c>
+
+d0b06864-29b5-4ae5-b14e-27f2dde77af5
+00:06:51.120 --> 00:06:53.400 align:left position:22%
+<c.teletext>Men fatta att det sålde slut.</c>
+
+dd6b415a-ccf3-4aa0-b981-c9605a64a849
+00:06:53.560 --> 00:06:55.920 align:left position:22%
+<c.teletext>Vad är det som sker?</c>
+
+84459d21-d170-4653-b4f1-6948fa8b8890
+00:06:56.080 --> 00:06:57.720 align:left position:22%
+<c.teletext>Det är faktiskt helt sjukt.</c>
+
+4870424f-f654-4a64-a724-958cc9faaa39
+00:06:57.880 --> 00:06:59.680 align:left position:22%
+<c.teletext>Var är ringlighten, Evelina?</c>
+
+56104c4d-ee94-43da-bbae-f194d40fcec4
+00:06:59.840 --> 00:07:03.640 align:left position:22%
+<c.teletext>Moa, förbered Smulan på
+att vi vill öppna upp en matiné.</c>
+
+51a49d3e-ac54-4331-9c86-3225f16151b0
+00:07:03.800 --> 00:07:06.320 align:left position:22%
+<c.teletext>Jag har aldrig nånsin
+varit med om den känslan.</c>
+
+78ebc2cd-b5d3-446b-a6e4-35a61154237e
+00:07:06.480 --> 00:07:09.560 align:left position:22%
+<c.teletext>Det var nåt annat. Edvin och Oscar
+har säkert varit med om det.</c>
+
+4212a3ec-e411-447b-b7ed-e3d5dca0e33f
+00:07:09.720 --> 00:07:13.400 align:left position:22%
+<c.urfjarran.urfjarran><i>–Ni är bäst! Så stort grattis!</i></c>
+–Alltså, så sjukt.
+
+ae4f016b-9681-4720-ace9-22e8ff8a0fc7
+00:07:13.560 --> 00:07:17.640 align:left position:22%
+<c.urfjarran.urfjarran><i>Ni är den populäraste podden i Sverige.</i></c>
+
+0fd11e37-7cbc-457f-95fa-2e8e791cd34e
+00:07:17.800 --> 00:07:23.000 align:left position:22%
+<c.teletext>Det är nåt obehagligt egocentriskt
+som sker</c>
+
+a057b390-0ae7-4fc6-8b9b-5ad6d58c547f
+00:07:23.160 --> 00:07:28.080 align:left position:22%
+<c.teletext>när man inser att folk har köpt
+biljetter för att se en prata.</c>
+
+458ee7fb-d79f-446d-bced-ce13244a5d90
+00:07:28.240 --> 00:07:31.280 align:left position:22%
+<c.teletext>Vad gullig du var som ringde.
+Tack så jättemycket.</c>
+
+391666fe-227a-45ef-a71c-a23c24aa0fb1
+00:07:31.440 --> 00:07:34.360 align:left position:22%
+<c.teletext>Kör hårt! Puss, puss, puss! Love you!</c>
+
+d196b036-e9b6-43fe-9c14-40605877ec92
+00:07:50.960 --> 00:07:53.800 align:left position:22%
+<c.teletext>Jag brukar inte vara reseledare
+för det här gänget.</c>
+
+d258837d-3655-4811-8e95-558f51cc3bdd
+00:07:53.960 --> 00:07:57.040 align:left position:22%
+<c.teletext>Det brukar Edvin göra,
+och det gör han jättebra.</c>
+
+437a0b17-43ab-4f5d-a76c-e8832922e3d5
+00:07:57.200 --> 00:08:02.640 align:left position:22%
+<c.teletext>Men nu är det jag av nån anledning,
+och nu är jag väl redan sen, då.</c>
+
+2149fc56-8edd-47e9-bf8f-b2ec98f6942a
+00:08:02.800 --> 00:08:07.760 align:left position:22%
+<c.teletext>Nu ska jag, Edvin och Sebbe åka
+till landstället som jag har hyrt.</c>
+
+47eeb5fc-05a4-4743-9284-2522309fca7d
+00:08:07.920 --> 00:08:10.640 align:left position:22%
+<c.teletext>Den lilla stugan utanför Stockholm.</c>
+
+7f0981c3-90a2-4a85-bec1-5bb7008309a3
+00:08:10.800 --> 00:08:13.400 align:left position:22%
+<c.teletext>Jag känner mig nervös och peppad,</c>
+
+2a324590-fb75-4c24-8d62-7711f73ee7a8
+00:08:13.560 --> 00:08:16.080 align:left position:22%
+<c.teletext>och då blir jag väldigt dålig på
+att organisera.</c>
+
+8ab4c4ee-93c2-498a-9b89-c1657feb8b3c
+00:08:16.240 --> 00:08:21.080 align:left position:22%
+<c.teletext>Jag ska ärligt säga att jag
+känner mig lite utanför deras häng.</c>
+
+288b91fb-4bcb-42cc-a089-3fd81d8b3be5
+00:08:21.240 --> 00:08:23.800 align:left position:22%
+<c.teletext>De umgås väldigt mycket,
+han och Sebbe,</c>
+
+01892566-cc74-4b97-a106-aaef80ebc6b6
+00:08:23.960 --> 00:08:28.760 align:left position:22%
+<c.teletext>men det kan jag inte säga, för då
+kommer både Sebbe och Edvin bli så:</c>
+
+7c37c707-f0d9-4186-b8a0-2b380233d5c6
+00:08:28.920 --> 00:08:31.200 align:left position:22%
+<c.teletext>"Det är bara att ringa."</c>
+
+baff2982-7c32-4e42-bdfb-23ecd2040a01
+00:08:31.360 --> 00:08:34.320 align:left position:22%
+<c.teletext>Jo... Absolut.</c>
+
+0ea06937-a7de-4095-9858-54e693faff5a
+00:08:34.480 --> 00:08:38.040 align:left position:22%
+<c.urfjarran.urfjarran><i>Men vänta, ni tre ska dra ut och festa.</i></c>
+
+9eacfb82-5a87-4154-94f8-65c3b42c1399
+00:08:38.200 --> 00:08:42.320 align:left position:22%
+Ja! Varför tycker du
+att det är så konstigt?
+
+66f8d521-289d-4bd8-a717-cdfb270bd3e6
+00:08:42.480 --> 00:08:47.520 align:left position:22%
+<c.urfjarran.urfjarran><i>–Det är liksom orgie...</i></c>
+–Nej! Vi ska ju inte ligga.
+
+0519ce09-3b2d-4b87-a58c-ffbb86160f4f
+00:08:47.680 --> 00:08:50.160 align:left position:22%
+Eller, alltså, det är inte min plan.
+
+5e5d4eb6-a56f-4b66-b985-470d13e229cc
+00:08:56.880 --> 00:08:59.080 align:left position:22%
+<c.teletext>Är det ens en stuga?</c>
+
+6f71f043-4195-4aff-997f-bf7939f3945d
+00:09:00.800 --> 00:09:04.120 align:left position:22%
+<c.teletext>Alla lantisar säger stuga
+om sina lantställen.</c>
+
+f3a1aaca-cb6b-4bc9-8d0c-8aab75a34e6d
+00:09:06.080 --> 00:09:07.680 align:left position:22%
+<c.teletext>Vet du nåt om planerna?</c>
+
+d1122969-0765-4768-b1ad-cd2fa40b79db
+00:09:07.840 --> 00:09:11.400 align:left position:22%
+<c.teletext>Det här är ju Oscar
+som har styrt ihop.</c>
+
+07be4ffc-c57a-4c5c-9264-d6ace255a89a
+00:09:13.200 --> 00:09:15.960 align:left position:22%
+<c.teletext>Vi får väl se vad som händer.</c>
+
+df88be6c-c062-44aa-a1d7-8cfc75821aeb
+00:09:36.880 --> 00:09:39.840 align:left position:22%
+<c.teletext>Men snälla!
+/TUTANDE/</c>
+
+ba2b223e-b027-4fc7-b8e8-1ee1fca46439
+00:09:40.000 --> 00:09:41.960 align:left position:22%
+<c.teletext>Oj, polis.</c>
+
+1c1186d9-b7c3-4030-bf85-a736d12d8252
+00:09:43.840 --> 00:09:48.160 align:left position:22%
+<c.teletext>Jag står fel.
+Jag står ju i bussfil.</c>
+
+2170f0ad-6458-4a98-9379-f13e93a31a24
+00:09:48.320 --> 00:09:51.640 align:left position:22%
+<c.teletext>Det är jag som gör fel.
+Det är jättefel. Fuck!</c>
+
+0d82300d-3536-4acb-8bfd-d3957e72c516
+00:09:54.800 --> 00:09:58.680 align:left position:22%
+<c.teletext>Nu... Jag tror att den här stunden
+bara behöver få vara lite viktig.</c>
+
+2ef4cb15-2503-4e5c-b334-b4b6c887a81e
+00:09:58.840 --> 00:10:02.800 align:left position:22%
+<c.teletext>Lite ensamtid
+innan Helan och Halvan anländer.</c>
+
+20022dc2-d946-4a07-b429-3b054b82b2c8
+00:10:02.960 --> 00:10:05.800 align:left position:22%
+<c.teletext>Edvin var och spelade i Göteborg.</c>
+
+b78b4558-435c-451d-b385-9845d38c7ee0
+00:10:05.960 --> 00:10:09.760 align:left position:22%
+<c.teletext>Det har kommit till min kännedom
+att han träffade nån kille där,</c>
+
+a10c2a9e-3fd8-418e-995b-a57662dd8182
+00:10:09.920 --> 00:10:11.920 align:left position:22%
+<c.teletext>och de verkar väldigt kära.</c>
+
+f5ed5075-cae1-4bf2-98b2-3cd01ba189ab
+00:10:12.080 --> 00:10:14.280 align:left position:22%
+<c.teletext>Jag har inte hört det
+från honom, dock.</c>
+
+51e300b2-ff54-46ce-b483-ffab0f36ed66
+00:10:14.440 --> 00:10:19.040 align:left position:22%
+<c.teletext>Vi var ute förra helgen och då stod
+Sebastian och skrek över mitt huvud.</c>
+
+50b10844-d1b9-4048-af1b-6520e8156708
+00:10:19.200 --> 00:10:23.800 align:left position:22%
+<c.teletext>"Träffar du fortfarande
+den killen från Göteborg?"</c>
+
+12bb9fad-8a80-4f35-a165-a93b48161e49
+00:10:23.960 --> 00:10:29.640 align:left position:22%
+<c.teletext>Jag kände mig först lite obekväm
+av att veta.</c>
+
+fdd7c01c-e28d-44de-a22a-b01a29232277
+00:10:29.800 --> 00:10:33.680 align:left position:22%
+<c.teletext>Jag har inte riktigt landat
+i varför än.</c>
+
+6fde7dcd-e206-4c53-a3e3-5284b0aed107
+00:10:33.840 --> 00:10:36.360 align:left position:22%
+<c.teletext>Men det verkar ändå
+som en jättegullig kille.</c>
+
+be86d67e-d8d6-429b-9282-1be4d88e6318
+00:10:36.520 --> 00:10:40.040 align:left position:22%
+<c.teletext>Jag har stalkat upp
+och kollat och googlat.</c>
+
+145d1f59-81c2-4099-9ccb-cdfdfdcc7b7c
+00:10:41.920 --> 00:10:47.520 align:left position:22%
+<c.teletext>Men nån gång under den här resan
+så borde jag och Edvin bli själva.</c>
+
+ca7a07be-6959-4ba2-9a38-bcfbbf5447a2
+00:10:47.680 --> 00:10:54.680 align:left position:22%
+<c.teletext>Då kanske jag bara ska ta sats
+och bara liksom säga nåt.</c>
+
+0ea54742-9b9f-4344-b894-e5880157ee2a
+00:10:59.680 --> 00:11:02.920 align:left position:22%
+<c.teletext>Jag måste ta min chans,
+så att jag har det gjort.</c>
+
+d4439d4f-5871-4a41-84cb-bf7b3edbf81a
+00:11:03.080 --> 00:11:05.840 align:left position:22%
+<c.teletext>Jag kan säga nåt om brevet
+eller om oss eller nånting.</c>
+
+0523d002-edc6-40de-941d-7c06dbecd56e
+00:11:06.000 --> 00:11:08.440 align:left position:22%
+<c.teletext>Ring Edvin Törnblom.</c>
+
+ae739188-6c50-46e9-afe6-00239e9b0482
+00:11:08.600 --> 00:11:12.160 align:left position:22%
+<c.urfjarran.urfjarran><i>–Ringer Edvin Törnblom.</i></c>
+–Tack, hjärtat.
+
+cff62116-0476-4cf2-b4a3-e7379506ce39
+00:11:16.720 --> 00:11:18.400 align:left position:22%
+<c.urfjarran.urfjarran><i>Hej.</i></c>
+
+44166953-c2ff-46cd-b513-a0c2e1cfeeb1
+00:11:18.560 --> 00:11:20.800 align:left position:22%
+<c.urfjarran.urfjarran><i>Välkommen till röstportalen.</i></c>
+
+583f089d-86a1-4d1b-b107-09af75264c85
+00:11:20.960 --> 00:11:25.280 align:left position:22%
+<c.urfjarran.urfjarran><i>Innan du kan använda röstportalen,</i></c>
+<c.urfjarran.urfjarran><i>mata in din nya pinkod och...</i></c>
+
+65c1db00-72ed-4f1b-b69d-710fdaee66af
+00:11:25.440 --> 00:11:30.240 align:left position:22%
+<c.urfjarran.urfjarran><i>För att gå tillbaka</i></c>
+<c.urfjarran.urfjarran><i>till föregående meny, tryck...</i></c>
+
+fde57f90-4a28-4fc8-a451-355049090a2c
+00:11:30.400 --> 00:11:36.640 align:left position:22%
+Hallå...? Hej. Det hände nåt.
+Jag blev kopplad till röstportalen.
+
+c97b1952-77e3-4c38-8764-787879247619
+00:11:36.800 --> 00:11:38.120 align:left position:22%
+<c.urfjarran.urfjarran><i>Nämen gud!</i></c>
+
+c621c678-fd3b-4146-8c3e-25d5e02a2283
+00:11:38.280 --> 00:11:42.440 align:left position:22%
+–Jag är där om nio minuter.
+<c.urfjarran.urfjarran><i>–När körde du bil senast?</i></c>
+
+25881e23-8bff-43ce-bcd1-1efc3fd512e5
+00:11:42.600 --> 00:11:48.600 align:left position:22%
+Jag har kört... Det var... Jag orkar
+inte försvara att jag kan köra bil.
+
+e7eff89f-7a08-4246-86f3-589e0fffa50c
+00:11:48.760 --> 00:11:52.480 align:left position:22%
+<c.urfjarran.urfjarran><i>Du har lika kort stubin</i></c>
+<c.urfjarran.urfjarran><i>som Johanna Nordström.</i></c>
+
+97cafc29-9e1d-43e8-8850-ebb5474b1818
+00:11:52.640 --> 00:11:56.040 align:left position:22%
+Okej. Förlåt. <c.emfas><i>Well, I'm not pregnant.</i></c>
+
+263f7fc7-8a5e-45a7-8539-e8b4f1f55162
+00:11:56.200 --> 00:11:58.720 align:left position:22%
+<c.urfjarran.urfjarran><i>–Well...</i></c>
+<c.urfjarran.urfjarran><i>–Or am I?</i></c>
+
+dee7b68a-3275-493d-b682-77848cc0a2d4
+00:11:58.880 --> 00:12:02.320 align:left position:22%
+<c.urfjarran.urfjarran><i>–Or are you?</i></c>
+<c.urfjarran.urfjarran><i>–Vi ses snart, då.</i></c>
+
+da2eda72-b1db-4026-9a70-b9d0cbd081c7
+00:12:02.480 --> 00:12:05.640 align:left position:22%
+–Okej. Puss, hej.
+<c.urfjarran.urfjarran><i>–Puss, puss.</i></c>
+
+f7c07ed9-bd31-4d7b-9f79-6a084fce96af
+00:12:07.160 --> 00:12:13.360 align:left position:22%
+<c.teletext>Om han tar upp nånting
+i stugan som vi ska till, då...</c>
+
+20a0e999-1d6e-478b-ac51-9700e9ce8eed
+00:12:13.520 --> 00:12:16.200 align:left position:22%
+<c.teletext>Då går jag och lägger mig.</c>
+
+aaa4b6f7-a964-470e-af69-c8395c38a54c
+00:12:19.120 --> 00:12:20.440 align:left position:22%
+<c.teletext>Hej!</c>
+
+ae98231f-bfe1-457a-8a18-3fd3b6bca46a
+00:12:20.600 --> 00:12:23.640 align:left position:22%
+<c.teletext>–Du vet att vi är borta en natt, va?
+–Det är hela mitt bohag.</c>
+
+d61e59c7-eef5-46b1-a415-43cf6aec9ac2
+00:12:23.800 --> 00:12:28.920 align:left position:22%
+<c.teletext>Men ska du flytta ut? Du checkar ut.
+Vilka goda nyheter!</c>
+
+7e3c656e-fed7-4fab-b607-f5ab649433a9
+00:12:29.080 --> 00:12:33.680 align:left position:22%
+<c.teletext>Det orkar inte jag prata om, då.
+Gud, vad jobbigt.</c>
+
+be8282c7-8f92-4c5a-a64d-088b67aca5b6
+00:12:33.840 --> 00:12:37.840 align:left position:22%
+<c.teletext>Jag är inte intresserad av
+att prata känslor.</c>
+
+c793df4a-954f-4e01-9732-e73e753c2ca2
+00:12:38.000 --> 00:12:40.000 align:left position:22%
+<c.teletext>Jag är faktiskt inte det.</c>
+
+ce8d5e25-4a53-4b6d-be5b-cd81356a4523
+00:12:40.160 --> 00:12:44.760 align:left position:22%
+<c.teletext>Du ska få säga vad du känner på
+en scen, och han ska inte få svara.</c>
+
+dbc28301-9da1-4338-a0ff-e0f66514fca9
+00:12:44.920 --> 00:12:47.920 align:left position:22%
+<c.teletext>–Ja.
+–Då är det ju du som är feg.</c>
+
+c3c3e67b-675e-46bf-bd06-c0127cdf7f52
+00:12:54.640 --> 00:12:57.680 align:left position:22%
+<c.teletext>–Vad gjorde du uppe tidigt i ottan?
+–Jag?</c>
+
+0cc350bc-d52c-47d8-99bf-353d6f89a0ae
+00:12:57.840 --> 00:13:00.960 align:left position:22%
+<c.teletext>Du la ut en video på solnedgång.
+Eller uppgång.</c>
+
+5628cf1a-45f1-4e43-ad1b-f1beef803005
+00:13:01.120 --> 00:13:03.800 align:left position:22%
+<c.teletext>Det var en solnedgång från i går.</c>
+
+b62114a6-b888-4813-9957-79cb6f08ac67
+00:13:07.000 --> 00:13:09.960 align:left position:22%
+<c.teletext>–Ska vi inte åka?
+–Ja.</c>
+
+06cbb5d2-c5fb-4d1e-ad3e-103fc3b44fc5
+00:13:18.760 --> 00:13:22.200 align:left position:22%
+<c.teletext>Hur har det varit att bo på hotell?
+Har du varit inne på Grindr?</c>
+
+5921472c-053a-4c07-b353-55ece867fb73
+00:13:22.360 --> 00:13:25.280 align:left position:22%
+<c.teletext>Det har inte varit så kul
+att bo på hotell.</c>
+
+11570e39-2a73-496b-9dda-27072e1ae3fe
+00:13:25.440 --> 00:13:27.480 align:left position:22%
+<c.teletext>–Berättade inte jag om Grindr?
+–Nej.</c>
+
+989fc0a9-ddb8-4217-aeb8-6a503159b08a
+00:13:27.640 --> 00:13:31.560 align:left position:22%
+<c.teletext>Jag fick en 22-årig twink
+som har en kropp som en grekisk gud.</c>
+
+beadbe6b-680b-4306-bc46-85cccae1ded4
+00:13:31.720 --> 00:13:36.280 align:left position:22%
+<c.teletext>Vi har gått förbi varandra
+två gånger.</c>
+
+1fa3734f-887d-489a-a7d1-1719960ebba6
+00:13:36.440 --> 00:13:38.760 align:left position:22%
+<c.teletext>Jag tycker det är helt sjukt.</c>
+
+87ceed94-3d66-4f17-ad00-94e8210fda28
+00:13:39.920 --> 00:13:41.880 align:left position:22%
+<c.teletext>–Men, ja...
+–Förlåt, jag lyssnade inte.</c>
+
+2456fb1c-69d3-4c35-878d-543253165dd5
+00:13:42.040 --> 00:13:44.840 align:left position:22%
+<c.teletext>–Var är du nånstans, då?
+–Jag började tänka på...</c>
+
+58f236a2-8d55-4125-932f-1d62357ad327
+00:13:45.000 --> 00:13:47.160 align:left position:22%
+<c.teletext>Jag vet inte
+vad jag började tänka på.</c>
+
+9faa7b00-85c4-40dc-ab0a-0d7d4d1219ee
+00:13:57.560 --> 00:13:58.720 align:left position:22%
+<c.teletext>Nu är vi framme.</c>
+
+3f33bed9-5dc5-4807-b90d-56f0330b5042
+00:13:58.880 --> 00:14:01.160 align:left position:22%
+<c.teletext>–Ringer du?
+–Okej.</c>
+
+6ec181e5-2413-42bb-b195-782f45bd9b9d
+00:14:01.320 --> 00:14:04.600 align:left position:22%
+<c.teletext>–Det är Desiré Inglander.
+–Var hon på festen?</c>
+
+69c82b4c-37ac-4583-ba48-bca098084a85
+00:14:04.760 --> 00:14:08.000 align:left position:22%
+<c.urfjarran.urfjarran><i>–Hallå, ja.</i></c>
+–Desiré Inglander gick precis förbi.
+
+958d7a6a-2520-40ad-bc9a-243aa6aa1858
+00:14:08.160 --> 00:14:12.920 align:left position:22%
+En gammal vän till dig.
+Du kan väl ha en trevlig ton, snälla?
+
+d8691aae-c1d5-4910-8c45-10338ef30ba4
+00:14:13.080 --> 00:14:17.160 align:left position:22%
+<c.urfjarran.urfjarran><i>–Jag har extremt mycket brun utan sol.</i></c>
+–Vad ovanligt.
+
+3189ae84-bf9e-46ba-808a-f52f4a293ba1
+00:14:17.320 --> 00:14:19.840 align:left position:22%
+Käften!
+
+da4f1c29-b78f-4e21-b3c1-992f8c0faba3
+00:14:20.000 --> 00:14:22.080 align:left position:22%
+<c.teletext>Nu kommer han!</c>
+
+e1b7c541-708a-4488-9ef7-38bca55ea293
+00:14:22.240 --> 00:14:25.760 align:left position:22%
+<c.teletext>–Nyblekta tänder.
+–Hej, darling!</c>
+
+5abb852d-894c-46da-b911-741dbb928f5f
+00:14:25.920 --> 00:14:28.840 align:left position:22%
+<c.teletext>–Välkommen in!
+–Tack!</c>
+
+23883897-c2b2-475b-8824-39bcee2a3d0a
+00:14:29.880 --> 00:14:33.960 align:left position:22%
+<c.teletext>–Hur mår du, då?
+–Jag är på ett så jävla bra humör!</c>
+
+e0dbdf79-1ba3-4543-b4ce-2f17910782e9
+00:14:34.120 --> 00:14:35.920 align:left position:22%
+<c.teletext>Vad kul! Det är även vi.</c>
+
+b8969c1d-f077-4d0e-b8e8-f8a8c155dbb6
+00:14:36.080 --> 00:14:39.000 align:left position:22%
+<c.teletext>–Jag vet inte ens vad vi ska göra.
+–Vi ska ha orgie.</c>
+
+1ff9cacd-6208-433a-94ec-599cfe843060
+00:14:39.160 --> 00:14:41.280 align:left position:22%
+<c.teletext>–Jag har bjudit in till sexfest.
+–Vad äckligt.</c>
+
+a72f1276-2fa0-4d53-98a3-f337bc23d043
+00:14:41.440 --> 00:14:44.320 align:left position:22%
+<c.teletext>–Varför vill du inte ha analsex?
+–Jag vill inte ha det med er.</c>
+
+44663b5e-8c85-4810-8a31-9585f02fe905
+00:14:44.480 --> 00:14:46.520 align:left position:22%
+<c.teletext>Vem har sagt att det är med oss?
+Det kanske kommer andra.</c>
+
+ec460f6d-2e84-477a-b149-4f2de5968576
+00:14:46.680 --> 00:14:48.560 align:left position:22%
+<c.teletext>Ja, det vore typiskt dig.</c>
+
+eb76686f-9feb-483e-896a-d2b97057f636
+00:14:49.560 --> 00:14:51.960 align:left position:22%
+<c.teletext>You're always on my mind</c>
+
+5f431a37-f92d-4a17-8c62-00727c2d2422
+00:14:52.120 --> 00:14:56.800 align:left position:22%
+<c.teletext>You've got to believe in something,
+alright</c>
+
+3173749b-822e-40f7-8863-5a83a4563597
+00:14:56.960 --> 00:15:02.920 align:left position:22%
+<c.teletext>Forever by your side
+I've got life</c>
+
+918e444e-20db-4d04-b86e-2636875a43de
+00:15:03.080 --> 00:15:04.840 align:left position:22%
+<c.teletext>Vi tre kanske aldrig kommer ses.</c>
+
+74335518-5069-4479-ba0a-7a98fa3a9c05
+00:15:05.000 --> 00:15:08.440 align:left position:22%
+<c.teletext>Sen börjar sommaren,
+och alla ska till tusen ställen.</c>
+
+7f948b5c-73bd-4b6e-9718-381342f4f74d
+00:15:08.600 --> 00:15:10.920 align:left position:22%
+<c.teletext>Det är inte så
+att ni har bjudit mig till Gotland.</c>
+
+8b169e66-2755-4b60-a77d-a5f4bddf314d
+00:15:11.080 --> 00:15:12.840 align:left position:22%
+<c.teletext>Det är för att du
+aldrig kan göra planer.</c>
+
+9ddfdaf8-edd1-43e1-9531-260003ecae99
+00:15:13.000 --> 00:15:16.160 align:left position:22%
+<c.teletext>Det är inte sant.
+Det är en egenkonstruktion.</c>
+
+4e1ffac3-0351-4355-bc04-bcf83628461f
+00:15:16.320 --> 00:15:19.920 align:left position:22%
+<c.teletext>Last summer, you cancelled the
+entire summer och drog till Italien.</c>
+
+d0bee034-4605-435a-a9c3-644ea01f4b01
+00:15:20.080 --> 00:15:22.240 align:left position:22%
+<c.teletext>–Då ändrade jag planer.
+–Jo, exakt.</c>
+
+358741a0-f8bb-43e4-a0e8-1405e56ab23f
+00:15:22.400 --> 00:15:25.040 align:left position:22%
+<c.teletext>Du är så varmt välkommen
+till Gotland hur länge du vill.</c>
+
+544fd6d8-3658-4451-bdbf-3f2fafa2db0b
+00:15:25.200 --> 00:15:28.120 align:left position:22%
+<c.teletext>–Vi är där 4:e till 18:e.
+–Det är faktiskt väldigt länge.</c>
+
+074acc52-09df-4fce-9281-9821343d45fb
+00:15:28.280 --> 00:15:30.200 align:left position:22%
+<c.teletext>–Då är jag tyvärr i Italien.
+–Exakt!</c>
+
+789a391a-9b70-4327-9536-eee27397c0ce
+00:15:30.360 --> 00:15:32.120 align:left position:22%
+<c.teletext>Killar, inte bråka nu.</c>
+
+b4fa21c2-aa2b-4a6f-ba93-0e91ee691a3e
+00:15:32.280 --> 00:15:34.720 align:left position:22%
+<c.teletext>Är ni fortfarande
+Marseille-inställda?</c>
+
+b7a05855-d179-4705-93ba-9c374960e74c
+00:15:34.880 --> 00:15:36.760 align:left position:22%
+<c.teletext>Ja, vi är där sista veckan i juli.</c>
+
+79b92255-6de8-4d99-8834-3cc7a127ec02
+00:15:36.920 --> 00:15:39.560 align:left position:22%
+<c.teletext>–När vill du komma?
+–Nej. Vadå?</c>
+
+29656e22-f98e-4fe5-83f9-3b4595b63940
+00:15:39.720 --> 00:15:42.680 align:left position:22%
+<c.teletext>–Du vill ju inte göra en enda plan.
+–Det har vi redan pratat om.</c>
+
+ed20f611-60ae-4d6e-b769-d6ffad5abdd9
+00:15:42.840 --> 00:15:44.840 align:left position:22%
+<c.teletext>Vi har bjudit in dig!</c>
+
+9c6cbeff-03e4-4565-8276-8c585cd6acd0
+00:15:45.000 --> 00:15:47.800 align:left position:22%
+<c.teletext>"Det kanske
+är sista gången vi ses."</c>
+
+ba89c730-7882-4673-9441-bddfcdd731d3
+00:15:47.960 --> 00:15:51.360 align:left position:22%
+<c.teletext>Det blir ju typ
+jag och Edvin mot Oscar.</c>
+
+0b9bb62e-70dc-4e09-8d23-4776267090fd
+00:15:51.520 --> 00:15:55.640 align:left position:22%
+<c.teletext>Även om inte det är
+att vi aktivt vill vara emot honom.</c>
+
+2a544d5f-786f-4c34-892f-143003e0ba47
+00:15:55.800 --> 00:16:00.960 align:left position:22%
+<c.teletext>–Kom inte här med nån jävla...
+–Nu gaddar ni ihop er.</c>
+
+97878f13-970e-4588-92e8-934850625529
+00:16:01.120 --> 00:16:04.320 align:left position:22%
+<c.teletext>Men han säger ju saker
+vi inte håller med om.</c>
+
+69cf290a-6c10-423b-b8e7-b51355a7f587
+00:16:04.480 --> 00:16:07.760 align:left position:22%
+<c.teletext>–Marseille har vi ju chattat om.
+–Ja.</c>
+
+5309455f-f5a6-4c60-95b1-65bc718d1d29
+00:16:07.920 --> 00:16:15.480 align:left position:22%
+<c.teletext>Det är inte så att ni har skrivit:
+"Nu bokar vi till Marseille."</c>
+
+3fd8747b-e466-450e-9417-2571a93445de
+00:16:15.640 --> 00:16:19.240 align:left position:22%
+<c.teletext>Vi har inte bokat. Vi har bara
+bestämt vilka dagar vi ska åka dit.</c>
+
+895f7801-940b-400b-9452-de8611e780e8
+00:16:19.400 --> 00:16:21.600 align:left position:22%
+<c.teletext>Jag vågar inte säga
+att jag känner mig utanför.</c>
+
+e02b9f3a-76dd-49a8-a937-ab74ec56d252
+00:16:21.760 --> 00:16:24.560 align:left position:22%
+<c.teletext>Då vet jag att de kommer
+med 900 argument</c>
+
+5824ed4b-879f-442b-aaa2-a0bd2bfec612
+00:16:24.720 --> 00:16:27.480 align:left position:22%
+<c.teletext>om att så är det inte alls.</c>
+
+8730ed1c-3c24-4fec-8770-fffacb833e54
+00:16:27.640 --> 00:16:31.720 align:left position:22%
+<c.teletext>Men många känslor måste väl
+få vara sanna samtidigt?</c>
+
+4f38d16b-22ca-47e1-af90-f39a3707aa28
+00:16:31.880 --> 00:16:34.680 align:left position:22%
+<c.teletext>Är det bara jag som tycker att du
+ligger jättelångt på den sidan?</c>
+
+f0e8d857-30c7-46d4-a5b3-8aa26e76237f
+00:16:34.840 --> 00:16:38.200 align:left position:22%
+<c.teletext>–Jag tycker att jag ligger bra.
+–Du ligger ju i den filen.</c>
+
+a026afd9-bdf9-45ce-9104-1d8b5298fe3f
+00:16:38.360 --> 00:16:41.600 align:left position:22%
+<c.teletext>Det är okej. Förlåt, förlåt, förlåt.
+Men bli inte arg.</c>
+
+255def96-d403-4da2-8d1e-1ca16c80f466
+00:16:41.760 --> 00:16:42.840 align:left position:22%
+<c.teletext>Jag blir inte arg.</c>
+
+59e58724-b128-4191-bf67-65b3eca44f2d
+00:16:43.000 --> 00:16:46.120 align:left position:22%
+<c.teletext>Nämen vi hatar inte Oscar.</c>
+
+231cd47b-350d-4134-819d-10b4a2909e08
+00:16:46.280 --> 00:16:48.480 align:left position:22%
+<c.teletext>Det är bara väldigt svårt
+att göra planer med honom.</c>
+
+76195fa7-01fb-4ac4-bb35-d3f3fbefabee
+00:16:48.640 --> 00:16:54.040 align:left position:22%
+<c.teletext>Han vill inte planera saker,
+men han vill ändå vara välkommen.</c>
+
+2bc96559-b447-47ce-852c-79b1d1043fe8
+00:16:54.200 --> 00:16:57.080 align:left position:22%
+<c.teletext>Och det är han.
+Men det är svårt att planera saker</c>
+
+ba6ccec3-d40b-4d22-aa79-7a9fe9c379ad
+00:16:57.240 --> 00:17:00.400 align:left position:22%
+<c.teletext>med nån som antingen
+inte vill vara med och planera det</c>
+
+3518d33c-2c80-46eb-9445-9a8aaa9a30a0
+00:17:00.560 --> 00:17:04.640 align:left position:22%
+<c.teletext>eller som också ställer in
+strax innan det ska ske.</c>
+
+4bd3b282-e443-44c8-82e9-62559e3714f4
+00:17:04.800 --> 00:17:07.320 align:left position:22%
+<c.teletext>–Men du är ju ledsen på oss.
+–Jag är inte det!</c>
+
+87ce279c-e485-4d4c-929f-cab6b1898e4e
+00:17:07.480 --> 00:17:09.680 align:left position:22%
+<c.teletext>–Det är okej att vara det.
+–Jag är inte ledsen på er.</c>
+
+0d3312b7-63cc-4ac2-b526-bcf688590d67
+00:17:09.840 --> 00:17:13.680 align:left position:22%
+<c.teletext>Men det finns en tydlig bild av mig
+som jag har svårt att förändra.</c>
+
+002624f8-9313-4bd7-abc6-33d45213232d
+00:17:13.840 --> 00:17:16.560 align:left position:22%
+<c.teletext>Att du är en dålig bilförare?</c>
+
+fb1370fe-a69e-4643-bceb-febfe7f3533b
+00:17:16.720 --> 00:17:18.920 align:left position:22%
+<c.teletext>Jag grundar ju bara det
+på förra sommaren.</c>
+
+42569135-e3d3-4fd5-913e-3fc9a42822cc
+00:17:19.080 --> 00:17:21.080 align:left position:22%
+<c.teletext>Att det känns lättare
+att bara vara så:</c>
+
+e5749d01-860b-4975-b0f5-6937ce87afec
+00:17:21.240 --> 00:17:24.840 align:left position:22%
+<c.teletext>–"Vi har bokat. Kom om du kan."
+–Det är min inställning också.</c>
+
+0ffd6b40-acde-47a1-ab32-1692c77e1d6d
+00:17:25.000 --> 00:17:28.400 align:left position:22%
+<c.teletext>Och det är exakt så vi har varit.</c>
+
+2003d5f7-4605-49e5-9d31-f2f398f31acf
+00:17:29.800 --> 00:17:31.800 align:left position:22%
+<c.teletext>De kan ju verkligen ha rätt i</c>
+
+9b12f882-8ea1-46f7-9f55-a4b3317d36cc
+00:17:31.960 --> 00:17:36.480 align:left position:22%
+<c.teletext>att jag är lite dålig
+att planera med, för att jag...</c>
+
+025e7157-f9bc-4c3d-8349-4904a184b417
+00:17:38.040 --> 00:17:40.840 align:left position:22%
+<c.teletext>Det här blir för djupt.</c>
+
+1093bece-7b3c-424d-99f5-d491ac6fbcd1
+00:17:41.000 --> 00:17:43.200 align:left position:22%
+<c.teletext>Jag tror att det finns ett mönster av</c>
+
+1ed0ba7a-1add-4a2d-8adb-8ff52b6b8cfe
+00:17:43.360 --> 00:17:48.040 align:left position:22%
+<c.teletext>att i allt annat i livet
+vill jag hålla många dörrar öppna</c>
+
+00355cea-cf63-4ef1-b11a-0eed64b741cf
+00:17:48.200 --> 00:17:51.440 align:left position:22%
+<c.teletext>och har svårt att...</c>
+
+10e5d7a8-aa1c-46eb-92b1-72c183773878
+00:17:51.600 --> 00:17:54.760 align:left position:22%
+<c.teletext>Jag har ju svårt att slå mig ner
+och slå läger.</c>
+
+c893e636-8418-41a4-85c6-325861bacea7
+00:17:56.840 --> 00:17:59.440 align:left position:22%
+<c.teletext>Jag kan förstå
+att han känner sig utanför,</c>
+
+13ff5d32-a7cb-42fe-9de7-399d549b068d
+00:17:59.600 --> 00:18:04.120 align:left position:22%
+<c.teletext>men nummer ett
+så var jag kär i honom.</c>
+
+1b217095-8096-4451-a3ce-a50c5c215cd2
+00:18:04.280 --> 00:18:12.240 align:left position:22%
+<c.teletext>Så att jag inte hoppar på
+varje möjlighet att umgås med honom</c>
+
+61f355fc-9394-4ba4-96fb-91f18763a304
+00:18:12.400 --> 00:18:16.760 align:left position:22%
+<c.teletext>har väl varit ett ganska aktivt val
+från mig, så.</c>
+
+0c432d7b-b8cc-47b1-89dc-3cab26d180ef
+00:18:16.920 --> 00:18:19.360 align:left position:22%
+<c.teletext>Det har inte funnits nåt:</c>
+
+3fa7383e-fcbc-4558-9d28-f346d37affdf
+00:18:19.520 --> 00:18:22.440 align:left position:22%
+<c.teletext>"Vi vill inte åka till Gotland
+med Oscar."</c>
+
+de60f26f-0090-4db1-ac70-21496879ac5a
+00:18:22.600 --> 00:18:24.760 align:left position:22%
+<c.teletext>–Det har verkligen inte det.
+–Nej, absolut inte!</c>
+
+ae16f624-d125-4c5f-89f3-08b3c08c70c3
+00:18:24.920 --> 00:18:29.240 align:left position:22%
+<c.teletext>Jag vill inte var en treåring
+i skolan: "Jag känner mig utanför!"</c>
+
+7bf80519-2871-40a0-8c26-dc69ba646b84
+00:18:29.400 --> 00:18:32.720 align:left position:22%
+<c.teletext>–Men har du känt dig utanför?
+–Lite, kanske.</c>
+
+fdf6fc14-56b2-4ad5-b47c-7d4255ff88fb
+00:18:32.880 --> 00:18:38.480 align:left position:22%
+<c.teletext>Men så fort nån tar upp att han
+har legat med nån eller dejtar nån,</c>
+
+93ffea8b-5dc5-4093-84b7-e2a1663f5c5d
+00:18:38.640 --> 00:18:40.880 align:left position:22%
+<c.teletext>då blir han knäpptyst.
+"Nej, det har jag aldrig gjort."</c>
+
+6b130237-c86c-415e-a3ca-39ea095ebe53
+00:18:41.040 --> 00:18:42.240 align:left position:22%
+<c.teletext>Jag känner mig exkluderad.</c>
+
+6f6bc9ee-053e-48d5-b314-8bfdedbe39db
+00:18:42.400 --> 00:18:45.400 align:left position:22%
+<c.teletext>Det är som att jag inte
+skulle kunna prata om fåglar</c>
+
+a56c5d2e-c6c7-427a-8381-391294a2ae08
+00:18:45.560 --> 00:18:49.040 align:left position:22%
+<c.teletext>så fort Sebastian är i rummet,
+för att han är rädd för dem.</c>
+
+beb0a156-3352-4b81-b0f0-dd68390e8b05
+00:18:49.200 --> 00:18:54.040 align:left position:22%
+<c.teletext>"Det är inte en grej för mig längre,
+så varför ska det vara det för dig?"</c>
+
+2b6c324e-cac5-49bd-9a68-5b18ed5bc6f9
+00:18:54.200 --> 00:18:57.720 align:left position:22%
+<c.teletext>Jag tror alla behöver det här dygnet
+vi ska vara med om nu.</c>
+
+e73b4d71-7a23-4bff-ba3f-4185d97c3003
+00:18:57.880 --> 00:19:01.200 align:left position:22%
+<c.teletext>–It's gonna be a ride.
+–We're gonna ride some cock.</c>
+
+c80a6433-24ac-4066-a7c3-142422287e02
+00:19:01.360 --> 00:19:03.920 align:left position:22%
+<c.teletext>Nu handlar vi mat. Allt vi behöver.</c>
+
+29281d50-e66b-4c84-9465-e2dd7edd7d57
+00:19:04.080 --> 00:19:06.920 align:left position:22%
+<c.teletext>Vi är en enad trupp
+med ett glatt humör.</c>
+
+5f3e06a7-10bc-474b-a470-5d79b5695de4
+00:19:12.000 --> 00:19:15.160 align:left position:22%
+<c.teletext>–Här finns det ju massa...
+–Det här är min största rädsla.</c>
+
+77f34cc3-2cea-40d3-9701-6cf5fd2a6056
+00:19:15.320 --> 00:19:20.640 align:left position:22%
+<c.teletext>När män börjar köpa såna här.
+Alltså tapetmönstrat.</c>
+
+eb05ab93-1ffa-431f-8028-ff4e65a09bbd
+00:19:20.800 --> 00:19:23.600 align:left position:22%
+<c.teletext>Low-key din vägg i ditt sovrum.</c>
+
+559452c2-a232-48fc-bb7a-7c43daa9c5c1
+00:19:23.760 --> 00:19:26.920 align:left position:22%
+<c.teletext>–Men gud!
+–Vi ska också handla mat.</c>
+
+06ee00f4-38c8-49fc-bc37-1ef9bdd90e4a
+00:19:27.080 --> 00:19:29.680 align:left position:22%
+<c.teletext>Ska jag ha den?
+Kommer du ta en också?</c>
+
+2f3b1fb9-83db-4b45-852a-be7d76a6c2cf
+00:19:29.840 --> 00:19:32.560 align:left position:22%
+<c.teletext>–Så. Jag tror också jag tar en.
+–Ja.</c>
+
+f68f885a-2288-4591-9a78-35ebd191fca1
+00:19:35.080 --> 00:19:36.360 align:left position:22%
+<c.teletext>Får man ha såna här?</c>
+
+980d5d29-715c-4cff-a7b1-fda67eaaaf41
+00:19:36.520 --> 00:19:40.120 align:left position:22%
+<c.teletext>Varför var du helt styv
+i bröstvårtan?</c>
+
+f31e2499-bcd1-4925-9da4-c70b862a5dde
+00:19:41.200 --> 00:19:43.760 align:left position:22%
+<c.teletext>Jag kan väl få ha styva bröstvårtor.</c>
+
+91157157-d2ff-42f3-90b7-790af573a3d7
+00:19:43.920 --> 00:19:45.960 align:left position:22%
+<c.teletext>Det var som att vi hånglade,
+och så var du styv.</c>
+
+3db7aa7a-83c5-4cdb-af2a-587cc94d22c1
+00:19:46.120 --> 00:19:48.400 align:left position:22%
+<c.teletext>Jag blev väldigt obekväm.</c>
+
+fed115a8-43a4-4aef-8680-343399f7fb27
+00:19:48.560 --> 00:19:50.280 align:left position:22%
+<c.teletext>Capri!</c>
+
+2fd5088c-2d33-4931-a5be-8ad6e26142e9
+00:19:50.440 --> 00:19:52.880 align:left position:22%
+<c.teletext>Var är de där badbyxorna?
+Jag får panik.</c>
+
+9f87c8c9-4934-4f86-8969-b75767adb8bc
+00:19:53.040 --> 00:19:55.200 align:left position:22%
+<c.teletext>–Okej...
+–Det är skitsvårt att handla.</c>
+
+39aa329c-609e-4c36-a6c1-357b03f7fbae
+00:19:55.360 --> 00:19:57.720 align:left position:22%
+<c.teletext>–Jag vet inte hur man gör.
+–Här är ju korv!</c>
+
+210d3b1b-1440-4e2a-9189-6baa83c2a1f6
+00:19:57.880 --> 00:19:59.920 align:left position:22%
+<c.teletext>Om nån skulle vara så här: "Hej!"</c>
+
+ed5f8466-5b3e-47ae-a104-2ac83f8edde9
+00:20:00.080 --> 00:20:03.600 align:left position:22%
+<c.teletext>–Det här tycker du är litet.
+–Du är van vid helt enorma penisar.</c>
+
+c788f70c-141a-406e-8326-059a16843e84
+00:20:03.760 --> 00:20:06.680 align:left position:22%
+<c.teletext>–Ni är vidriga.
+–Jaha!</c>
+
+0d7fade8-01c1-4e53-b429-2915ce8a3d9c
+00:20:08.880 --> 00:20:13.200 align:left position:22%
+<c.teletext>–Färskpotatis eller potatisgratäng?
+–Eller potatis i ugn.</c>
+
+439898a0-48a5-4ab2-8aaa-20ad22dbcc0b
+00:20:13.360 --> 00:20:16.440 align:left position:22%
+<c.teletext>Vi kokar färskpotatis.
+Vi är i Sverige nu.</c>
+
+6b883786-592a-42d0-84f9-1c897d9b9529
+00:20:26.960 --> 00:20:30.560 align:left position:22%
+<c.teletext>Av nån anledning är det
+som det är tre lågbegåvade personer</c>
+
+2a7d887c-b462-491b-b128-d748ddf0331e
+00:20:30.720 --> 00:20:33.360 align:left position:22%
+<c.teletext>som ska gå och handla,
+och det tar aldrig slut.</c>
+
+2744d426-9210-4f1f-a540-7d59618842ed
+00:20:33.520 --> 00:20:36.120 align:left position:22%
+<c.teletext>–Hej!
+–Jag skickade via Insta till dig.</c>
+
+37c18fea-6ebc-4d54-9e49-31a6d42eb991
+00:20:36.280 --> 00:20:38.560 align:left position:22%
+<c.teletext>En förfrågan
+om att göra en jacka till dig.</c>
+
+e6fa8926-f783-458e-a9f2-9b11b09d3131
+00:20:38.720 --> 00:20:39.720 align:left position:22%
+<c.teletext>Gud, vad härligt!</c>
+
+3a2b86cb-fbde-4736-9284-8bf1d98d0b56
+00:20:39.880 --> 00:20:43.560 align:left position:22%
+<c.teletext>Alla mina planer som jag har...
+Vi ska bada, vi ska äta förrätt,</c>
+
+8f4981eb-cb60-4108-aca1-02ee9d9fd285
+00:20:43.720 --> 00:20:47.600 align:left position:22%
+<c.teletext>vi ska hinna grilla, vi ska laga mat.
+Vi kommer inte hinna nånting.</c>
+
+bc5d5d91-ff27-4eef-a5dd-c9ca5dbdc1e6
+00:20:47.760 --> 00:20:49.440 align:left position:22%
+<c.teletext>Jag svarar dig här. Underbart!</c>
+
+2ac8ce8e-678d-4a4a-a99b-85e8498db122
+00:20:49.600 --> 00:20:51.840 align:left position:22%
+<c.teletext>–Tack, snälla! Vad kul!
+–Jättefina!</c>
+
+12b99d6b-05da-472a-99f7-eb95cf464a4a
+00:20:52.000 --> 00:20:54.360 align:left position:22%
+<c.teletext>Jag vill hinna prata med Edvin.
+Det kommer vi inte hinna.</c>
+
+9b299e1c-304f-4d02-94a8-c88b3d2d8bab
+00:20:54.520 --> 00:20:56.240 align:left position:22%
+<c.teletext>Vi ses. Trevlig sommar!</c>
+
+3ec69706-e1c5-491e-8442-27f6b48aac30
+00:20:56.400 --> 00:20:59.920 align:left position:22%
+<c.teletext>–Hej då. Hej då.
+–Tack.</c>
+
+9ed2b2f8-1b0e-4e18-9acf-5dfe006f3653
+00:21:00.080 --> 00:21:02.520 align:left position:22%
+<c.teletext>–Har vi groggvirke?
+– Ja.</c>
+
+d6e50fb7-411f-484d-86f5-c5a800d5b39a
+00:21:10.800 --> 00:21:13.400 align:left position:22%
+<c.teletext>–Nu är vi framme.
+–Det kommer en bil där.</c>
+
+7a58f430-fe01-4f80-8354-61be05be4175
+00:21:13.560 --> 00:21:16.080 align:left position:22%
+<c.teletext>–Så där ska man aldrig göra.
+–Han såg ju inte bilen.</c>
+
+3d2b5c2a-24ed-4cff-90d3-1b6940d9a737
+00:21:16.240 --> 00:21:18.040 align:left position:22%
+<c.teletext>–Men vi hade ju hunnit.
+–Jag tittade ju på bilen.</c>
+
+021e70b7-5375-4fc4-a136-9e5c65dfaf21
+00:21:18.200 --> 00:21:21.600 align:left position:22%
+<c.teletext>–Men gud! Är det precis vid vattnet?
+–Är det det här?</c>
+
+65405219-6107-4a63-b1f0-ca78bedee666
+00:21:21.760 --> 00:21:23.880 align:left position:22%
+<c.teletext>–Oscar!
+–Gud, jag dör!</c>
+
+6179b15b-6100-4e45-bb72-b108bc116884
+00:21:24.040 --> 00:21:25.800 align:left position:22%
+<c.teletext>Välkomna till The Cottage.</c>
+
+91190638-d6a9-4452-914f-569303fa8567
+00:21:29.400 --> 00:21:30.720 align:left position:22%
+<c.teletext>Gud, vad mysigt!</c>
+
+0a35cca8-c661-4e22-841c-ca320609707e
+00:21:30.880 --> 00:21:33.920 align:left position:22%
+<c.teletext>–Gud, vad underbart!
+–Välkomna!</c>
+
+f4e8416b-a1c0-4b94-990b-a931785e2d3f
+00:21:34.080 --> 00:21:36.840 align:left position:22%
+<c.teletext>Fy fan, vad trevligt.</c>
+
+e0b15c4c-039c-4ab4-9eaa-494f27ab507c
+00:21:37.800 --> 00:21:39.160 align:left position:22%
+<c.teletext>Men gud!</c>
+
+2d41159f-66ef-4e01-9aeb-527997e87bfa
+00:21:39.320 --> 00:21:41.200 align:left position:22%
+<c.teletext>Wow! Åh, jävlar!</c>
+
+daf3da64-9cdf-4e4c-8edc-545ef65e9cf6
+00:21:41.360 --> 00:21:43.440 align:left position:22%
+<c.teletext>Men, gud! Champagne!</c>
+
+88027959-b073-4804-91ef-d7120ee96d74
+00:21:43.600 --> 00:21:45.720 align:left position:22%
+<c.teletext>Säg att det är alkohol,
+annars skjuter jag mig i huvudet.</c>
+
+38d88b4d-f7db-49cd-9e23-38afc3198771
+00:21:45.880 --> 00:21:47.800 align:left position:22%
+<c.teletext>–Är det inte alkohol i det här?
+–Jo.</c>
+
+86d5966c-23d1-4efe-994c-d9fcc6a71d15
+00:21:47.960 --> 00:21:49.120 align:left position:22%
+<c.teletext>–Skål, hörni!
+–Skål!</c>
+
+ff448c5e-1782-4c5d-8cff-e0f35b50d8ad
+00:21:49.280 --> 00:21:51.400 align:left position:22%
+<c.teletext>–Jag tycker om er.
+–Detsamma.</c>
+
+5dd173fb-45e8-4ca0-a68b-3c76e5494f32
+00:21:53.400 --> 00:21:58.840 align:left position:22%
+<c.teletext>–Okej, vill ni ha rum?
+–Ja. Vad tror ni det här är?</c>
+
+47578540-264a-49c4-a8df-ae7f42ec6c64
+00:22:03.680 --> 00:22:06.600 align:left position:22%
+<c.teletext>–Snälla, var försiktig.
+–Vad hände?</c>
+
+afd21b68-0dd5-49f6-9513-890d921e1881
+00:22:06.760 --> 00:22:10.120 align:left position:22%
+<c.teletext>Jag rörde den knappt
+och den åkte ner.</c>
+
+934f3e1d-dea9-4ed4-9b09-5773a08e50b8
+00:22:11.200 --> 00:22:13.640 align:left position:22%
+<c.teletext>Nu börjar jag känna
+att huset spökar.</c>
+
+1d200b5f-bfba-43cd-a560-c59a72487ea9
+00:22:13.800 --> 00:22:15.400 align:left position:22%
+<c.teletext>Ja, jag med.</c>
+
+0f58aca2-8d1a-421d-b697-b02f7079fd79
+00:22:15.560 --> 00:22:18.960 align:left position:22%
+<c.teletext>–Ska jag ta det här?
+–Ta det nu. Unna dig.</c>
+
+cc255fcb-d297-4398-b2ca-02adf80f5f1d
+00:22:19.120 --> 00:22:21.440 align:left position:22%
+<c.teletext>–Är ni säkra?
+–Det känns jättemysigt.</c>
+
+2015bf0b-0571-49e0-b27f-1587596a6260
+00:22:21.600 --> 00:22:25.440 align:left position:22%
+<c.teletext>Jag vill inte vara den som är den.
+Jag har ju mycket bagage, tänker jag.</c>
+
+f07a33f9-7e20-436d-8755-a64f5bff2ac7
+00:22:25.600 --> 00:22:28.960 align:left position:22%
+<c.teletext>–Vill du ha det här rummet?
+–Ja, men...</c>
+
+9b24cd02-051f-44c0-9cf5-eeff7bd26357
+00:22:29.120 --> 00:22:33.040 align:left position:22%
+<c.teletext>–Men ta det, då. Jag kan ta det här.
+–Nej, du måste sova här.</c>
+
+e9d83cc0-e906-44e1-8512-2c1fa9e9d539
+00:22:33.200 --> 00:22:36.160 align:left position:22%
+<c.teletext>Du frågade om jag vill ha rummet,
+och jag sa ja.</c>
+
+1af36540-5831-4083-8380-b41a635be6c4
+00:22:36.320 --> 00:22:39.240 align:left position:22%
+<c.teletext>–Varför ska jag säga nej?
+–Ta det, då...</c>
+
+45d58dd4-3034-4578-b9d4-5c9d67aeea70
+00:22:39.400 --> 00:22:44.520 align:left position:22%
+<c.teletext>Det här är en högst personlig åsikt.
+Om man är värden som bjuder in,</c>
+
+422ae8a2-fac6-46b1-96ab-7b0e58f03042
+00:22:44.680 --> 00:22:46.800 align:left position:22%
+<c.teletext>då tar man inte
+värdens master bedroom.</c>
+
+70eda4aa-fd58-4f0d-bb77-1207c48f0254
+00:22:46.960 --> 00:22:50.960 align:left position:22%
+<c.teletext>–Jag får inte ens plats i sängarna!
+–Vi kan skjuta ihop dem.</c>
+
+d4d8a47b-c6f2-428f-aa76-288c564bbcd2
+00:22:51.120 --> 00:22:54.040 align:left position:22%
+<c.teletext>Så nu är narrativet
+att jag ska sova här.</c>
+
+9df95073-4a42-454b-8bed-263ac5b00fff
+00:22:54.200 --> 00:22:56.600 align:left position:22%
+<c.teletext>–Det var ju ni som bestämde.
+–Ja.</c>
+
+8d87e61d-5a7f-45a0-8b9b-d1a0753218ab
+00:22:56.760 --> 00:23:00.040 align:left position:22%
+<c.teletext>Men snälla,
+har ni sett så här smala sängar?</c>
+
+57da6610-b9a6-412c-82ff-80c70e4c5c45
+00:23:00.200 --> 00:23:02.520 align:left position:22%
+<c.teletext>Vad är det här?</c>
+
+234f8987-2fec-4fae-976e-b784456f60ea
+00:23:04.320 --> 00:23:08.760 align:left position:22%
+<c.teletext>Men du får hoppa upp. Hoppa upp. Så.</c>
+
+4f73ecbf-8beb-4d96-bddc-c7e327dcfa01
+00:23:10.880 --> 00:23:13.640 align:left position:22%
+<c.teletext>–Det är inga problem.
+–Jag måste ha 180 centimeter.</c>
+
+017cf366-4415-4981-a9f4-4cd1cf3d94f0
+00:23:13.800 --> 00:23:15.600 align:left position:22%
+<c.teletext>Det har varit mycket på senaste.</c>
+
+825d23fb-ff78-4f11-80ad-be537ed2acce
+00:23:15.760 --> 00:23:19.920 align:left position:22%
+<c.teletext>Då är den enda trygghet man har
+sitt hem. Jag har inte haft ett hem.</c>
+
+2c780192-2e6f-4d44-8d7e-6d3147b89dbc
+00:23:20.080 --> 00:23:21.960 align:left position:22%
+<c.teletext>Hjärtat, ta du det stora rummet.</c>
+
+4facd8a7-69d0-4f42-b588-b6453fe0159c
+00:23:22.120 --> 00:23:25.000 align:left position:22%
+<c.teletext>–Min nacke är helt förstörd.
+–Du vill ha det rummet. Sov där.</c>
+
+8a1274cb-a9e2-4229-8186-191887fd8412
+00:23:25.160 --> 00:23:27.480 align:left position:22%
+<c.teletext>Det är så kvavt här inne.
+Ska vi släppa in lite luft?</c>
+
+5e40b1bc-3791-4d1d-b15c-256838724d56
+00:23:27.640 --> 00:23:32.400 align:left position:22%
+<c.teletext>–Har du ångest?
+–Nej, jag lider inte av det.</c>
+
+9b5b95db-8d7c-44c1-9dea-dea54320c25b
+00:23:32.560 --> 00:23:34.240 align:left position:22%
+<c.teletext>Det känns som du verkligen gör det.</c>
+
+abe6f48c-8ad0-4fe4-b874-b9e4d0b30f9a
+00:23:34.400 --> 00:23:35.880 align:left position:22%
+<c.teletext>Vi går till ditt rum
+och lämnar av dig.</c>
+
+84061c68-f6c8-4b74-86b9-9702bcb16418
+00:23:36.040 --> 00:23:38.240 align:left position:22%
+<c.teletext>Sen kommer två personer
+och tar hand om dig.</c>
+
+e4a196f6-1541-4900-8c7b-bb8ae1450d02
+00:23:38.400 --> 00:23:41.880 align:left position:22%
+<c.teletext>–Där finns en spyhink.
+–Oj! Eller är det en potta?</c>
+
+fe33e224-5c99-4dd2-aad4-ebf43b0af700
+00:23:42.040 --> 00:23:44.080 align:left position:22%
+<c.teletext>Ja, men det är typ det.</c>
+
+fd582d07-be91-40b9-b57f-e38cfa48337d
+00:23:44.240 --> 00:23:48.080 align:left position:22%
+<c.teletext>–Det ligger massa gamla trasor här.
+–Är det Sebastians kläder?</c>
+
+f7dcd9ca-c600-4e81-a6aa-9a95bdc221ab
+00:23:48.240 --> 00:23:52.400 align:left position:22%
+<c.teletext>–Setet är uppackat.
+–Jag har redan packat upp.</c>
+
+b572e221-c4bd-409e-b8cc-2b06c516a2e5
+00:23:52.560 --> 00:23:54.560 align:left position:22%
+<c.teletext>Jag är inpackad och klar.</c>
+
+c3d60a6d-8798-42f3-87ff-8341853ab2c2
+00:23:54.720 --> 00:23:58.240 align:left position:22%
+<c.teletext>Jag hittade ju ett toppenrum
+som var mellan...</c>
+
+79c5ad60-42c2-45de-888b-0b737bcc0a36
+00:23:58.400 --> 00:24:02.720 align:left position:22%
+<c.teletext>...mellan det sämsta och det bästa.
+Där trivs jag toppen.</c>
+
+d3dd2d59-8e58-4e8b-bb26-26df134a83b2
+00:24:02.880 --> 00:24:05.840 align:left position:22%
+<c.teletext>–Vet du vad vi gör nu?
+–Du packar ner här igen.</c>
+
+92b6a75e-a84a-4d88-872d-a0f4e7492ec6
+00:24:06.000 --> 00:24:07.440 align:left position:22%
+<c.teletext>Jag har redan börjat packa upp här.</c>
+
+fb1fb8de-b11a-4d48-b928-bca35b9f8350
+00:24:07.600 --> 00:24:10.600 align:left position:22%
+<c.teletext>–Jag är begeistrad i det här rummet.
+–Det är ett väldigt bra rum.</c>
+
+b01fd331-dc8d-4162-8ea3-e87690a5d2c9
+00:24:10.760 --> 00:24:14.320 align:left position:22%
+<c.teletext>Det är väldigt litet.
+Gör dig inte för hemmastadd här.</c>
+
+542cbf56-e601-419c-a7eb-b01fa7a21705
+00:24:14.480 --> 00:24:17.040 align:left position:22%
+<c.teletext>–Kan inte ni sova där ihop, då?
+–Nej.</c>
+
+25c2fe4f-44c8-4f05-b87f-8d52d656061b
+00:24:17.200 --> 00:24:19.160 align:left position:22%
+<c.teletext>Snabb.</c>
+
+ca7a1e29-f524-45ff-b082-582d572307f9
+00:24:21.520 --> 00:24:23.760 align:left position:22%
+<c.teletext>Well...
+Nu orkar jag inte höra ett ord till.</c>
+
+d2c7db0d-0b5a-4287-84bf-a1a197e822be
+00:24:23.920 --> 00:24:26.600 align:left position:22%
+<c.teletext>Nu behöver jag
+fortsätta packa upp här.</c>
+
+68980604-beb6-4c1b-acb3-648bd0c48273
+00:24:34.800 --> 00:24:36.400 align:left position:22%
+<c.teletext>–Sebastian.
+–Ja.</c>
+
+c10300e0-f166-4e54-a00c-c3099da02485
+00:24:36.560 --> 00:24:39.480 align:left position:22%
+<c.teletext>–Min kyl funkar inte.
+–Okej...</c>
+
+e6674db5-aa65-4c60-9731-ce769ed2c399
+00:24:51.920 --> 00:24:54.760 align:left position:22%
+<c.teletext>Oj, kolla! Kolla, kolla.</c>
+
+dec6d15d-da0f-4c4a-a205-edfc966a82d5
+00:24:54.920 --> 00:24:57.560 align:left position:22%
+<c.teletext>Sebastian, du kan ha den här.</c>
+
+4bfdab2d-6def-4476-9dfd-f77243965fc0
+00:24:57.720 --> 00:25:00.920 align:left position:22%
+<c.teletext>Men gud! Nu kan jag fiska.</c>
+
+a6d7053b-a5e2-4c86-9e8d-c51f61407729
+00:25:01.080 --> 00:25:02.840 align:left position:22%
+<c.teletext>–Den vill jag ha.
+–Här är ett metspö.</c>
+
+10113f63-c74c-41ad-b243-cb98b05d7cfe
+00:25:03.000 --> 00:25:06.160 align:left position:22%
+<c.teletext>Jag är lite rädd
+att det är spindlar i.</c>
+
+5a3a661c-5ac5-4891-9dc2-b65d381e851a
+00:25:06.320 --> 00:25:09.480 align:left position:22%
+<c.teletext>Tänk om Molly Hammar kommer ut.</c>
+
+d373203f-cd7c-405b-836a-14feea1b2edd
+00:25:09.640 --> 00:25:13.640 align:left position:22%
+<c.teletext>Den kom ut nu.
+Det har stått här ute hela året.</c>
+
+be377009-9295-488c-9b06-ea4f63af6184
+00:25:13.800 --> 00:25:17.480 align:left position:22%
+<c.teletext>Men det är inte
+som de precis har byggt det.</c>
+
+b07fa9b8-9916-4aab-91a2-fe5665a692d8
+00:25:18.680 --> 00:25:23.280 align:left position:22%
+<c.teletext>–Det är nånting i!
+–Sluta!</c>
+
+a2e52ec4-6aed-4335-ac25-ed71d70bb937
+00:25:24.320 --> 00:25:28.280 align:left position:22%
+<c.teletext>Det är nånting i som bet mig.
+Jag driver inte.</c>
+
+d647c0f0-153a-4f48-aabc-64dae8d7cdc0
+00:25:28.440 --> 00:25:31.200 align:left position:22%
+<c.teletext>–Men jag gör ju så här nu.
+–Det var det som var i.</c>
+
+d14b0fdf-8256-4d16-83cd-4b67a9c7ce87
+00:25:31.360 --> 00:25:35.560 align:left position:22%
+<c.teletext>Det var ett löv.
+Det verkar som det var det.</c>
+
+1e0b8cdc-342b-461f-9f67-77458498cec2
+00:25:35.720 --> 00:25:36.720 align:left position:22%
+<c.teletext>Det var ett löv.</c>
+
+4b0cba1c-edf5-4d32-a2e4-ae163758b085
+00:25:36.880 --> 00:25:39.760 align:left position:22%
+<c.teletext>Men det är ju jättesvårt att veta
+innan man själv ser det.</c>
+
+4c3d6daf-fe0b-4dcd-959c-c6d833c197ac
+00:25:39.920 --> 00:25:43.920 align:left position:22%
+<c.teletext>Kan vi med den här situationen
+enas om att jag inte är så fjollig?</c>
+
+cb1008bd-2092-4625-ac75-8700777a427c
+00:25:44.080 --> 00:25:46.440 align:left position:22%
+<c.teletext>"Ah! Det är en spindel i dräkten!"</c>
+
+f83170ae-2d90-42ff-b82f-70553386fc2d
+00:25:46.600 --> 00:25:49.400 align:left position:22%
+<c.teletext>Ni vet när man stoppar in händerna
+och ska känna på nånting.</c>
+
+915a5051-cd10-4450-88a6-09654a7d84ce
+00:25:49.560 --> 00:25:51.000 align:left position:22%
+<c.teletext>Det är sån känsla.
+Du vet inte vad som är i.</c>
+
+22aef185-6ffa-41fe-bc5a-cb9501506e0e
+00:25:51.160 --> 00:25:53.400 align:left position:22%
+<c.teletext>–Men vill du prova igen?
+–Sure.</c>
+
+0562cd88-a064-452e-98f2-bfd5039f2f62
+00:25:53.560 --> 00:25:57.560 align:left position:22%
+<c.teletext>Det hade det kunnat vara.
+Men ingen farlig spindel.</c>
+
+a1338eaf-1554-4cab-89e0-ac4a69c32c25
+00:25:57.720 --> 00:26:02.240 align:left position:22%
+<c.teletext>–Jag letar efter SUP-brädorna.
+–Jag tror att de är här.</c>
+
+a7970516-75b4-4f3d-b7ec-3768abcd326e
+00:26:02.400 --> 00:26:06.720 align:left position:22%
+<c.teletext>–Skulle du kunna hålla upp luckan?
+–Absolut. Förlåt. Blev du arg?</c>
+
+6abc8cda-27e3-4a86-9a15-a7112fde6fe4
+00:26:06.880 --> 00:26:10.440 align:left position:22%
+<c.teletext>Nej! Så jävla låg tröskel
+har jag inte.</c>
+
+ee022cbe-eb71-4aa6-963d-1bcaf01b4b73
+00:26:11.680 --> 00:26:14.880 align:left position:22%
+<c.teletext>–Jävlar, vad stor den är!
+–Ja...</c>
+
+52cd084f-5ad1-4e8b-b259-1c666a445dea
+00:26:16.680 --> 00:26:21.200 align:left position:22%
+<c.teletext>–Du blev ju sexig nu.
+–Nämen fy fan vad sexig!</c>
+
+c6e15b37-2e05-4590-9a2f-4627e07f86cf
+00:26:21.360 --> 00:26:25.720 align:left position:22%
+<c.teletext>–Nämen, sluta.
+–Vem är det som är fjollig nu?</c>
+
+06de4410-0191-41ae-bcf2-657297485e0f
+00:26:25.880 --> 00:26:29.120 align:left position:22%
+<c.teletext>Du ska inte visa din kropp på tv,
+och så står du så där. Fy fan!</c>
+
+312fbe0f-b04a-4884-8171-67093797f762
+00:26:29.280 --> 00:26:32.920 align:left position:22%
+<c.teletext>–Fuck off, säger jag bara.
+–Då låter du oss bara skämmas.</c>
+
+4168c6b0-4418-46a9-bc93-486cf160cfd1
+00:26:33.080 --> 00:26:35.760 align:left position:22%
+<c.teletext>–Du tycker att vi är fula och tjocka.
+–Nej.</c>
+
+e768dee9-097c-48fe-ae47-fa4dbdd25b2d
+00:26:38.200 --> 00:26:40.160 align:left position:22%
+<c.teletext>Nu kommer jag att hoppa i här.</c>
+
+070b2309-0780-41ad-a9f9-cbc2ed32009e
+00:26:41.720 --> 00:26:44.480 align:left position:22%
+<c.teletext>Det är hål i här. Det är hål här i.</c>
+
+790018a9-5e91-41f3-9566-09a291e7109f
+00:26:46.120 --> 00:26:47.640 align:left position:22%
+<c.teletext>Oscar!</c>
+
+4b1d0655-9b91-4dce-93bd-1cb94e1825ee
+00:26:52.240 --> 00:26:53.720 align:left position:22%
+<c.teletext>Det är nånting!</c>
+
+3823d9e1-34fe-4ea6-a8f0-7e6b80c5c5bb
+00:26:53.880 --> 00:26:57.120 align:left position:22%
+<c.teletext>Men det är klart.
+Det är ju en värld full av liv.</c>
+
+cf2a588e-51d8-4b49-a919-e542b80e413c
+00:26:58.120 --> 00:27:01.680 align:left position:22%
+<c.teletext>Såg ni den?
+Det är ett stort djur som andades.</c>
+
+9af632ce-2285-497e-8bdd-32b2d15e70c1
+00:27:01.840 --> 00:27:06.240 align:left position:22%
+<c.teletext>Nej, det där är ju,
+som du sa innan, att botten fiser.</c>
+
+69778311-cfd0-411e-ac9f-1f156c848acb
+00:27:06.400 --> 00:27:10.080 align:left position:22%
+<c.teletext>–Jag sa faktiskt det.
+–Kolla nu, det är flera stycken.</c>
+
+2a90d019-eebb-4a12-8104-ad3a8928c50f
+00:27:10.240 --> 00:27:12.200 align:left position:22%
+<c.teletext>Varför har du gjort en scarf
+av handduken?</c>
+
+dad85dfb-f854-47a1-b9f0-28e68d35d3cd
+00:27:12.360 --> 00:27:14.080 align:left position:22%
+<c.teletext>Jag jobbar med en stylist
+som inte gör sitt jobb.</c>
+
+1cc34691-4fe9-4eeb-aab3-b5566e9896ae
+00:27:14.240 --> 00:27:16.920 align:left position:22%
+<c.teletext>Well, your stylist is fishing.</c>
+
+cd4f9a9a-1ca8-4830-869b-306dff5212b2
+00:27:17.080 --> 00:27:20.720 align:left position:22%
+<c.teletext>Havet är djupt... Akta dig, Oscar!</c>
+
+272ab789-0e48-4fa8-85f2-30b093c07916
+00:27:20.880 --> 00:27:24.400 align:left position:22%
+<c.teletext>Men du behöver inte kasta ut den.
+Då får jag väl flytta mig först.</c>
+
+77f21122-a1f5-4395-a1a3-9941fe3a1733
+00:27:24.560 --> 00:27:26.280 align:left position:22%
+<c.teletext>Ja!</c>
+
+47d1e03c-98f3-492f-9676-c522726984cb
+00:27:28.200 --> 00:27:30.240 align:left position:22%
+<c.teletext>Vad gör ni om jag får gammelgäddan?</c>
+
+936e6504-5f9e-4438-bb66-28ef33607713
+00:27:30.400 --> 00:27:32.200 align:left position:22%
+<c.teletext>–Då hoppar inte jag i.
+–Vad var det?</c>
+
+d7275e4c-a05f-44dd-96b4-ebe785efaf9a
+00:27:32.360 --> 00:27:36.040 align:left position:22%
+<c.teletext>Var det en fucking...?
+Var det en fisk?</c>
+
+14f3f534-41f7-4802-9a4b-76a2ba03d28c
+00:27:36.200 --> 00:27:38.360 align:left position:22%
+<c.teletext>Du har fått napp!</c>
+
+70dc9371-c71d-45ff-addd-c8ccd5fac9e2
+00:27:38.520 --> 00:27:40.480 align:left position:22%
+<c.teletext>Är det napp?</c>
+
+2547cefe-e00e-4a4c-9639-621e2335437c
+00:27:40.640 --> 00:27:43.240 align:left position:22%
+<c.teletext>Jag har fastnat, fattar ni väl.</c>
+
+42d2f41b-fa0a-4c30-a35f-be9fff1892a3
+00:27:45.040 --> 00:27:46.480 align:left position:22%
+<c.teletext>Sluta larva er nu.</c>
+
+4155aefc-a3a9-4bec-a622-978acc950eda
+00:27:46.640 --> 00:27:49.200 align:left position:22%
+<c.teletext>–Jävlar, vad svårt det är.
+–Ni fixar det här galant.</c>
+
+2855fcb6-ab0b-4fce-b99b-8418fb8d84f0
+00:27:49.360 --> 00:27:51.600 align:left position:22%
+<c.teletext>–Gud, vilken fart. Ser ni?
+–Ja.</c>
+
+66b80a7b-3cf2-475f-b819-ba1a235fc6c9
+00:27:51.760 --> 00:27:53.440 align:left position:22%
+<c.teletext>Inte för långt ut, Edvin.</c>
+
+500717f5-dc28-4301-8557-d22193464265
+00:27:53.600 --> 00:27:55.600 align:left position:22%
+<c.teletext>Jag försöker vända,
+men det går inte.</c>
+
+eb0d9e8c-909e-405d-8e98-5a0ebf04da8d
+00:27:55.760 --> 00:27:57.520 align:left position:22%
+<c.teletext>Jag kan testa att stå upp.</c>
+
+60324f07-8956-4064-98f4-0c96c1d38ff0
+00:27:57.680 --> 00:28:00.320 align:left position:22%
+<c.teletext>Kasta inte ut nån krok nu här.</c>
+
+ae98eb74-45c3-4430-b11a-143c84f2e13c
+00:28:00.480 --> 00:28:03.680 align:left position:22%
+<c.teletext>–Hur fan ställde du dig upp?
+–Ett ben i taget.</c>
+
+b15bf284-db12-4f6b-8d1c-e5d36c4b3651
+00:28:03.840 --> 00:28:07.600 align:left position:22%
+<c.teletext>Hela foten i. Kolla rakt fram.
+Inte i horisonten.</c>
+
+06be070f-a963-4505-bb04-dd6617983d8c
+00:28:07.760 --> 00:28:10.640 align:left position:22%
+<c.teletext>Jävlar, vilken fisk!
+Bredvid dig, Oscar!</c>
+
+c4b9d69e-4917-4b10-98ba-ccbb6106665d
+00:28:14.960 --> 00:28:17.800 align:left position:22%
+<c.teletext>–Gud, det är grejer i vattnet!
+–Men sluta!</c>
+
+3da794dc-2a5a-43eb-99be-db2a62dd6edf
+00:28:17.960 --> 00:28:20.440 align:left position:22%
+<c.teletext>Vem är det nu som är en fjolla?</c>
+
+7711f926-ad8a-4584-8034-40de9743cc95
+00:28:20.600 --> 00:28:24.720 align:left position:22%
+<c.teletext>Nej... Ska vi ta ett litet glas
+till det här?</c>
+
+0444ec5b-89fc-4958-bec8-490eaf774dda
+00:28:24.880 --> 00:28:26.800 align:left position:22%
+<c.teletext>Jamen lite rosé.</c>
+
+be440912-d0ee-437f-872e-aac4201b71ac
+00:28:26.960 --> 00:28:29.280 align:left position:22%
+<c.teletext>–Vad vill du ha, Oscar?
+–Jag tar det ni tar.</c>
+
+fbb8acdd-611b-497c-a9d7-8342b5548a0f
+00:28:29.440 --> 00:28:32.080 align:left position:22%
+<c.teletext>Rosé och kanske lite chips i en skål.</c>
+
+3218a734-c658-4b9d-a350-ea74f2cec7de
+00:28:32.240 --> 00:28:34.480 align:left position:22%
+<c.teletext>–Det fixar jag.
+–Nu hoppar jag i.</c>
+
+367d7a12-fdc0-4474-8ed1-2cca43260270
+00:28:35.560 --> 00:28:39.120 align:left position:22%
+<c.teletext>–Wow! Bottnar du?
+–Fy fan, vad äcklig botten.</c>
+
+f4383c61-f716-48e7-b78c-d89295370f4e
+00:28:39.280 --> 00:28:41.920 align:left position:22%
+<c.teletext>Det är riktig...
+Vad heter det? Sån här lera.</c>
+
+e299c513-de7f-4569-97ee-e8c657ce1f34
+00:28:42.080 --> 00:28:43.880 align:left position:22%
+<c.teletext>–Vad heter det?
+–Lera.</c>
+
+944d2d7e-e0e1-4dd8-b396-57a8fdc19635
+00:28:44.040 --> 00:28:47.360 align:left position:22%
+<c.teletext>–Men det är väldigt varmt.
+–Gyttja.</c>
+
+3c6b2871-68f4-4c52-bd4a-d08ecfef756f
+00:28:47.520 --> 00:28:50.240 align:left position:22%
+<c.teletext>–Bajs.
+–Ja.</c>
+
+0c655014-8825-474b-b44d-83d04cb14606
+00:28:56.080 --> 00:28:59.400 align:left position:22%
+<c.teletext>Det är som upplagt
+för att jag ska säga nåt nu.</c>
+
+f3e06718-4612-4ef3-8d58-79a50ca36848
+00:29:00.640 --> 00:29:03.120 align:left position:22%
+<c.teletext>Men kan inte solen komma fram?</c>
+
+85ef1568-6969-4ba7-9a89-d30854387ef7
+00:29:03.280 --> 00:29:05.480 align:left position:22%
+<c.teletext>Är det där regn?</c>
+
+028a3e70-2236-4e49-9fc7-95b7c0bd7ae1
+00:29:06.480 --> 00:29:09.520 align:left position:22%
+<c.teletext>Jag fattar inte
+varför det är så svårt.</c>
+
+88565656-d025-4da3-b650-d4c27185a9c8
+00:29:09.680 --> 00:29:12.680 align:left position:22%
+<c.teletext>Varför kan jag inte bara säga det?</c>
+
+8dcc9e48-fd1e-49d6-b02d-e13f3b1079d1
+00:29:12.840 --> 00:29:15.120 align:left position:22%
+<c.teletext>Du tycker inte det är kallt.
+Det är varmare i vattnet.</c>
+
+57b9d15a-333d-496e-9e76-3026da876e37
+00:29:15.280 --> 00:29:17.480 align:left position:22%
+<c.teletext>Ja, men det är typ det.</c>
+
+bc2cbcb8-c6d6-469b-a1a4-b2177ed3f1af
+00:29:22.320 --> 00:29:26.040 align:left position:22%
+<c.teletext>Av nån anledning
+känns det här helt omöjligt.</c>
+
+2746ea5f-1e10-4097-b800-8f0733caaf3f
+00:29:34.080 --> 00:29:36.840 align:left position:22%
+<c.teletext>Nu säger jag det bara.</c>
+
+aa5dfb09-6f85-4f39-9e56-fb3ebba96e17
+00:29:39.840 --> 00:29:43.840 align:center position:50%
+<c.teletext>Textning: Iyuno för SVT</c>
+

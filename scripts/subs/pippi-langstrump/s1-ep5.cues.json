@@ -1,0 +1,902 @@
+[
+  {
+    "i": 0,
+    "start": "00:00:14.240",
+    "end": "00:00:17.920",
+    "text": "Har den äran, kära Pippi!"
+  },
+  {
+    "i": 1,
+    "start": "00:00:18.080",
+    "end": "00:00:24.840",
+    "text": "Ja, må jag leva, ja, må du leva,\nja, må du leva uti hundrade år"
+  },
+  {
+    "i": 2,
+    "start": "00:00:25.000",
+    "end": "00:00:31.440",
+    "text": "Ja, må du leva, ja, må du leva,\nja, må du leva uti hundrade år!"
+  },
+  {
+    "i": 3,
+    "start": "00:00:32.800",
+    "end": "00:00:39.280",
+    "text": "Hurra...hurra...hurra...hurra!\nHURRAAAA!"
+  },
+  {
+    "i": 4,
+    "start": "00:00:41.920",
+    "end": "00:00:47.560",
+    "text": "Att peta pengar ur spargrisar\när jobbigt..."
+  },
+  {
+    "i": 5,
+    "start": "00:00:47.720",
+    "end": "00:00:52.000",
+    "text": "...men vi måste ju\nköpa en present åt Pippi."
+  },
+  {
+    "i": 6,
+    "start": "00:00:53.600",
+    "end": "00:00:55.600",
+    "text": "En ettöring!"
+  },
+  {
+    "i": 7,
+    "start": "00:00:55.760",
+    "end": "00:01:00.760",
+    "text": "Barn, ska ni inte snygga till er\ntill kalaset?"
+  },
+  {
+    "i": 8,
+    "start": "00:01:00.920",
+    "end": "00:01:06.560",
+    "text": "Det är inte lönt\nnär vi ska till Pippi."
+  },
+  {
+    "i": 9,
+    "start": "00:01:06.720",
+    "end": "00:01:09.840",
+    "text": "Hurra – en tvåkrona!"
+  },
+  {
+    "i": 10,
+    "start": "00:01:10.000",
+    "end": "00:01:15.600",
+    "text": "–Glöm inte regnrockarna!\n–Nej då."
+  },
+  {
+    "i": 11,
+    "start": "00:01:17.240",
+    "end": "00:01:22.240",
+    "text": "Det var ett ruggigt väder\nden här dagen."
+  },
+  {
+    "i": 12,
+    "start": "00:01:35.560",
+    "end": "00:01:41.200",
+    "text": "Det är lögn. Ingen har en kappsäck\nfull av guldslantar."
+  },
+  {
+    "i": 13,
+    "start": "00:01:41.360",
+    "end": "00:01:47.120",
+    "text": "Men OM den finns – blixtsnabbt\när Dunder-Karlsson där!"
+  },
+  {
+    "i": 14,
+    "start": "00:01:47.280",
+    "end": "00:01:50.800",
+    "text": "Det kan vara ganska farligt."
+  },
+  {
+    "i": 15,
+    "start": "00:01:50.960",
+    "end": "00:01:55.360",
+    "text": "Äh, vi hälsar bara på\noch ser oss omkring."
+  },
+  {
+    "i": 16,
+    "start": "00:01:55.520",
+    "end": "00:02:01.200",
+    "text": "Om vi då ser en kappsäck\nfull med guldpengar, är saken klar."
+  },
+  {
+    "i": 17,
+    "start": "00:02:02.480",
+    "end": "00:02:06.360",
+    "text": "Sjuttifem...sjuttisex..."
+  },
+  {
+    "i": 18,
+    "start": "00:02:08.120",
+    "end": "00:02:13.120",
+    "text": "...sjuttinio, sjutti-tio,\nsjutti-elva..."
+  },
+  {
+    "i": 19,
+    "start": "00:02:15.200",
+    "end": "00:02:19.160",
+    "text": "...sjutti-tolv, sjutti-sjutton..."
+  },
+  {
+    "i": 20,
+    "start": "00:02:19.320",
+    "end": "00:02:22.160",
+    "text": "DET KNACKAR"
+  },
+  {
+    "i": 21,
+    "start": "00:02:22.320",
+    "end": "00:02:27.520",
+    "text": "Kom in! Eller stå kvar,\nom ni hellre vill det."
+  },
+  {
+    "i": 22,
+    "start": "00:02:32.400",
+    "end": "00:02:37.120",
+    "text": "Nä, titta! – God dag..."
+  },
+  {
+    "i": 23,
+    "start": "00:02:37.280",
+    "end": "00:02:43.520",
+    "text": "Hej! Jag trodde det var Tommy\noch Annika. Kul att ni kom."
+  },
+  {
+    "i": 24,
+    "start": "00:02:45.720",
+    "end": "00:02:50.280",
+    "text": "Vill ni vara med\npå mitt födelsedagskalas?"
+  },
+  {
+    "i": 25,
+    "start": "00:02:50.440",
+    "end": "00:02:54.440",
+    "text": "Vi vill bara fråga vad klockan är."
+  },
+  {
+    "i": 26,
+    "start": "00:02:56.480",
+    "end": "00:03:02.040",
+    "text": "–Bor du ensam här?\n–Nej, Herr Nilsson är också hemma."
+  },
+  {
+    "i": 27,
+    "start": "00:03:02.200",
+    "end": "00:03:06.240",
+    "text": "–Är han där inne?\n–Ja...där inne."
+  },
+  {
+    "i": 28,
+    "start": "00:03:06.400",
+    "end": "00:03:12.520",
+    "text": "–Han är förstås stark...?\n–Ja, han är jätte-jättestark."
+  },
+  {
+    "i": 29,
+    "start": "00:03:12.680",
+    "end": "00:03:18.880",
+    "text": "–Vi ville bara fråga vad klockan är.\n–Fråga, då!"
+  },
+  {
+    "i": 30,
+    "start": "00:03:19.040",
+    "end": "00:03:25.760",
+    "text": "–Du skulle ju fråga vad klockan är.\n–Ja, just det. Vad är klockan?"
+  },
+  {
+    "i": 31,
+    "start": "00:03:25.920",
+    "end": "00:03:32.800",
+    "text": "Klockan är en liten manick som säger\ntick-tack-tick, tack–tick–tick."
+  },
+  {
+    "i": 32,
+    "start": "00:03:32.960",
+    "end": "00:03:37.560",
+    "text": "Jag har ingen. Jag bryr mig inte om\nvad en klocka är."
+  },
+  {
+    "i": 33,
+    "start": "00:03:37.720",
+    "end": "00:03:41.760",
+    "text": "Tack för oss. Adjö..."
+  },
+  {
+    "i": 34,
+    "start": "00:03:44.840",
+    "end": "00:03:50.200",
+    "text": "Elfti-elfte, elfti-tolfte,\nelfti-trettonde..."
+  },
+  {
+    "i": 35,
+    "start": "00:03:52.240",
+    "end": "00:03:57.520",
+    "text": "...sjutti-tionde, sjutti-artonde,\nsjutti-tjugoett..."
+  },
+  {
+    "i": 36,
+    "start": "00:03:57.680",
+    "end": "00:04:03.160",
+    "text": "Det förstår du väl: är han så stark,\när det farligt att gå dit."
+  },
+  {
+    "i": 37,
+    "start": "00:04:03.320",
+    "end": "00:04:10.840",
+    "text": "På natten måste han väl ändå sova?\nDå kommer Dunder-Karlsson och Blom!"
+  },
+  {
+    "i": 38,
+    "start": "00:04:39.880",
+    "end": "00:04:46.320",
+    "text": "Men lilla gubben!\nFesten har inte börjat än."
+  },
+  {
+    "i": 39,
+    "start": "00:06:01.240",
+    "end": "00:06:05.360",
+    "text": "Herr Nilsson – låt bli sockerskålen!"
+  },
+  {
+    "i": 40,
+    "start": "00:06:44.920",
+    "end": "00:06:47.760",
+    "text": "–Hej!\n–Grattis, Pippi!"
+  },
+  {
+    "i": 41,
+    "start": "00:06:47.920",
+    "end": "00:06:52.040",
+    "text": "Tack, snälla ni. Kom så går vi in."
+  },
+  {
+    "i": 42,
+    "start": "00:06:58.760",
+    "end": "00:07:03.760",
+    "text": "SPELDOSAN SPELAR"
+  },
+  {
+    "i": 43,
+    "start": "00:07:03.920",
+    "end": "00:07:11.240",
+    "text": "En jättefin present, tyckte Pippi.\nEn sån hade hon alltid önskat sig."
+  },
+  {
+    "i": 44,
+    "start": "00:07:13.640",
+    "end": "00:07:20.080",
+    "text": "–Tänk, sen fick VI presenter...\n–...fast vi inte hade födelsedag."
+  },
+  {
+    "i": 45,
+    "start": "00:07:20.240",
+    "end": "00:07:26.720",
+    "text": "–Så brukar man inte göra.\n–Så gör JAG. Det brukar bli bra så."
+  },
+  {
+    "i": 46,
+    "start": "00:07:29.880",
+    "end": "00:07:33.320",
+    "text": "Å, vad du är snäll, Pippi!"
+  },
+  {
+    "i": 47,
+    "start": "00:09:06.280",
+    "end": "00:09:10.600",
+    "text": "–Oj, vad jag är mätt!\n–Jag med."
+  },
+  {
+    "i": 48,
+    "start": "00:09:10.760",
+    "end": "00:09:16.840",
+    "text": "–Jag med.\n–Nej, kom nu, så dukar vi av!"
+  },
+  {
+    "i": 49,
+    "start": "00:09:22.640",
+    "end": "00:09:29.080",
+    "text": "Jag vill snygga upp när jag ätit.\nGör ni det på era kalas?"
+  },
+  {
+    "i": 50,
+    "start": "00:09:29.240",
+    "end": "00:09:34.480",
+    "text": "–Ja, det är klart.\n–Men inte på det här viset."
+  },
+  {
+    "i": 51,
+    "start": "00:09:40.760",
+    "end": "00:09:46.400",
+    "text": "–Vad ska vi göra nu?\n–Vad brukar ni göra på era kalas?"
+  },
+  {
+    "i": 52,
+    "start": "00:09:46.560",
+    "end": "00:09:51.120",
+    "text": "–Gå upp på vinden och se på spökena?\n–Nej!"
+  },
+  {
+    "i": 53,
+    "start": "00:09:51.280",
+    "end": "00:09:57.400",
+    "text": "Ska vi göra det? Det kryllar\nav spöken och gastar där uppe."
+  },
+  {
+    "i": 54,
+    "start": "00:09:57.560",
+    "end": "00:10:00.600",
+    "text": "Mamma säger att det inte finns några."
+  },
+  {
+    "i": 55,
+    "start": "00:10:00.760",
+    "end": "00:10:08.920",
+    "text": "Nej, för de är hos MIG, hela bunten.\nDe spelar krocket med sina huvuden."
+  },
+  {
+    "i": 56,
+    "start": "00:10:09.080",
+    "end": "00:10:14.960",
+    "text": "–Så hemskt!\n–Va? Det är KUL att spela krocket."
+  },
+  {
+    "i": 57,
+    "start": "00:10:15.120",
+    "end": "00:10:20.080",
+    "text": "–Nu går vi upp på vinden.\n–Aldrig i livet!"
+  },
+  {
+    "i": 58,
+    "start": "00:10:20.240",
+    "end": "00:10:24.800",
+    "text": "Tänk om det kommer ett spöke\nnär du är ensam..."
+  },
+  {
+    "i": 59,
+    "start": "00:10:24.960",
+    "end": "00:10:29.920",
+    "text": "–Usch, säg inte så där!\n–Kom nu, Annika!"
+  },
+  {
+    "i": 60,
+    "start": "00:10:32.160",
+    "end": "00:10:36.240",
+    "text": "Ja, det är nog bäst att jag går med."
+  },
+  {
+    "i": 61,
+    "start": "00:10:58.320",
+    "end": "00:11:01.960",
+    "text": "Hej, alla spöken och gastar!"
+  },
+  {
+    "i": 62,
+    "start": "00:11:52.160",
+    "end": "00:11:58.000",
+    "text": "DET KNARRAR OCH GNISSLAR"
+  },
+  {
+    "i": 63,
+    "start": "00:12:20.560",
+    "end": "00:12:24.640",
+    "text": "KRAAA KRAAA"
+  },
+  {
+    "i": 64,
+    "start": "00:12:31.000",
+    "end": "00:12:38.560",
+    "text": "Just vad jag trodde: de är på möte\ni spök– och gasteriföreningen."
+  },
+  {
+    "i": 65,
+    "start": "00:12:38.720",
+    "end": "00:12:41.200",
+    "text": "–Ett spöke!\n–AAAAH!"
+  },
+  {
+    "i": 66,
+    "start": "00:12:43.080",
+    "end": "00:12:47.040",
+    "text": "Den kommer sent till sammanträdet."
+  },
+  {
+    "i": 67,
+    "start": "00:12:47.200",
+    "end": "00:12:55.280",
+    "text": "Äh, det finns inga spöken. När jag\ntänker på det, var det nog en uggla."
+  },
+  {
+    "i": 68,
+    "start": "00:12:55.440",
+    "end": "00:13:00.160",
+    "text": "Den som säger att det finns spöken\nvrider jag om trynet på!"
+  },
+  {
+    "i": 69,
+    "start": "00:13:00.320",
+    "end": "00:13:05.600",
+    "text": "–Det sa du ju själv.\n–Gjorde JAG? I så fall..."
+  },
+  {
+    "i": 70,
+    "start": "00:13:36.920",
+    "end": "00:13:41.840",
+    "text": "–\"Häxorna på Blåkulla\"...\n–Usch, så hemskt!"
+  },
+  {
+    "i": 71,
+    "start": "00:14:00.720",
+    "end": "00:14:05.880",
+    "text": "KUSLIG MUSIK"
+  },
+  {
+    "i": 72,
+    "start": "00:15:08.520",
+    "end": "00:15:10.840",
+    "text": "Krrrsssch!"
+  },
+  {
+    "i": 73,
+    "start": "00:15:41.120",
+    "end": "00:15:43.200",
+    "text": "AAAAAAH!"
+  },
+  {
+    "i": 74,
+    "start": "00:16:06.880",
+    "end": "00:16:10.280",
+    "text": "TUUUUT"
+  },
+  {
+    "i": 75,
+    "start": "00:16:45.320",
+    "end": "00:16:48.440",
+    "text": "–Titta!\n–Ett spöke! AAAAH!"
+  },
+  {
+    "i": 76,
+    "start": "00:16:48.600",
+    "end": "00:16:56.080",
+    "text": "Vad skriker ni för? Jag har hittat\nen kanon och pappas nattskjorta."
+  },
+  {
+    "i": 77,
+    "start": "00:16:56.240",
+    "end": "00:17:02.480",
+    "text": "–Du får inte skrämmas så, Pippi!\n–Nattskjortor är inte farliga."
+  },
+  {
+    "i": 78,
+    "start": "00:17:02.640",
+    "end": "00:17:06.200",
+    "text": "De bits bara i självförsvar."
+  },
+  {
+    "i": 79,
+    "start": "00:17:06.360",
+    "end": "00:17:10.880",
+    "text": "-Titta! Fler knallpåkar! Vill ni ha?\n-Ja!"
+  },
+  {
+    "i": 80,
+    "start": "00:17:13.040",
+    "end": "00:17:16.000",
+    "text": "Men vi får nog inte ha dem för mamma."
+  },
+  {
+    "i": 81,
+    "start": "00:17:16.160",
+    "end": "00:17:21.640",
+    "text": "–De är väl inte laddade?\n–Nej. Tror du jag är galen?!"
+  },
+  {
+    "i": 82,
+    "start": "00:17:34.880",
+    "end": "00:17:38.080",
+    "text": "Hej, alla spöken och gastar!"
+  },
+  {
+    "i": 83,
+    "start": "00:17:48.080",
+    "end": "00:17:53.480",
+    "text": "Låt aldrig barn få tag i skjutvapen,\nsa mormor jämt."
+  },
+  {
+    "i": 84,
+    "start": "00:17:57.920",
+    "end": "00:18:01.880",
+    "text": "Det kan hända en olycka, sa mormor."
+  },
+  {
+    "i": 85,
+    "start": "00:18:02.040",
+    "end": "00:18:07.200",
+    "text": "Jag kanske träffade spökena i benen.\nRätt åt dem!"
+  },
+  {
+    "i": 86,
+    "start": "00:18:07.360",
+    "end": "00:18:13.880",
+    "text": "–Det finns ju inga spöken?\n–Nej...men de ska inte skrämmas."
+  },
+  {
+    "i": 87,
+    "start": "00:18:14.040",
+    "end": "00:18:20.840",
+    "text": "–En konstig födelsedag...men rolig.\n–Vi måste sjunga \"Ja, må hon leva\"!"
+  },
+  {
+    "i": 88,
+    "start": "00:18:21.000",
+    "end": "00:18:25.480",
+    "text": "Ja, må hon leva, ja, må hon leva"
+  },
+  {
+    "i": 89,
+    "start": "00:18:25.640",
+    "end": "00:18:30.200",
+    "text": "ja, må hon leva uti hundrade år!"
+  },
+  {
+    "i": 90,
+    "start": "00:18:30.360",
+    "end": "00:18:34.400",
+    "text": "Ja, visst ska hon leva,\nja, visst ska hon leva"
+  },
+  {
+    "i": 91,
+    "start": "00:18:34.560",
+    "end": "00:18:39.240",
+    "text": "ja, visst ska hon leva\nuti hundrade år!"
+  },
+  {
+    "i": 92,
+    "start": "00:18:39.400",
+    "end": "00:18:44.160",
+    "text": "–Tack ska ni ha.\n–Vi måste gå nu, Pippi."
+  },
+  {
+    "i": 93,
+    "start": "00:18:52.040",
+    "end": "00:18:54.240",
+    "text": "God natt, Pippi."
+  },
+  {
+    "i": 94,
+    "start": "00:18:54.400",
+    "end": "00:18:59.480",
+    "text": "–Tack ska du ha.\n–Tack själva. Hej, hej!"
+  },
+  {
+    "i": 95,
+    "start": "00:19:01.440",
+    "end": "00:19:05.200",
+    "text": "Jag ska bli sjörövare. Ska ni det?"
+  },
+  {
+    "i": 96,
+    "start": "00:19:05.360",
+    "end": "00:19:10.520",
+    "text": "–Jag vet inte riktigt...\n–Men det ska JAG!"
+  },
+  {
+    "i": 97,
+    "start": "00:19:14.520",
+    "end": "00:19:18.200",
+    "text": "–Nu somnar hon snart.\n–Atjooo!"
+  },
+  {
+    "i": 98,
+    "start": "00:19:18.360",
+    "end": "00:19:21.000",
+    "text": "Tyst med dig!"
+  },
+  {
+    "i": 99,
+    "start": "00:19:32.640",
+    "end": "00:19:37.440",
+    "text": "Sov, min lilla lusegris,\nsov, min lilla knallhatt"
+  },
+  {
+    "i": 100,
+    "start": "00:19:37.600",
+    "end": "00:19:43.080",
+    "text": "Nog tycker jag på sätt och vis\ndet vore bra ifall att"
+  },
+  {
+    "i": 101,
+    "start": "00:19:43.240",
+    "end": "00:19:48.320",
+    "text": "du lät bli att bråka nu\nför nu är klockan över sju"
+  },
+  {
+    "i": 102,
+    "start": "00:19:48.480",
+    "end": "00:19:52.400",
+    "text": "och då ska lusegrisar sova!"
+  },
+  {
+    "i": 103,
+    "start": "00:20:17.160",
+    "end": "00:20:20.520",
+    "text": "Ha ha ha... Nu du, Blom!"
+  },
+  {
+    "i": 104,
+    "start": "00:20:27.200",
+    "end": "00:20:34.360",
+    "text": "–Tror du gubben Nilsson sover nu?\n–Ja, det är klart att han sover."
+  },
+  {
+    "i": 105,
+    "start": "00:20:42.160",
+    "end": "00:20:46.640",
+    "text": "Dörren är öppen! Är de inte kloka?"
+  },
+  {
+    "i": 106,
+    "start": "00:21:08.600",
+    "end": "00:21:11.080",
+    "text": "Ååå!"
+  },
+  {
+    "i": 107,
+    "start": "00:21:56.840",
+    "end": "00:22:01.240",
+    "text": "Fånigt! Fötterna på kudden...\nUngar är inte kloka."
+  },
+  {
+    "i": 108,
+    "start": "00:22:01.400",
+    "end": "00:22:05.560",
+    "text": "–Sover hon, då?\n–Det är klart!"
+  },
+  {
+    "i": 109,
+    "start": "00:22:05.720",
+    "end": "00:22:10.680",
+    "text": "Ungar kan man ställa på huvudet\nutan att de vaknar."
+  },
+  {
+    "i": 110,
+    "start": "00:22:10.840",
+    "end": "00:22:16.520",
+    "text": "–Men var ligger Nilsson?\n–HERR Nilsson, om jag får be!"
+  },
+  {
+    "i": 111,
+    "start": "00:22:16.680",
+    "end": "00:22:24.000",
+    "text": "–Han ligger i den röda docksängen.\n–I den röda...vad då?"
+  },
+  {
+    "i": 112,
+    "start": "00:22:24.160",
+    "end": "00:22:28.000",
+    "text": "Blom, vet du vem Herr Nilsson är?"
+  },
+  {
+    "i": 113,
+    "start": "00:22:28.160",
+    "end": "00:22:31.520",
+    "text": "En apa!"
+  },
+  {
+    "i": 114,
+    "start": "00:22:34.880",
+    "end": "00:22:40.000",
+    "text": "Vad trodde du han var?\nEn gräsklippningsmaskin?"
+  },
+  {
+    "i": 115,
+    "start": "00:22:40.160",
+    "end": "00:22:46.400",
+    "text": "–Flicka, kom fram! Vi vill prata.\n–Nej, jag sover."
+  },
+  {
+    "i": 116,
+    "start": "00:22:46.560",
+    "end": "00:22:53.000",
+    "text": "–Stig upp, har jag sagt!\n–Vill ni veta vad klockan är igen?"
+  },
+  {
+    "i": 117,
+    "start": "00:22:53.160",
+    "end": "00:22:57.560",
+    "text": "Du... Var är din pappa och mamma?"
+  },
+  {
+    "i": 118,
+    "start": "00:22:57.720",
+    "end": "00:23:04.120",
+    "text": "–De är borta...alldeles borta.\n–Kan du säga var kappsäcken är?"
+  },
+  {
+    "i": 119,
+    "start": "00:23:04.280",
+    "end": "00:23:07.880",
+    "text": "Den står på skåpet."
+  },
+  {
+    "i": 120,
+    "start": "00:23:08.040",
+    "end": "00:23:13.120",
+    "text": "–Har du något emot att vi tar den?\n–Nej då."
+  },
+  {
+    "i": 121,
+    "start": "00:23:13.280",
+    "end": "00:23:18.040",
+    "text": "Har ni något emot\natt jag tar tillbaka den?"
+  },
+  {
+    "i": 122,
+    "start": "00:23:23.480",
+    "end": "00:23:29.600",
+    "text": "–Så får man inte göra.\n–Så gör JAG. Det blir så bra SÅ."
+  },
+  {
+    "i": 123,
+    "start": "00:23:33.680",
+    "end": "00:23:38.440",
+    "text": "Vänta bara! Nu, flicka lilla..."
+  },
+  {
+    "i": 124,
+    "start": "00:23:43.080",
+    "end": "00:23:48.840",
+    "text": "–Sitter du bra där uppe?\n–Förlåt oss, snälla fröken..."
+  },
+  {
+    "i": 125,
+    "start": "00:23:49.000",
+    "end": "00:23:53.880",
+    "text": "–Vi har inte menat något illa.\n–Nej, inte alls!"
+  },
+  {
+    "i": 126,
+    "start": "00:23:54.040",
+    "end": "00:24:00.360",
+    "text": "Du vet inte hur det känns\natt jämt gå och vara hungrig."
+  },
+  {
+    "i": 127,
+    "start": "00:24:03.440",
+    "end": "00:24:08.600",
+    "text": "–Har ni inget att äta?\n–Nej...ingenting alls."
+  },
+  {
+    "i": 128,
+    "start": "00:24:08.760",
+    "end": "00:24:16.040",
+    "text": "Annars skulle vi aldrig nånsin\ndrömma om att stjäla av andra."
+  },
+  {
+    "i": 129,
+    "start": "00:24:16.200",
+    "end": "00:24:21.280",
+    "text": "–Vi är verkligen hungriga.\n–Ja!"
+  },
+  {
+    "i": 130,
+    "start": "00:24:21.440",
+    "end": "00:24:24.080",
+    "text": "Stackars er!"
+  },
+  {
+    "i": 131,
+    "start": "00:24:25.200",
+    "end": "00:24:29.320",
+    "text": "Jag har bara lite gräddtårta.\nVill ni ha det?"
+  },
+  {
+    "i": 132,
+    "start": "00:24:29.480",
+    "end": "00:24:35.160",
+    "text": "–Gräddtårta!\n–Ja...det vore smaskens."
+  },
+  {
+    "i": 133,
+    "start": "00:24:37.560",
+    "end": "00:24:41.320",
+    "text": "Ja...det vore det verkligen."
+  },
+  {
+    "i": 134,
+    "start": "00:24:42.080",
+    "end": "00:24:44.400",
+    "text": "Vänta då."
+  },
+  {
+    "i": 135,
+    "start": "00:24:52.080",
+    "end": "00:24:55.160",
+    "text": "Kvicka på – vi sticker!"
+  },
+  {
+    "i": 136,
+    "start": "00:24:57.960",
+    "end": "00:25:00.120",
+    "text": "STOPP!"
+  },
+  {
+    "i": 137,
+    "start": "00:25:05.960",
+    "end": "00:25:09.840",
+    "text": "Ni ville ju ha gräddtårta!"
+  },
+  {
+    "i": 138,
+    "start": "00:25:15.520",
+    "end": "00:25:18.160",
+    "text": "Blom!"
+  },
+  {
+    "i": 139,
+    "start": "00:25:26.440",
+    "end": "00:25:30.280",
+    "text": "Fy fabian, vad de var tarvliga!"
+  },
+  {
+    "i": 140,
+    "start": "00:25:31.920",
+    "end": "00:25:38.480",
+    "text": "Varför sa de att de ville ha\ngräddtårta när det inte var sant?"
+  },
+  {
+    "i": 141,
+    "start": "00:25:38.640",
+    "end": "00:25:43.080",
+    "text": "De var kanske hungriga i alla fall."
+  },
+  {
+    "i": 142,
+    "start": "00:25:43.240",
+    "end": "00:25:50.560",
+    "text": "Mamma...jag ville ge dem var sin\nguldpeng, men de sprang sin väg."
+  },
+  {
+    "i": 143,
+    "start": "00:26:09.960",
+    "end": "00:26:16.000",
+    "text": "Om det kommer tjuvar,\nja, ett par riktigt hemska tjuvar"
+  },
+  {
+    "i": 144,
+    "start": "00:26:16.160",
+    "end": "00:26:22.400",
+    "text": "såna som vill stjäla\noch bara ta vad de vill ha"
+  },
+  {
+    "i": 145,
+    "start": "00:26:22.560",
+    "end": "00:26:28.360",
+    "text": "kommer tyst om natten\nnär alla sover utom katten"
+  },
+  {
+    "i": 146,
+    "start": "00:26:28.520",
+    "end": "00:26:34.200",
+    "text": "smyger in i huset\nför att se vad det finns att ta"
+  },
+  {
+    "i": 147,
+    "start": "00:26:34.360",
+    "end": "00:26:38.480",
+    "text": "Då kommer Pippi Långstrump!\nTjolahopp, tjolahej, tjolahoppsansa"
+  },
+  {
+    "i": 148,
+    "start": "00:26:38.640",
+    "end": "00:26:42.960",
+    "text": "Då kommer Pippi Långstrump\noch så blir allting bra..."
+  },
+  {
+    "i": 149,
+    "start": "00:26:57.120",
+    "end": "00:27:00.440",
+    "text": "Textning: Inger Sjöstrand\nSveriges Television AB"
+  }
+]

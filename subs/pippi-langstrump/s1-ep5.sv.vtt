@@ -1,0 +1,721 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+e6571149eb3f4a4a9e44974bfe0eb871
+00:00:14.240 --> 00:00:17.920 align:left position:18%
+<c.teletext><c.huvudpratare>Har den äran, kära Pippi!</c></c>
+
+e275823e0646432487bfb088b3c9ff2f
+00:00:18.080 --> 00:00:24.840 align:left position:18%
+<c.teletext><c.sang>Ja, må jag leva, ja, må du leva,</c>
+<c.sang>ja, må du leva uti hundrade år</c></c>
+
+24d7c46a67304b05bbee3c2dac6e271a
+00:00:25.000 --> 00:00:31.440 align:left position:18%
+<c.teletext><c.sang>Ja, må du leva, ja, må du leva,</c>
+<c.sang>ja, må du leva uti hundrade år!</c></c>
+
+dc0af74b2e08435899a94ae3535a2993
+00:00:32.800 --> 00:00:39.280 align:left position:18%
+<c.teletext><c.huvudpratare>Hurra...hurra...hurra...hurra!</c>
+<c.huvudpratare>HURRAAAA!</c></c>
+
+30fc3e212edc408ca7c7adb5eb90f286
+00:00:41.920 --> 00:00:47.560 align:left position:18%
+<c.teletext><c.urfjarran><i>Att peta pengar ur spargrisar</i></c>
+<c.urfjarran><i>är jobbigt...</i></c></c>
+
+a418e0d55c394f9f83d3b6aa5cc22a48
+00:00:47.720 --> 00:00:52.000 align:left position:18%
+<c.teletext><c.urfjarran><i>...men vi måste ju</i></c>
+<c.urfjarran><i>köpa en present åt Pippi.</i></c></c>
+
+ec22fc8363ba42789fb5c1e1808e31b7
+00:00:53.600 --> 00:00:55.600 align:left position:18%
+<c.teletext>En ettöring!</c>
+
+5c0b357a824249b488bf7700231fcbe3
+00:00:55.760 --> 00:01:00.760 align:left position:18%
+<c.teletext>Barn, ska ni inte snygga till er
+till kalaset?</c>
+
+616a9631a7004481aba4568be4d43173
+00:01:00.920 --> 00:01:06.560 align:left position:18%
+<c.teletext>Det är inte lönt
+när vi ska till Pippi.</c>
+
+314629b472b94bdcbf46cd36dabf04e0
+00:01:06.720 --> 00:01:09.840 align:left position:18%
+<c.teletext>Hurra – en tvåkrona!</c>
+
+f29ef4520a04454f8570cd5027686dc3
+00:01:10.000 --> 00:01:15.600 align:left position:18%
+<c.teletext>–Glöm inte regnrockarna!
+–Nej då.</c>
+
+f01dc8dcc99b409fac3833e2277460ad
+00:01:17.240 --> 00:01:22.240 align:left position:18%
+<c.teletext><c.urfjarran><i>Det var ett ruggigt väder</i></c>
+<c.urfjarran><i>den här dagen.</i></c></c>
+
+e2f01e4639f844e697e434bc9aa90947
+00:01:35.560 --> 00:01:41.200 align:left position:18%
+<c.teletext>Det är lögn. Ingen har en kappsäck
+full av guldslantar.</c>
+
+5088392e3db248868ca16c67321c0a92
+00:01:41.360 --> 00:01:47.120 align:left position:18%
+<c.teletext>Men OM den finns – blixtsnabbt
+är Dunder-Karlsson där!</c>
+
+4393883d138d412fb75c0c7acb76fbb7
+00:01:47.280 --> 00:01:50.800 align:left position:18%
+<c.teletext>Det kan vara ganska farligt.</c>
+
+ba8c2ad89c524f6a80f0408cbe732a18
+00:01:50.960 --> 00:01:55.360 align:left position:18%
+<c.teletext>Äh, vi hälsar bara på
+och ser oss omkring.</c>
+
+6bbe64f3a8904aa7a2173139bf49755d
+00:01:55.520 --> 00:02:01.200 align:left position:18%
+<c.teletext>Om vi då ser en kappsäck
+full med guldpengar, är saken klar.</c>
+
+5f08ebb8d7da4e0299df7791de7ccfe3
+00:02:02.480 --> 00:02:06.360 align:left position:18%
+<c.teletext><c.huvudpratare>Sjuttifem...sjuttisex...</c></c>
+
+3b79c886ac8e46c1a6dc7e29a75075f8
+00:02:08.120 --> 00:02:13.120 align:left position:18%
+<c.teletext><c.huvudpratare>...sjuttinio, sjutti-tio,</c>
+<c.huvudpratare>sjutti-elva...</c></c>
+
+ceb966d0d0f3438fbb18f6bc309f270d
+00:02:15.200 --> 00:02:19.160 align:left position:18%
+<c.teletext><c.huvudpratare>...sjutti-tolv, sjutti-sjutton...</c></c>
+
+8ea86ee58a344cf8ab992573f83a238a
+00:02:19.320 --> 00:02:22.160 align:right position:82%
+<c.teletext><c.ljud>DET KNACKAR</c></c>
+
+25c63687c03544d3a7a4b5d5d0c1b9bc
+00:02:22.320 --> 00:02:27.520 align:left position:18%
+<c.teletext><c.huvudpratare>Kom in! Eller stå kvar,</c>
+<c.huvudpratare>om ni hellre vill det.</c></c>
+
+85a99009e26d41ff89b4a2fa37ea93f5
+00:02:32.400 --> 00:02:37.120 align:left position:18%
+<c.teletext>Nä, titta! – God dag...</c>
+
+a135e02f42564afaa015c25a7941fd08
+00:02:37.280 --> 00:02:43.520 align:left position:18%
+<c.teletext><c.huvudpratare>Hej! Jag trodde det var Tommy</c>
+<c.huvudpratare>och Annika. Kul att ni kom.</c></c>
+
+3c2a74d69d28446abbcaccf6c17a0ff6
+00:02:45.720 --> 00:02:50.280 align:left position:18%
+<c.teletext><c.huvudpratare>Vill ni vara med</c>
+<c.huvudpratare>på mitt födelsedagskalas?</c></c>
+
+e54be18448fe4f378d0e04a272fe0610
+00:02:50.440 --> 00:02:54.440 align:left position:18%
+<c.teletext>Vi vill bara fråga vad klockan är.</c>
+
+8edc3d045d7745b78882bf4affb34963
+00:02:56.480 --> 00:03:02.040 align:left position:18%
+<c.teletext>–Bor du ensam här?
+<c.huvudpratare>–Nej, Herr Nilsson är också hemma.</c></c>
+
+4c224d75e1f7431b83b959b707d67a32
+00:03:02.200 --> 00:03:06.240 align:left position:18%
+<c.teletext>–Är han där inne?
+<c.huvudpratare>–Ja...där inne.</c></c>
+
+17eb12bc89c446d8998db75590c85d6b
+00:03:06.400 --> 00:03:12.520 align:left position:18%
+<c.teletext>–Han är förstås stark...?
+<c.huvudpratare>–Ja, han är jätte-jättestark.</c></c>
+
+78da626202124cb790660d3434726fc9
+00:03:12.680 --> 00:03:18.880 align:left position:18%
+<c.teletext>–Vi ville bara fråga vad klockan är.
+<c.huvudpratare>–Fråga, då!</c></c>
+
+2f0e405bdd724378b56df3f1f1d60071
+00:03:19.040 --> 00:03:25.760 align:left position:18%
+<c.teletext><c.huvudpratare>–Du skulle ju fråga vad klockan är.</c>
+–Ja, just det. Vad är klockan?</c>
+
+cb2ceffc57114b35a7b8d7c401fd2854
+00:03:25.920 --> 00:03:32.800 align:left position:18%
+<c.teletext><c.huvudpratare>Klockan är en liten manick som säger</c>
+<c.huvudpratare>tick-tack-tick, tack–tick–tick.</c></c>
+
+c29071e20c0744439bef1aa0b6eea50c
+00:03:32.960 --> 00:03:37.560 align:left position:18%
+<c.teletext><c.huvudpratare>Jag har ingen. Jag bryr mig inte om</c>
+<c.huvudpratare>vad en klocka är.</c></c>
+
+3f062c57877d483287d172e90ac78b0d
+00:03:37.720 --> 00:03:41.760 align:left position:18%
+<c.teletext>Tack för oss. Adjö...</c>
+
+78a0a0e577594b8ab51174077df31780
+00:03:44.840 --> 00:03:50.200 align:left position:18%
+<c.teletext><c.huvudpratare>Elfti-elfte, elfti-tolfte,</c>
+<c.huvudpratare>elfti-trettonde...</c></c>
+
+b4191d18e00b451f99fcc8a79f16d3d4
+00:03:52.240 --> 00:03:57.520 align:left position:18%
+<c.teletext><c.huvudpratare>...sjutti-tionde, sjutti-artonde,</c>
+<c.huvudpratare>sjutti-tjugoett...</c></c>
+
+b97fd61f432d44cb9af3392566e0e432
+00:03:57.680 --> 00:04:03.160 align:left position:18%
+<c.teletext>Det förstår du väl: är han så stark,
+är det farligt att gå dit.</c>
+
+3b48d1544b594a938843c90c83939e8c
+00:04:03.320 --> 00:04:10.840 align:left position:18%
+<c.teletext>På natten måste han väl ändå sova?
+Då kommer Dunder-Karlsson och Blom!</c>
+
+863cce671e9f4add80c4af4b76c7bf68
+00:04:39.880 --> 00:04:46.320 align:left position:18%
+<c.teletext><c.huvudpratare>Men lilla gubben!</c>
+<c.huvudpratare>Festen har inte börjat än.</c></c>
+
+e921131a44534acaafd87fc6c16c6858
+00:06:01.240 --> 00:06:05.360 align:left position:18%
+<c.teletext><c.huvudpratare>Herr Nilsson – låt bli sockerskålen!</c></c>
+
+94504e8d5bbc437eaf0b07c40cc3918c
+00:06:44.920 --> 00:06:47.760 align:left position:18%
+<c.teletext><c.huvudpratare>–Hej!</c>
+–Grattis, Pippi!</c>
+
+1e89edbef3e6430e926d260379031a6b
+00:06:47.920 --> 00:06:52.040 align:left position:18%
+<c.teletext><c.huvudpratare>Tack, snälla ni. Kom så går vi in.</c></c>
+
+d6206a34d6b74fafac2c37d7bc22e8bf
+00:06:58.760 --> 00:07:03.760 align:right position:82%
+<c.teletext><c.ljud>SPELDOSAN SPELAR</c></c>
+
+c223dc5b519f47be9d5ab6e5053c88af
+00:07:03.920 --> 00:07:11.240 align:left position:18%
+<c.teletext><c.urfjarran><i>En jättefin present, tyckte Pippi.</i></c>
+<c.urfjarran><i>En sån hade hon alltid önskat sig.</i></c></c>
+
+23a0f58e078f4bf0b3c6ba91d2898705
+00:07:13.640 --> 00:07:20.080 align:left position:18%
+<c.teletext><c.urfjarran><i>–Tänk, sen fick VI presenter...</i></c>
+<c.urfjarran><i>–...fast vi inte hade födelsedag.</i></c></c>
+
+2097c460ef67491cb933c90fb3ff7ce8
+00:07:20.240 --> 00:07:26.720 align:left position:18%
+<c.teletext><c.urfjarran><i>–Så brukar man inte göra.</i></c>
+<c.huvudpratare>–Så gör JAG. Det brukar bli bra så.</c></c>
+
+1582cd2c3f6b476280a38147359d6474
+00:07:29.880 --> 00:07:33.320 align:left position:18%
+<c.teletext>Å, vad du är snäll, Pippi!</c>
+
+4d901c50223f445da8b36126436473b7
+00:09:06.280 --> 00:09:10.600 align:left position:18%
+<c.teletext><c.huvudpratare>–Oj, vad jag är mätt!</c>
+–Jag med.</c>
+
+fa4ea411bb5d483eb8ef98f9e775d633
+00:09:10.760 --> 00:09:16.840 align:left position:18%
+<c.teletext>–Jag med.
+<c.huvudpratare>–Nej, kom nu, så dukar vi av!</c></c>
+
+963b3de86c6348f1b4aa925f8f0aaba1
+00:09:22.640 --> 00:09:29.080 align:left position:18%
+<c.teletext><c.huvudpratare>Jag vill snygga upp när jag ätit.</c>
+<c.huvudpratare>Gör ni det på era kalas?</c></c>
+
+3ec7a9125495467499a040be541f6c1e
+00:09:29.240 --> 00:09:34.480 align:left position:18%
+<c.teletext>–Ja, det är klart.
+–Men inte på det här viset.</c>
+
+eb667c81d4e34435bf58c21deaf331e3
+00:09:40.760 --> 00:09:46.400 align:left position:18%
+<c.teletext>–Vad ska vi göra nu?
+<c.huvudpratare>–Vad brukar ni göra på era kalas?</c></c>
+
+a50e9efa97914e8484173a4fff13e1a7
+00:09:46.560 --> 00:09:51.120 align:left position:18%
+<c.teletext><c.huvudpratare>–Gå upp på vinden och se på spökena?</c>
+–Nej!</c>
+
+6c3f58fa4f21466b86fc75f510e3937b
+00:09:51.280 --> 00:09:57.400 align:left position:18%
+<c.teletext><c.huvudpratare>Ska vi göra det? Det kryllar</c>
+<c.huvudpratare>av spöken och gastar där uppe.</c></c>
+
+9de1193ef63a4c3c8fd3e7c673ea2a61
+00:09:57.560 --> 00:10:00.600 align:left position:18%
+<c.teletext>Mamma säger att det inte finns några.</c>
+
+b886971b84a044acaf9b97d62bedba8c
+00:10:00.760 --> 00:10:08.920 align:left position:18%
+<c.teletext><c.huvudpratare>Nej, för de är hos MIG, hela bunten.</c>
+<c.huvudpratare>De spelar krocket med sina huvuden.</c></c>
+
+a1d003514b624fb9809a99b360dcffa2
+00:10:09.080 --> 00:10:14.960 align:left position:18%
+<c.teletext>–Så hemskt!
+<c.huvudpratare>–Va? Det är KUL att spela krocket.</c></c>
+
+61064d3d1296412e820eec121bf7cd81
+00:10:15.120 --> 00:10:20.080 align:left position:18%
+<c.teletext><c.huvudpratare>–Nu går vi upp på vinden.</c>
+–Aldrig i livet!</c>
+
+656ed861e6354662a6809ba90105bda6
+00:10:20.240 --> 00:10:24.800 align:left position:18%
+<c.teletext>Tänk om det kommer ett spöke
+när du är ensam...</c>
+
+c5cff5cc71c94c8e8e9ed997c886bcbb
+00:10:24.960 --> 00:10:29.920 align:left position:18%
+<c.teletext>–Usch, säg inte så där!
+–Kom nu, Annika!</c>
+
+8909dbb2ccc94a4fad079a43ea3fb0a7
+00:10:32.160 --> 00:10:36.240 align:left position:18%
+<c.teletext>Ja, det är nog bäst att jag går med.</c>
+
+46b0293abfe648ebba1911b23dba8fcc
+00:10:58.320 --> 00:11:01.960 align:left position:18%
+<c.teletext><c.huvudpratare>Hej, alla spöken och gastar!</c></c>
+
+d0413d31992c4e10b34c6d1fcf3d5afb
+00:11:52.160 --> 00:11:58.000 align:right position:82%
+<c.teletext><c.ljud>DET KNARRAR OCH GNISSLAR</c></c>
+
+cd018830cc094cf9aaf496bf2fe574c0
+00:12:20.560 --> 00:12:24.640 align:right position:82%
+<c.teletext><c.ljud>KRAAA KRAAA</c></c>
+
+28f2438fa04544c285721b36c97a7f89
+00:12:31.000 --> 00:12:38.560 align:left position:18%
+<c.teletext><c.huvudpratare>Just vad jag trodde: de är på möte</c>
+<c.huvudpratare>i spök– och gasteriföreningen.</c></c>
+
+9e54136965f04b46b794cd09c96b9654
+00:12:38.720 --> 00:12:41.200 align:left position:18%
+<c.teletext>–Ett spöke!
+–AAAAH!</c>
+
+c19bec43758047fd8fb11a779264d40b
+00:12:43.080 --> 00:12:47.040 align:left position:18%
+<c.teletext><c.huvudpratare>Den kommer sent till sammanträdet.</c></c>
+
+c3053ec6fcbe4a09ad114da623e2d9b6
+00:12:47.200 --> 00:12:55.280 align:left position:18%
+<c.teletext><c.huvudpratare>Äh, det finns inga spöken. När jag</c>
+<c.huvudpratare>tänker på det, var det nog en uggla.</c></c>
+
+c66a2bf4e88540f7bba75926a83f3242
+00:12:55.440 --> 00:13:00.160 align:left position:18%
+<c.teletext><c.huvudpratare>Den som säger att det finns spöken</c>
+<c.huvudpratare>vrider jag om trynet på!</c></c>
+
+b99535af2a9b4be297ebc2df8bc271c6
+00:13:00.320 --> 00:13:05.600 align:left position:18%
+<c.teletext>–Det sa du ju själv.
+<c.huvudpratare>–Gjorde JAG? I så fall...</c></c>
+
+5913cca24f464b3cbafc7c81765103ad
+00:13:36.920 --> 00:13:41.840 align:left position:18%
+<c.teletext>–"Häxorna på Blåkulla"...
+–Usch, så hemskt!</c>
+
+b91bed7b2cfd4304864f666364ed8c81
+00:14:00.720 --> 00:14:05.880 align:right position:82%
+<c.teletext><c.ljud>KUSLIG MUSIK</c></c>
+
+008958cda0d34f628f20c10772ddca8f
+00:15:08.520 --> 00:15:10.840 align:left position:18%
+<c.teletext><c.huvudpratare>Krrrsssch!</c></c>
+
+800ebb35932e452c8e5e804a0aad7940
+00:15:41.120 --> 00:15:43.200 align:left position:18%
+<c.teletext><c.huvudpratare>AAAAAAH!</c></c>
+
+7c4e12f4f27c41eca461139a277b05c0
+00:16:06.880 --> 00:16:10.280 align:right position:82%
+<c.teletext><c.ljud>TUUUUT</c></c>
+
+4726778e215a42c997f5e73ecb3f8f3f
+00:16:45.320 --> 00:16:48.440 align:left position:18%
+<c.teletext>–Titta!
+–Ett spöke! AAAAH!</c>
+
+47946d942ca24415ac881c563cd788da
+00:16:48.600 --> 00:16:56.080 align:left position:18%
+<c.teletext><c.huvudpratare>Vad skriker ni för? Jag har hittat</c>
+<c.huvudpratare>en kanon och pappas nattskjorta.</c></c>
+
+12b4d8f9d86346c7aa340cce76c9ca1d
+00:16:56.240 --> 00:17:02.480 align:left position:18%
+<c.teletext>–Du får inte skrämmas så, Pippi!
+<c.huvudpratare>–Nattskjortor är inte farliga.</c></c>
+
+9da6aa6956994c54818c6b6cda94549f
+00:17:02.640 --> 00:17:06.200 align:left position:18%
+<c.teletext><c.huvudpratare>De bits bara i självförsvar.</c></c>
+
+4bdfdde0fbba44b083289652c286e1a9
+00:17:06.360 --> 00:17:10.880 align:left position:18%
+<c.teletext><c.huvudpratare>-Titta! Fler knallpåkar! Vill ni ha?</c>
+-Ja!</c>
+
+1724e27e2eea438c93c9561d64bc544a
+00:17:13.040 --> 00:17:16.000 align:left position:18%
+<c.teletext>Men vi får nog inte ha dem för mamma.</c>
+
+7803d8e4c44e4291a8243f2019930165
+00:17:16.160 --> 00:17:21.640 align:left position:18%
+<c.teletext>–De är väl inte laddade?
+<c.huvudpratare>–Nej. Tror du jag är galen?!</c></c>
+
+468892e5ca1e49a4a300de0a4f35075c
+00:17:34.880 --> 00:17:38.080 align:left position:18%
+<c.teletext><c.huvudpratare>Hej, alla spöken och gastar!</c></c>
+
+6f73e7b698e745d9838b95d95803583e
+00:17:48.080 --> 00:17:53.480 align:left position:18%
+<c.teletext><c.huvudpratare>Låt aldrig barn få tag i skjutvapen,</c>
+<c.huvudpratare>sa mormor jämt.</c></c>
+
+7c657cf49c4c4e43bab1ea466b7a9864
+00:17:57.920 --> 00:18:01.880 align:left position:18%
+<c.teletext><c.huvudpratare>Det kan hända en olycka, sa mormor.</c></c>
+
+ffe6cd6dad2e41d594f4df881497d745
+00:18:02.040 --> 00:18:07.200 align:left position:18%
+<c.teletext><c.huvudpratare>Jag kanske träffade spökena i benen.</c>
+<c.huvudpratare>Rätt åt dem!</c></c>
+
+81787cab4a1c4bbe8e860c04c858a405
+00:18:07.360 --> 00:18:13.880 align:left position:18%
+<c.teletext>–Det finns ju inga spöken?
+<c.huvudpratare>–Nej...men de ska inte skrämmas.</c></c>
+
+323bd6e24d0041b8a5cdb07c9bf0e1ff
+00:18:14.040 --> 00:18:20.840 align:left position:18%
+<c.teletext>–En konstig födelsedag...men rolig.
+–Vi måste sjunga "Ja, må hon leva"!</c>
+
+8a088c62463249c3aea19849f13f4298
+00:18:21.000 --> 00:18:25.480 align:left position:18%
+<c.teletext><c.sang>Ja, må hon leva, ja, må hon leva</c></c>
+
+f706753f56f84205880408abef24ceda
+00:18:25.640 --> 00:18:30.200 align:left position:18%
+<c.teletext><c.sang>ja, må hon leva uti hundrade år!</c></c>
+
+3d76e53487bd4522bf1adecaf0a1b878
+00:18:30.360 --> 00:18:34.400 align:left position:18%
+<c.teletext><c.sang>Ja, visst ska hon leva,</c>
+<c.sang>ja, visst ska hon leva</c></c>
+
+e4431626425c46f1b39b4b9b9ef088b2
+00:18:34.560 --> 00:18:39.240 align:left position:18%
+<c.teletext><c.sang>ja, visst ska hon leva</c>
+<c.sang>uti hundrade år!</c></c>
+
+5f99c7e125ad41379fd96b39454f5135
+00:18:39.400 --> 00:18:44.160 align:left position:18%
+<c.teletext><c.huvudpratare>–Tack ska ni ha.</c>
+–Vi måste gå nu, Pippi.</c>
+
+8b53e4e39e9941dea5117aed2f23b8b8
+00:18:52.040 --> 00:18:54.240 align:left position:18%
+<c.teletext>God natt, Pippi.</c>
+
+33528d511de547c89e7708a4929dd473
+00:18:54.400 --> 00:18:59.480 align:left position:18%
+<c.teletext>–Tack ska du ha.
+<c.huvudpratare>–Tack själva. Hej, hej!</c></c>
+
+abcafe466baa41a7a01eda480e818209
+00:19:01.440 --> 00:19:05.200 align:left position:18%
+<c.teletext><c.huvudpratare>Jag ska bli sjörövare. Ska ni det?</c></c>
+
+795af78bf5d1499191d6c0efc032efe1
+00:19:05.360 --> 00:19:10.520 align:left position:18%
+<c.teletext>–Jag vet inte riktigt...
+–Men det ska JAG!</c>
+
+7116c7ff002e4e859ba13e85b42d105d
+00:19:14.520 --> 00:19:18.200 align:left position:18%
+<c.teletext>–Nu somnar hon snart.
+–Atjooo!</c>
+
+d99dad1f43ba4e5e897e4ee8c048da01
+00:19:18.360 --> 00:19:21.000 align:left position:18%
+<c.teletext>Tyst med dig!</c>
+
+879721d1cb544988af609c39a8f3a1b3
+00:19:32.640 --> 00:19:37.440 align:left position:18%
+<c.teletext><c.sang>Sov, min lilla lusegris,</c>
+<c.sang>sov, min lilla knallhatt</c></c>
+
+d0528e54735242328f7e320106ff8982
+00:19:37.600 --> 00:19:43.080 align:left position:18%
+<c.teletext><c.sang>Nog tycker jag på sätt och vis</c>
+<c.sang>det vore bra ifall att</c></c>
+
+ce81a077ec974f338f582a5c9800da7d
+00:19:43.240 --> 00:19:48.320 align:left position:18%
+<c.teletext><c.sang>du lät bli att bråka nu</c>
+<c.sang>för nu är klockan över sju</c></c>
+
+ebe159c721734347b519ec9dd2c6316d
+00:19:48.480 --> 00:19:52.400 align:left position:18%
+<c.teletext><c.sang>och då ska lusegrisar sova!</c></c>
+
+768ad250a4054df496f7b28e9dfe45cb
+00:20:17.160 --> 00:20:20.520 align:left position:18%
+<c.teletext>Ha ha ha... Nu du, Blom!</c>
+
+824ba7ad56fd46f9af9da861f18f024b
+00:20:27.200 --> 00:20:34.360 align:left position:18%
+<c.teletext>–Tror du gubben Nilsson sover nu?
+–Ja, det är klart att han sover.</c>
+
+2471a093b05a4a9582288567e38ab1bb
+00:20:42.160 --> 00:20:46.640 align:left position:18%
+<c.teletext>Dörren är öppen! Är de inte kloka?</c>
+
+05ce798fd2da40d990754bac12b984c5
+00:21:08.600 --> 00:21:11.080 align:left position:18%
+<c.teletext>Ååå!</c>
+
+20b0916f74d040abb5e5140570e15964
+00:21:56.840 --> 00:22:01.240 align:left position:18%
+<c.teletext>Fånigt! Fötterna på kudden...
+Ungar är inte kloka.</c>
+
+c6bdff705be24a18962db8f8fc469924
+00:22:01.400 --> 00:22:05.560 align:left position:18%
+<c.teletext>–Sover hon, då?
+–Det är klart!</c>
+
+f7c12f5b5af64c2bb8c4fbedd559beea
+00:22:05.720 --> 00:22:10.680 align:left position:18%
+<c.teletext>Ungar kan man ställa på huvudet
+utan att de vaknar.</c>
+
+c90b90d853fe4d338e1e1f99488f47c2
+00:22:10.840 --> 00:22:16.520 align:left position:18%
+<c.teletext>–Men var ligger Nilsson?
+<c.huvudpratare>–HERR Nilsson, om jag får be!</c></c>
+
+0675feea6dd645418628403b1e422ee3
+00:22:16.680 --> 00:22:24.000 align:left position:18%
+<c.teletext><c.huvudpratare>–Han ligger i den röda docksängen.</c>
+–I den röda...vad då?</c>
+
+ec9782f2025a49588f0ac0aad119917f
+00:22:24.160 --> 00:22:28.000 align:left position:18%
+<c.teletext>Blom, vet du vem Herr Nilsson är?</c>
+
+a36cfe87467747a5a1948eb5e0577abb
+00:22:28.160 --> 00:22:31.520 align:left position:18%
+<c.teletext>En apa!</c>
+
+b149ce6792704920b54ad9fddad4d38f
+00:22:34.880 --> 00:22:40.000 align:left position:18%
+<c.teletext><c.huvudpratare>Vad trodde du han var?</c>
+<c.huvudpratare>En gräsklippningsmaskin?</c></c>
+
+9aaad7548dbd454c9e87d7cda286db6a
+00:22:40.160 --> 00:22:46.400 align:left position:18%
+<c.teletext>–Flicka, kom fram! Vi vill prata.
+<c.huvudpratare>–Nej, jag sover.</c></c>
+
+4904ed4d956c4bb585cde7d7b3b761be
+00:22:46.560 --> 00:22:53.000 align:left position:18%
+<c.teletext>–Stig upp, har jag sagt!
+<c.huvudpratare>–Vill ni veta vad klockan är igen?</c></c>
+
+a064b86075884f0ba48f68b6d7abac98
+00:22:53.160 --> 00:22:57.560 align:left position:18%
+<c.teletext>Du... Var är din pappa och mamma?</c>
+
+b2c2103a2b47406ca7639ee22452bc4e
+00:22:57.720 --> 00:23:04.120 align:left position:18%
+<c.teletext><c.huvudpratare>–De är borta...alldeles borta.</c>
+–Kan du säga var kappsäcken är?</c>
+
+0527c0f78fae4bd393349418085bae73
+00:23:04.280 --> 00:23:07.880 align:left position:18%
+<c.teletext><c.huvudpratare>Den står på skåpet.</c></c>
+
+adc29e38e18a4c2f8625e3f85b9efcb3
+00:23:08.040 --> 00:23:13.120 align:left position:18%
+<c.teletext>–Har du något emot att vi tar den?
+<c.huvudpratare>–Nej då.</c></c>
+
+a4284f3908c74c569e0d6ff322f8c47f
+00:23:13.280 --> 00:23:18.040 align:left position:18%
+<c.teletext><c.huvudpratare>Har ni något emot</c>
+<c.huvudpratare>att jag tar tillbaka den?</c></c>
+
+544bf10b37434d9187727395dfd15321
+00:23:23.480 --> 00:23:29.600 align:left position:18%
+<c.teletext>–Så får man inte göra.
+<c.huvudpratare>–Så gör JAG. Det blir så bra SÅ.</c></c>
+
+bce60703e5014e7889a06da2935d154f
+00:23:33.680 --> 00:23:38.440 align:left position:18%
+<c.teletext>Vänta bara! Nu, flicka lilla...</c>
+
+5be435160d0c41b4981f5950708b6838
+00:23:43.080 --> 00:23:48.840 align:left position:18%
+<c.teletext><c.huvudpratare>–Sitter du bra där uppe?</c>
+–Förlåt oss, snälla fröken...</c>
+
+afc619cf69f74e859ea023edfeb29a37
+00:23:49.000 --> 00:23:53.880 align:left position:18%
+<c.teletext>–Vi har inte menat något illa.
+–Nej, inte alls!</c>
+
+0069b2282d7941da807456d03c6418cc
+00:23:54.040 --> 00:24:00.360 align:left position:18%
+<c.teletext>Du vet inte hur det känns
+att jämt gå och vara hungrig.</c>
+
+01d44abfc2384908970f03d979bf235d
+00:24:03.440 --> 00:24:08.600 align:left position:18%
+<c.teletext><c.huvudpratare>–Har ni inget att äta?</c>
+–Nej...ingenting alls.</c>
+
+10225d9a176e4363bce795be1a6bfd9f
+00:24:08.760 --> 00:24:16.040 align:left position:18%
+<c.teletext>Annars skulle vi aldrig nånsin
+drömma om att stjäla av andra.</c>
+
+81a08640eda54ea6a84fe5a139b97fd3
+00:24:16.200 --> 00:24:21.280 align:left position:18%
+<c.teletext>–Vi är verkligen hungriga.
+–Ja!</c>
+
+afa8be8e965d449ea31db4634f630498
+00:24:21.440 --> 00:24:24.080 align:left position:18%
+<c.teletext><c.huvudpratare>Stackars er!</c></c>
+
+5952c459144344d19a841a48b4928f79
+00:24:25.200 --> 00:24:29.320 align:left position:18%
+<c.teletext><c.huvudpratare>Jag har bara lite gräddtårta.</c>
+<c.huvudpratare>Vill ni ha det?</c></c>
+
+c57a801447a740ba9f94a9cdff5c0269
+00:24:29.480 --> 00:24:35.160 align:left position:18%
+<c.teletext>–Gräddtårta!
+–Ja...det vore smaskens.</c>
+
+29ce9f7e3cda4fdfb6f88de7d75bec88
+00:24:37.560 --> 00:24:41.320 align:left position:18%
+<c.teletext>Ja...det vore det verkligen.</c>
+
+62cb2f6c0576450393a49aaf0f248b3e
+00:24:42.080 --> 00:24:44.400 align:left position:18%
+<c.teletext><c.huvudpratare>Vänta då.</c></c>
+
+da9abb66792f4210bee26472b127c7d7
+00:24:52.080 --> 00:24:55.160 align:left position:18%
+<c.teletext>Kvicka på – vi sticker!</c>
+
+60b600217fe34292b732adf67c432be8
+00:24:57.960 --> 00:25:00.120 align:left position:18%
+<c.teletext><c.huvudpratare>STOPP!</c></c>
+
+9c524a1a98f94bafb4f9675da967bdfb
+00:25:05.960 --> 00:25:09.840 align:left position:18%
+<c.teletext><c.huvudpratare>Ni ville ju ha gräddtårta!</c></c>
+
+38235cf6e6cf439898ad9317df21ba1a
+00:25:15.520 --> 00:25:18.160 align:left position:18%
+<c.teletext>Blom!</c>
+
+6608b77c222c4770a4bcab246f36f5e1
+00:25:26.440 --> 00:25:30.280 align:left position:18%
+<c.teletext><c.huvudpratare>Fy fabian, vad de var tarvliga!</c></c>
+
+5f2621538d274df592aa41ec86747c7e
+00:25:31.920 --> 00:25:38.480 align:left position:18%
+<c.teletext><c.huvudpratare>Varför sa de att de ville ha</c>
+<c.huvudpratare>gräddtårta när det inte var sant?</c></c>
+
+9ace3521b9234f39a5bc75ab8af80233
+00:25:38.640 --> 00:25:43.080 align:left position:18%
+<c.teletext><c.huvudpratare>De var kanske hungriga i alla fall.</c></c>
+
+632afaa0c70947b08e2621e4e512c0b5
+00:25:43.240 --> 00:25:50.560 align:left position:18%
+<c.teletext><c.huvudpratare>Mamma...jag ville ge dem var sin</c>
+<c.huvudpratare>guldpeng, men de sprang sin väg.</c></c>
+
+b1ab259763004951a3e9ede6aa3e8e26
+00:26:09.960 --> 00:26:16.000 align:left position:18%
+<c.teletext><c.sang>Om det kommer tjuvar,</c>
+<c.sang>ja, ett par riktigt hemska tjuvar</c></c>
+
+47412bb4f13f44d0b2993e484501c65c
+00:26:16.160 --> 00:26:22.400 align:left position:18%
+<c.teletext><c.sang>såna som vill stjäla</c>
+<c.sang>och bara ta vad de vill ha</c></c>
+
+15b6aec7fb7c41a2b921fa84f9b13a10
+00:26:22.560 --> 00:26:28.360 align:left position:18%
+<c.teletext><c.sang>kommer tyst om natten</c>
+<c.sang>när alla sover utom katten</c></c>
+
+3544c1b719754cb9aa4bcb3a240faabd
+00:26:28.520 --> 00:26:34.200 align:left position:18%
+<c.teletext><c.sang>smyger in i huset</c>
+<c.sang>för att se vad det finns att ta</c></c>
+
+1f4bd9b74db346bfa2a8adb7237b18b3
+00:26:34.360 --> 00:26:38.480 align:left position:18%
+<c.teletext><c.sang>Då kommer Pippi Långstrump!</c>
+<c.sang>Tjolahopp, tjolahej, tjolahoppsansa</c></c>
+
+34bfe9a3e8444b9d9a9de815efb92cb6
+00:26:38.640 --> 00:26:42.960 align:left position:18%
+<c.teletext><c.sang>Då kommer Pippi Långstrump</c>
+<c.sang>och så blir allting bra...</c></c>
+
+776f2f17d5b74ad3bd1555aeb18873d9
+00:26:57.120 --> 00:27:00.440 align:center position:50%
+<c.teletext>Textning: Inger Sjöstrand
+Sveriges Television AB</c>
+

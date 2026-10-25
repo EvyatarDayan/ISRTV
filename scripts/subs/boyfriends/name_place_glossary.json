@@ -1,0 +1,31 @@
+{
+  "_comment": "Latin → Hebrew transliteration for Boyfriends. Show title Boyfriends stays Latin.",
+  "people": {
+    "Edvin Törnblom": "אדווין תורנבלום",
+    "Edvin": "אדווין",
+    "Törnblom": "תורנבלום",
+    "Oscar Zia": "אוסקר זיה",
+    "Oscar": "אוסקר",
+    "Zia": "זיה",
+    "Sebastian Hammarberg": "סבסטיאן המרברג",
+    "Sebastian": "סבסטיאן",
+    "Hammarberg": "המרברג",
+    "Victor Leksell": "ויקטור לקסל",
+    "Victor": "ויקטור",
+    "Leksell": "לקסל",
+    "Pippi": "פיפי"
+  },
+  "places": {
+    "Stockholm": "סטוקהולם",
+    "Åre": "אורה",
+    "Norrköping": "נורשפינג",
+    "Norrkoping": "נורשפינג"
+  },
+  "keep_latin": [
+    "Boyfriends",
+    "QX",
+    "ELLE",
+    "Youtube",
+    "YouTube"
+  ]
+}

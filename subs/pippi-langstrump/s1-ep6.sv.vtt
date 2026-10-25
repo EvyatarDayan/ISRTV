@@ -1,0 +1,745 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+e7a9113b87eb4706919fbbaa7c5a83f9
+00:00:37.920 --> 00:00:43.040 align:left position:18%
+<c.teletext>–Har du sett?!
+–Det är nog världens starkaste man.</c>
+
+f819e669b29e495e8c5a9bbf024bb6aa
+00:00:51.360 --> 00:00:58.200 align:left position:18%
+<c.teletext>–Det är en karusell här inne.
+–Titta, Tommy...en ormtjuserska!</c>
+
+9ee1ceb4f3ac4a59bfd76ec1457d85e0
+00:00:58.360 --> 00:01:03.360 align:left position:18%
+<c.teletext>Henne skulle jag vilja se
+– om jag törs...</c>
+
+377764c8cb9d4272881b173bcaca1c18
+00:01:35.520 --> 00:01:38.240 align:left position:18%
+<c.teletext>Vi måste berätta för Pippi!</c>
+
+52b1af9232034ef48eb3cf7e4f010508
+00:02:05.440 --> 00:02:11.360 align:left position:18%
+<c.teletext>–Titta...Pippi har främmande!
+–Vad är det för en tant?</c>
+
+e2d7732764d44ed8aa0a66c08a473e14
+00:02:19.120 --> 00:02:22.200 align:left position:18%
+<c.teletext><c.urfjarran><i>Tillgjord röst: </i></c>God dag, små barn.</c>
+
+33ae1b74338d4bb2a990552de10f263e
+00:02:22.360 --> 00:02:28.000 align:left position:18%
+<c.teletext>–Vet tant var Pippi är?
+–Hon flög till månen nyss.</c>
+
+c1400234c3c547b98892fed3bd3ad795
+00:02:28.160 --> 00:02:35.200 align:left position:18%
+<c.teletext>Hon återvänder i februari och lägger
+tvätten i blöt innan åskan slår ner.</c>
+
+227f2a2e957347e48a3070a85af09ce9
+00:02:35.360 --> 00:02:39.960 align:left position:18%
+<c.teletext>–Hon verkar inte klok.
+–Vi går in och tittar.</c>
+
+1c2422c9cd0c4cf5b95c289f8f16e743
+00:02:40.120 --> 00:02:47.560 align:left position:18%
+<c.teletext>Små barn ska snyta sig en gång
+i kvarten – det är lag på det.</c>
+
+10c5f5e56a6d483abbce49f6c30e51e7
+00:02:47.720 --> 00:02:53.120 align:left position:18%
+<c.teletext>Kom ihåg det – och hälsa Pippi,
+om ni träffar henne!</c>
+
+ce4df9913dea47f787c3315b7630b64d
+00:02:58.160 --> 00:03:00.440 align:left position:18%
+<c.teletext>Pippi!</c>
+
+8aea8ccaa7c74338b589a416bcb96b8b
+00:03:07.600 --> 00:03:10.120 align:left position:18%
+<c.teletext>PIPPI!</c>
+
+ac9c2ee1687045fa97f337da19376ae4
+00:03:15.960 --> 00:03:18.080 align:left position:18%
+<c.teletext>Pippi!</c>
+
+befb88808fdb4371acec68251b334595
+00:03:21.440 --> 00:03:26.040 align:left position:18%
+<c.teletext>Tommy, hon finns ingenstans.</c>
+
+2e14faf7e24046518ca5ea07f8791e0f
+00:03:26.200 --> 00:03:32.240 align:left position:18%
+<c.teletext>–Vi frågar den fåniga tanten igen.
+–"Rest till månen"... Puh!</c>
+
+18a1d871a0d544c2b110fe3dfa1c41f5
+00:03:32.400 --> 00:03:36.280 align:left position:18%
+<c.teletext>Tant – tala om var Pippi är!</c>
+
+2a65d8923b6c48908f1ab9722a786e09
+00:03:36.440 --> 00:03:43.360 align:left position:18%
+<c.teletext>Lille gosse, har du tvättat fötterna,
+borstat tänderna och sotat öronen?</c>
+
+63730cc450c14dbebe18365e0c6dbadb
+00:03:43.520 --> 00:03:49.840 align:left position:18%
+<c.teletext>–Det är lag på det.
+–Vi vill veta! Hästen är ju kvar.</c>
+
+47eb9d7d79674e6a854c9916243541a4
+00:03:50.000 --> 00:03:57.440 align:left position:18%
+<c.teletext>–Ja, än så länge.
+–Va? Vad ska tant göra av honom?</c>
+
+454ab7ff0aa540a294ce9a5e9cafdcbe
+00:03:57.600 --> 00:04:00.600 align:left position:18%
+<c.teletext>–Prickig korv.
+–Å, fy!</c>
+
+f74b8a1349624b8aaadfc85ed8e9d694
+00:04:06.200 --> 00:04:08.360 align:left position:18%
+<c.teletext>Vad du skrämde oss!</c>
+
+0673fa502e41434b85869ec3881f239a
+00:04:08.520 --> 00:04:14.640 align:left position:18%
+<c.teletext><c.huvudpratare>Det var en nedra dum tant. Hon kan</c>
+<c.huvudpratare>flyga till månen – tjong, pang!</c></c>
+
+f223c5e33a9644e48f0962bddc1e5a53
+00:04:16.440 --> 00:04:22.720 align:left position:18%
+<c.teletext><c.huvudpratare>Nu är vi av med henne.</c>
+<c.sang>Nu är vi av med henne!</c></c>
+
+12f62fc6ce4a49d9854c699779e30f81
+00:04:22.880 --> 00:04:28.680 align:left position:18%
+<c.teletext>–Ska du gå med på tivoli?
+<c.huvudpratare>–Vad då för tivoli?</c></c>
+
+42465a497725484ca38ed414966f6558
+00:04:28.840 --> 00:04:34.080 align:left position:18%
+<c.teletext>Med världens starkaste man.
+Han kan välta hela stan!</c>
+
+016bd606f7f0410d9ebcbcd1091af2ae
+00:04:34.240 --> 00:04:42.040 align:left position:18%
+<c.teletext>–Och så studsar de på en matta.
+<c.huvudpratare>–Studsar? Hur då?</c></c>
+
+b59befe520be45368d0a08bf54143f0c
+00:04:42.200 --> 00:04:47.400 align:right position:82%
+<c.teletext>Så här...fast mycket högre.</c>
+
+deafe5d7cf2f498fadd6a0e4f8b63ba4
+00:04:48.320 --> 00:04:52.640 align:left position:18%
+<c.teletext>Och så har de
+en ormtjuserska med en stor orm.</c>
+
+0846ab147fc6466fb7d23b2945bc383d
+00:04:52.800 --> 00:04:58.240 align:left position:18%
+<c.teletext>–Jag blir rädd om jag tänker på det.
+<c.huvudpratare>–Tänk inte på det, då!</c></c>
+
+b620a3083f5e4b2ba1496dcb0deb0460
+00:05:14.760 --> 00:05:18.400 align:left position:18%
+<c.teletext><c.huvudpratare>Å, en sån gullig orm!</c></c>
+
+6ac2080e17dd4e859a5c198cd8667f5f
+00:05:20.720 --> 00:05:27.880 align:left position:18%
+<c.teletext>–Vänta tills du får se den riktiga!
+–Då kanske du också blir rädd.</c>
+
+baa1f34e77da4d16b2911f5e304afa93
+00:05:28.040 --> 00:05:31.960 align:left position:18%
+<c.teletext><c.huvudpratare>Tänk om jag blir det! Vi prövar...</c></c>
+
+384609c8b13f4654a8b5db3ed437995c
+00:05:33.320 --> 00:05:38.240 align:left position:18%
+<c.teletext><c.huvudpratare>Var är mina guldpengar?</c>
+<c.huvudpratare>Borta, som vanligt.</c></c>
+
+9cfd1c473e714613a36ccea7e21c70d4
+00:05:39.240 --> 00:05:43.680 align:left position:18%
+<c.teletext><c.huvudpratare>Hjälp mig leta efter mina pengar!</c></c>
+
+60701437c62d4ef882befc87a8424b04
+00:05:48.240 --> 00:05:51.160 align:left position:18%
+<c.teletext>Här är de!</c>
+
+f10561c088af473aa7afaa7e04f0576f
+00:06:19.400 --> 00:06:24.960 align:left position:18%
+<c.teletext>–Det är något visst med tivoli.
+–Ja...</c>
+
+cbdc3d01eed84eea8fa53a4995094640
+00:06:25.120 --> 00:06:30.920 align:left position:18%
+<c.teletext>–Det vore roligt att provåka något.
+–Det ska jag ordna!</c>
+
+7603ad4084cb4c04a54646e0689f065c
+00:06:33.840 --> 00:06:38.040 align:left position:18%
+<c.teletext>God dag. Ni är väl tivoli-direktören?</c>
+
+bedc562c28c04e008d4b38882d620c10
+00:06:38.200 --> 00:06:44.600 align:left position:18%
+<c.teletext>–Vi tänkte inspektera anordningarna.
+–Är det nödvändigt?</c>
+
+b5cee986b4c34722b10c5acddb17d8d7
+00:06:44.760 --> 00:06:53.120 align:left position:18%
+<c.teletext>Absolut! Vi tänkte börja där borta,
+med de där som snurrar. Går det bra?</c>
+
+ed5390f2a1714e60b7ff604a00d7ccc9
+00:06:53.280 --> 00:06:56.960 align:left position:18%
+<c.teletext>–Ja, var så goda.
+–Tack för det.</c>
+
+78745854767a4cdd9075b76cf0810f8b
+00:07:31.920 --> 00:07:38.080 align:left position:18%
+<c.teletext><c.huvudpratare>–Femti bollar, tack!</c>
+–Här har du sex. Du får fler sen.</c>
+
+5f0c38b985b8465683b3d7a28cec12b7
+00:08:33.680 --> 00:08:38.560 align:left position:18%
+<c.teletext>50 kronor till den som slår i topp!</c>
+
+28dea34b103642929736c908c1b363df
+00:08:43.360 --> 00:08:50.440 align:left position:18%
+<c.teletext>–Dåligt... Den är inte schysst.
+–Det är inget fel på den!</c>
+
+ff2fb4998aeb479f8b5eda94e21b2a14
+00:08:57.520 --> 00:09:01.360 align:left position:18%
+<c.teletext><c.huvudpratare>Hörrudu, får jag låna den här?</c></c>
+
+f0dcc4bf535f40e982123f8d29c47b5c
+00:09:09.520 --> 00:09:12.920 align:left position:18%
+<c.teletext>–Näää...
+–Där ser ni, mina herrar!</c>
+
+ef9995a94bae4983a0f9bb11baf5157f
+00:09:14.760 --> 00:09:20.480 align:left position:18%
+<c.teletext>–Hjälp! Jag vill gå av!
+–Tänk på att vi åker gratis.</c>
+
+e94d9671caee435c92491eb6eef7fdcb
+00:09:23.920 --> 00:09:26.880 align:left position:18%
+<c.teletext>En provtur till, va?</c>
+
+76ccd3d223e64b109feceece34c604b1
+00:09:30.680 --> 00:09:34.360 align:left position:18%
+<c.teletext>–Å, vad det går dåligt!
+–För mig med.</c>
+
+e68dfc105cde4fa0b356bb2206a1b931
+00:09:34.520 --> 00:09:41.360 align:left position:18%
+<c.teletext>Den konsten kan ni inte, barn.
+Jag ska visa er... – Ett gevär!</c>
+
+d409a924d78f4f2689bf1ec7fc9d3884
+00:10:03.360 --> 00:10:06.960 align:left position:18%
+<c.teletext>Det går inte bra för farbror heller!</c>
+
+ee8e78f013f0434094c3cd1511c63a2f
+00:10:07.120 --> 00:10:12.800 align:left position:18%
+<c.teletext>Det är ett uselt gevär.
+Hur man än siktar går det för högt.</c>
+
+914ee915f9174e8ca14a5360b2df0e1e
+00:10:12.960 --> 00:10:19.600 align:left position:18%
+<c.teletext>–Skyll på geväret...
+<c.huvudpratare>–Man måste ha ordentliga gevär!</c></c>
+
+04d9849eac304bf59b68c4b8fe4ae5ea
+00:10:23.120 --> 00:10:28.280 align:left position:18%
+<c.teletext>–Är det fjärde eller femte gången?
+–Jag vet inte.</c>
+
+48a39ba8959e4509a333ff3550bf4858
+00:10:30.200 --> 00:10:34.320 align:left position:18%
+<c.teletext>Jag är sjösjuk! Jag vill gå av!</c>
+
+15c32a4b14664c9aa7d0eb955f05f5f8
+00:10:38.640 --> 00:10:45.760 align:left position:18%
+<c.teletext><c.huvudpratare>Äh, det var inget vidare. Köp nya</c>
+<c.huvudpratare>gevär! Här har du några guldpengar.</c></c>
+
+7ad66594ed3840fbb361484490d83861
+00:11:13.440 --> 00:11:21.640 align:left position:18%
+<c.teletext><c.huvudpratare>Hallå där! Nä, nu... Polisen borde</c>
+<c.huvudpratare>hålla sig nykter en sån här dag.</c></c>
+
+a8b588a908104a02a26838348938ea49
+00:11:21.800 --> 00:11:27.080 align:left position:18%
+<c.teletext>I dag tänker de nog inte
+ta dig till något barnhem!</c>
+
+b1511bfc11a245528c36a60a2a2abf89
+00:11:34.560 --> 00:11:37.840 align:left position:18%
+<c.teletext>Pippi, kom!</c>
+
+a258855f5dac4bd6aed44a1cb4a2d6e4
+00:11:38.000 --> 00:11:42.640 align:left position:18%
+<c.teletext>Titta, en sån fin hund!
+Den skulle jag vilja ha.</c>
+
+2135e66230d4459b974774d01962c1ea
+00:11:42.800 --> 00:11:46.040 align:left position:18%
+<c.teletext><c.huvudpratare>Får jag några bollar!</c></c>
+
+fac0de9d12da4e158a8f207c25f2e7b9
+00:11:58.440 --> 00:12:06.080 align:left position:18%
+<c.teletext><c.huvudpratare>–Hur ska man vinna den där hunden?</c>
+–Slå ner hela pyramiden med EN boll.</c>
+
+7926ed62f50346c7947bc0db41d0b615
+00:12:13.200 --> 00:12:15.720 align:left position:18%
+<c.teletext>Var så god.</c>
+
+4bd5d3cd165a434b84b7356c341bc047
+00:12:15.880 --> 00:12:20.320 align:left position:18%
+<c.teletext><c.huvudpratare>–Här, Annika.</c>
+–Tack, snälla Pippi!</c>
+
+243d9f63a4e647b0a67dde6b222c78b4
+00:12:20.480 --> 00:12:28.800 align:left position:18%
+<c.teletext><c.urfjarran><i>Mina damer och herrar! Klockan 15.30</i></c>
+<c.urfjarran><i>kommer ormtjuserskan fröken Paula–</i></c></c>
+
+7421e8f66c70418da38311296e76bd5a
+00:12:28.960 --> 00:12:35.480 align:left position:18%
+<c.teletext><c.urfjarran><i>–att exekvera sin dödsföraktande</i></c>
+<c.urfjarran><i>uppvisning i ormtältet.</i></c></c>
+
+20d4ce5b46b341e69066840c316f820c
+00:12:35.640 --> 00:12:43.000 align:left position:18%
+<c.teletext><c.urfjarran><i>Men dessförinnan, precis klockan 15</i></c>
+<c.urfjarran><i>– om en timme, alltså...</i></c></c>
+
+c93bfb616c994939968cb5725e3c9e0d
+00:12:43.160 --> 00:12:51.040 align:left position:18%
+<c.teletext><c.urfjarran><i>...utmanar Starke Adolf alla herrar</i></c>
+<c.urfjarran><i>i publiken till en styrkemätning.</i></c></c>
+
+301e540d042f4626a1ca3c5f80017d71
+00:12:51.200 --> 00:12:58.040 align:left position:18%
+<c.teletext><c.urfjarran><i>Enorma vinster väntar den som</i></c>
+<c.urfjarran><i>antar utmaningen och besegrar honom.</i></c></c>
+
+10d5c0f5632a4c54afdcc41c9bda6c44
+00:12:58.200 --> 00:13:05.760 align:left position:18%
+<c.teletext><c.urfjarran><i>Ett skådespel i världsklass, mina</i></c>
+<c.urfjarran><i>damer och herrar, precis klockan 15!</i></c></c>
+
+f87e00f121c94b1cb2f641b27b9c9aae
+00:13:11.400 --> 00:13:14.760 align:left position:18%
+<c.teletext>Å, vad han är stark!</c>
+
+d63a4248d20741e9a13eeb6282944bcf
+00:13:37.640 --> 00:13:43.880 align:left position:18%
+<c.teletext><c.huvudpratare>–Å, vad han var stark!</c>
+–Äsch, det var bara bluff-tyngder.</c>
+
+114ae7a6eb5f4459bca7dbebee76773c
+00:13:49.120 --> 00:13:53.280 align:left position:18%
+<c.teletext>Det var det inte. Hjälp till, Annika!</c>
+
+558fd2cac155442683a117a1a15695e3
+00:14:07.080 --> 00:14:10.320 align:left position:18%
+<c.teletext><c.huvudpratare>Känn på den här, då!</c></c>
+
+8ef537d41d7d49aea750adac00e010a6
+00:14:37.800 --> 00:14:41.840 align:left position:18%
+<c.teletext>Den här farten är mera lagom för mig.</c>
+
+8202de0a79d645e1bb1290f546628a16
+00:15:02.400 --> 00:15:06.160 align:left position:18%
+<c.teletext><c.huvudpratare>Usch, det där går för lusigt.</c></c>
+
+49ad70193b3b43c4804bb4db5e76d7fb
+00:15:07.320 --> 00:15:10.560 align:left position:18%
+<c.teletext><c.huvudpratare>Nu ska ni få åka!</c></c>
+
+100b21caef08485c9c7e80c00c42bf97
+00:15:14.400 --> 00:15:17.720 align:left position:18%
+<c.teletext>Oj, vilken fart!</c>
+
+0ceb2dd122394215bd46f5856619bda8
+00:15:45.440 --> 00:15:47.880 align:left position:18%
+<c.teletext>Håll i mig!</c>
+
+f8e55b9543994d05a27301c734a85a7c
+00:15:49.240 --> 00:15:53.400 align:left position:18%
+<c.teletext>Nej, släpp, så jag kommer av!</c>
+
+efb15916b7204dd3a7b9382ec7fc8bab
+00:16:00.280 --> 00:16:03.800 align:left position:18%
+<c.teletext>Pippi, Kling ramlar av!</c>
+
+95e5bad96ae54d08b308626abf4f4193
+00:16:04.960 --> 00:16:07.400 align:left position:18%
+<c.teletext>Stanna, Pippi!</c>
+
+8807b422bd5e4a9a92e2763a354cf752
+00:16:11.240 --> 00:16:19.160 align:left position:18%
+<c.teletext><c.huvudpratare>Nä, nu... Är man onykter ska man</c>
+<c.huvudpratare>inte åka karusell – kom ihåg det!</c></c>
+
+7f0fcc73e05a45b68a66f77d0827e07d
+00:16:59.040 --> 00:17:05.720 align:left position:18%
+<c.teletext><c.urfjarran><i>Mina damer och herrar – strax</i></c>
+<c.urfjarran><i>börjar Starke Adolfs uppträdande!</i></c></c>
+
+cf36215fc5564964a9f6c4f855c3f7bc
+00:17:05.880 --> 00:17:09.280 align:left position:18%
+<c.teletext><c.urfjarran><i>Passa på – ta chansen!</i></c></c>
+
+b5a3d282f5974895bf2f1d894156a08c
+00:17:15.240 --> 00:17:20.920 align:left position:18%
+<c.teletext>Mitt herrskap, får jag presentera
+världens starkaste man:</c>
+
+e0c4da37353c4160b3eddbddcac71b5b
+00:17:21.080 --> 00:17:24.800 align:left position:18%
+<c.teletext>Starke Adolf!</c>
+
+f403219a892045ff8e1fc062c8e64524
+00:17:24.960 --> 00:17:30.400 align:left position:18%
+<c.teletext>Aldrig tidigare
+har någon besegrat Starke Adolf-</c>
+
+e72459e7f62e4e1a90707a417ca46a9f
+00:17:30.560 --> 00:17:34.200 align:left position:18%
+<c.teletext>-men chansen finns fortfarande.</c>
+
+8d0b7b7e52bb4fcd8b3402e0e35f2ae4
+00:17:34.360 --> 00:17:39.560 align:left position:18%
+<c.teletext>Passa på, ta chansen – och
+gå härifrån rikare än ni kom hit!</c>
+
+381df1a1e93a453495d16c79e05f3f64
+00:17:39.720 --> 00:17:43.800 align:left position:18%
+<c.teletext>Vem vågar en kamp med Starke Adolf?</c>
+
+6f2baa48dd42497da141e68cde61f8d2
+00:17:43.960 --> 00:17:51.640 align:left position:18%
+<c.teletext>100 kronor i belöning väntar den
+som kan lägga ner Starke Adolf!</c>
+
+374aa5764e4a445aa8debe7163b10eb8
+00:17:51.800 --> 00:17:57.720 align:left position:18%
+<c.teletext>–Kom an, mina herrar!
+<c.huvudpratare>–Varför inte "kom an, mina damer"?</c></c>
+
+edfe41aae2214f389becdf90e03989ea
+00:17:57.880 --> 00:18:03.760 align:left position:18%
+<c.teletext>Finns här ingen modig man?
+Där har vi honom... Utmärkt!</c>
+
+52a6bf4f474c41c2bd81b65585a1f3af
+00:18:03.920 --> 00:18:11.960 align:left position:18%
+<c.teletext>Kliv upp här. Välkommen! Jag ska ta
+kavajen, så går det liksom lättare.</c>
+
+bcaac91e24cb42debd96aee2d68906ba
+00:18:12.120 --> 00:18:15.520 align:left position:18%
+<c.teletext>Var så goda – sätt i gång!</c>
+
+5ea87b4feb5648d18a63ba88aabe2852
+00:18:26.960 --> 00:18:30.320 align:left position:18%
+<c.teletext>Jaha...han är besegrad!</c>
+
+37cbbbc974954d9ea17e9ef3d7f4ec8e
+00:18:34.080 --> 00:18:37.960 align:left position:18%
+<c.teletext>Ett gott försök. Tack ska du ha!</c>
+
+6be56416cf504662949e52c409db8620
+00:18:38.120 --> 00:18:44.240 align:left position:18%
+<c.teletext>Så går det. Ännu har ingen
+lyckats besegra Starke Adolf.</c>
+
+7ef8b7a4f9ae40369672ba348222886d
+00:18:44.400 --> 00:18:51.520 align:left position:18%
+<c.teletext><c.huvudpratare>–Då är det dags att någon gör det.</c>
+–Han är ju världens starkaste man!</c>
+
+903410a8d7e3481884bdc0cec4d3617f
+00:18:51.680 --> 00:18:56.840 align:left position:18%
+<c.teletext><c.huvudpratare>Jag är världens starkaste tjej</c>
+<c.huvudpratare>– kom ihåg det!</c></c>
+
+ec18ea75a1664619a6350f282a429bfd
+00:18:57.000 --> 00:19:04.160 align:left position:18%
+<c.teletext>Ingen annan som vågar en dust
+med världens starkaste man? Kom an!</c>
+
+5257a35eab3f46ba858ae0201a32001e
+00:19:04.320 --> 00:19:11.160 align:left position:18%
+<c.teletext>Våga ett försök och tjäna 100 kronor!
+– Vad gör du här? Försvinn!</c>
+
+45b27ce910f246a192411433b6147041
+00:19:13.680 --> 00:19:17.480 align:left position:18%
+<c.teletext><c.huvudpratare>Hörrudu, ska vi ta en match?</c></c>
+
+a4ac3e81dcc0400abf448baa764d6b63
+00:19:17.640 --> 00:19:22.680 align:left position:18%
+<c.teletext>HEJA, PIPPI! HEJA, PIPPI...</c>
+
+df7584ab3aa6407aad6f78abbc19c050
+00:19:22.840 --> 00:19:28.560 align:left position:18%
+<c.teletext><c.huvudpratare>–Nå, hur blir det?</c>
+–Vad är det här för dumheter?!</c>
+
+4d3a5f5f159840b297074ec39b1da925
+00:19:28.720 --> 00:19:31.120 align:left position:18%
+<c.teletext><c.huvudpratare>Kom an, då!</c></c>
+
+df17501da65940a6b3ac5fe056852067
+00:19:46.560 --> 00:19:48.480 align:left position:18%
+<c.teletext>Akta dig, Pippi!</c>
+
+7b47f80fbfbd4badabbcdac8ce87054f
+00:19:52.240 --> 00:19:54.840 align:left position:18%
+<c.teletext><c.huvudpratare>Kom an, bara!</c></c>
+
+32ef0ba1b7a24f199259d7183550e872
+00:19:57.880 --> 00:20:01.800 align:left position:18%
+<c.teletext>Adolf – ta fast henne nu!</c>
+
+99e4eb3adff24b5daf43e8dd875d683a
+00:20:05.400 --> 00:20:08.080 align:left position:18%
+<c.teletext><c.huvudpratare>Ta i, då!</c></c>
+
+a9f9e15ecb9c43dbaa5bd5c44c033696
+00:20:10.280 --> 00:20:14.520 align:left position:18%
+<c.teletext><c.huvudpratare>Hugg i, bara! Är det jobbigt?</c></c>
+
+1d49b2036a2342b88e546d7bdfb0e6e6
+00:20:17.200 --> 00:20:20.280 align:left position:18%
+<c.teletext>Heja, Pippi!</c>
+
+037fd16de2bb40c490f099f2a2648b64
+00:20:20.440 --> 00:20:25.080 align:left position:18%
+<c.teletext><c.huvudpratare>Nu sätter vi i gång.</c></c>
+
+a510b696d0274473a56a276be9dcb71f
+00:20:25.240 --> 00:20:28.400 align:left position:18%
+<c.teletext>Bra, Pippi!</c>
+
+77a1b1f6aab049a385ab485a8ce8f331
+00:20:32.960 --> 00:20:37.480 align:left position:18%
+<c.teletext>Gubbe, ge henne hundralappen!</c>
+
+d4fb3a92182c4a63b1cfe5ba89416aef
+00:20:41.120 --> 00:20:47.120 align:left position:18%
+<c.teletext>Var så god, fröken,
+här är belöningen: 100 kronor.</c>
+
+2eba9d033c624e058c320483b228daac
+00:20:53.800 --> 00:20:59.120 align:left position:18%
+<c.teletext><c.huvudpratare>Här... Köp lite järnmedusin</c>
+<c.huvudpratare>– det behöver du!</c></c>
+
+586a0cd6348140f98801d3f3a773cfe3
+00:21:19.800 --> 00:21:25.080 align:left position:18%
+<c.teletext>–Titta! Är det inte Blom?
+–Jo. Nu har vi honom!</c>
+
+2877c9f720fa410c88574beaadd37028
+00:21:27.400 --> 00:21:31.240 align:left position:18%
+<c.teletext>Då är nog Dunder-Karlsson också här.</c>
+
+4050e6b3fb9c4c4db6351c7f0cea0694
+00:21:32.400 --> 00:21:37.480 align:left position:18%
+<c.teletext>Nu är du fast!
+Nå, var är Dunder-Karlsson?</c>
+
+100ee55e373d4762a10cac2b11fe8a9f
+00:21:48.680 --> 00:21:55.240 align:left position:18%
+<c.teletext>Å, förlåt, vi tog fel. När folk
+gömmer ansiktet blir man misstänksam.</c>
+
+e59bc1d8eef6437d90ac8a553309cd45
+00:21:55.400 --> 00:21:58.520 align:left position:18%
+<c.teletext>Vem tittade ni på?</c>
+
+7ff9d1a6780846b99329c45fae3f4582
+00:22:12.080 --> 00:22:18.400 align:left position:18%
+<c.teletext><c.urfjarran><i>Mitt herrskap, får jag presentera</i></c>
+<c.urfjarran><i>– fröken Paula!</i></c></c>
+
+1262f2beefbf4e37b8732737a0ba5c84
+00:22:20.440 --> 00:22:23.520 align:left position:18%
+<c.teletext>Fröken Paula...</c>
+
+40616a418b904da5880bd8e0d0caaeed
+00:22:24.840 --> 00:22:32.240 align:left position:18%
+<c.teletext>...världens modigaste kvinna
+och hennes fruktansvärda boaormar.</c>
+
+3f2df6173a3c4f88838fb6a4edee0187
+00:22:32.400 --> 00:22:37.560 align:left position:18%
+<c.teletext>Betänk att en fullvuxen
+boa constrictor–</c>
+
+2d7d82138c1c45d091a138c4abd7bc8e
+00:22:37.720 --> 00:22:42.280 align:left position:18%
+<c.teletext>–kan döda en oxe med ett enda ryck!</c>
+
+dd468dfdd9e445088e7e2cb9dd27050f
+00:22:42.440 --> 00:22:48.160 align:left position:18%
+<c.teletext>Nu ska fröken Paula
+utföra sin dödsföraktande dans–</c>
+
+94d95243f1cb4f66bce86170acb021b0
+00:22:48.320 --> 00:22:57.040 align:left position:18%
+<c.teletext>–med sin jättelika boa constrictor,
+4,12 meter lång och 70 år gammal.</c>
+
+5cf3c88d875e4b9ba071202f11a04300
+00:22:57.200 --> 00:23:02.280 align:left position:18%
+<c.teletext>Alltså, mina damer och herrar
+– fröken Paula!</c>
+
+b30af25af809438aa5ae8d911f1683f4
+00:23:19.640 --> 00:23:22.280 align:left position:18%
+<c.teletext><c.huvudpratare>Det var baddarns!</c></c>
+
+1135ac02409a41e39e701d9f7f934944
+00:24:17.480 --> 00:24:22.400 align:left position:18%
+<c.teletext><c.huvudpratare>Undrar om hon har en orm till</c>
+<c.huvudpratare>i korgen...</c></c>
+
+ae431867fd554afab73921fa4f4f6b2a
+00:24:32.520 --> 00:24:38.480 align:left position:18%
+<c.teletext><c.ljud>HON HÄRMAR</c>
+<c.ljud>EN ORMTJUSARFLÖJT</c></c>
+
+790d6329b2934a4a9a1083e850d4e383
+00:24:58.800 --> 00:25:02.360 align:left position:18%
+<c.teletext><c.huvudpratare>Så gullig du är!</c></c>
+
+d636856cb07449108ed1bb4ea43f3152
+00:25:02.520 --> 00:25:06.600 align:left position:18%
+<c.teletext><c.huvudpratare>Såja,</c>
+<c.huvudpratare>fin liten orm...</c></c>
+
+a3fdefab64b2477f8c36ba1f4180d62a
+00:25:08.520 --> 00:25:12.040 align:left position:18%
+<c.teletext>Pippi, du är tokig!</c>
+
+7036a82d108f42ed971923e827b0d9b2
+00:25:22.680 --> 00:25:25.680 align:left position:18%
+<c.teletext>Rädda henne! Fröken Paula!</c>
+
+168c87198ae34d188c651762ebc89fbb
+00:25:25.840 --> 00:25:31.840 align:left position:18%
+<c.teletext>Titta på flickan...
+Ormen är ju livsfarlig! FRÖKEN PAULA!</c>
+
+df0f61bc90a544dcaf02952875aefcd2
+00:25:32.000 --> 00:25:37.240 align:left position:18%
+<c.teletext><c.huvudpratare>-Vad skriker du för? Jag lekte bara.</c>
+-Leker?!</c>
+
+e8e5322f25174c799fbbdd324974ac23
+00:25:37.400 --> 00:25:43.680 align:left position:18%
+<c.teletext>Är du inte klok? Man leker inte
+med en pytonorm. Den är livsfarlig!</c>
+
+d2f9da179bad413e9e0384153c131921
+00:25:43.840 --> 00:25:47.920 align:left position:18%
+<c.teletext><c.huvudpratare>Ner med dig, har jag sagt!</c></c>
+
+fdc6059160384a45a643b36d8d583a02
+00:25:48.080 --> 00:25:52.960 align:left position:18%
+<c.teletext>Låt bli den! Låt bli pytonormen!</c>
+
+132e2d613a1a45a591ac2c8b0e8d746c
+00:26:01.560 --> 00:26:05.600 align:left position:18%
+<c.teletext><c.sang>Här kommer Pippi Långstrump!</c>
+<c.sang>Tjolahopp, tjolahej, tjolahoppsansa</c></c>
+
+d7084da0fac9491393f8c6c2fcf96d95
+00:26:05.760 --> 00:26:10.000 align:left position:18%
+<c.teletext><c.sang>Här kommer Pippi Långstrump,</c>
+<c.sang>här kommer faktiskt jag</c></c>
+
+03e92583561c4e6189007e863e8fda4b
+00:26:10.160 --> 00:26:14.240 align:left position:18%
+<c.teletext><c.sang>Har du sett min apa,</c>
+<c.sang>min fina söta lilla apa?</c></c>
+
+7b16eb1e774645d5bfa98602a18f5cea
+00:26:14.400 --> 00:26:18.280 align:left position:18%
+<c.teletext><c.sang>Har du sett Herr Nilsson?</c>
+<c.sang>Ja, han heter faktiskt så</c></c>
+
+bf2871de05fa4683b0bf8cade71eb302
+00:26:18.440 --> 00:26:22.920 align:left position:18%
+<c.teletext><c.sang>Har du sett min villa,</c>
+<c.sang>min Villa Villekulla-villa?</c></c>
+
+8d8f278e71b94e2495fda1513d559f67
+00:26:23.080 --> 00:26:27.160 align:left position:18%
+<c.teletext><c.sang>Vill du, vill du veta</c>
+<c.sang>varför villan heter så?</c></c>
+
+c0959eb0edbe4e73a3d3cd591932d8b6
+00:26:27.320 --> 00:26:31.440 align:left position:18%
+<c.teletext><c.sang>Där bor ju Pippi Långstrump!</c>
+<c.sang>Tjolahopp, tjolahej, tjolahoppsansa</c></c>
+
+b81ce1d7c3d846cda8c49e5301fbf614
+00:26:31.600 --> 00:26:35.800 align:left position:18%
+<c.teletext><c.sang>Där bor ju Pippi Långstrump,</c>
+<c.sang>ja, där bor faktiskt jag</c></c>
+
+ab66ed9a12e842e8a7146687f9b53110
+00:26:35.960 --> 00:26:40.120 align:left position:18%
+<c.teletext><c.sang>Det är inte illa</c>
+<c.sang>– jag har ju apa, häst och villa</c></c>
+
+30f6ee5df74c41819a37d3f6185961cf
+00:26:40.280 --> 00:26:43.760 align:left position:18%
+<c.teletext><c.sang>Kappsäck full med pengar,</c>
+<c.sang>det är också bra att ha</c></c>
+
+8c0ab71b91d046f88b4556e9cc8e34bb
+00:26:44.440 --> 00:26:48.680 align:left position:18%
+<c.teletext><c.sang>Kom nu, alla vänner,</c>
+<c.sang>varenda kotte som jag känner!</c></c>
+
+a2fee5effb83403c9feed3f623079752
+00:26:48.840 --> 00:26:52.760 align:left position:18%
+<c.teletext><c.sang>Nu ska vi leva loppan!</c>
+<c.sang>Tjolahej, tjolahoppsansa...</c></c>
+
+a3d045768ad445ef837e132d4f1104e9
+00:26:57.880 --> 00:27:01.200 align:center position:50%
+<c.teletext>Textning: Inger Sjöstrand
+Sveriges Television AB</c>
+

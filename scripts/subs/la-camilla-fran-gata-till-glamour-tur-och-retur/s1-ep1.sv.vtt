@@ -1,0 +1,3381 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: #DFDFDF;
+}
+::cue(.huvudpratare) {
+    color: #00FFFF;
+}
+::cue(.ljud) {
+    color: #FF00FF;
+}
+::cue(.ljudskylt) {
+    color: #FF00FF;
+}
+::cue(.relivemark) {
+    color: #FF0000;
+}
+::cue(.sang) {
+    color: #00FF00;
+}
+
+8d48e3e8f6b042beb0b12fe2a1af6f53
+00:00:11.360 --> 00:00:16.040 align:left position:22%
+<c.teletext>Jag måste leva med att det är
+åt helvete och ser för jävligt ut.</c>
+
+26bdece44b854ea1bedb0c0c9f7918df
+00:00:16.200 --> 00:00:19.240 align:left position:22%
+<c.teletext>Skit i det.</c>
+
+669831adef344076880d5ebf2c7637bd
+00:00:19.400 --> 00:00:22.400 align:left position:22%
+<c.teletext>Det är över snart.</c>
+
+a930989043da483c8c857892c618a6cc
+00:00:30.960 --> 00:00:35.480 align:left position:22%
+<c.teletext><c.sang>A time to go, a time to live</c>
+<c.sang>a place to be, a love to give</c></c>
+
+fdbb3345b1634e1e830a95aed3670e45
+00:00:35.640 --> 00:00:40.360 align:left position:22%
+<c.teletext><c.sang>When travelling around the world</c>
+<c.sang>My army of lovers</c></c>
+
+eaa25df5f3a74388a189125efe86ab72
+00:00:42.080 --> 00:00:45.520 align:left position:22%
+<c.teletext>Nu lossnade fransen också.</c>
+
+d68beca6c9d64c13a029994242f5b378
+00:00:45.680 --> 00:00:50.320 align:left position:22%
+<c.teletext><c.sang>Disney World to Yellowknife</c>
+<c.sang>America, my way of life</c></c>
+
+2c83d5dd1dac476cb260b8d0e1536793
+00:00:50.480 --> 00:00:55.480 align:left position:22%
+<c.teletext><c.sang>Riding on a wave of love</c>
+<c.sang>My army of lovers</c></c>
+
+675aca7c5eea4d499090e2fba725040e
+00:01:05.120 --> 00:01:09.720 align:left position:22%
+<c.teletext><c.sang>A cherry moon, a night of fun</c>
+<c.sang>We dance into the rising sun</c></c>
+
+96fd7aa83cc74c25a97af5f06a5164f0
+00:01:09.880 --> 00:01:13.800 align:left position:22%
+<c.teletext><c.sang>I lost my soul in Tokyo</c>
+<c.sang>My army of lovers</c></c>
+
+e57567ef2dd84b3c8fd598acb151a742
+00:01:14.800 --> 00:01:18.040 align:left position:22%
+<c.teletext><c.sang>Around the world, around the world</c></c>
+
+f77780c3c81b4259989251ffbad68529
+00:01:23.640 --> 00:01:28.000 align:left position:22%
+<c.teletext>Tycker du att det ser bra ut?
+Du tycker det på riktigt?</c>
+
+e3911d0caf4842bca8548143760281e8
+00:01:28.160 --> 00:01:31.160 align:left position:22%
+<c.teletext>–Ja.
+–Du också?</c>
+
+7b1b65f23ca24926b2dad00c67169ea4
+00:01:32.280 --> 00:01:36.720 align:left position:22%
+<c.teletext>–Det gör det ju inte.
+–Men det är ju svart på svart.</c>
+
+9eaf93c9620145a29f7f6fc1225ca211
+00:01:36.880 --> 00:01:40.200 align:left position:22%
+<c.teletext>Med en liten glipa.</c>
+
+713649270e794e30a42f866a577e0118
+00:01:40.360 --> 00:01:44.280 align:left position:22%
+<c.teletext>Det är just såna saker
+som jag oroar mig för.</c>
+
+b843817277b343c79adc759fde6b075e
+00:01:44.440 --> 00:01:47.840 align:left position:22%
+<c.teletext>Men vi skiter i det. Kör med glipa.</c>
+
+7f93e9a5e29c4e418d6033b999cdd640
+00:01:48.000 --> 00:01:52.000 align:left position:22%
+<c.teletext>Det är för fan bara jag.
+Vem fan bryr sig?!</c>
+
+1c9a368e521a4cd1bb21d985ffb5d00c
+00:01:53.520 --> 00:01:56.520 align:left position:22%
+<c.teletext><c.sang>Around the world, around the world</c></c>
+
+b6501c725d6e407f9582861b0c6a39d9
+00:02:08.120 --> 00:02:13.920 align:left position:22%
+<c.teletext><c.sang>Pour l'univers on quitte la terre</c>
+<c.sang>Heureux, joyeux</c></c>
+
+ceb7779b67db44ee8a35eb63e17ee427
+00:02:14.080 --> 00:02:17.400 align:left position:22%
+<c.teletext><c.sang>L'amour de Dieu n'a pas de frontière</c></c>
+
+3ace14b30b624208bbd845ceb938df1a
+00:02:17.560 --> 00:02:19.680 align:left position:22%
+<c.teletext><c.sang>Pour l'armée qui voyage</c>
+<c.sang>sous la lumière</c></c>
+
+5656d6575d744ef2b541ddcd791d5eb3
+00:02:19.840 --> 00:02:24.920 align:left position:22%
+<c.teletext>Jag är inte en person som riktigt är
+gjord för att bli gammal, tror jag.</c>
+
+368fbe63d89f4ba2aec35fe056bbeb53
+00:02:25.080 --> 00:02:29.520 align:left position:22%
+<c.teletext>Jag känner det mer och mer,
+att jag inte...</c>
+
+de00720bae8e401297437544306be8b9
+00:02:29.680 --> 00:02:34.480 align:left position:22%
+<c.teletext>Inte att jag inte har nåt att leva
+för, men på sätt och vis är det så.</c>
+
+cdc816999bef4934a9b9ccea331e7139
+00:02:34.640 --> 00:02:40.360 align:left position:22%
+<c.teletext>Jag har inga barn och ingen familj
+och inget jobb.</c>
+
+4ae84d4d21e34a289575bbdd067e7421
+00:02:40.520 --> 00:02:44.160 align:left position:22%
+<c.teletext>Och... Vad ska jag göra?</c>
+
+8894695d09b34ef2bf49491bd512527a
+00:02:44.320 --> 00:02:48.320 align:left position:22%
+<c.teletext>Mata fåglar?
+Det kanske inte är min grej.</c>
+
+3808e1e5085e495b8f30f9c17801d496
+00:02:52.800 --> 00:02:58.640 align:left position:22%
+<c.teletext>Det här är berättelsen om livets
+högsta toppar och djupaste dalar.</c>
+
+de0bcb908d1f428eaf4a2fdd10276555
+00:02:58.800 --> 00:03:04.280 align:left position:22%
+<c.teletext>Om hur den starka, drottninglika
+La Camilla kan bo i samma kropp–</c>
+
+f25a4d3a99a547ee8a8a4b3c0806aa6a
+00:03:04.440 --> 00:03:08.240 align:left position:22%
+<c.teletext>–som en ångestfylld Camilla Henemark.</c>
+
+e97875a1055f4dfd836f2629057c6a4f
+00:03:08.400 --> 00:03:11.280 align:left position:22%
+<c.teletext>Hej! Hej.</c>
+
+8c9ec7a89db046d3ba7cb04742d73185
+00:03:14.040 --> 00:03:17.520 align:left position:22%
+<c.teletext>Jag måste...
+Min rygg håller på att gå av.</c>
+
+bd80200f984a45b19a3baeda2d601ae0
+00:03:17.680 --> 00:03:20.520 align:left position:22%
+<c.teletext>Usch då, stackare.</c>
+
+adfcf0b982474a89836783687619df62
+00:03:22.200 --> 00:03:26.120 align:left position:22%
+<c.teletext>Vi börjar hos Camillas mamma Gerd
+i Vällingby.</c>
+
+262c777001694585bce13a0146b259b5
+00:03:26.280 --> 00:03:30.400 align:left position:22%
+<c.teletext>Hon var dansare och turnerade
+runt Europa med Casselbaletten–</c>
+
+97519f6d70904f05944fe5dc9d928b47
+00:03:30.560 --> 00:03:33.840 align:left position:22%
+<c.teletext>–tills hon fick jobb
+som hårfrisörska i London.</c>
+
+9bc315089cb84bcfa7693c16178a220b
+00:03:34.000 --> 00:03:39.120 align:left position:22%
+<c.teletext>Där blev hon kär i Austin Obanye
+från Nigeria.</c>
+
+b595b90b5d474e14b41615365c97b7a2
+00:03:39.280 --> 00:03:42.880 align:left position:22%
+<c.teletext>Jag jobbade i London då, som frisör–</c>
+
+ea9a10ec64c54f0cb14a74a333be7ade
+00:03:43.040 --> 00:03:50.280 align:left position:22%
+<c.teletext>–och träffade honom när vi var ute
+och dansade. Och så blev vi ihop.</c>
+
+3cb2787e10a5454684a00e6c5a28b891
+00:03:50.440 --> 00:03:55.440 align:left position:22%
+<c.teletext>Sen åkte jag hem, för jag hade hyrt
+ut min lägenhet här i Stockholm–</c>
+
+42997a8655e74335bffa9685e19be567
+00:03:55.600 --> 00:04:00.400 align:left position:22%
+<c.teletext>–så jag måste åka hem till den.
+När jag kom hem sa jag:</c>
+
+025e40cf679a496e89b2fdc6f9f356d0
+00:04:00.560 --> 00:04:04.080 align:left position:22%
+<c.teletext>"Nu får du komma hit."
+Men det ville han inte göra.</c>
+
+1039b03f5773486f97fc0cb5000dabc1
+00:04:04.240 --> 00:04:08.600 align:left position:22%
+<c.teletext>Om du skulle beskriva Camilla
+som barn, hur var hon då?</c>
+
+3ec562a716fb416b8268295c43b3a879
+00:04:08.760 --> 00:04:15.120 align:left position:22%
+<c.teletext>Hon var en liten glad, söt flicka.
+Väldigt pigg. "Jag kan själv", sa du.</c>
+
+b0b941c966b64dfd93ed1f303176f7c8
+00:04:15.280 --> 00:04:19.480 align:left position:22%
+<c.teletext>–Det var mina första ord, kanske?
+–Ja, kanske.</c>
+
+a60c88917f3b460bb8c6934e1a715964
+00:04:25.160 --> 00:04:27.960 align:left position:22%
+<c.teletext>Jag var ensambarn.</c>
+
+fb8454fa1b9b4f50b7992f59bad4e8ed
+00:04:28.120 --> 00:04:33.160 align:left position:22%
+<c.teletext>Som en blandning av Pippi Långstrump,
+Madicken och Kajsa Kavat.</c>
+
+8f9128f6846049b1a8e02fc217d4ae1a
+00:04:33.320 --> 00:04:36.040 align:left position:22%
+<c.teletext>Jag levde lite i min fantasivärld.</c>
+
+1866952fdd0342a3b39171786dd30bd5
+00:04:36.200 --> 00:04:40.120 align:left position:22%
+<c.teletext>Senare i livet fick jag diagnoser,
+adhd och asperger.</c>
+
+b0884d7c8f654eaba9b1fb424abaa600
+00:04:40.280 --> 00:04:45.000 align:left position:22%
+<c.teletext>Jag var ganska vild som liten,
+men också mycket i min egen värld.</c>
+
+b65907e3302b47658f1aa0c21affe2ca
+00:04:45.160 --> 00:04:49.680 align:left position:22%
+<c.teletext>Jag funderade och tyckte inte
+så mycket om att leka med andra barn.</c>
+
+d44db9b60cf94604afccdf7e6ec1a4fc
+00:04:49.840 --> 00:04:54.280 align:left position:22%
+<c.teletext>Men det var nog för att jag visste
+att jag var udda.</c>
+
+faa4d9f211854e2f94d876786d515a1b
+00:04:54.440 --> 00:04:59.520 align:left position:22%
+<c.teletext>Hur var det att vara ensamstående mor
+till en tjej som dessutom var svart?</c>
+
+1f15a77e9fe24988a1c9a3d157407a9c
+00:04:59.680 --> 00:05:02.840 align:left position:22%
+<c.teletext>Det var inga problem, tycker jag.</c>
+
+ef66e8dafd464c09838b039297cb4d06
+00:05:03.000 --> 00:05:08.800 align:left position:22%
+<c.teletext>Det fanns ju inte så många svarta då,
+så det var mer att det var unikt.</c>
+
+c7707c4eee7d434690e66c95fc358d3c
+00:05:08.960 --> 00:05:12.440 align:left position:22%
+<c.teletext>Folk kom fram och kände på håret.</c>
+
+70bb80e8dbd84d5295fe922b3025c6fc
+00:05:12.600 --> 00:05:16.880 align:left position:22%
+<c.teletext>Och tittade. "Åh, så söt!"
+Det var mer så.</c>
+
+e5e776b441734c8185e453c9537b0613
+00:05:17.040 --> 00:05:22.000 align:left position:22%
+<c.teletext>Jag var den enda mörkhyade
+i hela skolan.</c>
+
+61124d5183fd42109bf617d605fd20d4
+00:05:22.160 --> 00:05:26.440 align:left position:22%
+<c.teletext>Rasismen finns ju hela tiden,
+men du är blind för den.</c>
+
+40710da2b7b54fb1ab1d7e79b43129ef
+00:05:26.600 --> 00:05:31.160 align:left position:22%
+<c.teletext>–Du är på riktigt färgblind.
+–Ja, jag kanske är det.</c>
+
+1b0ec1b989b547ed8fe23d893c48d229
+00:05:31.320 --> 00:05:34.920 align:left position:22%
+<c.teletext>Jag tänker inte i de tankarna.</c>
+
+b229478ec5b04f3cb8eccb0f8edc2cdd
+00:05:35.920 --> 00:05:40.720 align:left position:22%
+<c.teletext>När Camilla är liten bor hon och Gerd
+i en etta med kallvatten–</c>
+
+342bba8ab310473aa2f11a29b30c7ed3
+00:05:40.880 --> 00:05:44.440 align:left position:22%
+<c.teletext>–i den del av Stockholm
+som kallas Sibirien.</c>
+
+1371922326b5435d9e604dfa31efb45d
+00:05:44.600 --> 00:05:50.600 align:left position:22%
+<c.teletext>På andra sidan Odengatan ligger
+Lärkstan med de dyraste lägenheterna.</c>
+
+de93152e5aad47a9b286ea91ae359696
+00:05:50.760 --> 00:05:54.120 align:left position:22%
+<c.teletext>Camilla rör sig fritt
+mellan områdena.</c>
+
+3b63b03160d346159f8afebd6489145a
+00:05:54.280 --> 00:05:59.920 align:left position:22%
+<c.teletext>När mamma öppnar hårsalong, till-
+bringar Camilla dagarna hos mormor.</c>
+
+1359fa7ae5914382a9d6f1f7d13e14fa
+00:06:00.080 --> 00:06:05.840 align:left position:22%
+<c.teletext>Hon bor i en vaktmästarbostad
+som nästan är som ett slott.</c>
+
+a425f217a5f24a0db1e0a078742d1a69
+00:06:06.000 --> 00:06:09.840 align:left position:22%
+<c.teletext>Här har vi Gustav Vasa skola.</c>
+
+aee3c39ca27041e682e9d53ba9fb4473
+00:06:10.000 --> 00:06:16.880 align:left position:22%
+<c.teletext>Här börjar vaktmästarbostäderna.
+Den där var mormors.</c>
+
+2fcb5d187e49405aac404455a1a4b6c7
+00:06:17.040 --> 00:06:21.760 align:left position:22%
+<c.teletext>När mormor bodde här, och morfar...</c>
+
+e2271ac6636d445b81140463dc94a336
+00:06:21.920 --> 00:06:27.160 align:left position:22%
+<c.teletext>Hon hade fantastiska kristallkronor
+och extremt högt i tak.</c>
+
+0164f9295f1c402cb0a4ac990b720508
+00:06:27.320 --> 00:06:31.320 align:left position:22%
+<c.teletext>Nu har de sänkt taket,
+men man kan se takhöjden som var.</c>
+
+7e754c737a994e0db7c85df40616759b
+00:06:31.480 --> 00:06:36.560 align:left position:22%
+<c.teletext>Sen var det gigantiska gobelänger
+som hon köpt på stadsauktion.</c>
+
+a6b6b90ad90c4fa5a83d29253baa377d
+00:06:36.720 --> 00:06:42.480 align:left position:22%
+<c.teletext>Från teatrar, slott och så, som ingen
+egentligen kan ha i vanliga hem.</c>
+
+033b202f008c451f9677010a7a58f290
+00:06:42.640 --> 00:06:46.480 align:left position:22%
+<c.teletext>Så det var väldigt slottslikt,
+helt enkelt.</c>
+
+ab568533c5ce40b19f0a41e37d4ceae0
+00:06:46.640 --> 00:06:51.720 align:left position:22%
+<c.teletext>Ska vi gå in och kolla lite grann
+på min magiska värld?</c>
+
+31e263c7da1748d0a92445b4299b7f66
+00:06:53.160 --> 00:06:57.480 align:left position:22%
+<c.teletext><c.sang>Vill ni se en stjärna</c></c>
+
+255e0bb3096f4226b81a37b7c7ec5e25
+00:06:57.640 --> 00:07:00.760 align:left position:22%
+<c.teletext><c.sang>se på mig</c></c>
+
+baaf0788e47d444f917ea6bea03e5c81
+00:07:00.920 --> 00:07:04.320 align:left position:22%
+<c.teletext><c.sang>Ni får mycket gärna</c></c>
+
+2ea3680d6f5c49c0a096c3cfff898343
+00:07:04.480 --> 00:07:06.920 align:left position:22%
+<c.teletext><c.sang>se på mig</c></c>
+
+411823bf2c5c48f1a28f804df0a483c5
+00:07:07.920 --> 00:07:13.560 align:left position:22%
+<c.teletext>Här är mitt slott! Alltså,
+det kittlar i magen. Det gör det.</c>
+
+7dd18d73d5744152913dc63e29e0431d
+00:07:14.680 --> 00:07:19.280 align:left position:22%
+<c.teletext>På nätterna var det
+helt nedsläckt här. Kolsvart.</c>
+
+0cc827c4b01c45b486cda0edbffb1717
+00:07:19.440 --> 00:07:24.640 align:left position:22%
+<c.teletext>Då smög jag upp. Jag minns
+att jag kunde varenda sten här.</c>
+
+2748dded55014c569f027453ac15fa0a
+00:07:24.800 --> 00:07:30.960 align:left position:22%
+<c.teletext>Här gick mormor och jag i trapporna
+med tiaror och långklänningar.</c>
+
+bc1276d0d8f748e99111abfd5766abb8
+00:07:31.120 --> 00:07:35.920 align:left position:22%
+<c.teletext>Uppstassade, och lekte
+prinsessor och drottningar.</c>
+
+9ba8ecfdbd344a48a5da9e5ecdfe1e87
+00:07:36.080 --> 00:07:39.280 align:left position:22%
+<c.teletext>Vi var som ett radarpar,
+jag och mormor.</c>
+
+b7a7cfaff9d04d019839d7a077c5f857
+00:07:39.440 --> 00:07:44.320 align:left position:22%
+<c.teletext>Hon hade en enorm fantasi,
+elegans och charm.</c>
+
+42a0a2f94db4455e804de73ed596a3b4
+00:07:44.480 --> 00:07:47.400 align:left position:22%
+<c.teletext>Jag har lärt mig så mycket av mormor.</c>
+
+2afc6cb39531437c88c1ca3bbd5f5589
+00:07:47.560 --> 00:07:52.960 align:left position:22%
+<c.teletext>Hon var den bästa mentorn för saker
+som är vackra, och njutning i livet.</c>
+
+f72ce261a6114de589ccf82138e34e48
+00:07:53.120 --> 00:07:57.600 align:left position:22%
+<c.teletext>Hon älskade sånt. Hon älskade
+att leva lite i en fantasi.</c>
+
+443d8e1beaa84d0fbfe331b210f6389b
+00:07:57.760 --> 00:08:02.400 align:left position:22%
+<c.teletext>Det passar mig också.
+Jag är lite av en prinsessa ibland.</c>
+
+f7621add5528425cbf16bfc7e31dbe8d
+00:08:02.560 --> 00:08:08.200 align:left position:22%
+<c.teletext>Jag kanske tror att jag hör till nåt
+slott och egentligen har hamnat fel–</c>
+
+beadb2ead6b540e6a8f3d9ba34fcdf7e
+00:08:08.360 --> 00:08:12.440 align:left position:22%
+<c.teletext>–när jag sitter här
+i en sorglig liten etta.</c>
+
+78ed6b004cf94f6c8e8fa28e83f819c2
+00:08:12.600 --> 00:08:15.480 align:left position:22%
+<c.teletext>"Var är mitt slott?"</c>
+
+a579ff4090f9470e980db92dd365bd09
+00:08:15.640 --> 00:08:20.560 align:left position:22%
+<c.teletext><c.sang>I'm flying high, across the sky</c></c>
+
+811247be017743d98d4284b8e2feaf97
+00:08:20.720 --> 00:08:25.200 align:left position:22%
+<c.teletext>I skolan går det så där.
+Camilla får inte godkända betyg–</c>
+
+2427d2f891a843a086fa55bbfe11d32e
+00:08:25.360 --> 00:08:28.040 align:left position:22%
+<c.teletext>–och placeras i obsklass.</c>
+
+7f3e40534c264f489fc1bdc9f00705b9
+00:08:28.200 --> 00:08:33.200 align:left position:22%
+<c.teletext>Men hon blir vald
+till ordförande i elevrådet.</c>
+
+6fd41fa793fb4721a8ce73a60915b2f2
+00:08:33.360 --> 00:08:39.080 align:left position:22%
+<c.teletext>Hon satsar på friidrott och tävlar
+i ungdomslandslaget i höjdhopp.</c>
+
+15944dfd1d7a4adfbad3662b0588a0e0
+00:08:39.240 --> 00:08:43.720 align:left position:22%
+<c.teletext>Jag höll på med både dans och idrott
+och utmärkte mig.</c>
+
+29089bc8c9224b6cb4b44568135b5060
+00:08:43.880 --> 00:08:48.880 align:left position:22%
+<c.teletext>Framför allt när jag började med fri-
+idrotten blev jag bra ganska snabbt.</c>
+
+8d3f17f134d3447f9058bf5f49abaf8c
+00:08:49.040 --> 00:08:51.920 align:left position:22%
+<c.teletext>Jag blev lite småkänd i skolan.</c>
+
+eaca794e9a2348939cb77201903bc3db
+00:08:52.080 --> 00:08:55.320 align:left position:22%
+<c.teletext>Det blev att
+"nu ska jag ändra saker".</c>
+
+8b87cfd95b874e75ab1afd0a40d7b31d
+00:08:55.480 --> 00:09:01.240 align:left position:22%
+<c.teletext>Som elevrådsordförande var jag jämt
+i skolan, men aldrig på lektionerna.</c>
+
+488f0d65ae374daf9c5dfc140badb186
+00:09:03.520 --> 00:09:08.680 align:left position:22%
+<c.teletext><c.sang>Mystery green winds are blowin'</c>
+<c.sang>Summer love is here</c></c>
+
+e51f67c5e3cf4ecba9293c644c8a4e15
+00:09:08.840 --> 00:09:13.560 align:left position:22%
+<c.teletext>Snart flyttar hon från mamma Gerd
+i Hässelby till Blackeberg–</c>
+
+e506f2fa85094c7c82a785d35bb77342
+00:09:13.720 --> 00:09:16.720 align:left position:22%
+<c.teletext>–där några äldre vänner
+bildat ett kollektiv.</c>
+
+2b36aa92ab3c4c429e52c0d890f69b6a
+00:09:16.880 --> 00:09:23.360 align:left position:22%
+<c.teletext>De sysslar med musik och politik
+och diskuterar livets stora frågor.</c>
+
+3bab64b08765471da5fe74c20f260428
+00:09:23.520 --> 00:09:26.960 align:left position:22%
+<c.teletext>Sjuk känsla! Det är ju kaféet.</c>
+
+74d2b0640d3644a0bade5f6f983f0749
+00:09:27.120 --> 00:09:33.280 align:left position:22%
+<c.teletext>Jag skulle säga att den viktigaste
+perioden och miljön jag var i–</c>
+
+5e266920abaa427d8196735c4b118c08
+00:09:33.440 --> 00:09:38.160 align:left position:22%
+<c.teletext>–var det här hippiekollektivet.
+Där hittade jag min identitet.</c>
+
+3d60690ba6ac4313b27a61227980fa99
+00:09:38.320 --> 00:09:43.960 align:left position:22%
+<c.teletext>Jag flyttade nästan direkt efter
+nian. Där började livet nånstans.</c>
+
+62061c74d4314ad7ab0de2f0e312e907
+00:09:44.120 --> 00:09:50.640 align:left position:22%
+<c.teletext>Jag vill ha ett par andra skor. Jag
+klarar inte av såna här klumpedunsar.</c>
+
+f4a88a76aab449c4bc8a348a805e760e
+00:09:50.800 --> 00:09:53.800 align:left position:22%
+<c.teletext>Här hängde man hela dagarna.</c>
+
+d37e038d50ed421fa7a7a49f835fb6ea
+00:09:53.960 --> 00:09:57.800 align:left position:22%
+<c.teletext>Det var ju under punkperioden,
+1979–1980–</c>
+
+2b4e0c77a30a44d8834b077c3e1f77da
+00:09:57.960 --> 00:10:01.400 align:left position:22%
+<c.teletext>–när alla skulle spela i ett band.</c>
+
+138b5482970e4df18b89e09aa14da453
+00:10:01.560 --> 00:10:04.360 align:left position:22%
+<c.teletext>Vårt tjejband hette Zinkpasta.</c>
+
+244571f23d8a476db0c8242ca2bcb757
+00:10:04.520 --> 00:10:08.520 align:left position:22%
+<c.teletext>Vi hade några spelningar,
+men kom nog aldrig upp på scen.</c>
+
+686bf90ca54a4acfa05a1bfc29c15d87
+00:10:08.680 --> 00:10:13.280 align:left position:22%
+<c.teletext>Jag tillhörde eliten,
+Västerortseliten Sju såser.</c>
+
+c088be97926347d6a1eed7b6c9fa9567
+00:10:13.440 --> 00:10:16.000 align:left position:22%
+<c.teletext>Vi var flitigt anlitade.</c>
+
+b2dbd2b17d2e46f4a4eb063c4df99f44
+00:10:16.160 --> 00:10:20.360 align:left position:22%
+<c.teletext>Det var lite sektvarning
+på det här gänget.</c>
+
+b41379ce55e244e587afa87abb8ca237
+00:10:20.520 --> 00:10:25.320 align:left position:22%
+<c.teletext>Det var inte helt drogfritt,
+så det blev några djupdykningar–</c>
+
+e95ce61deed8488383a8c41c640ddb35
+00:10:25.480 --> 00:10:30.640 align:left position:22%
+<c.teletext>–i LSD och annat konstigt,
+som också kan ha påverkat förstås.</c>
+
+b321ab65c74d4cacb3c64dd8f737da2c
+00:10:30.800 --> 00:10:33.680 align:left position:22%
+<c.teletext>Men det är inte en period jag ångrar.</c>
+
+2115207db32445ddbaccb96477f1edfe
+00:10:33.840 --> 00:10:38.160 align:left position:22%
+<c.teletext>Det gick inte bra för alla,
+för det fanns ju knark med–</c>
+
+dc06583ddd3d426585555625acf341cd
+00:10:38.320 --> 00:10:42.720 align:left position:22%
+<c.teletext>–och jag är glad att det är nåt
+som jag inte fastnade i.</c>
+
+ef5872c86e09430494d5166cb2cbee1e
+00:10:42.880 --> 00:10:48.000 align:left position:22%
+<c.teletext>Det var väldigt tydligt
+att Camilla befann sig i rummet.</c>
+
+b3967d5314384e5b9a81ad81b80fe006
+00:10:48.160 --> 00:10:52.480 align:left position:22%
+<c.teletext>Jag ska inte säga
+att du var filterlös, men...</c>
+
+ba7c7132d9ed404dacadf038ed9915dc
+00:10:52.640 --> 00:10:58.600 align:left position:22%
+<c.teletext>På gott och ont var nog det här
+en miljö som var bra för mig.</c>
+
+e66952e47c8f40fd9917cf17840e1a15
+00:10:58.760 --> 00:11:02.480 align:left position:22%
+<c.teletext>För jag kände mig aldrig hemma
+i skolan.</c>
+
+7e915e1a976c4cafb1f82f7cbcadf0d8
+00:11:02.640 --> 00:11:07.720 align:left position:22%
+<c.teletext>Och så hittade jag de här människorna
+som var lite udda och lite som jag.</c>
+
+369b51f090e3444faf04379570fdfa20
+00:11:07.880 --> 00:11:10.560 align:left position:22%
+<c.teletext>Jag kände mig fri då.</c>
+
+52fed64469c84e03a964f7d2428fa8c4
+00:11:10.720 --> 00:11:15.480 align:left position:22%
+<c.teletext>Här stod jag och klippte biljetter.
+Tjoff, tjoff!</c>
+
+761044cc92694888a68b5d8e634528e4
+00:11:15.640 --> 00:11:21.360 align:left position:22%
+<c.teletext>Jag älskade att vara biovärd.
+Det var faktiskt riktigt kul.</c>
+
+b2612df9835549a3829b8d195b63ad5c
+00:11:21.520 --> 00:11:25.040 align:left position:22%
+<c.teletext>–Varför väljer du de dojorna?
+–Jag tycker om dem.</c>
+
+4acef2323b5c422e8d5ec88407f60aa5
+00:11:25.200 --> 00:11:30.880 align:left position:22%
+<c.teletext>Jag känner mig som en Barbiedocka
+och jag tycker om att känna mig så.</c>
+
+322b0341bef34f269e2a332d8144f03f
+00:11:31.040 --> 00:11:33.880 align:left position:22%
+<c.teletext>Det är mina Barbieskor.</c>
+
+e9777c462f9c4ff49de251ce0e605bb8
+00:11:34.040 --> 00:11:37.280 align:left position:22%
+<c.teletext>Jag har nog stått här på Kaskad
+och tänkt:</c>
+
+0ffee84d7759432db6c1c9ee47356ae9
+00:11:37.440 --> 00:11:42.880 align:left position:22%
+<c.teletext>"Vad ska det bli av mig? Ska jag vara
+här i Blackeberg hela livet?"</c>
+
+f79ed054ce384857b326836adef567d5
+00:11:43.040 --> 00:11:47.560 align:left position:22%
+<c.teletext>Och nu har jag facit.
+Nu sitter jag här.</c>
+
+1ae7e297ad144592880fac95c3e995b7
+00:11:47.720 --> 00:11:50.520 align:left position:22%
+<c.teletext>Blev det vad jag tänkte?</c>
+
+e68b5c6d3b4e4b189b390e86902a8927
+00:12:00.040 --> 00:12:05.400 align:left position:22%
+<c.teletext>Jag måste bara sträcka ut lite
+och hitta min ställning här.</c>
+
+8151d90f25374b49b389a2866bc48788
+00:12:07.320 --> 00:12:11.040 align:left position:22%
+<c.teletext>–Här är jag som ung.
+–På mig finns inga bilder.</c>
+
+848e892a14c3470da75c80dee5c3472e
+00:12:11.200 --> 00:12:14.800 align:left position:22%
+<c.teletext>–Det gör det visst.
+–Nej, det gör det inte.</c>
+
+8561b27212fe4e2b96ebf1af51dac19a
+00:12:14.960 --> 00:12:18.760 align:left position:22%
+<c.teletext>–Du har inga bilder från min karriär.
+–Som liten, då?</c>
+
+8c416a1859e64df78f5c3a6f3c259224
+00:12:18.920 --> 00:12:23.320 align:left position:22%
+<c.teletext>–Nej, inte ens det.
+–Jo. Jag ska gå och hämta dem.</c>
+
+641fa4cb93c64be38df1b57459a54513
+00:12:23.480 --> 00:12:28.080 align:left position:22%
+<c.teletext>–Det får du gärna göra.
+–Intressant. Jag tror inte de finns.</c>
+
+e219dc7204d748e2b735437823be6eaa
+00:12:28.240 --> 00:12:32.920 align:left position:22%
+<c.teletext>Den här är med Camilla,
+hela den här pärmen.</c>
+
+4dde1de33ed74f7d91e3afeeecea9860
+00:12:33.080 --> 00:12:38.640 align:left position:22%
+<c.teletext>–Ja, titta.
+–Här är olika grejer hon var med på.</c>
+
+8a16551057444c188d89ef21645d21db
+00:12:38.800 --> 00:12:42.280 align:left position:22%
+<c.teletext>–Är du stolt över Camilla?
+–Ja, det är klart.</c>
+
+b3ca33bfc8194a8db5ad31acb0215c9b
+00:12:42.440 --> 00:12:45.960 align:left position:22%
+<c.teletext>Det är min dotter.
+Jag är stolt över henne.</c>
+
+d3a0b03cb4b842c5b12804a93329ada7
+00:12:46.120 --> 00:12:51.080 align:left position:22%
+<c.teletext>"Kul sex med La Camilla."
+Här är olika saker hon hade för sig.</c>
+
+599ec816ee554479814bf6fd6ca6f0e6
+00:12:51.240 --> 00:12:56.000 align:left position:22%
+<c.teletext>–Hur har de kommit fram plötsligt?
+–Jag har satt in dem.</c>
+
+4854aa59deb34af1be7fba7862e738c3
+00:12:56.160 --> 00:13:01.640 align:left position:22%
+<c.teletext>–Gör vad ni vill, jag bryr mig inte.
+–Men här är jättefina bilder.</c>
+
+13f771c953f64eed8c062b749043b3f3
+00:13:01.800 --> 00:13:04.840 align:left position:22%
+<c.teletext>–Vill du se?
+–Nej.</c>
+
+8ba1bf814b2047df93a98deae2031a69
+00:13:10.640 --> 00:13:13.640 align:left position:22%
+<c.teletext>Nu snurrar hjulen fort för Camilla.</c>
+
+90c037323ee0428296b60a6d0cc4b701
+00:13:13.800 --> 00:13:17.800 align:left position:22%
+<c.teletext>Från att ha körat i ett punkband
+blir hon fotomodell.</c>
+
+ee7892eb46ec4db7b73ea0098cf97ee1
+00:13:17.960 --> 00:13:22.680 align:left position:22%
+<c.teletext>Här är hon på kreddiga
+poptidningen Schlager, 19 år gammal.</c>
+
+b6017da05b9c4879a74e26566e4a251d
+00:13:22.840 --> 00:13:27.920 align:left position:22%
+<c.teletext>Hon upptäcks av Sveriges största
+modenamn då, Sighsten Herrgård–</c>
+
+f179cc174b80497fae32d2f40b51ba6e
+00:13:28.080 --> 00:13:31.000 align:left position:22%
+<c.teletext>–och blir en del
+av Stockholmsgruppen.</c>
+
+e2bdca1c41f54640ae5bd7d62d6ae244
+00:13:31.160 --> 00:13:35.400 align:left position:22%
+<c.teletext>Hon syns överallt, och det är
+ingen tvekan om vilken Camilla–</c>
+
+7a16599e844147b5b69119c3d191c169
+00:13:35.560 --> 00:13:38.440 align:left position:22%
+<c.teletext>–som får Magnus Uggla att må illa.</c>
+
+1ff5f191f0124af2a558190a4882fa3d
+00:13:38.600 --> 00:13:41.960 align:left position:22%
+<c.teletext><c.sang>Jag mår illa, jag mår illa</c></c>
+
+66318ac30b8744ee9648305f35a079b2
+00:13:42.120 --> 00:13:45.960 align:left position:22%
+<c.teletext><c.sang>av att se Alice laga råbiff</c>
+<c.sang>med Camilla</c></c>
+
+d54f99a3d25240af8cefe864e0838ed4
+00:13:46.120 --> 00:13:50.920 align:left position:22%
+<c.teletext>Jag mår illa, ja. <c.sang>När jag ser Alice</c>
+<c.sang>laga råbiff med Camilla</c></c>
+
+a655927345c047a7a5142f2a77ea9a46
+00:13:51.080 --> 00:13:55.400 align:left position:22%
+<c.teletext>Det var jag och Alice Timander,
+som jag älskade när jag var liten.</c>
+
+a26e52774e1e47c4bebf689093f1fb33
+00:13:55.560 --> 00:13:59.480 align:left position:22%
+<c.teletext>Hon fanns i varenda kändisblaska
+på salongen.</c>
+
+8d050a97e8df4f879464661b223f49dc
+00:13:59.640 --> 00:14:04.520 align:left position:22%
+<c.teletext>Jag var bara
+en lång, benig sak med glasögon–</c>
+
+5b1ab42c1a4c4ae29eb42d38f9d8e916
+00:14:04.680 --> 00:14:10.360 align:left position:22%
+<c.teletext>–så modell fanns ju inte
+på världskartan. Nej, det fanns inte.</c>
+
+5ad3fd85ebdf4cf39e5b6e6b994c1f1d
+00:14:10.520 --> 00:14:14.520 align:left position:22%
+<c.teletext>Då var det inte vanligt
+med svarta kvinnor i print.</c>
+
+04ae3afd9bb240fb981d4d73d0b59461
+00:14:14.680 --> 00:14:18.240 align:left position:22%
+<c.teletext>Jag skulle göra ett Damernas-omslag–</c>
+
+d69c8def3819452c82d8da7d12842589
+00:14:18.400 --> 00:14:23.040 align:left position:22%
+<c.teletext>–som de tog bort, för att
+de inte vågade ha en färgad tjej.</c>
+
+f751e7267faf48d4b9d58e6b017255c5
+00:14:23.200 --> 00:14:29.120 align:left position:22%
+<c.teletext>Jag har gjort Vecko-Revyn.
+Det var stort. Amelia Adamo vågade.</c>
+
+44310e7834d14fdf891d58a4171e726e
+00:14:29.280 --> 00:14:35.200 align:left position:22%
+<c.teletext>Det är roligt att höra. Jag tyckte
+inte att det var ett svårt beslut–</c>
+
+28a4ab28ca17466786b96a70123ba425
+00:14:35.360 --> 00:14:39.480 align:left position:22%
+<c.teletext>–och det var inget PK-beslut heller.</c>
+
+dc46477f823c4d88850ef3af5e3dd4f6
+00:14:39.640 --> 00:14:44.400 align:left position:22%
+<c.teletext>Det var helt enkelt ett säljande
+och bra omslag. Så tänkte jag.</c>
+
+f55d27989f544d7187692a50b880201b
+00:14:44.560 --> 00:14:48.960 align:left position:22%
+<c.teletext>"Du ska se nåt. Wow!
+Och du ska handla."</c>
+
+bd5d218a7203413992e0157229819267
+00:14:49.120 --> 00:14:51.560 align:left position:22%
+<c.teletext>Och Camilla var "wow".</c>
+
+4f65f0fdf87b46b6b93bea587505b673
+00:14:51.720 --> 00:14:55.560 align:left position:22%
+<c.teletext><c.sang>I'm not the kind</c>
+<c.sang>who's relying on my stances</c></c>
+
+71e89d8a9789424f824b541eb20d6af5
+00:14:55.720 --> 00:14:59.560 align:left position:22%
+<c.teletext>Jag älskade att vara fotomodell.</c>
+
+39eb0814731a4554828dedabe21f45d8
+00:14:59.720 --> 00:15:05.360 align:left position:22%
+<c.teletext>Jag hade lite tur också och fick
+roliga jobb med roliga designers.</c>
+
+92019a6411e74d26ba24fdc6274799b7
+00:15:05.520 --> 00:15:11.240 align:left position:22%
+<c.teletext>Jag fick väldigt glamourösa och
+prestigefyllda jobb. Kreativa jobb.</c>
+
+d4ab1f4f61b94860b95e3b3d4a613809
+00:15:11.400 --> 00:15:17.320 align:left position:22%
+<c.teletext>Jag och vår AD, Marianne Brandt,
+tittade på vad Vanity Fair gjorde.</c>
+
+2c021b90f99f45bda5136b1067f4652d
+00:15:17.480 --> 00:15:24.120 align:left position:22%
+<c.teletext>De hade en kroppsmålad modell, och då
+undrade vi vem som ville göra det.</c>
+
+f096b4a00af0434a8320e5e0ecc4b6f6
+00:15:24.280 --> 00:15:30.600 align:left position:22%
+<c.teletext>"Camilla, såklart!" Hon bangade inte
+för nånting. Det blev jättebra.</c>
+
+419656bfe8ae41528abeba0281d7ccc4
+00:15:30.760 --> 00:15:36.680 align:left position:22%
+<c.teletext><c.sang>Fever in the morning,</c>
+<c.sang>fever all through the night</c></c>
+
+793802ab012f46bba79c40c35f0d4b0a
+00:15:36.840 --> 00:15:40.160 align:left position:22%
+<c.teletext>Ja, det här är under min modelltid.</c>
+
+338505333440489db8f3aab6a68406e5
+00:15:40.320 --> 00:15:43.600 align:left position:22%
+<c.teletext>Det gick väldigt fort från början.</c>
+
+cf2c2c2b24a447f7a57d80fe7cc83dbc
+00:15:43.760 --> 00:15:48.760 align:left position:22%
+<c.teletext>Jag hann inte ens landa på kontoret,
+så jobbade jag.</c>
+
+6936e1502e62414e87dc5c53e1290a55
+00:15:48.920 --> 00:15:50.920 align:left position:22%
+<c.teletext><c.sang>I am La Camilla</c></c>
+
+824d80c063504f6f9d12b37cc988461e
+00:15:51.080 --> 00:15:55.560 align:left position:22%
+<c.teletext>Jag har gått för många märken, och
+så kan man gå haute couture i Paris.</c>
+
+22b80674b11b48c6bb546cb1c192e5ef
+00:15:55.720 --> 00:16:00.000 align:left position:22%
+<c.teletext>Det gjorde jag med Jean Paul Gaultier
+och Thierry Mugler.</c>
+
+19e237cee8e84b75b3c238c7ba4f98c8
+00:16:00.160 --> 00:16:05.120 align:left position:22%
+<c.teletext>Då var jag på topp och det var galet.
+Jag var celebrity model.</c>
+
+7576c99eaa9a42bebd4578a01f525315
+00:16:05.280 --> 00:16:10.320 align:left position:22%
+<c.teletext>Alla andra modeller klädde om
+tillsammans på olika stänger.</c>
+
+fea5d0a16ecb4948ad40fd5740472d4a
+00:16:10.480 --> 00:16:15.640 align:left position:22%
+<c.teletext>Men celebrity models får en egen loge
+som de bygger upp i logen.</c>
+
+a62e8e7a3ad54d47aa81680e4789fbec
+00:16:15.800 --> 00:16:20.520 align:left position:22%
+<c.teletext>Där delade jag loge med Ivana Trump.
+Det var en upplevelse!</c>
+
+06fa1204898c44bea852741d2f490878
+00:16:20.680 --> 00:16:25.680 align:left position:22%
+<c.teletext>Hon var verkligen en riktig
+superstar. Det var en äkta diva.</c>
+
+3fedce3b87d04ee19cbf979e77b09656
+00:16:25.840 --> 00:16:28.880 align:left position:22%
+<c.teletext>Där låg jag lite i lä faktiskt.</c>
+
+50754cc817754b9084631914a0701115
+00:16:31.360 --> 00:16:34.880 align:left position:22%
+<c.teletext>Mitt i modellkarriären
+en kväll på Ritz–</c>
+
+46fc421887ab4c8cba799c481d50e194
+00:16:35.040 --> 00:16:40.840 align:left position:22%
+<c.teletext>–får Camilla syn på en person som ska
+betyda mycket i hennes musikliv.</c>
+
+003b9c1a96404e5db69104efdb607cf1
+00:16:41.000 --> 00:16:43.320 align:left position:22%
+<c.teletext>Artisten Barbie.</c>
+
+348e4b45bf094cdcb3ea49f1b12a8045
+00:16:43.480 --> 00:16:47.880 align:left position:22%
+<c.teletext><c.sang>With lots of tingle tangle</c>
+<c.sang>Bam bam boom</c></c>
+
+07060087b55a49fc9f0db73dbc72a1ec
+00:16:49.200 --> 00:16:54.920 align:left position:22%
+<c.teletext>När jag gick på Ritz den kvällen
+var det en transa som stod och sjöng–</c>
+
+1e3c76dd5f474f18a439436bce41949c
+00:16:55.080 --> 00:17:00.840 align:left position:22%
+<c.teletext>–i en rosa peruk och med en dildo
+i handen, och sjöng nån poplåt.</c>
+
+7d2974085e874c0a85903fb815f37b5d
+00:17:05.000 --> 00:17:10.480 align:left position:22%
+<c.teletext>Jag tänkte: "Det här var en annan typ
+av akt än vad jag jobbar med."</c>
+
+d79e15e07637451094f782c05b3724d6
+00:17:10.640 --> 00:17:15.160 align:left position:22%
+<c.teletext>Jag gick in backstage
+och kände igen Camilla Thulin–</c>
+
+30a4f55ee5da410299bb723544452e4b
+00:17:15.320 --> 00:17:19.600 align:left position:22%
+<c.teletext>–som då var vän med Alexander Bard,
+som var Barbie.</c>
+
+3c1b38b6881743cea2ca28883a99ac51
+00:17:19.760 --> 00:17:25.000 align:left position:22%
+<c.teletext>Jag sa att det var det galnaste
+jag sett och att jag ville vara med.</c>
+
+1cbc0ade3484443a8385d79730267bca
+00:17:25.160 --> 00:17:28.440 align:left position:22%
+<c.teletext>Då sa Alexander:
+"Ja, gud så kul! Absolut."</c>
+
+949e4b52125f4ded9fc00d24c522acf5
+00:17:28.600 --> 00:17:34.280 align:left position:22%
+<c.teletext>Jag och Jean-Pierre började dansa
+bakom Alexander som var Barbie.</c>
+
+fb9dfcb77ca34865895a2325b5b04fe2
+00:17:34.440 --> 00:17:37.520 align:left position:22%
+<c.teletext>Så vi gjorde lite succé
+som Barbie först.</c>
+
+e915777126f54c0fa7b5aed25cedd10a
+00:17:37.680 --> 00:17:42.600 align:left position:22%
+<c.teletext>Jag och Jean-Pierre kallades oss
+för Katanga och Farouk.</c>
+
+80473b7f7eb94656b2cfc8d851119ad5
+00:17:42.760 --> 00:17:46.120 align:left position:22%
+<c.teletext><c.sang>Get it on, get it right</c></c>
+
+b364e1de254644999346b4bfaa803e76
+00:17:46.280 --> 00:17:49.800 align:left position:22%
+<c.teletext><c.sang>Catch me falling into the night</c></c>
+
+93bbe2c48e6c4728b6e9760fce2e33bb
+00:17:49.960 --> 00:17:52.080 align:left position:22%
+<c.teletext><c.sang>Rock it up</c></c>
+
+028fccde343947d0ac4babe36e23c2f8
+00:17:53.640 --> 00:17:56.240 align:left position:22%
+<c.teletext><c.sang>Rock it up</c></c>
+
+f5b05584345b459288dc484a5cdd0d20
+00:17:58.360 --> 00:18:02.600 align:left position:22%
+<c.teletext><c.sang>Round and round and round</c>
+<c.sang>and rock it up</c></c>
+
+babd246db7174f4ebdaabcc3a5d46731
+00:18:03.320 --> 00:18:08.920 align:left position:22%
+<c.teletext>1987 gifter sig Camilla.
+Brudgummen heter Anders Skog–</c>
+
+ff23cc7545c7480caaf1e2bb3b8842c4
+00:18:09.080 --> 00:18:15.760 align:left position:22%
+<c.teletext>–och som den reklamfilmsregissör
+han är blir bröllopet som en saga.</c>
+
+f0b2d701758044db9257e01012cc65dd
+00:18:15.920 --> 00:18:19.800 align:left position:22%
+<c.teletext>Åh gud, jag var kär.
+Det var jag verkligen.</c>
+
+68c95211127a425db5987bde4d96d5b6
+00:18:19.960 --> 00:18:26.760 align:left position:22%
+<c.teletext>Och så gifte vi oss.
+Ett drömbröllop. Väldigt romantiskt.</c>
+
+4ef00c64b2d84173b4fa47e99ef670f3
+00:18:26.920 --> 00:18:32.920 align:left position:22%
+<c.teletext>Äktenskapet höll i ett år.
+Nej, jag törs knappt berätta det här.</c>
+
+98f6f3ca08f84b3a9a39dc5f361414cb
+00:18:34.720 --> 00:18:37.480 align:left position:22%
+<c.teletext>Jag skäms.</c>
+
+e164a60421d546de8a5fe4db32abc8c4
+00:18:37.640 --> 00:18:43.800 align:left position:22%
+<c.teletext>En liten grabb som spelade
+i en såpa som var stor i Sverige då.</c>
+
+301705a0084d49e8899135a746f64a0f
+00:18:43.960 --> 00:18:46.840 align:left position:22%
+<c.teletext>Jag hade väl svårt att säga nej.</c>
+
+8e6dfb2ca7144775af593175e1df6e5d
+00:18:47.000 --> 00:18:53.040 align:left position:22%
+<c.teletext>Och nånstans
+kom min man på mig i det–</c>
+
+bddfc7cbb66d4823bb716d4b9dbaac53
+00:18:53.200 --> 00:18:55.960 align:left position:22%
+<c.teletext>–och där tog det slut.</c>
+
+9e906014282449019676de37a1336f4a
+00:18:56.120 --> 00:19:01.960 align:left position:22%
+<c.teletext><c.sang>Love is the key to your freedom call</c></c>
+
+92f71e084cf04e34b3fa8fb4a8cc1113
+00:19:02.120 --> 00:19:08.680 align:left position:22%
+<c.teletext>Camillas nästa förhållande håller
+mycket längre. De är ihop i sju år–</c>
+
+5220a740928b4bf8803e77db846b1b90
+00:19:08.840 --> 00:19:13.720 align:left position:22%
+<c.teletext>–och än i dag räknar Camilla
+Johan Renck som sin familj.</c>
+
+8f6c408d07bb4515996073c6ea3da80c
+00:19:13.880 --> 00:19:16.400 align:left position:22%
+<c.teletext>Camilla var superhäftig.</c>
+
+41bdd26e3d62402ea1021aa98f1ff25c
+00:19:16.560 --> 00:19:21.920 align:left position:22%
+<c.teletext>Det var innan Army of Lovers, så vi
+var unga. Hon var ett par år äldre.</c>
+
+36d7e2a714614c2b89c4a7236fdb31e7
+00:19:22.080 --> 00:19:25.960 align:left position:22%
+<c.teletext>Det var ganska dysfunktionellt
+på många sätt–</c>
+
+334d060d77f64fbcb4e1c10786747bd7
+00:19:26.120 --> 00:19:31.280 align:left position:22%
+<c.teletext>–men Camilla är ju oerhört
+intelligent, klipsk och streetsmart–</c>
+
+70af6eea24cc40639cb6dba81290ce3c
+00:19:31.440 --> 00:19:36.800 align:left position:22%
+<c.teletext>–och kunnig på en mängd områden,
+så det fanns mycket att prata om.</c>
+
+99844f64ee564aee9cdde81eecbc2ea8
+00:19:36.960 --> 00:19:39.920 align:left position:22%
+<c.teletext>Hon lärde mig väldigt mycket.</c>
+
+3e8d019da2e9468bba1b86c3b587a645
+00:19:40.080 --> 00:19:44.680 align:left position:22%
+<c.teletext><c.sang>Baby, baby's got a neutron bomb</c></c>
+
+3119b274be764ba0b9b9b13994ba7b97
+00:19:47.720 --> 00:19:51.440 align:left position:22%
+<c.teletext><c.sang>Baby, baby's got a neutron bomb</c></c>
+
+741f48c5e1904c7cbb265ea6b5f689a8
+00:19:58.560 --> 00:20:02.880 align:left position:22%
+<c.teletext>/RINGSIGNAL/ Nu ringer mamma.</c>
+
+50fd279ac39e49e0a8f04f2eab3d1708
+00:20:03.040 --> 00:20:05.240 align:left position:22%
+<c.teletext>Hallå, mamma!</c>
+
+3b807f6e52a34c3c9b17adbbbbb40bd0
+00:20:05.400 --> 00:20:10.400 align:left position:22%
+<c.teletext>Jag tänkte om du skulle komma
+och färga håret på mig.</c>
+
+8a38de0fceb34c2a9237df042dfad882
+00:20:11.400 --> 00:20:15.640 align:left position:22%
+<c.teletext>Jag har inget emot att vara ensam.
+Jag saknar inte barn direkt.</c>
+
+eabe62560cbb49b9b4a90078a86cc5e8
+00:20:15.800 --> 00:20:21.680 align:left position:22%
+<c.teletext>Men jag saknar ett sammanhang. Det
+känns som jag sitter på en egen ö.</c>
+
+ab8705d329e542afb7bd021e91b2e773
+00:20:21.840 --> 00:20:25.960 align:left position:22%
+<c.teletext>Det är bara jag som heter Henemark.
+Bara en sån sak.</c>
+
+47cdebaabba2400c806ec74a4c160f7f
+00:20:26.120 --> 00:20:30.960 align:left position:22%
+<c.teletext>Jag har ju gjort namnet lite känt.
+Det känns så konstigt.</c>
+
+48388dc8af274c35942d049cccc20353
+00:20:31.120 --> 00:20:35.320 align:left position:22%
+<c.teletext>Henemark lever,
+men det finns bara jag.</c>
+
+bf7d06c780834a37a588106dbdd063ef
+00:20:38.640 --> 00:20:42.080 align:left position:22%
+<c.teletext>Barbie förvandlas
+till Army of Lovers.</c>
+
+9ac7f41b0644496ca186f5f5da6782cc
+00:20:42.240 --> 00:20:45.880 align:left position:22%
+<c.teletext>Camilla Henemark, Alexander Bard,
+Jean-Pierre Barda–</c>
+
+1c955ab9b47f45afa2dc38c16ed04bba
+00:20:46.040 --> 00:20:50.880 align:left position:22%
+<c.teletext>–och så en fjärde medlem som bara
+syns i gruppens allra första video:</c>
+
+7624068e88834c508ec4f1ff22d13f32
+00:20:51.040 --> 00:20:53.520 align:left position:22%
+<c.teletext>Designern Camilla Thulin.</c>
+
+44a75093bdee454b92465546a6857789
+00:20:53.680 --> 00:20:59.120 align:left position:22%
+<c.teletext>Hon är ansvarig för kläderna och
+det mesta av det visuella uttrycket.</c>
+
+43766f3309e2415f8ce3565a8c28f25b
+00:20:59.280 --> 00:21:05.000 align:left position:22%
+<c.teletext>Men frontfigur är nu Camilla Henemark
+och hon kallas La Camilla.</c>
+
+eb7303f15a9e43b8b3186b01f61ae7cc
+00:21:05.160 --> 00:21:08.960 align:left position:22%
+<c.teletext><c.sang>But then a friend of mine</c>
+<c.sang>was called one day</c></c>
+
+95d63b04dd2b4338958bd9fa6fd61e62
+00:21:09.120 --> 00:21:12.920 align:left position:22%
+<c.teletext><c.sang>I knew there couldn't be another way</c></c>
+
+d7018d91e1b545608ec4b90d1640bc6d
+00:21:13.080 --> 00:21:18.000 align:left position:22%
+<c.teletext><c.sang>I'll hold you tight, I'll hold you</c>
+<c.sang>tight when the night is cold</c></c>
+
+5cbb4d11b889466cb13e7b8e764bc4e8
+00:21:18.160 --> 00:21:22.640 align:left position:22%
+<c.teletext>När jag såg Army of Lovers,
+de första spelningarna–</c>
+
+4ef984467f994d30ae2425f4089c6670
+00:21:22.800 --> 00:21:27.000 align:left position:22%
+<c.teletext>–innan de var stora...
+Det var ju skitcoolt.</c>
+
+9cd7e327fc8f46449330490a19632900
+00:21:27.160 --> 00:21:31.640 align:left position:22%
+<c.teletext>Det var ett konstprojekt nästan,
+med de märkliga figurerna–</c>
+
+9738039267964f379f276e84875b713a
+00:21:31.800 --> 00:21:36.200 align:left position:22%
+<c.teletext>–med Alexander, Camilla
+och Jean-Pierre.</c>
+
+13c7e36b38654f85964e848871137632
+00:21:39.120 --> 00:21:43.160 align:left position:22%
+<c.teletext>Jag kunde inte ta ögonen ifrån det.
+Det var ett jävla spektakel.</c>
+
+dbf041cab5c64c1689bbafa723f11746
+00:21:43.320 --> 00:21:49.520 align:left position:22%
+<c.teletext>Väldigt gayikoniskt, på gränsen
+till nån sorts drag-festival–</c>
+
+f8488e62de8243ce9820ee986c51f08f
+00:21:49.680 --> 00:21:54.720 align:left position:22%
+<c.teletext>–med ambivalenta innuendos
+och sexanspelningar.</c>
+
+210dc48ded1542bc9d83c6c0ebb0e633
+00:21:54.880 --> 00:22:00.040 align:left position:22%
+<c.teletext>Men de var ju stencoola,
+och hon var helt magnetisk.</c>
+
+b5ae388af5414930b8620807eb25369e
+00:22:00.200 --> 00:22:03.760 align:left position:22%
+<c.teletext><c.sang>Love me, love me</c></c>
+
+ee7ef773b85c4f7987ebb24fbacfa2c8
+00:22:03.920 --> 00:22:07.600 align:left position:22%
+<c.teletext><c.sang>love me like a loaded gun</c></c>
+
+cc4933c94f3c4e19b76b71b62f5245a6
+00:22:07.760 --> 00:22:15.480 align:left position:22%
+<c.teletext>På den tiden hade väl proggvågen
+ebbat ut eller började ebba ut.</c>
+
+260c7a1cd43f44dd9cf687fce2136bea
+00:22:15.640 --> 00:22:20.560 align:left position:22%
+<c.teletext>Jag tror att vi kom som en konstig
+fläkt när nåt behövde förnyas.</c>
+
+49eea363ca8143ce86b86454c335e546
+00:22:20.720 --> 00:22:25.320 align:left position:22%
+<c.teletext>Plötsligt var det glamour
+som folk inte hade sett på ett tag.</c>
+
+5037d072f2c6458a98461faddcb59c51
+00:22:25.480 --> 00:22:31.000 align:left position:22%
+<c.teletext>Verkligen festligt. Prinsessorna är
+på stan i dag. Åh, vad flott!</c>
+
+79d14f8ef53f43d49e73575af61e0764
+00:22:31.160 --> 00:22:35.960 align:left position:22%
+<c.teletext>–Kärleksarmén heter de.
+–Ja, det behövs i allra högsta grad.</c>
+
+9d7921d19771490ab1e42abb777e42b5
+00:22:36.120 --> 00:22:40.360 align:left position:22%
+<c.teletext>Alla artister i dag har nån form
+av image även om de förnekar det.</c>
+
+04289fa9ac8944a69b8d24f44c6205b2
+00:22:40.520 --> 00:22:44.160 align:left position:22%
+<c.teletext>Om inte annat är deras tråkiga image
+en image i sig.</c>
+
+343274dd371a4bdbae56f2ea3033b3e9
+00:22:44.320 --> 00:22:47.440 align:left position:22%
+<c.teletext>Våra galna intervjuer som vi gjorde!</c>
+
+df8ee7f663e34bbc9e7285e12b0a97b3
+00:22:47.600 --> 00:22:51.680 align:left position:22%
+<c.teletext>Vi var som Monty Python.
+Det var fullständigt vansinnigt.</c>
+
+0659f7ad409e48989edacef5291c2a45
+00:22:51.840 --> 00:22:55.240 align:left position:22%
+<c.teletext>Vi hade inga gränser
+i vad vi sa eller gjorde.</c>
+
+f91f3c0d806941dfb4269f00419cb2fa
+00:22:55.400 --> 00:22:59.640 align:left position:22%
+<c.teletext>Den här imagen att vara två fjollor
+och en fotomodell...</c>
+
+169bdaa231384530ad9af6778b87df12
+00:22:59.800 --> 00:23:02.840 align:left position:22%
+<c.teletext>Fjollor?!</c>
+
+e5aa7f9490824b5c9ae8e0f4e208111e
+00:23:03.000 --> 00:23:06.840 align:left position:22%
+<c.teletext>Jag blir helt tagen när jag ser det.
+Vad unga vi var.</c>
+
+ef7747d256c74518bf4e798f5a7f52ab
+00:23:07.000 --> 00:23:10.440 align:left position:22%
+<c.teletext>Det finns folk
+som hakar upp sig på det yttre–</c>
+
+3a8b179d94644517bfd3bdef32f08a8f
+00:23:10.600 --> 00:23:14.720 align:left position:22%
+<c.teletext>–och att vi använder
+modern teknologi i studion.</c>
+
+5762431f4ddc48aa9b19726dfdcc49cb
+00:23:14.880 --> 00:23:17.960 align:left position:22%
+<c.teletext>Det retar dem för att det låter bra.</c>
+
+16172a1503e040a487634e9ff1cfa30f
+00:23:18.120 --> 00:23:24.320 align:left position:22%
+<c.teletext>Vi är ju inte rebeller egentligen. Vi
+gör det vi tycker är skoj, fullt ut.</c>
+
+cf26fe5dc0194bb4abcc69fd3d75f0ba
+00:23:24.480 --> 00:23:29.440 align:left position:22%
+<c.teletext>Varför ska musiker vara
+moderna politiker och ändra världen?</c>
+
+067243382996411b8eff372e681aff7d
+00:23:29.600 --> 00:23:32.680 align:left position:22%
+<c.teletext>Det är livsfarligt.</c>
+
+c9be10dcd94c4898941a194846064658
+00:23:32.840 --> 00:23:37.200 align:left position:22%
+<c.teletext><c.sang>Get on the love train</c></c>
+
+008613267d3a42b7a4c82a413278984a
+00:23:37.360 --> 00:23:40.440 align:left position:22%
+<c.teletext><c.sang>Let's get on board tonight</c></c>
+
+405f5683e6bd4798a43c577a1f7fa341
+00:23:40.600 --> 00:23:44.840 align:left position:22%
+<c.teletext>Alltså, det var
+så fria tyglar kreativt.</c>
+
+bf65be03ee2045f285531ee889589d64
+00:23:45.000 --> 00:23:48.520 align:left position:22%
+<c.teletext>Jag kan inte förstå
+att det blev en succé.</c>
+
+f7f1d0e77bbd4a80a28c856afdd43ef2
+00:23:48.680 --> 00:23:51.320 align:left position:22%
+<c.teletext>Det var ju en lek för oss.</c>
+
+cafc495f776a438ba26d303e0818ce6d
+00:24:01.720 --> 00:24:05.200 align:left position:22%
+<c.teletext>–Ni kunde sjunga.
+–Det gillade ni, va?</c>
+
+a0d727b06a2f4d3c995d7521233e85fe
+00:24:05.360 --> 00:24:08.600 align:left position:22%
+<c.teletext>–Instrumenten funkade som de skulle?
+–Jadå.</c>
+
+bd882ad62d05429e989887a0531f0520
+00:24:08.760 --> 00:24:12.880 align:left position:22%
+<c.teletext>Ingen av er är musiker
+i ordets traditionella bemärkelse.</c>
+
+f0f626a38cdb41798db0d8a78aead99c
+00:24:13.040 --> 00:24:16.760 align:left position:22%
+<c.teletext>–En av er skriver låtar...
+–Vi skriver låtar alla tre.</c>
+
+b439f610c6034921a1f6b812ef241652
+00:24:16.920 --> 00:24:21.720 align:left position:22%
+<c.teletext>–Den här låten skrev vi tillsammans.
+–Hur gör man då?</c>
+
+be45385f065742d49e417a5e882813e7
+00:24:21.880 --> 00:24:25.200 align:left position:22%
+<c.teletext>Vi sitter inte och plinkar
+på en elgitarr.</c>
+
+2276e768738f4b2f80e32b22c751ff6b
+00:24:25.360 --> 00:24:30.000 align:left position:22%
+<c.teletext>Nej, här var det nog Camilla
+som hade en snuskig idé bara.</c>
+
+388911fe0b2843dda8ef265ca784928f
+00:24:30.160 --> 00:24:34.160 align:left position:22%
+<c.teletext>Sen silade vi den lite grann
+och fixade till den.</c>
+
+41c634579883418ca1fc77beabda5f6c
+00:24:36.840 --> 00:24:39.880 align:left position:22%
+<c.teletext>Kan man vara sångerska
+utan att sjunga?</c>
+
+5c2bd88aa0294d4bbd047b41c214d189
+00:24:40.040 --> 00:24:43.280 align:left position:22%
+<c.teletext>Nej, men man kan vara artist
+utan att sjunga.</c>
+
+00c305261fa347d597d110d68c18e6bc
+00:24:43.440 --> 00:24:48.440 align:left position:22%
+<c.teletext>Det är två olika saker. Vissa
+sjunger bra, men är inte bra på scen.</c>
+
+0b5231601c904946ad063c63b7a1222a
+00:24:48.600 --> 00:24:53.000 align:left position:22%
+<c.teletext>Är en artist en marknadsförare
+mer än en sångare?</c>
+
+7c86ac11a0ec433493e6abc43f6fa87c
+00:24:53.160 --> 00:24:56.120 align:left position:22%
+<c.teletext>Nej, men det är en produkt.</c>
+
+f463db0ee2f54a0e9ccc16cc1e057dfe
+00:24:56.280 --> 00:24:58.880 align:left position:22%
+<c.teletext><c.sang>I'm crucified</c></c>
+
+b99f3b60b7464d1289bc9cb94438a18b
+00:24:59.040 --> 00:25:03.400 align:left position:22%
+<c.teletext><c.sang>crucified like my saviour</c></c>
+
+fb52fb66c5424a69ab3f319b4ddf7496
+00:25:03.560 --> 00:25:07.440 align:left position:22%
+<c.teletext><c.sang>Saintlike behaviour</c></c>
+
+de801408ab9f416aafdaa82379547cbd
+00:25:07.600 --> 00:25:10.920 align:left position:22%
+<c.teletext><c.sang>a lifetime I prayed</c></c>
+
+619a6cf3f2914df4985158718a873e9f
+00:25:11.080 --> 00:25:16.800 align:left position:22%
+<c.teletext>Med låten Crucified blir Army of
+Lovers stora i nästan hela världen.</c>
+
+54ecda2be11f40adaf86c997a47976ef
+00:25:16.960 --> 00:25:24.040 align:left position:22%
+<c.teletext>De blir tv-kanalen MTV:s favoriter.
+De turnerar och deltar i tv-shower.</c>
+
+e69854d1df8d4c43a44408aa7fbb08fe
+00:25:24.200 --> 00:25:28.440 align:left position:22%
+<c.teletext>Det var precis så som man tror
+att ett popstjärneliv ska vara.</c>
+
+c309d043aac042318b325c6ab75edfe9
+00:25:28.600 --> 00:25:34.680 align:left position:22%
+<c.teletext>Det var privatflyg, champagne och
+kaviar. Allt det där man drömmer om.</c>
+
+d7369e64f7ab4e0e9df46ba39fbe40f7
+00:25:34.840 --> 00:25:39.200 align:left position:22%
+<c.teletext>Det var också en del av vår image,
+speciellt i öststatsländerna.</c>
+
+af7be3aa8575416a8e65b314ce515c70
+00:25:39.360 --> 00:25:44.360 align:left position:22%
+<c.teletext>De älskar ju att vara pampiga.
+Ja, jag älskade det.</c>
+
+57aacbc8841e4276b17f4702fabb27df
+00:25:46.840 --> 00:25:50.600 align:left position:22%
+<c.teletext>Hela den här byrån
+är full med grejer.</c>
+
+44c48a318a684f91bda913b3320f3807
+00:25:50.760 --> 00:25:56.520 align:left position:22%
+<c.teletext>Det är allt
+från videofilmer med Army–</c>
+
+5d8a0eaed61b45d8b8d22afeac501d16
+00:25:56.680 --> 00:26:01.760 align:left position:22%
+<c.teletext>–till Dominika Peczynskis
+egendesignade Barbiedocka.</c>
+
+30fcb78a36684d6dabe04b3d9a09129b
+00:26:01.920 --> 00:26:05.960 align:left position:22%
+<c.teletext>Fyra väskor fulla med kassettband
+med Army of Lovers.</c>
+
+07bc26df92cd4f0095a0af713e907b0d
+00:26:06.120 --> 00:26:12.160 align:left position:22%
+<c.teletext>Allt från diabilder,
+promotionkort på Camilla och...ja.</c>
+
+d34b0bd9a7c94fcd918da4a744fa7df0
+00:26:12.320 --> 00:26:16.400 align:left position:22%
+<c.teletext>Specialboxen som kommer
+från Ryssland–</c>
+
+d26c2ee9b05842d597e9f650c67d83dd
+00:26:16.560 --> 00:26:20.520 align:left position:22%
+<c.teletext>–som släpptes 2021
+i ett begränsat antal.</c>
+
+441915218976400a9c83eb620b09c7c9
+00:26:20.680 --> 00:26:26.080 align:left position:22%
+<c.teletext>Mina tidigaste minnen av Camilla
+Henemark är från sommaren 1991.</c>
+
+2ab2f5c8523749f79c357deda1b73cce
+00:26:26.240 --> 00:26:33.720 align:left position:22%
+<c.teletext>Då fyllde jag 14 år och då slog Army
+of Lovers igenom med låten Crucified.</c>
+
+99f3db0d6879416b8247920418c32f6f
+00:26:33.880 --> 00:26:39.680 align:left position:22%
+<c.teletext>Det blev en jättestor grej
+både för mig och hela pop-Sverige.</c>
+
+18af85e547ba44f4b7e753b0e7bcdd61
+00:26:39.840 --> 00:26:43.480 align:left position:22%
+<c.teletext>Det här är det första
+med Army of Lovers–</c>
+
+0999ba676cb345a5bd372d02b5f8ae9b
+00:26:43.640 --> 00:26:47.440 align:left position:22%
+<c.teletext>–efter deras första spelning
+på Melody i Stockholm.</c>
+
+4e75d61c7ece4e9d95fc0da92fc625fd
+00:26:47.600 --> 00:26:51.480 align:left position:22%
+<c.teletext>Trendmagasinet I-D hade en fest där,
+och de uppträdde–</c>
+
+e2a3293ac8614448bdd342bacb9f5319
+00:26:51.640 --> 00:26:57.360 align:left position:22%
+<c.teletext>–och då hamnade Camilla på omslaget
+och det satte dem lite på kartan.</c>
+
+f486f86d7587437a9d8cdbbfcdde0da6
+00:26:57.520 --> 00:27:04.080 align:left position:22%
+<c.teletext>Det här är från mitt första möte med
+Camilla. Det var i september 1996.</c>
+
+f012c148ed074ed78bf73a7a5ebfd3fa
+00:27:04.240 --> 00:27:10.480 align:left position:22%
+<c.teletext>Då anordnade Se &amp; Hör en idolträff
+som jag skickade in till.</c>
+
+be66e4eda26d4e2c913f4fb72b066e10
+00:27:10.640 --> 00:27:17.640 align:left position:22%
+<c.teletext>Här är en pärm av många
+med urklipp från allsköns tidningar.</c>
+
+a1bd5426893545afa6837d38b4b054cf
+00:27:17.800 --> 00:27:22.680 align:left position:22%
+<c.teletext>Man får sitta så här
+och samla och sätta in.</c>
+
+040e340018bf468d82411087c5f8a03b
+00:27:22.840 --> 00:27:25.880 align:left position:22%
+<c.teletext>Det är i alla möjliga sammanhang.</c>
+
+cf12ed1c208945f2bc5ec4aaae1fadca
+00:27:26.040 --> 00:27:31.960 align:left position:22%
+<c.teletext>Mycket skvallerpress och kvälls-
+tidningar såklart, men även andra–</c>
+
+a355e5418dc2457e827d1a37d6f787a6
+00:27:32.120 --> 00:27:36.840 align:left position:22%
+<c.teletext>–för Camilla har förekommit i alla
+möjliga och omöjliga sammanhang.</c>
+
+f073f762281f41b79a3fa6bfa171496f
+00:27:37.000 --> 00:27:42.080 align:left position:22%
+<c.teletext>Tjejer ville se ut som Camilla,
+killar ville hooka upp med Camilla–</c>
+
+61a60c1257fc4380a8ac61448dacbffa
+00:27:42.240 --> 00:27:48.680 align:left position:22%
+<c.teletext>–och vi andra började tillbe Camilla
+i stället som ett gudomligt väsen.</c>
+
+2f182b67ad0548a48e3c0591a87b1bb9
+00:27:48.840 --> 00:27:53.400 align:left position:22%
+<c.teletext>Man visste inte vad hon var.
+"En drottning, en superhjälte?"</c>
+
+00333b477f7545039b8c3b5b0fbc98f3
+00:27:53.560 --> 00:27:56.800 align:left position:22%
+<c.teletext>"Vilken planet kommer hon ifrån?"</c>
+
+aa23d8a0612f4d779a6ca469639554af
+00:28:08.480 --> 00:28:14.200 align:left position:22%
+<c.teletext>–Jag har ingen färg med mig.
+–Nej, det har jag.</c>
+
+530c3670503a4743b856cd63d20d168e
+00:28:14.360 --> 00:28:18.440 align:left position:22%
+<c.teletext>–Den är tom, jag trodde den var full.
+–Sluta! Den är full.</c>
+
+7143a77df39848e48ab75cd5e9ea8652
+00:28:18.600 --> 00:28:23.200 align:left position:22%
+<c.teletext>Sluta, du håller på att förstöra.
+Är du galen?</c>
+
+65ab91b412c44ff49a8143c0d082a81e
+00:28:23.360 --> 00:28:27.800 align:left position:22%
+<c.teletext>–Så, på med den där.
+–Hoppsan.</c>
+
+0f3293f73ed2403192c6b5128fcc79f9
+00:28:27.960 --> 00:28:33.520 align:left position:22%
+<c.teletext>Vi har ju ingen salong att vara på.
+Det är inte så glamouröst längre.</c>
+
+3869cf0a828947a7897c9a37167c06d1
+00:28:33.680 --> 00:28:38.040 align:left position:22%
+<c.teletext>–Jag är så otålig.
+–Du måste lugna ner dig lite.</c>
+
+81961f0600dc4bd89bdf9ddb0a6d0b5a
+00:28:38.200 --> 00:28:42.240 align:left position:22%
+<c.teletext>Jag ska göra fort som attan,
+om du bara lugnar dig.</c>
+
+f221a033e55341f3a8c1811797a9dbbb
+00:28:42.400 --> 00:28:48.360 align:left position:22%
+<c.teletext>Håll huvudet stilla bara,
+annars kan jag inte prutta på.</c>
+
+910d132eef9a4ac5b804603b8ef739a4
+00:28:49.600 --> 00:28:54.600 align:left position:22%
+<c.teletext>Det är vanligt. Det är alltid
+såna bråk med den här damen.</c>
+
+144bdd86145e4465a8455f7e239becc8
+00:28:54.760 --> 00:28:58.920 align:left position:22%
+<c.teletext>Vadå? Det är du
+som inte gör som jag säger.</c>
+
+6191cc2df2474c7bacefdf987809994d
+00:28:59.080 --> 00:29:05.200 align:left position:22%
+<c.teletext>Det låter så här. Jag har en lite
+hård ton ibland, det vet ju du.</c>
+
+e991c1beaf154b44a767018ecdd3def4
+00:29:05.360 --> 00:29:09.000 align:left position:22%
+<c.teletext>Det glider av dig
+som vatten på en gås.</c>
+
+59a98d69905f453ea4075eb2667c5661
+00:29:11.640 --> 00:29:16.080 align:left position:22%
+<c.teletext>Camilla fortsätter som modell
+parallellt med artistlivet.</c>
+
+731ce3dbcdc44859923777c60dee4945
+00:29:16.240 --> 00:29:21.280 align:left position:22%
+<c.teletext>På Jean Paul Gaultiers visning
+ska hela Army of Lovers medverka.</c>
+
+b331106fb4c442a1a50a3ccef93474ee
+00:29:21.520 --> 00:29:25.120 align:left position:22%
+La Camilla tror
+att modevärlden kretsar kring henne.
+
+d835ae5799c744ed9ef86d125dc05afb
+00:29:25.280 --> 00:29:29.320 align:left position:22%
+Hon tror nog
+att universum kretsar kring henne.
+
+59d2162d7de34fbeab53c32e82163b52
+00:29:29.520 --> 00:29:34.640 align:left position:22%
+<c.teletext>Men det är just där på catwalken
+i Paris som allt tar slut.</c>
+
+159998c92a4f4d3fb22d1dc7481607b8
+00:29:34.800 --> 00:29:38.360 align:left position:22%
+<c.teletext>Camilla får sparken.</c>
+
+28551a0e80af4fd2be9cd28f628768df
+00:29:39.760 --> 00:29:46.680 align:left position:22%
+Enligt Bard sjunger La Camilla inte
+på kommande singlar. Hon ska ersättas.
+
+7730d39fe9704c8fa5ba0bb1b956f638
+00:29:46.880 --> 00:29:50.720 align:left position:22%
+<c.teletext>Och i direktsänd tv
+ställs de andra till svars.</c>
+
+de6ffba65a664aecaf39a45944dbcf51
+00:29:50.880 --> 00:29:54.960 align:left position:22%
+<c.teletext>Michaela de la Cour,
+du är ny medlem i Army of Lovers.</c>
+
+08eb62f77b2e4d89a62d366d8d6b50ee
+00:29:55.120 --> 00:30:02.760 align:left position:22%
+<c.teletext>Tidigare var La Camilla den stora,
+kvinnliga stjärnan i Army of Lovers–</c>
+
+16bbd3517d694ed5bc70d81d9321e281
+00:30:02.920 --> 00:30:07.600 align:left position:22%
+<c.teletext>–men plötsligt fick hon inte
+vara med längre. Vad berodde det på?</c>
+
+64480ecc18d247d59934831000bd9ad1
+00:30:07.760 --> 00:30:11.080 align:left position:22%
+<c.teletext>Det gick inte till så,
+men vi hade en konflikt.</c>
+
+099a38f76d9f4a318238cfd159fb5278
+00:30:11.240 --> 00:30:15.680 align:left position:22%
+<c.teletext>–Vi tyckte det var bästa lösningen.
+–Vad tycker Camilla själv?</c>
+
+53052ffa587449e6948729ef57a3ec61
+00:30:15.840 --> 00:30:19.080 align:left position:22%
+<c.teletext>–Det får hon svara för.
+–Camilla, är du här?!</c>
+
+2e11af8043de4600ad13394d5fcc5212
+00:30:19.240 --> 00:30:22.880 align:left position:22%
+<c.teletext>Jag förstod det.
+– Vad förutsägbar du är.</c>
+
+ea6304505d5d41a7b743a16e19d1b740
+00:30:29.560 --> 00:30:33.320 align:left position:22%
+<c.teletext>Välkommen, La Camilla.
+Det stod i Aftonbladet–</c>
+
+702c003a887541ac883c8a6ba4bba061
+00:30:33.480 --> 00:30:37.800 align:left position:22%
+<c.teletext>–att du uppträdde stupfull
+och är en personlig tragedi.</c>
+
+7a67d8f6b6074d94837bb5579df3d316
+00:30:37.960 --> 00:30:41.800 align:left position:22%
+<c.teletext>–Ni hade sagt det.
+–Det här är snaskjournalistik.</c>
+
+10a3b997b4ca4d3584f00be698ee787e
+00:30:41.960 --> 00:30:45.520 align:left position:22%
+<c.teletext>Nu ska vi reda ut det här
+inför alla tv-tittare.</c>
+
+3f3df985840a4995966ae4780795456d
+00:30:45.680 --> 00:30:49.480 align:left position:22%
+<c.teletext>–Ska vi reda ut det här nu?
+–Nej, jag tycker inte det.</c>
+
+04999b13389649b29000e6610b44bed3
+00:30:49.640 --> 00:30:55.280 align:left position:22%
+<c.teletext>Det är smaklöst. Det finns inget
+att reda ut i tv. Det är mellan oss.</c>
+
+943afb12a0c44128b1c5ef572ed71513
+00:30:55.440 --> 00:31:00.000 align:left position:22%
+<c.teletext>Och det är lågt av dig
+att köra en sån här snaskhistoria.</c>
+
+5f58f2c49dc04ed88603e638e0c0172f
+00:31:00.160 --> 00:31:03.480 align:left position:22%
+<c.teletext>Vi vill inte dra upp
+nån skit om varandra–</c>
+
+60eca8fb1c9944b382210527c556bf62
+00:31:03.640 --> 00:31:08.720 align:left position:22%
+<c.teletext>–vare sig om Camilla Henemark, om oss
+eller våra intima historier.</c>
+
+cf9234b1af804d9ab4a8bb4121332724
+00:31:08.880 --> 00:31:13.440 align:left position:22%
+<c.teletext>–La Camilla hette jag förut.
+–Du är inte La Camilla längre.</c>
+
+3b0dfc94122d44ca926a7a85ffc0a9e6
+00:31:13.600 --> 00:31:16.840 align:left position:22%
+<c.teletext>Du är kickad för att du är dålig.
+Det fattar alla.</c>
+
+26c2256a3461419c93277140db62f0a3
+00:31:17.000 --> 00:31:20.160 align:left position:22%
+<c.teletext>Du är pinsam som kommer hit
+över huvud taget.</c>
+
+823e770f3cd746d6b650bb3803d31377
+00:31:20.320 --> 00:31:26.760 align:left position:22%
+<c.teletext>–Du får sparken. Vad låg bakom det?
+–Säg det. Jag vet fortfarande inte.</c>
+
+ed49e8f27a294cd2a29db66d7f75c4f9
+00:31:26.920 --> 00:31:32.280 align:left position:22%
+<c.teletext>Ingen av de tre gångerna jag fick
+sparken vet jag vad som låg bakom.</c>
+
+1ce50d7a70284ee185b36b2dd29fb305
+00:31:32.440 --> 00:31:37.240 align:left position:22%
+<c.teletext>Jag fick bara veta
+att jag inte längre var välkommen.</c>
+
+82c046ddc12c4979af1364eb210c8a07
+00:31:37.400 --> 00:31:40.920 align:left position:22%
+<c.teletext>Och ingen förklaring,
+ingen förklaring.</c>
+
+15f6f1a70da44df6a6814239019b99d9
+00:31:42.800 --> 00:31:45.560 align:left position:22%
+<c.teletext><c.sang>Obsession</c></c>
+
+2e2ec6de38cc4c1eaa5db9bbc63afeb1
+00:31:46.600 --> 00:31:51.360 align:left position:22%
+<c.teletext><c.sang>I could wait night and day</c>
+<c.sang>sigh your name when I pray</c></c>
+
+a73baa723d1b4eb2bdca04beac6294ea
+00:31:51.520 --> 00:31:56.120 align:left position:22%
+<c.teletext><c.sang>In my heart night and day</c>
+<c.sang>till you come my way</c></c>
+
+c7398dc1142d41b0ab4a961191c6ab4c
+00:31:56.280 --> 00:32:02.920 align:left position:22%
+<c.teletext>Vi får ett kortfattat sms när vi ber
+Alexander Bard att medverka här.</c>
+
+debc8e6257624e5fbd740dbc9b786c91
+00:32:11.200 --> 00:32:15.040 align:left position:22%
+<c.teletext>Men så här sa de i samma ämne 2014.</c>
+
+c637faa49e074fd9a26e82913855a9b9
+00:32:15.200 --> 00:32:21.680 align:left position:22%
+<c.teletext>Det funkade inte. Förr eller senare
+hade det rasat ihop.</c>
+
+5cd782177a864a1d8344eedb9e1c3c3d
+00:32:21.840 --> 00:32:24.840 align:left position:22%
+<c.teletext>Sen vill jag inte gå in mer på det.</c>
+
+76f7f0106c734c0db3b0fb967f72c15c
+00:32:25.000 --> 00:32:29.480 align:left position:22%
+<c.teletext>Det fungerade inte som det skulle,
+och en sån här maskin måste funka.</c>
+
+ee70cb75bdab421cb7ef12f95f71878c
+00:32:29.640 --> 00:32:33.720 align:left position:22%
+<c.teletext>Hon fattade inte varför
+hon fick sparken. Hon var så borta.</c>
+
+04ea28bd6b8d42389907222c42227a60
+00:32:33.880 --> 00:32:39.440 align:left position:22%
+<c.teletext>Jag ska inte gå in på detaljer,
+men vi kunde visa vad hon hade gjort.</c>
+
+bdccee4638ce413c8efdb7e6ad81864c
+00:32:39.600 --> 00:32:46.640 align:left position:22%
+<c.teletext>Det var väldigt traumatiskt. Det var
+vuxenmobbning av de övriga i bandet.</c>
+
+b838d49ab85546c99f2e47a389d760ed
+00:32:46.800 --> 00:32:51.480 align:left position:22%
+<c.teletext>Det är mycket möjligt att dynamiken
+i bandet inte fungerade.</c>
+
+6f9f996842f846de86a62f4493b6d32a
+00:32:51.640 --> 00:32:56.240 align:left position:22%
+<c.teletext>Men sättet de gjorde det på
+var hemskt.</c>
+
+3646936d71124b16a9e49b67c1377984
+00:32:56.400 --> 00:33:02.040 align:left position:22%
+<c.teletext>Camilla var helt förstörd över elaka
+påhopp, lögner i media och så vidare.</c>
+
+a214627876ac4d338ac5a3ace4c0dd58
+00:33:02.200 --> 00:33:06.280 align:left position:22%
+<c.teletext>Jag har fortfarande agg
+mot alla de där människorna.</c>
+
+8a4fd125d8934029b8d0f365825615d7
+00:33:06.440 --> 00:33:10.880 align:left position:22%
+<c.teletext>Jag tyckte att det var fasansfullt
+hur de behandlade henne.</c>
+
+a0c16eec459f4d7193fd01fbae0102b4
+00:33:11.040 --> 00:33:14.920 align:left position:22%
+<c.teletext>Camilla har fått sparken,
+men hon är inte sysslolös.</c>
+
+eac83c0f9d374bf9b655f4730357e0d8
+00:33:15.080 --> 00:33:19.000 align:left position:22%
+<c.teletext>Först ger hon ut en hämndlåt
+– Every time you lie–</c>
+
+fcf097393e154cc28fead6cb6e285300
+00:33:19.160 --> 00:33:22.920 align:left position:22%
+<c.teletext>–av pojkvännen Stakka Bo
+och kompisen E-Type.</c>
+
+d151886c81c746ec8e87ee2323f736bf
+00:33:23.080 --> 00:33:26.440 align:left position:22%
+<c.teletext><c.sang>Every time you lie to me</c></c>
+
+90b8e7997e274aaa9fa493e43e2cc91e
+00:33:26.600 --> 00:33:30.880 align:left position:22%
+<c.teletext><c.sang>in everything you've said</c></c>
+
+98be2a3761c54c479c8f40ea8a7b8230
+00:33:31.040 --> 00:33:34.760 align:left position:22%
+<c.teletext><c.sang>Everytime you cry for me</c></c>
+
+139dab0222054204bbe226339cd8e8b1
+00:33:34.920 --> 00:33:38.400 align:left position:22%
+<c.teletext><c.sang>I wish that you were dead</c></c>
+
+6307d594453d4fb09d00139be7e0e676
+00:33:39.600 --> 00:33:43.840 align:left position:22%
+<c.teletext>Vi ville supporta och hjälpa Camilla.</c>
+
+0056168951b64976a5424b0d66c47655
+00:33:44.000 --> 00:33:48.640 align:left position:22%
+<c.teletext>Hon har många starka sidor,
+men hon är ingen entreprenör.</c>
+
+40969780862245168471cdffdd887c96
+00:33:48.800 --> 00:33:54.200 align:left position:22%
+<c.teletext>Hon är en väldigt häftig artist
+och en häftig karaktär.</c>
+
+b58f4097bf3244b1b89b452971e144c8
+00:33:54.360 --> 00:33:58.920 align:left position:22%
+<c.teletext>E-Type skrev musiken
+och jag skrev texten till låten.</c>
+
+c660740c20cb4feabe1885b6a7458b79
+00:33:59.080 --> 00:34:03.480 align:left position:22%
+<c.teletext>Ett anthem i reaktion till...
+Every time you lie, hette den.</c>
+
+1a6de97b62a146e5a1a5d98d4b734600
+00:34:03.640 --> 00:34:10.080 align:left position:22%
+<c.teletext>Om alla lögner som spridits om henne
+och allt förtal från bandmedlemmarna.</c>
+
+11a256a6d85541fba9a628d40e438a87
+00:34:10.240 --> 00:34:15.640 align:left position:22%
+<c.teletext>Every time you lie
+handlar om Army of Lovers, ja.</c>
+
+9d8ddc5b59214584962708b048f1f747
+00:34:15.800 --> 00:34:19.560 align:left position:22%
+<c.teletext>Den handlar om alla lögner.</c>
+
+4dd4eb8cc2144ab893b4c6142b7d35f2
+00:34:19.720 --> 00:34:23.120 align:left position:22%
+<c.teletext>Sen får den ett svar,
+kan man väl kalla det.</c>
+
+0254fca77e8643eeb247bc064d5c0224
+00:34:23.280 --> 00:34:26.920 align:left position:22%
+<c.teletext>On judgement day, som de gjorde.</c>
+
+b125e8b035e347218eb37df0a60c2ec5
+00:34:27.080 --> 00:34:30.160 align:left position:22%
+<c.teletext>Man får väl läsa av
+vad man vill av texterna.</c>
+
+9cb56c4937e943bc94bc61cf55117156
+00:34:30.320 --> 00:34:35.920 align:left position:22%
+<c.teletext><c.sang>On judgement day</c>
+<c.sang>I will get back on you</c></c>
+
+10f2ba18e15d45ceb5c4c84676d643c8
+00:34:36.080 --> 00:34:40.400 align:left position:22%
+<c.teletext><c.sang>Naked to the bone</c>
+<c.sang>you will stand alone</c></c>
+
+531cca06645c4c29b75fe9a0efa48b67
+00:34:40.560 --> 00:34:46.120 align:left position:22%
+<c.teletext><c.sang>On judgement day</c>
+<c.sang>I will get my revenge</c></c>
+
+50d4d0d2db0749eebf6aa8d024da7a7c
+00:34:46.280 --> 00:34:52.720 align:left position:22%
+<c.teletext><c.sang>Driving you to tears</c>
+<c.sang>after wasted years without me</c></c>
+
+55ed78e045464a75a670381e48cedf67
+00:34:54.480 --> 00:35:01.160 align:left position:22%
+<c.teletext>Camilla fortsätter som fotomodell och
+engagerar sig i olika samhällsfrågor.</c>
+
+8c9242d2cfd14ecb8ce38626493e660c
+00:35:01.320 --> 00:35:06.880 align:left position:22%
+<c.teletext>"Mirakelmetod mot hjärtinfarkt.
+La Camillas bästa sminktips."</c>
+
+92c5ff10abf14b5594caf8d87b9297c5
+00:35:07.040 --> 00:35:10.720 align:left position:22%
+<c.teletext>Jag började röka när jag var elva
+och har rökt sen dess.</c>
+
+4ac05f9f6c8640f58869ba6d7b150f4f
+00:35:10.880 --> 00:35:14.800 align:left position:22%
+<c.teletext>Jag har försökt att sluta,
+men inte klarat mer än två dagar.</c>
+
+9759491d5ed74948a65d9836305c8c79
+00:35:14.960 --> 00:35:18.800 align:left position:22%
+<c.teletext>Det här är mitt längsta uppehåll
+och jag ska aldrig mer börja igen.</c>
+
+26a3e4a2563e46cabaf3ac979ec56274
+00:35:18.960 --> 00:35:23.920 align:left position:22%
+<c.teletext>Men allra först "Slampans dag",
+Camilla Henemark. Behövs den?</c>
+
+31a3f8ac755d420ebda2ceb378e1b424
+00:35:24.080 --> 00:35:27.000 align:left position:22%
+<c.teletext>–Jag tycker det.
+–Vem är en slampa?</c>
+
+08077c0aeb6c460f8f86f7c27f6eaa03
+00:35:27.160 --> 00:35:30.320 align:left position:22%
+<c.teletext>En kvinna som inte bryr sig om
+vad andra tycker.</c>
+
+e7a02e62497944bbafdf3589cf9bfb5c
+00:35:30.480 --> 00:35:34.160 align:left position:22%
+<c.teletext>Det tycker jag är
+den främsta devisen för en slampa.</c>
+
+b63ef16a47ad4a46af459439dc9613fc
+00:35:34.320 --> 00:35:38.560 align:left position:22%
+<c.teletext>Jag ville ta tillbaka ordet slampa.
+"Du kallar mig slampa"–</c>
+
+4b32ea846e794ffe95903ea2bc300887
+00:35:38.720 --> 00:35:42.240 align:left position:22%
+<c.teletext>–"för att jag klär mig som jag vill,
+säger vad jag tycker"–</c>
+
+43e18722ef1047af9af77adb8b30d40f
+00:35:42.400 --> 00:35:46.640 align:left position:22%
+<c.teletext>–"har ett fritt sexliv och allt
+som man tillskriver en slampa."</c>
+
+b8eab152963544feb7edc2e3470d1d69
+00:35:46.800 --> 00:35:51.480 align:left position:22%
+<c.teletext>"Men då är det en positiv sak.
+Då borde den hyllas."</c>
+
+55d1632e9fde48e7a02fa7ea5b260137
+00:35:51.640 --> 00:35:55.360 align:left position:22%
+<c.teletext>Slampans dag, varför inte?</c>
+
+d088cecf6a8a48cb8059da9c7517a116
+00:35:55.520 --> 00:36:01.680 align:left position:22%
+<c.teletext>Hon har alltid kämpat för de svaga.
+Hon har varit väldigt passionerad–</c>
+
+48b4bdff67464818bb30020093d3c9ad
+00:36:01.840 --> 00:36:07.000 align:left position:22%
+<c.teletext>–och har med stor emfas engagerat sig
+i social rättvisa och såna grejer.</c>
+
+84dde57295fd41f4bf025f57fcf5ee5c
+00:36:07.160 --> 00:36:10.040 align:left position:22%
+<c.teletext>Jag lärde mig mycket av henne.</c>
+
+17d4c3e248a64d0493e29cb81690b0c8
+00:36:15.640 --> 00:36:19.160 align:left position:22%
+<c.teletext>Också andra vänner dyker upp
+för att hjälpa Camilla.</c>
+
+93b77eef694a46aeb267321ebe7aa3ea
+00:36:19.320 --> 00:36:22.680 align:left position:22%
+<c.teletext>Som Anders Glisén
+från tiden i Blackeberg.</c>
+
+326cce7f22a04223bdb49b66ec79316b
+00:36:22.840 --> 00:36:26.960 align:left position:22%
+<c.teletext>Ihop med en vän komponerar han
+ett helt album åt Camilla.</c>
+
+da416e8157804b739820a32e13faee43
+00:36:27.120 --> 00:36:31.680 align:left position:22%
+<c.teletext>Hon spelar in det,
+men det blir aldrig nån fysisk skiva.</c>
+
+e6c6da6691a84b3ea0a0befd5089f145
+00:36:31.840 --> 00:36:37.440 align:left position:22%
+<c.teletext>Den här skivan som hette Temper
+har vi ju ramat in–</c>
+
+1f4c3f6af48f40fcb65889952c433766
+00:36:37.600 --> 00:36:41.800 align:left position:22%
+<c.teletext>–som om det är
+ett soundtrack till Camillas liv.</c>
+
+8020a93185a64c82a0ff417636c88555
+00:36:41.960 --> 00:36:47.080 align:left position:22%
+<c.teletext>Men sen var det en lång resa.
+En skiva som aldrig kom ut.</c>
+
+c611474e005e40f1b8ccaa63f08a7700
+00:36:47.240 --> 00:36:50.040 align:left position:22%
+<c.teletext>Men den finns där och blev klar.</c>
+
+bb40bce6549346b4a50460bc311c0e87
+00:36:50.200 --> 00:36:56.440 align:left position:22%
+<c.teletext>Vi var ju en del av det som hade hänt
+kanske 10 eller 15 år innan.</c>
+
+3fcc85c79d9640aba1b282df01842b04
+00:36:59.600 --> 00:37:03.720 align:left position:22%
+<c.teletext>När Army of Lovers ska ge ut
+sitt första samlingsalbum–</c>
+
+66fdb2f4a39041a98cdaab2187eb3331
+00:37:03.880 --> 00:37:10.200 align:left position:22%
+<c.teletext>–är Camilla välkommen tillbaka,
+men då med Dominika vid sin sida.</c>
+
+3fd72d321b9f4525a49ec8cc436eea16
+00:37:10.360 --> 00:37:14.200 align:left position:22%
+<c.teletext><c.sang>When I go, when I go, when I go</c>
+<c.sang>come see my spirit fly</c></c>
+
+7078b9659b7345bfb1b1969c2edacce7
+00:37:14.360 --> 00:37:17.840 align:left position:22%
+<c.teletext><c.sang>Give my life, give my life</c>
+<c.sang>the night I'm sacrified</c></c>
+
+07472e9d7c874d6cb9cbe0525538f797
+00:37:19.320 --> 00:37:24.360 align:left position:22%
+<c.teletext>Det här är deras första samlingsalbum
+från 1995, Les greatest hits.</c>
+
+c61c977115aa4f4f96ead2b7014e9918
+00:37:24.520 --> 00:37:28.360 align:left position:22%
+<c.teletext>Det släpptes bara på vinyl,
+i Grekland.</c>
+
+007c303ef2394fea969f9dfa091ff8e9
+00:37:28.520 --> 00:37:31.640 align:left position:22%
+<c.teletext>Det är lite eftertraktat
+bland samlare.</c>
+
+8a3ae7adcc5245269456e1b49f416418
+00:37:31.800 --> 00:37:34.960 align:left position:22%
+<c.teletext>De har släppt tre samlingsalbum–</c>
+
+a63bf0ab83ce423c8adc3043ce2d68d4
+00:37:35.120 --> 00:37:39.200 align:left position:22%
+<c.teletext>–och vid varje tillfälle
+har man tagit in Camilla från kylan–</c>
+
+7e1ecd13768340afb50c2efbcd1dcd59
+00:37:39.360 --> 00:37:44.080 align:left position:22%
+<c.teletext>–för att vara med och lansera dem.
+Man vet att det säljer bättre då.</c>
+
+a9b7de5a83084a2191c2f0f8422d41d6
+00:37:44.240 --> 00:37:48.280 align:left position:22%
+<c.teletext>Sen har hon åkt ut
+med buller och bång varje gång.</c>
+
+d2305587ec014222bb5d071351b442ed
+00:37:48.440 --> 00:37:52.880 align:left position:22%
+<c.teletext>Här sitter förmodligen en av Sveriges
+märkligaste musikgrupper.</c>
+
+40985f8db8f44d62b9928383280a6a9d
+00:37:53.040 --> 00:37:57.880 align:left position:22%
+<c.teletext>De är inte mindre märkliga i kväll.
+Hur ska vi reda ut det här?</c>
+
+0ea09f60c48d415fb80f26801081acb6
+00:37:58.040 --> 00:38:03.280 align:left position:22%
+<c.teletext>–Vi tycker att vi är högst normala.
+–Jaha. Det måste vi utreda.</c>
+
+151cb29a89bc4e28aab7767dde8bea80
+00:38:03.440 --> 00:38:07.000 align:left position:22%
+<c.teletext>Alexander, Camilla, Dominika
+och Jean-Pierre.</c>
+
+0c4774df78664387b88708fc5edcdc3b
+00:38:07.160 --> 00:38:11.760 align:left position:22%
+<c.teletext>Jag är nyfiken på...
+Varför ska det se ut så här?</c>
+
+3e6cc61a21c94eae84e072ba70c80c01
+00:38:11.920 --> 00:38:15.960 align:left position:22%
+<c.teletext>–Varför inte?
+–För att man vill det.</c>
+
+c645968870e84d30ad5e65b2195bf03d
+00:38:16.120 --> 00:38:22.160 align:left position:22%
+<c.teletext>Alla, till och med barn, tycker om
+glitter och glamour, när det blänker.</c>
+
+dfeccf13e23e4d519f23e4f7a43334e9
+00:38:22.320 --> 00:38:27.840 align:left position:22%
+<c.teletext>De som blir provocerade av det här
+är störtkonservativa människor–</c>
+
+6aaf7d6f3c324c87a5ec6f4861ee44f6
+00:38:28.000 --> 00:38:34.040 align:left position:22%
+<c.teletext>–som värnar om stela former, så att
+vi kan hålla varandra i schack.</c>
+
+53e91cf2018849e8a665073e9087f4db
+00:38:34.200 --> 00:38:37.440 align:left position:22%
+<c.teletext>Vi ser inga gränser
+och vi hycklar inte.</c>
+
+885046708ae44db5bc862d5e45a88dae
+00:38:37.600 --> 00:38:42.400 align:left position:22%
+<c.teletext>Det är synd att inte populärkulturen
+används mer för debatt.</c>
+
+fc8ef9b7cfed4f9baadd3d3dbeb9ecdd
+00:38:42.560 --> 00:38:46.680 align:left position:22%
+<c.teletext>Att inte 3,5 minuters poplåtar
+får innehålla mer än de får.</c>
+
+87abdd9ca7a94ff6a9b9f6715017a48c
+00:38:46.840 --> 00:38:51.800 align:left position:22%
+<c.teletext>Topplistorna är ju fulla av artister
+som hyllas som inte säger nånting.</c>
+
+8b1b6654218f48ad970928b57dc1568f
+00:38:51.960 --> 00:38:54.640 align:left position:22%
+<c.teletext>Stackars Siewert!</c>
+
+7d4acc02051e44508d970377f5582a09
+00:38:54.800 --> 00:38:58.560 align:left position:22%
+<c.teletext>Här går vi emot våra principer
+om att prata politik.</c>
+
+7cb2f6d0375c4a268b8709b25ce760eb
+00:38:58.720 --> 00:39:01.840 align:left position:22%
+<c.teletext>Vi är ju
+extremt politiska egentligen.</c>
+
+dcbea9609aa44b1ba33f3d016c54a274
+00:39:02.000 --> 00:39:06.400 align:left position:22%
+<c.teletext>Vi var med
+i ett morgonbarnprogram i Tyskland.</c>
+
+9d1eefbfc32d4d20ba900b246076c841
+00:39:06.560 --> 00:39:12.760 align:left position:22%
+<c.teletext>Jean-Pierres penis diskuterades.
+"Vi kan inte ha den i bild."</c>
+
+d23d5b827eba42a48165db25403876a6
+00:39:12.920 --> 00:39:17.680 align:left position:22%
+<c.teletext>Så i hela klippet
+ser man Jean-Pierre härifrån och upp.</c>
+
+b1337a00ac664647925f5ff74f552005
+00:39:17.840 --> 00:39:21.200 align:left position:22%
+<c.teletext>Men man ser penisen vippa
+fram och tillbaka.</c>
+
+4e7db7fc8ecd457d9577b6dff77b27a9
+00:39:25.400 --> 00:39:27.880 align:left position:22%
+<c.teletext><c.sang>I give my life</c></c>
+
+75cd5428fe18469d81f0b68faa2d50e7
+00:39:28.040 --> 00:39:32.280 align:left position:22%
+<c.teletext><c.sang>Give my life, give my life, give</c>
+<c.sang>my life to be in the book of love</c></c>
+
+f0258183e09041aea05d24ac4dae6f0a
+00:39:32.440 --> 00:39:36.000 align:left position:22%
+<c.teletext><c.sang>Give my life, give my life,</c>
+<c.sang>give my life to gods above</c></c>
+
+116fb45f27184e9f8c3ba09b8772d04c
+00:39:36.160 --> 00:39:40.240 align:left position:22%
+<c.teletext>De har gjort väldigt mycket
+för HBTQI-communityn i Sverige.</c>
+
+56c8898d77894ee3a44155183f2cbfb9
+00:39:40.400 --> 00:39:43.760 align:left position:22%
+<c.teletext>Det har Army of Lovers gjort
+ända sen första början.</c>
+
+56ea8d35f8244837830b883e0c53d97b
+00:39:43.920 --> 00:39:47.320 align:left position:22%
+<c.teletext>På den svenska musikscenen
+på tidigt 90-tal–</c>
+
+e88f24aed75d49f7b420faa5c80858b0
+00:39:47.480 --> 00:39:54.040 align:left position:22%
+<c.teletext>–var de allt som det svenska musik-
+livet inte var och inte ville ha.</c>
+
+055192bdc6924cc991c1394c90bbf566
+00:39:54.200 --> 00:39:57.720 align:left position:22%
+<c.teletext>Det skulle inte vara
+kommersiellt och glättigt.</c>
+
+9f5d57c393f24f2ebc104e40d3b93d91
+00:39:57.880 --> 00:40:03.440 align:left position:22%
+<c.teletext>Då fanns det ju inga andra artister
+som var uttalat gayvänliga.</c>
+
+d94163b82880442db987cce7050e98a6
+00:40:03.600 --> 00:40:08.360 align:left position:22%
+<c.teletext>Så när de kom
+och verkligen kunde fjolla loss–</c>
+
+09bbb1eb7b59469aabdcaab35d60d171
+00:40:08.520 --> 00:40:12.200 align:left position:22%
+<c.teletext>–med sina plastinstrument,
+fjäderboor och allt–</c>
+
+3ae92b1abf9d45328b134263ef81db7b
+00:40:12.360 --> 00:40:17.520 align:left position:22%
+<c.teletext>–så var det nåt som vi som tillhörde
+den communityn hade väntat på länge.</c>
+
+31f5140121354fab8b82e1cd1e87df89
+00:40:17.680 --> 00:40:22.040 align:left position:22%
+<c.teletext>Och så dyker det upp ett band
+som har allt det vi vill ha.</c>
+
+18709d5fe50b41ce815c4e677bbb84f4
+00:40:22.200 --> 00:40:26.480 align:left position:22%
+<c.teletext>De gick ju i bräschen
+för hela priderörelsen–</c>
+
+68925c329bde4d36b1805037b6040b5e
+00:40:26.640 --> 00:40:30.640 align:left position:22%
+<c.teletext>–för det fanns ju inget annat
+innan Army of Lovers.</c>
+
+1dd98eeec01a489e8eb928c638be587f
+00:40:36.840 --> 00:40:40.960 align:left position:22%
+<c.teletext>När Camilla har fått sparken
+från bandet andra gången–</c>
+
+0f75686eadda495bb81aabf53b4739b3
+00:40:41.120 --> 00:40:44.480 align:left position:22%
+<c.teletext>–ger hon sig in i partipolitiken.</c>
+
+96e6a029626d4fd5bcf8d356cba7d168
+00:40:44.640 --> 00:40:47.560 align:left position:22%
+<c.teletext><c.urfjarran><i>I Borgholm</i></c>
+<c.urfjarran><i>lockade Socialdemokraterna–</i></c></c>
+
+162f0b71330a49798742f4b8852bf80a
+00:40:47.720 --> 00:40:50.480 align:left position:22%
+<c.teletext><c.urfjarran><i>–med ett annorlunda affischnamn:</i></c></c>
+
+db1c1ba5e2594c98b2d559a1e261d759
+00:40:50.640 --> 00:40:54.040 align:left position:22%
+<c.teletext><c.urfjarran><i>Fotomodellen och artisten</i></c>
+<c.urfjarran><i>Camilla Henemark.</i></c></c>
+
+9fa4f6cb744548e29047305c00b8d207
+00:40:54.200 --> 00:40:57.960 align:left position:22%
+<c.teletext>Jag vill tacka för inbjudan
+hit till Borgholm.</c>
+
+65956749eb324a1ca8c8ca68608a45a3
+00:40:58.120 --> 00:41:02.920 align:left position:22%
+<c.teletext>Socialdemokratin och Bondeförbundet
+klarade jobben då på 30-talet.</c>
+
+94c5e65e319e4f7eadb88266125619ed
+00:41:03.080 --> 00:41:09.080 align:left position:22%
+<c.teletext>Jag har alltid varit intresserad
+av politik och har legat åt vänster.</c>
+
+f5b6087880c54d3b9c44424a8b43578a
+00:41:09.240 --> 00:41:14.520 align:left position:22%
+<c.teletext>Jag kände väl att Socialdemokraterna
+behövde lite mer glamour.</c>
+
+046bc92ba71b4574b94ae2097ec8791a
+00:41:14.680 --> 00:41:19.720 align:left position:22%
+<c.teletext>Minskade klyftor i samhället är nåt
+som jag alltid kommer att jobba för.</c>
+
+a65ab31ca3e347b695fea1fb1d95f525
+00:41:19.880 --> 00:41:23.120 align:left position:22%
+<c.teletext>Den som ringde först
+var Ingvar Carlsson–</c>
+
+c68aba8014d743a0842ef357105390b9
+00:41:23.280 --> 00:41:28.440 align:left position:22%
+<c.teletext>–och sen när valtåget drog i gång
+med Göran, så ringde han.</c>
+
+253bfb5c1e9c472cbc32f19307834bd8
+00:41:28.600 --> 00:41:34.680 align:left position:22%
+<c.teletext>Jag tyckte att det var toppen att
+vika ut sig naken i tidningen Frihet–</c>
+
+8dad526e3ad34c43920c064a2f590328
+00:41:34.840 --> 00:41:39.960 align:left position:22%
+<c.teletext>–i deras valspecial, så här är jag
+kroppsmålad och glad i hågen.</c>
+
+bafa6aa0b9ad4d87ba13d0c2b25c97f9
+00:41:40.120 --> 00:41:43.560 align:left position:22%
+<c.teletext>Det är bara målat, jag är helt naken.</c>
+
+1fce7697da754fe08be2d1e1c68f2294
+00:41:45.640 --> 00:41:49.160 align:left position:22%
+<c.teletext>Sen tar hon upp arbetet
+med sitt soloalbum–</c>
+
+f36c93b217514d8d92aca664edf2d327
+00:41:49.320 --> 00:41:53.680 align:left position:22%
+<c.teletext>–och släpper en singel –
+I'm not in the mood for lovers.</c>
+
+617e579d2f954162bd255e4ee78aaf84
+00:41:54.440 --> 00:41:58.720 align:left position:22%
+<c.teletext><c.sang>–I am not in the mood for love</c>
+<c.sang>–I'm not in the mood for lovers</c></c>
+
+58ace36ad6cf44a98d049082ae39bc1d
+00:41:58.880 --> 00:42:02.680 align:left position:22%
+<c.teletext>Samma år som Camilla valturnerar
+med Göran Persson–</c>
+
+392cfaea2fa14993ac2ae5ae2c47008b
+00:42:02.840 --> 00:42:09.600 align:left position:22%
+<c.teletext>–bjuds hon liksom tidigare på middag
+med Sällskapet Sörmlands vänner.</c>
+
+3794810978434e32aa65a1b8d618280c
+00:42:09.760 --> 00:42:14.840 align:left position:22%
+<c.teletext>Men den här gången får hon
+hedersgästen, kungen, till bordet.</c>
+
+e0162b9d0285415a8032efbc59f72011
+00:42:15.000 --> 00:42:19.840 align:left position:22%
+<c.teletext>Den här perioden
+levde jag ett så bisarrt liv.</c>
+
+14b7387f20c040b4b02c3a5e6114620a
+00:42:20.000 --> 00:42:24.600 align:left position:22%
+<c.teletext>Så för mig var en middag med kungen
+ingen stor grej.</c>
+
+126bd08d8d4b4e9fa68bf5bc3c975a19
+00:42:24.760 --> 00:42:28.360 align:left position:22%
+<c.teletext>Nästa vecka var jag kanske
+i Paris eller London–</c>
+
+7573bd59d237463cbd1cb3081bb30046
+00:42:28.520 --> 00:42:32.680 align:left position:22%
+<c.teletext>–och träffade Boy George, Prince
+eller George Michael.</c>
+
+d53ac291ec074c978415c3cc27f08f0c
+00:42:32.840 --> 00:42:36.840 align:left position:22%
+<c.teletext>Mitt liv var en cirkus.</c>
+
+fc4126cee39e488fadf3d74a941426c8
+00:42:37.000 --> 00:42:41.840 align:left position:22%
+<c.teletext>Så det var ingen big deal.
+Jag var en superstjärna.</c>
+
+74ed802d5df94c9287c452c8bdae91e1
+00:42:42.880 --> 00:42:46.400 align:left position:22%
+<c.teletext>Det var många
+som inte trodde på kungaryktet.</c>
+
+4a63e8405b2b4e45974f9d4ad17715c4
+00:42:46.560 --> 00:42:51.200 align:left position:22%
+<c.teletext>Camilla Henemark från Army of Lovers
+och kungen? Nä.</c>
+
+c2b868a2dce94154981213f2ed829e54
+00:42:51.360 --> 00:42:54.280 align:left position:22%
+<c.teletext>Men, jo.</c>
+
+fa9cabf9a38e461b80aa938a028856e4
+00:42:54.440 --> 00:42:59.440 align:left position:22%
+<c.teletext>Folk kanske tycker att det är
+konstigt. Vad ska vi ha gemensamt?</c>
+
+a2096ed72c6946eebc451d5e282bfe47
+00:42:59.600 --> 00:43:04.920 align:left position:22%
+<c.teletext>Men det är inte så konstigt.
+Han har en sån fruktansvärd humor.</c>
+
+a15b7477d10e411e955472f393fdccf0
+00:43:05.080 --> 00:43:11.680 align:left position:22%
+<c.teletext>Han har nån skön barnslig känsla
+i sig, så man skrattar och har kul.</c>
+
+f3f7ee0dba5642468f9f351c77632e17
+00:43:11.840 --> 00:43:17.600 align:left position:22%
+<c.teletext>Han har vuxit upp med många starka
+kvinnor, så hans fascination...</c>
+
+0f44e7760e5f489587ae817011b762be
+00:43:17.760 --> 00:43:22.920 align:left position:22%
+<c.teletext>Om man nu kan säga så, för mig. Men
+han tycker nog om färgstarka kvinnor.</c>
+
+768deba7647448618e849b3530fdb630
+00:43:23.080 --> 00:43:27.080 align:left position:22%
+<c.teletext>Små violer är inte hans grej,
+tror jag.</c>
+
+aa521f0778cd4896a49f19f68bfcb553
+00:43:28.440 --> 00:43:31.800 align:left position:22%
+<c.teletext>Umgänget med kungen upphör
+efter ett år–</c>
+
+83effe80da9a401480521e83495e0e78
+00:43:31.960 --> 00:43:37.320 align:left position:22%
+<c.teletext>–och det är först tio år senare
+som det gör avtryck i Camillas liv.</c>
+
+27b5884cfe77411bab93c6a31289088b
+00:43:37.480 --> 00:43:41.240 align:left position:22%
+<c.teletext>Camillas rastlösa läggning
+tar henne ut i världen.</c>
+
+2351e3dbb0d0403d8ec735b71b3a1051
+00:43:41.400 --> 00:43:45.920 align:left position:22%
+<c.teletext>Hon blir lyxhustru i Genève,
+jobbar på nattklubb i Turkiet–</c>
+
+9914634bc84f40719e151d537ef47467
+00:43:46.080 --> 00:43:48.840 align:left position:22%
+<c.teletext>–och lever hippieliv i Indien.</c>
+
+a4ac3f46cb874e358b53c5cccb0f5c7b
+00:43:49.000 --> 00:43:53.520 align:left position:22%
+<c.teletext>Hon säljer sin bostadsrätt
+och får ett par miljoner i handen–</c>
+
+c16abe3451c145dc84f93c9890fac071
+00:43:53.680 --> 00:43:59.440 align:left position:22%
+<c.teletext>–som snabbt är försvunna.
+Camilla är hemlös.</c>
+
+2cdac2db89c14ebdaccd6c39fc4ba738
+00:43:59.600 --> 00:44:05.040 align:left position:22%
+<c.teletext>Nu är vi på väg till min gamla bostad
+som jag flyttade till.</c>
+
+b4db29fd195147ebbc9de65d7ba6d1eb
+00:44:05.200 --> 00:44:09.400 align:left position:22%
+<c.teletext>Här bodde jag med Johan Renck
+i många år.</c>
+
+608004ab3d9b480e8248a076b92ef5c7
+00:44:09.560 --> 00:44:12.920 align:left position:22%
+<c.teletext>I det fönstret där.</c>
+
+44cbea4830b94cf1828f4c4f8f51f529
+00:44:13.080 --> 00:44:18.080 align:left position:22%
+<c.teletext>Jag hade en kappsäck full med pengar,
+men vet inte hur man håller i dem.</c>
+
+64f3e2f44bf747a48306c3c5276da9e4
+00:44:18.240 --> 00:44:22.800 align:left position:22%
+<c.teletext>Jag har ingen aning.
+Jag bara spenderade dem.</c>
+
+9bf66e770b8c452d8d8c01ba3d871b57
+00:44:22.960 --> 00:44:29.320 align:left position:22%
+<c.teletext>Camilla är lite... Hon har en del i
+sig som är hennes egen värsta fiende.</c>
+
+1eb87a58cda84948b8b6a4063b08871a
+00:44:29.480 --> 00:44:35.920 align:left position:22%
+<c.teletext>"Nu ska vi göra det här, ordning
+och reda." Men hon trasslar bort sig.</c>
+
+90d90fe01f014f6a9f58667f3cde1273
+00:44:36.080 --> 00:44:38.560 align:left position:22%
+<c.teletext>Hon är inte riktigt...</c>
+
+e9a4e70468e3416288154130bcc0def8
+00:44:38.720 --> 00:44:43.000 align:left position:22%
+<c.teletext>För att man ska lyckas
+måste man vilja lyckas.</c>
+
+52c353bba8b743179af5fdfa8c9894b8
+00:44:43.160 --> 00:44:49.200 align:left position:22%
+<c.teletext>Och man måste vilja det med allt.
+Hon kanske inte ville det med allt.</c>
+
+b4d85bbb21094e9b9456d05a21025225
+00:44:49.360 --> 00:44:54.920 align:left position:22%
+<c.teletext>Av nån anledning när jag irrade runt
+och inte hade råd med hotell längre–</c>
+
+e937cd07c30d494387ed4e43d8c25bfd
+00:44:55.080 --> 00:44:58.480 align:left position:22%
+<c.teletext>–sökte jag mig tillbaka
+till mina gamla kvarter.</c>
+
+a1427a33ef7e4d5aa3f42cc665f273a2
+00:44:58.640 --> 00:45:02.360 align:left position:22%
+<c.teletext>Då hade jag fortfarande koden hit.</c>
+
+6f2d8cf804ef4029affad9848d3732c5
+00:45:02.520 --> 00:45:07.720 align:left position:22%
+<c.teletext>Nu ska ni få se var jag sov
+när jag låtsades bo kvar.</c>
+
+5968064bdc5b4b9787dd14fbf0b2c908
+00:45:07.880 --> 00:45:13.960 align:left position:22%
+<c.teletext>Då hade jag fortfarande nyckeln
+till tvättstugan ner här.</c>
+
+8ac876c026464a84ab3b080f6ae61f24
+00:45:14.120 --> 00:45:16.640 align:left position:22%
+<c.teletext>Nu har jag inte det.</c>
+
+9b0c739cef914ed596bf15a8cdd1b140
+00:45:16.800 --> 00:45:22.840 align:left position:22%
+<c.teletext>Ni förstår, när man liksom har tagit
+sig neråt i livet, känns det som...</c>
+
+6dee4b1259414d28bbb461401a124f66
+00:45:23.000 --> 00:45:26.240 align:left position:22%
+<c.teletext>Man har sjunkit ner i tvättstugan.</c>
+
+2bbf4c475c9d4e658fb0fd1c203b7bc5
+00:45:27.440 --> 00:45:30.560 align:left position:22%
+<c.teletext>Folk som bor och lever ute
+håller ihop.</c>
+
+60d035b1c9c9400eaa25f218809d0dea
+00:45:30.720 --> 00:45:35.680 align:left position:22%
+<c.teletext>Man kan säga att det finns
+små communities som man kan vara i.</c>
+
+8e9d3f171f1e496cbda270376c5fb5cc
+00:45:35.840 --> 00:45:39.840 align:left position:22%
+<c.teletext>När det är kallare
+sover man i trappuppgångar.</c>
+
+3c317202f0df4e428ae077ef8e3fb930
+00:45:40.000 --> 00:45:42.880 align:left position:22%
+<c.teletext>På vinden finns fantastiska ställen.</c>
+
+d653cdc0c78d4fa1a14086ec907dac21
+00:45:43.040 --> 00:45:48.200 align:left position:22%
+<c.teletext>Tvättstugor, om du har nycklar
+eller nån som kan släppa in dig.</c>
+
+646d10a2d5b043f1aabe7548b23458c6
+00:45:48.360 --> 00:45:51.560 align:left position:22%
+<c.teletext>Där är varmt
+och det finns tvättmöjligheter.</c>
+
+971ec40ef9b64d02a6c370d035369338
+00:45:51.720 --> 00:45:57.480 align:left position:22%
+<c.teletext>Jag har andra ögon när jag går på
+stan nu. Jag ser dem som är hemlösa.</c>
+
+2fdd74226d924330a48b0e03fbd1b702
+00:45:57.640 --> 00:46:00.440 align:left position:22%
+<c.teletext>Jag tänker varje dag på vädret–</c>
+
+92a3318a8df54569bde8b99f83bbc423
+00:46:00.600 --> 00:46:03.920 align:left position:22%
+<c.teletext>–för jag tänker på dem
+utan nånstans att sova.</c>
+
+76b578a78e524e4484c91a3e7d3eecaf
+00:46:04.080 --> 00:46:07.040 align:left position:22%
+<c.teletext>"Åh nej,
+det är ingen bra natt för dem."</c>
+
+73414279d5af4640a2a5418c4a709549
+00:46:07.200 --> 00:46:12.280 align:left position:22%
+<c.teletext>Jag går medvetet och lever lite
+i den världen fortfarande.</c>
+
+c69f7d19adf94dbdab9f4cf4b82faf30
+00:46:22.240 --> 00:46:26.440 align:left position:22%
+<c.teletext>När vännen från Blackeberg,
+Anders Glisén, åter hör av sig–</c>
+
+cfb326b44798422b9961fa30ee100f5a
+00:46:26.600 --> 00:46:29.920 align:left position:22%
+<c.teletext>–förstår han
+att läget är riktigt illa.</c>
+
+15f682b3c164465ab63b4d091c929f5a
+00:46:30.080 --> 00:46:33.280 align:left position:22%
+<c.teletext>Camilla är hemlös och arbetslös–</c>
+
+f94453c08b0c41a4975ab5b239e2c458
+00:46:33.440 --> 00:46:37.520 align:left position:22%
+<c.teletext>–och har bestämt sig för
+att avsluta sitt liv.</c>
+
+5c580bc8df2941c6b2672f839b8802de
+00:46:37.680 --> 00:46:42.480 align:left position:22%
+<c.teletext>Det var ganska kort efter
+att vi hade träffats runt 2008–</c>
+
+7b7491eb3b8042d4bbf889cf5759c68e
+00:46:42.640 --> 00:46:49.000 align:left position:22%
+<c.teletext>–som du sa att du var suicidal,
+och jag uppfattade det som logiskt.</c>
+
+bfd4bb7967144b17abbbbb972e8cc8d3
+00:46:49.160 --> 00:46:53.280 align:left position:22%
+<c.teletext>När du kom in där...igen–</c>
+
+447372e6819e487ea444df9eb293913f
+00:46:53.440 --> 00:46:58.440 align:left position:22%
+<c.teletext>–så hade jag inte fotfäste
+i livet ens en gång.</c>
+
+6cc9765c527144e18a53957477750cda
+00:46:58.600 --> 00:47:02.920 align:left position:22%
+<c.teletext>Hon hade depressionsproblem
+och ångest–</c>
+
+871df60c4c7740cd9fabaa5867b17a22
+00:47:03.080 --> 00:47:06.560 align:left position:22%
+<c.teletext>–så det var nånting
+man fick leva med.</c>
+
+10031b9f58a7447f94793d8e9142ba84
+00:47:06.720 --> 00:47:12.000 align:left position:22%
+<c.teletext>Jag hade tömt ut alla vägar
+och jag kunde inte hitta nånting.</c>
+
+c087a913e2c84294a5b8ddb4a8d7376b
+00:47:12.160 --> 00:47:15.640 align:left position:22%
+<c.teletext>Jag hittade ingen som sa:
+"Så är det inte alls."</c>
+
+bd55a7004d9c4702953dbd1c511b5ef3
+00:47:15.800 --> 00:47:19.640 align:left position:22%
+<c.teletext>Alla hade nog gett upp om mig då.
+Det var läskigt.</c>
+
+13a48d0617c8430792e28d3a5daa33e6
+00:47:19.800 --> 00:47:24.360 align:left position:22%
+<c.teletext>Jag var helt rotlös och när jag tömt
+alla vägar och pengarna var slut–</c>
+
+89abc3ae83624e19958e274ec930fc72
+00:47:24.520 --> 00:47:27.040 align:left position:22%
+<c.teletext>–då träffade jag dig.</c>
+
+b0e287511e814d4f98e4f573232ce68e
+00:47:27.200 --> 00:47:33.040 align:left position:22%
+<c.teletext>Jag har nog höga krav
+på livslust och energi.</c>
+
+426e838200d34eb9b8bb81577ef7ef99
+00:47:33.200 --> 00:47:39.360 align:left position:22%
+<c.teletext>Det mondäna räcker inte, och det är
+tråkigt att det inte gör det.</c>
+
+294cc16643714cffb32507b122d53d41
+00:47:39.520 --> 00:47:45.160 align:left position:22%
+<c.teletext>Jag skulle vilja känna
+att jag...lugnar mig–</c>
+
+3268934b7f4b41e986da3191de076ccd
+00:47:45.320 --> 00:47:51.240 align:left position:22%
+<c.teletext>–men jag kommer nog aldrig göra det.
+Det kommer spraka lite hela tiden.</c>
+
+045e4e416aa04716a5a8f396c5cadaa5
+00:47:54.200 --> 00:47:59.280 align:left position:22%
+<c.teletext>Usch, jag vill bara vara Annika,
+jag vill inte vara Pippi.</c>
+
+efd78ae380e446bba30983f6f0da8668
+00:48:02.040 --> 00:48:05.240 align:left position:22%
+<c.teletext>Jag vill vara som alla andra.</c>
+
+c045367cc90f4ae1be712e3151498d14
+00:48:13.680 --> 00:48:17.960 align:left position:22%
+<c.teletext>Till slut lyckas Anders
+och Camillas ex, Johan–</c>
+
+9544943d873942a986249a0a38611cb2
+00:48:18.120 --> 00:48:24.280 align:left position:22%
+<c.teletext>–få Camilla intagen på psyket.
+Långsamt återvänder hon till livet.</c>
+
+175881019a524b888603eec4eed13659
+00:48:24.440 --> 00:48:27.720 align:left position:22%
+<c.teletext>Med sina erfarenheter
+av mental ohälsa–</c>
+
+46d6fca5a3f04003849f564a6409f41a
+00:48:27.880 --> 00:48:31.640 align:left position:22%
+<c.teletext>–är hon med och startar
+organisationen Suicide Zero–</c>
+
+b3d35af4cdac4f94b93b406b268fcbbb
+00:48:31.800 --> 00:48:35.360 align:left position:22%
+<c.teletext>–och föreläser om
+hur man kan förhindra självmord.</c>
+
+d9b37627395d4a1fb781a03ebf715d69
+00:48:35.520 --> 00:48:41.080 align:left position:22%
+<c.teletext>Självföraktet är oftast väldigt högt
+när man mår så där dåligt.</c>
+
+51539e6bdf9f4682bca5b27328004fc7
+00:48:41.240 --> 00:48:47.320 align:left position:22%
+<c.teletext>"Det bryr väl inte du dig om?
+Det är väl bättre utan mig?"</c>
+
+40d2311f953f4e89b0bc1a72aed5bb93
+00:48:47.480 --> 00:48:52.760 align:left position:22%
+<c.teletext>"Jag förtjänar inte ens din
+uppmärksamhet, jag är så värdelös."</c>
+
+edbcf47767df4a799ecfcdd751155437
+00:48:54.280 --> 00:48:57.640 align:left position:22%
+<c.teletext>Camilla får en bostad
+i ett stödboende–</c>
+
+b6748925ab8b48ff8a3e62a12d3eb9a1
+00:48:57.800 --> 00:49:03.040 align:left position:22%
+<c.teletext>–men en ny katastrof väntar –
+Den motvillige monarken.</c>
+
+bd7b8aeb14314e658b01602a1cd15d60
+00:49:04.960 --> 00:49:08.720 align:left position:22%
+<c.teletext>Nu till en av årets
+mest omtalade böcker...</c>
+
+2bade0ac64b94fa88712dc9ab2b10b7b
+00:49:08.880 --> 00:49:13.760 align:left position:22%
+<c.teletext>Den motvillige monarken, som kom ut
+i dag och som redan är slutsåld.</c>
+
+15fdaa067b5c4fdb94465e415c09d085
+00:49:13.920 --> 00:49:20.800 align:left position:22%
+<c.teletext>Ett enormt pressuppbåd var i skogen
+för en presskonferens om älgjakten.</c>
+
+4b444f743aa64d6b851a383ce878d4d8
+00:49:20.960 --> 00:49:25.600 align:left position:22%
+<c.teletext>Boken Den motvillige monarken
+vände upp och ner på mitt liv.</c>
+
+b7fd5cf80a53458db401a84a74301fae
+00:49:25.760 --> 00:49:29.840 align:left position:22%
+<c.teletext>Jag var jagad helt plötsligt.</c>
+
+3da593404bfb41758de8fea86e775e93
+00:49:30.000 --> 00:49:35.320 align:left position:22%
+<c.teletext>Jag hade ingen lust att uttala mig.
+Det var gamla saker.</c>
+
+35c058a1072242419aae67f59795b03b
+00:49:35.480 --> 00:49:39.720 align:left position:22%
+<c.teletext>Jag kämpade för att komma tillbaka
+till livet också.</c>
+
+6ecc9bbba6804a4580a98f3c1bcec7fd
+00:49:39.880 --> 00:49:44.200 align:left position:22%
+<c.teletext>När författarna till boken
+kontaktade mig var de nästan klara.</c>
+
+2099777817cb44539846762fc20c21d8
+00:49:44.360 --> 00:49:50.320 align:left position:22%
+<c.teletext>De ville bara tala om för mig vad
+de hade skrivit och få det bekräftat.</c>
+
+2dafb30155864a448c555adea15dffe9
+00:49:50.480 --> 00:49:54.840 align:left position:22%
+<c.teletext>–Gjorde du det då, bekräftade det?
+–Nej.</c>
+
+ffb5ad4dd9114a259f19c31bd325d28d
+00:49:55.000 --> 00:49:58.960 align:left position:22%
+<c.teletext>Nån annan ställde sig på
+en presskonferens och bekräftade det.</c>
+
+b371785012674b9086562a674bae3c94
+00:49:59.120 --> 00:50:03.320 align:left position:22%
+<c.teletext>Hade ingen annan sagt nåt, hade det
+nog inte blivit nåt mer än så.</c>
+
+4ccb7bfc15984fcc87712b80a1507fe0
+00:50:03.480 --> 00:50:06.640 align:left position:22%
+<c.teletext>Med tanke på rubrikerna–</c>
+
+b0ad4386ee6148088d512ef4ae1c7428
+00:50:06.800 --> 00:50:12.440 align:left position:22%
+<c.teletext>–har jag självklart talat både
+med familjen och med drottningen.</c>
+
+8e29714b41764c6b8316d1bf54ca60d9
+00:50:12.600 --> 00:50:17.640 align:left position:22%
+<c.teletext>Vi vänder på ett blad,
+ungefär som ni gör i era tidningar–</c>
+
+dd3290588e5540fa920be99899c3960f
+00:50:17.800 --> 00:50:20.600 align:left position:22%
+<c.teletext>–och ser framåt i stället.</c>
+
+e9154ec82fc94cfe8bde99f78c2f729b
+00:50:20.760 --> 00:50:26.000 align:left position:22%
+<c.teletext>Det här är nåt som jag har förstått
+är lång tid tillbaka i tiden.</c>
+
+3ddb5e2f23eb447686883e1cd010b56f
+00:50:26.160 --> 00:50:31.160 align:left position:22%
+<c.teletext>Vi ser framåt och därmed
+tackar jag för mig. Tack ska ni ha.</c>
+
+6ec60505da5f463b9b0a4607d64ce6e1
+00:50:31.320 --> 00:50:37.600 align:left position:22%
+<c.teletext>Först tyckte jag: "Är han galen?
+Vända blad? Det är som att erkänna."</c>
+
+b428e06429e1482193e43967699084f8
+00:50:37.760 --> 00:50:41.800 align:left position:22%
+<c.teletext>Men när jag tänker efter
+är det helt i hans karaktär.</c>
+
+2612af622ccf45d2a7dc0588df2b7c28
+00:50:41.960 --> 00:50:48.040 align:left position:22%
+<c.teletext>Han tyckte väl att det var förra
+århundradet och det känner jag också.</c>
+
+dfd1f5848b37419c9c11c11ddc6f4d41
+00:50:48.200 --> 00:50:53.640 align:left position:22%
+<c.teletext>Det tog en halvtimme så var det
+30 fotografer utanför mitt fönster.</c>
+
+d6b1bd351a0444fb9e6f7e9e00ad3e2d
+00:50:53.800 --> 00:50:57.360 align:left position:22%
+<c.teletext>Sen började en jakt
+på ett par veckor.</c>
+
+7adac596695e4d839e58b3240748bac2
+00:51:01.560 --> 00:51:06.440 align:left position:22%
+<c.teletext>Jag kom på att Camilla finns kvar
+här i mitt liv–</c>
+
+0c4290454d7e4ac997e00639416e0c6d
+00:51:06.600 --> 00:51:11.040 align:left position:22%
+<c.teletext>–i form av den här bilden
+som togs av Elisabeth Ohlson.</c>
+
+af1c11356e36441f9f0d194fba715dda
+00:51:11.200 --> 00:51:14.800 align:left position:22%
+<c.teletext>Det blev ett ramaskri.</c>
+
+4c8b0c5c4b984f08adfa27589bbdbb43
+00:51:14.960 --> 00:51:21.680 align:left position:22%
+<c.teletext>Camilla ligger här. Kungen står där.
+Silvia sopar nazismen under mattan.</c>
+
+42e1738418a24806b8097d61412070cf
+00:51:21.840 --> 00:51:26.720 align:left position:22%
+<c.teletext>Den här bilden
+som Elisabeth Ohlson gjorde...</c>
+
+c4d3ad48165a4de0baf451f67fd62986
+00:51:26.880 --> 00:51:30.440 align:left position:22%
+<c.teletext>Då gick det ut en bannbulla–</c>
+
+55ffd5c179594cd2b9227bf8a8594649
+00:51:30.600 --> 00:51:35.720 align:left position:22%
+<c.teletext>–och hon förlorade många
+uppdragsgivare från näringslivet–</c>
+
+f49ce873d19f4007baac648f4385bddc
+00:51:35.880 --> 00:51:41.680 align:left position:22%
+<c.teletext>–som ville hålla sig väl
+med kungafamiljen, som var rasande.</c>
+
+ff46e97c591d41889a49dcf89a73f734
+00:51:41.840 --> 00:51:48.960 align:left position:22%
+<c.teletext>Då tyckte jag att jag som lojalitet
+mot Elisabeth, som jobbade med oss–</c>
+
+866608da4eae4b558bb3d7c0da1f167a
+00:51:49.120 --> 00:51:54.640 align:left position:22%
+<c.teletext>–ville köpa en kopia
+av den här målningen.</c>
+
+137b53f54d28492ea89f9f53e7b51027
+00:51:54.800 --> 00:51:58.000 align:left position:22%
+<c.teletext>Ja, den här bilden...</c>
+
+4bcd342daeaa424bbb9558a5bed38eb2
+00:51:58.160 --> 00:52:04.320 align:left position:22%
+<c.teletext>Jag ligger naken på ett bord med
+en pizza och männen konsumerar mig.</c>
+
+9f8f6fd061374eb0ba907f6925f20c2f
+00:52:04.480 --> 00:52:10.640 align:left position:22%
+<c.teletext>Det var bilden i originalet, och sen
+har hon bytt ut huvudena mot...</c>
+
+d764b63a8a884686b68271db21b38d90
+00:52:10.800 --> 00:52:17.960 align:left position:22%
+<c.teletext>...en brokig skara män och en kvinna
+till som skurar på nånting på golvet.</c>
+
+22bb1cc3e193431a8be9dc37a94b5516
+00:52:18.120 --> 00:52:22.600 align:left position:22%
+<c.teletext>Sen visade det sig
+att när jag hade den framme–</c>
+
+3005d8c47ef843ac9ce8e16e76cfe438
+00:52:22.760 --> 00:52:29.760 align:left position:22%
+<c.teletext>–så blev det en väldig massa åsikter,
+så jag la faktiskt undan den.</c>
+
+10c31716232c4876bbe79d1eb361911d
+00:52:29.920 --> 00:52:35.280 align:left position:22%
+<c.teletext>Så jag kom på nu att jag har Camilla
+här i mitt liv. Nu får den åka fram.</c>
+
+d0df7da99c64403b9bbbf020f2ea2f44
+00:52:36.480 --> 00:52:40.680 align:left position:22%
+<c.teletext>Ja. Kvällens första tävlande
+gör debut i programmet.</c>
+
+31930ecefa9141d2a5e8a7471b6625ba
+00:52:40.840 --> 00:52:46.280 align:left position:22%
+<c.teletext>Men det känns som att de kommit hem.
+Det är dags för Army of Lovers!</c>
+
+57c7e3099d7e41b59d6beff4f30ac6a2
+00:52:50.120 --> 00:52:54.400 align:left position:22%
+<c.teletext>Ännu en gång får Camilla komma
+tillbaka till Army of Lovers.</c>
+
+1127e9d510fa401da3ee1311467d8ea0
+00:52:54.560 --> 00:52:58.240 align:left position:22%
+<c.teletext>De ställer upp i Melodifestivalen.</c>
+
+05a69b46a05f4f5ca68db0be41b6f842
+00:52:58.400 --> 00:53:03.200 align:left position:22%
+<c.teletext>Melodifestivalen är en av de fulaste
+grejer jag har varit med om.</c>
+
+a1584b17738c4c26b0baee8914ed35d0
+00:53:03.360 --> 00:53:10.480 align:left position:22%
+<c.teletext>Jag ställde ett krav på att vi skulle
+gå i terapi, men ingen dök upp.</c>
+
+80d68502797f4020b24cf6e2dedc5daa
+00:53:10.640 --> 00:53:16.560 align:left position:22%
+<c.teletext>Vi hade behövt terapi innan det här.
+Att vara omgiven av människor–</c>
+
+1b98eb0a69214c719ec609fbc6ac03d9
+00:53:16.720 --> 00:53:21.320 align:left position:22%
+<c.teletext>–som medvetet går
+bakom ryggen på en är läskigt.</c>
+
+1036d898a8814041a9a49903a38717cc
+00:53:21.480 --> 00:53:24.680 align:left position:22%
+<c.teletext><c.sang>We're rockin' the ride</c>
+<c.sang>Na na na na na na</c></c>
+
+c99aab3481d548f8bf72759093a4cb87
+00:53:24.840 --> 00:53:28.480 align:left position:22%
+<c.teletext><c.sang>We're rockin' the ride</c>
+<c.sang>Na na na na na na</c></c>
+
+71e7cd48b09d4a6884fb43c06866cf82
+00:53:30.200 --> 00:53:33.160 align:left position:22%
+<c.teletext>När vi kliver av scenen här...</c>
+
+d6a24948e8af4a489715c31dfc1bd493
+00:53:33.320 --> 00:53:38.800 align:left position:22%
+<c.teletext>Det var sista gången jag pratade
+med både Jean-Pierre och Alexander.</c>
+
+89ee923cbdf242eebb922236a4fae46d
+00:53:38.960 --> 00:53:45.680 align:left position:22%
+<c.teletext>Jag blev rädd för att lita
+på människor och det sitter kvar än.</c>
+
+bff6fd3988e94db99d2678b15ead2a45
+00:53:45.840 --> 00:53:48.840 align:left position:22%
+<c.teletext>Det var ett bevis på
+att ingen går att lita på.</c>
+
+bf3a1cf404d34d9097b3aac36200947c
+00:53:49.000 --> 00:53:52.640 align:left position:22%
+<c.teletext>Jag lät mig bara dras med i det.</c>
+
+efc7eda39a92456e8467707b99fa8063
+00:53:53.840 --> 00:54:00.200 align:left position:22%
+<c.teletext>Jag har kontakt med ett fåtal
+storsamlare. De är väldigt utspridda.</c>
+
+683df02d4fbc41bead6a99b98ad8533d
+00:54:00.360 --> 00:54:04.400 align:left position:22%
+<c.teletext>Det är allt från USA, Australien–</c>
+
+241263874a704c9ba18eb12d8ce5aece
+00:54:04.560 --> 00:54:11.280 align:left position:22%
+<c.teletext>–Tyskland, Frankrike, Belgien,
+Spanien och även Sydamerika.</c>
+
+285aea4dae1e4434aab7da10ab58e19d
+00:54:11.440 --> 00:54:16.320 align:left position:22%
+<c.teletext>Och såklart mycket Östeuropa –
+Ryssland och Ukraina.</c>
+
+eb60840f0b304fbbbda10fead6004af5
+00:54:16.480 --> 00:54:23.400 align:left position:22%
+<c.teletext>Jag tycker att den nuvarande
+konstellationen känns halvhjärtad.</c>
+
+f62fc5ad34644a0abfa5d3fba7b34600
+00:54:23.560 --> 00:54:27.480 align:left position:22%
+<c.teletext>Man dyker upp då och då
+när man känner för det.</c>
+
+66c38c61d3394833a07e3fcac059479a
+00:54:27.640 --> 00:54:34.480 align:left position:22%
+<c.teletext>Man gör bara spelningar för typ ryska
+oligarker på privata fester och så.</c>
+
+6e9d2e34671248ae8e7ffa32cfc2e134
+00:54:34.640 --> 00:54:42.360 align:left position:22%
+<c.teletext>Det är inte så mycket för oss fans.
+Det verkar vara ekonomiska syften.</c>
+
+76be5f5506784566b0fac070fd7a50f8
+00:54:42.520 --> 00:54:44.520 align:left position:22%
+<c.teletext>Där.</c>
+
+7695a650f3594abaa21f80d4836baf0e
+00:54:51.880 --> 00:54:54.440 align:left position:22%
+<c.teletext>–Hej!
+–Hallå!</c>
+
+d775a5c8f12d447f9c726491dd4737bf
+00:54:54.600 --> 00:54:59.200 align:left position:22%
+<c.teletext>Välkomna in
+i mitt lite provisoriska hem.</c>
+
+0d0504f66c4a4024937157879c60b7a7
+00:54:59.360 --> 00:55:01.400 align:left position:22%
+<c.teletext>Provisoriska?</c>
+
+50514daae3f24a66837e1146fcd38710
+00:55:01.560 --> 00:55:05.560 align:left position:22%
+<c.teletext>Jag har fyllt en liten lägenhet
+med ett helt slott.</c>
+
+15e291f207e84546b7eeadef302f4c36
+00:55:05.720 --> 00:55:09.200 align:left position:22%
+<c.teletext>–Ett stort liv.
+–Ja.</c>
+
+85414f0dc0e6425da71e210919788920
+00:55:09.360 --> 00:55:14.400 align:left position:22%
+<c.teletext>Det är trångt i Camillas hem –
+lådor och kläder överallt.</c>
+
+c3b85cace10b4e028a3c3c9c7b9bfa37
+00:55:14.560 --> 00:55:17.520 align:left position:22%
+<c.teletext>Hon vill helst inte släppa in nån.</c>
+
+82d1fe3d3f5b481d922801d7375fe485
+00:55:17.680 --> 00:55:21.960 align:left position:22%
+<c.teletext>Här behövs målmedvetenhet och styrka
+för att få ordning.</c>
+
+468fab28e29a4a46a85d1282ab2f71eb
+00:55:22.120 --> 00:55:27.560 align:left position:22%
+<c.teletext>Kanske den drottninglika La Camilla
+eller en Pippi Långstrump.</c>
+
+243aa01c131a4a7f9ba93a074c5409bd
+00:55:27.720 --> 00:55:32.640 align:left position:22%
+<c.teletext>Ja, mina Pippisar.
+Jag gör mina egna små Pippisar.</c>
+
+06577fe2153d4d7a8046a51f28ac1d41
+00:55:34.200 --> 00:55:39.920 align:left position:22%
+<c.teletext>Det är kul att köpa en Pippidocka,
+och så pimpar jag till henne lite.</c>
+
+7684c7913ba34acea3952e45779f6352
+00:55:40.080 --> 00:55:45.240 align:left position:22%
+<c.teletext>Här har hon en stickning
+och hon har piercat underlivet.</c>
+
+8ce83d3fad90490b8ae7439de971657c
+00:55:45.400 --> 00:55:48.480 align:left position:22%
+<c.teletext>Hon vill vara lite tuff.</c>
+
+cb4e6aafafcc444ba3ad5e585fe5ec7c
+00:55:51.120 --> 00:55:56.080 align:left position:22%
+<c.teletext>–Vad har du i dina lådor?
+–Kläder. Jag har mycket kläder.</c>
+
+98be8ac96c0748d1afece30128928812
+00:55:56.240 --> 00:56:00.760 align:left position:22%
+<c.teletext>Skitkläder. De flesta fina kläder
+har jag sålt och gett bort.</c>
+
+8d6d23e63c2842ecaf13047bdec0c0fb
+00:56:00.920 --> 00:56:04.080 align:left position:22%
+<c.teletext>Men jag hittade
+en av brudklänningarna.</c>
+
+5849fa3f796148a4bcff62b3bc96c954
+00:56:04.240 --> 00:56:07.720 align:left position:22%
+<c.teletext>Kläder är en last för mig.</c>
+
+e5988249881f42c4ad84cfdaef60f847
+00:56:07.880 --> 00:56:12.080 align:left position:22%
+<c.teletext>Jag tröstar mig med kläder.
+Det är som smågodis.</c>
+
+eaa0d1710641479487683df8c876ec90
+00:56:17.880 --> 00:56:23.640 align:left position:22%
+<c.teletext>–Vad lever du av nu?
+–Jag lever på existensminimum.</c>
+
+e6988efc0ae54011ad4866ec49dbc7d3
+00:56:23.800 --> 00:56:29.760 align:left position:22%
+<c.teletext>Jag har varit sjuk och haft
+diskbråck, astma och allt möjligt.</c>
+
+134fbe4eedee4ee1918213362292db53
+00:56:29.920 --> 00:56:33.880 align:left position:22%
+<c.teletext>Jag har varit sjukskriven,
+men nu söker jag jobb.</c>
+
+584a47bf33fb40e98b3e84c3e98ca0c9
+00:56:34.040 --> 00:56:38.800 align:left position:22%
+<c.teletext>Jag har inga planer för framtiden
+och det är nog därför jag mår dåligt.</c>
+
+d957d067adb94a04b5381b5510f73a6d
+00:56:38.960 --> 00:56:44.440 align:left position:22%
+<c.teletext>Jag har inga framtidsplaner och vet
+inte riktigt vart jag är på väg.</c>
+
+3a6bb3e9e56e4e678d21806dda46557e
+00:56:53.040 --> 00:57:00.040 align:left position:22%
+<c.teletext>Det vet jag. Och jag känner nu att
+jag levererar på 30 procents nivå.</c>
+
+57e591273d9c488db4f56c0c164ce2cc
+00:57:00.200 --> 00:57:03.760 align:left position:22%
+<c.teletext>–Det gör mig så besviken.
+–Men kanske...</c>
+
+a2c1850bcc144ad7a4898cae78384af4
+00:57:03.920 --> 00:57:07.840 align:left position:22%
+<c.teletext>Det kanske räcker,
+men det räcker inte för mig.</c>
+
+1189bef8ad62450db5f0c69441b2c740
+00:57:08.840 --> 00:57:11.880 align:left position:22%
+<c.teletext>Det är slut.</c>
+
+b82f1b4b4d0e453ca525c5b3263872fb
+00:57:12.040 --> 00:57:17.560 align:left position:22%
+<c.teletext>–Nej.
+–Jag tror att lågan har slocknat.</c>
+
+d7b0d85eaecd49ab92de3b74cdea8d11
+00:57:17.720 --> 00:57:21.560 align:left position:22%
+<c.teletext>Utan den har jag inte nånting kvar.</c>
+
+f5ed689cae464c8e8034d96649649999
+00:57:21.720 --> 00:57:26.560 align:left position:22%
+<c.teletext>Jag har tänkt på vad som skulle
+kunna väcka mig till liv igen.</c>
+
+024e1aeeb6be4062b81d8d9b7ab32b65
+00:57:26.720 --> 00:57:31.120 align:left position:22%
+<c.teletext>Det enda jag har
+som väcker känslor är politik.</c>
+
+a0c864b42c86491da4936882b2c55e54
+00:57:31.280 --> 00:57:36.040 align:left position:22%
+<c.teletext>Ett engagemang som är politiskt
+eller en fråga jag känner för.</c>
+
+35ff3cba32f94987a17baa6962b2f1a9
+00:57:36.200 --> 00:57:43.080 align:left position:22%
+<c.teletext>Då vet jag att jag brinner. Då kommer
+livslusten och känslan för rättvisa.</c>
+
+079241d23438447aab57e4762ba1e9f0
+00:57:43.240 --> 00:57:48.840 align:left position:22%
+<c.teletext>Då kan det brinna till, och jag tror
+att det är nåt sånt som jag saknar.</c>
+
+eeff518f314442049c4b4051433a3057
+00:57:49.000 --> 00:57:52.880 align:left position:22%
+<c.teletext>Barnlösa kvinnor över 60 kanske.</c>
+
+9bb4be0ca5104984a8070e6d1e2e41f0
+00:57:53.040 --> 00:57:57.520 align:left position:22%
+<c.teletext>Jag måste bara komma på... Det kan
+inte bara vara jag som känner så.</c>
+
+84a22ff8d04440b299b175bc3bae45ed
+00:57:57.680 --> 00:58:02.800 align:left position:22%
+<c.teletext>–Och då blir du La Camilla igen?
+–Ja, då bara...</c>
+
+4286412810f046f08cde052f41574dec
+00:58:02.960 --> 00:58:09.320 align:left position:22%
+<c.teletext>Lite grann så är det. Jag saknar nog
+den personen lite i dag.</c>
+
+a81294d4f7104ff6bd671529970545c5
+00:58:09.480 --> 00:58:12.480 align:left position:22%
+<c.teletext>Jag saknar La Camilla lite.</c>
+
+8c2d1b7d5636483b9f0710a9b1b4bd6e
+00:58:23.520 --> 00:58:26.800 align:left position:22%
+<c.teletext><c.sang>My army of lovers</c></c>
+
+70693a357aea4265914cefdda51bd0e8
+00:58:35.560 --> 00:58:39.560 align:center position:50%
+<c.teletext>Textning: Karin Hellstadius
+Svensk Medietext för SVT</c>
+

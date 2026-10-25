@@ -90,7 +90,8 @@
     var usingAvplayPlayback = false;
     var pendingDrm = null;
     var pendingSubtitleLang = null;
-    var pendingSubtitleUrl = null;
+    var pendingSubtitleUrl = null; /* Hebrew (or primary) external VTT */
+    var pendingSubtitleUrlSv = null; /* Swedish external VTT for Sweden VOD toggle */
     var pendingPreferHlsJs = false;
     var reshetKsCache = null;
     var reshetKsExpiry = 0;
@@ -121,6 +122,8 @@
     var vodNextLabel = null;
     var vodNextLabelOnfill = null;
     var vodRestartBtn = null;
+    var vodSubToggleBtn = null;
+    var vodSubtitleMode = 'he'; /* he | sv — Sweden VOD HE/SV toggle */
     var vodSeeking = false;
     var vodDurationMs = 0;
     var vodHideTimer = null;
@@ -2081,6 +2084,7 @@
         vodNextLabel = document.getElementById('vod-next-label');
         vodNextLabelOnfill = document.getElementById('vod-next-label-onfill');
         vodRestartBtn = document.getElementById('vod-restart-btn');
+        vodSubToggleBtn = document.getElementById('vod-sub-toggle');
         bindVodControls();
         bindVodSearch();
         registerVodRemoteKeys();
@@ -4654,6 +4658,14 @@
         if (episode.subtitleURL) {
             button.setAttribute('data-subtitle-url', String(episode.subtitleURL));
         }
+        if (episode.subtitleURLSv) {
+            button.setAttribute('data-subtitle-url-sv', String(episode.subtitleURLSv));
+        } else if (episode.subtitleURL && /\.he\.vtt$/i.test(String(episode.subtitleURL))) {
+            button.setAttribute(
+                'data-subtitle-url-sv',
+                String(episode.subtitleURL).replace(/\.he\.vtt$/i, '.sv.vtt')
+            );
+        }
     }
 
     function renderSeriesEpisodes(series) {
@@ -5181,6 +5193,14 @@
             });
         }
 
+        if (vodSubToggleBtn) {
+            vodSubToggleBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleVodSubtitleLang();
+            });
+        }
+
         if (playerVideo) {
             playerVideo.addEventListener('timeupdate', onHtmlVodTimeUpdate);
             playerVideo.addEventListener('loadedmetadata', onHtmlVodTimeUpdate);
@@ -5216,6 +5236,33 @@
         }
     }
 
+    function isVodPauseChromeVisible() {
+        var controlsVisible =
+            vodControls &&
+            !vodControls.hidden &&
+            !vodControls.classList.contains('is-auto-hidden');
+        var infoVisible =
+            vodPauseInfo &&
+            !vodPauseInfo.hidden &&
+            vodPauseInfo.classList.contains('is-visible');
+        return !!(controlsVisible || infoVisible);
+    }
+
+    /** Paused frame with no title or progress bar. */
+    function hidePausedVodChrome() {
+        clearVodHideTimer();
+        vodStartTitleActive = false;
+        hideVodPauseInfo(true);
+        if (vodControls) {
+            vodControls.classList.add('is-auto-hidden');
+        }
+        if (vodRestartBtn) {
+            vodRestartBtn.classList.add('is-auto-hidden');
+            blurVodRestartBtn();
+        }
+        blurVodSeekBar();
+    }
+
     function hideVodControls() {
         if (!isVodMode || !vodControls) {
             return;
@@ -5229,6 +5276,7 @@
             vodRestartBtn.classList.add('is-auto-hidden');
             blurVodRestartBtn();
         }
+        blurVodSubToggleBtn();
         blurVodSeekBar();
         if (vodStartTitleActive) {
             vodStartTitleActive = false;
@@ -5246,14 +5294,18 @@
             vodRestartBtn.hidden = false;
             vodRestartBtn.classList.remove('is-auto-hidden');
         }
-        // Default focus is the seek bar unless next/restart already owns focus
+        syncVodSubToggleUi();
+        // Default focus is the seek bar unless next/restart/sub toggle already owns focus
         if (
             !(vodNextBtn &&
                 (vodNextBtn.classList.contains('is-focused') ||
                     document.activeElement === vodNextBtn)) &&
             !(vodRestartBtn &&
                 (vodRestartBtn.classList.contains('is-focused') ||
-                    document.activeElement === vodRestartBtn))
+                    document.activeElement === vodRestartBtn)) &&
+            !(vodSubToggleBtn &&
+                (vodSubToggleBtn.classList.contains('is-focused') ||
+                    document.activeElement === vodSubToggleBtn))
         ) {
             focusVodSeekBar();
         }
@@ -5395,6 +5447,7 @@
                 vodRestartBtn.hidden = false;
                 vodRestartBtn.classList.remove('is-auto-hidden');
             }
+            syncVodSubToggleUi();
             scheduleVodControlsHide();
         } else {
             playerEl.classList.remove('is-vod');
@@ -5407,6 +5460,10 @@
             if (vodRestartBtn) {
                 vodRestartBtn.hidden = true;
                 vodRestartBtn.classList.remove('is-auto-hidden', 'is-focused');
+            }
+            if (vodSubToggleBtn) {
+                vodSubToggleBtn.hidden = true;
+                vodSubToggleBtn.classList.remove('is-focused');
             }
         }
         syncVodPlayPauseUi();
@@ -5492,6 +5549,15 @@
                 if (name === 'data-subtitle-url') {
                     return episode.subtitleURL || '';
                 }
+                if (name === 'data-subtitle-url-sv') {
+                    if (episode.subtitleURLSv) {
+                        return episode.subtitleURLSv;
+                    }
+                    if (episode.subtitleURL && /\.he\.vtt$/i.test(String(episode.subtitleURL))) {
+                        return String(episode.subtitleURL).replace(/\.he\.vtt$/i, '.sv.vtt');
+                    }
+                    return '';
+                }
                 if (name === 'data-action') {
                     return 'play';
                 }
@@ -5506,6 +5572,7 @@
         }
         blurVodSeekBar();
         blurVodRestartBtn();
+        blurVodSubToggleBtn();
         try {
             vodNextBtn.focus();
         } catch (e) {}
@@ -5535,6 +5602,7 @@
         }
         blurVodNextBtn();
         blurVodRestartBtn();
+        blurVodSubToggleBtn();
         vodSeekWrap.classList.add('is-focused');
     }
 
@@ -5548,11 +5616,36 @@
         }
         blurVodSeekBar();
         blurVodNextBtn();
+        blurVodSubToggleBtn();
         try {
             vodRestartBtn.focus();
         } catch (eFocus) {}
         vodRestartBtn.classList.add('is-focused');
         vodLastTopBtn = 'restart';
+    }
+
+    function focusVodSubToggleBtn() {
+        if (!isVodSubToggleAvailable()) {
+            return;
+        }
+        blurVodSeekBar();
+        blurVodNextBtn();
+        blurVodRestartBtn();
+        try {
+            vodSubToggleBtn.focus();
+        } catch (eFocus) {}
+        vodSubToggleBtn.classList.add('is-focused');
+        vodLastTopBtn = 'sub';
+    }
+
+    function blurVodSubToggleBtn() {
+        if (!vodSubToggleBtn) {
+            return;
+        }
+        vodSubToggleBtn.classList.remove('is-focused');
+        try {
+            vodSubToggleBtn.blur();
+        } catch (eBlur) {}
     }
 
     function isVodRestartFocused() {
@@ -5562,6 +5655,15 @@
             !vodRestartBtn.classList.contains('is-auto-hidden') &&
             (vodRestartBtn.classList.contains('is-focused') ||
                 document.activeElement === vodRestartBtn)
+        );
+    }
+
+    function isVodSubToggleFocused() {
+        return !!(
+            vodSubToggleBtn &&
+            !vodSubToggleBtn.hidden &&
+            (vodSubToggleBtn.classList.contains('is-focused') ||
+                document.activeElement === vodSubToggleBtn)
         );
     }
 
@@ -5590,11 +5692,19 @@
         );
     }
 
+    function isVodSubToggleAvailable() {
+        return !!(vodSubToggleBtn && !vodSubToggleBtn.hidden);
+    }
+
     function isVodTopBtnFocused() {
-        return isVodRestartFocused() || isVodNextFocused();
+        return isVodRestartFocused() || isVodNextFocused() || isVodSubToggleFocused();
     }
 
     function focusVodLastTopBtn() {
+        if (vodLastTopBtn === 'sub' && isVodSubToggleAvailable()) {
+            focusVodSubToggleBtn();
+            return;
+        }
         if (vodLastTopBtn === 'restart' && isVodRestartAvailable()) {
             focusVodRestartBtn();
             return;
@@ -5603,12 +5713,16 @@
             focusVodNextBtn();
             return;
         }
+        if (isVodSubToggleAvailable()) {
+            focusVodSubToggleBtn();
+            return;
+        }
         if (isVodRestartAvailable()) {
             focusVodRestartBtn();
         }
     }
 
-    /** Top row (restart ↔ next) above seek. Down → seek; Up → last top button. */
+    /** Top row (restart ↔ sub ↔ next) above seek. Down → seek; Up → last top button. */
     function moveVodFocusVertical(dir) {
         revealVodControls();
         if (dir < 0) {
@@ -5629,15 +5743,35 @@
         revealVodControls();
         if (isVodTopBtnFocused()) {
             if (dir > 0) {
-                // RIGHT → next (restart is on the left)
-                if (isVodRestartFocused() && isVodNextAvailable()) {
+                // RIGHT: restart → sub → next
+                if (isVodRestartFocused()) {
+                    if (isVodSubToggleAvailable()) {
+                        focusVodSubToggleBtn();
+                        return true;
+                    }
+                    if (isVodNextAvailable()) {
+                        focusVodNextBtn();
+                        return true;
+                    }
+                } else if (isVodSubToggleFocused() && isVodNextAvailable()) {
                     focusVodNextBtn();
                     return true;
                 }
-            } else if (isVodNextFocused() && isVodRestartAvailable()) {
-                // LEFT → restart
-                focusVodRestartBtn();
-                return true;
+            } else if (dir < 0) {
+                // LEFT: next → sub → restart
+                if (isVodNextFocused()) {
+                    if (isVodSubToggleAvailable()) {
+                        focusVodSubToggleBtn();
+                        return true;
+                    }
+                    if (isVodRestartAvailable()) {
+                        focusVodRestartBtn();
+                        return true;
+                    }
+                } else if (isVodSubToggleFocused() && isVodRestartAvailable()) {
+                    focusVodRestartBtn();
+                    return true;
+                }
             }
             return true;
         }
@@ -6164,6 +6298,88 @@
         try {
             vodRestartBtn.blur();
         } catch (eBlur) {}
+    }
+
+    function deriveSwedenSvSubtitleUrl(heUrl) {
+        if (!heUrl) {
+            return '';
+        }
+        if (/\.he\.vtt$/i.test(String(heUrl))) {
+            return String(heUrl).replace(/\.he\.vtt$/i, '.sv.vtt');
+        }
+        return '';
+    }
+
+    function isSwedenVodSeries() {
+        var src = (currentSeries && currentSeries.source) || '';
+        return src === 'sweden' || src === 'tv4';
+    }
+
+    function isSwedenVodWithHeSubs() {
+        return !!(
+            isVodMode &&
+            isSwedenVodSeries() &&
+            pendingSubtitleUrl &&
+            pendingSubtitleUrlSv
+        );
+    }
+
+    function syncVodSubToggleUi() {
+        if (!vodSubToggleBtn) {
+            return;
+        }
+        if (!isSwedenVodWithHeSubs()) {
+            vodSubToggleBtn.hidden = true;
+            vodSubToggleBtn.classList.remove('is-focused');
+            return;
+        }
+        vodSubToggleBtn.hidden = false;
+        if (vodSubtitleMode === 'sv') {
+            vodSubToggleBtn.textContent = 'SV';
+            vodSubToggleBtn.setAttribute('aria-label', 'כתוביות שוודית');
+            vodSubToggleBtn.classList.add('is-sv');
+            vodSubToggleBtn.classList.remove('is-he');
+        } else {
+            vodSubToggleBtn.textContent = 'עב';
+            vodSubToggleBtn.setAttribute('aria-label', 'כתוביות עברית');
+            vodSubToggleBtn.classList.add('is-he');
+            vodSubToggleBtn.classList.remove('is-sv');
+        }
+    }
+
+    function applyVodSubtitleMode(mode) {
+        var lang = mode === 'sv' ? 'sv' : 'he';
+        var url = lang === 'sv' ? pendingSubtitleUrlSv : pendingSubtitleUrl;
+        vodSubtitleMode = lang;
+        pendingSubtitleLang = lang;
+        if (playerSubsEl) {
+            playerSubsEl.setAttribute('dir', lang === 'he' ? 'rtl' : 'ltr');
+        }
+        try {
+            if (fullscreenHls && typeof fullscreenHls.subtitleTrack === 'number') {
+                fullscreenHls.subtitleDisplay = false;
+                fullscreenHls.subtitleTrack = -1;
+            }
+        } catch (eOff) {}
+        if (playerVideo) {
+            disableAllTextTracks(playerVideo);
+        }
+        clearExternalSubtitles();
+        if (url && playerVideo) {
+            loadExternalSubtitleTrack(playerVideo, url, lang);
+        } else {
+            // Fallback: embedded HLS / textTracks when no packaged VTT
+            enablePreferredSubtitles(fullscreenHls, playerVideo);
+        }
+        syncVodSubToggleUi();
+    }
+
+    function toggleVodSubtitleLang() {
+        if (!isSwedenVodWithHeSubs()) {
+            return;
+        }
+        revealVodControls();
+        applyVodSubtitleMode(vodSubtitleMode === 'sv' ? 'he' : 'sv');
     }
 
     function restartVodFromBeginning() {
@@ -7429,6 +7645,12 @@
         if (isFullscreen) {
             if (e.keyCode === 10009 || e.keyCode === 27) {
                 clearVodSeekHold();
+                // Paused: first Back clears the title and progress bar; second Back exits.
+                if (isVodMode && isVodPaused() && isVodPauseChromeVisible()) {
+                    hidePausedVodChrome();
+                    e.preventDefault();
+                    return;
+                }
                 closeFullscreen();
                 e.preventDefault();
                 return;
@@ -7444,6 +7666,15 @@
                                 vodRestartBtn.classList.contains('is-focused'))
                         ) {
                             restartVodFromBeginning();
+                            e.preventDefault();
+                            break;
+                        }
+                        if (
+                            vodSubToggleBtn &&
+                            (document.activeElement === vodSubToggleBtn ||
+                                vodSubToggleBtn.classList.contains('is-focused'))
+                        ) {
+                            toggleVodSubtitleLang();
                             e.preventDefault();
                             break;
                         }
@@ -8076,6 +8307,7 @@
             el.classList.contains('vod-ime-key') ||
             el.classList.contains('vod-next-btn') ||
             el.classList.contains('vod-restart-btn') ||
+            el.classList.contains('vod-sub-toggle') ||
             el.classList.contains('profile-btn') ||
             el.classList.contains('profile-dropdown-item') ||
             el.classList.contains('profile-card') ||
@@ -8256,7 +8488,20 @@
         pendingDrm = null;
         pendingSubtitleLang = (item && item.getAttribute('data-subtitles')) || null;
         pendingSubtitleUrl = (item && item.getAttribute('data-subtitle-url')) || null;
+        pendingSubtitleUrlSv =
+            (item && item.getAttribute('data-subtitle-url-sv')) ||
+            deriveSwedenSvSubtitleUrl(pendingSubtitleUrl) ||
+            null;
         pendingPreferHlsJs = !!(item && item.getAttribute('data-prefer-hlsjs') === '1');
+        // Sweden VOD: packaged HE + SV VTTs; default to Hebrew when available
+        if (pendingSubtitleUrl && pendingSubtitleUrlSv) {
+            vodSubtitleMode = pendingSubtitleLang === 'sv' ? 'sv' : 'he';
+            pendingSubtitleLang = vodSubtitleMode;
+        } else if (pendingSubtitleLang === 'sv') {
+            vodSubtitleMode = 'sv';
+        } else {
+            vodSubtitleMode = pendingSubtitleUrl ? 'he' : 'sv';
+        }
 
         var resolveKind = item && item.getAttribute('data-stream-resolve');
         var assetId = item && item.getAttribute('data-asset-id');
@@ -8277,6 +8522,17 @@
                 if (err || !playUrl) {
                     console.warn('TV4 resolve failed:', err);
                     showMessage(playFailLabel(err || 'TV4 resolve failed'));
+                    return;
+                }
+                playFullscreen(playUrl);
+            });
+            return;
+        }
+        if (resolveKind === 'svt' && assetId) {
+            resolveSvtPlay(assetId, url, function (err, playUrl) {
+                if (err || !playUrl) {
+                    console.warn('SVT resolve failed:', err);
+                    showMessage(playFailLabel(err || 'SVT resolve failed'));
                     return;
                 }
                 playFullscreen(playUrl);
@@ -8615,6 +8871,86 @@
                 callback(proxyErr || directErr || 'TV4 resolve failed', null);
             });
         });
+    }
+
+    function pickSvtHlsUrl(data) {
+        var refs = (data && data.videoReferences) || [];
+        var prefs = ['hls-cmaf-full', 'hls-cmaf-avc', 'hls'];
+        var i;
+        var j;
+        var fmt;
+        var url;
+        for (i = 0; i < prefs.length; i++) {
+            fmt = prefs[i];
+            for (j = 0; j < refs.length; j++) {
+                url = refs[j] && refs[j].url;
+                if (refs[j] && refs[j].format === fmt && url && /\.m3u8(\?|$)/i.test(url)) {
+                    return url;
+                }
+            }
+        }
+        for (j = 0; j < refs.length; j++) {
+            url = refs[j] && refs[j].url;
+            if (url && /\.m3u8(\?|$)/i.test(url)) {
+                return url;
+            }
+        }
+        return null;
+    }
+
+    function resolveSvtPlay(assetId, fallbackUrl, callback) {
+        var xhr;
+        if (!assetId) {
+            callback('SVT asset missing', null);
+            return;
+        }
+        try {
+            xhr = new XMLHttpRequest();
+            xhr.open('GET', 'https://api.svt.se/video/' + encodeURIComponent(String(assetId)), true);
+            xhr.timeout = 15000;
+            xhr.onload = function () {
+                var data = null;
+                var playUrl = null;
+                try {
+                    data = JSON.parse(xhr.responseText || '{}');
+                } catch (eParse) {
+                    data = null;
+                }
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    playUrl = pickSvtHlsUrl(data);
+                }
+                if (playUrl) {
+                    callback(null, playUrl);
+                    return;
+                }
+                if (fallbackUrl && isPlayableUrl(fallbackUrl)) {
+                    callback(null, fallbackUrl);
+                    return;
+                }
+                callback((data && data.message) || ('SVT HTTP ' + xhr.status), null);
+            };
+            xhr.onerror = function () {
+                if (fallbackUrl && isPlayableUrl(fallbackUrl)) {
+                    callback(null, fallbackUrl);
+                    return;
+                }
+                callback('SVT network error', null);
+            };
+            xhr.ontimeout = function () {
+                if (fallbackUrl && isPlayableUrl(fallbackUrl)) {
+                    callback(null, fallbackUrl);
+                    return;
+                }
+                callback('SVT timeout', null);
+            };
+            xhr.send();
+        } catch (e) {
+            if (fallbackUrl && isPlayableUrl(fallbackUrl)) {
+                callback(null, fallbackUrl);
+                return;
+            }
+            callback((e && e.message) || 'SVT resolve failed', null);
+        }
     }
 
     function reshetPost(action, payload, callback) {
@@ -9615,7 +9951,15 @@
                 playWithHtmlVideo(vodProxyUrl(url), generation);
                 return;
             }
-            // Proxy down: still try hls.js directly (many CDNs allow CORS; native demux often does not).
+            // VOD fMP4 / preferHlsJs almost never works without the Mac proxy on Tizen
+            // (CORS + demux). Fail clearly instead of spinning forever on a dead load.
+            if (isVodMode && (pendingPreferHlsJs || needsHlsJsVod(url))) {
+                showMessage(
+                    'Media proxy is not running on your PC. On the Mac run: node scripts/vod-cors-proxy.js'
+                );
+                return;
+            }
+            // Live / simple HLS: still try hls.js directly.
             playWithHtmlVideo(url, generation);
         });
     }
@@ -10145,6 +10489,8 @@
                 continue;
             }
             cueText = lines.slice(idx + 1).join('\n').trim();
+            // Strip WebVTT/HTML voice tags (e.g. SVT <c.teletext>…</c>)
+            cueText = cueText.replace(/<\/?[^>]+>/g, '').trim();
             if (!cueText) {
                 continue;
             }
@@ -10263,9 +10609,24 @@
         var i;
         var track;
         var langLower = lang ? String(lang).toLowerCase() : '';
+        var externalUrl = null;
 
-        // Packaged/external VTT (e.g. Hebrew override for TV4 Swedish)
-        if (pendingSubtitleUrl && video) {
+        // Sweden VOD: always prefer packaged HE/SV VTTs via the HTML overlay
+        if (video && pendingSubtitleUrl && pendingSubtitleUrlSv) {
+            externalUrl =
+                vodSubtitleMode === 'sv' || langLower === 'sv'
+                    ? pendingSubtitleUrlSv
+                    : pendingSubtitleUrl;
+        } else if (
+            pendingSubtitleUrl &&
+            video &&
+            vodSubtitleMode !== 'sv' &&
+            langLower !== 'sv'
+        ) {
+            externalUrl = pendingSubtitleUrl;
+        }
+
+        if (externalUrl) {
             try {
                 if (hls && typeof hls.subtitleTrack === 'number') {
                     hls.subtitleDisplay = false;
@@ -10273,7 +10634,12 @@
                 }
             } catch (eOff) {}
             disableAllTextTracks(video);
-            loadExternalSubtitleTrack(video, pendingSubtitleUrl, langLower || 'he');
+            loadExternalSubtitleTrack(
+                video,
+                externalUrl,
+                externalUrl === pendingSubtitleUrlSv ? 'sv' : langLower || 'he'
+            );
+            syncVodSubToggleUi();
             return;
         }
 
@@ -10324,6 +10690,7 @@
                 console.warn('textTrack subtitle select failed:', eText);
             }
         }
+        syncVodSubToggleUi();
     }
 
     function attachStream(video, url, onError, opts) {
@@ -11242,6 +11609,7 @@
         vodResumeApplied = false;
         pendingSubtitleLang = null;
         pendingSubtitleUrl = null;
+        pendingSubtitleUrlSv = null;
         pendingPreferHlsJs = false;
         resetVodNextUi();
 
